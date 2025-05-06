@@ -15,7 +15,7 @@
     "needs_gpu": true,
     "needs_browsing": false,
     "code_language": ["C++", "CUDA", "Python"],
-    "dependencies": ["CUDA Toolkit", "MPI", "Python 3", "numpy", "scipy", "matplotlib", "h5py"]
+    "dependencies": ["mpi", "numpy", "scipy", "matplotlib", "h5py"]
 },
 "other_instructions": null
 }

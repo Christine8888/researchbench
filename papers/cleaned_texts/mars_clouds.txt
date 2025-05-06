@@ -1,0 +1,362 @@
+\begin{document}
+
+\title[mode=title]{The Cloudspotting on Mars Citizen Science Project: Seasonal and spatial cloud distributions observed by the Mars Climate Sounder.}
+\shorttitle{Cloudspotting on Mars}
+\shortauthors{Slipski et al.} 
+
+[
+ orcid=0000-0002-9045-1168
+]
+\cormark[1]
+\ead{marek.j.slipski@jpl.nasa.gov}
+
+hl}[orcid=0000-0003-1548-1161]
+[orcid=0000-0002-4773-1463]
+[orcid=0000-0002-7154-2566]
+
+[orcid=0000-0002-6521-3256]
+[orcid=0000-0003-1233-2224]
+
+,
+ addressline={4800 Oak Grove Dr},
+ city={Pasadena},
+ postcode={CA 91109},
+ country={USA}
+}
+
+,
+ addressline={60 Garden Street},
+ city={Cambridge},
+ postcode={MA 02139},
+ country={USA}
+}
+
+,
+ addressline={Exhibition Rd, South Kensington},
+ postcode={London SW7 2BX},
+ country={UK}
+}
+,
+ addressline={1830 22nd Street, Suite 6},
+ city={Boulder},
+ postcode={CO 80302},
+ country = {USA}
+}
+
+\cortext[cor1]{Corresponding author}
+
+\begin{abstract}
+As tracers of the major volatile cycles of Mars—\cd, \water, and dust—clouds are important for understanding the circulation of the martian atmosphere and hence martian climate.
+We present the spatial and seasonal distribution of laterally-confined clouds in the middle atmosphere of Mars during one Mars Year as identified in limb radiance measurements by the Mars Climate Sounder. Cloud identifications were made by citizen scientists through the ``Cloudspotting on Mars'' citizen science project, hosted on the citizen science platform Zooniverse.
+A method to aggregate the crowdsourced data using a novel clustering algorithm is developed.
+The derived cloud catalog is presented and the seasonal and spatial distribution of clouds is discussed in terms of key populations.
+
+\end{abstract}
+
+\begin{keywords}
+Mars \sep Mars, atmosphere \sep Mars, climate \sep Infrared observations \sep Data reduction techniques
+\end{keywords}
+
+\section{Introduction}
+Clouds have important effects on weather, climate, and atmospheric composition and are prevalent among planetary bodies that have an atmosphere \citep{Griffith98, Esposito14, Titov18}.
+Clouds influence a planet’s thermal structure by reflecting incoming solar radiation and by absorbing and reemitting a planet’s outgoing thermal radiation.
+Additionally, they both trace a planet’s atmospheric circulation and directly influence that
+circulation by perturbing the temperature and dynamics \citep{Bony15}.
+Because clouds have substantial radiative effects that are a significant
+source of uncertainty in atmospheric models, understanding the composition and formation
+processes of clouds is crucial for the development of robust models of planetary climates.
+
+On Mars, both \water-ice and \cd-ice clouds can form when local conditions are favorable \citep{Clancy17}.
+It is well established that lower
+atmospheric water-ice clouds form below 40 km in the equatorial region during the aphelion
+season (the aphelion cloud belt, ACB) and at high latitudes during winter (polar hood clouds) \citep{Clancy96, Smith04, Smith09, Benson10, Benson11}.
+During perihelion, heating of atmospheric dust can drive convection that
+elevates water vapor to higher altitudes such that water-ice clouds form above 60 km \citep{Maltagliati13, Heavens18}.
+In the winter polar regions, temperatures get low enough to lead to the condensation of \cd, the main atmospheric constituent, forming \cd-ice clouds in the lower atmosphere \citep{Hayne12,Hayne14}.
+In addition, low temperatures in Mars’s mesosphere can lead to the formation of \cd-ice clouds \citep{Schofield97, Clancy98, Maattanen13, Clancy19}.
+Observations of Martian lower-to-middle atmosphere clouds have been made by several instruments, including
+THEMIS-VIS on Mars Odyssey, CRISM on the Mars Reconnaissance Orbiter (MRO), and IUVS on MAVEN, revealing geographic clusters of clouds \citep{Maattanen13, Stevens17, Clancy19, Jiang19, Slipski22}.
+However, differences in coverage have precluded a comprehensive understanding of their spatial-temporal distribution, which would provide information on processes driving cloud formation such as atmospheric tides \citep{Guzewich12, Kleinboehl13, Forbes20} and gravity waves \citep{Spiga12, Heavens20, Slipski22}.
+Furthermore, limited spatial coverage has precluded exhaustive constraints for state-of-the art models to thoroughly investigate formation mechanisms.
+Thus, the study of martian clouds is essential to fully understand fundamental atmospheric processes. 
+A global climatology of clouds would provide important constraints for models and lead to an understanding of the atmospheric conditions that enable their formation, such as the thermal structure of the atmosphere, atmospheric tides, gravity wave activity, and the large-scale atmospheric circulation.
+
+The Mars Climate Sounder (MCS) on MRO has been observing the atmosphere of Mars for over 16 years (${>}$8 Mars years).
+In addition to operationally retrieved vertical profiles of temperature, water ice, and dust,
+localized aerosol layers are observed as bright
+arches at high altitudes in MCS limb radiance profiles due to the changing line-of-sight tangent altitude of the cloud (Fig. \ref{fig:arch_cartoon_diagram}). 
+On one hand, while experts can manually identify these clouds in MCS limb observations, the volume of observations is prohibitively large to do so exhaustively. 
+On the other hand, fully-automated algorithms can efficiently search the dataset, but often have difficulties accurately identifying individual arches thereby biasing scientific conclusions. 
+In this situation, citizen scientists offer a path forward. 
+
+Citizen science is recognized to be a practical technique of scientific research \citep{Follet15}.
+Individual non-experts aid in the research process by completing tasks, such as visual classification, that may be difficult even for
+advanced algorithms \citep{Marshall15}.
+Crowdsourcing these tasks can lead to reliable datasets comparable
+in quality to those produced by experts \citep{Kosmala15, Robbins14}.
+Simple tasks, like the point-identifications described below, lead to high volume and data coverage \citep{Sprinks17}.
+By training many people to identify clouds, it is possible to generate extensive labeled data to develop more robust automated algorithms. 
+By combining citizen science and machine learning, a comprehensive catalog necessary for scientific analysis of mesospheric cloud physics can be obtained.
+
+Here, we describe the Cloudspotting on Mars citizen science project and present some high-level results obtained from analysis of all identified clouds in MCS limb radiance profiles from MY29.
+In Section \ref{sec:data}, we describe the Mars Climate Sounder limb radiances used in this analysis and the arch-shaped features caused by laterally-confined aerosol layers.
+In Section \ref{sec:zooniverse}, we describe the citizen science tool used for identifying clouds as well as the data reduction techniques applied to the citizen scientist annotations.
+The techniques used to aggregate annotations from multiple users is detailed in Section \ref{sec:method}.
+The spatial and seasonal distribution of the identified clouds is described in Section \ref{sec:results}.
+We summarize the results in Section \ref{sec:conclusion}.
+
+\section{MCS data}\label{sec:data}
+
+\subsection{MCS limb radiances}
+MCS is a limb and on-planet viewing radiometer onboard MRO with two telescopes and 9 spectral channels (5 mid-IR, 3 far IR, 1 visible/near-IR). 
+Each channel consists of a linear array of 21 detectors, with which MCS instantaneously measures radiance profiles between 0--80 km with a vertical resolution of ${\sim}$5 km every two seconds when pointed at the Mars limb \citep{McCleese07}.
+
+From these radiance profiles temperature, dust, and water-ice opacity profiles are operationally retrieved \citep{Kleinboehl09}. 
+
+MCS has been observing since 2006 and continues its data acquisition today, having accumulated more than 16 years of data (${>}$100 million limb radiance profiles).
+The sun-synchronous orbit of MRO provides MCS with full latitudinal coverage at 12-13 longitudes at two local times every day.
+
+\subsection{Arches}
+
+High-altitude clouds are observed by MCS in the forward limb as the spacecraft moves along its orbit (Fig. \ref{fig:arch_cartoon_diagram}).
+The apparent altitude of the cloud begins where the limb path is no longer opaque, rises until the apparent altitude is at the true altitude, and then falls again as MCS passes over the cloud \citep{SeftonNash13, Clancy19, Slipski22}.
+When radiance profiles are plotted as a function of time aerosol layers and clouds appear as arch-shaped features with noticeable radiance above the background of space (Fig. \ref{fig:single_arch_example}).
+While the arches can be easily identified by eye, it is unrealistic to analyze the complete MCS data set through visual inspection due to its size, even with a large and dedicated team.
+But, detecting arches automatically is difficult because their shape, their brightness relative to the background, and other characteristics vary across latitudes, longitudes, seasons, and years. 
+\cite{SeftonNash13} and \cite{Slipski22} analyzed mesospheric clouds in MCS data using automated algorithms but focused only on two channels and a small subset of the MCS data available today.
+
+Although identifying arches enables the study of localized aerosol layers, a full set of arches is only a sub-population of all clouds.
+For instance, features that have lateral breadth, such as the ACB or extended dusty regions, even if at high altitudes, will not manifest as arches.
+Likewise, while we will refer to identified arch peaks as clouds throughout this work, the population will likely contain some number of non-condensate dust items. 
+
+Another limitation is that the spatial extent of clouds observed by MCS cannot be studied in detail.
+Observations with arches contain contributions from along the horizontal line-of-sight path.
+So, while successive observations allow for the identification of the peak of an arch, and thus its altitude, the horizontal distribution of aerosols in that layer is not determined.
+Because the aerosol content is what is being measured, some clouds may have high opacity but be confined spatially in latitude, so we have not made an estimate of the lower limit of the latitudinal extent.
+The horizontal resolution of the detectors is about 9 km (longitude direction);
+again, the aerosols may be in narrow layers with high opacity within that resolution.
+We have not attempted to correlate clouds identified across arrays, which could provide information on the maximum longitudinal extent, but would be limited to the 105-km field of view.
+
+For an upper limit, we turn to the observed width of the peaks in the time-series radiance measurements.
+A single observation in an image has a lateral extent of up to 0.5° of latitude, which is the change in the scene latitude from the first to the last of the 5 limb views that are averaged together (see Section \ref{sec:data_red}).
+A peak associated with only a single observation could extend into the region between subsequent limb sequences (${\sim}$20 seconds or ${\sim}$1°).
+We find peaks are frequently up 2 observations wide, which corresponds to ${\sim}$3° in latitude, and occasionally wider (3 observations is up to ${\sim}$6°).
+So, we estimate that the upper limit of the latitudinal extent is about 6°.
+This corresponds to a horizontal extent up to a few hundred km, which is consistent with various types of clouds observed above 30 km, including high-altitude clouds (\cite{Clancy17} and references therein).
+
+\subsection{Data reduction}\label{sec:data_red}
+MCS limb observations are archived in Level 1B (L1B) files that span four hours of time, with the calibrated radiance for each detector given at each measurement time for every spectral channel. 
+We focused on MY29, where MCS performed standard in-track limb observations for nearly an entire MY ($L_s{=}0$° to $L_s{=}328$°).
+A full MY of standard in-track measurements enabled a study of seasonal changes with global coverage (additional years will be investigated in future work).
+We used eight of the nine spectral channels, ignoring the far infrared channel B3 because it has similar spectral characteristics as the far infrared channel B2.
+Each four-hour file contains around 3500 limb observations in sequences of eight 2-second measurements.
+The first three observations in each sequence are removed because thermal drift leads to higher radiances.
+The last five in each sequence are then averaged together resulting in about 440 limb profiles.
+We determined the altitude at each of the 21 detectors based on the instrument viewing geometry and field of view.
+Then, to create a 2d image for one channel, we interpolated the radiances for each profile in the four-hour file onto a 1-km grid from 0 to 100 km.
+Finally, we scaled the image in size by a factor of 2 in the horizontal dimension and 8 in the vertical, upsampling by repeating values (an example of a single image is shown in Fig. \ref{fig:single_arch_example}).
+In total, over 27,000 2d radiance-timeseries images were produced covering 3430 four-hour time periods and 8 spectral channels. 
+To facilitate searching for faint arches, we created additional images of the log of the radiances, a contrast stretch with a maximum at the \nth{85} percentile, and another stretch with a maximum at the \nth{75} percentile.
+Examples of the additional images are shown in Fig. \ref{fig:stretches}.
+
+\section{Cloudspotting on Mars web interface}\label{sec:zooniverse}
+
+The Cloudspotting on Mars project (\url{https://www.zooniverse.org/projects/marek-slipski/cloudspotting-on-mars}) operates on the Zooniverse platform.
+Zooniverse's built-in tools are well-suited for this task.
+Additionally, Zooniverse has one of the largest
+communities of citizen scientists (2 million participants) and it has demonstrated success with other astronomy and planetary science citizen science projects (e.g., \cite{Schwamb18, Aye19}).
+
+A website for the Cloudspotting on Mars project was created using the Zooniverse Project Builder platform.
+The landing page includes a brief description of the project and links to the About page, Classification page, and project Talk Board.
+The About page contains a more detailed description of the scientific background and research goals.
+The classification page contains the tool used for identification.
+The Talk Board is a forum where participants can discuss topics related to the project, share notes about specific images, and ask questions to the researchers.
+
+Upon navigating to the Classification page (Fig. \ref{fig:classify_interface}), a tutorial is displayed (or can be accessed on the right side of the screen), which walks the participant through a series of panels introducing the project and the task.
+
+The task is also displayed on the right side of the screen and states:
+\begin{quote}
+ Search for arches in each of the frames. Arches will have two sides, a gap in between the sides, and a peak at the top. Identify the peak of an arch using the ``Arch peak marker'' tool. You may need to zoom in on features to confirm that you see an arch shape. Do not mark features that you cannot identify as arches. If an arch appears in any frame, mark it -- even if you can only see it in one frame. Many images will have more than one arch, please mark all the arch peaks that you find. After you have marked every arch peak, click Done. If you do not see an arch in any of the frames, click Done. If you would like to discuss an image click Talk.
+\end{quote}
+
+The user is presented with one of the four-hour radiance-timeseries images, which is randomly drawn from the image catalog.
+With the point-and-click crosshairs tool (``Arch peak marker''), the user marks arch peaks in the image.
+By clicking successive circles on the bottom of the screen, the image changes between the four frames (contrast stretches).
+Moving between frames does not remove any previously marked arches (e.g., in Fig. \ref{fig:classify_interface} some marks correspond to peaks identified in previous frames).
+
+A few out-of-the-box tools from the Zooniverse platform were included to aid the user in classification.
+The zoom tool enables the user to zoom in and out of the image and the pan tool allows the user to move around the image at any zoom level.
+This is especially useful to mark individual arches that appear close together.
+The user can also invert the color of the image, which many participants reported to be helpful.
+A Field Guide is accessible on the right side of the screen, which provides step-by-step instructions (text and figures) of how to complete the task for simple and complex example cases.
+
+When a user is satisfied the with the arches they have labeled in each frame, they can click the ``Done'' button, which submits the response and records the pixel locations along with other metadata and is saved by Zooniverse.
+One disadvantage is that the submitting the response cannot be undone and several users reported that after clicking ``Done'', they noticed an arch that was missed.
+
+We required that at least 20 unique users classify each image, a value determined through a beta testing phase prior to launch. 
+During beta testing, participants from Zooniverse and the International Institute for Astronautical Sciences classified images from a small subset of data (just over 100 images), with 5 to 30 individuals analyzing each one.
+We applied a simple clustering algorithm to the results and compared the output to expert annotations for images with different numbers of participants.
+For fewer than 10 participants, too few arch peaks identified by experts were recognized, but improvement increased until around 20 users had classified the image.
+From 20—30 participants, the improvement was marginal, so we set 20 independent classifications as a requirement for image retirement.
+Once 20 users have classified an image, that particular image was retired, after which no users would see it.
+Users were pseudo-randomly shown an image from the set of non-retired images.
+If a user had classified every non-retired image in the dataset, they were shown either an image that was not retired that they had already classified with an ``Already seen'' tag or a retired image with a ``Finished'' tag.
+This was unlikely to occur before the number of remaining non-retired images was small.
+
+Initially, the MY29 dataset was subdivided into three sets, each containing packets of data every 15° of $L_s$ spanning the full year (where MCS data is available, until $L_s{=}328$°) with each packet containing 12 consecutive four-hour files, giving full latitudinal and longitudinal coverage at each sampled $L_s$.
+Each set was offset by 5° of $L_s$.
+There were 2112 images in each set.
+
+We planned to release the sets on the Zooniverse interface sequentially to ensure global coverage over the full martian year even if only a single set was completed.
+After launch on June 28, 2022, 7,000 classifications (a single image analyzed by a single user) were made in the first 12 hours.
+The first set was retired within three days of launch (2112 images requiring 42,240 classifications) with participation from over 1,000 registered Zooniverse users (a subset of the total number of unique participants who classified after logging into an account).
+The second set was then made public and completed within a week of launch (${>}$90,000 classifications made in the first week). 
+Two weeks after launch, the third set was completed (${>}$120,000 classifications) and over 2,000 registered Zooniverse users had participated.
+We then released all of the remaining images from MY29 in two batches, each containing about 10,500 images.
+All images from all five sets were retired on January 17, 2023 (over 500,000 classifications) with participation from over 5,700 unique registered Zooniverse users.
+Fig. \ref{fig:zooniverse_stats} displays the number of classifications per day made by participants from launch date through the completion of all images in the MY29 dataset. 
+
+\section{Cloud catalog}\label{sec:method}
+
+In order to create a catalog of identified arch peaks, first we performed preprocessing to the classification dataset generated by Zooniverse from all of the submitted user classifications (Section \ref{sec:preprocessing}).
+Then, the annotations made by individual citizen scientists for a given image were aggregated into single arch peak locations.
+To perform the aggregation we implemented a clustering algorithm (Section \ref{sec:DBSCAN}) and optimized it using annotations made by the team members on a subset of images (Section \ref{sec:optimize}).
+After the locations of arch peaks were established for each image, ancillary data were extracted from the observational data (\ref{sec:extractL1B}).
+
+\subsection{Data preprocessing}\label{sec:preprocessing}
+The classification dataset was exported from Zooniverse.
+In addition to metadata about the classification (e.g., user name, timestamp of classification, etc.), each row contains information about the subject (four-radiance image) of the classification (filename, MCS spectral channel, $L_s$) and details of each annotation made by the user ($x$ and $y$ pixel coordinate values and frame number the annotation was made) during that classification.
+We converted this exported classification dataset to an annotation dataset (one row per individual annotation) that duplicates the classification-wide information for each annotation.
+We dropped all rows with $x$ or $y$ annotation coordinates that corresponded to locations outside the image bounds (these were possible if a user panned outside the bounds where data was present and made an annotation).
+
+The final MY29 annotation dataset, which spanned 27,302 unique images and 3,483 unique four-hour time periods had a total of 1,699,230 annotations.
+
+The annotations were made from 9,002 unique users, 5,746 of whom were registered users (1,408,791 annotations) and 3,256 were not (290,439 annotations).
+
+\subsection{Density based clustering}\label{sec:DBSCAN}
+
+We aggregated the crowdsourced data with a customized version of the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm \citep{ester1996density,scikit-learn} by grouping the citizen science annotations into clusters. In this way, we can use the centroid of each cluster to extract the image coordinates of a single arch from many individual annotations.
+
+The standard DBSCAN algorithm has the following hyperparameters: The minimum samples parameter $m_{s}$ (minimum number of points required to form a cluster) and a distance parameter $\epsilon$ (maximum distance two data points can have from each other for them to be considered as neighbouring points). A point is considered a \textit{core point} when there are at least $m_{s}$ points including itself within distance $\epsilon$. A border point is a point with at least one neighboring core point but fewer than $m_{s}$ total neighbors. A \textit{noise point} is a point with no core points within distance $\epsilon$. Clusters are formed by all neighbouring core and border points, while all noise points are taken as outliers. An example of how points are clustered with DBSCAN is illustrated in Fig. \ref{Fig:dbscan}.
+
+The default distance metric $d_{\mathrm{default}}$ for $\epsilon$ is euclidean, where $\Delta x$ the distance between two points in x-direction and $\Delta y$ is the distance between two points in y-direction:
+\begin{equation}
+d_{\mathrm{default}} = \sqrt{\Delta x^2 + \Delta y^2}
+\end{equation}
+
+We found that the citizen scientists agreed well on the x-coordinate (timing) of an arch peak, but there is a much higher variability when it comes to the y-coordinate (altitude) (e.g. Fig. \ref{clustering}D). This is because we interpolated the radiances onto a $5\,\mathrm{km}$ grid and to multiple pixels, which causes blurring in the y-direction. Using the standard euclidean distance metric increases the likelihood of two arch peaks close to each other being considered part of the same cluster. In order to mitigate this, we introduced the shape weight $w_s$ as an additional algorithm hyperparameter to define the custom distance metric $d_{\mathrm{custom}}$:
+
+\begin{equation}
+d_{\mathrm{custom}} = \sqrt{[w_s\Delta x]^2 + [(2-w_s)\Delta y]^2}
+\end{equation}
+
+Note that the $w_s$ is only defined in the range $w_s \in (0,2)$. For $w_s{=}1$, the custom distance metric $d_{\mathrm{custom}}$ is equivalent to the custom distance metric $d_{\mathrm{default}}$. For $w_s{>}1$, distances in y-direction are attenuated. For $w_s{<}1$, distances in x-direction are attenuated. This allows us to penalize distances in one dimension more than the other, which helps mitigates the problem of adjacent arch peaks being combined into the same cluster rather than two separate clusters (Fig. \ref{Fig:dbscan}B). Fig. \ref{clustering} illustrates how clustering is performed on the citizen science labels for a single image from annotations (A and B). 
+
+\subsection{Optimization of clustering hyperparameters}\label{sec:optimize}
+
+To assess the performance of different hyperparameter combinations of $m_{s}$, $\epsilon$ and $w_s$, we first produced a dataset of expert annotations/labels of arch peaks containing 585 images that span the full year with global coverage.
+These expert labels were assumed to represent the ground truth for each image.
+We split the images with expert labels into two subsets: a training set to determine optimize the DBSCAN hyperparameters and a validation set to verify that the optimized set of hyperparameters achieves comparable performance on a different set of data.
+70\% of the images (drawn randomly) with expert annotations were used for training and 30\% for validation.
+In total, there were 1940 expert annotations and 25,856 citizen-scientist annotations in the training set and 783 expert annotations and 10,263 citizen-scientist annotations in the validation set.
+
+To compare the algorithm outputs (centroids) to the expert labels, we matched any expert labels to any corresponding cluster centroids, and vice versa. For each image, assume that the cluster centroid coordinates are stored in a vector $\bm{c}$ of length $N$ , while the expert annotations are stored in a vector $\bm{e}$ of length $M$. We then compute a distance matrix $\bm{D}$ of size $N \times M$ containing all euclidean distances between all cluster centroids and expert labels. The first matched pair is then taken as the one corresponding to the smallest distance value in $\bm{D}$. The rows and columns in $\bm{D}$ corresponding this matched pair are then excluded giving an updated distance matrix $\bm{D}$. This process is repeated until no further points can be matched or the smallest value in $\bm{D}$ is larger than 100 - a maximum allowable matching distance restriction introduced to better capture actual \textit{true positive} classifications. Successfully matched pairs correspond to \textit{true positive} classifications. If an expert label is left unmatched, we count this as a \textit{false negative} classification. If a cluster centroid is left unmatched, we count this as a \textit{false positive} classification.
+
+We then defined two performance metrics. The $F_1$ score measures how well the the cluster centroids agree with the expert labels for each image, and is computed with 
+
+\begin{equation}
+F_1 = 2\frac{recall \times precision}{recall + precision}
+\end{equation}
+
+where $recall = \frac{true\,\,positives}{true\,\,positives\,\,\,\,+\,\,\,\,false\,\,negatives}$ and $precision = \frac{true\,\,positives}{true\,\,positives\,\,\,\,+\,\,\,\,false\,\,positives}$. Both $recall$ and $precision$ are important measures used in machine learning to evaluate the performance of a model \citep{manning2009introduction}. In our use case, $recall$ measures the fraction of all ground-truth arches identified by the citizens scientists and cluster model, while $precision$ measures the fraction of citizen-scientist labels that matched a corresponding ground-truth arch.
+The $F_1$ score combines these metrics to give a more general measure of the accuracy of the citizen-scientist labeling. Note that other F-score metrics could be used here if a different balance between precision and recall is desired, i.e. generally $F_{\beta} = (1+\beta^2)\frac{recall \times precision}{recall + \beta^2 precision}$ \citep{sokolova2009systematic}.
+
+The second performance metric is defined as the average euclidean distance $\delta$ (in pixel space) between matched pairs of citizen-scientist-aggregated and expert labels.
+This enabled us to compare the spatial accuracy of the labels.
+We then compute the average value of $F_1$ and $\delta$ across all images in the dataset, which allows the comparison between the performance of different hyperparameter combinations. 
+
+The higher the average value of $F_1$ and the lower the average value of $\delta$, the better the performance of the algorithm for a set of given hyperparameters $m_{s}$, $\epsilon$ and $w_s$. We computed these performance metrics for different hyperparameter sets over the training set within the ranges $m_{s}\in (3,9)$ with a step size of $1$, $\epsilon \in (1,50)$ with a step size of $1$ and $w_{s}\in (0.05,1.95)$ with a step size of $0.05$. The lower limit for $m_{s}$ is because $m_s=1$ would result in each point building its own cluster and $m_s=2$ would not produce any border points. The upper limit for $m_{s}$ is chosen because $m_s\geq10$ would correspond to an overly-stringent requirement of at least 50\% of users identifying every arch. The lower limit for $\epsilon$ is set because $\epsilon<1$ is too small in pixel space and would result in too few centroids relative to expert labels. For $\epsilon>50$, the clustering region is too large and would result in annotations for multiple arches being grouped into the same cluster. The lower and upper limit for $w_s$ is set based on its defined range $w_s \in (0,2)$. The performance results for each hyperparameter combination are shown in Fig. \ref{performance}.
+
+As we want to maximize $F_1$ and minimize $\delta$, we took a multi-objective optimization approach in choosing the final hyperparameters of our clustering algorithm. Pareto optimization \citep{Pareto1919, ngatchou2005pareto} aims to find solutions that maximize the performance of one metric while maintaining the performance of another metric, without making any of them worse. We computed the set of all Pareto efficient solutions but excluded all solutions for which $F_1{<}0.5$. The final Pareto front is highlighted in Fig. \ref{performance} and its solutions are tabulated in Table \ref{paretoset}. 
+
+The aggregated cloud identifications can be used to analyze the spatial, seasonal, and day-to-night variability of laterally-confined aerosol layers to better understand the distribution of aerosols above the first few scale heights, with caveat that extended features will be absent or undercounted in these results.
+Here, we present maps of cloud identifications and discuss the results in context of known cloud populations.
+We confirm where the high-level patterns are consistent with previous observations and note where follow-on investigations are warranted.
+
+The seasonal evolution of all clouds as a function of latitude for both daytime and nighttime are shown in Fig. \ref{fig:combined-ls-lat}.
+During the clear season until $L_s{\sim}$140° (an early ``Z'' dust event occurred in MY29 at $L_s{=}$143° \citep{Steele21}), there are several regions where clouds occur frequently: in the equatorial region (annotated as 1 in Figs. \ref{fig:combined-ls-lat} and \ref{fig:combined-lat-alt}), at mid-latitudes (2), in the southern polar region (3), and to a lesser extent in the northern polar region around $L_s{=}100$°.
+From $L_s{=}$150°--230°, daytime clouds occur primarily at mid-latitudes, but are observed at nearly all latitudes between 70°S and 60°N (4).
+At night, there is one broad population from 30°S to 30°N (clouds are more frequent in the equatorial region at night), but after $L_s{=}170$°, clouds occur frequently between 30°N and 50°N as well.
+Around $L_s{=}220$° the number of observed nighttime clouds increases in the southern hemisphere, especially near 50°S. 
+There is a strong decrease in the number of peaks just before $L_s{=}250$° at nearly all latitudes except around 50°S and 20°N at night.
+After $L_s{=}260$°, clouds are observed between about 60°S and 60°N as well as both polar regions, although nighttime clouds between 0°N and 30°N occur relatively less frequently.
+
+The low-latitude clouds during the clear season (1), which are observed more frequently at night, occur at high altitudes (Figs. \ref{fig:combined-lat-alt}A and D), 65--80 km during the day and 55--70 km at night; this is the aphelion equatorial mesospheric cloud population studied in depth by \cite{Slipski22} and in which previous observations have spectrally confirmed \cd-ice (see \cite{Maattanen2021CloudsAtmosphere} and references therein).
+
+Of particular note is that the aphelion cloud belt is not well-represented in this dataset (lack of peaks below 50 km in the equatorial region in Figs. \ref{fig:combined-lat-alt}A and C) because, while observed in MCS water-ice retrievals (i.e. \cite{McCleese10}), the broad extent of the feature does not typically lead to arches; arches result only from laterally-confined aerosol layers.
+
+The polar hood clouds \citep{Benson10, Benson11} are clearly observed during the clear season at northern (40°N--60°N) and southern (35°S--50°S) mid-latitudes at both local times (2).
+The mid-latitude cloud frequency is higher during the day than at night near equinox.
+Both times show an increase in the northern hemisphere near $L_s{=}50$° and in the southern hemisphere near $L_s{=}70$°.
+These clouds are lower in altitude than the mesospheric equatorial clouds, ranging from 20--50 km (Figs. \ref{fig:combined-lat-alt}A and C).
+Before and after the period when the aphelion cloud belt is thickest (i.e., $L_s{<}45$° and $L_s{>}135$°), water-ice is prevalent at mid-latitudes, and the polar hoods clouds are connected by a ``cloud-bridge'' \citep{Guha20}.
+This can be seen in Figs. \ref{fig:combined-lat-alt}A and C, where the two primary mid-latitude populations are connected to the aphelion cloud belt in the tropics at lower and higher altitudes, respectively.
+That day-night difference reflects the thermal tidal pattern in the aphelion season, where colder temperatures are present from 20--40 km in the tropics during the day and 40--60 km at night (e.g., \cite{Lee09}).
+The effect of migrating tides on these mid-latitude populations can be studied by comparing their longitude distribution with the temperature structure in these regions.
+
+Clouds over the south pole (south of 75°S, starting just before $L_s{=}50$°) are observed between 20--40 km during the clear season (3)—consistent with previously observed polar \cd-ice clouds—where conditions for \cd-ice condensation frequently occur \citep{Hayne12, Hayne14, Hu12, Kuroda13, Maattanen22}.
+
+During the dusty season, the daytime subtropical and mid-latitude populations are seen in Fig. \ref{fig:combined-lat-alt}C (4).
+Clouds are more frequently observed in the northern hemisphere than the south.
+This differs at night, where clouds are observed at high rates from southern mid-latitudes to northern mid-latitudes (Fig. \ref{fig:combined-lat-alt}D).
+The mid-latitude cloud altitudes reach higher altitudes during the day, ranging from 30–70 km in the south and 40–65 km in the north.
+The equatorial clouds are lower during the day, about 25--50 km.
+At night, the altitude range at mid-latitudes is 30–50 km and about 10 km higher near the equator.
+
+Clouds are observed near both the south and north poles during the dusty season (5), where the southern polar clouds have a wider range of altitudes (centered near 45 km) and are generally higher than the northern polar clouds which are between 15--35 km.
+
+In general, there is an increase in the highest levels of clouds from aphelion to perihelion for each of these populations (ignoring the high-altitude equatorial \cd-ice clouds).
+Daytime equatorial clouds are rare above 25 km during the clear season (Fig. \ref{fig:combined-lat-alt}A), but are common up to 50 km during the dusty season (Fig. \ref{fig:combined-lat-alt}B).
+The primary nighttime mid-latitude populations extend up to about 35 km for $L_s{<}150$°, but clouds are frequently observed up to 50–65 km during the dusty season (Figs. \ref{fig:combined-lat-alt}C and D).
+This is consistent with seasonal variability of haze-top altitudes and water-ice clouds (e.g., \cite{Montmessin06b, Maattanen13SPICAM, Streeter22, Stcherbinine22}).
+Of course, dust in the atmosphere increases substantially during this season as well, particularly south of the equator, but the maximum of the dust mass mixing ratio is less than 25 km before $L_s{=}$180° \citep{Heavens11}, which is near the minimum of observed equatorial clouds and 5--10 km below the boundary of frequently-observed mid-latitude clouds.
+However, some of the identified arch peaks above 50 km after $L_s{=}90$° may be due to detached dust layers \citep{Heavens14, Heavens15, Heavens19}.
+A follow-up investigation of the variability of composition and particle sizes of these clouds could shed light on the interplay of dust, atmospheric circulation, and clouds.
+
+A similar tidal pattern is seen during the dusty season as in the clear season, where the mid-latitude clouds are connected at lower altitudes during the day and higher at night, however, the number of identifications does not decrease strongly during the dusty season.
+During the day, the low altitude equatorial bins typically have ${>}15$ observed clouds, much higher than during the clear season, and at night in the equatorial region the number of cloud observations are as high (often ${>}40$) as in any population throughout the year.
+
+In Fig. \ref{fig:combined-lat-alt}D, a population of clouds is observed at 80 km, primarily at 50°S, with some clouds poleward of 50°S observed less frequently.
+These are associated with the seasonal regional dust storms.
+These peaks are observed starting just after the beginning of the A storm ($L_s{=}$230°) and ending after the peak of the C storm ($L_s{=}$317°) \citep{Kass16}.
+A similar increase in the altitude of a water-ice opacity band is seen in the MY35 A storm in Trace Gas Orbiter NOMAD-UVIS (Nadir and Occultation for MArs Discovery, Ultraviolet and VISible spectrometer) observations \citep{Streeter22}.
+The existence of such high-altitude dust-storm-driven clouds is likely due to the ``pump'' mechanism described by \cite{Shaposhnikov19} where warming due to dust amplifies and widens the strong perihelion meridional circulation, facilitating an increase in mesospheric water vapor and condensation nuclei.
+In future work, we plan to study these dust-driven high-altitude aerosol layers in more detail.
+
+\section{Conclusion}\label{sec:conclusion}
+In addition to retrieved profiles of temperature, water-ice, and dust, MCS serendipitously observes localized aerosol layers in each spectral channel.
+These layers are identifiable as the peaks of arch-shaped features when displayed as time-series radiance profiles.
+Citizen scientists have analyzed all MCS limb radiance profiles in MY29 to locate arch peaks as part of the Cloudspotting on Mars project, which launched in June 2022.
+In this work, we provided an overview of the Cloudspotting on Mars project, the method we used to aggregate citizen scientist labels, and we presented maps of the distribution of clouds found in MY29.
+The maps highlight specific populations of Martian clouds and day/night tidal patterns: 
+
+\begin{itemize}
+\item High-altitude equatorial mesospheric clouds.
+\item Mid-latitude aphelion clouds between 20–40 km.
+\item Polar \cd-ice clouds.
+\item Dusty-season clouds extending from 60°S to 60°N.
+\item Southern polar clouds ranging from 20–70 km during the dusty season.
+\item Dust-storm driven high-altitude (80 km) clouds in the southern hemisphere.
+\item Day-to-night differences where equatorial clouds are found at higher altitudes at night and lower altitudes during the day, but mid-latitude clouds are found at higher altitudes during the day and lower altitudes at night, reflecting the pattern of the diurnal tide.
+\end{itemize}
+
+The catalog of clouds resulting from this work can be used to better understand complex phenomena that are also important drivers of atmospheric variability, such as gravity wave activity and dust lofting.
+Because these observations are made in the IR, day-to-night variability can be investigated as a function of latitude, longitude, and altitude.
+Citizen scientists are currently analyzing MCS limb observations from MY30 (and we plan to extend the work to MY31 as well) to investigate interannual variation.
+MY30 was significantly less dusty than MY29, which provides a different set of atmospheric conditions likely to affect cloud formation rates.
+
+In future work, we plan to use retrieved MCS temperature, water-ice, and dust retrievals to better understand cloud formation processes and variation within and between different cloud populations.
+Furthermore, the spectral information can be used to determine cloud composition \citep{Hayne12, Puspitarini16, Clancy19}, which can be used to characterize the spatial and temporal variability of cloud compositions and properties.
+The fact that many clouds are observed in close proximity (in time and space, e.g., Fig. \ref{clustering}) will enable the study of how local and regional processes lead to small-scale cloud variability. 
+Hence, this dataset presents a unique opportunity to study large populations of clouds and to better understand their composition and formation mechanisms, which we will explore in future work.
+

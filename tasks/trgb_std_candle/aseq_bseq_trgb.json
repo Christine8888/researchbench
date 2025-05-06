@@ -1,0 +1,18 @@
+{
+  "task_id": "aseq_bseq_trgb",
+  "paper_id": "trgb_std_candle",
+  "kind": "numeric",
+  "difficulty": 5,
+  "description": "Measure the SMC Gaia Synthetic I-band (i_jkc_mag) TRGB magnitude for both the A-sequence and B-sequence samples using provided data and paper methodology.",
+  "instructions": [
+    "Use the provided Gaia and OGLE LPV data.",
+    "Apply Gaia quality and astrometric cuts as in the paper, including the astrometric cut, ipd_frac_multi_peak, ruwe, and E(V-I) quality cuts specified by the paper.",
+    "Cross-match Gaia and OGLE using a 1.0 arcsec radius and keep P_1.",
+    "Calculate the Wesenheit index and select A- and B-sequence stars using polynomial fits and 3-sigma width cuts.",
+    "De-extinct the Gaia Synthetic I-band magnitude (`i_jkc_mag`) using the reddening map and the extinction correction from the paper.",
+    "Measure the TRGB for each sequence using the specified smoothing widths (A: 0.10 mag, B: 0.20 mag).  Do not perform bootstrapping or calculate uncertainty.",
+    "Report the two TRGB magnitudes (A-sequence first, then B-sequence) as a list of two floats, rounded to 3 decimal places."
+  ],
+  "expected_output": [15.070, 14.933],
+  "tolerance": [0.015, 0.015]
+}

@@ -1,0 +1,10 @@
+{
+  "task_id": "ridges_in_all",
+  "kind": "numeric",
+  "difficulty": 3,
+  "description": "Find the number of significant diagonal ridge-like features in the $R_{\\rm gal}-V_{\\rm rot}$ map in the RVS sample.",
+  "instructions": "Using the data in the 'RVS' sample, write a code to find the number of diagonal ridge-like features in $R_{\\rm gal}-(V_{\\rm rot}-V_{\rmLSR})$. Return the number of significant ridges as an integer.",
+  "tolerance": 2,
+  "expected_output": 7,
+  "parents": ["gaia_dr2_all"]
+}

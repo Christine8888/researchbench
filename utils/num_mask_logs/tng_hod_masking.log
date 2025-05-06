@@ -1,0 +1,157 @@
+2025-05-05 19:38:54,599 - INFO - Logging to file: utils/num_mask_logs/tng_hod_masking.log
+2025-05-05 19:38:54,600 - INFO - Found 20 unique numerical values to mask
+2025-05-05 19:38:54,778 - INFO - Made 138 replacements in the text
+2025-05-05 19:38:54,779 - INFO - Saved masked text to papers/masked_texts/tng_hod.txt
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #1: '\mathrm{cut} = 12.7' at line 145
+2025-05-05 19:38:54,779 - INFO -   Context: fiducial model are log M_ \mathrm{cut} = 12.7 log M_1 13 6 sigma
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #2: '\mathrm{ic} = 0.8' at line 145
+2025-05-05 19:38:54,779 - INFO -   Context: kappa 0 08 and f_ \mathrm{ic} = 0.8 In terms of derived HOD
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #3: '\mathrm{sat} = 20' at line 145
+2025-05-05 19:38:54,779 - INFO -   Context: a satellite fraction of f_ \mathrm{sat} = 20 red Compared to CMASS LRG
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #4: '\mathrm{max} = 0.075' at line 148
+2025-05-05 19:38:54,779 - INFO -   Context: our fiducial model are p_ \mathrm{max} = 0.075 Q 95 log M_ mathrm
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #5: '\mathrm{cut} = 11.9' at line 148
+2025-05-05 19:38:54,779 - INFO -   Context: 075 Q 95 log M_ \mathrm{cut} = 11.9 sigma 0 5 gamma 5
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #6: '4.73\times' at line 51
+2025-05-05 19:38:54,779 - INFO -   Context: each with particle mass of 4.73\times 10 7 h 1 M_
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #7: '2.4\times' at line 145
+2025-05-05 19:38:54,779 - INFO -   Context: galaxy of bar M _h 2.4\times 10 13 h 1 M_
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #8: '6.0\times' at line 148
+2025-05-05 19:38:54,779 - INFO -   Context: halo mass per galaxy of 6.0\times 10 12 h 1 M_
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #9: '1.6\times' at line 214
+2025-05-05 19:38:54,779 - INFO -   Context: bins 70 logarithmic bins between 1.6\times 10 11 h 1 M_
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #10: '6.3\times' at line 214
+2025-05-05 19:38:54,779 - INFO -   Context: h 1 M_ odot and 6.3\times 10 14 h 1 M_
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #11: '1.0\times' at line 276
+2025-05-05 19:38:54,779 - INFO -   Context: samples with number density n 1.0\times 10 3 h 3 Mpc
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #12: '1.5\times' at line 276
+2025-05-05 19:38:54,779 - INFO -   Context: 3 Mpc 3 and n 1.5\times 10 3 h 3 Mpc
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #13: '1.4\times' at line 287
+2025-05-05 19:38:54,779 - INFO -   Context: HOD framework on a n 1.4\times 10 3 h 3 Mpc
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #14: '33\%' at line 148
+2025-05-05 19:38:54,779 - INFO -   Context: and a satellite fraction of 33\% This is consistent with the
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #15: '13\%' at line 150
+2025-05-05 19:38:54,779 - INFO -   Context: similar LRG satellite fraction of 13\% For eBOSS ELGs cite 2019Guo
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #16: '2.5\%' at line 150
+2025-05-05 19:38:54,779 - INFO -   Context: fraction of 22 5 pm 2.5\% One potential reason for the
+2025-05-05 19:38:54,779 - INFO - Latex Replacement #17: '50\%' at line 150
+2025-05-05 19:38:54,779 - INFO -   Context: fraction to vary from 20 50\% subsection Satellite PDF label subsec
+2025-05-05 19:38:54,780 - INFO - Latex Replacement #18: '30\%' at line 174
+2025-05-05 19:38:54,780 - INFO -   Context: certain environment threshold selects top 30\% in environment in green The
+2025-05-05 19:38:54,780 - INFO - Latex Replacement #19: '20\%' at line 192
+2025-05-05 19:38:54,780 - INFO -   Context: relative to central subhalo is 20\% of the halo velocity dispersion
+2025-05-05 19:38:54,780 - INFO - Latex Replacement #20: '50\%' at line 216
+2025-05-05 19:38:54,780 - INFO -   Context: definition in each mass bin 50\% of halos will have a
+2025-05-05 19:38:54,780 - INFO - Latex Replacement #21: '50\%' at line 216
+2025-05-05 19:38:54,780 - INFO -   Context: c rank whereas the other 50\% will have a negative c
+2025-05-05 19:38:54,780 - INFO - Latex Replacement #22: '20\%' at line 264
+2025-05-05 19:38:54,780 - INFO -   Context: in the top and bottom 20\% environment The authors found modest
+2025-05-05 19:38:54,780 - INFO - Latex Replacement #23: '20\%' at line 276
+2025-05-05 19:38:54,780 - INFO -   Context: a somewhat larger signature around 20\% However their galaxy samples are
+2025-05-05 19:38:54,780 - INFO - Rounded Replacement #1: 'around 0.1' at line 198
+2025-05-05 19:38:54,780 - INFO -   Context: the peculiar velocity distributions peak around 0.1 and the central velocity bias
+2025-05-05 19:38:54,780 - INFO - Rounded Replacement #2: '~2.4' at line 73
+2025-05-05 19:38:54,780 - INFO -   Context: of interest shown in Section ~2.4 3 of citealt 2021bHadzhiyska We
+2025-05-05 19:38:54,780 - INFO - Rounded Replacement #3: '~11' at line 262
+2025-05-05 19:38:54,780 - INFO -   Context: and lower bias In Figure ~11 of citet 2019Bose the authors
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #1: '0.137' at line 196
+2025-05-05 19:38:54,780 - INFO -   Context: central velocity bias parameter alpha_c 0.137 pm 0 007 The errorbar
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #2: '14.2' at line 148
+2025-05-05 19:38:54,780 - INFO -   Context: 5 gamma 5 log M_1 14.2 alpha 0 65 and kappa
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #3: '0.65' at line 148
+2025-05-05 19:38:54,780 - INFO -   Context: 5 log M_1 NUMERICAL_RESULT alpha 0.65 and kappa 1 35 In
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #4: '1.35' at line 148
+2025-05-05 19:38:54,780 - INFO -   Context: NUMERICAL_RESULT alpha NUMERICAL_RESULT and kappa 1.35 In terms of derived HOD
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #5: '4998' at line 99
+2025-05-05 19:38:54,780 - INFO -   Context: resulting in a sample of 4998 ELGs red We display the
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #6: '13.6' at line 145
+2025-05-05 19:38:54,780 - INFO -   Context: mathrm cut NUMERICAL_RESULT log M_1 13.6 sigma 0 2 alpha 1
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #7: '1.15' at line 95
+2025-05-05 19:38:54,780 - INFO -   Context: 6 mathrm AND g r 1.15 times r z 0 15
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #8: '1.15' at line 145
+2025-05-05 19:38:54,780 - INFO -   Context: NUMERICAL_RESULT sigma 0 2 alpha 1.15 kappa 0 08 and f_
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #9: '0.08' at line 145
+2025-05-05 19:38:54,780 - INFO -   Context: 0 2 alpha NUMERICAL_RESULT kappa 0.08 and f_ mathrm ic NUMERICAL_RESULT
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #10: '4608' at line 87
+2025-05-05 19:38:54,780 - INFO -   Context: an LRG mock sample of 4608 galaxies Figure ref fig lrg_sample
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #11: '1.01' at line 198
+2025-05-05 19:38:54,780 - INFO -   Context: velocity bias parameter of alpha_s 1.01 pm 0 04 However the
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #12: '.5' at line 147
+2025-05-05 19:38:54,780 - INFO -   Context: occupation at log M 13 .5 suffers from small number statistics
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #13: '0.5' at line 148
+2025-05-05 19:38:54,780 - INFO -   Context: M_ mathrm cut NUMERICAL_RESULT sigma 0.5 gamma 5 log M_1 NUMERICAL_RESULT
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #14: '.5' at line 150
+2025-05-05 19:38:54,780 - INFO -   Context: a satellite fraction of 22 .5 pm NUMERICAL_RESULT One potential reason
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #15: '0.5' at line 214
+2025-05-05 19:38:54,780 - INFO -   Context: the ranks to within range 0.5 and 0 5 for ease
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #16: '0.5' at line 214
+2025-05-05 19:38:54,780 - INFO -   Context: within range 0 5 and 0.5 for ease of comparison across
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #17: '0.5' at line 216
+2025-05-05 19:38:54,780 - INFO -   Context: mass bin normalized to within 0.5 and 0 5 By definition
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #18: '0.5' at line 216
+2025-05-05 19:38:54,780 - INFO -   Context: to within 0 5 and 0.5 By definition in each mass
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #19: '0.5' at line 238
+2025-05-05 19:38:54,780 - INFO -   Context: normalize the ranks to within 0.5 and 0 5 The choice
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #20: '0.5' at line 238
+2025-05-05 19:38:54,780 - INFO -   Context: to within 0 5 and 0.5 The choice of r_ mathrm
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #21: '0.2' at line 54
+2025-05-05 19:38:54,780 - INFO -   Context: algorithm with linking length b 0.2 in units of the mean
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #22: '0.2' at line 73
+2025-05-05 19:38:54,780 - INFO -   Context: gamma to be 0 6 0.2 0 4 respectively We also
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #23: '.2' at line 96
+2025-05-05 19:38:54,780 - INFO -   Context: mathrm AND g r 1 .2 times r z 1 6
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #24: '0.2' at line 145
+2025-05-05 19:38:54,780 - INFO -   Context: NUMERICAL_RESULT log M_1 NUMERICAL_RESULT sigma 0.2 alpha NUMERICAL_RESULT kappa NUMERICAL_RESULT and
+2025-05-05 19:38:54,780 - INFO - Exact Replacement #25: '0.2' at line 192
+2025-05-05 19:38:54,781 - INFO -   Context: clustering values of alpha_c approx 0.2 and alpha_s approx 1 are
+2025-05-05 19:38:54,781 - INFO - Exact Replacement #26: '0.2' at line 196
+2025-05-05 19:38:54,781 - INFO -   Context: slightly smaller than the alpha_c 0.2 signature found for BOSS LRGs
+2025-05-05 19:38:54,781 - INFO - Exact Replacement #27: '0.8' at line 6
+2025-05-05 19:38:54,781 - INFO -   Context: survey at redshift z sim 0.8 Specifically we model the galaxy
+2025-05-05 19:38:54,781 - INFO - Exact Replacement #28: '0.8' at line 58
+2025-05-05 19:38:54,781 - INFO -   Context: the simulations at redshift z 0.8 The key analysis in this
+2025-05-05 19:38:54,781 - INFO - Exact Replacement #29: '.80' at line 84
+2025-05-05 19:38:54,781 - INFO -   Context: AND r z z 3 .80 times 0 19 label equ
+2025-05-05 19:38:54,781 - INFO - Exact Replacement #30: '0.8' at line 196
+2025-05-05 19:38:54,781 - INFO -   Context: halo mass Specifically we get 0.8 0 9 and 1 05
+2025-05-05 19:38:54,781 - INFO - Exact Replacement #31: '95' at line 148
+2025-05-05 19:38:54,781 - INFO -   Context: p_ mathrm max NUMERICAL_RESULT Q 95 log M_ mathrm cut NUMERICAL_RESULT
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #1: '-15' at line 6
+2025-05-05 19:38:54,781 - INFO -   Context: analysis that reveals a 10 -15 excess in the LRG clustering
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #2: '-300' at line 47
+2025-05-05 19:38:54,781 - INFO -   Context: we utilize the textsc IllustrisTNG -300 1 box the largest high
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #3: '-300' at line 51
+2025-05-05 19:38:54,781 - INFO -   Context: counterpart of the textsc IllustrisTNG -300 1 box textsc IllustrisTNG 300
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #4: '-300' at line 51
+2025-05-05 19:38:54,781 - INFO -   Context: 300 1 box textsc IllustrisTNG -300 Dark which was evolved with
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #5: '-300' at line 53
+2025-05-05 19:38:54,781 - INFO -   Context: haloes groups in textsc IllustrisTNG -300 Dark are found with a
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #6: '-300' at line 60
+2025-05-05 19:38:54,781 - INFO -   Context: galaxies from the textsc IllustrisTNG -300 1 box and matching them
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #7: '-300' at line 60
+2025-05-05 19:38:54,781 - INFO -   Context: halo counterparts in textsc IllustrisTNG -300 Dark We describe this process
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #8: '-0.6' at line 73
+2025-05-05 19:38:54,781 - INFO -   Context: beta and gamma to be -0.6 NUMERICAL_RESULT 0 4 respectively We
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #9: '-1.05' at line 87
+2025-05-05 19:38:54,781 - INFO -   Context: redshift range z 0 6 -1.05 is 5 times 10 4
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #10: '-0.4' at line 87
+2025-05-05 19:38:54,781 - INFO -   Context: We find that delta m -0.4 roughly matches the desired target
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #11: '-0.15' at line 95
+2025-05-05 19:38:54,781 - INFO -   Context: r NUMERICAL_RESULT times r z -0.15 mathrm AND g r 1
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #12: '-1.05' at line 99
+2025-05-05 19:38:54,781 - INFO -   Context: redshift range z 0 6 -1.05 is 5 times 10 4
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #13: '-15' at line 150
+2025-05-05 19:38:54,781 - INFO -   Context: marginalized satellite fraction of 11 -15 depending on the HOD prescription
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #14: '-17' at line 150
+2025-05-05 19:38:54,781 - INFO -   Context: a satellite fraction of 13 -17 whereas citet 2016Favole found a
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #15: '-0.04' at line 192
+2025-05-05 19:38:54,781 - INFO -   Context: 0 18 0 03 _ -0.04 and alpha_s 1 00 0
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #16: '-0.03' at line 192
+2025-05-05 19:38:54,781 - INFO -   Context: 1 00 0 03 _ -0.03 for the CMASS LRG sample
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #17: '-60' at line 262
+2025-05-05 19:38:54,781 - INFO -   Context: 3 which is about 30 -60 times denser than our DESI
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #18: '-15' at line 276
+2025-05-05 19:38:54,781 - INFO -   Context: LRGs we see a 10 -15 excess in projected clustering in
+2025-05-05 19:38:54,781 - INFO - Additional Replacement #19: '-20' at line 278
+2025-05-05 19:38:54,781 - INFO -   Context: we also find a 5 -20 clustering signature due to galaxy
+2025-05-05 19:38:54,781 - INFO - Saved context information to utils/num_mask_logs/tng_hod_contexts.log

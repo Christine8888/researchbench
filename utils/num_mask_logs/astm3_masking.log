@@ -1,0 +1,57 @@
+2025-05-05 19:38:51,423 - INFO - Logging to file: utils/num_mask_logs/astm3_masking.log
+2025-05-05 19:38:51,423 - INFO - Found 8 unique numerical values to mask
+2025-05-05 19:38:51,473 - INFO - Made 41 replacements in the text
+2025-05-05 19:38:51,474 - INFO - Saved masked text to papers/masked_texts/astm3.txt
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #1: '84.6\%' at line 7
+2025-05-05 19:38:51,474 - INFO -   Context: photometry where accuracy increases from 84.6\% to 91 5 Furthermore CLIP
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #2: '91.5\%' at line 7
+2025-05-05 19:38:51,474 - INFO -   Context: increases from 84 6 to 91.5\% Furthermore CLIP boosts classification accuracy
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #3: '12.6\%' at line 7
+2025-05-05 19:38:51,474 - INFO -   Context: classification accuracy by up to 12.6\% when the availability of labeled
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #4: '84.64\%' at line 154
+2025-05-05 19:38:51,474 - INFO -   Context: the average accuracy textbf from 84.64\% to 91 47 and significantly
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #5: '91.47\%' at line 154
+2025-05-05 19:38:51,474 - INFO -   Context: textbf from 84 64 to 91.47\% and significantly reduced the standard
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #6: '10\%' at line 158
+2025-05-05 19:38:51,474 - INFO -   Context: Specifically we created subsets containing 10\% 25 and 50 of the
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #7: '25\%' at line 158
+2025-05-05 19:38:51,474 - INFO -   Context: we created subsets containing 10 25\% and 50 of the data
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #8: '50\%' at line 158
+2025-05-05 19:38:51,474 - INFO -   Context: subsets containing 10 25 and 50\% of the data by downsampling
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #9: '25\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: limited For example at the 25\% data split CLIP increased the
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #10: '4.14\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: the spectra model by textbf 4.14\% from 63 73 to 67
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #11: '63.73\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: by textbf 4 14 from 63.73\% to 67 87 and by
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #12: '67.87\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: 14 from 63 73 to 67.87\% and by textbf 12 56
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #13: '12.56\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: 67 87 and by textbf 12.56\% at the 10 data split
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #14: '10\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: textbf 12 56 at the 10\% data split from 46 68
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #15: '46.68\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: the 10 data split from 46.68\% to 59 24 Photometry shows
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #16: '59.24\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: split from 46 68 to 59.24\% Photometry shows a similar trend
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #17: '5.21\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: with accuracy increasing by textbf 5.21\% at the 25 data split
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #18: '25\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: textbf 5 21 at the 25\% data split from 83 22
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #19: '83.22\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: the 25 data split from 83.22\% to 88 43 and by
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #20: '88.43\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: split from 83 22 to 88.43\% and by textbf 7 65
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #21: '7.65\%' at line 164
+2025-05-05 19:38:51,474 - INFO -   Context: 88 43 and by textbf 7.65\% at the 10 split from
+2025-05-05 19:38:51,474 - INFO - Latex Replacement #22: '10\%' at line 164
+2025-05-05 19:38:51,475 - INFO -   Context: textbf 7 65 at the 10\% split from 83 07 to
+2025-05-05 19:38:51,475 - INFO - Latex Replacement #23: '83.07\%' at line 164
+2025-05-05 19:38:51,475 - INFO -   Context: at the 10 split from 83.07\% to 90 72 For metadata
+2025-05-05 19:38:51,475 - INFO - Latex Replacement #24: '90.72\%' at line 164
+2025-05-05 19:38:51,475 - INFO -   Context: split from 83 07 to 90.72\% For metadata and all modalities
+2025-05-05 19:38:51,475 - INFO - Exact Replacement #1: '0.4872' at line 228
+2025-05-05 19:38:51,475 - INFO -   Context: has a cosine similarity of 0.4872 Although there is no guarantee
+2025-05-05 19:38:51,475 - INFO - Exact Replacement #2: '0.8784' at line 222
+2025-05-05 19:38:51,475 - INFO -   Context: similarity with cosine similarities of 0.8784 and 0 8451 respectively As
+2025-05-05 19:38:51,475 - INFO - Saved context information to utils/num_mask_logs/astm3_contexts.log

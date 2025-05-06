@@ -1,0 +1,270 @@
+\begin{document}
+
+\begin{frontmatter}
+
+\title{\pythonpackage: multi-purpose gravitational lens modelling software package}
+
+}
+\cortext[cor1]{corresponding author and lead developer}
+\ead{sibirrer@astro.ucla.edu}
+
+}
+\ead{adam.amara@phys.ethz.ch}
+
+\begin{abstract}
+We present \pythonpackage, a multi-purpose open-source gravitational lens modeling \Python\ package. \pythonpackage\ is able to reconstruct the lens mass and surface brightness distributions of strong lensing systems using forward modelling. \pythonpackage\ supports a wide range of analytic lens and light models in arbitrary combination. The software is also able to reconstruct complex extended sources (Birrer et. al 2015) as well as being able to model point sources. We designed \pythonpackage\ to be stable, flexible and numerically accurate, with a clear user interface that could be deployed across different platforms. Throughout its development, we have actively used \pythonpackage\ to make several measurements including deriving constraints on dark matter properties in strong lenses, measuring the expansion history of the universe with time-delay cosmography, measuring cosmic shear with Einstein rings and decomposing quasar and host galaxy light. The software is distributed under the MIT license. The documentation, starter guide, example notebooks, source code and installation guidelines can be found at \docLink.
+\end{abstract}
+
+\begin{keyword}
+gravitational lensing \sep software \sep image simulations
+
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction} \label{sec:introduction}
+Strong gravitational lensing, the bending of light by foreground masses to such an extent that multiple images of the same source are formed, is an important phenomenon that can be used to probe the matter distribution and geometry of the universe. The detailed reconstruction of the light paths can be used to test the nature of the unknown components dark matter and dark energy. These dominate the matter-energy content of the Universe today.
+
+In strong lensing studies, significant progress has been made in recent years in both quantifying the small scale matter distribution, with techniques such as gravitational imaging \cite{Vegetti:2010mb, Vegetti:2012au, Hezaveh:2016uj, Birrer:2017a, Vegetti:2018} and flux ratio anomalies \cite{Mao_Schneider:1998, Metcalf_Madau:2001, Dalal:2002, Nierenberg:2014, Xu:2015, Nierenberg:2017}, and measuring the expansion history of the universe, with time-delay cosmography \cite{Refsdal:1964pi, Schechter:1997, Treu_Koopmans:2002, Suyu:2010rc, Suyu:2014aq, Birrer2016_mst, Bonvin:2017}. These successes have in part been made possible due to the development of state-of-the-art lens modelling software and algorithms that can extract the required lensing information from high resolution imaging data. Several of the codes used for doing this have been made publicly available to the community (see \ref{app:software}).
+
+From the current and upcoming surveys, the sample of known strong lenses is rapidly increasing \citep[see e.g.][]{Agnello:2015DES, Nord:2016, Schechter:2017, Lin:2017DES, Jacobs:2017, Ostrovski:2017, Williams:2017, Lemon:2018} and Treu et al. (submitted).
+This enlarged sample enables competitive measurements of the Hubble constant \citep[see e.g.][]{Treu:2016, Shajib:2018, Suyu:2018} as well as can strengthen constraints on dark matter properties on sub-galactic scales \citep[see e.g. forecast by][]{Gilman:20117_abc}. To fully exploit the science potential of these new strong lensing data, our modelling tools need to be continually developed and improved. 
+
+In this publication, we present the first public release of \pythonpackage, which is an open source multi-purpose strong lens modelling software package. \pythonpackage\ has been used as a research tool throughout its development. This includes being used for time-delay cosmography \citep{Birrer2016_mst, Birrer:J1206}, lensing substructure analysis \citep{Birrer:2017a}, line-of-sight shear measurements from an Einstein ring \citep{Birrer_2017los} and its forecast to measure cosmic shear with Einstein rings \citep{Birrer2018_cosmic_shear}. Each of these tasks required the modelling of \textit{Hubble Space Telescope} (HST) imaging data at the pixel level.
+
+We developed \pythonpackage\ to be stable, flexible and numerically accurate, with a clear Application programming interface (API) that could be used across different platforms. The \pythonpackage\ software architecture was designed to be able to scale from the current era, where individual lenses are studied in detail, to the case where several hundreds of lenses, from future surveys, will need to be processed. 
+
+Given that an essential part of precision cosmology is the control of systematic errors, it is important for the community to develop multiple independent pipelines. This allows for the cross-checks that are necessary for complex precision measurements. Community standard benchmark efforts also make important contributions. For instance, the time-delay lens modelling challenge \citep{tdlmc:2018} offers a realistic and blind comparison framework in the domain of cosmography. Similar efforts are underway by the substructure lensing community. The public release of \pythonpackage\ enables a transparent and effective comparison with other software used in strong lensing.
+
+\pythonpackage\ includes, but is not limited to, the methods presented in \citep{Birrer2015_basis_set}. This includes a linear source reconstruction method based on Shapelet \citep{Refregier:2003eg} basis sets, a Particle Swarm Optimization \citep{Eberhart:1995qm} for optimizing the non-linear lens model parameters and a MCMC framework for Bayesian parameter inference \citep[\texttt{emcee}][]{emcee}. The software supports a high dynamic range in angular scales, complexity in source and lens models, can handle various image qualities and meets the requirements for diverse science applications. Furthermore, \pythonpackage\ enables a consistent integration of imaging, time-delay and kinematic data to provide model constraints.
+
+There is continued development and support of \pythonpackage\ to expand its scope and scientific application for a growing user community.
+
+This paper is structured as follows: In Section \ref{sec:overview}, we provide an overview of the software architecture and deployment, including installation and dependencies. In Section \ref{sec:core_modules}, we describe the core modules of \pythonpackage\ with some simple examples of how to use them. We provide some modelling examples in Section \ref{sec:model_examples} to demonstrate the capabilities and flexibility of \pythonpackage. In Section \ref{sec:applications}, we give some science application highlights. We summarize in Section \ref{sec:conclusion}.
+
+This publication is accompanied by a public release of the source code with extensive online documentation. Additionally, we provide \texttt{Jupyter}} notebook examples for different science cases. We refer the reader to these online resources for the most updated version of the software package.
+
+\section{Package overview}
+\label{sec:overview}
+
+\begin{lrbox}{\LstBox}
+\begin{lstlisting}[language=bash]
+$ pip install lenstronomy --user
+\end{lstlisting}
+\end{lrbox}
+
+\pythonpackage\ is an open source software package developed in \Python\ \citep{python_1995}. Distribution is granted through the MIT open source software license. \pythonpackage\ relies on packages included in the \Python\ standard library and the proven open-source libraries \texttt{numpy} }, \texttt{scipy} }, \texttt{astropy} \citep{astropy}, and \texttt{matplotlib} \citep{matplotlib}. For optimization and parameter inference routines, \texttt{CosmoHammer} \citep{Akeret:2013nl} is used, which supports Message Passing Interface (MPI) and allows for massive parallelization of the emcee \citep{emcee} algorithm. 
+
+The stable release version can be installed at the command line via pip:\\
+\\
+\usebox{\LstBox}
+\\
+\\
+\pythonpackage\ is compatible with both \texttt{python2} will not be maintained past 2020} and \texttt{python3}. The code design and development follow effective practices for scientific computing. The development is coordinated on \texttt{GitHub} and stable versions are released through \texttt{PyPi} - the python packaging index. This full integration of \pythonpackage\ in the \Python\ packaging environment allows third party to release and share software packages, analysis routines and work-flows that rely upon \pythonpackage.
+
+Extensive tests have been added to \pythonpackage\, which allows us to develop the package using a Continuous Integration (CI) process. The tests are performed on a virtual environment to ensure cross-platform stability and the test coverage report is publicly available. Documentation for the various routines and classes are provided through \texttt{sphinx}} and are available on \texttt{ReadtheDocs}. To make use of \pythonpackage, a start guide and several application examples are provided in the form of \texttt{Jupyter} notebooks in an extension module.
+
+\pythonpackage\ is structured in multiple independent modules, each consisting of multiple classes and sub-packages. These modules execute specific tasks and come with well-defined API. Among the core modules are:
+
+\begin{enumerate}
+ \item \texttt{LensModel}: Provides the lensing functionalities. The full functionality is supported with an arbitrary superposition of individual lens models (Section \ref{sec:lens_model}).
+ \item \texttt{LightModel}: Enables a variety of surface brightness descriptions and profiles. See Section \ref{sec:light_model}.
+ \item \texttt{PointSource}: Handles the point sources (Section \ref{sec:point_source_model}).
+ \item \texttt{Data}: Handling all data specific tasks. Including Point-Spread function (PSF), coordinate systems and noise properties (Section \ref{sec:data}).
+ \item \texttt{ImSim}: Simulates images. Queries the specifications made in \texttt{LensModel}, \texttt{LightModel}, \texttt{PointSource} and \texttt{Data} (Section \ref{sec:imsim}).
+ \item \texttt{Sampling}: Performs the sampling of the parameter space. Aside from the \texttt{Sampling} class that offers pre-defined sampling algorithm, the module includes the , \texttt{Likelihood} class to computes the likelihood based on the \texttt{ImSim} module and the \texttt{Param} class to handle the parameters and their assigned constraints throughout the sampling (Section \ref{sec:sampling}).
+ \item \texttt{Workflow}: Higher level API to define fitting sequences and infer model parameters based on the \texttt{Sampling} (Section \ref{sec:workflow}).
+ \item \texttt{GalKin}: Computes (stellar) kinematics of the deflector galaxy with spherical Jeans modeling based on the mass model specified in \texttt{LensModel} and the lens light model specified in \texttt{LightModel} (Section \ref{sec:galkin}).
+\end{enumerate}
+
+The core modules perform the individual tasks associated with lens modeling. Each module can be used as a stand-alone package and various extension modules are available. The strength of \pythonpackage\ is the full integrated support of each individual module when it comes to lens modeling.
+
+In Section \ref{sec:core_modules}, we briefly describe the main functionalities of the core modules and provide some simple use cases. The interplay between the modules is demonstrated in Section \ref{sec:model_examples} and \ref{sec:applications}.
+
+\section{Core modules of \pythonpackage}
+\label{sec:core_modules}
+In the following, we describe the basic functionalities of the most important modules of \pythonpackage\ with some simple examples. More detailed information about the available routines and their use can be accessed through the online documentation.
+
+\subsection{\texttt{LensModel} module}
+\label{sec:lens_model}
+\texttt{LensModel} and its sub-packages execute all the purely lensing related tasks of \pythonpackage. This includes ray-shooting, solving the lens equation, arrival time computation and non-linear solvers to optimize lens models for specific image configurations. The module allows consistent integration with single and multi plane lensing and an arbitrary superpositions of lens models. There is a wide range of lens models available. For details we refer the reader to the online-documentation.
+
+To demonstrate the design of \texttt{LensModel}, we initialize a lens model and then execute some lensing calculations. First, we perform these calculations in a single-plane configuration \ref{sec:single_plane} and then in a multi-plane configuration \ref{sec:multi_plane}. Then we demonstrate the lens equation solver, that can be applied in both cases with the same API \ref{sec:lens_equation_solver}.
+
+\subsubsection{Single-plane lensing} \label{sec:single_plane}
+The default setting of \texttt{LensModel} is to operate in single lens plane mode, where the superpositions of multiple lens models are de-coupled. Below we provide and example of a lens model, that consists of a super-position of an elliptical power-law potential, an external shear and an additional singular isothermal sphere perturber. We initialize the \texttt{LensModel} class, define the parameters for each individual model and perform some standard lensing calculations, such as a backwards ray-shooting of an image plane coordinate, computation of the Fermat potential and evaluating the magnification.
+
+\lstinputlisting[language=Python]{py_sources/lens_model.txt}
+
+Additionally, the \texttt{LensModel} class allows to compute the Hessian matrix, shear and convergence, deflection angle and lensing potential. These routines are fully compatible with the \texttt{numpy} array structure and superposition of an arbitrary number of lens models.
+
+\subsubsection{Multi-plane lensing} \label{sec:multi_plane}
+The multi-plane setting of \texttt{LensModel} allows the user to place several deflectors at different redshifts. When not further specified, the default cosmology used is that of the \texttt{astropy} cosmology class. The API to access the lensing functionalities remains the same as for the single-plane setting \ref{sec:single_plane}. As an example, we take the same setting as in \ref{sec:single_plane} but place the singular isothermal sphere perturber at a lower redshift.
+\lstinputlisting[language=Python]{py_sources/multi_plane.txt}
+
+\subsubsection{Lens equation solver} \label{sec:lens_equation_solver}
+Solving the lens equation to compute the (multiple) image positions of a given source position can be conveniently performed within \texttt{LensModel} and is supported with a general instance of the \texttt{LensModel} class.
+\lstinputlisting[language=Python]{py_sources/lens_equation_solver.txt}
+
+Two lens models are shown in Figure \ref{fig:lens_model}. The source position of the example and the solutions of the lens equation (image positions) are marked.
+
+\subsection{\texttt{LightModel} module}
+\label{sec:light_model}
+The \texttt{LightModel} class provides the functionality to describe galaxy surface brightnesses. \texttt{LightModel} supports various analytic profiles as well as representations in shapelet basis sets. Any superposition of different profiles is supported. We refer to the online documentation for the full list of surface brightness profiles available and their parameterisation.
+
+As an example, we initialize two \texttt{LightModel} class, one with a spherical Sersic profile and one with an elliptical Sersic profile. We define the profile parameters and evaluate the surface brightness at a specific position. The two \texttt{LightModel} instances will later be used as the lens light and the source light.
+
+\lstinputlisting[language=Python]{py_sources/light_model.txt}
+
+\subsection{\texttt{PointSource} module}
+\label{sec:point_source_model}
+To accurately predict and model the positions and fluxes of point sources, different numerical procedures are needed compared to extended surface brightness features. The \texttt{PointSource} module manages the different options in describing point sources (e.g. in the image plane or source plane, with fixed magnification or allowed with individual variations thereof) and provides a homogeneous API to access image positions and magnifications. The \texttt{PointSource} class requires an instance of a \texttt{LensModel} class in case of lensed sources and arbitrary superpositions of point sources are allowed.
+
+In the example below, we create two instances of the \texttt{PointSource} class. One with a parameterization in the source plane and one with a parameterization in the image plane. The API to access the necessary information about the image positions and magnifications remain the same in both cases.
+
+\lstinputlisting[language=Python]{py_sources/point_source_model.txt}
+
+\subsection{\texttt{Data} module}
+\label{sec:data}
+The \texttt{Data} module consists of two main classes. The \texttt{Data} class stores and manages all the imaging data relevant information. This includes the coordinate frame, coordinate-to-pixel transformation (and the inverse), and, in the case of fitting, also noise properties for computing the likelihood of the data given the model. The \texttt{PSF} class handles the point spread function convolution. Supported are pixelised convolution kernels as well as some analytic profiles.
+\lstinputlisting[language=Python]{py_sources/data.txt}
+
+\subsection{\texttt{ImSim} module}
+\label{sec:imsim}
+At the core of the \texttt{IMSim} module is the \texttt{ImageModel} class. \texttt{ImageModel} is the interface to combine all the different components, \texttt{LensModel}, \texttt{LightModel}, \texttt{PointSource} and \texttt{Data} to model images. The \texttt{LightModel} can be used to model both lens light (un-lensed) and source light (lensed) components. \texttt{ImSim} supports all functionalities of each of those components. \texttt{ImageModel} is supported by the class \texttt{ImageNumerics} that specifies and executes the numerical options accessible. Among the numerical options are sub-pixel grid resolution ray-tracing and convolutions that can improve numerical accuracy in the presence of either small lensing perturbations and/or a highly variable surface brightness profile \citep[see e.g.][for the latter]{Tessore:2016}.
+
+\subsubsection{Image simulation} \label{sec:image_simulation}
+As an example, we simulate an image with an instance of \texttt{ImageModel} that use instances of the classes we created above. We can define two different \texttt{LightModel} instances for the lens and source light. We define the sub-pixel ray-tracing resolution and whether the PSF convolution is applied on the higher resolution ray-tracing grid or on the degraded pixel image.
+\lstinputlisting[language=Python]{py_sources/imsim.txt}
+
+Figure \ref{fig:example_quad} shows the simulated image of the example computed above with the single-plane lens model of Section \ref{sec:single_plane} (left panel) and for the same Sersic light profiles but with the multi-plane lens model of Section \ref{sec:multi_plane} in the right panel. To illustrate the numerical procedure in how \pythonpackage\ renders images, we provide another example consisting of a high resolution galaxy profile in Figure \ref{fig:computation_illustration}.
+
+\subsubsection{Linear inversion} \label{sec:linear_inversion}
+Parameters corresponding to an an amplitude of a surface brightness distribution have a linear response on the predicted flux values of pixels and can be inferred by a linear minimization based on the data \citep{Warren:2003eg}. \pythonpackage\ automatically identifies those parameters. The \texttt{ImSim} module comes with an option such that the linear parameters do not have to be provided when fitting a model to data. This can reduce the number of non-linear parameters significantly, depending on the source complexity to be modelled. In the example provided in Section \ref{sec:image_simulation}, we have 6 linear parameters, the 4 point source amplitudes and the amplitudes of the Sersic profile of the lens and source. To perform the linear inversion, noise properties of the data have to be known or assumed (see Section \ref{sec:likelihood}). There are different approaches in the literature that perform different types of semi-linear inversions \citep[e.g.][]{Suyu:2006, Vegetti:2009, Tagore:2014, Birrer2015_basis_set, Nightingale:2015}.
+
+In the example below, we add the noisy data to the \texttt{ImageModel} instance, then delete the knowledge about the linear parameters and solve for the linear coefficients based on the data.
+\lstinputlisting[language=Python]{py_sources/linear_inversion.txt}
+
+\subsubsection{Likelihood definition} \label{sec:likelihood}
+The likelihood of the data given a model $p(d_{\text{data}}|d_{\text{model}})$ is key in sampling the parameter posterior distribution (Section \ref{sec:sampling}) and also to perform the linear inversion (Section \ref{sec:linear_inversion}). The convention \pythonpackage\ uses to compute $p(d_{\text{data}}|d_{\text{model}})$ is
+\begin{equation} \label{eqn:likelihood}
+ \log p(d_{\text{data}}|d_{\text{model}}) = \sum_i \frac{(d_{\text{data,i}} - d_{\text{model,i}})^2}{2\sigma_{\text{i}}^2} + \text{const}.
+\end{equation}
+The constant term in equation \ref{eqn:likelihood} is not computed by \pythonpackage.
+The error in each pixel, $\sigma_{\text{i}}$, consists of a Gaussian background term, $\sigma_{\text{bkg}}$, and a Poisson term based on the count statistics of an individual pixel, $f_i$, such that $d_{\text{model,i}} / f_i$ is the Poisson error predicted by the model in the time units of the data, and writes
+\begin{equation}
+ \sigma_{i}^2 = \sigma_{\text{bkgd}}^2 + d_{\text{model,i}}/f_i.
+\end{equation}
+In our example of \ref{sec:image_simulation}, $f_i$ is the exposure time for each pixel and $\sigma_{\text{bkgd}}$ is the background rms value. CCD gain and other components may be incorporated into $f_i$.
+
+The linear inversion requires an estimate of the noise term, $\sigma_{i}^2$, without the knowledge of the model, $d_{\text{model,i}}$. For this particular step, the linear inversion is performed based on the Poisson noise expected by the data itself
+\begin{equation}
+ \sigma_{\text{linear, i}}^2 = \sigma_{\text{bkgd}}^2 + d_{\text{data,i}}/f_i.
+\end{equation}
+
+The analytic marginalization over the covariance matrix of the linear inversion (Gaussian approximation) can be added \citep[see][for further information]{Birrer2015_basis_set}. Additionally, pixel masks can be set and additional error terms can be plugged in, if required. \pythonpackage\ provides a direct access to the likelihood of the data given a model and performs all the required computations:
+\lstinputlisting[language=Python]{py_sources/likelihood.txt}
+
+\subsection{\texttt{Sampling} module} \label{sec:sampling}
+The \texttt{Sampling} module manages the execution of the non-linear fitter (e.g. PSO) and the parameter inference (e.g. emcee). The module is built up such that the user can plug in their own customized sampler.
+The \texttt{Sampling} Module consists of three major classes: The \texttt{Likelihood} class manages the specific likelihood function, consisting of the imaging likelihood and potential other data and constraints and provides the interface to the sampling routines. The \texttt{Param} class handles all the model choices and the parameters going in it and supports the \texttt{Likelihood} class. Together they handle all the model choices of the user and mitigate them to the external modules and from the external modules back to \pythonpackage.
+Finally, the \texttt{Sampler} class gives specific examples how the \texttt{Likelihood} class can be used to execute specific samplers.
+
+\subsubsection{Parameter handling}
+External sampling modules require a likelihood function that is consistent with their own parameter handling, mostly in ordered arrays. The likelihood in Section \ref{sec:likelihood} requires \pythonpackage\ conventions in terms of lists of keyword arguments.
+The \texttt{Param} class is the API of the \pythonpackage\ conventions of parameters used in the \texttt{ImSim} module and the standardized parameter arrays used by external samplers (such as \texttt{CosmoHammer} or \texttt{emcee}). The \texttt{Param} class enables the user further to set options:
+\begin{enumerate}
+ \item keep certain parameters fixed
+ \item handling of the linear parameters
+ \item provide additional constraints on the modelling (e.g. fix source profile to point source position etc.)
+\end{enumerate}
+Below we provide an example where initialize a \texttt{Param} class consistent with the options chosen in the previous sections and where we specify fixed and joint parameters. We then perform the mapping between \pythonpackage\ conventions and formats being used by external sampling modules.
+\lstinputlisting[language=Python]{py_sources/parameters.txt}
+
+\subsubsection{Likelihood execution}
+The \texttt{Likelihood} class combines the \texttt{ImSim} module and the \texttt{Param} class to allow a direct access to the \pythonpackage\ likelihood from an external sampler. In addition, the \texttt{Likelihood} class allows to a simultaneous handling of multi-band data and to incorporate other data, such as time-delay measurements. Below we initialize a \texttt{Likelihood} class and execute the likelihood function from an ordered array of parameters.
+\lstinputlisting[language=Python]{py_sources/likelihood_class.txt}
+
+\subsubsection{Sampling the parameter space}
+The \texttt{Sampler} class consists of examples of different samplers that can be used. As an example, we run a Particle Swarm Optimization (PSO) with the previous instance of the \texttt{Likelihood} class.
+\lstinputlisting[language=Python]{py_sources/sampler.txt}
+Additionally to the example mentioned above, hard bounds on the upper and lower range in parameter space can be provided.
+
+\subsection{\texttt{Workflow} module} \label{sec:workflow}
+
+The \texttt{Workflow} module allows the user to perform a sequence of PSO and/or MCMC runs. The user can run the sequence of fitting routines with taking the results of the previous routine as an input of the next one. The user can specify (optionally) to keep one or multiple parameter classes (lens model, source model, lens light model and source model) fixed during the fitting process of individual runs. Iterative PSF optimization can also be injected within the fitting sequence.
+The \texttt{FittingSequence} class enables a reliable execution of tasks on non-local platforms, such as hight performance clusters and supports parallel executions of likelihood evaluations with the MPI portocoll built in \texttt{CosmoHammer} \citep{Akeret:2013nl}.
+
+\subsection{\texttt{GalKin} module}
+\label{sec:galkin}
+Kinematics of the lensing galaxy can provide additional constraints on the lens model and can help to reduce systematics inherent in lensing. The \texttt{GalKin} module provides the support to self-consistently model and predict the velocity dispersion of the lensing galaxy given the surface brightness profile and the lens model upon which the image modelling consists of. The kinematics require the knowledge/assumption of the 3d light and mass profiles. Not all lens and light models can be analytically de-projected. In these cases, \pythonpackage\ performs a Multi-Gaussian decomposition \citep{Cappellari:2002_mge} and the de-projection is performed on the individual Gaussian components. The kinematics is computed with spherical Jeans anisotropy modelling (JAM). \pythonpackage\ supports the stellar anisotropy profiles described in \cite{MamonLokas:2005}. Observational conditions, i.e. the PSF and the aperture are modelled with a spectral rendering approach described in \cite{Birrer:2017a}.
+
+\section{Modelling examples} \label{sec:model_examples}
+The design of \pythonpackage\ and the core modules described in Section \ref{sec:core_modules} allow a wide range of modelling tasks to be executed. We demonstrated in the previous section how to combine the modules to enable a joint sampling of point source, extended source, lens light and lens deflector model. In this section, we provide five examples in different sub-domains where we demonstrate the capabilities of \pythonpackage, source reconstruction \ref{sec:source_reconstruction}, image de-convolution \ref{sec:deconvolution}, galaxy structural analysis \ref{sec:galfitting}, quasar-host galaxy decomposition \ref{sec:qso_host_decomp} and multiband fitting \ref{sec:multi_band_fitting}. Detailed example workflows for the different applications are presented in the online documentation.
+
+\subsection{Source reconstruction} \label{sec:source_reconstruction}
+Reconstruction techniques are required to describe the source morphology at the scales relevant for given data. The needed complexity may strongly depend on the type of galaxy being lensed and the resolution and signal-to-noise of the data. In Figure \ref{fig:de_lens}, we provide an example where we reconstruct a source galaxy with complex morphology with a Shapelet basis set with maximum polynomial order, $n_{\text{max}} = 29$. We are able to represent the features present in the image. The reconstruction of the source reproduces the macroscopic morphology of the input galaxy.
+
+\pythonpackage supports a wide range in models and also allows to superpose analytical models with basis sets \citep[see e.g.][]{Birrer:J1206}. The reconstruction for a given set of lens and light model parameters is performed by the linear lens inversion (Section \ref{sec:linear_inversion}). \pythonpackage\ does not provide a Bayesian evidence optimization itself, but this can be performed by the user in post-processing \citep[e.g.][]{Birrer:J1206}.
+The performance of the source reconstruction capabilities has been compared with the \texttt{SLIT} software \citep{Joseph:2018} and was found to behave well in speed and reconstruction accuracy.
+
+\subsection{Image de-convolution} \label{sec:deconvolution}
+The source reconstruction in Section \ref{sec:source_reconstruction} is a combination of two distinct steps: a de-lensing (effectively a non-linear mapping between the image plane and the basis set represented in the source plane) and a de-convolution. By removing the class instance of \texttt{LensModel} from the \texttt{ImSim} module or by removing all the lens models, the linear inversion method built in \pythonpackage\ effectively performs a de-convolution. This is demonstrated in Figure \ref{fig:de_convolve} where we take a scaled version of the same galaxy as for Figure \ref{fig:de_lens} with a PSF convolution kernel and apply the same shapelet basis set to describe the image.
+
+\subsection{Galaxy structural analysis} \label{sec:galfitting}
+\pythonpackage\ can be used to extract structural components from galaxy images. This is yet another example where the lensing capabilities of \pythonpackage\ do not have to be used necessarily. In terms of flexibility, \pythonpackage\ contains similar features as the well established software \texttt{GALFIT} \citep{Peng:2002_galfit, Peng:2010_galfit}. \pythonpackage\ provides an open source alternative in \Python. We also emphasize that \pythonpackage\ comes along with an MCMC algorithm that can provide covariances between inferred parameters. Additionally, \pythonpackage\ is able to extract structural parameters from lensed and highly distorted galaxies.
+
+\subsection{Quasar-host galaxy decomposition} \label{sec:qso_host_decomp}
+In the case where the galaxy contains a quasar, simultaneous decompositions of the host galaxy and a point source component can be performed with \pythonpackage. Figure \ref{fig:quasar_host_decomposition} demonstrates this capability. A joint fitting of two component Sersic profile for the host galaxy and a quasar point source were used as an input model and the different components were recovered in the modelling.
+
+\subsection{Multiband fitting} \label{sec:multi_band_fitting}
+\pythonpackage\ is explicitly designed to simultaneously model lenses in multiple imaging bands. The coordinate system definition is image independent and can be shared among multiple data sets. The \texttt{ImSim} module (see \ref{sec:imsim}) contains a class \texttt{Multiband} that naturally handles an arbitrary number of data sets, all with their own descriptions (see \ref{sec:data}). The \texttt{Multiband} class shares the same API as the \texttt{ImageModel} class for single images and thus allows to be used with the \texttt{Sampling} and \texttt{Workflow} modules. The non-linear parameters, such as lens model, point source position and light profile shapes are shared among the different bands. The linear parameters, however, are optimized for each band individually. This allows e.g. for different galaxy morphologies in different wavelength. The multi-band approach allows also to model a set of single exposures directly rather than rely on combined post-processed data products. This approach can also be used to model disjoint patches of a cluster arc without requiring a large image.
+
+Precise relative astrometry may be required to perform the lens modelling in a joint coordinate frame. \pythonpackage\ comes with an iterative routine to align coordinate frames from different bands given a shared model description. This can be used to align images to determine e.g. a point source or the lensing galaxy light center.
+
+\section{Science applications of \pythonpackage}
+\label{sec:applications}
+
+In this section we provide science examples that \pythonpackage\ has enabled. In particular, we will highlight specific settings within \pythonpackage\ that were required to conduct the analysis in the domain of substructure lensing, time-delay cosmography and cosmic shear measurements.
+
+As the size and diversity of known strong lensing systems increases, a wider variety of science topics can be tackled, such as time-delay cosmography with lensed SNIa \cite{Grillo:2018}, single star micro-lensing cluster arcs \cite{Kelly:2018}, double source-plane cosmography \cite{Gavazzi:2008, Collett:2014} or cosmic shear measurements with Einstein rings \citep{Birrer2018_cosmic_shear}.
+
+We emphasize that the choices when modelling a specific system remains the task of the user. \pythonpackage\ may facilitate scientific analysis of strong lenses, but should be accompanied by rigorous testing of the specific method applied, desirably through simulations. \pythonpackage\ allows to simulate accurate mock data with very complex structure in lens and source and therefore facilitate the exploration of systematics in the analysis.
+
+\subsection{Lensing substructure quantification}
+
+Modeling substructure within a deflector can be done by combining multiple lens models (e.g. a main deflector, external shear and a small clump) within one instance of \texttt{LensModel} (Section \ref{sec:lens_model}). Substructure can be represented by a NFW profile, truncated NFW profile or a variety of other profiles implemented in \pythonpackage. A superposition of an arbitrary number of lens profiles based on a mass function is possible and has been used by \cite{Gilman:20117_abc}. The multi-plane setting also allows to model the full line-of-sight contribution of field halos.
+
+Lensing substructure is expected to perturb the deflection angles at the milliarcsecond scale, which is e.g. below the pixel resolution of an HST image. To detect and/or quantify those astrometric anomalies, the numerical description in the modelling must accurately capture these small effects. Sub-grid resolution ray-tracing is required to perform such analysis on HST images. Accuracy comes with a computational cost and \pythonpackage\ enables the user to set the right numerical description for the problem in hand.
+
+Additionally, the source surface brightness resolution captured by the model must be sufficiently high resolution not to falsely attribute residuals in the image reconstruction to lensing substructure when they originate from missing scales in the source reconstruction. In \cite{Birrer:2017a}, we specifically enhanced the source reconstruction resolution where we proposed a clump to be present.
+
+\subsection{Time-delay cosmography}
+The workflow API facilitates a fast exploration of various choices and options in all the aspects of lens modelling. It is necessary to explore the degeneracies inherent in lensing and their impact on the cosmographic inference. In \cite{Birrer2016_mst}, we explored the source scale degeneracy by explicitly mapping out the source size with the shapelet scale parameter. In \cite{Birrer:J1206} we combined 128 different model settings based on their relative Bayesian Information Criteria to provide a posterior distribution reflecting uncertainties in the model choices. The built-in time-delay likelihood and the \texttt{GalKin} module provide the full support for a fully self-consistent analysis of imaging, time-delay and kinematic data to derive cosmographic constraints. 
+
+\subsection{Cosmic shear measurements}
+We applied \pythonpackage\ to model and reconstruct the non-linear shear distortions that couple to the main deflector in an Einstein ring lens in the COSMOS field \citep{Birrer_2017los}. The detailed modelling of the HST imaging of the Einstein ring allowed us to constrain the shear parameters to very high precision. \pythonpackage\ is aimed to have the flexibility to model hundreds or even the aimed thousands of Einstein ring lenses expected in future space based surveys to provide comparable and complementary cosmic shear measurements, as been fore-casted by \cite{Birrer2018_cosmic_shear}.
+
+\section{Conclusion} \label{sec:conclusion}
+We have presented \pythonpackage\ , a multi-purpose open source lens modelling software package in \Python. We outlined its design and the major supported features. \pythonpackage\ has been used to study the expansion history of the universe with time-delay cosmography and to probe dark matter properties by substructure lensing. The modular nature of \pythonpackage\ provides support for a wide range of scientific studies. We have provided modelling and science examples to illustrate some of the capabilities of \pythonpackage\ . The software is distributed under the MIT license. The software is actively used and maintained and the latest stable release will be distributed through the python packaging index. We refer to the online documentation, where the latest starter guide, example notebooks, source code and installation guidelines can be found. 
+
+\section{Publicly available lens modelling software} \label{app:software}
+A collection of public available lens modelling software presented in the literature is listed below. We refer to specific literature and online documentations for the scope of each individual software and its current development status.
+
+\begin{itemize}
+ \item \texttt{gravlens} \citep{gravlens_ascl}}: A standard lens model software widely used in the community. Includes a wide range of basic lensing calculations and comes with an extension that adds many routines for modeling strong lenses.
+ \item \texttt{lenstool} \citep{lenstool_ascl}}: A lensing software for modeling mass distribution of galaxies and clusters. Comes with a Bayesian inference method.
+ \item \texttt{PixeLens} \citep{pixeLens_ascl}}: A program for reconstructing gravitational lenses from multiple-imaged point sources. It can explore ensembles of lens-models consistent with given data on several different lens systems at once.
+ \item \texttt{glafic} \citep{Oguri:2010}}: Support for many mass models and parametric light models. Simulats lensed extended images with PSF convolution.
+ \item \texttt{LENSED} \citep{Tessore:2016}}: Performs forward parametric modelling of strong lenses. Supports computing on GPUs.
+ \item \texttt{AutoLens} \citep{Nightingale:2018}}: An automated modeling suite for the analysis of galaxy-scale strong gravitational lenses. Incorporates an adaptive grid source reconstruction technique.
+ \item \texttt{Ensai} \citep{Hezaveh:2017}}: Estimating parameters of strong gravitational lenses with convolutional neural networks.
+ \item \texttt{pySPT} \citep{Wertz2018_pySPT}}: A package dedicated to the Source Position Transformation (SPT). The main goal of pySPT is to provide a tool to quantify the systematic errors that are introduced by the SPT in lens modeling.
+\end{itemize}
+
+ 
+
+\end{document}
+
+\endinput
+

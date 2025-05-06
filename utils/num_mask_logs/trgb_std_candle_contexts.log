@@ -1,0 +1,247 @@
+Masked values and their context for paper: trgb_std_candle
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 9 replacements
+  ROUNDED: 1 replacements
+  EXACT: 10 replacements
+  ADDITIONAL: 22 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (9):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2.12\cdot
+  Numerical Value: 2.12
+  Line: 59
+  Context: the proper motion ellipse left 2.12\cdot mu_ delta 1 23 right
+
+Replacement #2:
+  Expression: 1.6\cdot
+  Numerical Value: 1.6
+  Line: 59
+  Context: 1 23 right 2 left 1.6\cdot mu_ alpha 0 66 right
+
+Replacement #3:
+  Expression: 1.5\%
+  Numerical Value: 1.5
+  Line: 8
+  Context: 0 029 mathrm syst mag 1.5\% in distance Further study of
+
+Replacement #4:
+  Expression: 36\%
+  Numerical Value: 36
+  Line: 54
+  Context: which amounted to sim 30 36\% of stars depending on the
+
+Replacement #5:
+  Expression: 33\%
+  Numerical Value: 33
+  Line: 66
+  Context: and Bseq stars which are 33\% in the LMC and 16
+
+Replacement #6:
+  Expression: 16\%
+  Numerical Value: 16
+  Line: 66
+  Context: 33 in the LMC and 16\% in the SMC respectively and
+
+Replacement #7:
+  Expression: 26\%
+  Numerical Value: 26
+  Line: 66
+  Context: based on pulsation models citep 26\% Wood15 Figure ref fig AgeAmplitude
+
+Replacement #8:
+  Expression: 100\%
+  Numerical Value: 100
+  Line: 101
+  Context: giants in the SMC nearly 100\% of SMC stars near the
+
+Replacement #9:
+  Expression: 1.5\%
+  Numerical Value: 1.5
+  Line: 190
+  Context: mathrm syst mag total error 1.5\% in distance based on the
+
+
+ROUNDED REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: approximately 0.026
+  Numerical Value: 0.026
+  Line: 57
+  Context: with an rms scatter of approximately 0.026 mag in line with the
+
+
+EXACT REPLACEMENTS (10):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 14.969
+  Line: 166
+  Context: for the SMC we find 14.969 pm0 037 mag vs their
+
+Replacement #2:
+  Expression: 0.009
+  Line: 109
+  Context: measured mio 14 911 pm 0.009 mag for the Bseq which
+
+Replacement #3:
+  Expression: 0.009
+  Line: 164
+  Context: I 0 14 911 pm 0.009 mathrm stat pm 0 008
+
+Replacement #4:
+  Expression: 0.009
+  Line: 188
+  Context: find mio 14 911 pm 0.009 mathrm stat pm 0 008
+
+Replacement #5:
+  Expression: 15.16
+  Line: 31
+  Context: 2 0 71 log P_1 15.16 mag with a dispersion of
+
+Replacement #6:
+  Expression: 16.91
+  Line: 31
+  Context: 2 1 48 log P_1 16.91 mag with a dispersion of
+
+Replacement #7:
+  Expression: 0.71
+  Line: 31
+  Context: 1 68 log P_1 2 0.71 log P_1 NUMERICAL_RESULT mag with
+
+Replacement #8:
+  Expression: 36
+  Line: 134
+  Context: yield V I _0 2 36 pm0 32 log P_1 1
+
+Replacement #9:
+  Expression: 36
+  Line: 134
+  Context: I _0 2 28 pm0 36 log P_1 1 6 1
+
+Replacement #10:
+  Expression: 36
+  Line: 150
+  Context: propto 2 28 pm 0 36 mathrm mag dex to determine
+
+
+ADDITIONAL REPLACEMENTS (22):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -4.057
+  Line: 8
+  Context: TRGB calibration to date Mih -4.057 pm 0 019 mathrm stat
+
+Replacement #2:
+  Expression: -1.287
+  Line: 31
+  Context: computed using W_ VI I -1.287 V I which is reddening
+
+Replacement #3:
+  Expression: -1.68
+  Line: 31
+  Context: polynomial fits are for Aseq -1.68 log P_1 2 NUMERICAL_RESULT log
+
+Replacement #4:
+  Expression: -0.68
+  Line: 31
+  Context: 12 mag and for Bseq -0.68 log P_1 2 1 48
+
+Replacement #5:
+  Expression: -0.02
+  Line: 33
+  Context: oscillation amplitudes sim 0 01 -0.02 mag near the TRGB Interestingly
+
+Replacement #6:
+  Expression: -73.1
+  Line: 49
+  Context: dec CIRCLE ICRS 12 5 -73.1 3 3 1 AND S
+
+Replacement #7:
+  Expression: -0.0296
+  Line: 57
+  Context: obtained F814W I_ text OGLE -0.0296 pm 0 0004 left V
+
+Replacement #8:
+  Expression: -1.6
+  Line: 57
+  Context: 0004 left V I _0 -1.6 right 0 0027 pm 0
+
+Replacement #9:
+  Expression: -0.0027
+  Line: 57
+  Context: I _0 1 6 right -0.0027 pm 0 0001 mag with
+
+Replacement #10:
+  Expression: -0.7
+  Line: 65
+  Context: LMC stars near Fe H -0.7 dex and the SMC near
+
+Replacement #11:
+  Expression: -1.0
+  Line: 65
+  Context: the SMC near Fe H -1.0 citep GarciaPerez2016 Additionally Fig ref
+
+Replacement #12:
+  Expression: -0.02
+  Line: 118
+  Context: that mio is sim0 01 -0.02 mag brighter than mic in
+
+Replacement #13:
+  Expression: -72.94
+  Line: 122
+  Context: SMC center 12 44 circ -72.94 circ citep Graczyk2020 The annular
+
+Replacement #14:
+  Expression: -1.4
+  Line: 134
+  Context: NUMERICAL_RESULT pm0 32 log P_1 -1.4 1 75 pm0 02 mag
+
+Replacement #15:
+  Expression: -1.6
+  Line: 134
+  Context: 28 pm0 NUMERICAL_RESULT log P_1 -1.6 1 74 pm0 02 mag
+
+Replacement #16:
+  Expression: -4.066
+  Line: 148
+  Context: using the Bseq sample Mio -4.066 pm 0 018 mathrm stat
+
+Replacement #17:
+  Expression: -4.025
+  Line: 148
+  Context: the LMC where A24 reported -4.025 pm 0 014 mathrm stat
+
+Replacement #18:
+  Expression: -4.018
+  Line: 154
+  Context: M_ mathrm I OGLE 0 -4.018 pm 0 015 mathrm stat
+
+Replacement #19:
+  Expression: -4.018
+  Line: 156
+  Context: magnitude in the SMC Mio -4.018 pm 0 044 pm 0
+
+Replacement #20:
+  Expression: -4.050
+  Line: 156
+  Context: dimmer than the results of -4.050 pm 0 021 pm 0
+
+Replacement #21:
+  Expression: -4.057
+  Line: 190
+  Context: SMC to date of Mih -4.057 pm 0 019 mathrm stat
+
+Replacement #22:
+  Expression: -4.025
+  Line: 192
+  Context: F814W syn 0 mathrm LMC -4.025 pm 0 014 mathrm stat
+
+

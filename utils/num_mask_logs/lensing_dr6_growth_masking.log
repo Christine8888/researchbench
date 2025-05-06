@@ -1,0 +1,207 @@
+2025-05-05 19:38:52,882 - INFO - Logging to file: utils/num_mask_logs/lensing_dr6_growth_masking.log
+2025-05-05 19:38:52,882 - INFO - Found 4 unique numerical values to mask
+2025-05-05 19:38:53,336 - INFO - Made 202 replacements in the text
+2025-05-05 19:38:53,337 - INFO - Saved masked text to papers/masked_texts/lensing_dr6_growth.txt
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #1: '\mathrm{max}=3000' at line 169
+2025-05-05 19:38:53,337 - INFO -   Context: maximum CMB multipole of ell_ \mathrm{max}=3000 a downgraded pixel resolution of
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #2: '\mathrm{sky}= 0.00138' at line 178
+2025-05-05 19:38:53,337 - INFO -   Context: further sky fraction of f_ \mathrm{sky}= 0.00138 The resulting final mask is
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #3: '\mathrm{sky}= 0.23' at line 178
+2025-05-05 19:38:53,337 - INFO -   Context: a sky fraction of f_ \mathrm{sky}= 0.23 subsection Pixel window deconvolution The
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #4: '2.3\%' at line 10
+2025-05-05 19:38:53,337 - INFO -   Context: CMB lensing power spectrum at 2.3\% precision 43 sigma significance using
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #5: '2.3\%' at line 40
+2025-05-05 19:38:53,337 - INFO -   Context: at state of the art 2.3\% precision corresponding to a measurement
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #6: '60\%' at line 178
+2025-05-05 19:38:53,337 - INFO -   Context: leaves in this initial step 60\% of the full sky as
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #7: '40\%' at line 178
+2025-05-05 19:38:53,337 - INFO -   Context: more conservative mask retaining initially 40\% of the full sky for
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #8: '60\%' at line 178
+2025-05-05 19:38:53,337 - INFO -   Context: using these Galactic masks as 60\% and 40 masks bds Galactic
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #9: '40\%' at line 178
+2025-05-05 19:38:53,337 - INFO -   Context: Galactic masks as 60 and 40\% masks bds Galactic masks blake
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #10: '10\%' at line 193
+2025-05-05 19:38:53,337 - INFO -   Context: recovered lensing signal by around 10\% we account for this well
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #11: '0.1\%' at line 220
+2025-05-05 19:38:53,337 - INFO -   Context: a shift of less than 0.1\% The noise power spectra N
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #12: '10\%' at line 530
+2025-05-05 19:38:53,337 - INFO -   Context: off diagonal correlations typically below 10\% section Null and consistency tests
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #13: '0.5\%' at line 542
+2025-05-05 19:38:53,337 - INFO -   Context: less than 0 2 sigma 0.5\% although biases rise when including
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #14: '40\%' at line 749
+2025-05-05 19:38:53,337 - INFO -   Context: that include a more conservative 40\% Galactic dust mask in addition
+2025-05-05 19:38:53,337 - INFO - Latex Replacement #15: '60\%' at line 749
+2025-05-05 19:38:53,337 - INFO -   Context: dust mask in addition to 60\% our baseline The footprints of
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #16: '40\%' at line 749
+2025-05-05 19:38:53,338 - INFO -   Context: the baseline mask and the 40\% mask are shown in Figure
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #17: '40\%' at line 749
+2025-05-05 19:38:53,338 - INFO -   Context: and red respectively fk The 40\% is otherwise prepared in the
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #18: '60\%' at line 749
+2025-05-05 19:38:53,338 - INFO -   Context: the same way as the 60\% mask as described in Section
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #19: '40\%' at line 751
+2025-05-05 19:38:53,338 - INFO -   Context: when measuring lensing with a 40\% mask which cuts out more
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #20: '40\%' at line 751
+2025-05-05 19:38:53,338 - INFO -   Context: noise levels consistent with the 40\% mask We find a passing
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #21: '60\%' at line 758
+2025-05-05 19:38:53,338 - INFO -   Context: our analysis we used a 60\% dust mask We subsequently decided
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #22: '70\%' at line 758
+2025-05-05 19:38:53,338 - INFO -   Context: and consistency tests with a 70\% mask and if these passed
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #23: '70\%' at line 758
+2025-05-05 19:38:53,338 - INFO -   Context: we intended to switch to 70\% as the baseline Once the
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #24: '10\%' at line 778
+2025-05-05 19:38:53,338 - INFO -   Context: and extended range passing at 10\% and 74 with the Kolmogorov
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #25: '74\%' at line 778
+2025-05-05 19:38:53,338 - INFO -   Context: range passing at 10 and 74\% with the Kolmogorov Smirnov test
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #26: '10\%' at line 788
+2025-05-05 19:38:53,338 - INFO -   Context: it only contributes less than 10\% at each CMB multipole to
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #27: '3.5\%' at line 839
+2025-05-05 19:38:53,338 - INFO -   Context: error on this region or 3.5\% while at the time of
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #28: '68\%' at line 860
+2025-05-05 19:38:53,338 - INFO -   Context: 1 013 pm0 023 quad 68\% mathrm limit end equation from
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #29: '13\%' at line 863
+2025-05-05 19:38:53,338 - INFO -   Context: PTE for chi 2 of 13\% The equivalent PTE for our
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #30: '17\%' at line 864
+2025-05-05 19:38:53,338 - INFO -   Context: by A_ mathrm lens is 17\% Note that the PTE is
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #31: '12\%' at line 870
+2025-05-05 19:38:53,338 - INFO -   Context: fk with a PTE of 12\% For comparison the latest CMB
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #32: '67\%' at line 940
+2025-05-05 19:38:53,338 - INFO -   Context: over a sky fraction of 67\% fk used in the Planck
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #33: '67\%' at line 956
+2025-05-05 19:38:53,338 - INFO -   Context: texttt NPIPE analysis mask covering 67\% of the sky and multipole
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #34: '2.3\%' at line 1000
+2025-05-05 19:38:53,338 - INFO -   Context: the spectrum is measured to 2.3\% precision 43 sigma significance over
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #35: '1.3\%' at line 1046
+2025-05-05 19:38:53,338 - INFO -   Context: 1 _ L was approximately 1.3\% lower than the baseline corresponding
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #36: '2.5\%' at line 1071
+2025-05-05 19:38:53,338 - INFO -   Context: an increase of at most 2.5\% in error bars and the
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #37: '3.5\%' at line 1071
+2025-05-05 19:38:53,338 - INFO -   Context: larger increase of up to 3.5\% In the baseline analysis range
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #38: '51\%' at line 1107
+2025-05-05 19:38:53,338 - INFO -   Context: correlated at a level of 51\% while the 150 GHz channels
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #39: '10\%' at line 1107
+2025-05-05 19:38:53,338 - INFO -   Context: exhibit lower correlations ranging from 10\% to 18 This difference can
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #40: '18\%' at line 1107
+2025-05-05 19:38:53,338 - INFO -   Context: correlations ranging from 10 to 18\% This difference can be attributed
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #41: '0.2\%' at line 1108
+2025-05-05 19:38:53,338 - INFO -   Context: power spectrum is less than 0.2\% in our baseline analysis range
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #42: '2.3\%' at line 1110
+2025-05-05 19:38:53,338 - INFO -   Context: of error compared to our 2.3\% statistical uncertainty in our lensing
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #43: '0.1\%' at line 1125
+2025-05-05 19:38:53,338 - INFO -   Context: power spectrum is less than 0.1\% compared to our MV baseline
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #44: '15\%' at line 1141
+2025-05-05 19:38:53,338 - INFO -   Context: MC correction constitutes a 10 15\% effect however it is well
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #45: '20\%' at line 1141
+2025-05-05 19:38:53,338 - INFO -   Context: applied is lower by 10 20\% section Lensing power spectrum biases
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #46: '50\%' at line 1313
+2025-05-05 19:38:53,338 - INFO -   Context: read off several interesting redshifts 50\% of signal is from 1
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #47: '67\%' at line 1313
+2025-05-05 19:38:53,338 - INFO -   Context: 1 16 z 4 09 67\% of signal is from 0
+2025-05-05 19:38:53,338 - INFO - Latex Replacement #48: '95\%' at line 1313
+2025-05-05 19:38:53,339 - INFO -   Context: 88 z 5 44 and 95\% of signal comes from z
+2025-05-05 19:38:53,339 - INFO - Rounded Replacement #1: '~3.2' at line 949
+2025-05-05 19:38:53,339 - INFO -   Context: normalization see for example Section ~3.2 1 of citealt Planck 2018
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #1: '0.818' at line 10
+2025-05-05 19:38:53,339 - INFO -   Context: of S mathrm CMBL _8 0.818 pm0 022 from ACT DR6
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #2: '0.818' at line 47
+2025-05-05 19:38:53,339 - INFO -   Context: as S mathrm CMBL _8 0.818 pm0 022 This key result
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #3: '0.818' at line 922
+2025-05-05 19:38:53,339 - INFO -   Context: equation S mathrm CMBL _8 0.818 pm 0 022 0 830
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #4: '0.818' at line 980
+2025-05-05 19:38:53,339 - INFO -   Context: find S text CMBL _8 0.818 pm 0 022 as our
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #5: '0.818' at line 1003
+2025-05-05 19:38:53,339 - INFO -   Context: of S mathrm CMBL _8 0.818 pm0 022 from ACT CMB
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #6: '0.818' at line 1266
+2025-05-05 19:38:53,339 - INFO -   Context: constraints S mathrm CMBL _8 0.818 pm0 022 subsection Curl results
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #7: '.022' at line 10
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 from ACT DR6 CMB lensing
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #8: '.022' at line 47
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 This key result is illustrated
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #9: '0.022' at line 505
+2025-05-05 19:38:53,339 - INFO -   Context: increases from 0 021 to 0.022 when we include the additional
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #10: '0.022' at line 922
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm CMBL _8 NUMERICAL_RESULT pm 0.022 0 830 pm 0 020
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #11: '.022' at line 925
+2025-05-05 19:38:53,339 - INFO -   Context: CMBL _8 0 809 pm0 .022 abds This consistency of S
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #12: '0.022' at line 980
+2025-05-05 19:38:53,339 - INFO -   Context: text CMBL _8 NUMERICAL_RESULT pm 0.022 as our baseline result from
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #13: '.022' at line 1003
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 from ACT CMB lensing alone
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #14: '0.022' at line 1073
+2025-05-05 19:38:53,339 - INFO -   Context: increases from 0 021 to 0.022 when we include the ACT
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #15: '.022' at line 1266
+2025-05-05 19:38:53,339 - INFO -   Context: CMBL _8 0 814 pm0 .022 consistent with the baseline constraints
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #16: '.022' at line 1266
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 subsection Curl results summary label
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #17: '1.013' at line 10
+2025-05-05 19:38:53,339 - INFO -   Context: amplitude of A_ mathrm lens 1.013 pm0 023 relative to the
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #18: '1.013' at line 45
+2025-05-05 19:38:53,339 - INFO -   Context: amplitude of A_ mathrm lens 1.013 pm0 023 If we fit
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #19: '1.013' at line 860
+2025-05-05 19:38:53,339 - INFO -   Context: We find begin equation Alens 1.013 pm0 023 quad NUMERICAL_RESULT mathrm
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #20: '1.013' at line 1003
+2025-05-05 19:38:53,339 - INFO -   Context: lensing amplitude A_ mathrm lens 1.013 pm0 023 relative to the
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #21: '.023' at line 10
+2025-05-05 19:38:53,339 - INFO -   Context: A_ mathrm lens NUMERICAL_RESULT pm0 .023 relative to the textit Planck
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #22: '.023' at line 10
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm lens 1 005 pm0 .023 relative to the text ACT
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #23: '.023' at line 45
+2025-05-05 19:38:53,339 - INFO -   Context: A_ mathrm lens NUMERICAL_RESULT pm0 .023 If we fit instead to
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #24: '.023' at line 45
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm lens 1 005 pm0 .023 item From our measurement of
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #25: '.023' at line 860
+2025-05-05 19:38:53,339 - INFO -   Context: begin equation Alens NUMERICAL_RESULT pm0 .023 quad NUMERICAL_RESULT mathrm limit end
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #26: '.023' at line 868
+2025-05-05 19:38:53,339 - INFO -   Context: equation Alens 1 016 pm0 .023 end equation NS using an
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #27: '.023' at line 882
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm lens 1 005 pm0 .023 We shall explore the consequences
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #28: '.023' at line 1003
+2025-05-05 19:38:53,339 - INFO -   Context: A_ mathrm lens NUMERICAL_RESULT pm0 .023 relative to the textit Planck
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #29: '0.023' at line 1003
+2025-05-05 19:38:53,339 - INFO -   Context: mathrm lens 1 016 pm 0.023 for the extended range of
+2025-05-05 19:38:53,339 - INFO - Exact Replacement #30: '0.023' at line 1073
+2025-05-05 19:38:53,339 - INFO -   Context: amplitude increase from sigma Alens 0.023 to sigma Alens 0 0256
+2025-05-05 19:38:53,339 - INFO - Additional Replacement #1: '-112' at line 60
+2025-05-05 19:38:53,339 - INFO -   Context: two frequency bands f090 77 -112 GHz f150 124 172 GHz
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #2: '-172' at line 60
+2025-05-05 19:38:53,340 - INFO -   Context: 77 112 GHz f150 124 -172 GHz The observations were made
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #3: '-05' at line 68
+2025-05-05 19:38:53,340 - INFO -   Context: observed in the period 2017 -05 10 to 2021 06 18
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #4: '-10' at line 68
+2025-05-05 19:38:53,340 - INFO -   Context: in the period 2017 05 -10 to 2021 06 18 Samples
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #5: '-06' at line 68
+2025-05-05 19:38:53,340 - INFO -   Context: 2017 05 10 to 2021 -06 18 Samples contaminated by detector
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #6: '-18.' at line 68
+2025-05-05 19:38:53,340 - INFO -   Context: 05 10 to 2021 06 -18. Samples contaminated by detector glitches
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #7: '-10' at line 173
+2025-05-05 19:38:53,340 - INFO -   Context: a threshold of roughly 4 -10 mJy corresponding to an SNR
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #8: '-64' at line 462
+2025-05-05 19:38:53,340 - INFO -   Context: times UV _ LM nonumber -64 sum 4 _ i 1
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #9: '-2018' at line 656
+2025-05-05 19:38:53,340 - INFO -   Context: CMB maps made from 2017 -2018 observations with maps from 2018
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #10: '-2021' at line 656
+2025-05-05 19:38:53,340 - INFO -   Context: observations with maps from 2018 -2021 observations The passing PTE of
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #11: '-35' at line 722
+2025-05-05 19:38:53,340 - INFO -   Context: narrow region around text Dec -35 circ The poorly cross linked
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #12: '-2018' at line 772
+2025-05-05 19:38:53,340 - INFO -   Context: observations in the period 2017 -2018 Time split 1 and 2018
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #13: '-2021' at line 772
+2025-05-05 19:38:53,340 - INFO -   Context: Time split 1 and 2018 -2021 Time split 2 as well
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #14: '-0.16' at line 826
+2025-05-05 19:38:53,340 - INFO -   Context: a total Phi_ textrm P -0.16 si deg has minimal impact
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #15: '-0.32' at line 908
+2025-05-05 19:38:53,340 - INFO -   Context: Omega_mh 2 0 13 Big -0.32 0 9938 pm0 0197 end
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #16: '-2022' at line 1007
+2025-05-05 19:38:53,340 - INFO -   Context: day time observations from 2017 -2022 as well as night time
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #17: '-0.07' at line 1130
+2025-05-05 19:38:53,340 - INFO -   Context: the DR4 estimate of Phi_p -0.07 pm 0 09 deg In
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #18: '-0.16' at line 1130
+2025-05-05 19:38:53,340 - INFO -   Context: our data set by Phi_p -0.16 deg the mean minus one
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #19: '-2018' at line 1247
+2025-05-05 19:38:53,340 - INFO -   Context: observations during the period 2017 -2018 from those constructed from the
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #20: '-2021.' at line 1247
+2025-05-05 19:38:53,340 - INFO -   Context: constructed from the period 2018 -2021. This test targets potential instrument
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #21: '-2018' at line 1254
+2025-05-05 19:38:53,340 - INFO -   Context: lensing spectra made from 2017 -2018 observations from the spectra obtained
+2025-05-05 19:38:53,340 - INFO - Additional Replacement #22: '-2021.' at line 1254
+2025-05-05 19:38:53,340 - INFO -   Context: taken during the period 2018 -2021. This test targets systematic variations
+2025-05-05 19:38:53,340 - INFO - Saved context information to utils/num_mask_logs/lensing_dr6_growth_contexts.log

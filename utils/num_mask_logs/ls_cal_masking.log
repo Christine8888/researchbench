@@ -1,0 +1,53 @@
+2025-05-05 19:38:53,438 - INFO - Logging to file: utils/num_mask_logs/ls_cal_masking.log
+2025-05-05 19:38:53,438 - INFO - Found 10 unique numerical values to mask
+2025-05-05 19:38:53,502 - INFO - Made 31 replacements in the text
+2025-05-05 19:38:53,502 - INFO - Saved masked text to papers/masked_texts/ls_cal.txt
+2025-05-05 19:38:53,502 - INFO - Latex Replacement #1: '95.3\%' at line 69
+2025-05-05 19:38:53,502 - INFO -   Context: EDGES best fit profile with 95.3\% confidence citep sarasDisputeEdges hypothesising that
+2025-05-05 19:38:53,502 - INFO - Rounded Replacement #1: 'approximately 80' at line 73
+2025-05-05 19:38:53,502 - INFO -   Context: we achieve an RMSE of approximately 80 mK for the simulated antenna
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #1: '-200' at line 67
+2025-05-05 19:38:53,502 - INFO -   Context: in the region of 50 -200 MHz As such the experiment
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #2: '-08' at line 157
+2025-05-05 19:38:53,502 - INFO -   Context: by a Pico Technology TC -08 data logging thermocouple An overview
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #3: '-150' at line 175
+2025-05-05 19:38:53,502 - INFO -   Context: REACH dipole antenna covering 50 -150 MHz citep cumner As noted
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #4: '-170' at line 175
+2025-05-05 19:38:53,502 - INFO -   Context: make concurrent observations from 50 -170 MHz Furthermore since we are
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #5: '-84' at line 184
+2025-05-05 19:38:53,502 - INFO -   Context: a pair of cascaded CMA -84 SMT gain blocks from Mini
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #6: '-120' at line 184
+2025-05-05 19:38:53,502 - INFO -   Context: dipole is best matched 60 -120 MHz the system will be
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #7: '-30' at line 186
+2025-05-05 19:38:53,502 - INFO -   Context: reflection coefficient S_ 11 to -30 dB or lower since this
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #8: '-84' at line 186
+2025-05-05 19:38:53,502 - INFO -   Context: we settled on the CMA -84 Having higher noise from the
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #9: '-50' at line 186
+2025-05-05 19:38:53,502 - INFO -   Context: amplifier based on an ERA -50 SM chip offering a NF
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #10: '-84' at line 186
+2025-05-05 19:38:53,502 - INFO -   Context: over time with the CMA -84 Measurements of the LNA S
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #11: '-30' at line 186
+2025-05-05 19:38:53,502 - INFO -   Context: output match at better than -30 dB over the observational band
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #12: '-42' at line 193
+2025-05-05 19:38:53,502 - INFO -   Context: filter from Mini Circuits XLF -42 M was used in both
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #13: '-13' at line 193
+2025-05-05 19:38:53,502 - INFO -   Context: limiting amplifier and the PHA -13 LN mid power amplifier to
+2025-05-05 19:38:53,502 - INFO - Additional Replacement #14: '-20' at line 195
+2025-05-05 19:38:53,502 - INFO -   Context: is band limited to DC -20 MHz A simulation of the
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #15: '-10' at line 216
+2025-05-05 19:38:53,503 - INFO -   Context: Electron Dynamics TC M U -10 A was used A separate
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #16: '-30' at line 225
+2025-05-05 19:38:53,503 - INFO -   Context: on regular intervals of 10 -30 seconds resulting in much shorter
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #17: '-405' at line 230
+2025-05-05 19:38:53,503 - INFO -   Context: and a 4 inch RG -405 cable The main MS1 switch
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #18: '-402' at line 230
+2025-05-05 19:38:53,503 - INFO -   Context: box are made using RG -402 semi rigid cables for stability
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #19: '-08' at line 232
+2025-05-05 19:38:53,503 - INFO -   Context: blue box is the TC -08 thermocouple module which measures the
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #20: '-08' at line 232
+2025-05-05 19:38:53,503 - INFO -   Context: modules are beneath the TC -08 and oval ring and are
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #21: '-130' at line 279
+2025-05-05 19:38:53,503 - INFO -   Context: was masked to the 50 -130 MHz band Following this the
+2025-05-05 19:38:53,503 - INFO - Additional Replacement #22: '-08' at line 282
+2025-05-05 19:38:53,503 - INFO -   Context: were obtained from the TC -08 thermocouple averaged over the data
+2025-05-05 19:38:53,503 - INFO - Saved context information to utils/num_mask_logs/ls_cal_contexts.log

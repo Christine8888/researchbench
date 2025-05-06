@@ -1,0 +1,217 @@
+Masked values and their context for paper: mars_clouds
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 3 replacements
+  ROUNDED: 2 replacements
+  EXACT: 1 replacements
+  ADDITIONAL: 31 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (3):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 70\%
+  Numerical Value: 70
+  Line: 260
+  Context: a different set of data 70\% of the images drawn randomly
+
+Replacement #2:
+  Expression: 30\%
+  Numerical Value: 30
+  Line: 260
+  Context: were used for training and 30\% for validation In total there
+
+Replacement #3:
+  Expression: 50\%
+  Numerical Value: 50
+  Line: 278
+  Context: stringent requirement of at least 50\% of users identifying every arch
+
+
+ROUNDED REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: around 3500
+  Numerical Value: 3500
+  Line: 152
+  Context: Each four hour file contains around 3500 limb observations in sequences of
+
+Replacement #2:
+  Expression: about 25
+  Numerical Value: 25
+  Line: 313
+  Context: are lower during the day about 25 50 km At night the
+
+
+EXACT REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 13
+  Line: 117
+  Context: full latitudinal coverage at 12 13 longitudes at two local times
+
+
+ADDITIONAL REPLACEMENTS (31):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -0002
+  Line: 8
+  Context: Slipski et al orcid 0000 -0002 9045 1168 cormark 1 ead
+
+Replacement #2:
+  Expression: -9045
+  Line: 8
+  Context: et al orcid 0000 0002 -9045 1168 cormark 1 ead marek
+
+Replacement #3:
+  Expression: -1168
+  Line: 8
+  Context: al orcid 0000 0002 9045 -1168 cormark 1 ead marek j
+
+Replacement #4:
+  Expression: -0003
+  Line: 13
+  Context: nasa gov hl orcid 0000 -0003 1548 1161 orcid 0000 0002
+
+Replacement #5:
+  Expression: -1548
+  Line: 13
+  Context: gov hl orcid 0000 0003 -1548 1161 orcid 0000 0002 4773
+
+Replacement #6:
+  Expression: -1161
+  Line: 13
+  Context: hl orcid 0000 0003 1548 -1161 orcid 0000 0002 4773 1463
+
+Replacement #7:
+  Expression: -0002
+  Line: 14
+  Context: 0003 1548 1161 orcid 0000 -0002 4773 1463 orcid 0000 0002
+
+Replacement #8:
+  Expression: -4773
+  Line: 14
+  Context: 1548 1161 orcid 0000 0002 -4773 1463 orcid 0000 0002 7154
+
+Replacement #9:
+  Expression: -1463
+  Line: 14
+  Context: 1161 orcid 0000 0002 4773 -1463 orcid 0000 0002 7154 2566
+
+Replacement #10:
+  Expression: -0002
+  Line: 15
+  Context: 0002 4773 1463 orcid 0000 -0002 7154 2566 orcid 0000 0002
+
+Replacement #11:
+  Expression: -7154
+  Line: 15
+  Context: 4773 1463 orcid 0000 0002 -7154 2566 orcid 0000 0002 6521
+
+Replacement #12:
+  Expression: -2566
+  Line: 15
+  Context: 1463 orcid 0000 0002 7154 -2566 orcid 0000 0002 6521 3256
+
+Replacement #13:
+  Expression: -0002
+  Line: 17
+  Context: 0002 7154 2566 orcid 0000 -0002 6521 3256 orcid 0000 0003
+
+Replacement #14:
+  Expression: -6521
+  Line: 17
+  Context: 7154 2566 orcid 0000 0002 -6521 3256 orcid 0000 0003 1233
+
+Replacement #15:
+  Expression: -3256
+  Line: 17
+  Context: 2566 orcid 0000 0002 6521 -3256 orcid 0000 0003 1233 2224
+
+Replacement #16:
+  Expression: -0003
+  Line: 18
+  Context: 0002 6521 3256 orcid 0000 -0003 1233 2224 addressline 4800 Oak
+
+Replacement #17:
+  Expression: -1233
+  Line: 18
+  Context: 6521 3256 orcid 0000 0003 -1233 2224 addressline 4800 Oak Grove
+
+Replacement #18:
+  Expression: -2224
+  Line: 18
+  Context: 3256 orcid 0000 0003 1233 -2224 addressline 4800 Oak Grove Dr
+
+Replacement #19:
+  Expression: -80
+  Line: 112
+  Context: measures radiance profiles between 0 -80 km with a vertical resolution
+
+Replacement #20:
+  Expression: -230
+  Line: 288
+  Context: L_s 100 From L_s 150 -230 daytime clouds occur primarily at
+
+Replacement #21:
+  Expression: -80
+  Line: 294
+  Context: alt A and D 65 -80 km during the day and
+
+Replacement #22:
+  Expression: -70
+  Line: 294
+  Context: during the day and 55 -70 km at night this is
+
+Replacement #23:
+  Expression: -60
+  Line: 298
+  Context: season at northern 40 N -60 N and southern 35 S
+
+Replacement #24:
+  Expression: -50
+  Line: 298
+  Context: N and southern 35 S -50 S mid latitudes at both
+
+Replacement #25:
+  Expression: -50
+  Line: 301
+  Context: equatorial clouds ranging from 20 -50 km Figs ref fig combined
+
+Replacement #26:
+  Expression: -40
+  Line: 304
+  Context: temperatures are present from 20 -40 km in the tropics during
+
+Replacement #27:
+  Expression: -60
+  Line: 304
+  Context: during the day and 40 -60 km at night e g
+
+Replacement #28:
+  Expression: -40
+  Line: 307
+  Context: 50 are observed between 20 -40 km during the clear season
+
+Replacement #29:
+  Expression: -50
+  Line: 313
+  Context: during the day about NUMERICAL_RESULT -50 km At night the altitude
+
+Replacement #30:
+  Expression: -35
+  Line: 316
+  Context: clouds which are between 15 -35 km In general there is
+
+Replacement #31:
+  Expression: -10
+  Line: 322
+  Context: observed equatorial clouds and 5 -10 km below the boundary of
+
+

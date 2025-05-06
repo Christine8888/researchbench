@@ -1,0 +1,32 @@
+Masked values and their context for paper: spectral_sirens_gp
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  ADDITIONAL: 4 replacements
+
+================================================================================
+
+ADDITIONAL REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -1746045.
+  Line: 311
+  Context: Program under Grant No DGE -1746045. J M E is supported
+
+Replacement #2:
+  Expression: -2006645
+  Line: 318
+  Context: supported by NSF grants AST -2006645 and PHY 2110507 as well
+
+Replacement #3:
+  Expression: -2110507
+  Line: 318
+  Context: grants AST 2006645 and PHY -2110507 as well as by the
+
+Replacement #4:
+  Expression: -2.7
+  Line: 351
+  Context: events we have fixed alpha -2.7 m_ max 78 Msun m_
+
+

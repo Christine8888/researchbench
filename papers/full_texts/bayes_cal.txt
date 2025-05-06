@@ -10,7 +10,7 @@
 
 \title{Bayesian noise wave calibration for 21-cm global experiments}
 
-\author{I. L. V. Roque,$^{1}$\thanks{E-mail: ilvr2@cam.ac.uk} W. J. Handley$^{1,2}$ and N. Razavi-Ghods$^{1}$
+\author{I. L. V. Roque,$^{1}$ W. J. Handley$^{1,2}$ and N. Razavi-Ghods$^{1}$
 \\
 $^{1}$Astrophysics Group, Cavendish Laboratory, JJ Thomson Avenue, Cambridge, CB3 0HE, UK\\
 $^{2}$Kavli Institute for Cosmology, Madingley Road, Cambridge, CB3 0HA, UK\\
@@ -353,12 +353,7 @@ By individually adjusting each component of noise arising in our realistic noise
 \section{Conclusions} \label{conclusions} 
 Here we presented the development of a calibration methodology based on the procedure used by EDGES but with key improvements to characterise reflections arising at connections within the receiver. Our pipeline utilises the Dicke switching technique and a Bayesian framework in order to individually optimise calibration parameters while identifying correlations between them using a dynamic algorithm to be applied in the same environment as the data acquisition. In a comprehensive investigation, we have evaluated our algorithm's interpretation of empirical models of data which have been generated from known noise wave parameters and a realistic noise model. The solution, applied to an ambient-temperature $50 \ \Omega$ load, produces a calibrated temperature with an RMS residual temperature of 8 mK. Future work for the pipeline regards application of real calibrator data, optimisation of noise wave parameter coefficients through marginalisation techniques and incorporation into an end-to-end simulation based on an entire experimental apparatus to better understand error tolerances. The flexibility of the algorithm attributed to our novel approach allows its application to any experiment relying on similar forms of calibration such as REACH \citep{reach}, were we intend to use this for in-the-field and on-the-fly radiometer calibration.
 
-\section*{Acknowledgements}
-
-ILVR would like to thank S. M. Masur for her helpful comments. WJH was supported by a Gonville \& Caius Research Fellowship, STFC grant number ST/T001054/1 and a Royal Society University Research Fellowship. We would like to thank the The Cambridge-Africa ALBORADA Research Fund for their support. We would also like to thank the Kavli Foundation for their support of the REACH experiment.
-
 \section*{Data Availability}
-
 The data underlying this article will be shared on reasonable request to the corresponding author.
 
 \end{document}

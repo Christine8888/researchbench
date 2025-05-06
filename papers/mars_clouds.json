@@ -10,7 +10,10 @@
     "kind": "huggingface",
     "paper_id": "mars_clouds",
     "dataset_name": "cloudspotting_mars_optimization",
-    "data_instructions": {"access": "All the data is available on Huggingface at https://huggingface.co/datasets/StevenDillmann/cloudspotting_mars_optimization"}
+    "data_instructions": {"access": "All the data is available on Huggingface at https://huggingface.co/datasets/StevenDillmann/cloudspotting_mars_optimization"},
+    "hf_name": ["StevenDillmann/cloudspotting_mars_optimization"],
+    "hf_split": ["train"],
+    "hf_type": ["snapshot"]
 },
 "execution_requirements": {
     "needs_gpu": false,

@@ -1,0 +1,399 @@
+Masked values and their context for paper: galaxy_manifold
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 11 replacements
+  ROUNDED: 1 replacements
+  EXACT: 19 replacements
+  ADDITIONAL: 41 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (11):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: =-0.065*\mathrm{D}
+  Numerical Value: -0.065
+  Line: 174
+  Context: begin equation mathrm D _2 =-0.065*\mathrm{D} _1 5 800 end equation
+
+Replacement #2:
+  Expression: 93.2\%
+  Numerical Value: 93.2
+  Line: 7
+  Context: parameters are sufficient to express 93.2\% of the variance in the
+
+Replacement #3:
+  Expression: 85\%
+  Numerical Value: 85
+  Line: 7
+  Context: The manifold representation provides accurate 85\% morphological classifications with a simple
+
+Replacement #4:
+  Expression: 70\%
+  Numerical Value: 70
+  Line: 59
+  Context: into train and test samples 70\% and 30 respectively and fed
+
+Replacement #5:
+  Expression: 30\%
+  Numerical Value: 30
+  Line: 59
+  Context: and test samples 70 and 30\% respectively and fed into the
+
+Replacement #6:
+  Expression: 44.78\%
+  Numerical Value: 44.78
+  Line: 59
+  Context: and the second axes explain 44.78\% and 48 44 variance of
+
+Replacement #7:
+  Expression: 48.44\%
+  Numerical Value: 48.44
+  Line: 59
+  Context: axes explain 44 78 and 48.44\% variance of the data which
+
+Replacement #8:
+  Expression: 93.23\%
+  Numerical Value: 93.23
+  Line: 59
+  Context: by two parameters with over 93.23\% explained variance We call this
+
+Replacement #9:
+  Expression: 93\%
+  Numerical Value: 93
+  Line: 230
+  Context: the Galaxy Manifold express over 93\% of the variance of our
+
+Replacement #10:
+  Expression: 85\%
+  Numerical Value: 85
+  Line: 279
+  Context: the manifold that achieves sim 85\% classification accuracy Additionally citet Holwerda_2022
+
+Replacement #11:
+  Expression: 93.2\%
+  Numerical Value: 93.2
+  Line: 304
+  Context: existence of two parameters representing 93.2\% of the information of our
+
+
+ROUNDED REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: approximately 2.5
+  Numerical Value: 2.5
+  Line: 221
+  Context: 1 This crossing time is approximately 2.5 Gyrs for all the tracks
+
+
+EXACT REPLACEMENTS (19):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.7078
+  Line: 75
+  Context: begin array cc 0 2492 0.7078 0 2594 0 5409 0
+
+Replacement #2:
+  Expression: 0.7078
+  Line: 117
+  Context: begin array cc 0 2492 0.7078 0 2594 0 5409 0
+
+Replacement #3:
+  Expression: 0.1236
+  Line: 262
+  Context: sigma_ Delta mathrm Log SFR 0.1236 and sigma_ Delta mathrm Log
+
+Replacement #4:
+  Expression: 0.0433
+  Line: 262
+  Context: sigma_ Delta mathrm Log M_ 0.0433 The lower SFR values are
+
+Replacement #5:
+  Expression: 0.9989
+  Line: 271
+  Context: almost perfectly with R 2 0.9989 There is however some bias
+
+Replacement #6:
+  Expression: 0.85
+  Line: 176
+  Context: we obtained an accuracy of 0.85 with 1 0 as the
+
+Replacement #7:
+  Expression: 0.21
+  Line: 157
+  Context: pm0 10 log R_ 50 0.21 pm0 04 log M_ 0
+
+Replacement #8:
+  Expression: 0.21
+  Line: 166
+  Context: Log M_ mathrm gas are 0.21 0 24 and 0 26
+
+Replacement #9:
+  Expression: 0.24
+  Line: 166
+  Context: M_ mathrm gas are NUMERICAL_RESULT 0.24 and 0 26 respectively subsection
+
+Replacement #10:
+  Expression: 0.26
+  Line: 166
+  Context: gas are NUMERICAL_RESULT NUMERICAL_RESULT and 0.26 respectively subsection Galaxy morphology label
+
+Replacement #11:
+  Expression: 0.34
+  Line: 141
+  Context: sigma_ mathrm Log sSFR are 0.34 0 11 and 0 37
+
+Replacement #12:
+  Expression: 0.11
+  Line: 141
+  Context: mathrm Log sSFR are NUMERICAL_RESULT 0.11 and 0 37 respectively Surprisingly
+
+Replacement #13:
+  Expression: .11
+  Line: 151
+  Context: pm0 04 1 08 pm0 .11 log R_ 50 0 47
+
+Replacement #14:
+  Expression: .11
+  Line: 162
+  Context: pm0 04 0 87 pm0 .11 log R_ 50 0 70
+
+Replacement #15:
+  Expression: 0.37
+  Line: 141
+  Context: sSFR are NUMERICAL_RESULT NUMERICAL_RESULT and 0.37 respectively Surprisingly the main sequence
+
+Replacement #16:
+  Expression: .37
+  Line: 157
+  Context: _ 2 6 56 pm0 .37 0 41 pm0 09 A_
+
+Replacement #17:
+  Expression: 5.800
+  Line: 174
+  Context: _2 NUMERICAL_RESULT mathrm D _1 5.800 end equation where we obtained
+
+Replacement #18:
+  Expression: 1.2
+  Line: 7
+  Context: with a timescale of sim 1.2 Gyrs on the manifold Lastly
+
+Replacement #19:
+  Expression: 1.2
+  Line: 221
+  Context: declining SFH with tau sim 1.2 Gyrs The black crosses correspond
+
+
+ADDITIONAL REPLACEMENTS (41):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -20.016
+  Line: 35
+  Context: M_ rm limit 0 097 -20.016 section Finding the Galaxy Manifold
+
+Replacement #2:
+  Expression: -0.2492
+  Line: 75
+  Context: right left begin array cc -0.2492 NUMERICAL_RESULT 0 2594 0 5409
+
+Replacement #3:
+  Expression: -0.2594
+  Line: 76
+  Context: array cc 0 2492 NUMERICAL_RESULT -0.2594 0 5409 0 2790 0
+
+Replacement #4:
+  Expression: -0.2790
+  Line: 77
+  Context: NUMERICAL_RESULT 0 2594 0 5409 -0.2790 0 1340 0 2981 0
+
+Replacement #5:
+  Expression: -0.2981
+  Line: 78
+  Context: 5409 0 2790 0 1340 -0.2981 0 0076 0 3064 0
+
+Replacement #6:
+  Expression: -0.0076
+  Line: 78
+  Context: 2790 0 1340 0 2981 -0.0076 0 3064 0 0758 0
+
+Replacement #7:
+  Expression: -0.3064
+  Line: 79
+  Context: 1340 0 2981 0 0076 -0.3064 0 0758 0 3106 0
+
+Replacement #8:
+  Expression: -0.0758
+  Line: 79
+  Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
+
+Replacement #9:
+  Expression: -0.3106
+  Line: 80
+  Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
+
+Replacement #10:
+  Expression: -0.1137
+  Line: 80
+  Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
+
+Replacement #11:
+  Expression: -0.3133
+  Line: 81
+  Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
+
+Replacement #12:
+  Expression: -0.1428
+  Line: 81
+  Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
+
+Replacement #13:
+  Expression: -0.3201
+  Line: 82
+  Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
+
+Replacement #14:
+  Expression: -0.1687
+  Line: 82
+  Context: 3133 0 1428 0 3201 -0.1687 0 3214 0 1988 0
+
+Replacement #15:
+  Expression: -0.3214
+  Line: 83
+  Context: 1428 0 3201 0 1687 -0.3214 0 1988 0 3258 0
+
+Replacement #16:
+  Expression: -0.1988
+  Line: 83
+  Context: 3201 0 1687 0 3214 -0.1988 0 3258 0 1992 0
+
+Replacement #17:
+  Expression: -0.3258
+  Line: 84
+  Context: 1687 0 3214 0 1988 -0.3258 0 1992 0 3217 0
+
+Replacement #18:
+  Expression: -0.1992
+  Line: 84
+  Context: 3214 0 1988 0 3258 -0.1992 0 3217 0 2043 end
+
+Replacement #19:
+  Expression: -0.3217
+  Line: 85
+  Context: 1988 0 3258 0 1992 -0.3217 0 2043 end array right
+
+Replacement #20:
+  Expression: -0.2043
+  Line: 85
+  Context: 3258 0 1992 0 3217 -0.2043 end array right top left
+
+Replacement #21:
+  Expression: -0.2492
+  Line: 117
+  Context: right left begin array cc -0.2492 NUMERICAL_RESULT 0 2594 0 5409
+
+Replacement #22:
+  Expression: -0.2594
+  Line: 118
+  Context: array cc 0 2492 NUMERICAL_RESULT -0.2594 0 5409 0 2790 0
+
+Replacement #23:
+  Expression: -0.2790
+  Line: 119
+  Context: NUMERICAL_RESULT 0 2594 0 5409 -0.2790 0 1340 0 2981 0
+
+Replacement #24:
+  Expression: -0.2981
+  Line: 120
+  Context: 5409 0 2790 0 1340 -0.2981 0 0076 0 3064 0
+
+Replacement #25:
+  Expression: -0.0076
+  Line: 120
+  Context: 2790 0 1340 0 2981 -0.0076 0 3064 0 0758 0
+
+Replacement #26:
+  Expression: -0.3064
+  Line: 121
+  Context: 1340 0 2981 0 0076 -0.3064 0 0758 0 3106 0
+
+Replacement #27:
+  Expression: -0.0758
+  Line: 121
+  Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
+
+Replacement #28:
+  Expression: -0.3106
+  Line: 122
+  Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
+
+Replacement #29:
+  Expression: -0.1137
+  Line: 122
+  Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
+
+Replacement #30:
+  Expression: -0.3133
+  Line: 123
+  Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
+
+Replacement #31:
+  Expression: -0.1428
+  Line: 123
+  Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
+
+Replacement #32:
+  Expression: -0.3201
+  Line: 124
+  Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
+
+Replacement #33:
+  Expression: -0.1687
+  Line: 124
+  Context: 3133 0 1428 0 3201 -0.1687 0 3214 0 1988 0
+
+Replacement #34:
+  Expression: -0.3214
+  Line: 125
+  Context: 1428 0 3201 0 1687 -0.3214 0 1988 0 3258 0
+
+Replacement #35:
+  Expression: -0.1988
+  Line: 125
+  Context: 3201 0 1687 0 3214 -0.1988 0 3258 0 1992 0
+
+Replacement #36:
+  Expression: -0.3258
+  Line: 126
+  Context: 1687 0 3214 0 1988 -0.3258 0 1992 0 3217 0
+
+Replacement #37:
+  Expression: -0.1992
+  Line: 126
+  Context: 3214 0 1988 0 3258 -0.1992 0 3217 0 2043 end
+
+Replacement #38:
+  Expression: -0.3217
+  Line: 127
+  Context: 1988 0 3258 0 1992 -0.3217 0 2043 end array right
+
+Replacement #39:
+  Expression: -0.2043
+  Line: 127
+  Context: 3258 0 1992 0 3217 -0.2043 end array right left begin
+
+Replacement #40:
+  Expression: -1.8
+  Line: 141
+  Context: at around D _2 approx -1.8 subsection Gas mass A key
+
+Replacement #41:
+  Expression: -11
+  Line: 221
+  Context: galaxies have Log sSFR le -11 yr 1 This crossing time
+
+

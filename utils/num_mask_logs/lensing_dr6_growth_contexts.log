@@ -1,0 +1,581 @@
+Masked values and their context for paper: lensing_dr6_growth
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 48 replacements
+  ROUNDED: 1 replacements
+  EXACT: 30 replacements
+  ADDITIONAL: 22 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (48):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: \mathrm{max}=3000
+  Numerical Value: 3000
+  Line: 169
+  Context: maximum CMB multipole of ell_ \mathrm{max}=3000 a downgraded pixel resolution of
+
+Replacement #2:
+  Expression: \mathrm{sky}= 0.00138
+  Numerical Value: 0.00138
+  Line: 178
+  Context: further sky fraction of f_ \mathrm{sky}= 0.00138 The resulting final mask is
+
+Replacement #3:
+  Expression: \mathrm{sky}= 0.23
+  Numerical Value: 0.23
+  Line: 178
+  Context: a sky fraction of f_ \mathrm{sky}= 0.23 subsection Pixel window deconvolution The
+
+Replacement #4:
+  Expression: 2.3\%
+  Numerical Value: 2.3
+  Line: 10
+  Context: CMB lensing power spectrum at 2.3\% precision 43 sigma significance using
+
+Replacement #5:
+  Expression: 2.3\%
+  Numerical Value: 2.3
+  Line: 40
+  Context: at state of the art 2.3\% precision corresponding to a measurement
+
+Replacement #6:
+  Expression: 60\%
+  Numerical Value: 60
+  Line: 178
+  Context: leaves in this initial step 60\% of the full sky as
+
+Replacement #7:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 178
+  Context: more conservative mask retaining initially 40\% of the full sky for
+
+Replacement #8:
+  Expression: 60\%
+  Numerical Value: 60
+  Line: 178
+  Context: using these Galactic masks as 60\% and 40 masks bds Galactic
+
+Replacement #9:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 178
+  Context: Galactic masks as 60 and 40\% masks bds Galactic masks blake
+
+Replacement #10:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 193
+  Context: recovered lensing signal by around 10\% we account for this well
+
+Replacement #11:
+  Expression: 0.1\%
+  Numerical Value: 0.1
+  Line: 220
+  Context: a shift of less than 0.1\% The noise power spectra N
+
+Replacement #12:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 530
+  Context: off diagonal correlations typically below 10\% section Null and consistency tests
+
+Replacement #13:
+  Expression: 0.5\%
+  Numerical Value: 0.5
+  Line: 542
+  Context: less than 0 2 sigma 0.5\% although biases rise when including
+
+Replacement #14:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 749
+  Context: that include a more conservative 40\% Galactic dust mask in addition
+
+Replacement #15:
+  Expression: 60\%
+  Numerical Value: 60
+  Line: 749
+  Context: dust mask in addition to 60\% our baseline The footprints of
+
+Replacement #16:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 749
+  Context: the baseline mask and the 40\% mask are shown in Figure
+
+Replacement #17:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 749
+  Context: and red respectively fk The 40\% is otherwise prepared in the
+
+Replacement #18:
+  Expression: 60\%
+  Numerical Value: 60
+  Line: 749
+  Context: the same way as the 60\% mask as described in Section
+
+Replacement #19:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 751
+  Context: when measuring lensing with a 40\% mask which cuts out more
+
+Replacement #20:
+  Expression: 40\%
+  Numerical Value: 40
+  Line: 751
+  Context: noise levels consistent with the 40\% mask We find a passing
+
+Replacement #21:
+  Expression: 60\%
+  Numerical Value: 60
+  Line: 758
+  Context: our analysis we used a 60\% dust mask We subsequently decided
+
+Replacement #22:
+  Expression: 70\%
+  Numerical Value: 70
+  Line: 758
+  Context: and consistency tests with a 70\% mask and if these passed
+
+Replacement #23:
+  Expression: 70\%
+  Numerical Value: 70
+  Line: 758
+  Context: we intended to switch to 70\% as the baseline Once the
+
+Replacement #24:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 778
+  Context: and extended range passing at 10\% and 74 with the Kolmogorov
+
+Replacement #25:
+  Expression: 74\%
+  Numerical Value: 74
+  Line: 778
+  Context: range passing at 10 and 74\% with the Kolmogorov Smirnov test
+
+Replacement #26:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 788
+  Context: it only contributes less than 10\% at each CMB multipole to
+
+Replacement #27:
+  Expression: 3.5\%
+  Numerical Value: 3.5
+  Line: 839
+  Context: error on this region or 3.5\% while at the time of
+
+Replacement #28:
+  Expression: 68\%
+  Numerical Value: 68
+  Line: 860
+  Context: 1 013 pm0 023 quad 68\% mathrm limit end equation from
+
+Replacement #29:
+  Expression: 13\%
+  Numerical Value: 13
+  Line: 863
+  Context: PTE for chi 2 of 13\% The equivalent PTE for our
+
+Replacement #30:
+  Expression: 17\%
+  Numerical Value: 17
+  Line: 864
+  Context: by A_ mathrm lens is 17\% Note that the PTE is
+
+Replacement #31:
+  Expression: 12\%
+  Numerical Value: 12
+  Line: 870
+  Context: fk with a PTE of 12\% For comparison the latest CMB
+
+Replacement #32:
+  Expression: 67\%
+  Numerical Value: 67
+  Line: 940
+  Context: over a sky fraction of 67\% fk used in the Planck
+
+Replacement #33:
+  Expression: 67\%
+  Numerical Value: 67
+  Line: 956
+  Context: texttt NPIPE analysis mask covering 67\% of the sky and multipole
+
+Replacement #34:
+  Expression: 2.3\%
+  Numerical Value: 2.3
+  Line: 1000
+  Context: the spectrum is measured to 2.3\% precision 43 sigma significance over
+
+Replacement #35:
+  Expression: 1.3\%
+  Numerical Value: 1.3
+  Line: 1046
+  Context: 1 _ L was approximately 1.3\% lower than the baseline corresponding
+
+Replacement #36:
+  Expression: 2.5\%
+  Numerical Value: 2.5
+  Line: 1071
+  Context: an increase of at most 2.5\% in error bars and the
+
+Replacement #37:
+  Expression: 3.5\%
+  Numerical Value: 3.5
+  Line: 1071
+  Context: larger increase of up to 3.5\% In the baseline analysis range
+
+Replacement #38:
+  Expression: 51\%
+  Numerical Value: 51
+  Line: 1107
+  Context: correlated at a level of 51\% while the 150 GHz channels
+
+Replacement #39:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 1107
+  Context: exhibit lower correlations ranging from 10\% to 18 This difference can
+
+Replacement #40:
+  Expression: 18\%
+  Numerical Value: 18
+  Line: 1107
+  Context: correlations ranging from 10 to 18\% This difference can be attributed
+
+Replacement #41:
+  Expression: 0.2\%
+  Numerical Value: 0.2
+  Line: 1108
+  Context: power spectrum is less than 0.2\% in our baseline analysis range
+
+Replacement #42:
+  Expression: 2.3\%
+  Numerical Value: 2.3
+  Line: 1110
+  Context: of error compared to our 2.3\% statistical uncertainty in our lensing
+
+Replacement #43:
+  Expression: 0.1\%
+  Numerical Value: 0.1
+  Line: 1125
+  Context: power spectrum is less than 0.1\% compared to our MV baseline
+
+Replacement #44:
+  Expression: 15\%
+  Numerical Value: 15
+  Line: 1141
+  Context: MC correction constitutes a 10 15\% effect however it is well
+
+Replacement #45:
+  Expression: 20\%
+  Numerical Value: 20
+  Line: 1141
+  Context: applied is lower by 10 20\% section Lensing power spectrum biases
+
+Replacement #46:
+  Expression: 50\%
+  Numerical Value: 50
+  Line: 1313
+  Context: read off several interesting redshifts 50\% of signal is from 1
+
+Replacement #47:
+  Expression: 67\%
+  Numerical Value: 67
+  Line: 1313
+  Context: 1 16 z 4 09 67\% of signal is from 0
+
+Replacement #48:
+  Expression: 95\%
+  Numerical Value: 95
+  Line: 1313
+  Context: 88 z 5 44 and 95\% of signal comes from z
+
+
+ROUNDED REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: ~3.2
+  Numerical Value: 3.2
+  Line: 949
+  Context: normalization see for example Section ~3.2 1 of citealt Planck 2018
+
+
+EXACT REPLACEMENTS (30):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.818
+  Line: 10
+  Context: of S mathrm CMBL _8 0.818 pm0 022 from ACT DR6
+
+Replacement #2:
+  Expression: 0.818
+  Line: 47
+  Context: as S mathrm CMBL _8 0.818 pm0 022 This key result
+
+Replacement #3:
+  Expression: 0.818
+  Line: 922
+  Context: equation S mathrm CMBL _8 0.818 pm 0 022 0 830
+
+Replacement #4:
+  Expression: 0.818
+  Line: 980
+  Context: find S text CMBL _8 0.818 pm 0 022 as our
+
+Replacement #5:
+  Expression: 0.818
+  Line: 1003
+  Context: of S mathrm CMBL _8 0.818 pm0 022 from ACT CMB
+
+Replacement #6:
+  Expression: 0.818
+  Line: 1266
+  Context: constraints S mathrm CMBL _8 0.818 pm0 022 subsection Curl results
+
+Replacement #7:
+  Expression: .022
+  Line: 10
+  Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 from ACT DR6 CMB lensing
+
+Replacement #8:
+  Expression: .022
+  Line: 47
+  Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 This key result is illustrated
+
+Replacement #9:
+  Expression: 0.022
+  Line: 505
+  Context: increases from 0 021 to 0.022 when we include the additional
+
+Replacement #10:
+  Expression: 0.022
+  Line: 922
+  Context: mathrm CMBL _8 NUMERICAL_RESULT pm 0.022 0 830 pm 0 020
+
+Replacement #11:
+  Expression: .022
+  Line: 925
+  Context: CMBL _8 0 809 pm0 .022 abds This consistency of S
+
+Replacement #12:
+  Expression: 0.022
+  Line: 980
+  Context: text CMBL _8 NUMERICAL_RESULT pm 0.022 as our baseline result from
+
+Replacement #13:
+  Expression: .022
+  Line: 1003
+  Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 from ACT CMB lensing alone
+
+Replacement #14:
+  Expression: 0.022
+  Line: 1073
+  Context: increases from 0 021 to 0.022 when we include the ACT
+
+Replacement #15:
+  Expression: .022
+  Line: 1266
+  Context: CMBL _8 0 814 pm0 .022 consistent with the baseline constraints
+
+Replacement #16:
+  Expression: .022
+  Line: 1266
+  Context: mathrm CMBL _8 NUMERICAL_RESULT pm0 .022 subsection Curl results summary label
+
+Replacement #17:
+  Expression: 1.013
+  Line: 10
+  Context: amplitude of A_ mathrm lens 1.013 pm0 023 relative to the
+
+Replacement #18:
+  Expression: 1.013
+  Line: 45
+  Context: amplitude of A_ mathrm lens 1.013 pm0 023 If we fit
+
+Replacement #19:
+  Expression: 1.013
+  Line: 860
+  Context: We find begin equation Alens 1.013 pm0 023 quad NUMERICAL_RESULT mathrm
+
+Replacement #20:
+  Expression: 1.013
+  Line: 1003
+  Context: lensing amplitude A_ mathrm lens 1.013 pm0 023 relative to the
+
+Replacement #21:
+  Expression: .023
+  Line: 10
+  Context: A_ mathrm lens NUMERICAL_RESULT pm0 .023 relative to the textit Planck
+
+Replacement #22:
+  Expression: .023
+  Line: 10
+  Context: mathrm lens 1 005 pm0 .023 relative to the text ACT
+
+Replacement #23:
+  Expression: .023
+  Line: 45
+  Context: A_ mathrm lens NUMERICAL_RESULT pm0 .023 If we fit instead to
+
+Replacement #24:
+  Expression: .023
+  Line: 45
+  Context: mathrm lens 1 005 pm0 .023 item From our measurement of
+
+Replacement #25:
+  Expression: .023
+  Line: 860
+  Context: begin equation Alens NUMERICAL_RESULT pm0 .023 quad NUMERICAL_RESULT mathrm limit end
+
+Replacement #26:
+  Expression: .023
+  Line: 868
+  Context: equation Alens 1 016 pm0 .023 end equation NS using an
+
+Replacement #27:
+  Expression: .023
+  Line: 882
+  Context: mathrm lens 1 005 pm0 .023 We shall explore the consequences
+
+Replacement #28:
+  Expression: .023
+  Line: 1003
+  Context: A_ mathrm lens NUMERICAL_RESULT pm0 .023 relative to the textit Planck
+
+Replacement #29:
+  Expression: 0.023
+  Line: 1003
+  Context: mathrm lens 1 016 pm 0.023 for the extended range of
+
+Replacement #30:
+  Expression: 0.023
+  Line: 1073
+  Context: amplitude increase from sigma Alens 0.023 to sigma Alens 0 0256
+
+
+ADDITIONAL REPLACEMENTS (22):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -112
+  Line: 60
+  Context: two frequency bands f090 77 -112 GHz f150 124 172 GHz
+
+Replacement #2:
+  Expression: -172
+  Line: 60
+  Context: 77 112 GHz f150 124 -172 GHz The observations were made
+
+Replacement #3:
+  Expression: -05
+  Line: 68
+  Context: observed in the period 2017 -05 10 to 2021 06 18
+
+Replacement #4:
+  Expression: -10
+  Line: 68
+  Context: in the period 2017 05 -10 to 2021 06 18 Samples
+
+Replacement #5:
+  Expression: -06
+  Line: 68
+  Context: 2017 05 10 to 2021 -06 18 Samples contaminated by detector
+
+Replacement #6:
+  Expression: -18.
+  Line: 68
+  Context: 05 10 to 2021 06 -18. Samples contaminated by detector glitches
+
+Replacement #7:
+  Expression: -10
+  Line: 173
+  Context: a threshold of roughly 4 -10 mJy corresponding to an SNR
+
+Replacement #8:
+  Expression: -64
+  Line: 462
+  Context: times UV _ LM nonumber -64 sum 4 _ i 1
+
+Replacement #9:
+  Expression: -2018
+  Line: 656
+  Context: CMB maps made from 2017 -2018 observations with maps from 2018
+
+Replacement #10:
+  Expression: -2021
+  Line: 656
+  Context: observations with maps from 2018 -2021 observations The passing PTE of
+
+Replacement #11:
+  Expression: -35
+  Line: 722
+  Context: narrow region around text Dec -35 circ The poorly cross linked
+
+Replacement #12:
+  Expression: -2018
+  Line: 772
+  Context: observations in the period 2017 -2018 Time split 1 and 2018
+
+Replacement #13:
+  Expression: -2021
+  Line: 772
+  Context: Time split 1 and 2018 -2021 Time split 2 as well
+
+Replacement #14:
+  Expression: -0.16
+  Line: 826
+  Context: a total Phi_ textrm P -0.16 si deg has minimal impact
+
+Replacement #15:
+  Expression: -0.32
+  Line: 908
+  Context: Omega_mh 2 0 13 Big -0.32 0 9938 pm0 0197 end
+
+Replacement #16:
+  Expression: -2022
+  Line: 1007
+  Context: day time observations from 2017 -2022 as well as night time
+
+Replacement #17:
+  Expression: -0.07
+  Line: 1130
+  Context: the DR4 estimate of Phi_p -0.07 pm 0 09 deg In
+
+Replacement #18:
+  Expression: -0.16
+  Line: 1130
+  Context: our data set by Phi_p -0.16 deg the mean minus one
+
+Replacement #19:
+  Expression: -2018
+  Line: 1247
+  Context: observations during the period 2017 -2018 from those constructed from the
+
+Replacement #20:
+  Expression: -2021.
+  Line: 1247
+  Context: constructed from the period 2018 -2021. This test targets potential instrument
+
+Replacement #21:
+  Expression: -2018
+  Line: 1254
+  Context: lensing spectra made from 2017 -2018 observations from the spectra obtained
+
+Replacement #22:
+  Expression: -2021.
+  Line: 1254
+  Context: taken during the period 2018 -2021. This test targets systematic variations
+
+

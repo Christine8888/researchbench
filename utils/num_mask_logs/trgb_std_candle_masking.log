@@ -1,0 +1,89 @@
+2025-05-05 19:38:54,861 - INFO - Logging to file: utils/num_mask_logs/trgb_std_candle_masking.log
+2025-05-05 19:38:54,862 - INFO - Found 13 unique numerical values to mask
+2025-05-05 19:38:54,937 - INFO - Made 53 replacements in the text
+2025-05-05 19:38:54,937 - INFO - Saved masked text to papers/masked_texts/trgb_std_candle.txt
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #1: '2.12\cdot' at line 59
+2025-05-05 19:38:54,937 - INFO -   Context: the proper motion ellipse left 2.12\cdot mu_ delta 1 23 right
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #2: '1.6\cdot' at line 59
+2025-05-05 19:38:54,937 - INFO -   Context: 1 23 right 2 left 1.6\cdot mu_ alpha 0 66 right
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #3: '1.5\%' at line 8
+2025-05-05 19:38:54,937 - INFO -   Context: 0 029 mathrm syst mag 1.5\% in distance Further study of
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #4: '36\%' at line 54
+2025-05-05 19:38:54,937 - INFO -   Context: which amounted to sim 30 36\% of stars depending on the
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #5: '33\%' at line 66
+2025-05-05 19:38:54,937 - INFO -   Context: and Bseq stars which are 33\% in the LMC and 16
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #6: '16\%' at line 66
+2025-05-05 19:38:54,937 - INFO -   Context: 33 in the LMC and 16\% in the SMC respectively and
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #7: '26\%' at line 66
+2025-05-05 19:38:54,937 - INFO -   Context: based on pulsation models citep 26\% Wood15 Figure ref fig AgeAmplitude
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #8: '100\%' at line 101
+2025-05-05 19:38:54,937 - INFO -   Context: giants in the SMC nearly 100\% of SMC stars near the
+2025-05-05 19:38:54,937 - INFO - Latex Replacement #9: '1.5\%' at line 190
+2025-05-05 19:38:54,937 - INFO -   Context: mathrm syst mag total error 1.5\% in distance based on the
+2025-05-05 19:38:54,937 - INFO - Rounded Replacement #1: 'approximately 0.026' at line 57
+2025-05-05 19:38:54,937 - INFO -   Context: with an rms scatter of approximately 0.026 mag in line with the
+2025-05-05 19:38:54,937 - INFO - Exact Replacement #1: '14.969' at line 166
+2025-05-05 19:38:54,937 - INFO -   Context: for the SMC we find 14.969 pm0 037 mag vs their
+2025-05-05 19:38:54,937 - INFO - Exact Replacement #2: '0.009' at line 109
+2025-05-05 19:38:54,937 - INFO -   Context: measured mio 14 911 pm 0.009 mag for the Bseq which
+2025-05-05 19:38:54,937 - INFO - Exact Replacement #3: '0.009' at line 164
+2025-05-05 19:38:54,937 - INFO -   Context: I 0 14 911 pm 0.009 mathrm stat pm 0 008
+2025-05-05 19:38:54,937 - INFO - Exact Replacement #4: '0.009' at line 188
+2025-05-05 19:38:54,938 - INFO -   Context: find mio 14 911 pm 0.009 mathrm stat pm 0 008
+2025-05-05 19:38:54,938 - INFO - Exact Replacement #5: '15.16' at line 31
+2025-05-05 19:38:54,938 - INFO -   Context: 2 0 71 log P_1 15.16 mag with a dispersion of
+2025-05-05 19:38:54,938 - INFO - Exact Replacement #6: '16.91' at line 31
+2025-05-05 19:38:54,938 - INFO -   Context: 2 1 48 log P_1 16.91 mag with a dispersion of
+2025-05-05 19:38:54,938 - INFO - Exact Replacement #7: '0.71' at line 31
+2025-05-05 19:38:54,938 - INFO -   Context: 1 68 log P_1 2 0.71 log P_1 NUMERICAL_RESULT mag with
+2025-05-05 19:38:54,938 - INFO - Exact Replacement #8: '36' at line 134
+2025-05-05 19:38:54,938 - INFO -   Context: yield V I _0 2 36 pm0 32 log P_1 1
+2025-05-05 19:38:54,938 - INFO - Exact Replacement #9: '36' at line 134
+2025-05-05 19:38:54,938 - INFO -   Context: I _0 2 28 pm0 36 log P_1 1 6 1
+2025-05-05 19:38:54,938 - INFO - Exact Replacement #10: '36' at line 150
+2025-05-05 19:38:54,938 - INFO -   Context: propto 2 28 pm 0 36 mathrm mag dex to determine
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #1: '-4.057' at line 8
+2025-05-05 19:38:54,938 - INFO -   Context: TRGB calibration to date Mih -4.057 pm 0 019 mathrm stat
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #2: '-1.287' at line 31
+2025-05-05 19:38:54,938 - INFO -   Context: computed using W_ VI I -1.287 V I which is reddening
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #3: '-1.68' at line 31
+2025-05-05 19:38:54,938 - INFO -   Context: polynomial fits are for Aseq -1.68 log P_1 2 NUMERICAL_RESULT log
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #4: '-0.68' at line 31
+2025-05-05 19:38:54,938 - INFO -   Context: 12 mag and for Bseq -0.68 log P_1 2 1 48
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #5: '-0.02' at line 33
+2025-05-05 19:38:54,938 - INFO -   Context: oscillation amplitudes sim 0 01 -0.02 mag near the TRGB Interestingly
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #6: '-73.1' at line 49
+2025-05-05 19:38:54,938 - INFO -   Context: dec CIRCLE ICRS 12 5 -73.1 3 3 1 AND S
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #7: '-0.0296' at line 57
+2025-05-05 19:38:54,938 - INFO -   Context: obtained F814W I_ text OGLE -0.0296 pm 0 0004 left V
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #8: '-1.6' at line 57
+2025-05-05 19:38:54,938 - INFO -   Context: 0004 left V I _0 -1.6 right 0 0027 pm 0
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #9: '-0.0027' at line 57
+2025-05-05 19:38:54,938 - INFO -   Context: I _0 1 6 right -0.0027 pm 0 0001 mag with
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #10: '-0.7' at line 65
+2025-05-05 19:38:54,938 - INFO -   Context: LMC stars near Fe H -0.7 dex and the SMC near
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #11: '-1.0' at line 65
+2025-05-05 19:38:54,938 - INFO -   Context: the SMC near Fe H -1.0 citep GarciaPerez2016 Additionally Fig ref
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #12: '-0.02' at line 118
+2025-05-05 19:38:54,938 - INFO -   Context: that mio is sim0 01 -0.02 mag brighter than mic in
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #13: '-72.94' at line 122
+2025-05-05 19:38:54,938 - INFO -   Context: SMC center 12 44 circ -72.94 circ citep Graczyk2020 The annular
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #14: '-1.4' at line 134
+2025-05-05 19:38:54,938 - INFO -   Context: NUMERICAL_RESULT pm0 32 log P_1 -1.4 1 75 pm0 02 mag
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #15: '-1.6' at line 134
+2025-05-05 19:38:54,938 - INFO -   Context: 28 pm0 NUMERICAL_RESULT log P_1 -1.6 1 74 pm0 02 mag
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #16: '-4.066' at line 148
+2025-05-05 19:38:54,938 - INFO -   Context: using the Bseq sample Mio -4.066 pm 0 018 mathrm stat
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #17: '-4.025' at line 148
+2025-05-05 19:38:54,938 - INFO -   Context: the LMC where A24 reported -4.025 pm 0 014 mathrm stat
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #18: '-4.018' at line 154
+2025-05-05 19:38:54,938 - INFO -   Context: M_ mathrm I OGLE 0 -4.018 pm 0 015 mathrm stat
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #19: '-4.018' at line 156
+2025-05-05 19:38:54,938 - INFO -   Context: magnitude in the SMC Mio -4.018 pm 0 044 pm 0
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #20: '-4.050' at line 156
+2025-05-05 19:38:54,938 - INFO -   Context: dimmer than the results of -4.050 pm 0 021 pm 0
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #21: '-4.057' at line 190
+2025-05-05 19:38:54,938 - INFO -   Context: SMC to date of Mih -4.057 pm 0 019 mathrm stat
+2025-05-05 19:38:54,938 - INFO - Additional Replacement #22: '-4.025' at line 192
+2025-05-05 19:38:54,938 - INFO -   Context: F814W syn 0 mathrm LMC -4.025 pm 0 014 mathrm stat
+2025-05-05 19:38:54,938 - INFO - Saved context information to utils/num_mask_logs/trgb_std_candle_contexts.log

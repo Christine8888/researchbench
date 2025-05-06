@@ -1,0 +1,63 @@
+Masked values and their context for paper: bioverse
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 1 replacements
+  ADDITIONAL: 8 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 80\%
+  Numerical Value: 80
+  Line: 24
+  Context: sizes gtrsim 100 providing gtrsim 80\% likelihood of strong evidence if
+
+
+ADDITIONAL REPLACEMENTS (8):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -15
+  Line: 89
+  Context: revv over the range 10 -15 1 citep but see Appendix
+
+Replacement #2:
+  Expression: -15
+  Line: 245
+  Context: revv over the range 10 -15 1 For n var semian_Nsamp1
+
+Replacement #3:
+  Expression: -40
+  Line: 395
+  Context: enough samples Ground based 25 -40 meter class extremely large telescopes
+
+Replacement #4:
+  Expression: -80
+  Line: 400
+  Context: is expected to target 25 -80 glspl EEC citep Kammerer2018 Quanz2022
+
+Replacement #5:
+  Expression: -300
+  Line: 419
+  Context: on early Earth at 180 -300 hours 7 5 12 5
+
+Replacement #6:
+  Expression: -12.5
+  Line: 419
+  Context: 180 300 hours 7 5 -12.5 days significantly shorter than the
+
+Replacement #7:
+  Expression: -30
+  Line: 420
+  Context: geologically negligible timescale of 20 -30 years meaning that the photochemistry
+
+Replacement #8:
+  Expression: -15
+  Line: 551
+  Context: revv over the range 10 -15 1 for the probability of
+
+

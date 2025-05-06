@@ -16,7 +16,7 @@
     "needs_gpu": false,
     "needs_browsing": false,
     "code_language": "python",
-    "dependencies": ["numpy", "scipy", "matplotlib", "astropy", "pandas", "reproject", "pjpipe", "regions", "photutils", "FITS_tools", "sklearn", "mpl_toolkits", "statsmodels"]
+    "dependencies": ["numpy", "imp", "scipy", "matplotlib", "astropy", "pandas", "reproject", "pjpipe", "regions", "photutils", "FITS_tools", "sklearn", "mpl_toolkits", "statsmodels"]
 },
 "other_instructions": "The paper uses the following Github repository: https://github.com/francbelf/jwst_kernels. "
 }

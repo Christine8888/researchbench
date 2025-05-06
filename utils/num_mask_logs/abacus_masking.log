@@ -1,0 +1,123 @@
+2025-05-05 19:38:51,168 - INFO - Logging to file: utils/num_mask_logs/abacus_masking.log
+2025-05-05 19:38:51,168 - INFO - Found 4 unique numerical values to mask
+2025-05-05 19:38:51,383 - INFO - Made 119 replacements in the text
+2025-05-05 19:38:51,384 - INFO - Saved masked text to papers/masked_texts/abacus.txt
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #1: '1.6\times' at line 272
+2025-05-05 19:38:51,384 - INFO -   Context: and median fractional errors are 1.6\times 10 4 and 1 2
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #2: '1.2\times' at line 272
+2025-05-05 19:38:51,384 - INFO -   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #3: '2.6\times' at line 278
+2025-05-05 19:38:51,384 - INFO -   Context: 125 the maximum deviation is 2.6\times 10 5 in units of
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #4: '1.2\times' at line 295
+2025-05-05 19:38:51,384 - INFO -   Context: The median force error is 1.2\times 10 6 which is better
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #5: '10\times' at line 503
+2025-05-05 19:38:51,384 - INFO -   Context: single drive However they are 10\times more expensive per GB than
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #6: '1.2\times' at line 535
+2025-05-05 19:38:51,384 - INFO -   Context: the 2048 3 simulation with 1.2\times 10 10 hMsun particle mass
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #7: '0.5\%' at line 114
+2025-05-05 19:38:51,384 - INFO -   Context: of magnitude larger than the 0.5\% time step error for eta
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #8: '35\%' at line 223
+2025-05-05 19:38:51,384 - INFO -   Context: is about 20 GFLOPs or 35\% of peak single core performance
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #9: '99\%' at line 272
+2025-05-05 19:38:51,384 - INFO -   Context: We find that Abacus s 99\% and median fractional errors are
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #10: '0.1\%' at line 297
+2025-05-05 19:38:51,384 - INFO -   Context: stripes of high force error 0.1\% The location of these particles
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #11: '15\%' at line 355
+2025-05-05 19:38:51,384 - INFO -   Context: early versions of Abacus spent 15\% of the total simulation time
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #12: '15\%' at line 361
+2025-05-05 19:38:51,384 - INFO -   Context: it was first implemented the 15\% time spent calling texttt free
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #13: '20\%' at line 368
+2025-05-05 19:38:51,384 - INFO -   Context: Abacus slab pipeline performance by 20\% We schedule threads over y
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #14: '25\%' at line 376
+2025-05-05 19:38:51,384 - INFO -   Context: Multipole and Taylor performance by 25\% subsection I O Strategies When
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #15: '10\%' at line 392
+2025-05-05 19:38:51,384 - INFO -   Context: notable system overheads of order 10\% of the run time that
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #16: '20\%' at line 401
+2025-05-05 19:38:51,384 - INFO -   Context: and GPU communication at the 20\% level The OpenMP threads use
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #17: '20\%' at line 499
+2025-05-05 19:38:51,384 - INFO -   Context: the fast partition is consistently 20\% faster than the slow partition
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #18: '20\%' at line 499
+2025-05-05 19:38:51,384 - INFO -   Context: partition which translates directly to 20\% increase performance in our large
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #19: '50\%' at line 506
+2025-05-05 19:38:51,384 - INFO -   Context: of an A40 is about 50\% better but the price to
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #20: '30\%' at line 515
+2025-05-05 19:38:51,384 - INFO -   Context: overall CPU work running about 30\% faster However the disks could
+2025-05-05 19:38:51,384 - INFO - Latex Replacement #21: '0.01\%' at line 535
+2025-05-05 19:38:51,384 - INFO -   Context: theory solution to better than 0.01\% The most ambitious Abacus simulations
+2025-05-05 19:38:51,384 - INFO - Rounded Replacement #1: 'about 26' at line 255
+2025-05-05 19:38:51,384 - INFO -   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
+2025-05-05 19:38:51,384 - INFO - Rounded Replacement #2: 'about 200' at line 495
+2025-05-05 19:38:51,384 - INFO -   Context: A single hard drive provides about 200 MB s under favorable conditions
+2025-05-05 19:38:51,384 - INFO - Exact Replacement #1: '0' at line 50
+2025-05-05 19:38:51,384 - INFO -   Context: line galaxies ELGs between redshifts 0 6 and 1 6 over
+2025-05-05 19:38:51,384 - INFO - Exact Replacement #2: '0' at line 112
+2025-05-05 19:38:51,384 - INFO -   Context: the softening length for eta 0 25 the value used in
+2025-05-05 19:38:51,384 - INFO - Exact Replacement #3: '0' at line 114
+2025-05-05 19:38:51,384 - INFO -   Context: step error for eta le 0 2 in Fig ref fig
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #4: '0' at line 169
+2025-05-05 19:38:51,385 - INFO -   Context: c text for begin cases 0 le a le p 0
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #5: '0' at line 170
+2025-05-05 19:38:51,385 - INFO -   Context: 0 le a le p 0 le b le p a
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #6: '0' at line 171
+2025-05-05 19:38:51,385 - INFO -   Context: le b le p a 0 le c le p a
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #7: '0' at line 181
+2025-05-05 19:38:51,385 - INFO -   Context: 1 6 double M cml 0 for int q 0 q
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #8: '0' at line 182
+2025-05-05 19:38:51,385 - INFO -   Context: cml 0 for int q 0 q n q double mx
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #9: '0' at line 184
+2025-05-05 19:38:51,385 - INFO -   Context: mx 1 for int a 0 a order a double mxy
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #10: '0' at line 186
+2025-05-05 19:38:51,385 - INFO -   Context: mxy mx for int b 0 b order a b double
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #11: '0' at line 188
+2025-05-05 19:38:51,385 - INFO -   Context: mxyz mxy for int c 0 c order a b c
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #12: '0' at line 293
+2025-05-05 19:38:51,385 - INFO -   Context: a snapshot of a z 0 LCDM simulation with 512 3
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #13: '0' at line 303
+2025-05-05 19:38:51,385 - INFO -   Context: must wait for texttt LoadSlab 0 through texttt LoadSlab 4 the
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #14: '0' at line 305
+2025-05-05 19:38:51,385 - INFO -   Context: and actions fboxsep 1mm fboxrule 0 5mm definecolor C1 HTML 7fc97f
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #15: '0' at line 370
+2025-05-05 19:38:51,385 - INFO -   Context: physical memory corresponding to pencils 0 to ttt CPD 2 and
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #16: '0' at line 472
+2025-05-05 19:38:51,385 - INFO -   Context: distance from an imaginary z 0 observer and a spherical surface
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #17: '0' at line 493
+2025-05-05 19:38:51,385 - INFO -   Context: TB of particle data and 0 4 TB of multipole data
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #18: '0' at line 517
+2025-05-05 19:38:51,385 - INFO -   Context: A FoF linking length of 0 2 for example finds a
+2025-05-05 19:38:51,385 - INFO - Exact Replacement #19: '0' at line 537
+2025-05-05 19:38:51,385 - INFO -   Context: the terminal redshift of z 0 1 As part of that
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #1: '-100' at line 79
+2025-05-05 19:38:51,385 - INFO -   Context: the average cell contains 30 -100 particles Cells are organized into
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #2: '-100' at line 158
+2025-05-05 19:38:51,385 - INFO -   Context: Optimal values are typically 30 -100 particles per cell depending on
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #3: '-512' at line 223
+2025-05-05 19:38:51,385 - INFO -   Context: Xeon processor with two AVX -512 FMA units 63 particles was
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #4: '-15' at line 223
+2025-05-05 19:38:51,385 - INFO -   Context: same answer to within 10 -15 The Taylors computation is somewhat
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #5: '-10' at line 265
+2025-05-05 19:38:51,385 - INFO -   Context: positions retain an additional 9 -10 bits of mantissa beyond the
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #6: '-754' at line 265
+2025-05-05 19:38:51,385 - INFO -   Context: nominal 24 in the IEEE -754 floating point representation Multipole and
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #7: '-20' at line 344
+2025-05-05 19:38:51,385 - INFO -   Context: enough RAM to hold 10 -20 hMpc worth of slabs to
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #8: '-20' at line 413
+2025-05-05 19:38:51,385 - INFO -   Context: precise density estimate using 10 -20 particles rather than the distance
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #9: '-30' at line 511
+2025-05-05 19:38:51,385 - INFO -   Context: the extreme bias factors 5 -30 of massive halos at this
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #10: '-1000' at line 511
+2025-05-05 19:38:51,385 - INFO -   Context: of clustering with only 500 -1000 objects assuming that the detected
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #11: '-1.5' at line 539
+2025-05-05 19:38:51,385 - INFO -   Context: of varying spectral index n_s -1.5 2 2 25 2 5
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #12: '-2.25' at line 539
+2025-05-05 19:38:51,385 - INFO -   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #13: '-2.5' at line 539
+2025-05-05 19:38:51,385 - INFO -   Context: 1 5 2 2 25 -2.5 in 4096 3 and 6144
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #14: '-60' at line 546
+2025-05-05 19:38:51,385 - INFO -   Context: a scale never achieved before -60 trillion particles spanning 97 cosmologies
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #15: '-1313285' at line 553
+2025-05-05 19:38:51,385 - INFO -   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #16: '-1312699.' at line 557
+2025-05-05 19:38:51,385 - INFO -   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
+2025-05-05 19:38:51,385 - INFO - Additional Replacement #17: '-00' at line 560
+2025-05-05 19:38:51,386 - INFO -   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have
+2025-05-05 19:38:51,386 - INFO - Saved context information to utils/num_mask_logs/abacus_contexts.log

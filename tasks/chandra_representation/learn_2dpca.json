@@ -5,6 +5,6 @@
     "difficulty": 5,
     "description": "Reproduce the 2D-PCA embedding space",
     "instructions": "",
-    "tolerance": null,
+    "tolerance": "",
     "expected_output": "{llm_name}2DPCA_embedding.csv"
 }

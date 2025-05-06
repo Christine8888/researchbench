@@ -1,0 +1,9 @@
+{
+    "task_id": "figure2_rvs",
+    "kind": "figure",
+    "difficulty": 3,
+    "description": "Recreate the $R_{\\rm gal}$-$V_z$ density map for the 'RVS' sample.",
+    "instructions": "Using the Gaia DR2 'RVS' sample, plot the the $R_{\\rm gal}$-$V_z$ image exactly as done in Section 3.2 and with sensible choices of x and y labels. Return the figure in png format.",
+    "expected_output": "figure2_upper_panel.png",
+    "parents": ["gaia_dr2_rvs"]
+  }

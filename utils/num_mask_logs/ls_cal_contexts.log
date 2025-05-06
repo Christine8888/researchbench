@@ -1,0 +1,144 @@
+Masked values and their context for paper: ls_cal
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 1 replacements
+  ROUNDED: 1 replacements
+  ADDITIONAL: 22 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 95.3\%
+  Numerical Value: 95.3
+  Line: 69
+  Context: EDGES best fit profile with 95.3\% confidence citep sarasDisputeEdges hypothesising that
+
+
+ROUNDED REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: approximately 80
+  Numerical Value: 80
+  Line: 73
+  Context: we achieve an RMSE of approximately 80 mK for the simulated antenna
+
+
+ADDITIONAL REPLACEMENTS (22):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -200
+  Line: 67
+  Context: in the region of 50 -200 MHz As such the experiment
+
+Replacement #2:
+  Expression: -08
+  Line: 157
+  Context: by a Pico Technology TC -08 data logging thermocouple An overview
+
+Replacement #3:
+  Expression: -150
+  Line: 175
+  Context: REACH dipole antenna covering 50 -150 MHz citep cumner As noted
+
+Replacement #4:
+  Expression: -170
+  Line: 175
+  Context: make concurrent observations from 50 -170 MHz Furthermore since we are
+
+Replacement #5:
+  Expression: -84
+  Line: 184
+  Context: a pair of cascaded CMA -84 SMT gain blocks from Mini
+
+Replacement #6:
+  Expression: -120
+  Line: 184
+  Context: dipole is best matched 60 -120 MHz the system will be
+
+Replacement #7:
+  Expression: -30
+  Line: 186
+  Context: reflection coefficient S_ 11 to -30 dB or lower since this
+
+Replacement #8:
+  Expression: -84
+  Line: 186
+  Context: we settled on the CMA -84 Having higher noise from the
+
+Replacement #9:
+  Expression: -50
+  Line: 186
+  Context: amplifier based on an ERA -50 SM chip offering a NF
+
+Replacement #10:
+  Expression: -84
+  Line: 186
+  Context: over time with the CMA -84 Measurements of the LNA S
+
+Replacement #11:
+  Expression: -30
+  Line: 186
+  Context: output match at better than -30 dB over the observational band
+
+Replacement #12:
+  Expression: -42
+  Line: 193
+  Context: filter from Mini Circuits XLF -42 M was used in both
+
+Replacement #13:
+  Expression: -13
+  Line: 193
+  Context: limiting amplifier and the PHA -13 LN mid power amplifier to
+
+Replacement #14:
+  Expression: -20
+  Line: 195
+  Context: is band limited to DC -20 MHz A simulation of the
+
+Replacement #15:
+  Expression: -10
+  Line: 216
+  Context: Electron Dynamics TC M U -10 A was used A separate
+
+Replacement #16:
+  Expression: -30
+  Line: 225
+  Context: on regular intervals of 10 -30 seconds resulting in much shorter
+
+Replacement #17:
+  Expression: -405
+  Line: 230
+  Context: and a 4 inch RG -405 cable The main MS1 switch
+
+Replacement #18:
+  Expression: -402
+  Line: 230
+  Context: box are made using RG -402 semi rigid cables for stability
+
+Replacement #19:
+  Expression: -08
+  Line: 232
+  Context: blue box is the TC -08 thermocouple module which measures the
+
+Replacement #20:
+  Expression: -08
+  Line: 232
+  Context: modules are beneath the TC -08 and oval ring and are
+
+Replacement #21:
+  Expression: -130
+  Line: 279
+  Context: was masked to the 50 -130 MHz band Following this the
+
+Replacement #22:
+  Expression: -08
+  Line: 282
+  Context: were obtained from the TC -08 thermocouple averaged over the data
+
+

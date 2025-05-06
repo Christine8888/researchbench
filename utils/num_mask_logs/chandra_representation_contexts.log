@@ -1,0 +1,206 @@
+Masked values and their context for paper: chandra_representation
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 9 replacements
+  EXACT: 15 replacements
+  ADDITIONAL: 11 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (9):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1.0\times
+  Numerical Value: 1.0
+  Line: 235
+  Context: limit of L_ rm X 1.0\times 10 34 mathrm erg s
+
+Replacement #2:
+  Expression: 90\%
+  Numerical Value: 90
+  Line: 44
+  Context: the ellipse that includes the 90\% encircled counts fraction of the
+
+Replacement #3:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 72
+  Context: each dimension That is only 10\% of the event files will
+
+Replacement #4:
+  Expression: 90\%
+  Numerical Value: 90
+  Line: 223
+  Context: geq5 corresponding to at least 90\% confidence in variability per the
+
+Replacement #5:
+  Expression: 25\%
+  Numerical Value: 25
+  Line: 223
+  Context: in our transient catalog About 25\% of the transient candidates do
+
+Replacement #6:
+  Expression: 90\%
+  Numerical Value: 90
+  Line: 233
+  Context: time t_0 920 s The 90\% uncertainty radius of 2 0
+
+Replacement #7:
+  Expression: 90\%
+  Numerical Value: 90
+  Line: 235
+  Context: ObsID 23022 we obtained a 90\% confidence limit of L_ rm
+
+Replacement #8:
+  Expression: 90\%
+  Numerical Value: 90
+  Line: 235
+  Context: 150 ks and yields a 90\% confidence upper limit on the
+
+Replacement #9:
+  Expression: 95\%
+  Numerical Value: 95
+  Line: 245
+  Context: counts increases from 5 to 95\% of the total flare counts
+
+
+EXACT REPLACEMENTS (15):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.5
+  Line: 36
+  Context: for the broad energy band 0.5 7 keV as estimated using
+
+Replacement #2:
+  Expression: 0.5
+  Line: 40
+  Context: bands chosen between the soft 0.5 1 2 keV medium 1
+
+Replacement #3:
+  Expression: 0.5
+  Line: 54
+  Context: max right where E_ min 0.5 mathrm keV and E_ max
+
+Replacement #4:
+  Expression: 0.5
+  Line: 54
+  Context: where epsilon_ min mathrm log 0.5 mathrm keV and epsilon_ max
+
+Replacement #5:
+  Expression: .5
+  Line: 229
+  Context: supernova remnant SNR 0509 67 .5 in the LMC on May
+
+Replacement #6:
+  Expression: .5
+  Line: 233
+  Context: supernova remnant SNR 0509 67 .5 in the LMC which is
+
+Replacement #7:
+  Expression: .5
+  Line: 245
+  Context: the flare at around 23 .5 ks into the observation The
+
+Replacement #8:
+  Expression: 0.5
+  Line: 262
+  Context: a photon index of Gamma 0.5 pm0 3 The fit statistics
+
+Replacement #9:
+  Expression: .5
+  Line: 263
+  Context: null hypothesis probability of 3 .5 times 10 3 with a
+
+Replacement #10:
+  Expression: .5
+  Line: 264
+  Context: band resembling a Gamma sim0 .5 power law is that at
+
+Replacement #11:
+  Expression: .5
+  Line: 264
+  Context: be L_ rm bol gtrsim1 .5 times 10 38 erg s
+
+Replacement #12:
+  Expression: 0.5
+  Line: 280
+  Context: a significantly harder spectrum Gamma 0.5 pm 0 3 in the
+
+Replacement #13:
+  Expression: .5
+  Line: 280
+  Context: photon index of Gamma sim0 .5 below 10 keV is indeed
+
+Replacement #14:
+  Expression: .5
+  Line: 292
+  Context: different spectral properties Gamma sim2 .5 for XRT 120830 versus Gamma
+
+Replacement #15:
+  Expression: .5
+  Line: 292
+  Context: XRT 120830 versus Gamma sim0 .5 for XRT 200515 We leave
+
+
+ADDITIONAL REPLACEMENTS (11):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -1.2
+  Line: 40
+  Context: chosen between the soft NUMERICAL_RESULT -1.2 keV medium 1 2 2
+
+Replacement #2:
+  Expression: -740
+  Line: 245
+  Context: a T_ 90 sim 580 -740 s for the photons observed
+
+Replacement #3:
+  Expression: -1.2
+  Line: 251
+  Context: of soft photons 0 3 -1.2 keV m is the number
+
+Replacement #4:
+  Expression: -10
+  Line: 264
+  Context: gtrsim 5 6 times 10 -10 erg s cm 2 a
+
+Replacement #5:
+  Expression: -10
+  Line: 264
+  Context: a peak unabsorbed 0 3 -10 keV luminosity of L_ rm
+
+Replacement #6:
+  Expression: -10
+  Line: 264
+  Context: gtrsim 4 0 times 10 -10 erg s cm 2 and
+
+Replacement #7:
+  Expression: -10
+  Line: 264
+  Context: The peak unabsorbed 0 3 -10 keV luminosity would be L_
+
+Replacement #8:
+  Expression: -24
+  Line: 274
+  Context: in the range of 23 -24 mag All four sources appear
+
+Replacement #9:
+  Expression: -740
+  Line: 280
+  Context: The T_ 90 sim 580 -740 s value for XRT 200515
+
+Replacement #10:
+  Expression: -6.4
+  Line: 280
+  Context: and fall times 3 2 -6.4 s and the lack of
+
+Replacement #11:
+  Expression: -12
+  Line: 284
+  Context: magnetar spin periods of 2 -12 s leading to quasi periodic
+
+

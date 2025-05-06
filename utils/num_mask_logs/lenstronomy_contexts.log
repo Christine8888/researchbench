@@ -1,0 +1,177 @@
+Masked values and their context for paper: lenstronomy
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  EXACT: 33 replacements
+
+================================================================================
+
+EXACT REPLACEMENTS (33):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: .
+  Line: 9
+  Context: \ead{sibirrer@astro . ucla.edu}
+
+Replacement #2:
+  Expression: .
+  Line: 9
+  Context: \ead{sibirrer@astro.ucla . edu}
+
+Replacement #3:
+  Expression: .
+  Line: 12
+  Context: \ead{adam . amara@phys.ethz.ch}
+
+Replacement #4:
+  Expression: .
+  Line: 12
+  Context: \ead{adam.amara@phys . ethz.ch}
+
+Replacement #5:
+  Expression: .
+  Line: 12
+  Context: \ead{adam.amara@phys.ethz . ch}
+
+Replacement #6:
+  Expression: .
+  Line: 30
+  Context: is rapidly increasing \citep[see e . g.][]{Agnello:2015DES, Nord:2016, Schechter:2017, Lin:2017DES, Jacobs:2017,
+
+Replacement #7:
+  Expression: .
+  Line: 31
+  Context: the Hubble constant \citep[see e . g.][]{Treu:2016, Shajib:2018, Suyu:2018} as well
+
+Replacement #8:
+  Expression: .
+  Line: 31
+  Context: on sub-galactic scales \citep[see e . g. forecast by][]{Gilman:20117_abc}. To fully
+
+Replacement #9:
+  Expression: .
+  Line: 97
+  Context: \lstinputlisting[language=Python]{py_sources/lens_model . txt}
+
+Replacement #10:
+  Expression: .
+  Line: 103
+  Context: \lstinputlisting[language=Python]{py_sources/multi_plane . txt}
+
+Replacement #11:
+  Expression: .
+  Line: 107
+  Context: \lstinputlisting[language=Python]{py_sources/lens_equation_solver . txt}
+
+Replacement #12:
+  Expression: .
+  Line: 117
+  Context: \lstinputlisting[language=Python]{py_sources/light_model . txt}
+
+Replacement #13:
+  Expression: .
+  Line: 121
+  Context: in describing point sources (e . g. in the image plane
+
+Replacement #14:
+  Expression: .
+  Line: 125
+  Context: \lstinputlisting[language=Python]{py_sources/point_source_model . txt}
+
+Replacement #15:
+  Expression: .
+  Line: 130
+  Context: \lstinputlisting[language=Python]{py_sources/data . txt}
+
+Replacement #16:
+  Expression: .
+  Line: 134
+  Context: surface brightness profile \citep[see e . g.][for the latter]{Tessore:2016}.
+
+Replacement #17:
+  Expression: .
+  Line: 138
+  Context: \lstinputlisting[language=Python]{py_sources/imsim . txt}
+
+Replacement #18:
+  Expression: .
+  Line: 143
+  Context: types of semi-linear inversions \citep[e . g.][]{Suyu:2006, Vegetti:2009, Tagore:2014, Birrer2015_basis_set, Nightingale:2015}.
+
+Replacement #19:
+  Expression: .
+  Line: 146
+  Context: \lstinputlisting[language=Python]{py_sources/linear_inversion . txt}
+
+Replacement #20:
+  Expression: .
+  Line: 166
+  Context: \lstinputlisting[language=Python]{py_sources/likelihood . txt}
+
+Replacement #21:
+  Expression: .
+  Line: 169
+  Context: of the non-linear fitter (e . g. PSO) and the parameter
+
+Replacement #22:
+  Expression: .
+  Line: 169
+  Context: and the parameter inference (e . g. emcee). The module is
+
+Replacement #23:
+  Expression: .
+  Line: 179
+  Context: constraints on the modelling (e . g. fix source profile to
+
+Replacement #24:
+  Expression: .
+  Line: 182
+  Context: \lstinputlisting[language=Python]{py_sources/parameters . txt}
+
+Replacement #25:
+  Expression: .
+  Line: 186
+  Context: \lstinputlisting[language=Python]{py_sources/likelihood_class . txt}
+
+Replacement #26:
+  Expression: .
+  Line: 190
+  Context: \lstinputlisting[language=Python]{py_sources/sampler . txt}
+
+Replacement #27:
+  Expression: .
+  Line: 200
+  Context: in \cite{MamonLokas:2005}. Observational conditions, i . e. the PSF and the
+
+Replacement #28:
+  Expression: .
+  Line: 208
+  Context: with basis sets \citep[see e . g.][]{Birrer:J1206}. The reconstruction for a
+
+Replacement #29:
+  Expression: .
+  Line: 208
+  Context: the user in post-processing \citep[e . g.][]{Birrer:J1206}.
+
+Replacement #30:
+  Expression: .
+  Line: 221
+  Context: band individually. This allows e . g. for different galaxy morphologies
+
+Replacement #31:
+  Expression: .
+  Line: 223
+  Context: align images to determine e . g. a point source or
+
+Replacement #32:
+  Expression: .
+  Line: 236
+  Context: combining multiple lens models (e . g. a main deflector, external
+
+Replacement #33:
+  Expression: .
+  Line: 238
+  Context: milliarcsecond scale, which is e . g. below the pixel resolution
+
+

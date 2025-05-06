@@ -1,0 +1,715 @@
+Masked values and their context for paper: phangs_PAHs
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 36 replacements
+  ROUNDED: 2 replacements
+  EXACT: 51 replacements
+  ADDITIONAL: 41 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (36):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 40
+  Context: steeper slopes with a sim 10\% increase in PAH 11 3
+
+Replacement #2:
+  Expression: 20\%
+  Numerical Value: 20
+  Line: 48
+  Context: total emission amounts to lesssim 20\% of the total infrared radiation
+
+Replacement #3:
+  Expression: 20\%
+  Numerical Value: 20
+  Line: 56
+  Context: in an increase of sim 20\% in the 11 3 mic
+
+Replacement #4:
+  Expression: 30\%
+  Numerical Value: 30
+  Line: 94
+  Context: contamination of about about 10 30\% from the hot dust continuum
+
+Replacement #5:
+  Expression: 99\%
+  Numerical Value: 99
+  Line: 94
+  Context: majority of the pixels as 99\% of them show mathrm A
+
+Replacement #6:
+  Expression: 99\%
+  Numerical Value: 99
+  Line: 96
+  Context: _ mathrm PAH F770W of 99\% In the diffuse gas F770W
+
+Replacement #7:
+  Expression: 67\%
+  Numerical Value: 67
+  Line: 96
+  Context: mathrm PAH F770W ranges between 67\% and 90 in most pixels
+
+Replacement #8:
+  Expression: 90\%
+  Numerical Value: 90
+  Line: 96
+  Context: F770W ranges between 67 and 90\% in most pixels and reaches
+
+Replacement #9:
+  Expression: 25\%
+  Numerical Value: 25
+  Line: 96
+  Context: reaches a minimum of sim 25\% in pixels that correspond to
+
+Replacement #10:
+  Expression: 95\%
+  Numerical Value: 95
+  Line: 98
+  Context: practice we find that in 95\% of the pixels of all
+
+Replacement #11:
+  Expression: 93\%
+  Numerical Value: 93
+  Line: 98
+  Context: F1130W _ mathrm PAH F1130W 93\% In the small minority of
+
+Replacement #12:
+  Expression: 70\%
+  Numerical Value: 70
+  Line: 98
+  Context: PAH F1130W can reach sim 70\% and there we subtract the
+
+Replacement #13:
+  Expression: 20\%
+  Numerical Value: 20
+  Line: 108
+  Context: the F336W filter about 10 20\% of the pixels in these
+
+Replacement #14:
+  Expression: 41\%
+  Numerical Value: 41
+  Line: 149
+  Context: The first component accounts for 41\% of the total variance while
+
+Replacement #15:
+  Expression: 17\%
+  Numerical Value: 17
+  Line: 149
+  Context: variance while the second for 17\% the third for 1 1
+
+Replacement #16:
+  Expression: 1.1\%
+  Numerical Value: 1.1
+  Line: 149
+  Context: for 17 the third for 1.1\% and the fourth for 0
+
+Replacement #17:
+  Expression: 0.78\%
+  Numerical Value: 0.78
+  Line: 149
+  Context: 1 and the fourth for 0.78\% In Table ref tab features
+
+Replacement #18:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 167
+  Context: each respective galaxy is between 10\% and 25 The same pixels
+
+Replacement #19:
+  Expression: 25\%
+  Numerical Value: 25
+  Line: 167
+  Context: galaxy is between 10 and 25\% The same pixels show high
+
+Replacement #20:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 187
+  Context: above this threshold NGC 1300 10\% NGC 1433 21 NGC 1512
+
+Replacement #21:
+  Expression: 21\%
+  Numerical Value: 21
+  Line: 187
+  Context: NGC 1300 10 NGC 1433 21\% NGC 1512 21 and NGC
+
+Replacement #22:
+  Expression: 21\%
+  Numerical Value: 21
+  Line: 187
+  Context: NGC 1433 21 NGC 1512 21\% and NGC 3351 25 and
+
+Replacement #23:
+  Expression: 25\%
+  Numerical Value: 25
+  Line: 187
+  Context: 1512 21 and NGC 3351 25\% and we focus on these
+
+Replacement #24:
+  Expression: 2.5\%
+  Numerical Value: 2.5
+  Line: 189
+  Context: above this threshold NGC 1566 2.5\% NGC 3627 2 6 and
+
+Replacement #25:
+  Expression: 2.6\%
+  Numerical Value: 2.6
+  Line: 189
+  Context: 1566 2 5 NGC 3627 2.6\% and NGC 4535 5 Due
+
+Replacement #26:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 213
+  Context: 05 dex corresponding to sim 10\% Comparing the spatial distribution of
+
+Replacement #27:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 213
+  Context: of the order of sim 10\% in PAH 11 3 7
+
+Replacement #28:
+  Expression: 25\%
+  Numerical Value: 25
+  Line: 230
+  Context: galaxies where they constitute 10 25\% of the spatially independent pixels
+
+Replacement #29:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 236
+  Context: sim 0 05 dex sim 10\% This is compared to a
+
+Replacement #30:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 238
+  Context: 05 dex corresponding to sim 10\% enhancement of the log PAH
+
+Replacement #31:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 238
+  Context: ratios of the order of 10\% which is in a stark
+
+Replacement #32:
+  Expression: 25\%
+  Numerical Value: 25
+  Line: 250
+  Context: correlation These pixels constitute 10 25\% of the pixels in four
+
+Replacement #33:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 252
+  Context: result of a small sim 10\% increase in the PAH 11
+
+Replacement #34:
+  Expression: 10\%
+  Numerical Value: 10
+  Line: 252
+  Context: small of the order of 10\% in contrast to other AGN
+
+Replacement #35:
+  Expression: 1.1\%
+  Numerical Value: 1.1
+  Line: 291
+  Context: principal components They account for 1.1\% and 0 78 of the
+
+Replacement #36:
+  Expression: 0.78\%
+  Numerical Value: 0.78
+  Line: 291
+  Context: account for 1 1 and 0.78\% of the total variance The
+
+
+ROUNDED REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: about 0.2
+  Numerical Value: 0.2
+  Line: 179
+  Context: galaxies with a slope of about 0.2 0 22 at a 150
+
+Replacement #2:
+  Expression: about 0.4
+  Numerical Value: 0.4
+  Line: 181
+  Context: 3 7 7 ratio of about 0.4 dex although they have not
+
+
+EXACT REPLACEMENTS (51):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.07
+  Line: 181
+  Context: 05 and 0 33 pm 0.07 respectively with a maximum log
+
+Replacement #2:
+  Expression: 0.16
+  Line: 169
+  Context: the shallowest NGC 1087 beta 0.16 pm 0 06 to the
+
+Replacement #3:
+  Expression: 0.16
+  Line: 181
+  Context: the least steep slopes of 0.16 pm 0 06 and 0
+
+Replacement #4:
+  Expression: 0.16
+  Line: 246
+  Context: The best fitting slopes are 0.16 0 38 for the MUSE
+
+Replacement #5:
+  Expression: 0.06
+  Line: 169
+  Context: NGC 1087 beta NUMERICAL_RESULT pm 0.06 to the steepest NGC 1365
+
+Replacement #6:
+  Expression: 0.06
+  Line: 181
+  Context: steep slopes of NUMERICAL_RESULT pm 0.06 and 0 17 pm 0
+
+Replacement #7:
+  Expression: 0.38
+  Line: 169
+  Context: the steepest NGC 1365 beta 0.38 pm 0 08 In Figure
+
+Replacement #8:
+  Expression: 0.38
+  Line: 246
+  Context: best fitting slopes are NUMERICAL_RESULT 0.38 for the MUSE optimal resolution
+
+Replacement #9:
+  Expression: 0.38
+  Line: 252
+  Context: with beta of 0 25 0.38 which are the result of
+
+Replacement #10:
+  Expression: 0.08
+  Line: 169
+  Context: NGC 1365 beta NUMERICAL_RESULT pm 0.08 In Figure ref f galaxies_sorted_by_slope
+
+Replacement #11:
+  Expression: 0.19
+  Line: 246
+  Context: the MUSE optimal resolution and 0.19 0 40 for the 150
+
+Replacement #12:
+  Expression: 0.05
+  Line: 181
+  Context: average slopes 0 26 pm 0.05 and 0 33 pm NUMERICAL_RESULT
+
+Replacement #13:
+  Expression: 0.05
+  Line: 181
+  Context: NUMERICAL_RESULT and 0 17 pm 0.05 respectively with a maximum log
+
+Replacement #14:
+  Expression: 0.05
+  Line: 211
+  Context: is due to a sim 0.05 dex increase in log PAH
+
+Replacement #15:
+  Expression: 0.05
+  Line: 213
+  Context: AGN hosts of about sim 0.05 dex corresponding to sim NUMERICAL_RESULT
+
+Replacement #16:
+  Expression: 0.05
+  Line: 236
+  Context: 3 7 7 by sim 0.05 dex sim NUMERICAL_RESULT This is
+
+Replacement #17:
+  Expression: 0.05
+  Line: 238
+  Context: result of a slight sim 0.05 dex corresponding to sim NUMERICAL_RESULT
+
+Replacement #18:
+  Expression: 0.05
+  Line: 317
+  Context: find an increase of sim 0.05 dex in log PAH 11
+
+Replacement #19:
+  Expression: .22
+  Line: 56
+  Context: 6 73 eV to 1 .22 eV For the assumed PAH
+
+Replacement #20:
+  Expression: 0.22
+  Line: 179
+  Context: a slope of about NUMERICAL_RESULT 0.22 at a 150 pc scale
+
+Replacement #21:
+  Expression: 0.22
+  Line: 207
+  Context: relatively average slopes beta sim 0.22 In both cases we exclude
+
+Replacement #22:
+  Expression: 0.26
+  Line: 181
+  Context: show steeper than average slopes 0.26 pm NUMERICAL_RESULT and 0 33
+
+Replacement #23:
+  Expression: 0.17
+  Line: 181
+  Context: of NUMERICAL_RESULT pm NUMERICAL_RESULT and 0.17 pm NUMERICAL_RESULT respectively with a
+
+Replacement #24:
+  Expression: 0.25
+  Line: 252
+  Context: ratios relations with beta of 0.25 NUMERICAL_RESULT which are the result
+
+Replacement #25:
+  Expression: 0.2
+  Line: 40
+  Context: with a slope of sim 0.2 and a scatter of sim
+
+Replacement #26:
+  Expression: .2
+  Line: 48
+  Context: features at 3 3 6 .2 7 7 8 6 11
+
+Replacement #27:
+  Expression: .2
+  Line: 54
+  Context: ionized PAHs having stronger 6 .2 and 7 7 mic band
+
+Replacement #28:
+  Expression: .2
+  Line: 54
+  Context: mic 11 3 mic 6 .2 mic 7 7 mic 11
+
+Replacement #29:
+  Expression: .2
+  Line: 54
+  Context: 3 3 mic and 6 .2 mic compared to 7 7
+
+Replacement #30:
+  Expression: .2
+  Line: 84
+  Context: use the survey derived DR2 .2 surface brightness maps of the
+
+Replacement #31:
+  Expression: .2
+  Line: 147
+  Context: mic feature see Section 5 .2 in citetalias baron24 We do
+
+Replacement #32:
+  Expression: 0.2
+  Line: 213
+  Context: We focus on regions where 0.2 siihalpha 0 which is the
+
+Replacement #33:
+  Expression: 0.2
+  Line: 213
+  Context: AGN hosts in the range 0.2 siihalpha 0 we find a
+
+Replacement #34:
+  Expression: 0.2
+  Line: 224
+  Context: fitting slope around beta sim 0.2 for log PAH 11 3
+
+Replacement #35:
+  Expression: 0.2
+  Line: 228
+  Context: 3 7 7 of sim 0.2 mathrm dex Visualizing the optical
+
+Replacement #36:
+  Expression: 0.2
+  Line: 238
+  Context: 3 7 7 ratio for 0.2 siihalpha 0 depicted in the
+
+Replacement #37:
+  Expression: .2
+  Line: 244
+  Context: MUSE VLT 0 56 1 .2 arcsec we have sim 700
+
+Replacement #38:
+  Expression: 0.2
+  Line: 246
+  Context: a slope of beta sim 0.2 and a scatter of sim
+
+Replacement #39:
+  Expression: 0.2
+  Line: 248
+  Context: matches the observed beta sim 0.2 slope This interpretation implies that
+
+Replacement #40:
+  Expression: 0.2
+  Line: 248
+  Context: much larger variation of sim 0.2 dex vspace 0 3cm noindent
+
+Replacement #41:
+  Expression: 0.2
+  Line: 252
+  Context: siihalpha ratios in the range 0.2 to 0 The regions showing
+
+Replacement #42:
+  Expression: 0.2
+  Line: 315
+  Context: siihalpha ratios in the range 0.2 0 Pixels from regions with
+
+Replacement #43:
+  Expression: .1
+  Line: 96
+  Context: infrared emission see Section 3 .1 there In the dust rich
+
+Replacement #44:
+  Expression: 0.1
+  Line: 191
+  Context: anomalous group 0 3 to 0.1 The latter is done to
+
+Replacement #45:
+  Expression: 0.1
+  Line: 193
+  Context: of mathrm E B V 0.1 mag to match the observed
+
+Replacement #46:
+  Expression: 0.1
+  Line: 211
+  Context: siihalpha ratio of about sim 0.1 This suggests that the increased
+
+Replacement #47:
+  Expression: .1
+  Line: 267
+  Context: data ADS JAO ALMA 2012 .1 00650 S 2013 1 01161
+
+Replacement #48:
+  Expression: .1
+  Line: 267
+  Context: 2012 1 00650 S 2013 .1 01161 S 2015 1 00925
+
+Replacement #49:
+  Expression: .1
+  Line: 267
+  Context: 2013 1 01161 S 2015 .1 00925 S 2017 1 00392
+
+Replacement #50:
+  Expression: .1
+  Line: 267
+  Context: 2015 1 00925 S 2017 .1 00392 S and 2017 1
+
+Replacement #51:
+  Expression: .1
+  Line: 267
+  Context: 1 00392 S and 2017 .1 00886 L ALMA is a
+
+
+ADDITIONAL REPLACEMENTS (41):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -150
+  Line: 40
+  Context: that probe scales of 40 -150 pc in nineteen nearby star
+
+Replacement #2:
+  Expression: -10
+  Line: 56
+  Context: to being dominated by 1 -10 Gyr old stars observed spectrum
+
+Replacement #3:
+  Expression: -150
+  Line: 66
+  Context: galaxies on scales of 40 -150 pc We use the nineteen
+
+Replacement #4:
+  Expression: -150
+  Line: 66
+  Context: dependent over the range 40 -150 pc iii to identify special
+
+Replacement #5:
+  Expression: -11
+  Line: 72
+  Context: M_ M_ odot 9 5 -11 and metallicities 12 log mathrm
+
+Replacement #6:
+  Expression: -8.7
+  Line: 72
+  Context: mathrm O H 8 4 -8.7 located close to the star
+
+Replacement #7:
+  Expression: -120
+  Line: 74
+  Context: spatial resolution of sim 40 -120 pc The analysis in this
+
+Replacement #8:
+  Expression: -9350
+  Line: 82
+  Context: in the wavelength range 4750 -9350 mathrm AA with a spectral
+
+Replacement #9:
+  Expression: -50
+  Line: 90
+  Context: probing scales of sim 5 -50 pc citep lee23 The filters
+
+Replacement #10:
+  Expression: -150
+  Line: 139
+  Context: 19 galaxies individually on 40 -150 pc scales in Section ref
+
+Replacement #11:
+  Expression: -0.7
+  Line: 153
+  Context: ratios of sim 0 6 -0.7 dex This group does not
+
+Replacement #12:
+  Expression: -150
+  Line: 177
+  Context: relation is probed within 40 -150 pc suggests that the process
+
+Replacement #13:
+  Expression: -0.3
+  Line: 191
+  Context: observed in the anomalous group -0.3 to NUMERICAL_RESULT The latter is
+
+Replacement #14:
+  Expression: -0.5
+  Line: 195
+  Context: 7 7 sim 0 4 -0.5 dex closer to the bar
+
+Replacement #15:
+  Expression: -150
+  Line: 221
+  Context: galaxies probing scales of 40 -150 pc The correlation is a
+
+Replacement #16:
+  Expression: -150
+  Line: 228
+  Context: uniform on scales of 40 -150 pc as it can vary
+
+Replacement #17:
+  Expression: -10
+  Line: 236
+  Context: to a factor of 2 -10 difference observed in Spitzer IRS
+
+Replacement #18:
+  Expression: -150
+  Line: 238
+  Context: unprecedentedly small scales of 40 -150 pc that allows us to
+
+Replacement #19:
+  Expression: -150
+  Line: 244
+  Context: emission on scales of 40 -150 pc Our results and their
+
+Replacement #20:
+  Expression: -150
+  Line: 246
+  Context: star forming galaxies on 40 -150 pc scales Section ref sec
+
+Replacement #21:
+  Expression: -120
+  Line: 246
+  Context: scales in the range 40 -120 pc per source as well
+
+Replacement #22:
+  Expression: -0.40
+  Line: 246
+  Context: MUSE optimal resolution and NUMERICAL_RESULT -0.40 for the 150 pc resolution
+
+Replacement #23:
+  Expression: -150
+  Line: 248
+  Context: is surprisingly uniform on 40 -150 pc scales accounting for a
+
+Replacement #24:
+  Expression: -150
+  Line: 254
+  Context: remain relatively uniform on 40 -150 pc scales This implies that
+
+Replacement #25:
+  Expression: -15
+  Line: 262
+  Context: Azur under reference number ANR -15 IDEX 01 JPe acknowledges support
+
+Replacement #26:
+  Expression: -01.
+  Line: 262
+  Context: reference number ANR 15 IDEX -01. JPe acknowledges support by the
+
+Replacement #27:
+  Expression: -21
+  Line: 262
+  Context: through the DAOISM grant ANR -21 CE31 0010 JC acknowledges funding
+
+Replacement #28:
+  Expression: -0010.
+  Line: 262
+  Context: DAOISM grant ANR 21 CE31 -0010. JC acknowledges funding from the
+
+Replacement #29:
+  Expression: -2022
+  Line: 262
+  Context: NSERC funding reference number RGPIN -2022 03499 RSK acknowledges financial support
+
+Replacement #30:
+  Expression: -03499.
+  Line: 262
+  Context: funding reference number RGPIN 2022 -03499. RSK acknowledges financial support from
+
+Replacement #31:
+  Expression: -0623
+  Line: 270
+  Context: under ESO programmes 094 C -0623 PI Kreckel 095 C 0473
+
+Replacement #32:
+  Expression: -0473
+  Line: 270
+  Context: 0623 PI Kreckel 095 C -0473 098 C 0484 PI Blanc
+
+Replacement #33:
+  Expression: -0484
+  Line: 270
+  Context: 095 C 0473 098 C -0484 PI Blanc 1100 B 0651
+
+Replacement #34:
+  Expression: -0651
+  Line: 270
+  Context: 0484 PI Blanc 1100 B -0651 PHANGS MUSE PI Schinnerer as
+
+Replacement #35:
+  Expression: -0321
+  Line: 270
+  Context: as well as 094 B -0321 MAGNUM PI Marconi 099 B
+
+Replacement #36:
+  Expression: -0242
+  Line: 270
+  Context: MAGNUM PI Marconi 099 B -0242 0100 B 0116 098 B
+
+Replacement #37:
+  Expression: -0116
+  Line: 270
+  Context: 099 B 0242 0100 B -0116 098 B 0551 MAD PI
+
+Replacement #38:
+  Expression: -0551
+  Line: 270
+  Context: 0100 B 0116 098 B -0551 MAD PI Carollo and 097
+
+Replacement #39:
+  Expression: -0640
+  Line: 270
+  Context: PI Carollo and 097 B -0640 TIMER PI Gadotti IPython citep
+
+Replacement #40:
+  Expression: -3.
+  Line: 291
+  Context: PAH approximately align with PCA -3. The dust reddening towards the
+
+Replacement #41:
+  Expression: -4.
+  Line: 291
+  Context: B V aligns with PCA -4. section log PAH 11 3
+
+

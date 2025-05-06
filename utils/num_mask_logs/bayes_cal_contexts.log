@@ -1,0 +1,83 @@
+Masked values and their context for paper: bayes_cal
+================================================================================
+
+SUMMARY OF REPLACEMENTS:
+  LATEX: 1 replacements
+  ADDITIONAL: 12 replacements
+
+================================================================================
+
+LATEX REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1\%
+  Numerical Value: 1
+  Line: 270
+  Context: this, we added of order 1\% Gaussian noise independently to the
+
+
+ADDITIONAL REPLACEMENTS (12):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: -1
+  Line: 163
+  Context: \times \\ &\exp \left[ -\frac{1}{\sigma^2}\{b+\frac{1}{2}\left(\boldsymbol{\Theta}-\boldsymbol{\mu}_{\boldsymbol{\Theta}}\right)^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 }\left(\boldsymbol{\Theta}-\boldsymbol{\mu}_{\boldsymbol{\Theta}}\right)\} \right],
+
+Replacement #2:
+  Expression: -1
+  Line: 179
+  Context: b^* &= b + \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 }\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{*-1}\boldsymbol{\mu}^*],
+
+Replacement #3:
+  Expression: -1
+  Line: 179
+  Context: \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{* -1 }\boldsymbol{\mu}^*], \\
+
+Replacement #4:
+  Expression: -1
+  Line: 180
+  Context: \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 } + \mathbfss{X}^{\top}\mathbfss{X}\right)^{-1}\left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \mathbfss{X}^{\top}\y\right),
+
+Replacement #5:
+  Expression: -1
+  Line: 180
+  Context: \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1} + \mathbfss{X}^{\top}\mathbfss{X}\right)^{ -1 }\left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \mathbfss{X}^{\top}\y\right), \\
+
+Replacement #6:
+  Expression: -1
+  Line: 180
+  Context: \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1} + \mathbfss{X}^{\top}\mathbfss{X}\right)^{-1}\left(\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 }\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \mathbfss{X}^{\top}\y\right), \\
+
+Replacement #7:
+  Expression: -1
+  Line: 181
+  Context: \mathbfss{V}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 } + \mathbfss{X}^{\top}\mathbfss{X}\right)^{-1}, \\
+
+Replacement #8:
+  Expression: -1
+  Line: 181
+  Context: \mathbfss{V}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1} + \mathbfss{X}^{\top}\mathbfss{X}\right)^{ -1 }, \\
+
+Replacement #9:
+  Expression: -1
+  Line: 194
+  Context: b^* + \frac{1}{2}\left(\boldsymbol{\Theta} - \boldsymbol{\mu}^*\right)^{\top}\mathbfss{V}^{* -1 }\left(\boldsymbol{\Theta} - \boldsymbol{\mu}^*\right) \Bigg] \Bigg\}
+
+Replacement #10:
+  Expression: -1
+  Line: 198
+  Context: $\mathbfss{V}_{\boldsymbol{\Theta}} \rightarrow \infty \Rightarrow \mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 } \rightarrow 0$, and $\boldsymbol{\mu}^*$
+
+Replacement #11:
+  Expression: -1
+  Line: 225
+  Context: \left( I + \hat{\mathbfss{X}}\mathbfss{V}^*\hat{\mathbfss{X}}^{\top} \right)^{ -1 } \left( \mathbfit{T}_{\mathrm{sky}} - \hat{\mathbfss{X}}\boldsymbol{\mu}^*
+
+Replacement #12:
+  Expression: -3
+  Line: 261
+  Context: & \T{unc} = x^2 -3 x + 250 \ \mathrm{K}
+
+

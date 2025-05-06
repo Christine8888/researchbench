@@ -1,0 +1,167 @@
+2025-05-05 19:38:52,764 - INFO - Logging to file: utils/num_mask_logs/hubble_trails_masking.log
+2025-05-05 19:38:52,765 - INFO - Found 12 unique numerical values to mask
+2025-05-05 19:38:52,842 - INFO - Made 91 replacements in the text
+2025-05-05 19:38:52,842 - INFO - Saved masked text to papers/masked_texts/hubble_trails.txt
+2025-05-05 19:38:52,842 - INFO - Latex Replacement #1: '2.7\%' at line 3
+2025-05-05 19:38:52,842 - INFO -   Context: find that a fraction of 2.7\% of the individual exposures with
+2025-05-05 19:38:52,842 - INFO - Latex Replacement #2: '50\%' at line 3
+2025-05-05 19:38:52,842 - INFO -   Context: order of magnitude affecting 20 50\% of the observations by next
+2025-05-05 19:38:52,842 - INFO - Latex Replacement #3: '0.2\%' at line 11
+2025-05-05 19:38:52,842 - INFO -   Context: fraction of 2 7 pm 0.2\% of the individual HST images
+2025-05-05 19:38:52,842 - INFO - Latex Replacement #4: '0.2\%' at line 11
+2025-05-05 19:38:52,842 - INFO -   Context: WFC is 3 2 pm 0.2\% while for the Wide Field
+2025-05-05 19:38:52,842 - INFO - Latex Replacement #5: '0.1\%' at line 11
+2025-05-05 19:38:52,842 - INFO -   Context: it is 1 7 pm 0.1\% because of the larger FoV
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #6: '0.2\%' at line 11
+2025-05-05 19:38:52,843 - INFO -   Context: increases from 2 8 pm 0.2\% in 2002 2005 to 4
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #7: '0.4\%' at line 11
+2025-05-05 19:38:52,843 - INFO -   Context: 2005 to 4 3 pm 0.4\% in 2018 2021 for ACS
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #8: '0.1\%' at line 11
+2025-05-05 19:38:52,843 - INFO -   Context: and from 1 2 pm 0.1\% in 2009 2012 to 2
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #9: '0.2\%' at line 11
+2025-05-05 19:38:52,843 - INFO -   Context: 2012 to 2 0 pm 0.2\% in 2018 2021 for WFC3
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #10: '0.2\%' at line 20
+2025-05-05 19:38:52,843 - INFO -   Context: fraction of 3 3 pm 0.2\% while UV filters contain a
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #11: '0.1\%' at line 20
+2025-05-05 19:38:52,843 - INFO -   Context: satellites with 0 1 pm 0.1\% for F275W The low fraction
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #12: '0.3\%' at line 22
+2025-05-05 19:38:52,843 - INFO -   Context: 2020 is 3 7 pm 0.3\% for ACS WFC and 3
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #13: '0.3\%' at line 22
+2025-05-05 19:38:52,843 - INFO -   Context: WFC and 3 2 pm 0.3\% for WFC3 UVIS while for
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #14: '0.9\%' at line 22
+2025-05-05 19:38:52,843 - INFO -   Context: it is 5 9 pm 0.9\% and 5 5 pm 1
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #15: '1.2\%' at line 22
+2025-05-05 19:38:52,843 - INFO -   Context: 9 and 5 5 pm 1.2\% representing an increase of 59
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #16: '59\%' at line 22
+2025-05-05 19:38:52,843 - INFO -   Context: 2 representing an increase of 59\% and 71 for ACS WFC
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #17: '71\%' at line 22
+2025-05-05 19:38:52,843 - INFO -   Context: an increase of 59 and 71\% for ACS WFC and WFC3
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #18: '40\%' at line 28
+2025-05-05 19:38:52,843 - INFO -   Context: HST There has been a 40\% increase in the number of
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #19: '50\%' at line 28
+2025-05-05 19:38:52,843 - INFO -   Context: satellites in HST images sim 50\% increase The probability that a
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #20: '4.4\%' at line 36
+2025-05-05 19:38:52,843 - INFO -   Context: of 11 minutes is P 4.4\% for ACS WFC and P
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #21: '3.5\%' at line 36
+2025-05-05 19:38:52,843 - INFO -   Context: for ACS WFC and P 3.5\% for WFC3 UVIS close to
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #22: '5.9\%' at line 36
+2025-05-05 19:38:52,843 - INFO -   Context: to the observed probabilities of 5.9\% and 4 4 for 2021
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #23: '4.4\%' at line 36
+2025-05-05 19:38:52,843 - INFO -   Context: probabilities of 5 9 and 4.4\% for 2021 This analysis is
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #24: '50\%' at line 38
+2025-05-05 19:38:52,843 - INFO -   Context: HST will be between 20 50\% depending on the altitude and
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #25: '33\%' at line 38
+2025-05-05 19:38:52,843 - INFO -   Context: will cross the FoV is 33\% for WFC3 UVIS and 41
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #26: '41\%' at line 38
+2025-05-05 19:38:52,843 - INFO -   Context: 33 for WFC3 UVIS and 41\% for ACS WFC increasing the
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #27: '50\%' at line 63
+2025-05-05 19:38:52,843 - INFO -   Context: layers with a probability of 50\% We used the Stochastic Gradient
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #28: '80\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: We split the data into 80\% of the images for training
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #29: '20\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: the images for training and 20\% of the images for test
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #30: '93.8\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: model achieves an accuracy of 93.8\% a precision of 97 5
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #31: '97.5\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: 93 8 a precision of 97.5\% and a recall of 89
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #32: '89.0\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: 5 and a recall of 89.0\% at a 50 classification threshold
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #33: '50\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: of 89 0 at a 50\% classification threshold This leads to
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #34: '93.1\%' at line 65
+2025-05-05 19:38:52,843 - INFO -   Context: an overall F_1 score of 93.1\% The confusion matrix is shown
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #35: '70\%' at line 78
+2025-05-05 19:38:52,843 - INFO -   Context: and split the sample into 70\% training 15 validation and 15
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #36: '15\%' at line 78
+2025-05-05 19:38:52,843 - INFO -   Context: the sample into 70 training 15\% validation and 15 test sets
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #37: '15\%' at line 78
+2025-05-05 19:38:52,843 - INFO -   Context: 70 training 15 validation and 15\% test sets for AutoML to
+2025-05-05 19:38:52,843 - INFO - Latex Replacement #38: '91.7\%' at line 78
+2025-05-05 19:38:52,843 - INFO -   Context: model achieves a precision of 91.7\% and recall or completeness of
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #39: '84.4\%' at line 78
+2025-05-05 19:38:52,844 - INFO -   Context: and recall or completeness of 84.4\% on the test set at
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #40: '50\%' at line 78
+2025-05-05 19:38:52,844 - INFO -   Context: the test set at a 50\% classification confidence threshold Applying the
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #41: '1.1\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: fraction of 8 9 pm 1.1\% composite ACS WFC and 5
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #42: '0.7\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: WFC and 5 8 pm 0.7\% composite WFC3 UVIS images crossed
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #43: '0.3\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: satellites of 2 8 pm 0.3\% for the individual ACS WFC
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #44: '0.2\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: WFC and 1 8 pm 0.2\% for individual WFC3 UVIS exposures
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #45: '0.3\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: average of 2 4 pm 0.3\% for the two instruments These
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #46: '0.2\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: Method I 3 2 pm 0.2\% for ACS WFC3 and 1
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #47: '0.1\%' at line 84
+2025-05-05 19:38:52,844 - INFO -   Context: WFC3 and 1 7 pm 0.1\% for WFC3 UVIS presented in
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #48: '1.1\%' at line 130
+2025-05-05 19:38:52,844 - INFO -   Context: fraction of 8 9 pm 1.1\% composite ACS WFC and 5
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #49: '0.7\%' at line 130
+2025-05-05 19:38:52,844 - INFO -   Context: WFC and 5 8 pm 0.7\% composite WFC3 UVIS images crossed
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #50: '1.1\%' at line 130
+2025-05-05 19:38:52,844 - INFO -   Context: increases from 8 7 pm 1.1\% in 2002 2005 to 10
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #51: '1.4\%' at line 130
+2025-05-05 19:38:52,844 - INFO -   Context: 2005 to 10 4 pm 1.4\% in 2018 2021 for ACS
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #52: '0.7\%' at line 130
+2025-05-05 19:38:52,844 - INFO -   Context: and from 4 9 pm 0.7\% in 2009 2012 to 6
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #53: '0.9\%' at line 130
+2025-05-05 19:38:52,844 - INFO -   Context: 2012 to 6 2 pm 0.9\% in 2018 2021 for WFC3
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #54: '1.2\%' at line 132
+2025-05-05 19:38:52,844 - INFO -   Context: fraction of 9 6 pm 1.2\% while UV filters contain a
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #55: '0.2\%' at line 132
+2025-05-05 19:38:52,844 - INFO -   Context: satellites with 0 4 pm 0.2\% for F275W In what follows
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #56: '1.4\%' at line 134
+2025-05-05 19:38:52,844 - INFO -   Context: 2020 is 11 2 pm 1.4\% for ACS WFC and 11
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #57: '1.4\%' at line 134
+2025-05-05 19:38:52,844 - INFO -   Context: WFC and 11 0 pm 1.4\% for WFC3 UVIS The chance
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #58: '3.1\%' at line 134
+2025-05-05 19:38:52,844 - INFO -   Context: 2021 is 17 5 pm 3.1\% and 16 6 pm 3
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #59: '3.6\%' at line 134
+2025-05-05 19:38:52,844 - INFO -   Context: 1 and 16 6 pm 3.6\% representing an increase of 56
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #60: '56\%' at line 134
+2025-05-05 19:38:52,844 - INFO -   Context: 6 representing an increase of 56\% and 51 for ACS WFC
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #61: '51\%' at line 134
+2025-05-05 19:38:52,844 - INFO -   Context: an increase of 56 and 51\% for ACS WFC and WFC3
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #62: '10.3\%' at line 179
+2025-05-05 19:38:52,844 - INFO -   Context: be f_ mathrm visible approx 10.3\% alpha 41 circ and the
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #63: '77\%' at line 179
+2025-05-05 19:38:52,844 - INFO -   Context: illuminated fraction f_ mathrm illuminated 77\% hence the satellite would spend
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #64: '23\%' at line 179
+2025-05-05 19:38:52,844 - INFO -   Context: hence the satellite would spend 23\% of its orbit in the
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #65: '13\%' at line 179
+2025-05-05 19:38:52,844 - INFO -   Context: This value ranges between 6 13\% for satellites at altitudes 550
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #66: '4.4\%' at line 202
+2025-05-05 19:38:52,844 - INFO -   Context: cross the FoV is P 4.4\% for ACS WFC and P
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #67: '3.5\%' at line 202
+2025-05-05 19:38:52,844 - INFO -   Context: for ACS WFC and P 3.5\% for WFC3 UVIS This probability
+2025-05-05 19:38:52,844 - INFO - Latex Replacement #68: '50\%' at line 202
+2025-05-05 19:38:52,844 - INFO -   Context: This probability increases to 20 50\% for 60 000 and 100
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #1: '-2021' at line 11
+2025-05-05 19:38:52,845 - INFO -   Context: individual HST images between 2002 -2021 containing at least one satellite
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #2: '-2005' at line 11
+2025-05-05 19:38:52,845 - INFO -   Context: 8 pm NUMERICAL_RESULT in 2002 -2005 to 4 3 pm NUMERICAL_RESULT
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #3: '-2021' at line 11
+2025-05-05 19:38:52,845 - INFO -   Context: 3 pm NUMERICAL_RESULT in 2018 -2021 for ACS WFC and from
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #4: '-2012' at line 11
+2025-05-05 19:38:52,845 - INFO -   Context: 2 pm NUMERICAL_RESULT in 2009 -2012 to 2 0 pm NUMERICAL_RESULT
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #5: '-2021' at line 11
+2025-05-05 19:38:52,845 - INFO -   Context: 0 pm NUMERICAL_RESULT in 2018 -2021 for WFC3 UVIS as shown
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #6: '-2021' at line 28
+2025-05-05 19:38:52,845 - INFO -   Context: satellites in the period 2005 -2021 matching the observed increase fraction
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #7: '-1619' at line 38
+2025-05-05 19:38:52,845 - INFO -   Context: HST One Starlink satellite Starlink -1619 has already been observed passing
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #8: '-2005' at line 130
+2025-05-05 19:38:52,845 - INFO -   Context: 7 pm NUMERICAL_RESULT in 2002 -2005 to 10 4 pm NUMERICAL_RESULT
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #9: '-2021' at line 130
+2025-05-05 19:38:52,845 - INFO -   Context: 4 pm NUMERICAL_RESULT in 2018 -2021 for ACS WFC and from
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #10: '-2012' at line 130
+2025-05-05 19:38:52,845 - INFO -   Context: 9 pm NUMERICAL_RESULT in 2009 -2012 to 6 2 pm NUMERICAL_RESULT
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #11: '-2021' at line 130
+2025-05-05 19:38:52,845 - INFO -   Context: 2 pm NUMERICAL_RESULT in 2018 -2021 for WFC3 UVIS The HST
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #12: '-38000' at line 196
+2025-05-05 19:38:52,845 - INFO -   Context: companies ask fcc to approve -38000 broadband satellites html 2 url
+2025-05-05 19:38:52,845 - INFO - Additional Replacement #13: '-13000' at line 197
+2025-05-05 19:38:52,845 - INFO -   Context: is developing plans for a -13000 satellite communications megaconstellation 3 url
+2025-05-05 19:38:52,845 - INFO - Saved context information to utils/num_mask_logs/hubble_trails_contexts.log

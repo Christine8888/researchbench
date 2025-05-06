@@ -8,9 +8,9 @@
 "dataset": {
     "kind": "local",
     "paper_id": "bayes_cal",
-    "dataset_name": "test_simulation_1",
+    "dataset_name": "bayes_cal",
     "data_instructions": {"access": "Reflection coefficients for each calibrator are in their respective .s1p file (e.g. cold.s1p for the cold calibrator). The only exception is the receiver reflection coefficient in the lna.s1p file. The simulated measured temperatures of the calibrators are in the respective .yaml files (e.g. cold.yaml) for the cold calibrator."},
-    "local": "DATAPATH_HERE"
+    "data_path": ["data/bayes_cal"]
 },
 "execution_requirements": {
     "needs_gpu": false,
