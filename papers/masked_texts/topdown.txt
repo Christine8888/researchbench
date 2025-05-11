@@ -111,7 +111,7 @@ The dashed curves in each panel of \Figref{fig:fit_DM_PPI} show the
 fit \Eqref{eq:fit} for each metallicity computed in
 \cite{farmer:19}. We neglect the (weak) metallicity dependence of the
 minimum core mass for PPI, and we fit the publicly available data for initial He core
-masses between $38-[NUMERICAL_RESULT]\,M_\odot$. We emphasize that \cite{farmer:19}
+masses between $38-60\,M_\odot$. We emphasize that \cite{farmer:19}
 only simulated helium cores. In the case of a star with a H-rich envelope which is still
 present at the onset of the pulsations and if it is both extended and red, it can be
 easily removed by the first pulse

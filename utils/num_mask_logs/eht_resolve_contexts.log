@@ -2,12 +2,13 @@ Masked values and their context for paper: eht_resolve
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 8 replacements
-  ADDITIONAL: 3 replacements
+  LATEX: 4 replacements
+  EXACT: 1 replacements
+  ADDITIONAL: 2 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (8):
+LATEX REPLACEMENTS (4):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -17,62 +18,42 @@ Replacement #1:
   Context: represent the spatial domain with 256\times 256 pixels each with a
 
 Replacement #2:
-  Expression: 256\times
-  Numerical Value: 256
-  Line: 499
-  Context: Overall we have to constrain 256\times 256 times56 times2 text power
-
-Replacement #3:
-  Expression: 256\times
-  Numerical Value: 256
-  Line: 499
-  Context: have to constrain 256 times 256\times 56 times2 text power spectrum
-
-Replacement #4:
-  Expression: 56\times
-  Numerical Value: 56
-  Line: 499
-  Context: to constrain 256 times256 times 56\times 2 text power spectrum DOFs
-
-Replacement #5:
-  Expression: 30\%
-  Numerical Value: 30
-  Line: 690
-  Context: allvalidationsehtcrescent The algorithm fails in 30\% of the cases results in
-
-Replacement #6:
   Expression: 5.5\%
   Numerical Value: 5.5
   Line: 690
   Context: the cases results in artefacts 5.5\% of the time and facilitates
 
-Replacement #7:
+Replacement #3:
   Expression: 64.5\%
   Numerical Value: 64.5
   Line: 690
   Context: of a single ring in 64.5\% of all cases All of
 
-Replacement #8:
+Replacement #4:
   Expression: 23\%
   Numerical Value: 23
   Line: 696
   Context: shift in brightness asymmetry In 23\% of all test cases we
 
 
-ADDITIONAL REPLACEMENTS (3):
+EXACT REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -1.5
-  Line: 523
-  Context: spatial amplitude to mu_m x -1.5 with a standard deviation of
+  Expression: 0.1
+  Line: 518
+  Context: 0 2 with standard deviation 0.1 Since we normalize the flux
 
-Replacement #2:
+
+ADDITIONAL REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: 7.4e6
   Line: 456
   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
 
-Replacement #3:
+Replacement #2:
   Expression: 7.4e6
   Line: 499
   Context: power spectrum DOFs approx num 7.4e6 pixel values with the data

@@ -2,12 +2,12 @@ Masked values and their context for paper: CE_accretors
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 4 replacements
-  EXACT: 12 replacements
+  LATEX: 2 replacements
+  EXACT: 5 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (4):
+LATEX REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -17,85 +17,38 @@ Replacement #1:
   Context: m R BE m alpha_ \mathrm{th}=1.0 end equation where again the
 
 Replacement #2:
-  Expression: \mathrm{th}=1.0
-  Numerical Value: 1.0
-  Line: 669
-  Context: lambda_ mathrm CE with alpha_ \mathrm{th}=1.0 including recombination energy which provides
-
-Replacement #3:
   Expression: 96\%
   Numerical Value: 96
   Line: 22
   Context: a CE by sim 42 96\% for both black hole and
 
-Replacement #4:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 322
-  Context: contributes to less than lesssim 10\% of the cumulative binding energy
 
-
-EXACT REPLACEMENTS (12):
+EXACT REPLACEMENTS (5):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 0.07
-  Line: 362
-  Context: minima range between 0 56 0.07 0 58 0 08 and
-
-Replacement #2:
   Expression: 0.08
   Line: 363
-  Context: 0 56 NUMERICAL_RESULT 0 58 0.08 and 0 51 0 04
+  Context: 56 0 07 0 58 0.08 and 0 51 0 04
+
+Replacement #2:
+  Expression: 0.01
+  Line: 373
+  Context: the outermost location where X 0.01 and Y 0 1 we
 
 Replacement #3:
-  Expression: 0.04
-  Line: 363
-  Context: 58 NUMERICAL_RESULT and 0 51 0.04 from our least to most
-
-Replacement #4:
-  Expression: 0.29
-  Line: 194
-  Context: accretor Delta M_ mathrm donor 0.29 0 30 and 0 43
-
-Replacement #5:
   Expression: 0.43
   Line: 195
-  Context: donor NUMERICAL_RESULT 0 30 and 0.43 respectively citep see discussion in
+  Context: 0 29 0 30 and 0.43 respectively citep see discussion in
 
-Replacement #6:
-  Expression: 300
-  Line: 173
-  Context: photospheric radius R 100 200 300 500 1000 R_ odot section
-
-Replacement #7:
-  Expression: 300
-  Line: 197
-  Context: an initial separation of sim 300 R_ odot and widen to
-
-Replacement #8:
+Replacement #4:
   Expression: 300
   Line: 324
   Context: and only for R lesssim 300 R_ odot afterwards even the
 
-Replacement #9:
+Replacement #5:
   Expression: 300
   Line: 341
   Context: time radii R 100 200 300 500 1000 R_ odot see
-
-Replacement #10:
-  Expression: 380
-  Line: 197
-  Context: odot and widen to sim 380 R_ odot days by RLOF
-
-Replacement #11:
-  Expression: 0.30
-  Line: 194
-  Context: Delta M_ mathrm donor NUMERICAL_RESULT 0.30 and NUMERICAL_RESULT respectively citep see
-
-Replacement #12:
-  Expression: 42
-  Line: 22
-  Context: eject a CE by sim 42 NUMERICAL_RESULT for both black hole
 
 

@@ -1,15 +1,17 @@
-2025-05-05 19:38:54,534 - INFO - Logging to file: utils/num_mask_logs/stellar_obliquity_masking.log
-2025-05-05 19:38:54,534 - INFO - Found 3 unique numerical values to mask
-2025-05-05 19:38:54,562 - INFO - Made 29 replacements in the text
-2025-05-05 19:38:54,562 - INFO - Saved masked text to papers/masked_texts/stellar_obliquity.txt
-2025-05-05 19:38:54,562 - INFO - Additional Replacement #1: '-0.4' at line 160
-2025-05-05 19:38:54,562 - INFO -   Context: cos psi sim mathcal N -0.4 0 2 and cos psi
-2025-05-05 19:38:54,562 - INFO - Additional Replacement #2: '-0.4' at line 238
-2025-05-05 19:38:54,562 - INFO -   Context: 0 0 2 mathcal N -0.4 0 2 and mathcal N
-2025-05-05 19:38:54,562 - INFO - Additional Replacement #3: '-0.4' at line 243
-2025-05-05 19:38:54,562 - INFO -   Context: cos psi sim mathcal N -0.4 0 2 or cos psi
-2025-05-05 19:38:54,562 - INFO - Additional Replacement #4: '-0.75' at line 251
-2025-05-05 19:38:54,563 - INFO -   Context: with nearly flat behavior between -0.75 and 0 75 and no
-2025-05-05 19:38:54,563 - INFO - Additional Replacement #5: '-0.2' at line 255
-2025-05-05 19:38:54,563 - INFO -   Context: a concentration near cos psi -0.2 was found in models including
-2025-05-05 19:38:54,563 - INFO - Saved context information to utils/num_mask_logs/stellar_obliquity_contexts.log
+2025-05-11 16:13:07,964 - INFO - Logging to file: utils/num_mask_logs/stellar_obliquity_masking.log
+2025-05-11 16:13:07,964 - INFO - Found 11 unique numerical values to mask
+2025-05-11 16:13:08,030 - INFO - Made 33 replacements in the text
+2025-05-11 16:13:08,030 - INFO - Saved masked text to papers/masked_texts/stellar_obliquity.txt
+2025-05-11 16:13:08,030 - INFO - Exact Replacement #1: '.6' at line 252
+2025-05-11 16:13:08,030 - INFO -   Context: kappa_1 14 1 pm 26 .6 On the other hand the
+2025-05-11 16:13:08,030 - INFO - Exact Replacement #2: '.6' at line 252
+2025-05-11 16:13:08,030 - INFO -   Context: kappa_1 4 2 pm 5 .6 Note that the mu_ 0
+2025-05-11 16:13:08,030 - INFO - Additional Replacement #1: '-0.4' at line 160
+2025-05-11 16:13:08,030 - INFO -   Context: cos psi sim mathcal N -0.4 0 2 and cos psi
+2025-05-11 16:13:08,030 - INFO - Additional Replacement #2: '-0.4' at line 238
+2025-05-11 16:13:08,030 - INFO -   Context: 0 0 2 mathcal N -0.4 0 2 and mathcal N
+2025-05-11 16:13:08,030 - INFO - Additional Replacement #3: '-0.4' at line 243
+2025-05-11 16:13:08,030 - INFO -   Context: cos psi sim mathcal N -0.4 0 2 or cos psi
+2025-05-11 16:13:08,030 - INFO - Additional Replacement #4: '-0.2' at line 255
+2025-05-11 16:13:08,030 - INFO -   Context: a concentration near cos psi -0.2 was found in models including
+2025-05-11 16:13:08,030 - INFO - Saved context information to utils/num_mask_logs/stellar_obliquity_contexts.log

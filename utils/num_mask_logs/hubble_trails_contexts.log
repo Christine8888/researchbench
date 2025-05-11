@@ -2,12 +2,13 @@ Masked values and their context for paper: hubble_trails
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 68 replacements
-  ADDITIONAL: 13 replacements
+  LATEX: 38 replacements
+  EXACT: 1 replacements
+  ADDITIONAL: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (68):
+LATEX REPLACEMENTS (38):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -17,474 +18,243 @@ Replacement #1:
   Context: find that a fraction of 2.7\% of the individual exposures with
 
 Replacement #2:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 3
-  Context: order of magnitude affecting 20 50\% of the observations by next
-
-Replacement #3:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 11
   Context: fraction of 2 7 pm 0.2\% of the individual HST images
 
-Replacement #4:
+Replacement #3:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 11
   Context: WFC is 3 2 pm 0.2\% while for the Wide Field
 
-Replacement #5:
+Replacement #4:
   Expression: 0.1\%
   Numerical Value: 0.1
   Line: 11
   Context: it is 1 7 pm 0.1\% because of the larger FoV
 
-Replacement #6:
-  Expression: 0.2\%
-  Numerical Value: 0.2
-  Line: 11
-  Context: increases from 2 8 pm 0.2\% in 2002 2005 to 4
-
-Replacement #7:
-  Expression: 0.4\%
-  Numerical Value: 0.4
-  Line: 11
-  Context: 2005 to 4 3 pm 0.4\% in 2018 2021 for ACS
-
-Replacement #8:
-  Expression: 0.1\%
-  Numerical Value: 0.1
-  Line: 11
-  Context: and from 1 2 pm 0.1\% in 2009 2012 to 2
-
-Replacement #9:
-  Expression: 0.2\%
-  Numerical Value: 0.2
-  Line: 11
-  Context: 2012 to 2 0 pm 0.2\% in 2018 2021 for WFC3
-
-Replacement #10:
+Replacement #5:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 20
   Context: fraction of 3 3 pm 0.2\% while UV filters contain a
 
-Replacement #11:
+Replacement #6:
   Expression: 0.1\%
   Numerical Value: 0.1
   Line: 20
   Context: satellites with 0 1 pm 0.1\% for F275W The low fraction
 
-Replacement #12:
-  Expression: 0.3\%
-  Numerical Value: 0.3
-  Line: 22
-  Context: 2020 is 3 7 pm 0.3\% for ACS WFC and 3
-
-Replacement #13:
+Replacement #7:
   Expression: 0.3\%
   Numerical Value: 0.3
   Line: 22
   Context: WFC and 3 2 pm 0.3\% for WFC3 UVIS while for
 
-Replacement #14:
+Replacement #8:
   Expression: 0.9\%
   Numerical Value: 0.9
   Line: 22
   Context: it is 5 9 pm 0.9\% and 5 5 pm 1
 
-Replacement #15:
+Replacement #9:
   Expression: 1.2\%
   Numerical Value: 1.2
   Line: 22
   Context: 9 and 5 5 pm 1.2\% representing an increase of 59
 
-Replacement #16:
+Replacement #10:
   Expression: 59\%
   Numerical Value: 59
   Line: 22
   Context: 2 representing an increase of 59\% and 71 for ACS WFC
 
-Replacement #17:
+Replacement #11:
   Expression: 71\%
   Numerical Value: 71
   Line: 22
   Context: an increase of 59 and 71\% for ACS WFC and WFC3
 
-Replacement #18:
+Replacement #12:
   Expression: 40\%
   Numerical Value: 40
   Line: 28
   Context: HST There has been a 40\% increase in the number of
 
-Replacement #19:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 28
-  Context: satellites in HST images sim 50\% increase The probability that a
-
-Replacement #20:
-  Expression: 4.4\%
-  Numerical Value: 4.4
-  Line: 36
-  Context: of 11 minutes is P 4.4\% for ACS WFC and P
-
-Replacement #21:
-  Expression: 3.5\%
-  Numerical Value: 3.5
-  Line: 36
-  Context: for ACS WFC and P 3.5\% for WFC3 UVIS close to
-
-Replacement #22:
-  Expression: 5.9\%
-  Numerical Value: 5.9
-  Line: 36
-  Context: to the observed probabilities of 5.9\% and 4 4 for 2021
-
-Replacement #23:
-  Expression: 4.4\%
-  Numerical Value: 4.4
-  Line: 36
-  Context: probabilities of 5 9 and 4.4\% for 2021 This analysis is
-
-Replacement #24:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 38
-  Context: HST will be between 20 50\% depending on the altitude and
-
-Replacement #25:
+Replacement #13:
   Expression: 33\%
   Numerical Value: 33
   Line: 38
   Context: will cross the FoV is 33\% for WFC3 UVIS and 41
 
-Replacement #26:
+Replacement #14:
   Expression: 41\%
   Numerical Value: 41
   Line: 38
   Context: 33 for WFC3 UVIS and 41\% for ACS WFC increasing the
 
-Replacement #27:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 63
-  Context: layers with a probability of 50\% We used the Stochastic Gradient
-
-Replacement #28:
-  Expression: 80\%
-  Numerical Value: 80
-  Line: 65
-  Context: We split the data into 80\% of the images for training
-
-Replacement #29:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 65
-  Context: the images for training and 20\% of the images for test
-
-Replacement #30:
+Replacement #15:
   Expression: 93.8\%
   Numerical Value: 93.8
   Line: 65
   Context: model achieves an accuracy of 93.8\% a precision of 97 5
 
-Replacement #31:
+Replacement #16:
   Expression: 97.5\%
   Numerical Value: 97.5
   Line: 65
   Context: 93 8 a precision of 97.5\% and a recall of 89
 
-Replacement #32:
-  Expression: 89.0\%
-  Numerical Value: 89.0
-  Line: 65
-  Context: 5 and a recall of 89.0\% at a 50 classification threshold
-
-Replacement #33:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 65
-  Context: of 89 0 at a 50\% classification threshold This leads to
-
-Replacement #34:
+Replacement #17:
   Expression: 93.1\%
   Numerical Value: 93.1
   Line: 65
   Context: an overall F_1 score of 93.1\% The confusion matrix is shown
 
-Replacement #35:
-  Expression: 70\%
-  Numerical Value: 70
-  Line: 78
-  Context: and split the sample into 70\% training 15 validation and 15
-
-Replacement #36:
-  Expression: 15\%
-  Numerical Value: 15
-  Line: 78
-  Context: the sample into 70 training 15\% validation and 15 test sets
-
-Replacement #37:
-  Expression: 15\%
-  Numerical Value: 15
-  Line: 78
-  Context: 70 training 15 validation and 15\% test sets for AutoML to
-
-Replacement #38:
+Replacement #18:
   Expression: 91.7\%
   Numerical Value: 91.7
   Line: 78
   Context: model achieves a precision of 91.7\% and recall or completeness of
 
-Replacement #39:
+Replacement #19:
   Expression: 84.4\%
   Numerical Value: 84.4
   Line: 78
   Context: and recall or completeness of 84.4\% on the test set at
 
-Replacement #40:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 78
-  Context: the test set at a 50\% classification confidence threshold Applying the
-
-Replacement #41:
+Replacement #20:
   Expression: 1.1\%
   Numerical Value: 1.1
   Line: 84
   Context: fraction of 8 9 pm 1.1\% composite ACS WFC and 5
 
-Replacement #42:
+Replacement #21:
   Expression: 0.7\%
   Numerical Value: 0.7
   Line: 84
   Context: WFC and 5 8 pm 0.7\% composite WFC3 UVIS images crossed
 
-Replacement #43:
+Replacement #22:
   Expression: 0.3\%
   Numerical Value: 0.3
   Line: 84
   Context: satellites of 2 8 pm 0.3\% for the individual ACS WFC
 
-Replacement #44:
+Replacement #23:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 84
   Context: WFC and 1 8 pm 0.2\% for individual WFC3 UVIS exposures
 
-Replacement #45:
+Replacement #24:
   Expression: 0.3\%
   Numerical Value: 0.3
   Line: 84
   Context: average of 2 4 pm 0.3\% for the two instruments These
 
-Replacement #46:
+Replacement #25:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 84
   Context: Method I 3 2 pm 0.2\% for ACS WFC3 and 1
 
-Replacement #47:
+Replacement #26:
   Expression: 0.1\%
   Numerical Value: 0.1
   Line: 84
   Context: WFC3 and 1 7 pm 0.1\% for WFC3 UVIS presented in
 
-Replacement #48:
+Replacement #27:
   Expression: 1.1\%
   Numerical Value: 1.1
   Line: 130
   Context: fraction of 8 9 pm 1.1\% composite ACS WFC and 5
 
-Replacement #49:
+Replacement #28:
   Expression: 0.7\%
   Numerical Value: 0.7
   Line: 130
   Context: WFC and 5 8 pm 0.7\% composite WFC3 UVIS images crossed
 
-Replacement #50:
-  Expression: 1.1\%
-  Numerical Value: 1.1
-  Line: 130
-  Context: increases from 8 7 pm 1.1\% in 2002 2005 to 10
-
-Replacement #51:
-  Expression: 1.4\%
-  Numerical Value: 1.4
-  Line: 130
-  Context: 2005 to 10 4 pm 1.4\% in 2018 2021 for ACS
-
-Replacement #52:
-  Expression: 0.7\%
-  Numerical Value: 0.7
-  Line: 130
-  Context: and from 4 9 pm 0.7\% in 2009 2012 to 6
-
-Replacement #53:
-  Expression: 0.9\%
-  Numerical Value: 0.9
-  Line: 130
-  Context: 2012 to 6 2 pm 0.9\% in 2018 2021 for WFC3
-
-Replacement #54:
+Replacement #29:
   Expression: 1.2\%
   Numerical Value: 1.2
   Line: 132
   Context: fraction of 9 6 pm 1.2\% while UV filters contain a
 
-Replacement #55:
+Replacement #30:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 132
   Context: satellites with 0 4 pm 0.2\% for F275W In what follows
 
-Replacement #56:
-  Expression: 1.4\%
-  Numerical Value: 1.4
-  Line: 134
-  Context: 2020 is 11 2 pm 1.4\% for ACS WFC and 11
-
-Replacement #57:
+Replacement #31:
   Expression: 1.4\%
   Numerical Value: 1.4
   Line: 134
   Context: WFC and 11 0 pm 1.4\% for WFC3 UVIS The chance
 
-Replacement #58:
-  Expression: 3.1\%
-  Numerical Value: 3.1
-  Line: 134
-  Context: 2021 is 17 5 pm 3.1\% and 16 6 pm 3
-
-Replacement #59:
+Replacement #32:
   Expression: 3.6\%
   Numerical Value: 3.6
   Line: 134
   Context: 1 and 16 6 pm 3.6\% representing an increase of 56
 
-Replacement #60:
+Replacement #33:
   Expression: 56\%
   Numerical Value: 56
   Line: 134
   Context: 6 representing an increase of 56\% and 51 for ACS WFC
 
-Replacement #61:
+Replacement #34:
   Expression: 51\%
   Numerical Value: 51
   Line: 134
   Context: an increase of 56 and 51\% for ACS WFC and WFC3
 
-Replacement #62:
+Replacement #35:
   Expression: 10.3\%
   Numerical Value: 10.3
   Line: 179
   Context: be f_ mathrm visible approx 10.3\% alpha 41 circ and the
 
-Replacement #63:
-  Expression: 77\%
-  Numerical Value: 77
-  Line: 179
-  Context: illuminated fraction f_ mathrm illuminated 77\% hence the satellite would spend
-
-Replacement #64:
+Replacement #36:
   Expression: 23\%
   Numerical Value: 23
   Line: 179
   Context: hence the satellite would spend 23\% of its orbit in the
 
-Replacement #65:
-  Expression: 13\%
-  Numerical Value: 13
-  Line: 179
-  Context: This value ranges between 6 13\% for satellites at altitudes 550
-
-Replacement #66:
+Replacement #37:
   Expression: 4.4\%
   Numerical Value: 4.4
   Line: 202
   Context: cross the FoV is P 4.4\% for ACS WFC and P
 
-Replacement #67:
+Replacement #38:
   Expression: 3.5\%
   Numerical Value: 3.5
   Line: 202
   Context: for ACS WFC and P 3.5\% for WFC3 UVIS This probability
 
-Replacement #68:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 202
-  Context: This probability increases to 20 50\% for 60 000 and 100
 
-
-ADDITIONAL REPLACEMENTS (13):
+EXACT REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -2021
-  Line: 11
-  Context: individual HST images between 2002 -2021 containing at least one satellite
+  Expression: .9
+  Line: 63
+  Context: dataset The model has 22 .9 million parameters Our model is
 
-Replacement #2:
-  Expression: -2005
-  Line: 11
-  Context: 8 pm NUMERICAL_RESULT in 2002 -2005 to 4 3 pm NUMERICAL_RESULT
 
-Replacement #3:
-  Expression: -2021
-  Line: 11
-  Context: 3 pm NUMERICAL_RESULT in 2018 -2021 for ACS WFC and from
+ADDITIONAL REPLACEMENTS (1):
+--------------------------------------------------------------------------------
 
-Replacement #4:
-  Expression: -2012
-  Line: 11
-  Context: 2 pm NUMERICAL_RESULT in 2009 -2012 to 2 0 pm NUMERICAL_RESULT
-
-Replacement #5:
-  Expression: -2021
-  Line: 11
-  Context: 0 pm NUMERICAL_RESULT in 2018 -2021 for WFC3 UVIS as shown
-
-Replacement #6:
-  Expression: -2021
-  Line: 28
-  Context: satellites in the period 2005 -2021 matching the observed increase fraction
-
-Replacement #7:
+Replacement #1:
   Expression: -1619
   Line: 38
   Context: HST One Starlink satellite Starlink -1619 has already been observed passing
-
-Replacement #8:
-  Expression: -2005
-  Line: 130
-  Context: 7 pm NUMERICAL_RESULT in 2002 -2005 to 10 4 pm NUMERICAL_RESULT
-
-Replacement #9:
-  Expression: -2021
-  Line: 130
-  Context: 4 pm NUMERICAL_RESULT in 2018 -2021 for ACS WFC and from
-
-Replacement #10:
-  Expression: -2012
-  Line: 130
-  Context: 9 pm NUMERICAL_RESULT in 2009 -2012 to 6 2 pm NUMERICAL_RESULT
-
-Replacement #11:
-  Expression: -2021
-  Line: 130
-  Context: 2 pm NUMERICAL_RESULT in 2018 -2021 for WFC3 UVIS The HST
-
-Replacement #12:
-  Expression: -38000
-  Line: 196
-  Context: companies ask fcc to approve -38000 broadband satellites html 2 url
-
-Replacement #13:
-  Expression: -13000
-  Line: 197
-  Context: is developing plans for a -13000 satellite communications megaconstellation 3 url
 
 

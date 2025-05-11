@@ -2,157 +2,25 @@ Masked values and their context for paper: astm3
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 24 replacements
+  LATEX: 2 replacements
   EXACT: 2 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (24):
+LATEX REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 84.6\%
-  Numerical Value: 84.6
-  Line: 7
-  Context: photometry where accuracy increases from 84.6\% to 91 5 Furthermore CLIP
-
-Replacement #2:
-  Expression: 91.5\%
-  Numerical Value: 91.5
-  Line: 7
-  Context: increases from 84 6 to 91.5\% Furthermore CLIP boosts classification accuracy
-
-Replacement #3:
-  Expression: 12.6\%
-  Numerical Value: 12.6
-  Line: 7
-  Context: classification accuracy by up to 12.6\% when the availability of labeled
-
-Replacement #4:
-  Expression: 84.64\%
-  Numerical Value: 84.64
-  Line: 154
-  Context: the average accuracy textbf from 84.64\% to 91 47 and significantly
-
-Replacement #5:
-  Expression: 91.47\%
-  Numerical Value: 91.47
-  Line: 154
-  Context: textbf from 84 64 to 91.47\% and significantly reduced the standard
-
-Replacement #6:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 158
-  Context: Specifically we created subsets containing 10\% 25 and 50 of the
-
-Replacement #7:
-  Expression: 25\%
-  Numerical Value: 25
-  Line: 158
-  Context: we created subsets containing 10 25\% and 50 of the data
-
-Replacement #8:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 158
-  Context: subsets containing 10 25 and 50\% of the data by downsampling
-
-Replacement #9:
-  Expression: 25\%
-  Numerical Value: 25
-  Line: 164
-  Context: limited For example at the 25\% data split CLIP increased the
-
-Replacement #10:
-  Expression: 4.14\%
-  Numerical Value: 4.14
-  Line: 164
-  Context: the spectra model by textbf 4.14\% from 63 73 to 67
-
-Replacement #11:
-  Expression: 63.73\%
-  Numerical Value: 63.73
-  Line: 164
-  Context: by textbf 4 14 from 63.73\% to 67 87 and by
-
-Replacement #12:
-  Expression: 67.87\%
-  Numerical Value: 67.87
-  Line: 164
-  Context: 14 from 63 73 to 67.87\% and by textbf 12 56
-
-Replacement #13:
   Expression: 12.56\%
   Numerical Value: 12.56
   Line: 164
   Context: 67 87 and by textbf 12.56\% at the 10 data split
 
-Replacement #14:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 164
-  Context: textbf 12 56 at the 10\% data split from 46 68
-
-Replacement #15:
-  Expression: 46.68\%
-  Numerical Value: 46.68
-  Line: 164
-  Context: the 10 data split from 46.68\% to 59 24 Photometry shows
-
-Replacement #16:
-  Expression: 59.24\%
-  Numerical Value: 59.24
-  Line: 164
-  Context: split from 46 68 to 59.24\% Photometry shows a similar trend
-
-Replacement #17:
+Replacement #2:
   Expression: 5.21\%
   Numerical Value: 5.21
   Line: 164
   Context: with accuracy increasing by textbf 5.21\% at the 25 data split
-
-Replacement #18:
-  Expression: 25\%
-  Numerical Value: 25
-  Line: 164
-  Context: textbf 5 21 at the 25\% data split from 83 22
-
-Replacement #19:
-  Expression: 83.22\%
-  Numerical Value: 83.22
-  Line: 164
-  Context: the 25 data split from 83.22\% to 88 43 and by
-
-Replacement #20:
-  Expression: 88.43\%
-  Numerical Value: 88.43
-  Line: 164
-  Context: split from 83 22 to 88.43\% and by textbf 7 65
-
-Replacement #21:
-  Expression: 7.65\%
-  Numerical Value: 7.65
-  Line: 164
-  Context: 88 43 and by textbf 7.65\% at the 10 split from
-
-Replacement #22:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 164
-  Context: textbf 7 65 at the 10\% split from 83 07 to
-
-Replacement #23:
-  Expression: 83.07\%
-  Numerical Value: 83.07
-  Line: 164
-  Context: at the 10 split from 83.07\% to 90 72 For metadata
-
-Replacement #24:
-  Expression: 90.72\%
-  Numerical Value: 90.72
-  Line: 164
-  Context: split from 83 07 to 90.72\% For metadata and all modalities
 
 
 EXACT REPLACEMENTS (2):

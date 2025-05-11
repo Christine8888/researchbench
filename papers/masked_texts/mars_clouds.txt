@@ -109,7 +109,7 @@ We summarize the results in Section \ref{sec:conclusion}.
 
 \subsection{MCS limb radiances}
 MCS is a limb and on-planet viewing radiometer onboard MRO with two telescopes and 9 spectral channels (5 mid-IR, 3 far IR, 1 visible/near-IR). 
-Each channel consists of a linear array of 21 detectors, with which MCS instantaneously measures radiance profiles between 0--[NUMERICAL_RESULT] km with a vertical resolution of ${\sim}$5 km every two seconds when pointed at the Mars limb \citep{McCleese07}.
+Each channel consists of a linear array of 21 detectors, with which MCS instantaneously measures radiance profiles between 0--80 km with a vertical resolution of ${\sim}$5 km every two seconds when pointed at the Mars limb \citep{McCleese07}.
 
 From these radiance profiles temperature, dust, and water-ice opacity profiles are operationally retrieved \citep{Kleinboehl09}. 
 
@@ -203,12 +203,12 @@ Users were pseudo-randomly shown an image from the set of non-retired images.
 If a user had classified every non-retired image in the dataset, they were shown either an image that was not retired that they had already classified with an ``Already seen'' tag or a retired image with a ``Finished'' tag.
 This was unlikely to occur before the number of remaining non-retired images was small.
 
-Initially, the MY29 dataset was subdivided into three sets, each containing packets of data every 15° of $L_s$ spanning the full year (where MCS data is available, until $L_s{=}328$°) with each packet containing 12 consecutive four-hour files, giving full latitudinal and longitudinal coverage at each sampled $L_s$.
+Initially, the MY29 dataset was subdivided into three sets, each containing packets of data every 15° of $L_s$ spanning the full year (where MCS data is available, until $L_s{=}328$°) with each packet containing [NUMERICAL_RESULT] consecutive four-hour files, giving full latitudinal and longitudinal coverage at each sampled $L_s$.
 Each set was offset by 5° of $L_s$.
 There were 2112 images in each set.
 
 We planned to release the sets on the Zooniverse interface sequentially to ensure global coverage over the full martian year even if only a single set was completed.
-After launch on June 28, 2022, 7,000 classifications (a single image analyzed by a single user) were made in the first 12 hours.
+After launch on June 28, 2022, 7,000 classifications (a single image analyzed by a single user) were made in the first [NUMERICAL_RESULT] hours.
 The first set was retired within three days of launch (2112 images requiring 42,240 classifications) with participation from over 1,000 registered Zooniverse users (a subset of the total number of unique participants who classified after logging into an account).
 The second set was then made public and completed within a week of launch (${>}$90,000 classifications made in the first week). 
 Two weeks after launch, the third set was completed (${>}$120,000 classifications) and over 2,000 registered Zooniverse users had participated.
@@ -285,7 +285,7 @@ We confirm where the high-level patterns are consistent with previous observatio
 
 The seasonal evolution of all clouds as a function of latitude for both daytime and nighttime are shown in Fig. \ref{fig:combined-ls-lat}.
 During the clear season until $L_s{\sim}$140° (an early ``Z'' dust event occurred in MY29 at $L_s{=}$143° \citep{Steele21}), there are several regions where clouds occur frequently: in the equatorial region (annotated as 1 in Figs. \ref{fig:combined-ls-lat} and \ref{fig:combined-lat-alt}), at mid-latitudes (2), in the southern polar region (3), and to a lesser extent in the northern polar region around $L_s{=}100$°.
-From $L_s{=}$150°--[NUMERICAL_RESULT]°, daytime clouds occur primarily at mid-latitudes, but are observed at nearly all latitudes between 70°S and 60°N (4).
+From $L_s{=}$150°--230°, daytime clouds occur primarily at mid-latitudes, but are observed at nearly all latitudes between 70°S and 60°N (4).
 At night, there is one broad population from 30°S to 30°N (clouds are more frequent in the equatorial region at night), but after $L_s{=}170$°, clouds occur frequently between 30°N and 50°N as well.
 Around $L_s{=}220$° the number of observed nighttime clouds increases in the southern hemisphere, especially near 50°S. 
 There is a strong decrease in the number of peaks just before $L_s{=}250$° at nearly all latitudes except around 50°S and 20°N at night.
@@ -298,28 +298,28 @@ Of particular note is that the aphelion cloud belt is not well-represented in th
 The polar hood clouds \citep{Benson10, Benson11} are clearly observed during the clear season at northern (40°N--[NUMERICAL_RESULT]°N) and southern (35°S--[NUMERICAL_RESULT]°S) mid-latitudes at both local times (2).
 The mid-latitude cloud frequency is higher during the day than at night near equinox.
 Both times show an increase in the northern hemisphere near $L_s{=}50$° and in the southern hemisphere near $L_s{=}70$°.
-These clouds are lower in altitude than the mesospheric equatorial clouds, ranging from 20--[NUMERICAL_RESULT] km (Figs. \ref{fig:combined-lat-alt}A and C).
+These clouds are lower in altitude than the mesospheric equatorial clouds, ranging from 20--50 km (Figs. \ref{fig:combined-lat-alt}A and C).
 Before and after the period when the aphelion cloud belt is thickest (i.e., $L_s{<}45$° and $L_s{>}135$°), water-ice is prevalent at mid-latitudes, and the polar hoods clouds are connected by a ``cloud-bridge'' \citep{Guha20}.
 This can be seen in Figs. \ref{fig:combined-lat-alt}A and C, where the two primary mid-latitude populations are connected to the aphelion cloud belt in the tropics at lower and higher altitudes, respectively.
-That day-night difference reflects the thermal tidal pattern in the aphelion season, where colder temperatures are present from 20--[NUMERICAL_RESULT] km in the tropics during the day and 40--[NUMERICAL_RESULT] km at night (e.g., \cite{Lee09}).
+That day-night difference reflects the thermal tidal pattern in the aphelion season, where colder temperatures are present from 20--40 km in the tropics during the day and 40--[NUMERICAL_RESULT] km at night (e.g., \cite{Lee09}).
 The effect of migrating tides on these mid-latitude populations can be studied by comparing their longitude distribution with the temperature structure in these regions.
 
-Clouds over the south pole (south of 75°S, starting just before $L_s{=}50$°) are observed between 20--[NUMERICAL_RESULT] km during the clear season (3)—consistent with previously observed polar \cd-ice clouds—where conditions for \cd-ice condensation frequently occur \citep{Hayne12, Hayne14, Hu12, Kuroda13, Maattanen22}.
+Clouds over the south pole (south of 75°S, starting just before $L_s{=}50$°) are observed between 20--40 km during the clear season (3)—consistent with previously observed polar \cd-ice clouds—where conditions for \cd-ice condensation frequently occur \citep{Hayne12, Hayne14, Hu12, Kuroda13, Maattanen22}.
 
 During the dusty season, the daytime subtropical and mid-latitude populations are seen in Fig. \ref{fig:combined-lat-alt}C (4).
 Clouds are more frequently observed in the northern hemisphere than the south.
 This differs at night, where clouds are observed at high rates from southern mid-latitudes to northern mid-latitudes (Fig. \ref{fig:combined-lat-alt}D).
 The mid-latitude cloud altitudes reach higher altitudes during the day, ranging from 30–70 km in the south and 40–65 km in the north.
-The equatorial clouds are lower during the day, about [NUMERICAL_RESULT]--[NUMERICAL_RESULT] km.
+The equatorial clouds are lower during the day, about [NUMERICAL_RESULT]--50 km.
 At night, the altitude range at mid-latitudes is 30–50 km and about 10 km higher near the equator.
 
-Clouds are observed near both the south and north poles during the dusty season (5), where the southern polar clouds have a wider range of altitudes (centered near 45 km) and are generally higher than the northern polar clouds which are between 15--[NUMERICAL_RESULT] km.
+Clouds are observed near both the south and north poles during the dusty season (5), where the southern polar clouds have a wider range of altitudes (centered near 45 km) and are generally higher than the northern polar clouds which are between 15--35 km.
 
 In general, there is an increase in the highest levels of clouds from aphelion to perihelion for each of these populations (ignoring the high-altitude equatorial \cd-ice clouds).
 Daytime equatorial clouds are rare above 25 km during the clear season (Fig. \ref{fig:combined-lat-alt}A), but are common up to 50 km during the dusty season (Fig. \ref{fig:combined-lat-alt}B).
 The primary nighttime mid-latitude populations extend up to about 35 km for $L_s{<}150$°, but clouds are frequently observed up to 50–65 km during the dusty season (Figs. \ref{fig:combined-lat-alt}C and D).
 This is consistent with seasonal variability of haze-top altitudes and water-ice clouds (e.g., \cite{Montmessin06b, Maattanen13SPICAM, Streeter22, Stcherbinine22}).
-Of course, dust in the atmosphere increases substantially during this season as well, particularly south of the equator, but the maximum of the dust mass mixing ratio is less than 25 km before $L_s{=}$180° \citep{Heavens11}, which is near the minimum of observed equatorial clouds and 5--[NUMERICAL_RESULT] km below the boundary of frequently-observed mid-latitude clouds.
+Of course, dust in the atmosphere increases substantially during this season as well, particularly south of the equator, but the maximum of the dust mass mixing ratio is less than 25 km before $L_s{=}$180° \citep{Heavens11}, which is near the minimum of observed equatorial clouds and 5--10 km below the boundary of frequently-observed mid-latitude clouds.
 However, some of the identified arch peaks above 50 km after $L_s{=}90$° may be due to detached dust layers \citep{Heavens14, Heavens15, Heavens19}.
 A follow-up investigation of the variability of composition and particle sizes of these clouds could shed light on the interplay of dust, atmospheric circulation, and clouds.
 

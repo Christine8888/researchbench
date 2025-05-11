@@ -3,7 +3,7 @@ Masked values and their context for paper: gw_anomaly
 
 SUMMARY OF REPLACEMENTS:
   ROUNDED: 1 replacements
-  ADDITIONAL: 2 replacements
+  ADDITIONAL: 1 replacements
 
 ================================================================================
 
@@ -17,17 +17,12 @@ Replacement #1:
   Context: Lepidoptera Family Nymphalidae that diverged approximately 12 million years ago Both species
 
 
-ADDITIONAL REPLACEMENTS (2):
+ADDITIONAL REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: -22
   Line: 49
   Context: arm change of approximately 10 -22 denoted strain With a strain
-
-Replacement #2:
-  Expression: -1500
-  Line: 103
-  Context: the frequency range of 30 -1500 Hz After applying these filters
 
 

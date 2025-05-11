@@ -1,71 +1,31 @@
-2025-05-05 19:38:52,000 - INFO - Logging to file: utils/num_mask_logs/fable_mps_masking.log
-2025-05-05 19:38:52,000 - INFO - Found 7 unique numerical values to mask
-2025-05-05 19:38:52,071 - INFO - Made 49 replacements in the text
-2025-05-05 19:38:52,072 - INFO - Saved masked text to papers/masked_texts/fable_mps.txt
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #1: '\mathrm{DM} = 3.4' at line 65
-2025-05-05 19:38:52,072 - INFO -   Context: yielding a resolution of m_ \mathrm{DM} = 3.4 times 10 7 h 1
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #2: '\mathrm{gas} = 6.4' at line 65
-2025-05-05 19:38:52,072 - INFO -   Context: mass resolution overline m _ \mathrm{gas} = 6.4 times 10 6 h 1
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #3: '\mathrm{r} = 0.1' at line 77
-2025-05-05 19:38:52,072 - INFO -   Context: set to a constant epsilon_ \mathrm{r} = 0.1 and 1 epsilon_ mathrm r
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #4: '\mathrm{f}=0.1' at line 85
-2025-05-05 19:38:52,072 - INFO -   Context: quasar mode a fraction epsilon_ \mathrm{f}=0.1 of the AGN luminosity is
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #5: '\mathrm{QM} = 25' at line 85
-2025-05-05 19:38:52,072 - INFO -   Context: is accumulated over delta t_ \mathrm{QM} = 25 Myr before being released in
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #6: '\mathrm{BH} = 0.01' at line 90
-2025-05-05 19:38:52,072 - INFO -   Context: threshold is set to delta_ \mathrm{BH} = 0.01 much smaller than the Illustris
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #7: '\mathrm{BH} = 0.15' at line 90
-2025-05-05 19:38:52,072 - INFO -   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #8: '\mathrm{m} = 0.8' at line 90
-2025-05-05 19:38:52,072 - INFO -   Context: coupling efficiency set to epsilon_ \mathrm{m} = 0.8 in the fiducial fable model
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #9: '\mathrm{r} = 0.08' at line 90
-2025-05-05 19:38:52,072 - INFO -   Context: efficiency epsilon_ mathrm m epsilon_ \mathrm{r} = 0.08 as in the Illustris model
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #10: '\mathrm{BH} = 0.001' at line 98
-2025-05-05 19:38:52,072 - INFO -   Context: threshold for bubble injections delta_ \mathrm{BH} = 0.001 and a lower coupling efficiency
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #11: '\mathrm{m} = 0.4' at line 98
-2025-05-05 19:38:52,072 - INFO -   Context: a lower coupling efficiency epsilon_ \mathrm{m} = 0.4 item The RadioWeak set up
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #12: '2.5\cdot' at line 181
-2025-05-05 19:38:52,072 - INFO -   Context: 1 7 cdot 10 8 2.5\cdot 10 9 1 5 cdot
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #13: '1.5\cdot' at line 181
-2025-05-05 19:38:52,072 - INFO -   Context: 2 5 cdot 10 9 1.5\cdot 10 10 6 0 cdot
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #14: '6.0\cdot' at line 181
-2025-05-05 19:38:52,072 - INFO -   Context: 1 5 cdot 10 10 6.0\cdot 10 10 right Msun and
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #15: '2.5\cdot' at line 181
-2025-05-05 19:38:52,072 - INFO -   Context: text cut left 0 0 2.5\cdot 10 5 1 4 cdot
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #16: '1.4\cdot' at line 181
-2025-05-05 19:38:52,072 - INFO -   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #17: '1.8\cdot' at line 181
-2025-05-05 19:38:52,072 - INFO -   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #18: '10\%' at line 9
-2025-05-05 19:38:52,072 - INFO -   Context: causing a reduction of sim 10\% with respect to the dark
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #19: '20\%' at line 46
-2025-05-05 19:38:52,072 - INFO -   Context: models reaches up to sim 20\% citep Chisari2019 While these different
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #20: '20\%' at line 127
-2025-05-05 19:38:52,072 - INFO -   Context: of no more than sim 20\% in most simulations citep e
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #21: '10\%' at line 145
-2025-05-05 19:38:52,072 - INFO -   Context: maximal power suppression of sim 10\% below the DMO scenario is
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #22: '40\%' at line 155
-2025-05-05 19:38:52,072 - INFO -   Context: is of the order of 40\% and primarily develops at z
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #23: '20\%' at line 166
-2025-05-05 19:38:52,072 - INFO -   Context: power suppression of sim 10 20\% Interestingly fable has a larger
-2025-05-05 19:38:52,072 - INFO - Latex Replacement #24: '40\%' at line 172
-2025-05-05 19:38:52,072 - INFO -   Context: impact well below the sim 40\% suppression with respect to the
-2025-05-05 19:38:52,073 - INFO - Latex Replacement #25: '20\%' at line 192
-2025-05-05 19:38:52,073 - INFO -   Context: Fiducial is reduced from about 20\% to 10 over PDMOfilt at
-2025-05-05 19:38:52,073 - INFO - Latex Replacement #26: '10\%' at line 192
-2025-05-05 19:38:52,073 - INFO -   Context: reduced from about 20 to 10\% over PDMOfilt at scales of
-2025-05-05 19:38:52,073 - INFO - Latex Replacement #27: '55\%' at line 192
-2025-05-05 19:38:52,073 - INFO -   Context: hcMpc whereas RadioWeak increases from 55\% over to 65 over PDMOfilt
-2025-05-05 19:38:52,073 - INFO - Latex Replacement #28: '65\%' at line 192
-2025-05-05 19:38:52,073 - INFO -   Context: increases from 55 over to 65\% over PDMOfilt We attribute this
-2025-05-05 19:38:52,073 - INFO - Latex Replacement #29: '95\%' at line 203
-2025-05-05 19:38:52,073 - INFO -   Context: sim 1 haloes constitute approximately 95\% of Pmm and despite significant
-2025-05-05 19:38:52,073 - INFO - Latex Replacement #30: '10\%' at line 239
-2025-05-05 19:38:52,073 - INFO -   Context: with a reduction of sim 10\% with respect to the DMO
-2025-05-05 19:38:52,073 - INFO - Additional Replacement #1: '-100' at line 166
-2025-05-05 19:38:52,073 - INFO -   Context: with the HorizonAGN and IllustrisTNG -100 simulations as they have comparable
-2025-05-05 19:38:52,073 - INFO - Additional Replacement #2: '-100' at line 166
-2025-05-05 19:38:52,073 - INFO -   Context: k hcMpc 5 than IllustrisTNG -100 and especially HorizonAGN with the
-2025-05-05 19:38:52,073 - INFO - Additional Replacement #3: '-100' at line 239
-2025-05-05 19:38:52,073 - INFO -   Context: to Horizon AGN and IllustrisTNG -100 but is more similar to
-2025-05-05 19:38:52,073 - INFO - Saved context information to utils/num_mask_logs/fable_mps_contexts.log
+2025-05-11 16:13:00,291 - INFO - Logging to file: utils/num_mask_logs/fable_mps_masking.log
+2025-05-11 16:13:00,292 - INFO - Found 21 unique numerical values to mask
+2025-05-11 16:13:00,505 - INFO - Made 51 replacements in the text
+2025-05-11 16:13:00,505 - INFO - Saved masked text to papers/masked_texts/fable_mps.txt
+2025-05-11 16:13:00,505 - INFO - Latex Replacement #1: '\mathrm{DM} = 3.4' at line 65
+2025-05-11 16:13:00,505 - INFO -   Context: yielding a resolution of m_ \mathrm{DM} = 3.4 times 10 7 h 1
+2025-05-11 16:13:00,505 - INFO - Latex Replacement #2: '\mathrm{gas} = 6.4' at line 65
+2025-05-11 16:13:00,505 - INFO -   Context: mass resolution overline m _ \mathrm{gas} = 6.4 times 10 6 h 1
+2025-05-11 16:13:00,505 - INFO - Latex Replacement #3: '\mathrm{QM} = 25' at line 85
+2025-05-11 16:13:00,505 - INFO -   Context: is accumulated over delta t_ \mathrm{QM} = 25 Myr before being released in
+2025-05-11 16:13:00,505 - INFO - Latex Replacement #4: '\mathrm{BH} = 0.15' at line 90
+2025-05-11 16:13:00,505 - INFO -   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #5: '2.5\cdot' at line 181
+2025-05-11 16:13:00,506 - INFO -   Context: 1 7 cdot 10 8 2.5\cdot 10 9 1 5 cdot
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #6: '1.5\cdot' at line 181
+2025-05-11 16:13:00,506 - INFO -   Context: 2 5 cdot 10 9 1.5\cdot 10 10 6 0 cdot
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #7: '6.0\cdot' at line 181
+2025-05-11 16:13:00,506 - INFO -   Context: 1 5 cdot 10 10 6.0\cdot 10 10 right Msun and
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #8: '2.5\cdot' at line 181
+2025-05-11 16:13:00,506 - INFO -   Context: text cut left 0 0 2.5\cdot 10 5 1 4 cdot
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #9: '1.4\cdot' at line 181
+2025-05-11 16:13:00,506 - INFO -   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #10: '1.8\cdot' at line 181
+2025-05-11 16:13:00,506 - INFO -   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
+2025-05-11 16:13:00,506 - INFO - Latex Replacement #11: '40\%' at line 155
+2025-05-11 16:13:00,506 - INFO -   Context: is of the order of 40\% and primarily develops at z
+2025-05-11 16:13:00,506 - INFO - Additional Replacement #1: '-100' at line 166
+2025-05-11 16:13:00,506 - INFO -   Context: with the HorizonAGN and IllustrisTNG -100 simulations as they have comparable
+2025-05-11 16:13:00,506 - INFO - Additional Replacement #2: '-100' at line 166
+2025-05-11 16:13:00,506 - INFO -   Context: k hcMpc 5 than IllustrisTNG -100 and especially HorizonAGN with the
+2025-05-11 16:13:00,506 - INFO - Saved context information to utils/num_mask_logs/fable_mps_contexts.log

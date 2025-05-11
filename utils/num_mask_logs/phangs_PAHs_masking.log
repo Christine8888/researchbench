@@ -1,265 +1,289 @@
-2025-05-05 19:38:53,865 - INFO - Logging to file: utils/num_mask_logs/phangs_PAHs_masking.log
-2025-05-05 19:38:53,866 - INFO - Found 25 unique numerical values to mask
-2025-05-05 19:38:54,355 - INFO - Made 225 replacements in the text
-2025-05-05 19:38:54,356 - INFO - Saved masked text to papers/masked_texts/phangs_PAHs.txt
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #1: '10\%' at line 40
-2025-05-05 19:38:54,356 - INFO -   Context: steeper slopes with a sim 10\% increase in PAH 11 3
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #2: '20\%' at line 48
-2025-05-05 19:38:54,356 - INFO -   Context: total emission amounts to lesssim 20\% of the total infrared radiation
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #3: '20\%' at line 56
-2025-05-05 19:38:54,356 - INFO -   Context: in an increase of sim 20\% in the 11 3 mic
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #4: '30\%' at line 94
-2025-05-05 19:38:54,356 - INFO -   Context: contamination of about about 10 30\% from the hot dust continuum
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #5: '99\%' at line 94
-2025-05-05 19:38:54,356 - INFO -   Context: majority of the pixels as 99\% of them show mathrm A
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #6: '99\%' at line 96
-2025-05-05 19:38:54,356 - INFO -   Context: _ mathrm PAH F770W of 99\% In the diffuse gas F770W
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #7: '67\%' at line 96
-2025-05-05 19:38:54,356 - INFO -   Context: mathrm PAH F770W ranges between 67\% and 90 in most pixels
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #8: '90\%' at line 96
-2025-05-05 19:38:54,356 - INFO -   Context: F770W ranges between 67 and 90\% in most pixels and reaches
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #9: '25\%' at line 96
-2025-05-05 19:38:54,356 - INFO -   Context: reaches a minimum of sim 25\% in pixels that correspond to
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #10: '95\%' at line 98
-2025-05-05 19:38:54,356 - INFO -   Context: practice we find that in 95\% of the pixels of all
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #11: '93\%' at line 98
-2025-05-05 19:38:54,356 - INFO -   Context: F1130W _ mathrm PAH F1130W 93\% In the small minority of
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #12: '70\%' at line 98
-2025-05-05 19:38:54,356 - INFO -   Context: PAH F1130W can reach sim 70\% and there we subtract the
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #13: '20\%' at line 108
-2025-05-05 19:38:54,356 - INFO -   Context: the F336W filter about 10 20\% of the pixels in these
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #14: '41\%' at line 149
-2025-05-05 19:38:54,356 - INFO -   Context: The first component accounts for 41\% of the total variance while
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #15: '17\%' at line 149
-2025-05-05 19:38:54,356 - INFO -   Context: variance while the second for 17\% the third for 1 1
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #16: '1.1\%' at line 149
-2025-05-05 19:38:54,356 - INFO -   Context: for 17 the third for 1.1\% and the fourth for 0
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #17: '0.78\%' at line 149
-2025-05-05 19:38:54,356 - INFO -   Context: 1 and the fourth for 0.78\% In Table ref tab features
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #18: '10\%' at line 167
-2025-05-05 19:38:54,356 - INFO -   Context: each respective galaxy is between 10\% and 25 The same pixels
-2025-05-05 19:38:54,356 - INFO - Latex Replacement #19: '25\%' at line 167
-2025-05-05 19:38:54,357 - INFO -   Context: galaxy is between 10 and 25\% The same pixels show high
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #20: '10\%' at line 187
-2025-05-05 19:38:54,357 - INFO -   Context: above this threshold NGC 1300 10\% NGC 1433 21 NGC 1512
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #21: '21\%' at line 187
-2025-05-05 19:38:54,357 - INFO -   Context: NGC 1300 10 NGC 1433 21\% NGC 1512 21 and NGC
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #22: '21\%' at line 187
-2025-05-05 19:38:54,357 - INFO -   Context: NGC 1433 21 NGC 1512 21\% and NGC 3351 25 and
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #23: '25\%' at line 187
-2025-05-05 19:38:54,357 - INFO -   Context: 1512 21 and NGC 3351 25\% and we focus on these
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #24: '2.5\%' at line 189
-2025-05-05 19:38:54,357 - INFO -   Context: above this threshold NGC 1566 2.5\% NGC 3627 2 6 and
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #25: '2.6\%' at line 189
-2025-05-05 19:38:54,357 - INFO -   Context: 1566 2 5 NGC 3627 2.6\% and NGC 4535 5 Due
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #26: '10\%' at line 213
-2025-05-05 19:38:54,357 - INFO -   Context: 05 dex corresponding to sim 10\% Comparing the spatial distribution of
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #27: '10\%' at line 213
-2025-05-05 19:38:54,357 - INFO -   Context: of the order of sim 10\% in PAH 11 3 7
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #28: '25\%' at line 230
-2025-05-05 19:38:54,357 - INFO -   Context: galaxies where they constitute 10 25\% of the spatially independent pixels
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #29: '10\%' at line 236
-2025-05-05 19:38:54,357 - INFO -   Context: sim 0 05 dex sim 10\% This is compared to a
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #30: '10\%' at line 238
-2025-05-05 19:38:54,357 - INFO -   Context: 05 dex corresponding to sim 10\% enhancement of the log PAH
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #31: '10\%' at line 238
-2025-05-05 19:38:54,357 - INFO -   Context: ratios of the order of 10\% which is in a stark
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #32: '25\%' at line 250
-2025-05-05 19:38:54,357 - INFO -   Context: correlation These pixels constitute 10 25\% of the pixels in four
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #33: '10\%' at line 252
-2025-05-05 19:38:54,357 - INFO -   Context: result of a small sim 10\% increase in the PAH 11
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #34: '10\%' at line 252
-2025-05-05 19:38:54,357 - INFO -   Context: small of the order of 10\% in contrast to other AGN
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #35: '1.1\%' at line 291
-2025-05-05 19:38:54,357 - INFO -   Context: principal components They account for 1.1\% and 0 78 of the
-2025-05-05 19:38:54,357 - INFO - Latex Replacement #36: '0.78\%' at line 291
-2025-05-05 19:38:54,357 - INFO -   Context: account for 1 1 and 0.78\% of the total variance The
-2025-05-05 19:38:54,357 - INFO - Rounded Replacement #1: 'about 0.2' at line 179
-2025-05-05 19:38:54,357 - INFO -   Context: galaxies with a slope of about 0.2 0 22 at a 150
-2025-05-05 19:38:54,357 - INFO - Rounded Replacement #2: 'about 0.4' at line 181
-2025-05-05 19:38:54,357 - INFO -   Context: 3 7 7 ratio of about 0.4 dex although they have not
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #1: '0.07' at line 181
-2025-05-05 19:38:54,357 - INFO -   Context: 05 and 0 33 pm 0.07 respectively with a maximum log
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #2: '0.16' at line 169
-2025-05-05 19:38:54,357 - INFO -   Context: the shallowest NGC 1087 beta 0.16 pm 0 06 to the
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #3: '0.16' at line 181
-2025-05-05 19:38:54,357 - INFO -   Context: the least steep slopes of 0.16 pm 0 06 and 0
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #4: '0.16' at line 246
-2025-05-05 19:38:54,357 - INFO -   Context: The best fitting slopes are 0.16 0 38 for the MUSE
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #5: '0.06' at line 169
-2025-05-05 19:38:54,357 - INFO -   Context: NGC 1087 beta NUMERICAL_RESULT pm 0.06 to the steepest NGC 1365
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #6: '0.06' at line 181
-2025-05-05 19:38:54,357 - INFO -   Context: steep slopes of NUMERICAL_RESULT pm 0.06 and 0 17 pm 0
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #7: '0.38' at line 169
-2025-05-05 19:38:54,357 - INFO -   Context: the steepest NGC 1365 beta 0.38 pm 0 08 In Figure
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #8: '0.38' at line 246
-2025-05-05 19:38:54,357 - INFO -   Context: best fitting slopes are NUMERICAL_RESULT 0.38 for the MUSE optimal resolution
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #9: '0.38' at line 252
-2025-05-05 19:38:54,357 - INFO -   Context: with beta of 0 25 0.38 which are the result of
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #10: '0.08' at line 169
-2025-05-05 19:38:54,357 - INFO -   Context: NGC 1365 beta NUMERICAL_RESULT pm 0.08 In Figure ref f galaxies_sorted_by_slope
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #11: '0.19' at line 246
-2025-05-05 19:38:54,357 - INFO -   Context: the MUSE optimal resolution and 0.19 0 40 for the 150
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #12: '0.05' at line 181
-2025-05-05 19:38:54,357 - INFO -   Context: average slopes 0 26 pm 0.05 and 0 33 pm NUMERICAL_RESULT
-2025-05-05 19:38:54,357 - INFO - Exact Replacement #13: '0.05' at line 181
-2025-05-05 19:38:54,357 - INFO -   Context: NUMERICAL_RESULT and 0 17 pm 0.05 respectively with a maximum log
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #14: '0.05' at line 211
-2025-05-05 19:38:54,358 - INFO -   Context: is due to a sim 0.05 dex increase in log PAH
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #15: '0.05' at line 213
-2025-05-05 19:38:54,358 - INFO -   Context: AGN hosts of about sim 0.05 dex corresponding to sim NUMERICAL_RESULT
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #16: '0.05' at line 236
-2025-05-05 19:38:54,358 - INFO -   Context: 3 7 7 by sim 0.05 dex sim NUMERICAL_RESULT This is
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #17: '0.05' at line 238
-2025-05-05 19:38:54,358 - INFO -   Context: result of a slight sim 0.05 dex corresponding to sim NUMERICAL_RESULT
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #18: '0.05' at line 317
-2025-05-05 19:38:54,358 - INFO -   Context: find an increase of sim 0.05 dex in log PAH 11
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #19: '.22' at line 56
-2025-05-05 19:38:54,358 - INFO -   Context: 6 73 eV to 1 .22 eV For the assumed PAH
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #20: '0.22' at line 179
-2025-05-05 19:38:54,358 - INFO -   Context: a slope of about NUMERICAL_RESULT 0.22 at a 150 pc scale
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #21: '0.22' at line 207
-2025-05-05 19:38:54,358 - INFO -   Context: relatively average slopes beta sim 0.22 In both cases we exclude
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #22: '0.26' at line 181
-2025-05-05 19:38:54,358 - INFO -   Context: show steeper than average slopes 0.26 pm NUMERICAL_RESULT and 0 33
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #23: '0.17' at line 181
-2025-05-05 19:38:54,358 - INFO -   Context: of NUMERICAL_RESULT pm NUMERICAL_RESULT and 0.17 pm NUMERICAL_RESULT respectively with a
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #24: '0.25' at line 252
-2025-05-05 19:38:54,358 - INFO -   Context: ratios relations with beta of 0.25 NUMERICAL_RESULT which are the result
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #25: '0.2' at line 40
-2025-05-05 19:38:54,358 - INFO -   Context: with a slope of sim 0.2 and a scatter of sim
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #26: '.2' at line 48
-2025-05-05 19:38:54,358 - INFO -   Context: features at 3 3 6 .2 7 7 8 6 11
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #27: '.2' at line 54
-2025-05-05 19:38:54,358 - INFO -   Context: ionized PAHs having stronger 6 .2 and 7 7 mic band
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #28: '.2' at line 54
-2025-05-05 19:38:54,358 - INFO -   Context: mic 11 3 mic 6 .2 mic 7 7 mic 11
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #29: '.2' at line 54
-2025-05-05 19:38:54,358 - INFO -   Context: 3 3 mic and 6 .2 mic compared to 7 7
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #30: '.2' at line 84
-2025-05-05 19:38:54,358 - INFO -   Context: use the survey derived DR2 .2 surface brightness maps of the
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #31: '.2' at line 147
-2025-05-05 19:38:54,358 - INFO -   Context: mic feature see Section 5 .2 in citetalias baron24 We do
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #32: '0.2' at line 213
-2025-05-05 19:38:54,358 - INFO -   Context: We focus on regions where 0.2 siihalpha 0 which is the
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #33: '0.2' at line 213
-2025-05-05 19:38:54,358 - INFO -   Context: AGN hosts in the range 0.2 siihalpha 0 we find a
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #34: '0.2' at line 224
-2025-05-05 19:38:54,358 - INFO -   Context: fitting slope around beta sim 0.2 for log PAH 11 3
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #35: '0.2' at line 228
-2025-05-05 19:38:54,358 - INFO -   Context: 3 7 7 of sim 0.2 mathrm dex Visualizing the optical
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #36: '0.2' at line 238
-2025-05-05 19:38:54,358 - INFO -   Context: 3 7 7 ratio for 0.2 siihalpha 0 depicted in the
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #37: '.2' at line 244
-2025-05-05 19:38:54,358 - INFO -   Context: MUSE VLT 0 56 1 .2 arcsec we have sim 700
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #38: '0.2' at line 246
-2025-05-05 19:38:54,358 - INFO -   Context: a slope of beta sim 0.2 and a scatter of sim
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #39: '0.2' at line 248
-2025-05-05 19:38:54,358 - INFO -   Context: matches the observed beta sim 0.2 slope This interpretation implies that
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #40: '0.2' at line 248
-2025-05-05 19:38:54,358 - INFO -   Context: much larger variation of sim 0.2 dex vspace 0 3cm noindent
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #41: '0.2' at line 252
-2025-05-05 19:38:54,358 - INFO -   Context: siihalpha ratios in the range 0.2 to 0 The regions showing
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #42: '0.2' at line 315
-2025-05-05 19:38:54,358 - INFO -   Context: siihalpha ratios in the range 0.2 0 Pixels from regions with
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #43: '.1' at line 96
-2025-05-05 19:38:54,358 - INFO -   Context: infrared emission see Section 3 .1 there In the dust rich
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #44: '0.1' at line 191
-2025-05-05 19:38:54,358 - INFO -   Context: anomalous group 0 3 to 0.1 The latter is done to
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #45: '0.1' at line 193
-2025-05-05 19:38:54,358 - INFO -   Context: of mathrm E B V 0.1 mag to match the observed
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #46: '0.1' at line 211
-2025-05-05 19:38:54,358 - INFO -   Context: siihalpha ratio of about sim 0.1 This suggests that the increased
-2025-05-05 19:38:54,358 - INFO - Exact Replacement #47: '.1' at line 267
-2025-05-05 19:38:54,359 - INFO -   Context: data ADS JAO ALMA 2012 .1 00650 S 2013 1 01161
-2025-05-05 19:38:54,359 - INFO - Exact Replacement #48: '.1' at line 267
-2025-05-05 19:38:54,359 - INFO -   Context: 2012 1 00650 S 2013 .1 01161 S 2015 1 00925
-2025-05-05 19:38:54,359 - INFO - Exact Replacement #49: '.1' at line 267
-2025-05-05 19:38:54,359 - INFO -   Context: 2013 1 01161 S 2015 .1 00925 S 2017 1 00392
-2025-05-05 19:38:54,359 - INFO - Exact Replacement #50: '.1' at line 267
-2025-05-05 19:38:54,359 - INFO -   Context: 2015 1 00925 S 2017 .1 00392 S and 2017 1
-2025-05-05 19:38:54,359 - INFO - Exact Replacement #51: '.1' at line 267
-2025-05-05 19:38:54,359 - INFO -   Context: 1 00392 S and 2017 .1 00886 L ALMA is a
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #1: '-150' at line 40
-2025-05-05 19:38:54,359 - INFO -   Context: that probe scales of 40 -150 pc in nineteen nearby star
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #2: '-10' at line 56
-2025-05-05 19:38:54,359 - INFO -   Context: to being dominated by 1 -10 Gyr old stars observed spectrum
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #3: '-150' at line 66
-2025-05-05 19:38:54,359 - INFO -   Context: galaxies on scales of 40 -150 pc We use the nineteen
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #4: '-150' at line 66
-2025-05-05 19:38:54,359 - INFO -   Context: dependent over the range 40 -150 pc iii to identify special
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #5: '-11' at line 72
-2025-05-05 19:38:54,359 - INFO -   Context: M_ M_ odot 9 5 -11 and metallicities 12 log mathrm
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #6: '-8.7' at line 72
-2025-05-05 19:38:54,359 - INFO -   Context: mathrm O H 8 4 -8.7 located close to the star
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #7: '-120' at line 74
-2025-05-05 19:38:54,359 - INFO -   Context: spatial resolution of sim 40 -120 pc The analysis in this
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #8: '-9350' at line 82
-2025-05-05 19:38:54,359 - INFO -   Context: in the wavelength range 4750 -9350 mathrm AA with a spectral
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #9: '-50' at line 90
-2025-05-05 19:38:54,359 - INFO -   Context: probing scales of sim 5 -50 pc citep lee23 The filters
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #10: '-150' at line 139
-2025-05-05 19:38:54,359 - INFO -   Context: 19 galaxies individually on 40 -150 pc scales in Section ref
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #11: '-0.7' at line 153
-2025-05-05 19:38:54,359 - INFO -   Context: ratios of sim 0 6 -0.7 dex This group does not
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #12: '-150' at line 177
-2025-05-05 19:38:54,359 - INFO -   Context: relation is probed within 40 -150 pc suggests that the process
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #13: '-0.3' at line 191
-2025-05-05 19:38:54,359 - INFO -   Context: observed in the anomalous group -0.3 to NUMERICAL_RESULT The latter is
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #14: '-0.5' at line 195
-2025-05-05 19:38:54,359 - INFO -   Context: 7 7 sim 0 4 -0.5 dex closer to the bar
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #15: '-150' at line 221
-2025-05-05 19:38:54,359 - INFO -   Context: galaxies probing scales of 40 -150 pc The correlation is a
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #16: '-150' at line 228
-2025-05-05 19:38:54,359 - INFO -   Context: uniform on scales of 40 -150 pc as it can vary
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #17: '-10' at line 236
-2025-05-05 19:38:54,359 - INFO -   Context: to a factor of 2 -10 difference observed in Spitzer IRS
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #18: '-150' at line 238
-2025-05-05 19:38:54,359 - INFO -   Context: unprecedentedly small scales of 40 -150 pc that allows us to
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #19: '-150' at line 244
-2025-05-05 19:38:54,359 - INFO -   Context: emission on scales of 40 -150 pc Our results and their
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #20: '-150' at line 246
-2025-05-05 19:38:54,359 - INFO -   Context: star forming galaxies on 40 -150 pc scales Section ref sec
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #21: '-120' at line 246
-2025-05-05 19:38:54,359 - INFO -   Context: scales in the range 40 -120 pc per source as well
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #22: '-0.40' at line 246
-2025-05-05 19:38:54,359 - INFO -   Context: MUSE optimal resolution and NUMERICAL_RESULT -0.40 for the 150 pc resolution
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #23: '-150' at line 248
-2025-05-05 19:38:54,359 - INFO -   Context: is surprisingly uniform on 40 -150 pc scales accounting for a
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #24: '-150' at line 254
-2025-05-05 19:38:54,359 - INFO -   Context: remain relatively uniform on 40 -150 pc scales This implies that
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #25: '-15' at line 262
-2025-05-05 19:38:54,359 - INFO -   Context: Azur under reference number ANR -15 IDEX 01 JPe acknowledges support
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #26: '-01.' at line 262
-2025-05-05 19:38:54,359 - INFO -   Context: reference number ANR 15 IDEX -01. JPe acknowledges support by the
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #27: '-21' at line 262
-2025-05-05 19:38:54,359 - INFO -   Context: through the DAOISM grant ANR -21 CE31 0010 JC acknowledges funding
-2025-05-05 19:38:54,359 - INFO - Additional Replacement #28: '-0010.' at line 262
-2025-05-05 19:38:54,359 - INFO -   Context: DAOISM grant ANR 21 CE31 -0010. JC acknowledges funding from the
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #29: '-2022' at line 262
-2025-05-05 19:38:54,360 - INFO -   Context: NSERC funding reference number RGPIN -2022 03499 RSK acknowledges financial support
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #30: '-03499.' at line 262
-2025-05-05 19:38:54,360 - INFO -   Context: funding reference number RGPIN 2022 -03499. RSK acknowledges financial support from
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #31: '-0623' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: under ESO programmes 094 C -0623 PI Kreckel 095 C 0473
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #32: '-0473' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: 0623 PI Kreckel 095 C -0473 098 C 0484 PI Blanc
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #33: '-0484' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: 095 C 0473 098 C -0484 PI Blanc 1100 B 0651
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #34: '-0651' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: 0484 PI Blanc 1100 B -0651 PHANGS MUSE PI Schinnerer as
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #35: '-0321' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: as well as 094 B -0321 MAGNUM PI Marconi 099 B
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #36: '-0242' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: MAGNUM PI Marconi 099 B -0242 0100 B 0116 098 B
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #37: '-0116' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: 099 B 0242 0100 B -0116 098 B 0551 MAD PI
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #38: '-0551' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: 0100 B 0116 098 B -0551 MAD PI Carollo and 097
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #39: '-0640' at line 270
-2025-05-05 19:38:54,360 - INFO -   Context: PI Carollo and 097 B -0640 TIMER PI Gadotti IPython citep
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #40: '-3.' at line 291
-2025-05-05 19:38:54,360 - INFO -   Context: PAH approximately align with PCA -3. The dust reddening towards the
-2025-05-05 19:38:54,360 - INFO - Additional Replacement #41: '-4.' at line 291
-2025-05-05 19:38:54,360 - INFO -   Context: B V aligns with PCA -4. section log PAH 11 3
-2025-05-05 19:38:54,360 - INFO - Saved context information to utils/num_mask_logs/phangs_PAHs_contexts.log
+2025-05-11 16:13:05,259 - INFO - Logging to file: utils/num_mask_logs/phangs_PAHs_masking.log
+2025-05-11 16:13:05,259 - INFO - Found 63 unique numerical values to mask
+2025-05-11 16:13:07,713 - INFO - Made 676 replacements in the text
+2025-05-11 16:13:07,713 - INFO - Saved masked text to papers/masked_texts/phangs_PAHs.txt
+2025-05-11 16:13:07,713 - INFO - Latex Replacement #1: '70\%' at line 98
+2025-05-11 16:13:07,713 - INFO -   Context: PAH F1130W can reach sim 70\% and there we subtract the
+2025-05-11 16:13:07,713 - INFO - Latex Replacement #2: '17\%' at line 149
+2025-05-11 16:13:07,713 - INFO -   Context: variance while the second for 17\% the third for 1 1
+2025-05-11 16:13:07,713 - INFO - Latex Replacement #3: '1.1\%' at line 149
+2025-05-11 16:13:07,713 - INFO -   Context: for 17 the third for 1.1\% and the fourth for 0
+2025-05-11 16:13:07,713 - INFO - Latex Replacement #4: '0.78\%' at line 149
+2025-05-11 16:13:07,713 - INFO -   Context: 1 and the fourth for 0.78\% In Table ref tab features
+2025-05-11 16:13:07,713 - INFO - Latex Replacement #5: '1.1\%' at line 291
+2025-05-11 16:13:07,714 - INFO -   Context: principal components They account for 1.1\% and 0 78 of the
+2025-05-11 16:13:07,714 - INFO - Rounded Replacement #1: 'about 0.2' at line 179
+2025-05-11 16:13:07,714 - INFO -   Context: galaxies with a slope of about 0.2 0 22 at a 150
+2025-05-11 16:13:07,714 - INFO - Rounded Replacement #2: 'about 0.4' at line 181
+2025-05-11 16:13:07,714 - INFO -   Context: 3 7 7 ratio of about 0.4 dex although they have not
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #1: '0.16' at line 181
+2025-05-11 16:13:07,714 - INFO -   Context: the least steep slopes of 0.16 pm 0 06 and 0
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #2: '0.16' at line 246
+2025-05-11 16:13:07,714 - INFO -   Context: The best fitting slopes are 0.16 0 38 for the MUSE
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #3: '0.08' at line 169
+2025-05-11 16:13:07,714 - INFO -   Context: 1365 beta 0 38 pm 0.08 In Figure ref f galaxies_sorted_by_slope
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #4: '0.19' at line 246
+2025-05-11 16:13:07,714 - INFO -   Context: the MUSE optimal resolution and 0.19 0 40 for the 150
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #5: '0.05' at line 181
+2025-05-11 16:13:07,714 - INFO -   Context: average slopes 0 26 pm 0.05 and 0 33 pm 0
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #6: '0.05' at line 317
+2025-05-11 16:13:07,714 - INFO -   Context: find an increase of sim 0.05 dex in log PAH 11
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #7: '0.22' at line 207
+2025-05-11 16:13:07,714 - INFO -   Context: relatively average slopes beta sim 0.22 In both cases we exclude
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #8: '0.13' at line 92
+2025-05-11 16:13:07,714 - INFO -   Context: are 0 09 0 11 0.13 and 0 29 mathrm MJy
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #9: '0.13' at line 96
+2025-05-11 16:13:07,714 - INFO -   Context: F770W _ mathrm PAH F770W 0.13 times F200W The prescription is
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #10: '0.2' at line 40
+2025-05-11 16:13:07,714 - INFO -   Context: with a slope of sim 0.2 and a scatter of sim
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #11: '.2' at line 48
+2025-05-11 16:13:07,714 - INFO -   Context: features at 3 3 6 .2 7 7 8 6 11
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #12: '.2' at line 84
+2025-05-11 16:13:07,714 - INFO -   Context: use the survey derived DR2 .2 surface brightness maps of the
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #13: '0.2' at line 224
+2025-05-11 16:13:07,714 - INFO -   Context: fitting slope around beta sim 0.2 for log PAH 11 3
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #14: '.2' at line 244
+2025-05-11 16:13:07,714 - INFO -   Context: MUSE VLT 0 56 1 .2 arcsec we have sim 700
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #15: '0.2' at line 246
+2025-05-11 16:13:07,714 - INFO -   Context: a slope of beta sim 0.2 and a scatter of sim
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #16: '0.2' at line 248
+2025-05-11 16:13:07,714 - INFO -   Context: matches the observed beta sim 0.2 slope This interpretation implies that
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #17: '0.2' at line 248
+2025-05-11 16:13:07,714 - INFO -   Context: much larger variation of sim 0.2 dex vspace 0 3cm noindent
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #18: '0.1' at line 211
+2025-05-11 16:13:07,714 - INFO -   Context: siihalpha ratio of about sim 0.1 This suggests that the increased
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #19: '.3' at line 114
+2025-05-11 16:13:07,714 - INFO -   Context: and anomalous log PAH 11 .3 7 7 ratios Our conclusions
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #20: '.3' at line 139
+2025-05-11 16:13:07,714 - INFO -   Context: anomalously high log PAH 11 .3 7 7 ratios primarily in
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #21: '.3' at line 151
+2025-05-11 16:13:07,714 - INFO -   Context: individual features log PAH 11 .3 7 7 oiiihbeta niihalpha siihalpha
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #22: '.3' at line 153
+2025-05-11 16:13:07,714 - INFO -   Context: unusually high log PAH 11 .3 7 7 ratios occupying the
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #23: '.3' at line 153
+2025-05-11 16:13:07,714 - INFO -   Context: pixels the log PAH 11 .3 7 7 ratio reaches a
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #24: '.3' at line 169
+2025-05-11 16:13:07,714 - INFO -   Context: show the log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #25: '.3' at line 169
+2025-05-11 16:13:07,714 - INFO -   Context: deriving the log PAH 11 .3 7 7 ratio This makes
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #26: '.3' at line 169
+2025-05-11 16:13:07,714 - INFO -   Context: siihalpha and log PAH 11 .3 7 7 within each bin
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #27: '.3' at line 177
+2025-05-11 16:13:07,714 - INFO -   Context: analysis using log PAH 11 .3 7 7 and siihalpha measurements
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #28: '.3' at line 179
+2025-05-11 16:13:07,714 - INFO -   Context: sigma log mathrm PAH 11 .3 7 7 sim 0 025
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #29: '.3' at line 181
+2025-05-11 16:13:07,714 - INFO -   Context: the observed log PAH 11 .3 7 7 versus siihalpha relation
+2025-05-11 16:13:07,714 - INFO - Exact Replacement #30: '.3' at line 181
+2025-05-11 16:13:07,715 - INFO -   Context: scatter in log PAH 11 .3 7 7 around the best
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #31: '.3' at line 181
+2025-05-11 16:13:07,715 - INFO -   Context: show higher log PAH 11 .3 7 7 ratios on average
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #32: '.3' at line 185
+2025-05-11 16:13:07,715 - INFO -   Context: unusually high log PAH 11 .3 7 7 ratios that do
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #33: '0.3' at line 187
+2025-05-11 16:13:07,715 - INFO -   Context: results when using thresholds of 0.3 and 0 5 mathrm dex
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #34: '.3' at line 187
+2025-05-11 16:13:07,715 - INFO -   Context: cases the log PAH 11 .3 7 7 are unusually high
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #35: '.3' at line 193
+2025-05-11 16:13:07,715 - INFO -   Context: in the log PAH 11 .3 7 7 versus siihalpha plane
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #36: '.3' at line 193
+2025-05-11 16:13:07,715 - INFO -   Context: bins of log PAH 11 .3 7 7 in the anomalous
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #37: '.3' at line 193
+2025-05-11 16:13:07,715 - INFO -   Context: that the log PAH 11 .3 7 7 ratios observed in
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #38: '.3' at line 195
+2025-05-11 16:13:07,715 - INFO -   Context: hereafter The log PAH 11 .3 7 7 ratios observed for
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #39: '.3' at line 195
+2025-05-11 16:13:07,715 - INFO -   Context: values of log PAH 11 .3 7 7 sim 0 4
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #40: '.3' at line 195
+2025-05-11 16:13:07,715 - INFO -   Context: values of log PAH 11 .3 7 7 sim 0 6
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #41: '.3' at line 197
+2025-05-11 16:13:07,715 - INFO -   Context: values of log PAH 11 .3 7 7 sim 0 6
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #42: '.3' at line 197
+2025-05-11 16:13:07,715 - INFO -   Context: variation in log PAH 11 .3 7 7 with varying I
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #43: '.3' at line 199
+2025-05-11 16:13:07,715 - INFO -   Context: of observed log PAH 11 .3 7 7 ratios in the
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #44: '.3' at line 199
+2025-05-11 16:13:07,715 - INFO -   Context: anomalous group log PAH 11 .3 7 7 does not vary
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #45: '.3' at line 199
+2025-05-11 16:13:07,715 - INFO -   Context: in anomalous log PAH 11 .3 7 7 ratios is related
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #46: '.3' at line 199
+2025-05-11 16:13:07,715 - INFO -   Context: correlation with log PAH 11 .3 7 7 is expected The
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #47: '.3' at line 201
+2025-05-11 16:13:07,715 - INFO -   Context: showing anomalous log PAH 11 .3 7 7 ratios are indeed
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #48: '.3' at line 203
+2025-05-11 16:13:07,715 - INFO -   Context: subsection Small log PAH 11 .3 7 7 enhancement in AGN
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #49: '.3' at line 205
+2025-05-11 16:13:07,715 - INFO -   Context: in their log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #50: '.3' at line 209
+2025-05-11 16:13:07,715 - INFO -   Context: in the log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #51: '.3' at line 211
+2025-05-11 16:13:07,715 - INFO -   Context: we show log PAH 11 .3 7 7 versus siihalpha for
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #52: '.3' at line 211
+2025-05-11 16:13:07,715 - INFO -   Context: increase in log PAH 11 .3 7 7 at a fixed
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #53: '.3' at line 211
+2025-05-11 16:13:07,715 - INFO -   Context: we show log PAH 11 .3 7 7 versus oiiihbeta for
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #54: '.3' at line 211
+2025-05-11 16:13:07,715 - INFO -   Context: excess in log PAH 11 .3 7 7 that causes steeper
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #55: '.3' at line 213
+2025-05-11 16:13:07,715 - INFO -   Context: showing elevated log PAH 11 .3 7 7 ratios in the
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #56: '.3' at line 213
+2025-05-11 16:13:07,715 - INFO -   Context: comparing the log PAH 11 .3 7 7 distributions in AGN
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #57: '.3' at line 213
+2025-05-11 16:13:07,715 - INFO -   Context: a small log PAH 11 .3 7 7 enhancement in the
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #58: '.3' at line 213
+2025-05-11 16:13:07,715 - INFO -   Context: of the log PAH 11 .3 7 7 ratios in AGN
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #59: '.3' at line 213
+2025-05-11 16:13:07,715 - INFO -   Context: The enhanced log PAH 11 .3 7 7 ratios are seen
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #60: '.3' at line 215
+2025-05-11 16:13:07,715 - INFO -   Context: difference in log PAH 11 .3 7 7 is not driven
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #61: '.3' at line 226
+2025-05-11 16:13:07,715 - INFO -   Context: impact the log PAH 11 .3 7 7 ratio see figure
+2025-05-11 16:13:07,715 - INFO - Exact Replacement #62: '.3' at line 228
+2025-05-11 16:13:07,715 - INFO -   Context: that the log PAH 11 .3 7 7 ratio varies primarily
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #63: '.3' at line 228
+2025-05-11 16:13:07,716 - INFO -   Context: the observed log PAH 11 .3 7 7 ratio variation Therefore
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #64: '.3' at line 228
+2025-05-11 16:13:07,716 - INFO -   Context: in the log PAH 11 .3 7 7 versus siihalpha relation
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #65: '.3' at line 228
+2025-05-11 16:13:07,716 - INFO -   Context: variation in log PAH 11 .3 7 7 of sim 0
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #66: '.3' at line 230
+2025-05-11 16:13:07,716 - INFO -   Context: unusually high log PAH 11 .3 7 7 ratios with up
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #67: '.3' at line 230
+2025-05-11 16:13:07,716 - INFO -   Context: the highest log PAH 11 .3 7 7 values are farther
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #68: '.3' at line 232
+2025-05-11 16:13:07,716 - INFO -   Context: The elevated log PAH 11 .3 7 7 ratios may be
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #69: '.3' at line 232
+2025-05-11 16:13:07,716 - INFO -   Context: increasing the log PAH 11 .3 7 7 ratio An alternative
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #70: '.3' at line 236
+2025-05-11 16:13:07,716 - INFO -   Context: disc The unusual PAH 11 .3 7 7 ratio may be
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #71: '.3' at line 236
+2025-05-11 16:13:07,716 - INFO -   Context: era unusually high PAH 11 .3 7 7 ratios in low
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #72: '.3' at line 236
+2025-05-11 16:13:07,716 - INFO -   Context: on the observed PAH 11 .3 7 7 ratio in our
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #73: '.3' at line 236
+2025-05-11 16:13:07,716 - INFO -   Context: case altering log PAH 11 .3 7 7 by sim 0
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #74: '.3' at line 236
+2025-05-11 16:13:07,716 - INFO -   Context: that the peculiar PAH 11 .3 7 7 ratios observed in
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #75: '.3' at line 238
+2025-05-11 16:13:07,716 - INFO -   Context: in their log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #76: '.3' at line 238
+2025-05-11 16:13:07,716 - INFO -   Context: of the log PAH 11 .3 7 7 ratio for 0
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #77: '.3' at line 238
+2025-05-11 16:13:07,716 - INFO -   Context: the slight log PAH 11 .3 7 7 enhancement The enhancement
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #78: '.3' at line 240
+2025-05-11 16:13:07,716 - INFO -   Context: pixels showing unusual PAH 11 .3 7 7 ratios Koziol et
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #79: '.3' at line 248
+2025-05-11 16:13:07,716 - INFO -   Context: variation in log PAH 11 .3 7 7 of sim 0
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #80: '.3' at line 293
+2025-05-11 16:13:07,716 - INFO -   Context: 4 section log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #81: '.3' at line 295
+2025-05-11 16:13:07,716 - INFO -   Context: of the log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #82: '.3' at line 295
+2025-05-11 16:13:07,716 - INFO -   Context: shows the log PAH 11 .3 7 7 versus siihalpha relations
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #83: '.3' at line 311
+2025-05-11 16:13:07,716 - INFO -   Context: the standard log PAH 11 .3 7 7 assumed throughout the
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #84: '.3' at line 315
+2025-05-11 16:13:07,716 - INFO -   Context: the ratio log PAH 11 .3 7 7 can be estimated
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #85: '.3' at line 315
+2025-05-11 16:13:07,716 - INFO -   Context: before estimating log PAH 11 .3 7 7 First the figure
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #86: '.3' at line 317
+2025-05-11 16:13:07,716 - INFO -   Context: increase in log PAH 11 .3 7 7 ratios is not
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #87: '.3' at line 317
+2025-05-11 16:13:07,716 - INFO -   Context: increase in log PAH 11 .3 7 7 observed in AGN
+2025-05-11 16:13:07,716 - INFO - Exact Replacement #88: '0.4' at line 167
+2025-05-11 16:13:07,717 - INFO -   Context: generally above log F200W F770W 0.4 mathrm dex We use this
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #89: '0.4' at line 187
+2025-05-11 16:13:07,717 - INFO -   Context: pixels with log F200W F770W 0.4 mathrm dex also show PAH
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #90: '0.4' at line 187
+2025-05-11 16:13:07,717 - INFO -   Context: pixels with log F200W F770W 0.4 mathrm dex do not show
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #91: '0.4' at line 187
+2025-05-11 16:13:07,717 - INFO -   Context: following threshold log F200W F770W 0.4 mathrm dex somewhat arbitrary We
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #92: '0.4' at line 191
+2025-05-11 16:13:07,717 - INFO -   Context: below the log F200W F770W 0.4 mathrm dex threshold and are
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #93: '0.4' at line 230
+2025-05-11 16:13:07,717 - INFO -   Context: ratios of log F200W F770W 0.4 dex They originate in the
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #94: '0.4' at line 250
+2025-05-11 16:13:07,717 - INFO -   Context: dust emission log F200W F770W 0.4 dex in the so called
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #95: '.8' at line 60
+2025-05-11 16:13:07,717 - INFO -   Context: ion Ne 2 lambda 12 .8 mathrm mu m ratio e
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #96: '.7' at line 90
+2025-05-11 16:13:07,717 - INFO -   Context: centered on the wavelengths 7 .7 10 11 3 and 21
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #97: '0.7' at line 153
+2025-05-11 16:13:07,717 - INFO -   Context: ratios of sim 0 6 0.7 dex This group does not
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #98: '.7' at line 161
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 band ratio and the siihalpha
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #99: '.7' at line 161
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and niihalpha siihalpha and oihalpha
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #100: '.7' at line 169
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 ratios somewhat larger here compared
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #101: '.7' at line 181
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 ratio of about 0 3
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #102: '.7' at line 191
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 In Figure ref f stacked_SEDs_weird_PAHs_fnu
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #103: '.7' at line 199
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and the halpha surface brightness
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #104: '.7' at line 207
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and siihalpha ratios we also
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #105: '.7' at line 213
+2025-05-11 16:13:07,717 - INFO -   Context: in PAH 11 3 7 .7 suggesting that the old stellar
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #106: '.7' at line 224
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 versus siihalpha and with a
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #107: '.7' at line 224
+2025-05-11 16:13:07,717 - INFO -   Context: the PAH 11 3 7 .7 ratio strongly depends on the
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #108: '.7' at line 248
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and siihalpha suggests a one
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #109: '.7' at line 254
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and siihalpha is driven by
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #110: '.7' at line 309
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and log F200W F2100W we
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #111: '.7' at line 311
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and log F200W F2100W for
+2025-05-11 16:13:07,717 - INFO - Exact Replacement #112: '.7' at line 311
+2025-05-11 16:13:07,717 - INFO -   Context: log PAH 11 3 7 .7 and log F200W F2100W are
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #1: '-150' at line 40
+2025-05-11 16:13:07,717 - INFO -   Context: that probe scales of 40 -150 pc in nineteen nearby star
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #2: '-150' at line 66
+2025-05-11 16:13:07,717 - INFO -   Context: galaxies on scales of 40 -150 pc We use the nineteen
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #3: '-120' at line 74
+2025-05-11 16:13:07,717 - INFO -   Context: spatial resolution of sim 40 -120 pc The analysis in this
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #4: '-50' at line 90
+2025-05-11 16:13:07,717 - INFO -   Context: probing scales of sim 5 -50 pc citep lee23 The filters
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #5: '-150' at line 139
+2025-05-11 16:13:07,717 - INFO -   Context: 19 galaxies individually on 40 -150 pc scales in Section ref
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #6: '-150' at line 177
+2025-05-11 16:13:07,717 - INFO -   Context: relation is probed within 40 -150 pc suggests that the process
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #7: '-150' at line 221
+2025-05-11 16:13:07,717 - INFO -   Context: galaxies probing scales of 40 -150 pc The correlation is a
+2025-05-11 16:13:07,717 - INFO - Additional Replacement #8: '-150' at line 228
+2025-05-11 16:13:07,717 - INFO -   Context: uniform on scales of 40 -150 pc as it can vary
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #9: '-150' at line 244
+2025-05-11 16:13:07,718 - INFO -   Context: emission on scales of 40 -150 pc Our results and their
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #10: '-150' at line 248
+2025-05-11 16:13:07,718 - INFO -   Context: is surprisingly uniform on 40 -150 pc scales accounting for a
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #11: '-150' at line 254
+2025-05-11 16:13:07,718 - INFO -   Context: remain relatively uniform on 40 -150 pc scales This implies that
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #12: '-15' at line 262
+2025-05-11 16:13:07,718 - INFO -   Context: Azur under reference number ANR -15 IDEX 01 JPe acknowledges support
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #13: '-01.' at line 262
+2025-05-11 16:13:07,718 - INFO -   Context: reference number ANR 15 IDEX -01. JPe acknowledges support by the
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #14: '-21' at line 262
+2025-05-11 16:13:07,718 - INFO -   Context: through the DAOISM grant ANR -21 CE31 0010 JC acknowledges funding
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #15: '-0623' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: under ESO programmes 094 C -0623 PI Kreckel 095 C 0473
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #16: '-0473' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: 0623 PI Kreckel 095 C -0473 098 C 0484 PI Blanc
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #17: '-0484' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: 095 C 0473 098 C -0484 PI Blanc 1100 B 0651
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #18: '-0651' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: 0484 PI Blanc 1100 B -0651 PHANGS MUSE PI Schinnerer as
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #19: '-0321' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: as well as 094 B -0321 MAGNUM PI Marconi 099 B
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #20: '-0242' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: MAGNUM PI Marconi 099 B -0242 0100 B 0116 098 B
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #21: '-0116' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: 099 B 0242 0100 B -0116 098 B 0551 MAD PI
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #22: '-0551' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: 0100 B 0116 098 B -0551 MAD PI Carollo and 097
+2025-05-11 16:13:07,718 - INFO - Additional Replacement #23: '-0640' at line 270
+2025-05-11 16:13:07,718 - INFO -   Context: PI Carollo and 097 B -0640 TIMER PI Gadotti IPython citep
+2025-05-11 16:13:07,718 - INFO - Saved context information to utils/num_mask_logs/phangs_PAHs_contexts.log

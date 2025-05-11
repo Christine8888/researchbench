@@ -2,97 +2,55 @@ Masked values and their context for paper: gw_cosmo
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 9 replacements
+  LATEX: 2 replacements
   EXACT: 5 replacements
   ADDITIONAL: 2 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (9):
+LATEX REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{max} = 40
-  Numerical Value: 40
-  Line: 162
-  Context: a distance limit of D_L \mathrm{max} = 40 Gpc For a distance limit
-
-Replacement #2:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 26
-  Context: even provide an mathcal O 10\% measurement of the dark energy
-
-Replacement #3:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 127
-  Context: a lognormal distribution with roughly 10\% measurement uncertainty reply see Appendix
-
-Replacement #4:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 139
-  Context: correspond to Cosmic Explorer s 50\% response distance or the distance
-
-Replacement #5:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 139
-  Context: or the distance at which 50\% of sources are detectable citep
-
-Replacement #6:
   Expression: 68\%
   Numerical Value: 68
   Line: 162
   Context: convergence of the 1 sigma 68\% credibility constraint in H_ 0
 
-Replacement #7:
+Replacement #2:
   Expression: 18\%
   Numerical Value: 18
   Line: 162
   Context: of events N as frac 18\% N 0 5 for a
-
-Replacement #8:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 162
-  Context: precision is degraded to frac 50\% N 0 5 Much of
-
-Replacement #9:
-  Expression: 500\%
-  Numerical Value: 500
-  Line: 166
-  Context: w_ 0 scales as frac 500\% N 0 5 assuming a
 
 
 EXACT REPLACEMENTS (5):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: .02
-  Line: 8
-  Context: may be measured to pm0 .02 Although realistically the redshift evolution
-
-Replacement #2:
   Expression: 2.8
   Line: 8
   Context: measurement of the combination H_0 2.8 Omega_M in a flat Lambda
 
-Replacement #3:
-  Expression: 2.8
-  Line: 160
-  Context: sensitive to the combination H_0 2.8 Omega_M which differs from the
-
-Replacement #4:
+Replacement #2:
   Expression: 2.8
   Line: 162
   Context: constraints in terms of H_0 2.8 Omega_M for different sample sizes
 
-Replacement #5:
+Replacement #3:
   Expression: 2.8
   Line: 189
   Context: Omega_M is captured by H_0 2.8 Omega_M when used with experiments
+
+Replacement #4:
+  Expression: 0.1
+  Line: 130
+  Context: mu log D_L i sigma 0.1 end equation where mathcal N
+
+Replacement #5:
+  Expression: 0.1
+  Line: 135
+  Context: log D_L z mathcal H 0.1 right 2 right end align
 
 
 ADDITIONAL REPLACEMENTS (2):

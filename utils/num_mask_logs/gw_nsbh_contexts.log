@@ -2,238 +2,95 @@ Masked values and their context for paper: gw_nsbh
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 28 replacements
-  ROUNDED: 2 replacements
-  EXACT: 44 replacements
-  ADDITIONAL: 43 replacements
+  LATEX: 7 replacements
+  EXACT: 30 replacements
+  ADDITIONAL: 16 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (28):
+LATEX REPLACEMENTS (7):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{TOV} = 2.2
-  Numerical Value: 2.2
-  Line: 14
-  Context: the EOS have placed M_ \mathrm{TOV} = 2.2 2 5 M_ odot citep
-
-Replacement #2:
   Expression: \mathrm{BH} = 5.4
   Numerical Value: 5.4
   Line: 257
   Context: beta 0 results in M_ \mathrm{BH} = 5.4 0 7 _ 1 0
 
-Replacement #3:
-  Expression: 1.2\times
-  Numerical Value: 1.2
-  Line: 96
-  Context: maximum possible mass is around 1.2\times the non spinning TOV limit
-
-Replacement #4:
-  Expression: 90\%
-  Numerical Value: 90
-  Line: 6
-  Context: _ 0 4 M_ odot 90\% credibility while assuming only nonspinning
-
-Replacement #5:
-  Expression: 90\%
-  Numerical Value: 90
-  Line: 6
-  Context: be 2 53 M_ odot 90\% credibility The data support the
-
-Replacement #6:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 20
-  Context: substantial spins can support sim 20\% more mass citep 1994ApJ 424
-
-Replacement #7:
-  Expression: 90\%
-  Numerical Value: 90
-  Line: 224
-  Context: 5A all measurements quoted at 90\% confidence level m_1 8 9
-
-Replacement #8:
-  Expression: 95\%
-  Numerical Value: 95
-  Line: 247
-  Context: M_ odot with lower limits 95\% credibility of 2 4 2
-
-Replacement #9:
+Replacement #2:
   Expression: 68\%
   Numerical Value: 68
   Line: 247
   Context: _ 0 2 M_ odot 68\% credibility reply the inclusion of
 
-Replacement #10:
-  Expression: 95\%
-  Numerical Value: 95
-  Line: 247
-  Context: M_ odot with lower limit 95\% credibility of 1 8 1
-
-Replacement #11:
+Replacement #3:
   Expression: 68\%
   Numerical Value: 68
   Line: 257
   Context: _ 1 0 M_ odot 68\% credibility At the low end
 
-Replacement #12:
+Replacement #4:
   Expression: 68\%
   Numerical Value: 68
   Line: 257
   Context: _ 0 8 M_ odot 68\% credibility using only the confident
 
-Replacement #13:
+Replacement #5:
   Expression: 97\%
   Numerical Value: 97
   Line: 261
   Context: than 0 M_ odot with 97\% credibility and 1 M_ odot
 
-Replacement #14:
-  Expression: 90\%
-  Numerical Value: 90
-  Line: 261
-  Context: and 1 M_ odot with 90\% credibility The inferred mass gap
-
-Replacement #15:
-  Expression: 92\%
-  Numerical Value: 92
-  Line: 261
-  Context: gap 0 M_ odot with 92\% or higher up to 99
-
-Replacement #16:
-  Expression: 68\%
-  Numerical Value: 68
-  Line: 261
-  Context: and 1 M_ odot with 68\% or higher up to 99
-
-Replacement #17:
+Replacement #6:
   Expression: 96\%
   Numerical Value: 96
   Line: 265
   Context: a mass gap exists with 96\% credibility and that it is
 
-Replacement #18:
-  Expression: 90\%
-  Numerical Value: 90
-  Line: 265
-  Context: than 1 M_ odot with 90\% credibility subsubsection Mass and spin
-
-Replacement #19:
-  Expression: 90\%
-  Numerical Value: 90
-  Line: 284
-  Context: Gpc 3 text yr 1 90\% credibility citep 2021ApJ 915L 5A
-
-Replacement #20:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 301
-  Context: mass function and up to 10\% of the uniform mass function
-
-Replacement #21:
-  Expression: 99.7\%
-  Numerical Value: 99.7
-  Line: 303
-  Context: of M_ text TOV with 99.7\% credibility At 50 150 events
-
-Replacement #22:
+Replacement #7:
   Expression: 99.7\%
   Numerical Value: 99.7
   Line: 303
   Context: the lower bound of the 99.7\% credibility interval can be as
 
-Replacement #23:
-  Expression: 99.7\%
-  Numerical Value: 99.7
-  Line: 303
-  Context: correct M_ text TOV at 99.7\% credibility This is partially because
 
-Replacement #24:
-  Expression: 68\%
-  Numerical Value: 68
-  Line: 320
-  Context: M_ odot with typical uncertainties 68\% credibility of pm 1 0
-
-Replacement #25:
-  Expression: 92\%
-  Numerical Value: 92
-  Line: 320
-  Context: odot with high confidence between 92\% and 99 9 and a
-
-Replacement #26:
-  Expression: 99.9\%
-  Numerical Value: 99.9
-  Line: 320
-  Context: high confidence between 92 and 99.9\% and a mass gap 1
-
-Replacement #27:
-  Expression: 75\%
-  Numerical Value: 75
-  Line: 320
-  Context: odot with moderate confidence between 75\% and 99 9 Future observations
-
-Replacement #28:
-  Expression: 99.9\%
-  Numerical Value: 99.9
-  Line: 320
-  Context: moderate confidence between 75 and 99.9\% Future observations may constrain this
-
-
-ROUNDED REPLACEMENTS (2):
+EXACT REPLACEMENTS (30):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: around 1.3
-  Numerical Value: 1.3
-  Line: 271
-  Context: particularly a narrower peak at around 1.3 M_ odot and a longer
+  Expression: 0.05
+  Line: 296
+  Context: 08 M_ odot and pm 0.05 M_ odot can be achieved
 
 Replacement #2:
-  Expression: ~10
-  Numerical Value: 10
-  Line: 165
-  Context: theta until injection sets of ~10 000 events are created BH
+  Expression: .35
+  Line: 281
+  Context: A 0 63 mu_1 1 .35 sigma_1 0 07 mu_2 1
 
+Replacement #3:
+  Expression: 0.35
+  Line: 281
+  Context: mu_2 1 85 and sigma_2 0.35 We truncate the 1 and
 
-EXACT REPLACEMENTS (44):
---------------------------------------------------------------------------------
-
-Replacement #1:
+Replacement #4:
   Expression: 0.08
   Line: 288
   Context: 2 0 0 15 _ 0.08 M_ odot or 2 2
 
-Replacement #2:
-  Expression: 0.08
-  Line: 296
-  Context: width to 3 00 pm 0.08 M_ odot and pm 0
-
-Replacement #3:
-  Expression: 0.05
-  Line: 288
-  Context: detections allows constraints of pm 0.05 and determining M_ text TOV
-
-Replacement #4:
-  Expression: 0.05
-  Line: 296
-  Context: NUMERICAL_RESULT M_ odot and pm 0.05 M_ odot can be achieved
-
 Replacement #5:
-  Expression: 0.07
-  Line: 281
-  Context: 63 mu_1 1 35 sigma_1 0.07 mu_2 1 85 and sigma_2
+  Expression: 0.02
+  Line: 295
+  Context: measurements within 0 00 pm 0.02 M_ odot and 150 events
 
 Replacement #6:
-  Expression: 0.07
-  Line: 288
-  Context: 2 2 0 19 _ 0.07 M_ odot for M_ text
+  Expression: 0.06
+  Line: 312
+  Context: pm 0 1 or pm 0.06 for 150 events A_1 is
 
 Replacement #7:
   Expression: 0.07
-  Line: 295
-  Context: gap width to 0 0 0.07 _ 0 15 M_ odot
+  Line: 288
+  Context: 2 2 0 19 _ 0.07 M_ odot for M_ text
 
 Replacement #8:
   Expression: 0.07
@@ -241,400 +98,195 @@ Replacement #8:
   Context: _ 0 1 around pm 0.07 for 50 events and around
 
 Replacement #9:
-  Expression: 0.04
-  Line: 312
-  Context: 50 events and around pm 0.04 for 150 events assuming a
-
-Replacement #10:
   Expression: 1.9
   Line: 224
   Context: 1 5 M_ odot m_2 1.9 0 3 _ 0 2
 
-Replacement #11:
-  Expression: 1.9
-  Line: 247
-  Context: NUMERICAL_RESULT credibility of 1 8 1.9 M_ text TOV Without GW190814
-
-Replacement #12:
+Replacement #10:
   Expression: 2.2
   Line: 252
   Context: M_ odot with support below 2.2 M_ odot green dashed curve
 
-Replacement #13:
-  Expression: 2.2
-  Line: 281
-  Context: TOV 2 M_ odot or 2.2 M_ odot For the 1
-
-Replacement #14:
-  Expression: 2.2
-  Line: 281
-  Context: odot for M_ text TOV 2.2 M_ odot and a wide
-
-Replacement #15:
-  Expression: 2.2
-  Line: 288
-  Context: _ NUMERICAL_RESULT M_ odot or 2.2 0 19 _ NUMERICAL_RESULT M_
-
-Replacement #16:
-  Expression: 2.2
-  Line: 288
-  Context: odot for M_ text TOV 2.2 with the lower limit on
-
-Replacement #17:
-  Expression: 2.2
-  Line: 301
-  Context: mass For M_ text TOV 2.2 M_ odot this drops to
-
-Replacement #18:
-  Expression: 2.6
-  Line: 18
-  Context: relative lack of objects between 2.6 6 M_ odot citep 2021ApJ
-
-Replacement #19:
-  Expression: 2.6
-  Line: 20
-  Context: GW190814 is tightly measured at 2.6 M_ odot making it exceptionally
-
-Replacement #20:
-  Expression: 2.6
-  Line: 20
-  Context: the spin of the secondary 2.6 M_ odot object in GW190814
-
-Replacement #21:
+Replacement #11:
   Expression: 2.6
   Line: 226
   Context: 1 0 M_ odot m_2 2.6 0 1 _ 0 1
 
-Replacement #22:
-  Expression: 2.6
-  Line: 247
-  Context: generally infer M_ 99 between 2.6 2 8 M_ odot with
-
-Replacement #23:
-  Expression: 2.8
-  Line: 247
-  Context: infer M_ 99 between NUMERICAL_RESULT 2.8 M_ odot with lower limits
-
-Replacement #24:
+Replacement #12:
   Expression: 2.8
   Line: 247
   Context: spin prior measures M_ 99 2.8 0 3 _ 0 2
 
-Replacement #25:
-  Expression: 2.4
-  Line: 247
-  Context: lower limits NUMERICAL_RESULT credibility of 2.4 2 5 M_ odot Our
-
-Replacement #26:
-  Expression: 0.3
-  Line: 224
-  Context: 5 M_ odot m_2 NUMERICAL_RESULT 0.3 _ 0 2 M_ odot
-
-Replacement #27:
-  Expression: 0.3
+Replacement #13:
+  Expression: .1
   Line: 225
-  Context: 1 5 0 7 _ 0.3 M_ odot item GW190814 citep
+  Context: 7 1 8 _ 2 .1 M_ odot m_2 1 5
 
-Replacement #28:
-  Expression: .3
-  Line: 227
-  Context: 7 3 9 _ 2 .3 M_ odot m_2 1 5
+Replacement #14:
+  Expression: .1
+  Line: 226
+  Context: 44A m_1 23 2 1 .1 _ 1 0 M_ odot
 
-Replacement #29:
-  Expression: 0.3
-  Line: 247
-  Context: prior measures M_ 99 NUMERICAL_RESULT 0.3 _ 0 2 M_ odot
+Replacement #15:
+  Expression: .1
+  Line: 257
+  Context: text BH 4 2 1 .1 _ 1 0 M_ odot
 
-Replacement #30:
-  Expression: .3
-  Line: 247
-  Context: TOV between 2 0 2 .3 M_ odot with lower limit
-
-Replacement #31:
-  Expression: .3
-  Line: 261
-  Context: 0 M_ odot reply 2 .3 0 7 _ 1 0
-
-Replacement #32:
-  Expression: .3
+Replacement #16:
+  Expression: .1
   Line: 273
-  Context: reply alpha_ text BH 2 .3 7 _ 1 0 with
+  Context: text BH 0 9 1 .1 _ 0 6 This is
 
-Replacement #33:
+Replacement #17:
+  Expression: 2.5
+  Line: 261
+  Context: measure a mass gap of 2.5 0 8 _ 1 0
+
+Replacement #18:
+  Expression: 2.3
+  Line: 227
+  Context: 5 7 3 9 _ 2.3 M_ odot m_2 1 5
+
+Replacement #19:
+  Expression: 2.3
+  Line: 261
+  Context: 1 0 M_ odot reply 2.3 0 7 _ 1 0
+
+Replacement #20:
+  Expression: 2.3
+  Line: 273
+  Context: 9 reply alpha_ text BH 2.3 7 _ 1 0 with
+
+Replacement #21:
+  Expression: 2.3
+  Line: 319
+  Context: be as low as sim 2.3 M_ odot even when including
+
+Replacement #22:
+  Expression: .3
+  Line: 271
+  Context: narrower peak at around 1 .3 M_ odot and a longer
+
+Replacement #23:
   Expression: 0.3
   Line: 303
   Context: as much as 0 2 0.3 M_ odot above M_ text
 
-Replacement #34:
-  Expression: .3
-  Line: 319
-  Context: as low as sim 2 .3 M_ odot even when including
-
-Replacement #35:
-  Expression: .9
-  Line: 224
-  Context: NUMERICAL_RESULT confidence level m_1 8 .9 1 2 _ 1 5
-
-Replacement #36:
-  Expression: .9
-  Line: 227
-  Context: 11b1053A m_1 5 7 3 .9 _ 2 NUMERICAL_RESULT M_ odot
-
-Replacement #37:
-  Expression: .9
-  Line: 247
-  Context: M_ text 99 to 2 .9 0 2 _ 0 2
-
-Replacement #38:
-  Expression: 0.9
-  Line: 252
-  Context: text min a_ text Kep 0.9 brings M_ text TOV estimates
-
-Replacement #39:
-  Expression: .9
-  Line: 261
-  Context: or higher up to 99 .9 credibility and 1 M_ odot
-
-Replacement #40:
-  Expression: .9
-  Line: 261
-  Context: or higher up to 99 .9 credibility As seen in Fig
-
-Replacement #41:
-  Expression: 0.9
-  Line: 273
-  Context: 3 4 1 4 _ 0.9 reply alpha_ text BH 2
-
-Replacement #42:
-  Expression: 0.9
-  Line: 273
-  Context: shallower slopes alpha_ text BH 0.9 1 1 _ 0 6
-
-Replacement #43:
-  Expression: 5.4
-  Line: 6
-  Context: a minimum BH mass at 5.4 0 7 _ 1 0
-
-Replacement #44:
+Replacement #24:
   Expression: 2.7
   Line: 6
   Context: non spinning NS mass is 2.7 0 5 _ 0 4
 
+Replacement #25:
+  Expression: .2
+  Line: 31
+  Context: with a period of 4 .2 ms or dimensionless spin magnitude
 
-ADDITIONAL REPLACEMENTS (43):
+Replacement #26:
+  Expression: .2
+  Line: 224
+  Context: level m_1 8 9 1 .2 _ 1 5 M_ odot
+
+Replacement #27:
+  Expression: .2
+  Line: 281
+  Context: 2 M_ odot or 2 .2 M_ odot For the 1
+
+Replacement #28:
+  Expression: 0.2
+  Line: 312
+  Context: We consider models with A_1 0.2 and 0 4 For a
+
+Replacement #29:
+  Expression: 0.2
+  Line: 312
+  Context: a_ mathrm Kep and A_1 0.2 10 events can constrain A_1
+
+Replacement #30:
+  Expression: 0.8
+  Line: 227
+  Context: M_ odot m_2 1 5 0.8 _ 0 5 M_ odot
+
+
+ADDITIONAL REPLACEMENTS (16):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -0.4
-  Line: 6
-  Context: is NUMERICAL_RESULT 0 5 _ -0.4 M_ odot NUMERICAL_RESULT credibility while
-
-Replacement #2:
   Expression: -1.0
   Line: 6
-  Context: at NUMERICAL_RESULT 0 7 _ -1.0 M_ odot With future observations
+  Context: 5 4 0 7 _ -1.0 M_ odot With future observations
 
-Replacement #3:
-  Expression: -0.23
-  Line: 14
-  Context: 2 22 0 85 _ -0.23 M_ odot citep 2020RNAAS 4
-
-Replacement #4:
+Replacement #2:
   Expression: -2500
   Line: 31
   Context: system is the Pulsar J1807 -2500 B with a period of
 
-Replacement #5:
+Replacement #3:
   Expression: -2446
   Line: 31
   Context: fastest spinning is Pulsar J1748 -2446 ad with a period of
 
-Replacement #6:
+Replacement #4:
   Expression: -76
   Line: 207
   Context: frac 1 3 frac 113 -76 nu 4 chi_ text eff
 
-Replacement #7:
+Replacement #5:
   Expression: -16
   Line: 211
   Context: beta frac 3 4 beta -16 pi 128 mathcal M 2
 
-Replacement #8:
+Replacement #6:
   Expression: -0.1293
   Line: 214
   Context: 2341 psi_2 rho and sigma_3 -0.1293 psi_3 rho where we draw
 
-Replacement #9:
-  Expression: -1.5
-  Line: 224
-  Context: 8 NUMERICAL_RESULT 1 2 _ -1.5 M_ odot m_2 NUMERICAL_RESULT NUMERICAL_RESULT
-
-Replacement #10:
-  Expression: -0.2
-  Line: 224
-  Context: odot m_2 NUMERICAL_RESULT NUMERICAL_RESULT _ -0.2 M_ odot item GW200115 citep
-
-Replacement #11:
-  Expression: -2.1
-  Line: 225
-  Context: 5 7 1 8 _ -2.1 M_ odot m_2 1 5
-
-Replacement #12:
-  Expression: -1.0
-  Line: 226
-  Context: 23 2 1 1 _ -1.0 M_ odot m_2 NUMERICAL_RESULT 0
-
-Replacement #13:
-  Expression: -0.1
-  Line: 226
-  Context: m_2 NUMERICAL_RESULT 0 1 _ -0.1 M_ odot Because the secondary
-
-Replacement #14:
-  Expression: -0.5
-  Line: 227
-  Context: 1 5 0 8 _ -0.5 M_ odot GW190426 is relatively
-
-Replacement #15:
-  Expression: -2.5
-  Line: 247
-  Context: limits NUMERICAL_RESULT credibility of NUMERICAL_RESULT -2.5 M_ odot Our default model
-
-Replacement #16:
-  Expression: -0.2
-  Line: 247
-  Context: M_ 99 NUMERICAL_RESULT NUMERICAL_RESULT _ -0.2 M_ odot NUMERICAL_RESULT credibility reply
-
-Replacement #17:
-  Expression: -0.2
-  Line: 247
-  Context: 2 NUMERICAL_RESULT 0 2 _ -0.2 M_ odot The cutoff mass
-
-Replacement #18:
-  Expression: -1.0
-  Line: 257
-  Context: 4 2 1 1 _ -1.0 M_ odot using all 4
-
-Replacement #19:
-  Expression: -0.8
-  Line: 257
-  Context: 6 7 0 4 _ -0.8 M_ odot NUMERICAL_RESULT credibility using
-
-Replacement #20:
-  Expression: -1.0
-  Line: 261
-  Context: 2 5 0 8 _ -1.0 M_ odot reply 2 NUMERICAL_RESULT
-
-Replacement #21:
-  Expression: -1.0
-  Line: 261
-  Context: 2 NUMERICAL_RESULT 0 7 _ -1.0 M_ odot with 3 additional
-
-Replacement #22:
-  Expression: -4.5
-  Line: 261
-  Context: NSBH events between 3 0 -4.5 M_ odot and narrowest when
-
-Replacement #23:
-  Expression: -3.0
-  Line: 261
-  Context: NSBH events between 1 5 -3.0 M_ odot This is because
-
-Replacement #24:
-  Expression: -1.0
-  Line: 273
-  Context: BH 2 NUMERICAL_RESULT 7 _ -1.0 with all 7 events Under
-
-Replacement #25:
-  Expression: -0.6
-  Line: 273
-  Context: BH NUMERICAL_RESULT 1 1 _ -0.6 This is because the preference
-
-Replacement #26:
+Replacement #7:
   Expression: -33
   Line: 284
   Context: rate of 45 75 _ -33 text Gpc 3 text yr
 
-Replacement #27:
-  Expression: -20
-  Line: 284
-  Context: 5A resulting in between 2 -20 NSBH year at Design sensitivity
-
-Replacement #28:
-  Expression: -80
-  Line: 284
-  Context: at Design sensitivity and 8 -80 NSBH year during A Assuming
-
-Replacement #29:
+Replacement #8:
   Expression: -69
   Line: 284
   Context: observations of 130 112 _ -69 text Gpc 3 text yr
 
-Replacement #30:
+Replacement #9:
   Expression: -30
   Line: 284
   Context: for detection rates of 8 -30 NSBH year at Design sensitivity
 
-Replacement #31:
+Replacement #10:
   Expression: -160
   Line: 284
   Context: at Design sensitivity and 40 -160 NSBH year during A Accordingly
 
-Replacement #32:
-  Expression: -0.5
-  Line: 289
-  Context: TOV generally scale as N -0.5 the exact convergence depends on
-
-Replacement #33:
+Replacement #11:
   Expression: -0.15
   Line: 295
-  Context: to 0 0 NUMERICAL_RESULT _ -0.15 M_ odot In general the
+  Context: 0 0 0 07 _ -0.15 M_ odot In general the
 
-Replacement #34:
-  Expression: -20
-  Line: 303
-  Context: take as few as 10 -20 events to wrongly exclude the
-
-Replacement #35:
-  Expression: -150
-  Line: 303
-  Context: with NUMERICAL_RESULT credibility At 50 -150 events the lower bound of
-
-Replacement #36:
-  Expression: -90
-  Line: 303
-  Context: respectively it usually takes 30 -90 events to exclude the correct
-
-Replacement #37:
-  Expression: -0.1
-  Line: 312
-  Context: 0 2 0 2 _ -0.1 around pm NUMERICAL_RESULT for 50
-
-Replacement #38:
+Replacement #12:
   Expression: -0.5
   Line: 312
   Context: on A_1 converge as N -0.5 Given that constraining A_1 requires
 
-Replacement #39:
-  Expression: -4.5
-  Line: 320
-  Context: BHs with width 1 5 -4.5 M_ odot with typical uncertainties
-
-Replacement #40:
+Replacement #13:
   Expression: -0757058
   Line: 330
   Context: National Science Foundation Grants PHY -0757058 and PHY 0823459 M F
 
-Replacement #41:
+Replacement #14:
   Expression: -0823459.
   Line: 330
   Context: Grants PHY 0757058 and PHY -0823459. M F is supported by
 
-Replacement #42:
+Replacement #15:
   Expression: -51455.001
   Line: 330
   Context: Hubble Fellowship grant HST HF2 -51455.001 A awarded by the Space
 
-Replacement #43:
+Replacement #16:
   Expression: -26555.
   Line: 331
   Context: Incorporated under NASA contract NAS5 -26555. M F is grateful for

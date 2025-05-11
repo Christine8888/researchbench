@@ -86,7 +86,7 @@ Presumably, not all habitable worlds are inhabited and not all inhabited worlds 
 The fraction of \glspl{EEC} that are both inhabited and exhibit detectable biosignatures at the time of observation is unknown \rev{and is represented by }\revv{ $f_\mathrm{life}$.}
 \revv{This term captures the combined probability that life \textit{both} emerges on a planet and persists in a form that produces detectable biosignatures by the time of observation.
 }
-\rev{Due to our ignorance about its true value or even its order of magnitude, we draw $f_\mathrm{life}$ from a log-uniform prior probability distribution} \revv{over the range $[10^{-[NUMERICAL_RESULT]}, 1]$~\citep[][but see Appendix~\ref{sec:appendix-flife-prior} for a discussion of the impact of different priors]{Balbi2023a}}.
+\rev{Due to our ignorance about its true value or even its order of magnitude, we draw $f_\mathrm{life}$ from a log-uniform prior probability distribution} \revv{over the range $[10^{-15}, 1]$~\citep[][but see Appendix~\ref{sec:appendix-flife-prior} for a discussion of the impact of different priors]{Balbi2023a}}.
 Let us consider the probability to detect a biosignature $P(L)$, and let our observable be the inferred past \gls{NUV} flux of the planet $F_\mathrm{NUV}$.
 Under Hypothesis $H_1$, there exists a special unknown value of $F_\mathrm{NUV}$, noted $F_\mathrm{NUV, min}$ such that
 
@@ -162,7 +162,7 @@ We included stars out to a maximum distance $d_{\max}$ that depends on the requi
 In the M~dwarf sample, the stars have effective temperatures of $\var{median_T_eff_st_M_M}^{+\var{p84_T_eff_st_M_M}}_{-\var{p16_T_eff_st_M_M}}$~K and masses of $\var{median_M_st_M_M}^{+\var{p84_M_st_M_M}}_{-\var{p16_M_st_M_M}}$~$M_\odot$.}
 
 Planets were generated and assigned to the synthetic stars following the occurrence rates and size/orbit distributions of \citet{Bergsten2022}.
-Following \citet{Bixel2021}, we considered only transiting \glspl{EEC} with radii $0.8\, S^{0.25} < R < 1.4 $ that are within the \gls{HZ} (see Section~\ref{sec:met-hz}).
+Following \citet{Bixel2021}, we considered only transiting \glspl{EEC} with radii $[NUMERICAL_RESULT]\, S^{0.25} < R < 1.4 $ that are within the \gls{HZ} (see Section~\ref{sec:met-hz}).
 The lower limit was suggested as a minimum planet size to retain an atmosphere~\citep{Zahnle2017}.
 For all survey simulations and hypothesis tests, we repeated the above in a Monte Carlo fashion to generate randomized ensembles of synthetic star and planet populations~\citep[][]{Bixel2021}.
 
@@ -242,7 +242,7 @@ To quantify the diagnostic power of the survey, we conducted repeated randomized
 
 \subsection{Semi-analytical assessment}\label{sec:results-semianalytical}
 In Section~\ref{sec:met-semianalytical}, we computed the probability for true positive evidence for $H_\mathrm{1}$ and $H_\mathrm{null}$, respectively (Equations~\ref{eq:bayes_factor},~\ref{eq:bayes_factor2}).
-Figure~\ref{fig:semian_true_evidence} shows how these evidences are distributed for sample sizes \var{semian_Nsamp1} and \var{semian_Nsamp2}, and how likely we are to obtain strong evidence ($BF_{H_i, H_j}$ > 10) \rev{in the agnostic case where we draw $f_\mathrm{life}$ from a log-uniform distribution \revv{over the range $[10^{-[NUMERICAL_RESULT]}, 1]$}}.
+Figure~\ref{fig:semian_true_evidence} shows how these evidences are distributed for sample sizes \var{semian_Nsamp1} and \var{semian_Nsamp2}, and how likely we are to obtain strong evidence ($BF_{H_i, H_j}$ > 10) \rev{in the agnostic case where we draw $f_\mathrm{life}$ from a log-uniform distribution \revv{over the range $[10^{-15}, 1]$}}.
 For $n = \var{semian_Nsamp1}$, strong true evidence for $H_\mathrm{1}$ ($H_\mathrm{null}$) can be \rev{expected in $\sim \SI{3}{\percent}$ ($\sim \SI{6}{\percent}$) of} all random experiments.
 In the majority of cases, the outcome of the survey will be inconclusive.
 
@@ -397,7 +397,7 @@ Ground-based 25--[NUMERICAL_RESULT]-meter class extremely large telescopes are e
 Such a sample is too small to test the UV Threshold Hypothesis, but it may be synergistic with other detection methods.
 
 The \gls{HWO} is expected to characterize a sample of $\sim 25$ Earth analogs~\citep{Mamajek2023,Tuchow2024}.
-Depending on the technical design, \life\ is expected to target 25--[NUMERICAL_RESULT] \glspl{EEC}~\citep{Kammerer2018,Quanz2022}, which could be just sufficient to constrain the UV~Threshold Hypothesis.
+Depending on the technical design, \life\ is expected to target 25--80 \glspl{EEC}~\citep{Kammerer2018,Quanz2022}, which could be just sufficient to constrain the UV~Threshold Hypothesis.
 
 \rev{If the rate of life's emergence and persistence $f_\mathrm{life}$ is at a \SI{1}{\percent} level or lower, no currently envisioned future exoplanet mission has projected sample sizes sufficient to test the UV~Threshold Hypothesis.
 One possible} exception is the Nautilus Space Observatory concept~\citep{Apai2019,Apai2022}.
@@ -416,8 +416,8 @@ This approach stems from the constraints governing photochemical pathways, which
 \rev{\citet{Ranjan2017b} speculated that UV photochemistry might be rate-limiting for abiogenesis, particularly on planets orbiting M dwarfs, due to their low baseline UV fluxes.
 This could delay abiogenesis by orders of magnitude, resulting in a continuous dependence of abiogenesis likelihood on UV flux.
 However, recent studies challenge this view for the cyanosulfidic scenario.
-\citet{Rimmer2021} calculated photochemical timescales on early Earth at 180--[NUMERICAL_RESULT] hours (7.5--[NUMERICAL_RESULT] days), significantly shorter than the timescale for stochastic geological events also required for the scenario~\citep{Rimmer2023}.
-Even with 1000x slower photochemistry on M-dwarf planets, prebiotic photochemistry like sulfite photolysis would still occur on a geologically negligible timescale of 20--[NUMERICAL_RESULT] years, meaning that the photochemistry is unlikely to be rate limiting compared to stochastic geological processes, justifying the step-function model.
+\citet{Rimmer2021} calculated photochemical timescales on early Earth at 180--[NUMERICAL_RESULT] hours (7.5--12.5 days), significantly shorter than the timescale for stochastic geological events also required for the scenario~\citep{Rimmer2023}.
+Even with 1000x slower photochemistry on M-dwarf planets, prebiotic photochemistry like sulfite photolysis would still occur on a geologically negligible timescale of 20--30 years, meaning that the photochemistry is unlikely to be rate limiting compared to stochastic geological processes, justifying the step-function model.
 }
 
 \revv{We note that the photochemical timescale does not include subsequent stages such as assembly into functional biomolecules, protocell formation, or the emergence of self-replicating systems -- each of which may require significantly more time.
@@ -548,7 +548,7 @@ Our results are thus robust when transitioning between energy flux and photon nu
 
 \section{\rev{Alternative priors for the abiogenesis rate}}
 \label{sec:appendix-flife-prior}
-\rev{In the main text, we used a log-uniform prior \revv{over the range $[10^{-[NUMERICAL_RESULT]}, 1]$} for the probability of life emerging and persisting $f_\mathrm{life}$ in order to reflect our ignorance about this parameter and its order of magnitude.
+\rev{In the main text, we used a log-uniform prior \revv{over the range $[10^{-15}, 1]$} for the probability of life emerging and persisting $f_\mathrm{life}$ in order to reflect our ignorance about this parameter and its order of magnitude.
 We consider this a reasonable choice, as it is agnostic about the scale of $f_\mathrm{life}$ and assigns equal prior probability to all orders of magnitude.
 Nevertheless, we repeated our semi-analytical analysis for the more optimistic choice of a prior that is \textit{uniform} in $f_\mathrm{life}$.
 Figure~\ref{fig:semian_true_evidence_uniform} shows the resulting probabilities of obtaining strong evidence for or against the UV~Threshold Hypothesis under this prior.

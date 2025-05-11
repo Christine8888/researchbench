@@ -1,83 +1,57 @@
-2025-05-05 19:38:52,260 - INFO - Logging to file: utils/num_mask_logs/galaxy_soptics_masking.log
-2025-05-05 19:38:52,260 - INFO - Found 55 unique numerical values to mask
-2025-05-05 19:38:52,392 - INFO - Made 48 replacements in the text
-2025-05-05 19:38:52,393 - INFO - Saved masked text to papers/masked_texts/galaxy_soptics.txt
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #1: '70\%' at line 146
-2025-05-05 19:38:52,393 - INFO -   Context: a recovery rate of over 70\% The others including HDBSCAN can
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #2: '100\%' at line 167
-2025-05-05 19:38:52,393 - INFO -   Context: purity rates as high as 100\% This feature of OPTICS highlights
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #3: '1.78\%' at line 244
-2025-05-05 19:38:52,393 - INFO -   Context: substantial membership Given that merely 1.78\% of groups consist of at
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #4: '75.0\%' at line 273
-2025-05-05 19:38:52,393 - INFO -   Context: using the sOPTICS algorithm is 75.0\% with the abundance weighted purity
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #5: '86.6\%' at line 273
-2025-05-05 19:38:52,393 - INFO -   Context: the abundance weighted purity of 86.6\% and completeness of 97 1
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #6: '97.1\%' at line 273
-2025-05-05 19:38:52,393 - INFO -   Context: 86 6 and completeness of 97.1\% The total number of identified
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #7: '69.2\%' at line 273
-2025-05-05 19:38:52,393 - INFO -   Context: soft recovery rate stands at 69.2\% indicating that we can precisely
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #8: '42.6\%' at line 273
-2025-05-05 19:38:52,393 - INFO -   Context: a soft recovery rate of 42.6\% while with a purity of
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #9: '44.2\%' at line 273
-2025-05-05 19:38:52,393 - INFO -   Context: while with a purity of 44.2\% and completeness of 54 7
-2025-05-05 19:38:52,393 - INFO - Latex Replacement #10: '54.7\%' at line 273
-2025-05-05 19:38:52,394 - INFO -   Context: 44 2 and completeness of 54.7\% The total number of identified
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #11: '55.2\%' at line 305
-2025-05-05 19:38:52,394 - INFO -   Context: achieving a recovery rate of 55.2\% a purity of 63 7
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #12: '63.7\%' at line 305
-2025-05-05 19:38:52,394 - INFO -   Context: 55 2 a purity of 63.7\% and a completeness of 75
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #13: '75.8\%' at line 305
-2025-05-05 19:38:52,394 - INFO -   Context: 7 and a completeness of 75.8\% These results are notable because
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #14: '30.8\%' at line 307
-2025-05-05 19:38:52,394 - INFO -   Context: with a recovery rate of 30.8\% a purity of 46 7
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #15: '46.7\%' at line 307
-2025-05-05 19:38:52,394 - INFO -   Context: 30 8 a purity of 46.7\% and a completeness of 50
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #16: '50.2\%' at line 307
-2025-05-05 19:38:52,394 - INFO -   Context: 7 and a completeness of 50.2\% The substantial disparity suggests that
-2025-05-05 19:38:52,394 - INFO - Latex Replacement #17: '67\%' at line 309
-2025-05-05 19:38:52,394 - INFO -   Context: the recovery rate improved to 67\% as presented in Figure ref
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #1: '0.05' at line 260
-2025-05-05 19:38:52,394 - INFO -   Context: from low redshift galaxies z 0.05 each with a cubic side
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #2: '1.2' at line 142
-2025-05-05 19:38:52,394 - INFO -   Context: ref tab hypervalues renewcommand arraystretch 1.2 As we can see from
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #3: '1.2' at line 267
-2025-05-05 19:38:52,394 - INFO -   Context: and accurate analysis renewcommand arraystretch 1.2 subsection Basic Results With the
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #4: '.5' at line 282
-2025-05-05 19:38:52,394 - INFO -   Context: s characteristic luminosity L_ 19 .5 was then calculated to facilitate
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #5: '.5' at line 282
-2025-05-05 19:38:52,394 - INFO -   Context: refining the M_h L_ 19 .5 to L_ 19 5 relationship
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #6: '.5' at line 282
-2025-05-05 19:38:52,394 - INFO -   Context: 19 5 to L_ 19 .5 relationship continued until the group
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #7: '300' at line 134
-2025-05-05 19:38:52,394 - INFO -   Context: clusters holding 30 to over 300 it is logical to focus
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #8: '0.10' at line 225
-2025-05-05 19:38:52,394 - INFO -   Context: a subsample at redshift z 0.10 both with and without the
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #9: '118' at line 10
-2025-05-05 19:38:52,394 - INFO -   Context: recovering 115 BCGs out of 118 reliable BCGs from a large
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #10: '118' at line 314
-2025-05-05 19:38:52,394 - INFO -   Context: been visually confirmed of which 118 were originally part of the
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #11: '118' at line 318
-2025-05-05 19:38:52,394 - INFO -   Context: 115 BCGs consistent with the 118 BCGs identified in citetalias hsuSDSSIVMaNGACannibalism2022
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #12: '115' at line 10
-2025-05-05 19:38:52,394 - INFO -   Context: recovery rate also successfully recovering 115 BCGs out of NUMERICAL_RESULT reliable
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #13: '115' at line 318
-2025-05-05 19:38:52,394 - INFO -   Context: hypervalue s_los we successfully identified 115 BCGs consistent with the NUMERICAL_RESULT
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #14: '400' at line 129
-2025-05-05 19:38:52,394 - INFO -   Context: in a final sample of 400 halos We further expanded our
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #15: '472' at line 244
-2025-05-05 19:38:52,394 - INFO -   Context: totaling 8 427 out of 472 416 groups in citetalias yangGalaxyGroupsSDSS2007
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #16: '0.2' at line 127
-2025-05-05 19:38:52,394 - INFO -   Context: with a linking length of 0.2 in units of the mean
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #17: '.2' at line 183
-2025-05-05 19:38:52,394 - INFO -   Context: citet yangGalaxyOccupationStatistics2005 in Section 3 .2 subsection Cure the Redshift Space
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #18: '0.20' at line 303
-2025-05-05 19:38:52,394 - INFO -   Context: of 0 leq z leq 0.20 The group catalog was constructed
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #19: '0.8' at line 262
-2025-05-05 19:38:52,394 - INFO -   Context: rate of F_ mathrm R 0.8 for FoF and 0 76
-2025-05-05 19:38:52,394 - INFO - Exact Replacement #20: '15' at line 314
-2025-05-05 19:38:52,394 - INFO -   Context: of z 0 02 0 15 These clusters are all detected
-2025-05-05 19:38:52,394 - INFO - Additional Replacement #1: '-20.' at line 137
-2025-05-05 19:38:52,394 - INFO -   Context: within the range of 2 -20. We employ a broader range
-2025-05-05 19:38:52,394 - INFO - Additional Replacement #2: '-30' at line 173
-2025-05-05 19:38:52,394 - INFO -   Context: scales on scales above 25 -30 h 1 Mpc but failing
-2025-05-05 19:38:52,395 - INFO - Saved context information to utils/num_mask_logs/galaxy_soptics_contexts.log
+2025-05-11 16:13:01,118 - INFO - Logging to file: utils/num_mask_logs/galaxy_soptics_masking.log
+2025-05-11 16:13:01,118 - INFO - Found 151 unique numerical values to mask
+2025-05-11 16:13:01,822 - INFO - Made 88 replacements in the text
+2025-05-11 16:13:01,822 - INFO - Saved masked text to papers/masked_texts/galaxy_soptics.txt
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #1: '1.78\%' at line 244
+2025-05-11 16:13:01,822 - INFO -   Context: substantial membership Given that merely 1.78\% of groups consist of at
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #2: '86.6\%' at line 273
+2025-05-11 16:13:01,822 - INFO -   Context: the abundance weighted purity of 86.6\% and completeness of 97 1
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #3: '42.6\%' at line 273
+2025-05-11 16:13:01,822 - INFO -   Context: a soft recovery rate of 42.6\% while with a purity of
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #4: '44.2\%' at line 273
+2025-05-11 16:13:01,822 - INFO -   Context: while with a purity of 44.2\% and completeness of 54 7
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #5: '55.2\%' at line 305
+2025-05-11 16:13:01,822 - INFO -   Context: achieving a recovery rate of 55.2\% a purity of 63 7
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #6: '63.7\%' at line 305
+2025-05-11 16:13:01,822 - INFO -   Context: 55 2 a purity of 63.7\% and a completeness of 75
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #7: '75.8\%' at line 305
+2025-05-11 16:13:01,822 - INFO -   Context: 7 and a completeness of 75.8\% These results are notable because
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #8: '30.8\%' at line 307
+2025-05-11 16:13:01,822 - INFO -   Context: with a recovery rate of 30.8\% a purity of 46 7
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #9: '46.7\%' at line 307
+2025-05-11 16:13:01,822 - INFO -   Context: 30 8 a purity of 46.7\% and a completeness of 50
+2025-05-11 16:13:01,822 - INFO - Latex Replacement #10: '50.2\%' at line 307
+2025-05-11 16:13:01,822 - INFO -   Context: 7 and a completeness of 50.2\% The substantial disparity suggests that
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #1: '12,242' at line 273
+2025-05-11 16:13:01,822 - INFO -   Context: number of identified groups is 12,242 while there are 8 427
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #2: '8,640' at line 303
+2025-05-11 16:13:01,822 - INFO -   Context: space galaxy group catalog of 8,640 systems each containing at least
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #3: '0.10' at line 225
+2025-05-11 16:13:01,822 - INFO -   Context: a subsample at redshift z 0.10 both with and without the
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #4: '0.2' at line 127
+2025-05-11 16:13:01,822 - INFO -   Context: with a linking length of 0.2 in units of the mean
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #5: '0.20' at line 303
+2025-05-11 16:13:01,822 - INFO -   Context: of 0 leq z leq 0.20 The group catalog was constructed
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #6: '0.8' at line 262
+2025-05-11 16:13:01,822 - INFO -   Context: rate of F_ mathrm R 0.8 for FoF and 0 76
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #7: '115' at line 10
+2025-05-11 16:13:01,822 - INFO -   Context: recovery rate also successfully recovering 115 BCGs out of 118 reliable
+2025-05-11 16:13:01,822 - INFO - Exact Replacement #8: '115' at line 318
+2025-05-11 16:13:01,823 - INFO -   Context: hypervalue s_los we successfully identified 115 BCGs consistent with the 118
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #9: '113' at line 314
+2025-05-11 16:13:01,823 - INFO -   Context: BCG candidates with the 8 113 galaxies released in the ninth
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #10: '400' at line 129
+2025-05-11 16:13:01,823 - INFO -   Context: in a final sample of 400 halos We further expanded our
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #11: '15' at line 314
+2025-05-11 16:13:01,823 - INFO -   Context: of z 0 02 0 15 These clusters are all detected
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #12: '12' at line 273
+2025-05-11 16:13:01,823 - INFO -   Context: identified groups using FoF is 12 396 Therefore by incorporating the
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #13: '10' at line 275
+2025-05-11 16:13:01,823 - INFO -   Context: account the relative areas within 10 Mpc In the color magnitude
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #14: '10' at line 314
+2025-05-11 16:13:01,823 - INFO -   Context: mass M_ 180 m geqslant 10 14 h 1 M_ odot
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #15: '30' at line 135
+2025-05-11 16:13:01,823 - INFO -   Context: Group for instance hosts over 30 galaxies with a diameter of
+2025-05-11 16:13:01,823 - INFO - Exact Replacement #16: '30' at line 173
+2025-05-11 16:13:01,823 - INFO -   Context: scales on scales above 25 30 h 1 Mpc but failing
+2025-05-11 16:13:01,823 - INFO - Saved context information to utils/num_mask_logs/galaxy_soptics_contexts.log

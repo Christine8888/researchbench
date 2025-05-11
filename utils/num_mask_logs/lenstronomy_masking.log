@@ -1,4 +1,4 @@
-2025-05-05 19:38:53,380 - INFO - Logging to file: utils/num_mask_logs/lenstronomy_masking.log
-2025-05-05 19:38:53,380 - INFO - Found 3 unique numerical values to mask
-2025-05-05 19:38:53,400 - INFO - Made 0 replacements in the text
-2025-05-05 19:38:53,400 - INFO - Saved masked text to papers/masked_texts/lenstronomy.txt
+2025-05-11 16:13:03,979 - INFO - Logging to file: utils/num_mask_logs/lenstronomy_masking.log
+2025-05-11 16:13:03,980 - INFO - Found 11 unique numerical values to mask
+2025-05-11 16:13:04,011 - INFO - Made 0 replacements in the text
+2025-05-11 16:13:04,011 - INFO - Saved masked text to papers/masked_texts/lenstronomy.txt

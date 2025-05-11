@@ -2,26 +2,9 @@ Masked values and their context for paper: pzflow
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 2 replacements
   EXACT: 1 replacements
 
 ================================================================================
-
-LATEX REPLACEMENTS (2):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 80\%
-  Numerical Value: 80
-  Line: 318
-  Context: and test sets consisting of 80\% and 20 of the galaxies
-
-Replacement #2:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 318
-  Context: sets consisting of 80 and 20\% of the galaxies respectively For
-
 
 EXACT REPLACEMENTS (1):
 --------------------------------------------------------------------------------

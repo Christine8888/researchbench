@@ -1,27 +1,19 @@
-2025-05-05 19:38:51,898 - INFO - Logging to file: utils/num_mask_logs/eht_resolve_masking.log
-2025-05-05 19:38:51,899 - INFO - Found 18 unique numerical values to mask
-2025-05-05 19:38:51,965 - INFO - Made 30 replacements in the text
-2025-05-05 19:38:51,965 - INFO - Saved masked text to papers/masked_texts/eht_resolve.txt
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #1: '256\times' at line 489
-2025-05-05 19:38:51,966 - INFO -   Context: represent the spatial domain with 256\times 256 pixels each with a
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #2: '256\times' at line 499
-2025-05-05 19:38:51,966 - INFO -   Context: Overall we have to constrain 256\times 256 times56 times2 text power
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #3: '256\times' at line 499
-2025-05-05 19:38:51,966 - INFO -   Context: have to constrain 256 times 256\times 56 times2 text power spectrum
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #4: '56\times' at line 499
-2025-05-05 19:38:51,966 - INFO -   Context: to constrain 256 times256 times 56\times 2 text power spectrum DOFs
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #5: '30\%' at line 690
-2025-05-05 19:38:51,966 - INFO -   Context: allvalidationsehtcrescent The algorithm fails in 30\% of the cases results in
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #6: '5.5\%' at line 690
-2025-05-05 19:38:51,966 - INFO -   Context: the cases results in artefacts 5.5\% of the time and facilitates
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #7: '64.5\%' at line 690
-2025-05-05 19:38:51,966 - INFO -   Context: of a single ring in 64.5\% of all cases All of
-2025-05-05 19:38:51,966 - INFO - Latex Replacement #8: '23\%' at line 696
-2025-05-05 19:38:51,966 - INFO -   Context: shift in brightness asymmetry In 23\% of all test cases we
-2025-05-05 19:38:51,966 - INFO - Additional Replacement #1: '-1.5' at line 523
-2025-05-05 19:38:51,966 - INFO -   Context: spatial amplitude to mu_m x -1.5 with a standard deviation of
-2025-05-05 19:38:51,966 - INFO - Additional Replacement #2: '7.4e6' at line 456
-2025-05-05 19:38:51,966 - INFO -   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
-2025-05-05 19:38:51,966 - INFO - Additional Replacement #3: '7.4e6' at line 499
-2025-05-05 19:38:51,966 - INFO -   Context: power spectrum DOFs approx num 7.4e6 pixel values with the data
-2025-05-05 19:38:51,966 - INFO - Saved context information to utils/num_mask_logs/eht_resolve_contexts.log
+2025-05-11 16:13:00,084 - INFO - Logging to file: utils/num_mask_logs/eht_resolve_masking.log
+2025-05-11 16:13:00,084 - INFO - Found 51 unique numerical values to mask
+2025-05-11 16:13:00,253 - INFO - Made 31 replacements in the text
+2025-05-11 16:13:00,253 - INFO - Saved masked text to papers/masked_texts/eht_resolve.txt
+2025-05-11 16:13:00,254 - INFO - Latex Replacement #1: '256\times' at line 489
+2025-05-11 16:13:00,254 - INFO -   Context: represent the spatial domain with 256\times 256 pixels each with a
+2025-05-11 16:13:00,254 - INFO - Latex Replacement #2: '5.5\%' at line 690
+2025-05-11 16:13:00,254 - INFO -   Context: the cases results in artefacts 5.5\% of the time and facilitates
+2025-05-11 16:13:00,254 - INFO - Latex Replacement #3: '64.5\%' at line 690
+2025-05-11 16:13:00,254 - INFO -   Context: of a single ring in 64.5\% of all cases All of
+2025-05-11 16:13:00,254 - INFO - Latex Replacement #4: '23\%' at line 696
+2025-05-11 16:13:00,254 - INFO -   Context: shift in brightness asymmetry In 23\% of all test cases we
+2025-05-11 16:13:00,254 - INFO - Exact Replacement #1: '0.1' at line 518
+2025-05-11 16:13:00,254 - INFO -   Context: 0 2 with standard deviation 0.1 Since we normalize the flux
+2025-05-11 16:13:00,254 - INFO - Additional Replacement #1: '7.4e6' at line 456
+2025-05-11 16:13:00,254 - INFO -   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
+2025-05-11 16:13:00,254 - INFO - Additional Replacement #2: '7.4e6' at line 499
+2025-05-11 16:13:00,254 - INFO -   Context: power spectrum DOFs approx num 7.4e6 pixel values with the data
+2025-05-11 16:13:00,254 - INFO - Saved context information to utils/num_mask_logs/eht_resolve_contexts.log

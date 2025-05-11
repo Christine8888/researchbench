@@ -1,239 +1,111 @@
-2025-05-05 19:38:52,566 - INFO - Logging to file: utils/num_mask_logs/gw_nsbh_masking.log
-2025-05-05 19:38:52,566 - INFO - Found 21 unique numerical values to mask
-2025-05-05 19:38:52,724 - INFO - Made 146 replacements in the text
-2025-05-05 19:38:52,724 - INFO - Saved masked text to papers/masked_texts/gw_nsbh.txt
-2025-05-05 19:38:52,724 - INFO - Latex Replacement #1: '\mathrm{TOV} = 2.2' at line 14
-2025-05-05 19:38:52,724 - INFO -   Context: the EOS have placed M_ \mathrm{TOV} = 2.2 2 5 M_ odot citep
-2025-05-05 19:38:52,724 - INFO - Latex Replacement #2: '\mathrm{BH} = 5.4' at line 257
-2025-05-05 19:38:52,725 - INFO -   Context: beta 0 results in M_ \mathrm{BH} = 5.4 0 7 _ 1 0
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #3: '1.2\times' at line 96
-2025-05-05 19:38:52,725 - INFO -   Context: maximum possible mass is around 1.2\times the non spinning TOV limit
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #4: '90\%' at line 6
-2025-05-05 19:38:52,725 - INFO -   Context: _ 0 4 M_ odot 90\% credibility while assuming only nonspinning
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #5: '90\%' at line 6
-2025-05-05 19:38:52,725 - INFO -   Context: be 2 53 M_ odot 90\% credibility The data support the
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #6: '20\%' at line 20
-2025-05-05 19:38:52,725 - INFO -   Context: substantial spins can support sim 20\% more mass citep 1994ApJ 424
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #7: '90\%' at line 224
-2025-05-05 19:38:52,725 - INFO -   Context: 5A all measurements quoted at 90\% confidence level m_1 8 9
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #8: '95\%' at line 247
-2025-05-05 19:38:52,725 - INFO -   Context: M_ odot with lower limits 95\% credibility of 2 4 2
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #9: '68\%' at line 247
-2025-05-05 19:38:52,725 - INFO -   Context: _ 0 2 M_ odot 68\% credibility reply the inclusion of
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #10: '95\%' at line 247
-2025-05-05 19:38:52,725 - INFO -   Context: M_ odot with lower limit 95\% credibility of 1 8 1
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #11: '68\%' at line 257
-2025-05-05 19:38:52,725 - INFO -   Context: _ 1 0 M_ odot 68\% credibility At the low end
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #12: '68\%' at line 257
-2025-05-05 19:38:52,725 - INFO -   Context: _ 0 8 M_ odot 68\% credibility using only the confident
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #13: '97\%' at line 261
-2025-05-05 19:38:52,725 - INFO -   Context: than 0 M_ odot with 97\% credibility and 1 M_ odot
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #14: '90\%' at line 261
-2025-05-05 19:38:52,725 - INFO -   Context: and 1 M_ odot with 90\% credibility The inferred mass gap
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #15: '92\%' at line 261
-2025-05-05 19:38:52,725 - INFO -   Context: gap 0 M_ odot with 92\% or higher up to 99
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #16: '68\%' at line 261
-2025-05-05 19:38:52,725 - INFO -   Context: and 1 M_ odot with 68\% or higher up to 99
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #17: '96\%' at line 265
-2025-05-05 19:38:52,725 - INFO -   Context: a mass gap exists with 96\% credibility and that it is
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #18: '90\%' at line 265
-2025-05-05 19:38:52,725 - INFO -   Context: than 1 M_ odot with 90\% credibility subsubsection Mass and spin
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #19: '90\%' at line 284
-2025-05-05 19:38:52,725 - INFO -   Context: Gpc 3 text yr 1 90\% credibility citep 2021ApJ 915L 5A
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #20: '10\%' at line 301
-2025-05-05 19:38:52,725 - INFO -   Context: mass function and up to 10\% of the uniform mass function
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #21: '99.7\%' at line 303
-2025-05-05 19:38:52,725 - INFO -   Context: of M_ text TOV with 99.7\% credibility At 50 150 events
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #22: '99.7\%' at line 303
-2025-05-05 19:38:52,725 - INFO -   Context: the lower bound of the 99.7\% credibility interval can be as
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #23: '99.7\%' at line 303
-2025-05-05 19:38:52,725 - INFO -   Context: correct M_ text TOV at 99.7\% credibility This is partially because
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #24: '68\%' at line 320
-2025-05-05 19:38:52,725 - INFO -   Context: M_ odot with typical uncertainties 68\% credibility of pm 1 0
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #25: '92\%' at line 320
-2025-05-05 19:38:52,725 - INFO -   Context: odot with high confidence between 92\% and 99 9 and a
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #26: '99.9\%' at line 320
-2025-05-05 19:38:52,725 - INFO -   Context: high confidence between 92 and 99.9\% and a mass gap 1
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #27: '75\%' at line 320
-2025-05-05 19:38:52,725 - INFO -   Context: odot with moderate confidence between 75\% and 99 9 Future observations
-2025-05-05 19:38:52,725 - INFO - Latex Replacement #28: '99.9\%' at line 320
-2025-05-05 19:38:52,725 - INFO -   Context: moderate confidence between 75 and 99.9\% Future observations may constrain this
-2025-05-05 19:38:52,725 - INFO - Rounded Replacement #1: 'around 1.3' at line 271
-2025-05-05 19:38:52,725 - INFO -   Context: particularly a narrower peak at around 1.3 M_ odot and a longer
-2025-05-05 19:38:52,725 - INFO - Rounded Replacement #2: '~10' at line 165
-2025-05-05 19:38:52,725 - INFO -   Context: theta until injection sets of ~10 000 events are created BH
-2025-05-05 19:38:52,725 - INFO - Exact Replacement #1: '0.08' at line 288
-2025-05-05 19:38:52,725 - INFO -   Context: 2 0 0 15 _ 0.08 M_ odot or 2 2
-2025-05-05 19:38:52,725 - INFO - Exact Replacement #2: '0.08' at line 296
-2025-05-05 19:38:52,725 - INFO -   Context: width to 3 00 pm 0.08 M_ odot and pm 0
-2025-05-05 19:38:52,725 - INFO - Exact Replacement #3: '0.05' at line 288
-2025-05-05 19:38:52,725 - INFO -   Context: detections allows constraints of pm 0.05 and determining M_ text TOV
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #4: '0.05' at line 296
-2025-05-05 19:38:52,726 - INFO -   Context: NUMERICAL_RESULT M_ odot and pm 0.05 M_ odot can be achieved
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #5: '0.07' at line 281
-2025-05-05 19:38:52,726 - INFO -   Context: 63 mu_1 1 35 sigma_1 0.07 mu_2 1 85 and sigma_2
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #6: '0.07' at line 288
-2025-05-05 19:38:52,726 - INFO -   Context: 2 2 0 19 _ 0.07 M_ odot for M_ text
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #7: '0.07' at line 295
-2025-05-05 19:38:52,726 - INFO -   Context: gap width to 0 0 0.07 _ 0 15 M_ odot
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #8: '0.07' at line 312
-2025-05-05 19:38:52,726 - INFO -   Context: _ 0 1 around pm 0.07 for 50 events and around
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #9: '0.04' at line 312
-2025-05-05 19:38:52,726 - INFO -   Context: 50 events and around pm 0.04 for 150 events assuming a
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #10: '1.9' at line 224
-2025-05-05 19:38:52,726 - INFO -   Context: 1 5 M_ odot m_2 1.9 0 3 _ 0 2
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #11: '1.9' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: NUMERICAL_RESULT credibility of 1 8 1.9 M_ text TOV Without GW190814
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #12: '2.2' at line 252
-2025-05-05 19:38:52,726 - INFO -   Context: M_ odot with support below 2.2 M_ odot green dashed curve
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #13: '2.2' at line 281
-2025-05-05 19:38:52,726 - INFO -   Context: TOV 2 M_ odot or 2.2 M_ odot For the 1
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #14: '2.2' at line 281
-2025-05-05 19:38:52,726 - INFO -   Context: odot for M_ text TOV 2.2 M_ odot and a wide
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #15: '2.2' at line 288
-2025-05-05 19:38:52,726 - INFO -   Context: _ NUMERICAL_RESULT M_ odot or 2.2 0 19 _ NUMERICAL_RESULT M_
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #16: '2.2' at line 288
-2025-05-05 19:38:52,726 - INFO -   Context: odot for M_ text TOV 2.2 with the lower limit on
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #17: '2.2' at line 301
-2025-05-05 19:38:52,726 - INFO -   Context: mass For M_ text TOV 2.2 M_ odot this drops to
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #18: '2.6' at line 18
-2025-05-05 19:38:52,726 - INFO -   Context: relative lack of objects between 2.6 6 M_ odot citep 2021ApJ
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #19: '2.6' at line 20
-2025-05-05 19:38:52,726 - INFO -   Context: GW190814 is tightly measured at 2.6 M_ odot making it exceptionally
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #20: '2.6' at line 20
-2025-05-05 19:38:52,726 - INFO -   Context: the spin of the secondary 2.6 M_ odot object in GW190814
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #21: '2.6' at line 226
-2025-05-05 19:38:52,726 - INFO -   Context: 1 0 M_ odot m_2 2.6 0 1 _ 0 1
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #22: '2.6' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: generally infer M_ 99 between 2.6 2 8 M_ odot with
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #23: '2.8' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: infer M_ 99 between NUMERICAL_RESULT 2.8 M_ odot with lower limits
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #24: '2.8' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: spin prior measures M_ 99 2.8 0 3 _ 0 2
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #25: '2.4' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: lower limits NUMERICAL_RESULT credibility of 2.4 2 5 M_ odot Our
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #26: '0.3' at line 224
-2025-05-05 19:38:52,726 - INFO -   Context: 5 M_ odot m_2 NUMERICAL_RESULT 0.3 _ 0 2 M_ odot
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #27: '0.3' at line 225
-2025-05-05 19:38:52,726 - INFO -   Context: 1 5 0 7 _ 0.3 M_ odot item GW190814 citep
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #28: '.3' at line 227
-2025-05-05 19:38:52,726 - INFO -   Context: 7 3 9 _ 2 .3 M_ odot m_2 1 5
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #29: '0.3' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: prior measures M_ 99 NUMERICAL_RESULT 0.3 _ 0 2 M_ odot
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #30: '.3' at line 247
-2025-05-05 19:38:52,726 - INFO -   Context: TOV between 2 0 2 .3 M_ odot with lower limit
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #31: '.3' at line 261
-2025-05-05 19:38:52,726 - INFO -   Context: 0 M_ odot reply 2 .3 0 7 _ 1 0
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #32: '.3' at line 273
-2025-05-05 19:38:52,726 - INFO -   Context: reply alpha_ text BH 2 .3 7 _ 1 0 with
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #33: '0.3' at line 303
-2025-05-05 19:38:52,726 - INFO -   Context: as much as 0 2 0.3 M_ odot above M_ text
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #34: '.3' at line 319
-2025-05-05 19:38:52,726 - INFO -   Context: as low as sim 2 .3 M_ odot even when including
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #35: '.9' at line 224
-2025-05-05 19:38:52,726 - INFO -   Context: NUMERICAL_RESULT confidence level m_1 8 .9 1 2 _ 1 5
-2025-05-05 19:38:52,726 - INFO - Exact Replacement #36: '.9' at line 227
-2025-05-05 19:38:52,726 - INFO -   Context: 11b1053A m_1 5 7 3 .9 _ 2 NUMERICAL_RESULT M_ odot
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #37: '.9' at line 247
-2025-05-05 19:38:52,727 - INFO -   Context: M_ text 99 to 2 .9 0 2 _ 0 2
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #38: '0.9' at line 252
-2025-05-05 19:38:52,727 - INFO -   Context: text min a_ text Kep 0.9 brings M_ text TOV estimates
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #39: '.9' at line 261
-2025-05-05 19:38:52,727 - INFO -   Context: or higher up to 99 .9 credibility and 1 M_ odot
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #40: '.9' at line 261
-2025-05-05 19:38:52,727 - INFO -   Context: or higher up to 99 .9 credibility As seen in Fig
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #41: '0.9' at line 273
-2025-05-05 19:38:52,727 - INFO -   Context: 3 4 1 4 _ 0.9 reply alpha_ text BH 2
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #42: '0.9' at line 273
-2025-05-05 19:38:52,727 - INFO -   Context: shallower slopes alpha_ text BH 0.9 1 1 _ 0 6
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #43: '5.4' at line 6
-2025-05-05 19:38:52,727 - INFO -   Context: a minimum BH mass at 5.4 0 7 _ 1 0
-2025-05-05 19:38:52,727 - INFO - Exact Replacement #44: '2.7' at line 6
-2025-05-05 19:38:52,727 - INFO -   Context: non spinning NS mass is 2.7 0 5 _ 0 4
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #1: '-0.4' at line 6
-2025-05-05 19:38:52,727 - INFO -   Context: is NUMERICAL_RESULT 0 5 _ -0.4 M_ odot NUMERICAL_RESULT credibility while
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #2: '-1.0' at line 6
-2025-05-05 19:38:52,727 - INFO -   Context: at NUMERICAL_RESULT 0 7 _ -1.0 M_ odot With future observations
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #3: '-0.23' at line 14
-2025-05-05 19:38:52,727 - INFO -   Context: 2 22 0 85 _ -0.23 M_ odot citep 2020RNAAS 4
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #4: '-2500' at line 31
-2025-05-05 19:38:52,727 - INFO -   Context: system is the Pulsar J1807 -2500 B with a period of
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #5: '-2446' at line 31
-2025-05-05 19:38:52,727 - INFO -   Context: fastest spinning is Pulsar J1748 -2446 ad with a period of
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #6: '-76' at line 207
-2025-05-05 19:38:52,727 - INFO -   Context: frac 1 3 frac 113 -76 nu 4 chi_ text eff
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #7: '-16' at line 211
-2025-05-05 19:38:52,727 - INFO -   Context: beta frac 3 4 beta -16 pi 128 mathcal M 2
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #8: '-0.1293' at line 214
-2025-05-05 19:38:52,727 - INFO -   Context: 2341 psi_2 rho and sigma_3 -0.1293 psi_3 rho where we draw
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #9: '-1.5' at line 224
-2025-05-05 19:38:52,727 - INFO -   Context: 8 NUMERICAL_RESULT 1 2 _ -1.5 M_ odot m_2 NUMERICAL_RESULT NUMERICAL_RESULT
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #10: '-0.2' at line 224
-2025-05-05 19:38:52,727 - INFO -   Context: odot m_2 NUMERICAL_RESULT NUMERICAL_RESULT _ -0.2 M_ odot item GW200115 citep
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #11: '-2.1' at line 225
-2025-05-05 19:38:52,727 - INFO -   Context: 5 7 1 8 _ -2.1 M_ odot m_2 1 5
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #12: '-1.0' at line 226
-2025-05-05 19:38:52,727 - INFO -   Context: 23 2 1 1 _ -1.0 M_ odot m_2 NUMERICAL_RESULT 0
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #13: '-0.1' at line 226
-2025-05-05 19:38:52,727 - INFO -   Context: m_2 NUMERICAL_RESULT 0 1 _ -0.1 M_ odot Because the secondary
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #14: '-0.5' at line 227
-2025-05-05 19:38:52,727 - INFO -   Context: 1 5 0 8 _ -0.5 M_ odot GW190426 is relatively
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #15: '-2.5' at line 247
-2025-05-05 19:38:52,727 - INFO -   Context: limits NUMERICAL_RESULT credibility of NUMERICAL_RESULT -2.5 M_ odot Our default model
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #16: '-0.2' at line 247
-2025-05-05 19:38:52,727 - INFO -   Context: M_ 99 NUMERICAL_RESULT NUMERICAL_RESULT _ -0.2 M_ odot NUMERICAL_RESULT credibility reply
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #17: '-0.2' at line 247
-2025-05-05 19:38:52,727 - INFO -   Context: 2 NUMERICAL_RESULT 0 2 _ -0.2 M_ odot The cutoff mass
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #18: '-1.0' at line 257
-2025-05-05 19:38:52,727 - INFO -   Context: 4 2 1 1 _ -1.0 M_ odot using all 4
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #19: '-0.8' at line 257
-2025-05-05 19:38:52,727 - INFO -   Context: 6 7 0 4 _ -0.8 M_ odot NUMERICAL_RESULT credibility using
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #20: '-1.0' at line 261
-2025-05-05 19:38:52,727 - INFO -   Context: 2 5 0 8 _ -1.0 M_ odot reply 2 NUMERICAL_RESULT
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #21: '-1.0' at line 261
-2025-05-05 19:38:52,727 - INFO -   Context: 2 NUMERICAL_RESULT 0 7 _ -1.0 M_ odot with 3 additional
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #22: '-4.5' at line 261
-2025-05-05 19:38:52,727 - INFO -   Context: NSBH events between 3 0 -4.5 M_ odot and narrowest when
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #23: '-3.0' at line 261
-2025-05-05 19:38:52,727 - INFO -   Context: NSBH events between 1 5 -3.0 M_ odot This is because
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #24: '-1.0' at line 273
-2025-05-05 19:38:52,727 - INFO -   Context: BH 2 NUMERICAL_RESULT 7 _ -1.0 with all 7 events Under
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #25: '-0.6' at line 273
-2025-05-05 19:38:52,727 - INFO -   Context: BH NUMERICAL_RESULT 1 1 _ -0.6 This is because the preference
-2025-05-05 19:38:52,727 - INFO - Additional Replacement #26: '-33' at line 284
-2025-05-05 19:38:52,728 - INFO -   Context: rate of 45 75 _ -33 text Gpc 3 text yr
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #27: '-20' at line 284
-2025-05-05 19:38:52,728 - INFO -   Context: 5A resulting in between 2 -20 NSBH year at Design sensitivity
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #28: '-80' at line 284
-2025-05-05 19:38:52,728 - INFO -   Context: at Design sensitivity and 8 -80 NSBH year during A Assuming
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #29: '-69' at line 284
-2025-05-05 19:38:52,728 - INFO -   Context: observations of 130 112 _ -69 text Gpc 3 text yr
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #30: '-30' at line 284
-2025-05-05 19:38:52,728 - INFO -   Context: for detection rates of 8 -30 NSBH year at Design sensitivity
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #31: '-160' at line 284
-2025-05-05 19:38:52,728 - INFO -   Context: at Design sensitivity and 40 -160 NSBH year during A Accordingly
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #32: '-0.5' at line 289
-2025-05-05 19:38:52,728 - INFO -   Context: TOV generally scale as N -0.5 the exact convergence depends on
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #33: '-0.15' at line 295
-2025-05-05 19:38:52,728 - INFO -   Context: to 0 0 NUMERICAL_RESULT _ -0.15 M_ odot In general the
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #34: '-20' at line 303
-2025-05-05 19:38:52,728 - INFO -   Context: take as few as 10 -20 events to wrongly exclude the
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #35: '-150' at line 303
-2025-05-05 19:38:52,728 - INFO -   Context: with NUMERICAL_RESULT credibility At 50 -150 events the lower bound of
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #36: '-90' at line 303
-2025-05-05 19:38:52,728 - INFO -   Context: respectively it usually takes 30 -90 events to exclude the correct
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #37: '-0.1' at line 312
-2025-05-05 19:38:52,728 - INFO -   Context: 0 2 0 2 _ -0.1 around pm NUMERICAL_RESULT for 50
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #38: '-0.5' at line 312
-2025-05-05 19:38:52,728 - INFO -   Context: on A_1 converge as N -0.5 Given that constraining A_1 requires
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #39: '-4.5' at line 320
-2025-05-05 19:38:52,728 - INFO -   Context: BHs with width 1 5 -4.5 M_ odot with typical uncertainties
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #40: '-0757058' at line 330
-2025-05-05 19:38:52,728 - INFO -   Context: National Science Foundation Grants PHY -0757058 and PHY 0823459 M F
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #41: '-0823459.' at line 330
-2025-05-05 19:38:52,728 - INFO -   Context: Grants PHY 0757058 and PHY -0823459. M F is supported by
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #42: '-51455.001' at line 330
-2025-05-05 19:38:52,728 - INFO -   Context: Hubble Fellowship grant HST HF2 -51455.001 A awarded by the Space
-2025-05-05 19:38:52,728 - INFO - Additional Replacement #43: '-26555.' at line 331
-2025-05-05 19:38:52,728 - INFO -   Context: Incorporated under NASA contract NAS5 -26555. M F is grateful for
-2025-05-05 19:38:52,728 - INFO - Saved context information to utils/num_mask_logs/gw_nsbh_contexts.log
+2025-05-11 16:13:02,037 - INFO - Logging to file: utils/num_mask_logs/gw_nsbh_masking.log
+2025-05-11 16:13:02,037 - INFO - Found 58 unique numerical values to mask
+2025-05-11 16:13:02,648 - INFO - Made 241 replacements in the text
+2025-05-11 16:13:02,648 - INFO - Saved masked text to papers/masked_texts/gw_nsbh.txt
+2025-05-11 16:13:02,648 - INFO - Latex Replacement #1: '\mathrm{BH} = 5.4' at line 257
+2025-05-11 16:13:02,649 - INFO -   Context: beta 0 results in M_ \mathrm{BH} = 5.4 0 7 _ 1 0
+2025-05-11 16:13:02,649 - INFO - Latex Replacement #2: '68\%' at line 247
+2025-05-11 16:13:02,649 - INFO -   Context: _ 0 2 M_ odot 68\% credibility reply the inclusion of
+2025-05-11 16:13:02,649 - INFO - Latex Replacement #3: '68\%' at line 257
+2025-05-11 16:13:02,649 - INFO -   Context: _ 1 0 M_ odot 68\% credibility At the low end
+2025-05-11 16:13:02,649 - INFO - Latex Replacement #4: '68\%' at line 257
+2025-05-11 16:13:02,649 - INFO -   Context: _ 0 8 M_ odot 68\% credibility using only the confident
+2025-05-11 16:13:02,649 - INFO - Latex Replacement #5: '97\%' at line 261
+2025-05-11 16:13:02,649 - INFO -   Context: than 0 M_ odot with 97\% credibility and 1 M_ odot
+2025-05-11 16:13:02,649 - INFO - Latex Replacement #6: '96\%' at line 265
+2025-05-11 16:13:02,649 - INFO -   Context: a mass gap exists with 96\% credibility and that it is
+2025-05-11 16:13:02,649 - INFO - Latex Replacement #7: '99.7\%' at line 303
+2025-05-11 16:13:02,649 - INFO -   Context: the lower bound of the 99.7\% credibility interval can be as
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #1: '0.05' at line 296
+2025-05-11 16:13:02,649 - INFO -   Context: 08 M_ odot and pm 0.05 M_ odot can be achieved
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #2: '.35' at line 281
+2025-05-11 16:13:02,649 - INFO -   Context: A 0 63 mu_1 1 .35 sigma_1 0 07 mu_2 1
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #3: '0.35' at line 281
+2025-05-11 16:13:02,649 - INFO -   Context: mu_2 1 85 and sigma_2 0.35 We truncate the 1 and
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #4: '0.08' at line 288
+2025-05-11 16:13:02,649 - INFO -   Context: 2 0 0 15 _ 0.08 M_ odot or 2 2
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #5: '0.02' at line 295
+2025-05-11 16:13:02,649 - INFO -   Context: measurements within 0 00 pm 0.02 M_ odot and 150 events
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #6: '0.06' at line 312
+2025-05-11 16:13:02,649 - INFO -   Context: pm 0 1 or pm 0.06 for 150 events A_1 is
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #7: '0.07' at line 288
+2025-05-11 16:13:02,649 - INFO -   Context: 2 2 0 19 _ 0.07 M_ odot for M_ text
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #8: '0.07' at line 312
+2025-05-11 16:13:02,649 - INFO -   Context: _ 0 1 around pm 0.07 for 50 events and around
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #9: '1.9' at line 224
+2025-05-11 16:13:02,649 - INFO -   Context: 1 5 M_ odot m_2 1.9 0 3 _ 0 2
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #10: '2.2' at line 252
+2025-05-11 16:13:02,649 - INFO -   Context: M_ odot with support below 2.2 M_ odot green dashed curve
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #11: '2.6' at line 226
+2025-05-11 16:13:02,649 - INFO -   Context: 1 0 M_ odot m_2 2.6 0 1 _ 0 1
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #12: '2.8' at line 247
+2025-05-11 16:13:02,649 - INFO -   Context: spin prior measures M_ 99 2.8 0 3 _ 0 2
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #13: '.1' at line 225
+2025-05-11 16:13:02,649 - INFO -   Context: 7 1 8 _ 2 .1 M_ odot m_2 1 5
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #14: '.1' at line 226
+2025-05-11 16:13:02,649 - INFO -   Context: 44A m_1 23 2 1 .1 _ 1 0 M_ odot
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #15: '.1' at line 257
+2025-05-11 16:13:02,649 - INFO -   Context: text BH 4 2 1 .1 _ 1 0 M_ odot
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #16: '.1' at line 273
+2025-05-11 16:13:02,649 - INFO -   Context: text BH 0 9 1 .1 _ 0 6 This is
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #17: '2.5' at line 261
+2025-05-11 16:13:02,649 - INFO -   Context: measure a mass gap of 2.5 0 8 _ 1 0
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #18: '2.3' at line 227
+2025-05-11 16:13:02,649 - INFO -   Context: 5 7 3 9 _ 2.3 M_ odot m_2 1 5
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #19: '2.3' at line 261
+2025-05-11 16:13:02,649 - INFO -   Context: 1 0 M_ odot reply 2.3 0 7 _ 1 0
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #20: '2.3' at line 273
+2025-05-11 16:13:02,649 - INFO -   Context: 9 reply alpha_ text BH 2.3 7 _ 1 0 with
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #21: '2.3' at line 319
+2025-05-11 16:13:02,649 - INFO -   Context: be as low as sim 2.3 M_ odot even when including
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #22: '.3' at line 271
+2025-05-11 16:13:02,649 - INFO -   Context: narrower peak at around 1 .3 M_ odot and a longer
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #23: '0.3' at line 303
+2025-05-11 16:13:02,649 - INFO -   Context: as much as 0 2 0.3 M_ odot above M_ text
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #24: '2.7' at line 6
+2025-05-11 16:13:02,649 - INFO -   Context: non spinning NS mass is 2.7 0 5 _ 0 4
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #25: '.2' at line 31
+2025-05-11 16:13:02,649 - INFO -   Context: with a period of 4 .2 ms or dimensionless spin magnitude
+2025-05-11 16:13:02,649 - INFO - Exact Replacement #26: '.2' at line 224
+2025-05-11 16:13:02,649 - INFO -   Context: level m_1 8 9 1 .2 _ 1 5 M_ odot
+2025-05-11 16:13:02,650 - INFO - Exact Replacement #27: '.2' at line 281
+2025-05-11 16:13:02,650 - INFO -   Context: 2 M_ odot or 2 .2 M_ odot For the 1
+2025-05-11 16:13:02,650 - INFO - Exact Replacement #28: '0.2' at line 312
+2025-05-11 16:13:02,650 - INFO -   Context: We consider models with A_1 0.2 and 0 4 For a
+2025-05-11 16:13:02,650 - INFO - Exact Replacement #29: '0.2' at line 312
+2025-05-11 16:13:02,650 - INFO -   Context: a_ mathrm Kep and A_1 0.2 10 events can constrain A_1
+2025-05-11 16:13:02,650 - INFO - Exact Replacement #30: '0.8' at line 227
+2025-05-11 16:13:02,650 - INFO -   Context: M_ odot m_2 1 5 0.8 _ 0 5 M_ odot
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #1: '-1.0' at line 6
+2025-05-11 16:13:02,650 - INFO -   Context: 5 4 0 7 _ -1.0 M_ odot With future observations
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #2: '-2500' at line 31
+2025-05-11 16:13:02,650 - INFO -   Context: system is the Pulsar J1807 -2500 B with a period of
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #3: '-2446' at line 31
+2025-05-11 16:13:02,650 - INFO -   Context: fastest spinning is Pulsar J1748 -2446 ad with a period of
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #4: '-76' at line 207
+2025-05-11 16:13:02,650 - INFO -   Context: frac 1 3 frac 113 -76 nu 4 chi_ text eff
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #5: '-16' at line 211
+2025-05-11 16:13:02,650 - INFO -   Context: beta frac 3 4 beta -16 pi 128 mathcal M 2
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #6: '-0.1293' at line 214
+2025-05-11 16:13:02,650 - INFO -   Context: 2341 psi_2 rho and sigma_3 -0.1293 psi_3 rho where we draw
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #7: '-33' at line 284
+2025-05-11 16:13:02,650 - INFO -   Context: rate of 45 75 _ -33 text Gpc 3 text yr
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #8: '-69' at line 284
+2025-05-11 16:13:02,650 - INFO -   Context: observations of 130 112 _ -69 text Gpc 3 text yr
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #9: '-30' at line 284
+2025-05-11 16:13:02,650 - INFO -   Context: for detection rates of 8 -30 NSBH year at Design sensitivity
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #10: '-160' at line 284
+2025-05-11 16:13:02,650 - INFO -   Context: at Design sensitivity and 40 -160 NSBH year during A Accordingly
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #11: '-0.15' at line 295
+2025-05-11 16:13:02,650 - INFO -   Context: 0 0 0 07 _ -0.15 M_ odot In general the
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #12: '-0.5' at line 312
+2025-05-11 16:13:02,650 - INFO -   Context: on A_1 converge as N -0.5 Given that constraining A_1 requires
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #13: '-0757058' at line 330
+2025-05-11 16:13:02,650 - INFO -   Context: National Science Foundation Grants PHY -0757058 and PHY 0823459 M F
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #14: '-0823459.' at line 330
+2025-05-11 16:13:02,650 - INFO -   Context: Grants PHY 0757058 and PHY -0823459. M F is supported by
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #15: '-51455.001' at line 330
+2025-05-11 16:13:02,650 - INFO -   Context: Hubble Fellowship grant HST HF2 -51455.001 A awarded by the Space
+2025-05-11 16:13:02,650 - INFO - Additional Replacement #16: '-26555.' at line 331
+2025-05-11 16:13:02,650 - INFO -   Context: Incorporated under NASA contract NAS5 -26555. M F is grateful for
+2025-05-11 16:13:02,650 - INFO - Saved context information to utils/num_mask_logs/gw_nsbh_contexts.log

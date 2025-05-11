@@ -1,79 +1,63 @@
-2025-05-05 19:38:53,540 - INFO - Logging to file: utils/num_mask_logs/mars_clouds_masking.log
-2025-05-05 19:38:53,541 - INFO - Found 7 unique numerical values to mask
-2025-05-05 19:38:53,613 - INFO - Made 54 replacements in the text
-2025-05-05 19:38:53,613 - INFO - Saved masked text to papers/masked_texts/mars_clouds.txt
-2025-05-05 19:38:53,613 - INFO - Latex Replacement #1: '70\%' at line 260
-2025-05-05 19:38:53,613 - INFO -   Context: a different set of data 70\% of the images drawn randomly
-2025-05-05 19:38:53,613 - INFO - Latex Replacement #2: '30\%' at line 260
-2025-05-05 19:38:53,613 - INFO -   Context: were used for training and 30\% for validation In total there
-2025-05-05 19:38:53,613 - INFO - Latex Replacement #3: '50\%' at line 278
-2025-05-05 19:38:53,613 - INFO -   Context: stringent requirement of at least 50\% of users identifying every arch
-2025-05-05 19:38:53,613 - INFO - Rounded Replacement #1: 'around 3500' at line 152
-2025-05-05 19:38:53,613 - INFO -   Context: Each four hour file contains around 3500 limb observations in sequences of
-2025-05-05 19:38:53,613 - INFO - Rounded Replacement #2: 'about 25' at line 313
-2025-05-05 19:38:53,613 - INFO -   Context: are lower during the day about 25 50 km At night the
-2025-05-05 19:38:53,613 - INFO - Exact Replacement #1: '13' at line 117
-2025-05-05 19:38:53,613 - INFO -   Context: full latitudinal coverage at 12 13 longitudes at two local times
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #1: '-0002' at line 8
-2025-05-05 19:38:53,613 - INFO -   Context: Slipski et al orcid 0000 -0002 9045 1168 cormark 1 ead
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #2: '-9045' at line 8
-2025-05-05 19:38:53,613 - INFO -   Context: et al orcid 0000 0002 -9045 1168 cormark 1 ead marek
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #3: '-1168' at line 8
-2025-05-05 19:38:53,613 - INFO -   Context: al orcid 0000 0002 9045 -1168 cormark 1 ead marek j
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #4: '-0003' at line 13
-2025-05-05 19:38:53,613 - INFO -   Context: nasa gov hl orcid 0000 -0003 1548 1161 orcid 0000 0002
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #5: '-1548' at line 13
-2025-05-05 19:38:53,613 - INFO -   Context: gov hl orcid 0000 0003 -1548 1161 orcid 0000 0002 4773
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #6: '-1161' at line 13
-2025-05-05 19:38:53,613 - INFO -   Context: hl orcid 0000 0003 1548 -1161 orcid 0000 0002 4773 1463
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #7: '-0002' at line 14
-2025-05-05 19:38:53,613 - INFO -   Context: 0003 1548 1161 orcid 0000 -0002 4773 1463 orcid 0000 0002
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #8: '-4773' at line 14
-2025-05-05 19:38:53,613 - INFO -   Context: 1548 1161 orcid 0000 0002 -4773 1463 orcid 0000 0002 7154
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #9: '-1463' at line 14
-2025-05-05 19:38:53,613 - INFO -   Context: 1161 orcid 0000 0002 4773 -1463 orcid 0000 0002 7154 2566
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #10: '-0002' at line 15
-2025-05-05 19:38:53,613 - INFO -   Context: 0002 4773 1463 orcid 0000 -0002 7154 2566 orcid 0000 0002
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #11: '-7154' at line 15
-2025-05-05 19:38:53,613 - INFO -   Context: 4773 1463 orcid 0000 0002 -7154 2566 orcid 0000 0002 6521
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #12: '-2566' at line 15
-2025-05-05 19:38:53,613 - INFO -   Context: 1463 orcid 0000 0002 7154 -2566 orcid 0000 0002 6521 3256
-2025-05-05 19:38:53,613 - INFO - Additional Replacement #13: '-0002' at line 17
-2025-05-05 19:38:53,614 - INFO -   Context: 0002 7154 2566 orcid 0000 -0002 6521 3256 orcid 0000 0003
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #14: '-6521' at line 17
-2025-05-05 19:38:53,614 - INFO -   Context: 7154 2566 orcid 0000 0002 -6521 3256 orcid 0000 0003 1233
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #15: '-3256' at line 17
-2025-05-05 19:38:53,614 - INFO -   Context: 2566 orcid 0000 0002 6521 -3256 orcid 0000 0003 1233 2224
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #16: '-0003' at line 18
-2025-05-05 19:38:53,614 - INFO -   Context: 0002 6521 3256 orcid 0000 -0003 1233 2224 addressline 4800 Oak
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #17: '-1233' at line 18
-2025-05-05 19:38:53,614 - INFO -   Context: 6521 3256 orcid 0000 0003 -1233 2224 addressline 4800 Oak Grove
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #18: '-2224' at line 18
-2025-05-05 19:38:53,614 - INFO -   Context: 3256 orcid 0000 0003 1233 -2224 addressline 4800 Oak Grove Dr
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #19: '-80' at line 112
-2025-05-05 19:38:53,614 - INFO -   Context: measures radiance profiles between 0 -80 km with a vertical resolution
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #20: '-230' at line 288
-2025-05-05 19:38:53,614 - INFO -   Context: L_s 100 From L_s 150 -230 daytime clouds occur primarily at
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #21: '-80' at line 294
-2025-05-05 19:38:53,614 - INFO -   Context: alt A and D 65 -80 km during the day and
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #22: '-70' at line 294
-2025-05-05 19:38:53,614 - INFO -   Context: during the day and 55 -70 km at night this is
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #23: '-60' at line 298
-2025-05-05 19:38:53,614 - INFO -   Context: season at northern 40 N -60 N and southern 35 S
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #24: '-50' at line 298
-2025-05-05 19:38:53,614 - INFO -   Context: N and southern 35 S -50 S mid latitudes at both
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #25: '-50' at line 301
-2025-05-05 19:38:53,614 - INFO -   Context: equatorial clouds ranging from 20 -50 km Figs ref fig combined
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #26: '-40' at line 304
-2025-05-05 19:38:53,614 - INFO -   Context: temperatures are present from 20 -40 km in the tropics during
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #27: '-60' at line 304
-2025-05-05 19:38:53,614 - INFO -   Context: during the day and 40 -60 km at night e g
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #28: '-40' at line 307
-2025-05-05 19:38:53,614 - INFO -   Context: 50 are observed between 20 -40 km during the clear season
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #29: '-50' at line 313
-2025-05-05 19:38:53,614 - INFO -   Context: during the day about NUMERICAL_RESULT -50 km At night the altitude
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #30: '-35' at line 316
-2025-05-05 19:38:53,614 - INFO -   Context: clouds which are between 15 -35 km In general there is
-2025-05-05 19:38:53,614 - INFO - Additional Replacement #31: '-10' at line 322
-2025-05-05 19:38:53,614 - INFO -   Context: observed equatorial clouds and 5 -10 km below the boundary of
-2025-05-05 19:38:53,614 - INFO - Saved context information to utils/num_mask_logs/mars_clouds_contexts.log
+2025-05-11 16:13:04,291 - INFO - Logging to file: utils/num_mask_logs/mars_clouds_masking.log
+2025-05-11 16:13:04,292 - INFO - Found 23 unique numerical values to mask
+2025-05-11 16:13:04,444 - INFO - Made 59 replacements in the text
+2025-05-11 16:13:04,445 - INFO - Saved masked text to papers/masked_texts/mars_clouds.txt
+2025-05-11 16:13:04,445 - INFO - Latex Replacement #1: '70\%' at line 260
+2025-05-11 16:13:04,445 - INFO -   Context: a different set of data 70\% of the images drawn randomly
+2025-05-11 16:13:04,445 - INFO - Rounded Replacement #1: 'around 3500' at line 152
+2025-05-11 16:13:04,445 - INFO -   Context: Each four hour file contains around 3500 limb observations in sequences of
+2025-05-11 16:13:04,445 - INFO - Rounded Replacement #2: 'about 25' at line 313
+2025-05-11 16:13:04,445 - INFO -   Context: are lower during the day about 25 50 km At night the
+2025-05-11 16:13:04,445 - INFO - Exact Replacement #1: '13' at line 117
+2025-05-11 16:13:04,445 - INFO -   Context: full latitudinal coverage at 12 13 longitudes at two local times
+2025-05-11 16:13:04,445 - INFO - Exact Replacement #2: '12' at line 206
+2025-05-11 16:13:04,445 - INFO -   Context: 328 with each packet containing 12 consecutive four hour files giving
+2025-05-11 16:13:04,445 - INFO - Exact Replacement #3: '12' at line 211
+2025-05-11 16:13:04,445 - INFO -   Context: were made in the first 12 hours The first set was
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #1: '-0002' at line 8
+2025-05-11 16:13:04,445 - INFO -   Context: Slipski et al orcid 0000 -0002 9045 1168 cormark 1 ead
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #2: '-9045' at line 8
+2025-05-11 16:13:04,445 - INFO -   Context: et al orcid 0000 0002 -9045 1168 cormark 1 ead marek
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #3: '-1168' at line 8
+2025-05-11 16:13:04,445 - INFO -   Context: al orcid 0000 0002 9045 -1168 cormark 1 ead marek j
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #4: '-0003' at line 13
+2025-05-11 16:13:04,445 - INFO -   Context: nasa gov hl orcid 0000 -0003 1548 1161 orcid 0000 0002
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #5: '-1548' at line 13
+2025-05-11 16:13:04,445 - INFO -   Context: gov hl orcid 0000 0003 -1548 1161 orcid 0000 0002 4773
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #6: '-1161' at line 13
+2025-05-11 16:13:04,445 - INFO -   Context: hl orcid 0000 0003 1548 -1161 orcid 0000 0002 4773 1463
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #7: '-0002' at line 14
+2025-05-11 16:13:04,445 - INFO -   Context: 0003 1548 1161 orcid 0000 -0002 4773 1463 orcid 0000 0002
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #8: '-4773' at line 14
+2025-05-11 16:13:04,445 - INFO -   Context: 1548 1161 orcid 0000 0002 -4773 1463 orcid 0000 0002 7154
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #9: '-1463' at line 14
+2025-05-11 16:13:04,445 - INFO -   Context: 1161 orcid 0000 0002 4773 -1463 orcid 0000 0002 7154 2566
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #10: '-0002' at line 15
+2025-05-11 16:13:04,445 - INFO -   Context: 0002 4773 1463 orcid 0000 -0002 7154 2566 orcid 0000 0002
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #11: '-7154' at line 15
+2025-05-11 16:13:04,445 - INFO -   Context: 4773 1463 orcid 0000 0002 -7154 2566 orcid 0000 0002 6521
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #12: '-2566' at line 15
+2025-05-11 16:13:04,445 - INFO -   Context: 1463 orcid 0000 0002 7154 -2566 orcid 0000 0002 6521 3256
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #13: '-0002' at line 17
+2025-05-11 16:13:04,445 - INFO -   Context: 0002 7154 2566 orcid 0000 -0002 6521 3256 orcid 0000 0003
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #14: '-6521' at line 17
+2025-05-11 16:13:04,445 - INFO -   Context: 7154 2566 orcid 0000 0002 -6521 3256 orcid 0000 0003 1233
+2025-05-11 16:13:04,445 - INFO - Additional Replacement #15: '-3256' at line 17
+2025-05-11 16:13:04,445 - INFO -   Context: 2566 orcid 0000 0002 6521 -3256 orcid 0000 0003 1233 2224
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #16: '-0003' at line 18
+2025-05-11 16:13:04,446 - INFO -   Context: 0002 6521 3256 orcid 0000 -0003 1233 2224 addressline 4800 Oak
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #17: '-1233' at line 18
+2025-05-11 16:13:04,446 - INFO -   Context: 6521 3256 orcid 0000 0003 -1233 2224 addressline 4800 Oak Grove
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #18: '-2224' at line 18
+2025-05-11 16:13:04,446 - INFO -   Context: 3256 orcid 0000 0003 1233 -2224 addressline 4800 Oak Grove Dr
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #19: '-80' at line 294
+2025-05-11 16:13:04,446 - INFO -   Context: alt A and D 65 -80 km during the day and
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #20: '-70' at line 294
+2025-05-11 16:13:04,446 - INFO -   Context: during the day and 55 -70 km at night this is
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #21: '-60' at line 298
+2025-05-11 16:13:04,446 - INFO -   Context: season at northern 40 N -60 N and southern 35 S
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #22: '-50' at line 298
+2025-05-11 16:13:04,446 - INFO -   Context: N and southern 35 S -50 S mid latitudes at both
+2025-05-11 16:13:04,446 - INFO - Additional Replacement #23: '-60' at line 304
+2025-05-11 16:13:04,446 - INFO -   Context: during the day and 40 -60 km at night e g
+2025-05-11 16:13:04,446 - INFO - Saved context information to utils/num_mask_logs/mars_clouds_contexts.log

@@ -515,12 +515,12 @@
  This is on the same order of magnitude as the relative difference in frequency, which is $\SI{0.9}{\percent}$.
  The posterior can differ from this value, governed by the overall scale $\alpha$. 
  This parameter controls the a-priori expected variance of the average logarithmic sky brightness mean and difference of the two frequencies.
- For this overall scale $\alpha$, we set the mean $0.2$ with standard deviation $0.1$.
+ For this overall scale $\alpha$, we set the mean $0.2$ with standard deviation $[NUMERICAL_RESULT]$.
  Since we normalize the flux of the final model, this parameter only controls the expected deviations of $\epsilon$, and has no other major effect.
  A deviation of about half an $e$-fold would be expected with these hyperparameter settings, as it corresponds to the sum of two means.
  
  Our choices regarding the remaining hyperparameter setting are motivated by being maximally agnostic with respect to the magnitude and shape of spatial correlations, while fixing the temporal correlations to be moderate.
- By constraining the a priori slope of the spatial amplitude to $\mu_m^{x}=-[NUMERICAL_RESULT]$ with a standard deviation of $\sigma_m^{(x)}=0.5$ we allow the model to express structures ranging from the rough Wiener process to the smooth integrated Wiener process within one standard deviation. 
+ By constraining the a priori slope of the spatial amplitude to $\mu_m^{x}=-1.5$ with a standard deviation of $\sigma_m^{(x)}=0.5$ we allow the model to express structures ranging from the rough Wiener process to the smooth integrated Wiener process within one standard deviation. 
  The overall variance of the logarithmic sky brightness with respect to its spatial mean is set to be a-priori log-normal distributed with mean $0.7$ and standard deviation $1$.
  A standard deviation larger than its mean induces a log-normal distribution with a heavy tail, thus allowing for potentially large posterior spatial fluctuations.
  

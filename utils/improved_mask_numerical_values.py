@@ -58,7 +58,7 @@ def flatten_nested_structure(obj: Any, prefix: str = "") -> Dict[str, Union[floa
         
     return flattened
 
-def extract_numerical_values_from_task(task_file: str) -> List[Union[float, int]]:
+def extract_numerical_values_from_task(task_file: str) -> Tuple[List[Union[float, int]], List[Union[float, int]]]:
     """
     Extract all numerical values from a task file's expected_output and tolerance fields.
     
@@ -66,18 +66,27 @@ def extract_numerical_values_from_task(task_file: str) -> List[Union[float, int]
         task_file: Path to the task JSON file
         
     Returns:
-        List of numerical values (floats or ints) found in expected_output and tolerance
+        Tuple containing:
+            - List of numerical values (floats or ints) found in expected_output and tolerance
+            - List of numerical values specifically from expected_output if provided as a list
     """
     with open(task_file, 'r', encoding='utf-8') as f:
         task_data = json.load(f)
     
     values = []
+    expected_list_values = []
     
     # Extract from expected_output
     expected_output = task_data.get('expected_output')
     if expected_output is not None:
         if isinstance(expected_output, (int, float)):
             values.append(expected_output)
+        elif isinstance(expected_output, list):
+            # Store list values separately
+            for item in expected_output:
+                if isinstance(item, (int, float)):
+                    values.append(item)
+                    expected_list_values.append(item)
         elif isinstance(expected_output, (dict, list)):
             # Flatten nested structures and collect all numerical values
             flattened = flatten_nested_structure(expected_output)
@@ -92,6 +101,12 @@ def extract_numerical_values_from_task(task_file: str) -> List[Union[float, int]
                 # Add the value ± tolerance
                 values.append(expected_output + tolerance)
                 values.append(expected_output - tolerance)
+        elif isinstance(tolerance, list) and isinstance(expected_output, list):
+            # If we have matching lists, generate range values
+            for i, tol in enumerate(tolerance):
+                if i < len(expected_output) and isinstance(tol, (int, float)) and isinstance(expected_output[i], (int, float)):
+                    values.append(expected_output[i] + tol)
+                    values.append(expected_output[i] - tol)
         elif isinstance(tolerance, (dict, list)):
             # Flatten nested structures 
             flattened_tol = flatten_nested_structure(tolerance)
@@ -123,9 +138,9 @@ def extract_numerical_values_from_task(task_file: str) -> List[Union[float, int]
                 except ValueError:
                     pass
     
-    return values
+    return values, expected_list_values
 
-def collect_numerical_values_from_tasks(paper_id: str) -> List[Union[float, int]]:
+def collect_numerical_values_from_tasks(paper_id: str) -> Tuple[List[Union[float, int]], List[Union[float, int]]]:
     """
     Collect all numerical values from tasks for a given paper.
     
@@ -133,19 +148,24 @@ def collect_numerical_values_from_tasks(paper_id: str) -> List[Union[float, int]
         paper_id: The ID of the paper
         
     Returns:
-        List of all numerical values found in the tasks' expected_output
+        Tuple containing:
+            - List of all numerical values found in the tasks
+            - List of values from expected_output if provided as a list
     """
     task_dir = os.path.join('tasks', paper_id)
     if not os.path.exists(task_dir):
         logger.warning(f"No tasks directory found for paper {paper_id}")
-        return []
+        return [], []
     
     values = []
+    expected_list_values = []
+    
     for filename in os.listdir(task_dir):
         if filename.endswith('.json'):
             task_file = os.path.join(task_dir, filename)
-            task_values = extract_numerical_values_from_task(task_file)
+            task_values, task_expected_list = extract_numerical_values_from_task(task_file)
             values.extend(task_values)
+            expected_list_values.extend(task_expected_list)
     
     # Remove duplicates while preserving order
     unique_values = []
@@ -153,7 +173,12 @@ def collect_numerical_values_from_tasks(paper_id: str) -> List[Union[float, int]
         if value not in unique_values:
             unique_values.append(value)
             
-    return unique_values
+    unique_expected_list = []
+    for value in expected_list_values:
+        if value not in unique_expected_list:
+            unique_expected_list.append(value)
+            
+    return unique_values, unique_expected_list
 
 def generate_rounded_values(values: List[Union[float, int]]) -> List[Union[float, int]]:
     """
@@ -382,13 +407,14 @@ def extract_context(match, full_text, match_type="exact"):
         
     return result
 
-def mask_values_in_text(text: str, values: List[Union[float, int]]) -> Tuple[str, int, List[Dict[str, str]]]:
+def mask_values_in_text(text: str, values: List[Union[float, int]], expected_list_values: List[Union[float, int]] = None) -> Tuple[str, int, List[Dict[str, str]]]:
     """
     Mask numerical values in text by replacing them with [NUMERICAL_RESULT].
     
     Args:
         text: The text to mask values in
         values: List of numerical values to mask
+        expected_list_values: List of values from expected_output if provided as a list
         
     Returns:
         Tuple containing:
@@ -410,7 +436,247 @@ def mask_values_in_text(text: str, values: List[Union[float, int]]) -> Tuple[str
     # Also make a copy of the text without commas in numbers for matching
     text_no_commas = remove_comma(text)
     
-    # First, handle LaTeX numerical expressions
+    # First, handle negative numbers with tilde/approx to avoid partial masking issue
+    approx_patterns = [
+        # Patterns for approximate negative values that cause partial masking
+        r'(D\$_\d+\\approx\$-\d+\.?\d*)',
+        r'(\\mathrm\{D\}_\d+\s*\\approx\s*-\d+\.?\d*)',
+        r'(D_\d+\s*\\approx\s*-\d+\.?\d*)',
+        r'(\\approx\s*-\d+\.?\d*)',
+        r'(~\s*-\d+\.?\d*)',
+    ]
+    
+    for pattern in approx_patterns:
+        for match in re.finditer(pattern, masked_text):
+            # Replace the entire expression at once to avoid partial masking
+            original = match.group(0)
+            context_str = get_context_words(masked_text, match.start(), len(original))
+            
+            context_list.append({
+                'value': original,
+                'context': context_str,
+                'line_number': masked_text[:match.start()].count('\n') + 1,
+                'type': "approx_negative"
+            })
+            
+            # Mask the entire expression
+            new_text = masked_text[:match.start()] + '[NUMERICAL_RESULT]' + masked_text[match.end():]
+            masked_text = new_text
+            replacement_count += 1
+    
+    # Handle LaTeX equation blocks specifically that contain numerical values from expected_output
+    if expected_list_values:
+        # Convert expected values to strings and also create versions without trailing zeros
+        str_expected_values = []
+        trimmed_expected_values = []
+        
+        for val in expected_list_values:
+            str_val = str(val)
+            str_expected_values.append(str_val)
+            
+            # Create versions without trailing zeros
+            if '.' in str_val:
+                trimmed = str_val.rstrip('0').rstrip('.') 
+                trimmed_expected_values.append(trimmed)
+                
+                # Also add versions with different precision/decimals
+                if '.' in str_val:
+                    parts = str_val.split('.')
+                    if len(parts) == 2 and parts[1]:
+                        for i in range(1, len(parts[1]) + 3):  # Try different decimal precisions
+                            rounded_val = round(float(str_val), i)
+                            rounded_str = str(rounded_val)
+                            if rounded_str not in str_expected_values:
+                                str_expected_values.append(rounded_str)
+        
+        # Look for equation blocks
+        equation_pattern = r'\\begin\{equation\}(.*?)\\end\{equation\}'
+        for match in re.finditer(equation_pattern, masked_text, re.DOTALL):
+            eq_content = match.group(1)
+            new_eq_content = eq_content
+            
+            # Check if any expected value or its trimmed version appears in the equation
+            all_values_to_check = str_expected_values + trimmed_expected_values
+            for str_val in all_values_to_check:
+                # Avoid replacing single digits
+                if is_single_digit(str_val):
+                    continue
+                    
+                # Look for the exact value in the equation - account for potential decimal separators
+                val_pattern = r'(\d+\.\d+0*|\d+\.|\d+)'
+                for val_match in re.finditer(val_pattern, new_eq_content):
+                    eq_val = val_match.group(1)
+                    
+                    # Check for numerical equivalence (handle trailing zeros)
+                    try:
+                        if float(eq_val) == float(str_val):
+                            # Replace this value in the equation
+                            new_eq_content = new_eq_content[:val_match.start()] + \
+                                            '[NUMERICAL_RESULT]' + \
+                                            new_eq_content[val_match.end():]
+                            
+                            context_list.append({
+                                'value': eq_val,
+                                'context': get_context_words(masked_text, match.start(), len(match.group(0))),
+                                'line_number': masked_text[:match.start()].count('\n') + 1,
+                                'type': 'equation_expected_value'
+                            })
+                            replacement_count += 1
+                            break  # Break after replacing to avoid issues with shifting indices
+                    except ValueError:
+                        continue  # Skip if we can't convert to float
+            
+            # Update the full text with modified equation if changes were made
+            if new_eq_content != eq_content:
+                masked_text = masked_text[:match.start()] + \
+                             '\\begin{equation}' + new_eq_content + '\\end{equation}' + \
+                             masked_text[match.end():]
+    
+    # If we have expected list values, look for them in list-like contexts first
+    if expected_list_values:
+        # Create pattern for list-like structures
+        list_patterns = [
+            r'\[([^\]]*)\]',  # Matches [...] format
+            r'are\s+([\d., ]+)',  # Matches "are x, y, z"
+            r'of\s+([\d., ]+)',   # Matches "of x, y, z"
+            r'values\s+([\d., ]+)', # Matches "values x, y, z"
+        ]
+        
+        for pattern in list_patterns:
+            for match in re.finditer(pattern, masked_text):
+                list_content = match.group(1)
+                new_content = list_content
+                
+                # Check if any expected values are in this list-like structure
+                for val in expected_list_values:
+                    str_val = str(val)
+                    # Skip single digits
+                    if is_single_digit(val):
+                        continue
+                        
+                    # Handle both exact match and rounded representations
+                    if '.' in str_val:
+                        decimal_part = str_val.split('.')[1]
+                        # Create patterns for different precision
+                        decimal_patterns = [
+                            r'\b' + re.escape(str_val) + r'\b',  # Exact match
+                            r'\b' + re.escape(str_val.rstrip('0').rstrip('.')) + r'\b',  # Trimmed zeros
+                        ]
+                        
+                        for dec_pattern in decimal_patterns:
+                            if re.search(dec_pattern, list_content):
+                                new_content = re.sub(dec_pattern, '[NUMERICAL_RESULT]', new_content)
+                                context_list.append({
+                                    'value': str_val,
+                                    'context': get_context_words(masked_text, match.start(), len(match.group(0))),
+                                    'line_number': masked_text[:match.start()].count('\n') + 1,
+                                    'type': 'list_expected_value'
+                                })
+                                replacement_count += 1
+                    else:
+                        # For integers
+                        int_pattern = r'\b' + re.escape(str_val) + r'\b'
+                        if re.search(int_pattern, list_content):
+                            new_content = re.sub(int_pattern, '[NUMERICAL_RESULT]', new_content)
+                            context_list.append({
+                                'value': str_val,
+                                'context': get_context_words(masked_text, match.start(), len(match.group(0))),
+                                'line_number': masked_text[:match.start()].count('\n') + 1,
+                                'type': 'list_expected_value'
+                            })
+                            replacement_count += 1
+                
+                # Update the masked_text with the modified list content
+                if new_content != list_content:
+                    masked_text = masked_text[:match.start()] + \
+                                  masked_text[match.start():match.end()].replace(list_content, new_content) + \
+                                  masked_text[match.end():]
+    
+    # First pass: explicitly look for large integers with commas in specific paper contexts
+    large_integer_patterns = [
+        r'(\d{3},\d{3})\s+galaxies',
+        r'(\d+,\d+)\s+(?:galaxies|stars|objects|sources)',
+        r'total\s+of\s+(\d+,\d+)',
+        r'sample\s+of\s+(\d+,\d+)',
+        r'consists\s+of\s+(\d+,\d+)',
+        r'containing\s+(\d+,\d+)',
+        r'leaves\s+(\d+,\d+)',
+    ]
+    
+    for pattern in large_integer_patterns:
+        for match in re.finditer(pattern, masked_text, re.IGNORECASE):
+            numerical_value = match.group(1)
+            context_str = get_context_words(masked_text, match.start(), len(match.group(0)))
+            
+            # Always mask these specific patterns regardless of should_preserve
+            context_list.append(extract_context(match, masked_text, "large_integer"))
+            
+            # Replace just the numerical part
+            new_text = masked_text[:match.start()] + \
+                      masked_text[match.start():match.end()].replace(numerical_value, '[NUMERICAL_RESULT]') + \
+                      masked_text[match.end():]
+            
+            masked_text = new_text
+            replacement_count += 1
+    
+    # Handle LaTeX numerical expressions with ranges first (specific fix for the partial masking issue)
+    latex_range_patterns = [
+        # LaTeX math with numerical ranges and subscripts/superscripts
+        r'(\d+\.?\d*)\s*\^\{([^}]*)\}\s*_\{([^}]*)\}',
+        r'm_\d\s*=\s*(\d+\.?\d*)\s*\^\{([^}]*)\}\s*_\{([^}]*)\}',
+    ]
+    
+    for pattern in latex_range_patterns:
+        for match in re.finditer(pattern, masked_text):
+            # Replace the entire expression at once
+            original = match.group(0)
+            context_str = get_context_words(masked_text, match.start(), len(original))
+            
+            # Always mask these LaTeX range expressions completely
+            context_list.append({
+                'value': original,
+                'context': context_str,
+                'line_number': masked_text[:match.start()].count('\n') + 1,
+                'type': "latex_range"
+            })
+            
+            # Mask the entire expression
+            new_text = masked_text[:match.start()] + '[NUMERICAL_RESULT]' + masked_text[match.end():]
+            masked_text = new_text
+            replacement_count += 1
+    
+    # Specifically look for numerical values in standard deviation contexts
+    std_dev_patterns = [
+        r'(\$\\sigma_\{\\mathrm\{Log \\ [^}]+\}\}\$)(?:,|\s+and|\s+are|\s+is|\s+of|\s+values?|:)?\s+(?:\[NUMERICAL_RESULT\]|[a-zA-Z]+|,)?\s*(\d+\.\d+)',
+        r'median values of [^,]+, (\d+\.\d+), and',
+        r'median values of [^,]+, [^,]+, and (\d+\.\d+)',
+        r'deviations? (?:of|for|in) ([^,]+) (?:is|are|values?) (\d+\.\d+)',
+        r'(\d+\.\d+)(?:,| and) (\d+\.\d+)(?:,| and) (\d+\.\d+)',
+    ]
+    
+    for pattern in std_dev_patterns:
+        for match in re.finditer(pattern, masked_text):
+            # Get groups that represent numbers
+            for i in range(1, match.lastindex + 1):
+                try:
+                    group_text = match.group(i)
+                    if re.match(r'\d+\.\d+', group_text):  # Check if it's a decimal number
+                        # Replace this value
+                        new_text = masked_text[:match.start()] + \
+                                  masked_text[match.start():match.end()].replace(group_text, '[NUMERICAL_RESULT]') + \
+                                  masked_text[match.end():]
+                        masked_text = new_text
+                        replacement_count += 1
+                        context_list.append({
+                            'value': group_text,
+                            'context': get_context_words(masked_text, match.start(), len(match.group(0))),
+                            'line_number': masked_text[:match.start()].count('\n') + 1,
+                            'type': 'std_dev_value'
+                        })
+                except:
+                    pass  # Skip if the group doesn't exist or isn't a number
+    
+    # Then, handle other LaTeX numerical expressions
     latex_patterns = [
         # LaTeX math expressions with numerical values
         r'\\mathrm\{[A-Za-z0-9_]+\}\s*=\s*(-?\d+\.?\d*)\s*\*?\\mathrm\{[A-Za-z0-9_]+\}',
@@ -577,35 +843,60 @@ def mask_values_in_text(text: str, values: List[Union[float, int]]) -> Tuple[str
                         'line_number': masked_text[:match.start()].count('\n') + 1,
                         'type': 'dex_context'
                     })
+    
+    # Additional pass: Look specifically for galaxy count patterns
+    galaxy_count_patterns = [
+        r'(\d+,\d+)\s+galaxies',
+        r'leaves\s+(\d+,\d+)\s+galaxies',
+        r'sample\s+of\s+(\d+,\d+)\s+galaxies',
+        r'total\s+of\s+(\d+,\d+)\s+galaxies',
+    ]
+    
+    for pattern in galaxy_count_patterns:
+        for match in re.finditer(pattern, masked_text, re.IGNORECASE):
+            numerical_value = match.group(1)
+            context_str = get_context_words(masked_text, match.start(), len(match.group(0)))
             
-            # If this is a comma-separated pattern, we won't find it in the original text
-            # So check the no-commas version and get the corresponding positions in the original
-            if "," in pattern:
-                pattern_no_commas = pattern.replace(',', '')
-                for match in re.finditer(pattern_no_commas, text_no_commas):
-                    start_pos = match.start()
-                    for i in range(max(0, start_pos - 5), min(len(text), start_pos + 5)):
-                        if text[i:i+1].isdigit() and i < len(text) - len(match.group(0)):
-                            # Check if there's a comma-separated number starting at this position
-                            test_str = text[i:i+len(match.group(0))+5]  # Add some buffer
-                            if remove_comma(test_str).startswith(match.group(0)):
-                                # Found a potential comma-separated number in the original text
-                                # Find the full extent of the number including commas
-                                comma_match = re.search(r'\b\d+(?:,\d{3})+\b', test_str)
-                                if comma_match:
-                                    context_str = get_context_words(text, i + comma_match.start(), 
-                                                                 comma_match.end() - comma_match.start())
-                                    if not should_preserve(remove_comma(comma_match.group(0)), context_str):
-                                        # Replace the number in the original text
-                                        context_list.append({'value': comma_match.group(0), 
-                                                          'context': context_str,
-                                                          'line_number': text[:i].count('\n') + 1,
-                                                          'type': 'comma_separated'})
-                                        replacement_str = '[NUMERICAL_RESULT]'
-                                        masked_text = masked_text[:i + comma_match.start()] + replacement_str + \
-                                                  masked_text[i + comma_match.end():]
-                                        replacement_count += 1
-                                    break
+            # Always mask galaxy counts regardless of should_preserve
+            context_list.append({
+                'value': numerical_value,
+                'context': context_str,
+                'line_number': masked_text[:match.start()].count('\n') + 1,
+                'type': 'galaxy_count'
+            })
+            
+            # Replace just the numerical part
+            new_text = masked_text[:match.start()] + \
+                      masked_text[match.start():match.end()].replace(numerical_value, '[NUMERICAL_RESULT]') + \
+                      masked_text[match.end():]
+            
+            masked_text = new_text
+            replacement_count += 1
+    
+    # For comma-separated numbers that might have been missed
+    comma_pattern = r'\b\d{1,3}(?:,\d{3})+\b'
+    for match in re.finditer(comma_pattern, masked_text):
+        numerical_value = match.group(0)
+        context_str = get_context_words(masked_text, match.start(), len(numerical_value))
+        
+        # Skip if this value should be preserved
+        if should_preserve(remove_comma(numerical_value), context_str):
+            continue
+            
+        # Check additional context for galaxy-related terms
+        is_galaxy_related = any(term in context_str.lower() for term in ['galaxies', 'stars', 'objects', 'sources', 'sample', 'catalog', 'dataset'])
+        
+        # If the value is large and in a scientific context, mask it
+        if is_galaxy_related or int(remove_comma(numerical_value)) > 100000:
+            context_list.append({
+                'value': numerical_value,
+                'context': context_str,
+                'line_number': masked_text[:match.start()].count('\n') + 1,
+                'type': 'comma_separated_large'
+            })
+            
+            masked_text = masked_text[:match.start()] + '[NUMERICAL_RESULT]' + masked_text[match.end():]
+            replacement_count += 1
     
     # Handle additional patterns
     additional_patterns = [
@@ -641,6 +932,80 @@ def mask_values_in_text(text: str, values: List[Union[float, int]]) -> Tuple[str
                                 masked_text)
         replacement_count += count
         masked_text = new_text
+    
+    # One more pass to catch any specific expected values that might have been missed
+    if expected_list_values:
+        for val in expected_list_values:
+            str_val = str(val)
+            # Skip single digits
+            if is_single_digit(val):
+                continue
+                
+            # Create pattern for exact match
+            if '.' in str_val:
+                pattern = r'\b' + re.escape(str_val) + r'\b'
+                # Also handle cases where trailing zeros might be omitted
+                if str_val.endswith('0'):
+                    pattern = r'\b' + re.escape(str_val.rstrip('0').rstrip('.')) + r'0*\b'
+            else:
+                pattern = r'\b' + re.escape(str_val) + r'\b'
+                
+            # Find and replace
+            new_text, count = re.subn(pattern, '[NUMERICAL_RESULT]', masked_text)
+            if count > 0:
+                masked_text = new_text
+                replacement_count += count
+                context_list.append({
+                    'value': str_val,
+                    'context': 'Final pass for expected values',
+                    'line_number': 0,  # We don't have position info here
+                    'type': 'expected_value_final_pass'
+                })
+    
+    # Final pass for values with trailing zeros
+    if expected_list_values:
+        # Special pass for trailing zeros in the expected values
+        for val in expected_list_values:
+            if isinstance(val, float):
+                # Create patterns for different precision formats
+                str_val = str(val)
+                
+                # For values in scientific papers often shown with different precision
+                if '.' in str_val:
+                    base_val = str_val.rstrip('0').rstrip('.')
+                    
+                    # Find potential matches with more trailing zeros than original
+                    # Creating patterns with additional precision (more zeros)
+                    if '.' in base_val:  # Already has some decimal places
+                        for i in range(1, 6):  # Try adding 1-5 extra zeros
+                            extended_val = base_val + '0' * i
+                            pattern = r'\b' + re.escape(extended_val) + r'\b'
+                            
+                            # Find and replace
+                            new_text, count = re.subn(pattern, '[NUMERICAL_RESULT]', masked_text)
+                            if count > 0:
+                                masked_text = new_text
+                                replacement_count += count
+                                context_list.append({
+                                    'value': extended_val,
+                                    'context': 'Trailing zeros variation',
+                                    'line_number': 0,
+                                    'type': 'trailing_zeros'
+                                })
+                    
+                    # Also look for the base value with decimal point (e.g., "5." instead of just "5")
+                    if '.' not in base_val:
+                        pattern = r'\b' + re.escape(base_val) + r'\.\b'
+                        new_text, count = re.subn(pattern, '[NUMERICAL_RESULT]', masked_text)
+                        if count > 0:
+                            masked_text = new_text
+                            replacement_count += count
+                            context_list.append({
+                                'value': base_val + '.',
+                                'context': 'Decimal point variation',
+                                'line_number': 0,
+                                'type': 'decimal_point'
+                            })
     
     # Look specifically for patterns like "scatter (0.12 dex and 0.04 dex)"
     scatter_pattern = r'(?:scatter|dispersion|deviation)\s*\(([^)]+)\)'
@@ -713,11 +1078,14 @@ def mask_paper_text(paper_id: str, output_dir: str = None, log_dir: str = None) 
         paper_text = f.read()
     
     # Collect numerical values from tasks
-    values = collect_numerical_values_from_tasks(paper_id)
+    values, expected_list_values = collect_numerical_values_from_tasks(paper_id)
     logger.info(f"Found {len(values)} unique numerical values to mask")
     
+    if expected_list_values:
+        logger.info(f"Found {len(expected_list_values)} values from expected_output lists: {expected_list_values}")
+    
     # Mask the values in the text
-    masked_text, count, contexts = mask_values_in_text(paper_text, values)
+    masked_text, count, contexts = mask_values_in_text(paper_text, values, expected_list_values)
     logger.info(f"Made {count} replacements in the text")
     
     # Write the masked text to the output file

@@ -1,23 +1,11 @@
-2025-05-05 19:38:51,567 - INFO - Logging to file: utils/num_mask_logs/bioverse_masking.log
-2025-05-05 19:38:51,567 - INFO - Found 5 unique numerical values to mask
-2025-05-05 19:38:51,614 - INFO - Made 12 replacements in the text
-2025-05-05 19:38:51,614 - INFO - Saved masked text to papers/masked_texts/bioverse.txt
-2025-05-05 19:38:51,614 - INFO - Latex Replacement #1: '80\%' at line 24
-2025-05-05 19:38:51,614 - INFO -   Context: sizes gtrsim 100 providing gtrsim 80\% likelihood of strong evidence if
-2025-05-05 19:38:51,614 - INFO - Additional Replacement #1: '-15' at line 89
-2025-05-05 19:38:51,614 - INFO -   Context: revv over the range 10 -15 1 citep but see Appendix
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #2: '-15' at line 245
-2025-05-05 19:38:51,615 - INFO -   Context: revv over the range 10 -15 1 For n var semian_Nsamp1
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #3: '-40' at line 395
-2025-05-05 19:38:51,615 - INFO -   Context: enough samples Ground based 25 -40 meter class extremely large telescopes
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #4: '-80' at line 400
-2025-05-05 19:38:51,615 - INFO -   Context: is expected to target 25 -80 glspl EEC citep Kammerer2018 Quanz2022
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #5: '-300' at line 419
-2025-05-05 19:38:51,615 - INFO -   Context: on early Earth at 180 -300 hours 7 5 12 5
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #6: '-12.5' at line 419
-2025-05-05 19:38:51,615 - INFO -   Context: 180 300 hours 7 5 -12.5 days significantly shorter than the
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #7: '-30' at line 420
-2025-05-05 19:38:51,615 - INFO -   Context: geologically negligible timescale of 20 -30 years meaning that the photochemistry
-2025-05-05 19:38:51,615 - INFO - Additional Replacement #8: '-15' at line 551
-2025-05-05 19:38:51,615 - INFO -   Context: revv over the range 10 -15 1 for the probability of
-2025-05-05 19:38:51,615 - INFO - Saved context information to utils/num_mask_logs/bioverse_contexts.log
+2025-05-11 16:12:59,300 - INFO - Logging to file: utils/num_mask_logs/bioverse_masking.log
+2025-05-11 16:12:59,301 - INFO - Found 15 unique numerical values to mask
+2025-05-11 16:12:59,416 - INFO - Made 18 replacements in the text
+2025-05-11 16:12:59,417 - INFO - Saved masked text to papers/masked_texts/bioverse.txt
+2025-05-11 16:12:59,417 - INFO - Exact Replacement #1: '0.8' at line 165
+2025-05-11 16:12:59,417 - INFO -   Context: transiting glspl EEC with radii 0.8 S 0 25 R 1
+2025-05-11 16:12:59,417 - INFO - Additional Replacement #1: '-40' at line 395
+2025-05-11 16:12:59,417 - INFO -   Context: enough samples Ground based 25 -40 meter class extremely large telescopes
+2025-05-11 16:12:59,417 - INFO - Additional Replacement #2: '-300' at line 419
+2025-05-11 16:12:59,417 - INFO -   Context: on early Earth at 180 -300 hours 7 5 12 5
+2025-05-11 16:12:59,417 - INFO - Saved context information to utils/num_mask_logs/bioverse_contexts.log

@@ -100,7 +100,7 @@ generate the polarization modes
 at the specified sky location, and then inject the projected modes into the two LIGO detectors.
 \noindent
 
-We whiten the data and band-pass them within the frequency range of 30--[NUMERICAL_RESULT]\,Hz.
+We whiten the data and band-pass them within the frequency range of 30--1500\,Hz.
 After applying these filters, we remove 1\,s intervals from each end of the data samples to eliminate edge effects from pre-processing. The remaining 2\,s samples, each containing either an injected signal, pure background or an SG, were used to generate training data.
 To obtain a set of windows suitable for training, we extract 200 data points (total duration of 50\,ms sampled at 4096\,Hz) from each sample. 
 

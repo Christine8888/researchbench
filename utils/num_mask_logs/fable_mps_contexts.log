@@ -2,12 +2,12 @@ Masked values and their context for paper: fable_mps
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 30 replacements
-  ADDITIONAL: 3 replacements
+  LATEX: 11 replacements
+  ADDITIONAL: 2 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (30):
+LATEX REPLACEMENTS (11):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -23,175 +23,61 @@ Replacement #2:
   Context: mass resolution overline m _ \mathrm{gas} = 6.4 times 10 6 h 1
 
 Replacement #3:
-  Expression: \mathrm{r} = 0.1
-  Numerical Value: 0.1
-  Line: 77
-  Context: set to a constant epsilon_ \mathrm{r} = 0.1 and 1 epsilon_ mathrm r
-
-Replacement #4:
-  Expression: \mathrm{f}=0.1
-  Numerical Value: 0.1
-  Line: 85
-  Context: quasar mode a fraction epsilon_ \mathrm{f}=0.1 of the AGN luminosity is
-
-Replacement #5:
   Expression: \mathrm{QM} = 25
   Numerical Value: 25
   Line: 85
   Context: is accumulated over delta t_ \mathrm{QM} = 25 Myr before being released in
 
-Replacement #6:
-  Expression: \mathrm{BH} = 0.01
-  Numerical Value: 0.01
-  Line: 90
-  Context: threshold is set to delta_ \mathrm{BH} = 0.01 much smaller than the Illustris
-
-Replacement #7:
+Replacement #4:
   Expression: \mathrm{BH} = 0.15
   Numerical Value: 0.15
   Line: 90
   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
 
-Replacement #8:
-  Expression: \mathrm{m} = 0.8
-  Numerical Value: 0.8
-  Line: 90
-  Context: coupling efficiency set to epsilon_ \mathrm{m} = 0.8 in the fiducial fable model
-
-Replacement #9:
-  Expression: \mathrm{r} = 0.08
-  Numerical Value: 0.08
-  Line: 90
-  Context: efficiency epsilon_ mathrm m epsilon_ \mathrm{r} = 0.08 as in the Illustris model
-
-Replacement #10:
-  Expression: \mathrm{BH} = 0.001
-  Numerical Value: 0.001
-  Line: 98
-  Context: threshold for bubble injections delta_ \mathrm{BH} = 0.001 and a lower coupling efficiency
-
-Replacement #11:
-  Expression: \mathrm{m} = 0.4
-  Numerical Value: 0.4
-  Line: 98
-  Context: a lower coupling efficiency epsilon_ \mathrm{m} = 0.4 item The RadioWeak set up
-
-Replacement #12:
+Replacement #5:
   Expression: 2.5\cdot
   Numerical Value: 2.5
   Line: 181
   Context: 1 7 cdot 10 8 2.5\cdot 10 9 1 5 cdot
 
-Replacement #13:
+Replacement #6:
   Expression: 1.5\cdot
   Numerical Value: 1.5
   Line: 181
   Context: 2 5 cdot 10 9 1.5\cdot 10 10 6 0 cdot
 
-Replacement #14:
+Replacement #7:
   Expression: 6.0\cdot
   Numerical Value: 6.0
   Line: 181
   Context: 1 5 cdot 10 10 6.0\cdot 10 10 right Msun and
 
-Replacement #15:
+Replacement #8:
   Expression: 2.5\cdot
   Numerical Value: 2.5
   Line: 181
   Context: text cut left 0 0 2.5\cdot 10 5 1 4 cdot
 
-Replacement #16:
+Replacement #9:
   Expression: 1.4\cdot
   Numerical Value: 1.4
   Line: 181
   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
 
-Replacement #17:
+Replacement #10:
   Expression: 1.8\cdot
   Numerical Value: 1.8
   Line: 181
   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
 
-Replacement #18:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 9
-  Context: causing a reduction of sim 10\% with respect to the dark
-
-Replacement #19:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 46
-  Context: models reaches up to sim 20\% citep Chisari2019 While these different
-
-Replacement #20:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 127
-  Context: of no more than sim 20\% in most simulations citep e
-
-Replacement #21:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 145
-  Context: maximal power suppression of sim 10\% below the DMO scenario is
-
-Replacement #22:
+Replacement #11:
   Expression: 40\%
   Numerical Value: 40
   Line: 155
   Context: is of the order of 40\% and primarily develops at z
 
-Replacement #23:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 166
-  Context: power suppression of sim 10 20\% Interestingly fable has a larger
 
-Replacement #24:
-  Expression: 40\%
-  Numerical Value: 40
-  Line: 172
-  Context: impact well below the sim 40\% suppression with respect to the
-
-Replacement #25:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 192
-  Context: Fiducial is reduced from about 20\% to 10 over PDMOfilt at
-
-Replacement #26:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 192
-  Context: reduced from about 20 to 10\% over PDMOfilt at scales of
-
-Replacement #27:
-  Expression: 55\%
-  Numerical Value: 55
-  Line: 192
-  Context: hcMpc whereas RadioWeak increases from 55\% over to 65 over PDMOfilt
-
-Replacement #28:
-  Expression: 65\%
-  Numerical Value: 65
-  Line: 192
-  Context: increases from 55 over to 65\% over PDMOfilt We attribute this
-
-Replacement #29:
-  Expression: 95\%
-  Numerical Value: 95
-  Line: 203
-  Context: sim 1 haloes constitute approximately 95\% of Pmm and despite significant
-
-Replacement #30:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 239
-  Context: with a reduction of sim 10\% with respect to the DMO
-
-
-ADDITIONAL REPLACEMENTS (3):
+ADDITIONAL REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -203,10 +89,5 @@ Replacement #2:
   Expression: -100
   Line: 166
   Context: k hcMpc 5 than IllustrisTNG -100 and especially HorizonAGN with the
-
-Replacement #3:
-  Expression: -100
-  Line: 239
-  Context: to Horizon AGN and IllustrisTNG -100 but is more similar to
 
 

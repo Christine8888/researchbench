@@ -1,41 +1,45 @@
-2025-05-05 19:38:54,975 - INFO - Logging to file: utils/num_mask_logs/ver_waves_masking.log
-2025-05-05 19:38:54,975 - INFO - Found 4 unique numerical values to mask
-2025-05-05 19:38:55,021 - INFO - Made 36 replacements in the text
-2025-05-05 19:38:55,021 - INFO - Saved masked text to papers/masked_texts/ver_waves.txt
-2025-05-05 19:38:55,021 - INFO - Latex Replacement #1: '\mathrm{breath}= 0.5' at line 153
-2025-05-05 19:38:55,021 - INFO -   Context: the breathing mode as v_ \mathrm{breath}= 0.5 left W z W z
-2025-05-05 19:38:55,021 - INFO - Latex Replacement #2: '20\%' at line 36
-2025-05-05 19:38:55,021 - INFO -   Context: mas Since we cut on 20\% error in parallax that means
-2025-05-05 19:38:55,021 - INFO - Latex Replacement #3: '10\%' at line 51
-2025-05-05 19:38:55,021 - INFO -   Context: the paper but removed approximately 10\% of stars from each colour
-2025-05-05 19:38:55,021 - INFO - Latex Replacement #4: '20\%' at line 141
-2025-05-05 19:38:55,021 - INFO -   Context: and are restricted to maximum 20\% error For the GALAH sample
-2025-05-05 19:38:55,021 - INFO - Rounded Replacement #1: 'approximately 0.095' at line 36
-2025-05-05 19:38:55,021 - INFO -   Context: 16 5 and 17 is approximately 0.095 mas Since we cut on
-2025-05-05 19:38:55,021 - INFO - Rounded Replacement #2: 'approximately 300' at line 68
-2025-05-05 19:38:55,021 - INFO -   Context: and APOGEE sample each have approximately 300 000 stars After the distance
-2025-05-05 19:38:55,021 - INFO - Rounded Replacement #3: 'approximately 1.8' at line 83
-2025-05-05 19:38:55,021 - INFO -   Context: across all colour bins is approximately 1.8 million stars The fact that
-2025-05-05 19:38:55,021 - INFO - Rounded Replacement #4: 'around 0.5' at line 143
-2025-05-05 19:38:55,021 - INFO -   Context: of a dip in velocities around 0.5 kpc above the mid plane
-2025-05-05 19:38:55,021 - INFO - Rounded Replacement #5: 'approximately 0.4' at line 149
-2025-05-05 19:38:55,021 - INFO -   Context: the number count asymmetry at approximately 0.4 kpc is consistent with previous
-2025-05-05 19:38:55,021 - INFO - Rounded Replacement #6: 'approximately 0.8' at line 149
-2025-05-05 19:38:55,021 - INFO -   Context: studies have found peaks at approximately 0.8 kpc we uncover additional structure
-2025-05-05 19:38:55,021 - INFO - Exact Replacement #1: '20.3' at line 98
-2025-05-05 19:38:55,021 - INFO -   Context: mean value of z_ odot 20.3 pm 0 7 pc The
-2025-05-05 19:38:55,021 - INFO - Exact Replacement #2: '20.8' at line 6
-2025-05-05 19:38:55,021 - INFO -   Context: the vertical density z_ odot 20.8 pm 0 3 mathrm pc
-2025-05-05 19:38:55,021 - INFO - Exact Replacement #3: '20.8' at line 131
-2025-05-05 19:38:55,021 - INFO -   Context: height is improved and becomes 20.8 pm0 3 pc figurename ref
-2025-05-05 19:38:55,021 - INFO - Exact Replacement #4: '20.8' at line 133
-2025-05-05 19:38:55,021 - INFO -   Context: the Galactic mid plane of 20.8 pm0 3 pc agrees with
-2025-05-05 19:38:55,022 - INFO - Exact Replacement #5: '20.8' at line 157
-2025-05-05 19:38:55,022 - INFO -   Context: Sun s position z_ odot 20.8 pm 0 3 mathrm pc
-2025-05-05 19:38:55,022 - INFO - Additional Replacement #1: '-0.25' at line 30
-2025-05-05 19:38:55,022 - INFO -   Context: number counts of stars with -0.25 J K_s 1 25 in
-2025-05-05 19:38:55,022 - INFO - Additional Replacement #2: '-0.65' at line 30
-2025-05-05 19:38:55,022 - INFO -   Context: mag which roughly corresponds to -0.65 G_ mathrm BP G_ mathrm
-2025-05-05 19:38:55,022 - INFO - Additional Replacement #3: '-0.9' at line 133
-2025-05-05 19:38:55,022 - INFO -   Context: vertical height of z_ odot -0.9 pm 0 9 However when
-2025-05-05 19:38:55,022 - INFO - Saved context information to utils/num_mask_logs/ver_waves_contexts.log
+2025-05-11 16:13:09,122 - INFO - Logging to file: utils/num_mask_logs/ver_waves_masking.log
+2025-05-11 16:13:09,123 - INFO - Found 17 unique numerical values to mask
+2025-05-11 16:13:09,258 - INFO - Made 68 replacements in the text
+2025-05-11 16:13:09,259 - INFO - Saved masked text to papers/masked_texts/ver_waves.txt
+2025-05-11 16:13:09,259 - INFO - Latex Replacement #1: '\mathrm{breath}= 0.5' at line 153
+2025-05-11 16:13:09,259 - INFO -   Context: the breathing mode as v_ \mathrm{breath}= 0.5 left W z W z
+2025-05-11 16:13:09,259 - INFO - Rounded Replacement #1: 'approximately 0.095' at line 36
+2025-05-11 16:13:09,259 - INFO -   Context: 16 5 and 17 is approximately 0.095 mas Since we cut on
+2025-05-11 16:13:09,259 - INFO - Rounded Replacement #2: 'approximately 300' at line 68
+2025-05-11 16:13:09,259 - INFO -   Context: and APOGEE sample each have approximately 300 000 stars After the distance
+2025-05-11 16:13:09,259 - INFO - Rounded Replacement #3: 'approximately 1.8' at line 83
+2025-05-11 16:13:09,259 - INFO -   Context: across all colour bins is approximately 1.8 million stars The fact that
+2025-05-11 16:13:09,259 - INFO - Rounded Replacement #4: 'around 0.5' at line 143
+2025-05-11 16:13:09,259 - INFO -   Context: of a dip in velocities around 0.5 kpc above the mid plane
+2025-05-11 16:13:09,259 - INFO - Rounded Replacement #5: 'approximately 0.4' at line 149
+2025-05-11 16:13:09,259 - INFO -   Context: the number count asymmetry at approximately 0.4 kpc is consistent with previous
+2025-05-11 16:13:09,259 - INFO - Rounded Replacement #6: 'approximately 0.8' at line 149
+2025-05-11 16:13:09,259 - INFO -   Context: studies have found peaks at approximately 0.8 kpc we uncover additional structure
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #1: '20.3' at line 98
+2025-05-11 16:13:09,259 - INFO -   Context: mean value of z_ odot 20.3 pm 0 7 pc The
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #2: '20.8' at line 157
+2025-05-11 16:13:09,259 - INFO -   Context: Sun s position z_ odot 20.8 pm 0 3 mathrm pc
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #3: '0.7' at line 6
+2025-05-11 16:13:09,259 - INFO -   Context: 0 2 mathrm kpc approx 0.7 mathrm kpc and approx 1
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #4: '0.7' at line 113
+2025-05-11 16:13:09,259 - INFO -   Context: kpc and the peak at 0.7 kpc This supports that the
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #5: '.7' at line 131
+2025-05-11 16:13:09,259 - INFO -   Context: At a colour of 1 .7 the initial values of z_
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #6: '0.7' at line 149
+2025-05-11 16:13:09,259 - INFO -   Context: structure with double peaks at 0.7 kpc and 1 1 kpc
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #7: '.1' at line 6
+2025-05-11 16:13:09,259 - INFO -   Context: mathrm kpc and approx 1 .1 mathrm kpc We find that
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #8: '.6' at line 153
+2025-05-11 16:13:09,259 - INFO -   Context: gaia18a In their Figure C .6 they plot the amplitudes of
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #9: '0.3' at line 6
+2025-05-11 16:13:09,259 - INFO -   Context: z_ odot 20 8 pm 0.3 mathrm pc end abstract begin
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #10: '.3' at line 30
+2025-05-11 16:13:09,259 - INFO -   Context: 15 8 and K 14 .3 over almost the entire sky
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #11: '.3' at line 30
+2025-05-11 16:13:09,259 - INFO -   Context: below G J approx 1 .3 and for these stars gaia
+2025-05-11 16:13:09,259 - INFO - Exact Replacement #12: '0.9' at line 6
+2025-05-11 16:13:09,259 - INFO -   Context: 0 4 mathrm kpc approx 0.9 mathrm kpc and approx 1
+2025-05-11 16:13:09,259 - INFO - Additional Replacement #1: '-0.25' at line 30
+2025-05-11 16:13:09,259 - INFO -   Context: number counts of stars with -0.25 J K_s 1 25 in
+2025-05-11 16:13:09,259 - INFO - Saved context information to utils/num_mask_logs/ver_waves_contexts.log

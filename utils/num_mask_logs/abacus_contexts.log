@@ -2,14 +2,13 @@ Masked values and their context for paper: abacus
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 21 replacements
-  ROUNDED: 2 replacements
-  EXACT: 19 replacements
-  ADDITIONAL: 17 replacements
+  LATEX: 6 replacements
+  ROUNDED: 1 replacements
+  ADDITIONAL: 7 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (21):
+LATEX REPLACEMENTS (6):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -25,121 +24,31 @@ Replacement #2:
   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
 
 Replacement #3:
-  Expression: 2.6\times
-  Numerical Value: 2.6
-  Line: 278
-  Context: 125 the maximum deviation is 2.6\times 10 5 in units of
-
-Replacement #4:
-  Expression: 1.2\times
-  Numerical Value: 1.2
-  Line: 295
-  Context: The median force error is 1.2\times 10 6 which is better
-
-Replacement #5:
   Expression: 10\times
   Numerical Value: 10
   Line: 503
   Context: single drive However they are 10\times more expensive per GB than
 
-Replacement #6:
-  Expression: 1.2\times
-  Numerical Value: 1.2
-  Line: 535
-  Context: the 2048 3 simulation with 1.2\times 10 10 hMsun particle mass
-
-Replacement #7:
+Replacement #4:
   Expression: 0.5\%
   Numerical Value: 0.5
   Line: 114
   Context: of magnitude larger than the 0.5\% time step error for eta
 
-Replacement #8:
+Replacement #5:
   Expression: 35\%
   Numerical Value: 35
   Line: 223
   Context: is about 20 GFLOPs or 35\% of peak single core performance
 
-Replacement #9:
-  Expression: 99\%
-  Numerical Value: 99
-  Line: 272
-  Context: We find that Abacus s 99\% and median fractional errors are
-
-Replacement #10:
-  Expression: 0.1\%
-  Numerical Value: 0.1
-  Line: 297
-  Context: stripes of high force error 0.1\% The location of these particles
-
-Replacement #11:
-  Expression: 15\%
-  Numerical Value: 15
-  Line: 355
-  Context: early versions of Abacus spent 15\% of the total simulation time
-
-Replacement #12:
+Replacement #6:
   Expression: 15\%
   Numerical Value: 15
   Line: 361
   Context: it was first implemented the 15\% time spent calling texttt free
 
-Replacement #13:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 368
-  Context: Abacus slab pipeline performance by 20\% We schedule threads over y
 
-Replacement #14:
-  Expression: 25\%
-  Numerical Value: 25
-  Line: 376
-  Context: Multipole and Taylor performance by 25\% subsection I O Strategies When
-
-Replacement #15:
-  Expression: 10\%
-  Numerical Value: 10
-  Line: 392
-  Context: notable system overheads of order 10\% of the run time that
-
-Replacement #16:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 401
-  Context: and GPU communication at the 20\% level The OpenMP threads use
-
-Replacement #17:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 499
-  Context: the fast partition is consistently 20\% faster than the slow partition
-
-Replacement #18:
-  Expression: 20\%
-  Numerical Value: 20
-  Line: 499
-  Context: partition which translates directly to 20\% increase performance in our large
-
-Replacement #19:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 506
-  Context: of an A40 is about 50\% better but the price to
-
-Replacement #20:
-  Expression: 30\%
-  Numerical Value: 30
-  Line: 515
-  Context: overall CPU work running about 30\% faster However the disks could
-
-Replacement #21:
-  Expression: 0.01\%
-  Numerical Value: 0.01
-  Line: 535
-  Context: theory solution to better than 0.01\% The most ambitious Abacus simulations
-
-
-ROUNDED REPLACEMENTS (2):
+ROUNDED REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -148,196 +57,41 @@ Replacement #1:
   Line: 255
   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
 
-Replacement #2:
-  Expression: about 200
-  Numerical Value: 200
-  Line: 495
-  Context: A single hard drive provides about 200 MB s under favorable conditions
 
-
-EXACT REPLACEMENTS (19):
+ADDITIONAL REPLACEMENTS (7):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 0
-  Line: 50
-  Context: line galaxies ELGs between redshifts 0 6 and 1 6 over
-
-Replacement #2:
-  Expression: 0
-  Line: 112
-  Context: the softening length for eta 0 25 the value used in
-
-Replacement #3:
-  Expression: 0
-  Line: 114
-  Context: step error for eta le 0 2 in Fig ref fig
-
-Replacement #4:
-  Expression: 0
-  Line: 169
-  Context: c text for begin cases 0 le a le p 0
-
-Replacement #5:
-  Expression: 0
-  Line: 170
-  Context: 0 le a le p 0 le b le p a
-
-Replacement #6:
-  Expression: 0
-  Line: 171
-  Context: le b le p a 0 le c le p a
-
-Replacement #7:
-  Expression: 0
-  Line: 181
-  Context: 1 6 double M cml 0 for int q 0 q
-
-Replacement #8:
-  Expression: 0
-  Line: 182
-  Context: cml 0 for int q 0 q n q double mx
-
-Replacement #9:
-  Expression: 0
-  Line: 184
-  Context: mx 1 for int a 0 a order a double mxy
-
-Replacement #10:
-  Expression: 0
-  Line: 186
-  Context: mxy mx for int b 0 b order a b double
-
-Replacement #11:
-  Expression: 0
-  Line: 188
-  Context: mxyz mxy for int c 0 c order a b c
-
-Replacement #12:
-  Expression: 0
-  Line: 293
-  Context: a snapshot of a z 0 LCDM simulation with 512 3
-
-Replacement #13:
-  Expression: 0
-  Line: 303
-  Context: must wait for texttt LoadSlab 0 through texttt LoadSlab 4 the
-
-Replacement #14:
-  Expression: 0
-  Line: 305
-  Context: and actions fboxsep 1mm fboxrule 0 5mm definecolor C1 HTML 7fc97f
-
-Replacement #15:
-  Expression: 0
-  Line: 370
-  Context: physical memory corresponding to pencils 0 to ttt CPD 2 and
-
-Replacement #16:
-  Expression: 0
-  Line: 472
-  Context: distance from an imaginary z 0 observer and a spherical surface
-
-Replacement #17:
-  Expression: 0
-  Line: 493
-  Context: TB of particle data and 0 4 TB of multipole data
-
-Replacement #18:
-  Expression: 0
-  Line: 517
-  Context: A FoF linking length of 0 2 for example finds a
-
-Replacement #19:
-  Expression: 0
-  Line: 537
-  Context: the terminal redshift of z 0 1 As part of that
-
-
-ADDITIONAL REPLACEMENTS (17):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: -100
-  Line: 79
-  Context: the average cell contains 30 -100 particles Cells are organized into
-
-Replacement #2:
-  Expression: -100
-  Line: 158
-  Context: Optimal values are typically 30 -100 particles per cell depending on
-
-Replacement #3:
-  Expression: -512
-  Line: 223
-  Context: Xeon processor with two AVX -512 FMA units 63 particles was
-
-Replacement #4:
-  Expression: -15
-  Line: 223
-  Context: same answer to within 10 -15 The Taylors computation is somewhat
-
-Replacement #5:
   Expression: -10
   Line: 265
   Context: positions retain an additional 9 -10 bits of mantissa beyond the
 
-Replacement #6:
-  Expression: -754
-  Line: 265
-  Context: nominal 24 in the IEEE -754 floating point representation Multipole and
-
-Replacement #7:
-  Expression: -20
-  Line: 344
-  Context: enough RAM to hold 10 -20 hMpc worth of slabs to
-
-Replacement #8:
-  Expression: -20
-  Line: 413
-  Context: precise density estimate using 10 -20 particles rather than the distance
-
-Replacement #9:
-  Expression: -30
-  Line: 511
-  Context: the extreme bias factors 5 -30 of massive halos at this
-
-Replacement #10:
-  Expression: -1000
-  Line: 511
-  Context: of clustering with only 500 -1000 objects assuming that the detected
-
-Replacement #11:
+Replacement #2:
   Expression: -1.5
   Line: 539
   Context: of varying spectral index n_s -1.5 2 2 25 2 5
 
-Replacement #12:
+Replacement #3:
   Expression: -2.25
   Line: 539
   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
 
-Replacement #13:
+Replacement #4:
   Expression: -2.5
   Line: 539
   Context: 1 5 2 2 25 -2.5 in 4096 3 and 6144
 
-Replacement #14:
-  Expression: -60
-  Line: 546
-  Context: a scale never achieved before -60 trillion particles spanning 97 cosmologies
-
-Replacement #15:
+Replacement #5:
   Expression: -1313285
   Line: 553
   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
 
-Replacement #16:
+Replacement #6:
   Expression: -1312699.
   Line: 557
   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
 
-Replacement #17:
+Replacement #7:
   Expression: -00
   Line: 560
   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have

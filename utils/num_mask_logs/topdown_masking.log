@@ -1,9 +1,4 @@
-2025-05-05 19:38:54,818 - INFO - Logging to file: utils/num_mask_logs/topdown_masking.log
-2025-05-05 19:38:54,819 - INFO - Found 4 unique numerical values to mask
-2025-05-05 19:38:54,823 - INFO - Made 4 replacements in the text
-2025-05-05 19:38:54,824 - INFO - Saved masked text to papers/masked_texts/topdown.txt
-2025-05-05 19:38:54,824 - INFO - Latex Replacement #1: '20\%' at line 127
-2025-05-05 19:38:54,824 - INFO -   Context: introduce uncertainties up to sim 20\% on the maximum BH mass
-2025-05-05 19:38:54,824 - INFO - Additional Replacement #1: '-60' at line 114
-2025-05-05 19:38:54,824 - INFO -   Context: He core masses between 38 -60 M_ odot We emphasize that
-2025-05-05 19:38:54,824 - INFO - Saved context information to utils/num_mask_logs/topdown_contexts.log
+2025-05-11 16:13:08,729 - INFO - Logging to file: utils/num_mask_logs/topdown_masking.log
+2025-05-11 16:13:08,730 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:13:08,739 - INFO - Made 4 replacements in the text
+2025-05-11 16:13:08,740 - INFO - Saved masked text to papers/masked_texts/topdown.txt

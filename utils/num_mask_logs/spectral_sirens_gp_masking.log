@@ -1,13 +1,7 @@
-2025-05-05 19:38:54,463 - INFO - Logging to file: utils/num_mask_logs/spectral_sirens_gp_masking.log
-2025-05-05 19:38:54,463 - INFO - Found 7 unique numerical values to mask
-2025-05-05 19:38:54,499 - INFO - Made 7 replacements in the text
-2025-05-05 19:38:54,499 - INFO - Saved masked text to papers/masked_texts/spectral_sirens_gp.txt
-2025-05-05 19:38:54,499 - INFO - Additional Replacement #1: '-1746045.' at line 311
-2025-05-05 19:38:54,499 - INFO -   Context: Program under Grant No DGE -1746045. J M E is supported
-2025-05-05 19:38:54,499 - INFO - Additional Replacement #2: '-2006645' at line 318
-2025-05-05 19:38:54,499 - INFO -   Context: supported by NSF grants AST -2006645 and PHY 2110507 as well
-2025-05-05 19:38:54,499 - INFO - Additional Replacement #3: '-2110507' at line 318
-2025-05-05 19:38:54,499 - INFO -   Context: grants AST 2006645 and PHY -2110507 as well as by the
-2025-05-05 19:38:54,499 - INFO - Additional Replacement #4: '-2.7' at line 351
-2025-05-05 19:38:54,499 - INFO -   Context: events we have fixed alpha -2.7 m_ max 78 Msun m_
-2025-05-05 19:38:54,499 - INFO - Saved context information to utils/num_mask_logs/spectral_sirens_gp_contexts.log
+2025-05-11 16:13:07,857 - INFO - Logging to file: utils/num_mask_logs/spectral_sirens_gp_masking.log
+2025-05-11 16:13:07,857 - INFO - Found 21 unique numerical values to mask
+2025-05-11 16:13:07,926 - INFO - Made 7 replacements in the text
+2025-05-11 16:13:07,926 - INFO - Saved masked text to papers/masked_texts/spectral_sirens_gp.txt
+2025-05-11 16:13:07,926 - INFO - Additional Replacement #1: '-1746045.' at line 311
+2025-05-11 16:13:07,926 - INFO -   Context: Program under Grant No DGE -1746045. J M E is supported
+2025-05-11 16:13:07,926 - INFO - Saved context information to utils/num_mask_logs/spectral_sirens_gp_contexts.log

@@ -1,147 +1,89 @@
-2025-05-05 19:38:53,652 - INFO - Logging to file: utils/num_mask_logs/MUSE_outflows_masking.log
-2025-05-05 19:38:53,652 - INFO - Found 28 unique numerical values to mask
-2025-05-05 19:38:53,826 - INFO - Made 84 replacements in the text
-2025-05-05 19:38:53,827 - INFO - Saved masked text to papers/masked_texts/MUSE_outflows.txt
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #1: '10\%' at line 56
-2025-05-05 19:38:53,827 - INFO -   Context: of the AGN energy 1 10\% of mathrm L_ AGN e
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #2: '10\%' at line 60
-2025-05-05 19:38:53,827 - INFO -   Context: theoretical coupling efficiency of 1 10\% e g citealt villar_martin16 fiore17
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #3: '10\%' at line 60
-2025-05-05 19:38:53,827 - INFO -   Context: a coupling efficiency of 1 10\% at the wind injection scale
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #4: '10\%' at line 64
-2025-05-05 19:38:53,827 - INFO -   Context: forming in the burst of 10\% to 80 of the total
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #5: '80\%' at line 64
-2025-05-05 19:38:53,827 - INFO -   Context: the burst of 10 to 80\% of the total stellar mass
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #6: '50\%' at line 104
-2025-05-05 19:38:53,827 - INFO -   Context: which it contributes more than 50\% of the total flux density
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #7: '30\%' at line 119
-2025-05-05 19:38:53,827 - INFO -   Context: sources and or spaxels gtrsim 30\% suggesting that NaID emission is
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #8: '45\%' at line 150
-2025-05-05 19:38:53,827 - INFO -   Context: ionized outflows we found that 45\% are 0 3 dex above
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #9: '36\%' at line 150
-2025-05-05 19:38:53,827 - INFO -   Context: forming main sequence confidence intervals 36\% 56 and 32 are 0
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #10: '56\%' at line 150
-2025-05-05 19:38:53,827 - INFO -   Context: main sequence confidence intervals 36 56\% and 32 are 0 6
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #11: '32\%' at line 150
-2025-05-05 19:38:53,827 - INFO -   Context: confidence intervals 36 56 and 32\% are 0 6 dex above
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #12: '24\%' at line 150
-2025-05-05 19:38:53,827 - INFO -   Context: 6 dex above confidence intervals 24\% 41 We found a significant
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #13: '41\%' at line 150
-2025-05-05 19:38:53,827 - INFO -   Context: dex above confidence intervals 24 41\% We found a significant correlation
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #14: '50\%' at line 158
-2025-05-05 19:38:53,827 - INFO -   Context: broad component contributes more than 50\% of the total flux density
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #15: '45\%' at line 184
-2025-05-05 19:38:53,827 - INFO -   Context: U LIRGs We found that 45\% of galaxies in our parent
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #16: '36\%' at line 184
-2025-05-05 19:38:53,827 - INFO -   Context: the star forming main sequence 36\% 56 at 95 confidence and
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #17: '56\%' at line 184
-2025-05-05 19:38:53,827 - INFO -   Context: star forming main sequence 36 56\% at 95 confidence and 32
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #18: '95\%' at line 184
-2025-05-05 19:38:53,827 - INFO -   Context: main sequence 36 56 at 95\% confidence and 32 are 0
-2025-05-05 19:38:53,827 - INFO - Latex Replacement #19: '32\%' at line 184
-2025-05-05 19:38:53,828 - INFO -   Context: 56 at 95 confidence and 32\% are 0 6 dex above
-2025-05-05 19:38:53,828 - INFO - Latex Replacement #20: '24\%' at line 184
-2025-05-05 19:38:53,828 - INFO -   Context: are 0 6 dex above 24\% 41 For our combined sample
-2025-05-05 19:38:53,828 - INFO - Latex Replacement #21: '41\%' at line 184
-2025-05-05 19:38:53,828 - INFO -   Context: 0 6 dex above 24 41\% For our combined sample of
-2025-05-05 19:38:53,828 - INFO - Latex Replacement #22: '100\%' at line 202
-2025-05-05 19:38:53,828 - INFO -   Context: peak fluxes that are 10 100\% of the peak fluxes of
-2025-05-05 19:38:53,828 - INFO - Latex Replacement #23: '0.5\%' at line 256
-2025-05-05 19:38:53,828 - INFO -   Context: is estimated to be sim 0.5\% These systems are also luminous
-2025-05-05 19:38:53,828 - INFO - Latex Replacement #24: '0.5\%' at line 280
-2025-05-05 19:38:53,828 - INFO -   Context: is estimated to be sim 0.5\% However both of these systems
-2025-05-05 19:38:53,828 - INFO - Rounded Replacement #1: 'about 0.1' at line 248
-2025-05-05 19:38:53,828 - INFO -   Context: H alpha flux ratio is about 0.1 floattable floattable subsection Multiphased wind
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #1: '.130' at line 176
-2025-05-05 19:38:53,828 - INFO -   Context: N_ mathrm NaI emis 1 .130 times 10 12 mathrm cm
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #2: '1.44' at line 100
-2025-05-05 19:38:53,828 - INFO -   Context: vary between 0 44 and 1.44 Similarly to the post starburst
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #3: '1.44' at line 116
-2025-05-05 19:38:53,828 - INFO -   Context: ranges between 0 44 and 1.44 For electron densities outside this
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #4: '0.3' at line 70
-2025-05-05 19:38:53,828 - INFO -   Context: cosmology with Omega_ mathrm M 0.3 Omega_ Lambda 0 7 and
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #5: '.3' at line 92
-2025-05-05 19:38:53,828 - INFO -   Context: a FWHM resolution of 2 .3 AA citep vazdekis10 We used
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #6: '0.3' at line 150
-2025-05-05 19:38:53,828 - INFO -   Context: we found that NUMERICAL_RESULT are 0.3 dex above the star forming
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #7: '0.3' at line 184
-2025-05-05 19:38:53,828 - INFO -   Context: in our parent sample are 0.3 dex above the star forming
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #8: '.3' at line 256
-2025-05-05 19:38:53,828 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #9: '.3' at line 280
-2025-05-05 19:38:53,828 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #10: '.5' at line 160
-2025-05-05 19:38:53,828 - INFO -   Context: a factor of 1 2 .5 As discussed in section ref
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #11: '.5' at line 184
-2025-05-05 19:38:53,828 - INFO -   Context: SF L_ odot approx 10 .5 These observations call into question
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #12: '0.5' at line 194
-2025-05-05 19:38:53,828 - INFO -   Context: mathrm E B V of 0.5 1 mag in a large
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #13: '.5' at line 256
-2025-05-05 19:38:53,828 - INFO -   Context: of 11 NUMERICAL_RESULT and 11 .5 L_ odot equivalent to SFRs
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #14: '.5' at line 280
-2025-05-05 19:38:53,828 - INFO -   Context: of 11 NUMERICAL_RESULT and 11 .5 L_ odot where we expect
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #15: '300' at line 64
-2025-05-05 19:38:53,828 - INFO -   Context: SFRs ranging from 50 to 300 mathrm M_ odot yr citep
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #16: '300' at line 192
-2025-05-05 19:38:53,828 - INFO -   Context: high velocity dispersions sigma_ sim 300 km sec and significant dust
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #17: '300' at line 218
-2025-05-05 19:38:53,828 - INFO -   Context: velocity dispersions of sim 200 300 km sec The line ratios
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #18: '300' at line 228
-2025-05-05 19:38:53,828 - INFO -   Context: density of the wings sim 300 mathrm cm 3 is higher
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #19: '100' at line 68
-2025-05-05 19:38:53,828 - INFO -   Context: kinetic powers that are 10 100 times larger than those observed
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #20: '100' at line 98
-2025-05-05 19:38:53,828 - INFO -   Context: which range between 30 and 100 were chosen as the maximal
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #21: '100' at line 170
-2025-05-05 19:38:53,828 - INFO -   Context: is blueshifted by more than 100 km sec from the centroid
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #22: '100' at line 170
-2025-05-05 19:38:53,828 - INFO -   Context: is redshifted by more than 100 km sec from the stars
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #23: '100' at line 228
-2025-05-05 19:38:53,828 - INFO -   Context: of the narrow component sim 100 mathrm cm 3 This too
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #24: '100' at line 230
-2025-05-05 19:38:53,828 - INFO -   Context: and J020022 and are 10 100 times larger than the SII
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #25: '100' at line 242
-2025-05-05 19:38:53,828 - INFO -   Context: the stars by more than 100 km sec which is indicated
-2025-05-05 19:38:53,828 - INFO - Exact Replacement #26: '100' at line 244
-2025-05-05 19:38:53,828 - INFO -   Context: the stars by more than 100 km sec In figure ref
-2025-05-05 19:38:53,829 - INFO - Exact Replacement #27: '20' at line 256
-2025-05-05 19:38:53,829 - INFO -   Context: odot equivalent to SFRs of 20 and 30 M_ odot mathrm
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #1: '-9300' at line 82
-2025-05-05 19:38:53,829 - INFO -   Context: the wavelength range 4650 AA -9300 AA achieving a spectral resolution
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #2: '-0517' at line 84
-2025-05-05 19:38:53,829 - INFO -   Context: E A galaxies 0100 B -0517 A and 0102 B 0228
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #3: '-0228' at line 84
-2025-05-05 19:38:53,829 - INFO -   Context: 0517 A and 0102 B -0228 A For the earlier program
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #4: '-0517' at line 84
-2025-05-05 19:38:53,829 - INFO -   Context: the earlier program 0100 B -0517 A observations were carried out
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #5: '-0228' at line 84
-2025-05-05 19:38:53,829 - INFO -   Context: the later program 0102 B -0228 A observations were carried out
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #6: '-5700' at line 88
-2025-05-05 19:38:53,829 - INFO -   Context: on the wavelength range 5300 -5700 AA which is free from
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #7: '-6640' at line 96
-2025-05-05 19:38:53,829 - INFO -   Context: on the wavelength range 6500 -6640 AA which includes the H
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #8: '-6620' at line 96
-2025-05-05 19:38:53,829 - INFO -   Context: line region to be 6520 -6620 AA and the continuum region
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #9: '-6520' at line 96
-2025-05-05 19:38:53,829 - INFO -   Context: continuum region to be 6500 -6520 AA and 6620 6640 AA
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #10: '-6640' at line 96
-2025-05-05 19:38:53,829 - INFO -   Context: 6500 6520 AA and 6620 -6640 AA We fitted the continuum
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #11: '-1200' at line 104
-2025-05-05 19:38:53,829 - INFO -   Context: in the range pm 600 -1200 km sec with respect to
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #12: '-5000' at line 116
-2025-05-05 19:38:53,829 - INFO -   Context: densities in the range 50 -5000 mathrm cm 3 and its
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #13: '-5.69' at line 142
-2025-05-05 19:38:53,829 - INFO -   Context: mathrm Na N_ mathrm H -5.69 and B log N_ mathrm
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #14: '-0.95' at line 142
-2025-05-05 19:38:53,829 - INFO -   Context: Na N_ mathrm H gas -0.95 For the stellar masses of
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #15: '-5700' at line 186
-2025-05-05 19:38:53,829 - INFO -   Context: emission in the range 5300 -5700 AA the stellar velocity and
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #16: '-1000' at line 210
-2025-05-05 19:38:53,829 - INFO -   Context: densities in the range 10 -1000 mathrm cm 3 and most
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #17: '-1000' at line 214
-2025-05-05 19:38:53,829 - INFO -   Context: high velocity dispersion of 500 -1000 km sec high maximal outflow
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #18: '-2524' at line 246
-2025-05-05 19:38:53,829 - INFO -   Context: J124754 citealt baron20 and F05189 -2524 citealt rupke15 It may be
-2025-05-05 19:38:53,829 - INFO - Additional Replacement #19: '-750' at line 262
-2025-05-05 19:38:53,829 - INFO -   Context: can reach velocities of 500 -750 km sec on tens of
-2025-05-05 19:38:53,829 - INFO - Saved context information to utils/num_mask_logs/MUSE_outflows_contexts.log
+2025-05-11 16:13:04,486 - INFO - Logging to file: utils/num_mask_logs/MUSE_outflows_masking.log
+2025-05-11 16:13:04,487 - INFO - Found 93 unique numerical values to mask
+2025-05-11 16:13:05,218 - INFO - Made 145 replacements in the text
+2025-05-11 16:13:05,218 - INFO - Saved masked text to papers/masked_texts/MUSE_outflows.txt
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #1: '45\%' at line 150
+2025-05-11 16:13:05,218 - INFO -   Context: ionized outflows we found that 45\% are 0 3 dex above
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #2: '56\%' at line 150
+2025-05-11 16:13:05,218 - INFO -   Context: main sequence confidence intervals 36 56\% and 32 are 0 6
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #3: '32\%' at line 150
+2025-05-11 16:13:05,218 - INFO -   Context: confidence intervals 36 56 and 32\% are 0 6 dex above
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #4: '45\%' at line 184
+2025-05-11 16:13:05,218 - INFO -   Context: U LIRGs We found that 45\% of galaxies in our parent
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #5: '32\%' at line 184
+2025-05-11 16:13:05,218 - INFO -   Context: 56 at 95 confidence and 32\% are 0 6 dex above
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #6: '24\%' at line 184
+2025-05-11 16:13:05,218 - INFO -   Context: are 0 6 dex above 24\% 41 For our combined sample
+2025-05-11 16:13:05,218 - INFO - Latex Replacement #7: '41\%' at line 184
+2025-05-11 16:13:05,219 - INFO -   Context: 0 6 dex above 24 41\% For our combined sample of
+2025-05-11 16:13:05,219 - INFO - Latex Replacement #8: '100\%' at line 202
+2025-05-11 16:13:05,219 - INFO -   Context: peak fluxes that are 10 100\% of the peak fluxes of
+2025-05-11 16:13:05,219 - INFO - Rounded Replacement #1: 'about 0.1' at line 248
+2025-05-11 16:13:05,219 - INFO -   Context: H alpha flux ratio is about 0.1 floattable floattable subsection Multiphased wind
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #1: '.130' at line 176
+2025-05-11 16:13:05,219 - INFO -   Context: N_ mathrm NaI emis 1 .130 times 10 12 mathrm cm
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #2: '0.95' at line 142
+2025-05-11 16:13:05,219 - INFO -   Context: Na N_ mathrm H gas 0.95 For the stellar masses of
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #3: '0.3' at line 70
+2025-05-11 16:13:05,219 - INFO -   Context: cosmology with Omega_ mathrm M 0.3 Omega_ Lambda 0 7 and
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #4: '.3' at line 92
+2025-05-11 16:13:05,219 - INFO -   Context: a FWHM resolution of 2 .3 AA citep vazdekis10 We used
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #5: '.3' at line 256
+2025-05-11 16:13:05,219 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #6: '.3' at line 280
+2025-05-11 16:13:05,219 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #7: '0.5' at line 194
+2025-05-11 16:13:05,219 - INFO -   Context: mathrm E B V of 0.5 1 mag in a large
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #8: '0.1' at line 278
+2025-05-11 16:13:05,219 - INFO -   Context: find L_ mathrm NaID sim 0.1 L_ mathrm H alpha textbf
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #9: '300' at line 218
+2025-05-11 16:13:05,219 - INFO -   Context: velocity dispersions of sim 200 300 km sec The line ratios
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #10: '300' at line 228
+2025-05-11 16:13:05,219 - INFO -   Context: density of the wings sim 300 mathrm cm 3 is higher
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #11: '100' at line 244
+2025-05-11 16:13:05,219 - INFO -   Context: the stars by more than 100 km sec In figure ref
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #12: '500' at line 232
+2025-05-11 16:13:05,219 - INFO -   Context: studies that high velocity v 500 km sec ionized gas in
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #13: '500' at line 262
+2025-05-11 16:13:05,219 - INFO -   Context: flows can reach velocities of 500 750 km sec on tens
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #14: '0.2' at line 84
+2025-05-11 16:13:05,219 - INFO -   Context: with a pixel scale of 0.2 and a spatial resolution of
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #15: '0.8' at line 84
+2025-05-11 16:13:05,219 - INFO -   Context: a spatial resolution of sim 0.8 For the later program 0102
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #16: '0.7' at line 70
+2025-05-11 16:13:05,219 - INFO -   Context: Lambda 0 7 and h 0.7 section Methods label s data
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #17: '50' at line 196
+2025-05-11 16:13:05,219 - INFO -   Context: with a separation of sim 50 kpc with no visible tidal
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #18: '10' at line 60
+2025-05-11 16:13:05,219 - INFO -   Context: case observations that trace T 10 5 K gas will underestimate
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #19: '10' at line 106
+2025-05-11 16:13:05,219 - INFO -   Context: recombination a gas temperature of 10 4 K a dusty screen
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #20: '10' at line 134
+2025-05-11 16:13:05,219 - INFO -   Context: split N mathrm _ NaI 10 13 cm 2 times mathrm
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #21: '10' at line 135
+2025-05-11 16:13:05,219 - INFO -   Context: lu Big Big frac b 10 km sec Big end split
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #22: '10' at line 140
+2025-05-11 16:13:05,219 - INFO -   Context: N_ mathrm NaI 1 y 10 A B C end equation
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #23: '10' at line 190
+2025-05-11 16:13:05,219 - INFO -   Context: with visible companions at distances 10 kpc This suggests that post
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #24: '10' at line 256
+2025-05-11 16:13:05,219 - INFO -   Context: of the ionized gas are 10 and 3 M_ odot yr
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #25: '10' at line 274
+2025-05-11 16:13:05,219 - INFO -   Context: visible companions at distances of 10 kpc This suggest that post
+2025-05-11 16:13:05,219 - INFO - Exact Replacement #26: '10' at line 280
+2025-05-11 16:13:05,219 - INFO -   Context: found mass outflow rates of 10 and 3 M_ odot yr
+2025-05-11 16:13:05,219 - INFO - Additional Replacement #1: '-0517' at line 84
+2025-05-11 16:13:05,219 - INFO -   Context: E A galaxies 0100 B -0517 A and 0102 B 0228
+2025-05-11 16:13:05,219 - INFO - Additional Replacement #2: '-0228' at line 84
+2025-05-11 16:13:05,219 - INFO -   Context: 0517 A and 0102 B -0228 A For the earlier program
+2025-05-11 16:13:05,219 - INFO - Additional Replacement #3: '-0517' at line 84
+2025-05-11 16:13:05,219 - INFO -   Context: the earlier program 0100 B -0517 A observations were carried out
+2025-05-11 16:13:05,219 - INFO - Additional Replacement #4: '-0228' at line 84
+2025-05-11 16:13:05,219 - INFO -   Context: the later program 0102 B -0228 A observations were carried out
+2025-05-11 16:13:05,219 - INFO - Additional Replacement #5: '-6640' at line 96
+2025-05-11 16:13:05,220 - INFO -   Context: 6500 6520 AA and 6620 -6640 AA We fitted the continuum
+2025-05-11 16:13:05,220 - INFO - Additional Replacement #6: '-5.69' at line 142
+2025-05-11 16:13:05,220 - INFO -   Context: mathrm Na N_ mathrm H -5.69 and B log N_ mathrm
+2025-05-11 16:13:05,220 - INFO - Additional Replacement #7: '-2524' at line 246
+2025-05-11 16:13:05,220 - INFO -   Context: J124754 citealt baron20 and F05189 -2524 citealt rupke15 It may be
+2025-05-11 16:13:05,220 - INFO - Saved context information to utils/num_mask_logs/MUSE_outflows_contexts.log

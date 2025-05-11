@@ -2,14 +2,14 @@ Masked values and their context for paper: mars_clouds
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 3 replacements
+  LATEX: 1 replacements
   ROUNDED: 2 replacements
-  EXACT: 1 replacements
-  ADDITIONAL: 31 replacements
+  EXACT: 3 replacements
+  ADDITIONAL: 23 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (3):
+LATEX REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -17,18 +17,6 @@ Replacement #1:
   Numerical Value: 70
   Line: 260
   Context: a different set of data 70\% of the images drawn randomly
-
-Replacement #2:
-  Expression: 30\%
-  Numerical Value: 30
-  Line: 260
-  Context: were used for training and 30\% for validation In total there
-
-Replacement #3:
-  Expression: 50\%
-  Numerical Value: 50
-  Line: 278
-  Context: stringent requirement of at least 50\% of users identifying every arch
 
 
 ROUNDED REPLACEMENTS (2):
@@ -47,7 +35,7 @@ Replacement #2:
   Context: are lower during the day about 25 50 km At night the
 
 
-EXACT REPLACEMENTS (1):
+EXACT REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -55,8 +43,18 @@ Replacement #1:
   Line: 117
   Context: full latitudinal coverage at 12 13 longitudes at two local times
 
+Replacement #2:
+  Expression: 12
+  Line: 206
+  Context: 328 with each packet containing 12 consecutive four hour files giving
 
-ADDITIONAL REPLACEMENTS (31):
+Replacement #3:
+  Expression: 12
+  Line: 211
+  Context: were made in the first 12 hours The first set was
+
+
+ADDITIONAL REPLACEMENTS (23):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -151,67 +149,27 @@ Replacement #18:
 
 Replacement #19:
   Expression: -80
-  Line: 112
-  Context: measures radiance profiles between 0 -80 km with a vertical resolution
-
-Replacement #20:
-  Expression: -230
-  Line: 288
-  Context: L_s 100 From L_s 150 -230 daytime clouds occur primarily at
-
-Replacement #21:
-  Expression: -80
   Line: 294
   Context: alt A and D 65 -80 km during the day and
 
-Replacement #22:
+Replacement #20:
   Expression: -70
   Line: 294
   Context: during the day and 55 -70 km at night this is
 
-Replacement #23:
+Replacement #21:
   Expression: -60
   Line: 298
   Context: season at northern 40 N -60 N and southern 35 S
 
-Replacement #24:
+Replacement #22:
   Expression: -50
   Line: 298
   Context: N and southern 35 S -50 S mid latitudes at both
 
-Replacement #25:
-  Expression: -50
-  Line: 301
-  Context: equatorial clouds ranging from 20 -50 km Figs ref fig combined
-
-Replacement #26:
-  Expression: -40
-  Line: 304
-  Context: temperatures are present from 20 -40 km in the tropics during
-
-Replacement #27:
+Replacement #23:
   Expression: -60
   Line: 304
   Context: during the day and 40 -60 km at night e g
-
-Replacement #28:
-  Expression: -40
-  Line: 307
-  Context: 50 are observed between 20 -40 km during the clear season
-
-Replacement #29:
-  Expression: -50
-  Line: 313
-  Context: during the day about NUMERICAL_RESULT -50 km At night the altitude
-
-Replacement #30:
-  Expression: -35
-  Line: 316
-  Context: clouds which are between 15 -35 km In general there is
-
-Replacement #31:
-  Expression: -10
-  Line: 322
-  Context: observed equatorial clouds and 5 -10 km below the boundary of
 
 
