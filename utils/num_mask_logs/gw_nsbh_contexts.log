@@ -2,293 +2,454 @@ Masked values and their context for paper: gw_nsbh
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 7 replacements
-  EXACT: 30 replacements
-  ADDITIONAL: 16 replacements
+  EQUATION_EXPECTED_VALUE: 13 replacements
+  LIST_EXPECTED_VALUE: 2 replacements
+  LATEX_RANGE: 27 replacements
+  LATEX: 3 replacements
+  EXACT: 10 replacements
+  ADDITIONAL: 7 replacements
+  EXPECTED_VALUE_FINAL_PASS: 10 replacements
+  DECIMAL_POINT: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (7):
+EQUATION_EXPECTED_VALUE REPLACEMENTS (13):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{BH} = 5.4
-  Numerical Value: 5.4
-  Line: 257
-  Context: beta 0 results in M_ \mathrm{BH} = 5.4 0 7 _ 1 0
+  Expression: 2
+  Line: 34
+  Context: distribution as a power law \begin{equation}
+\label{eq:NSspin}
+ p(a_2 | a_\mathrm{max}, \beta_{{s}}) \propto \begin{cases} 
+ {(1-a_2)}^{\beta_{s}} & 0 < a_2 < a_\mathrm{max}\\
+ 0 & \text{otherwise},
+ \end{cases}
+\end{equation} where a_ mathrm max sets
 
 Replacement #2:
-  Expression: 68\%
-  Numerical Value: 68
-  Line: 247
-  Context: _ 0 2 M_ odot 68\% credibility reply the inclusion of
+  Expression: 0
+  Line: 34
+  Context: distribution as a power law \begin{equation}
+\label{eq:NSspin}
+ p(a_2 | a_\mathrm{max}, \beta_{{s}}) \propto \begin{cases} 
+ {(1-a_2)}^{\beta_{s}} & 0 < a_2 < a_\mathrm{max}\\
+ 0 & \text{otherwise},
+ \end{cases}
+\end{equation} where a_ mathrm max sets
 
 Replacement #3:
-  Expression: 68\%
-  Numerical Value: 68
-  Line: 257
-  Context: _ 1 0 M_ odot 68\% credibility At the low end
+  Expression: 2
+  Line: 96
+  Context: maximum spin and critical mass see Section \ref{sec:spinmass}):
+
+\begin{equation}
+ M_{\text{max}}(a_2, a_{\text{Kep}}, M_{\text{TOV}}) = M_{\text{TOV}} A_1\left(\frac{a_2}{a_{ text Kep right end equation
 
 Replacement #4:
-  Expression: 68\%
-  Numerical Value: 68
-  Line: 257
-  Context: _ 0 8 M_ odot 68\% credibility using only the confident
+  Expression: 0
+  Line: 107
+  Context: a power law with slope alpha$, and a minimum mass cutoff at $M_{\rm BH}$:
+\begin{equation}
+\label{eq:pm1}
+p(m_1 | \alpha, M_{\rm BH}) \propto \begin{cases} 
+ 0 & x < M_{\rm BH}\\
+ {m_1}^{-\alp ha text otherwise end cases
 
 Replacement #5:
+  Expression: 2
+  Line: 124
+  Context: theta equiv m_1 m_2 a_1 a_2)$ given population hyperparameters $\Lambda$ and model $H$ as:
+
+\begin{equation}
+ \label{eq:fullpopmodel}
+ \begin{split}
+ \pi(\theta | \Lambda, H) \propto p(m_1 \mid \alpha, M_\mathrm{BH}, H)p(m_2 | \Lambda_\mathrm{NS}, a_2, H) \\
+ p(a_1 \mid H) p(a_2 | a_\mat hrm max beta_s H p
+
+Replacement #6:
+  Expression: 2
+  Line: 165
+  Context: above We then approximate th e integral $\xi(\Lambda)$ as a sum over $M_\mathrm{det}$ detected simulated systems:
+\begin{equation}
+ \xi(\Lambda) \simeq \frac{1}{N_\text{draw}} \sum_{j=1}^{M_\text{det}} \frac{\pi m_ 1 j m_ 2
+
+Replacement #7:
+  Expression: 2
+  Line: 172
+  Context: wave detectors are most s ensitive to degenerate combinations of these parameters. These include the gravitational  chirp mass begin equation mathcal
+
+Replacement #8:
+  Expression: 2
+  Line: 175
+  Context: 5 end equation chirp mass 
+\begin{equation}
+ \mathcal{M} = \frac{(m_1 m_2)^{3/5}}{( m_1 m_2 1 5 end
+
+Replacement #9:
+  Expression: 2
+  Line: 184
+  Context: frac q 1 q 2 end{equation}
+
+and $\chi_{\text{eff}}$, a mass-weighted sum of the component spins that is appro ximately conserved during the inspiral
+
+Replacement #10:
+  Expression: 0
+  Line: 198
+  Context: NSBH detections cite 2020PhRvD 102f4063 C} use the post-Newtonian (PN) description of the GW inspiral, with PN coefficients $\psi_0, \ psi_2 and psi_3 that depend
+
+Replacement #11:
+  Expression: 2
+  Line: 199
+  Context: 5 3 pi 5 3 
+\end{equation}psi_2$, and $\psi_3$ that depend on the masses and spins.
+
+\begin{equation}
+ \psi_0(\mathcal{M}) = \frac{3}{128\mat hcal M 5 3 pi
+
+Replacement #12:
+  Expression: 2
+  Line: 205
+  Context: 5 96 mathcal M pi nu^{2/5}}(\frac{743}{336} + \frac{11\nu}{4})
+\end{equation}
+
+\begin{equation}
+ \beta = \frac{1}{3}(\frac{113-76\nu}{4}\chi_\text{e ff frac 76 4 delta
+
+Replacement #13:
+  Expression: 2
+  Line: 306
+  Context: polynomial may provide insights into the nuclear physics that informs $M_\text{TOV}$ and rotation-supported neutron stars. We consider the simplest case, a linear dependen ce between spin and maximum
+
+
+LIST_EXPECTED_VALUE REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2.4
+  Line: 247
+  Context: with lower limits 95 credibility of 2.4 2 5 M_ odot Our
+
+Replacement #2:
+  Expression: 2.4
+  Line: 247
+  Context: with lower limits 95 credibility of 2.4 2 5 M_ odot Our
+
+
+LATEX_RANGE REPLACEMENTS (27):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2.7^{+0.5}_{-0.4}
+  Line: 6
+  Context: non spinning NS mass is 2.7^{+0.5}_{-0.4} M_ odot 90 credibility while
+
+Replacement #2:
+  Expression: 5.4^{+0.7}_{-1.0}
+  Line: 6
+  Context: a minimum BH mass at $5.4^{+0.7}_{-1.0 M_ odot With future observations
+
+Replacement #3:
+  Expression: 2.22^{+0.85}_{-0.23}
+  Line: 14
+  Context: finds a maximum mass of  $2.22^{+0.85}_{-0.2 3 M_ odot citep 2020RNAAS
+
+Replacement #4:
+  Expression: 8.9^{+ 1.2}_{-1.5}
+  Line: 224
+  Context: at 90 confidence level m_1 8.9^{+ 1.2}_{-1.5} M_ odot m_2 1 9
+
+Replacement #5:
+  Expression: 1.9^{+ 0.3}_{-0.2}
+  Line: 224
+  Context: m_1 NUMERICAL_RESULT M_ odot m_2 1.9^{+ 0.3}_{-0.2} M_ odot item GW200115 citep
+
+Replacement #6:
+  Expression: 5.7^{+1.8}_{-2.1}
+  Line: 225
+  Context: citep 2021ApJ 915L 5A m_1 5.7^{+1.8}_{-2.1} M_ odot m_2 1 5
+
+Replacement #7:
+  Expression: 1.5^{+0.7}_{-0.3}
+  Line: 225
+  Context: m_1 NUMERICAL_RESULT M_ odot m_2  1.5^{+0.7}_{-0.3 M_ odot item GW190814 citep
+
+Replacement #8:
+  Expression: 23.2^{+1.1}_{-1.0}
+  Line: 226
+  Context: citep 2020ApJ 896L 44A m_1 = 23.2^{+1.1}_{-1. 0 M_ odot m_2 2
+
+Replacement #9:
+  Expression: 2.6^{+0.1}_{-0.1}
+  Line: 226
+  Context: NUMERICAL_RESULT 0 M_ odot m_2 = 2.6^{+0.1}_{-0. 1 M_ odot Because the
+
+Replacement #10:
+  Expression: 5.7^{+3.9}_{-2.3}
+  Line: 227
+  Context: GW190426 citep 2021PhRvX 11b1053A m_1  = 5.7^{+3.9}_{-2 3 M_ odot m_2 1
+
+Replacement #11:
+  Expression: 1.5^{+0.8}_{-0.5}
+  Line: 227
+  Context: NUMERICAL_RESULT 3 M_ odot m_ 2 = 1.5^{+0.8}_{- 0 5 M_ odot GW190426
+
+Replacement #12:
+  Expression: 2.8^{+0.3}_{-0.2}
+  Line: 247
+  Context: spin prior measures M_ 9 9} = 2.8^{+0.3}_{ 0 2 M_ odot 68
+
+Replacement #13:
+  Expression: 2.9^{+0.2}_{-0.2}
+  Line: 247
+  Context: events shifts M_ text 99 $ to $2.9^{+0.2}_ 0 2 M_ odot The
+
+Replacement #14:
+  Expression: 5.4^{+ 0.7}_{- 1.0}
+  Line: 257
+  Context: 0 results in M_ mathrm {BH} = 5.4^{+ 0.7}_ 1 0 M_ odot 68
+
+Replacement #15:
+  Expression: 4.2^{+ 1.1}_{-1.0}
+  Line: 257
+  Context: end we infer M_ text BH} = 4.2^{+ 1.1}_ 1 0 M_ odot using
+
+Replacement #16:
+  Expression: 6.7^{+ 0.4}_{-0.8}
+  Line: 257
+  Context: end we infer M_ text BH} = 6.7^{+ 0.4}_ 0 8 M_ odot 68
+
+Replacement #17:
+  Expression: 2.5^{+0.8}_{-1.0}
+  Line: 261
+  Context: we measure a mass ga p of $2.5^{+0.8}_ 1 0 M_ odot reply
+
+Replacement #18:
+  Expression: 2.3^{+0.7}_{-1.0}
+  Line: 261
+  Context: 1 0 M_ odot r eply{($2.3^{+0.7} _ 1 0 M_ odot
+
+Replacement #19:
+  Expression: 3.4^{+1.4}_{-0.9}
+  Line: 273
+  Context: power law slope alpha_ tex t{BH} = 3.4^{+1.4 _ 0 9 reply alpha_
+
+Replacement #20:
+  Expression: 2.3^{+7}_{-1.0}
+  Line: 273
+  Context: 0 9 reply alpha_ te xt{BH} = 2.3^{+ 7 _ 1 0 with
+
+Replacement #21:
+  Expression: 0.9^{+1.1}_{-0.6}
+  Line: 273
+  Context: to significantly shallower slopes alpha_ \text{BH} = 0.9^{ 1 1 _ 0 6
+
+Replacement #22:
+  Expression: 45^{+75}_{-33}
+  Line: 284
+  Context: are expected to merge a t a rate of $4 5 75 _ 33 text
+
+Replacement #23:
+  Expression: 130^{+112}_{-69}
+  Line: 284
+  Context: produces rate estimates from LVK observations of  130 112 _ 69 text
+
+Replacement #24:
+  Expression: 2.0^{+0.15}_{-0.08}
+  Line: 288
+  Context: allow M_ text TOV to be constrained to $ 2 0 0 15 _
+
+Replacement #25:
+  Expression: 2.2^{+0.19}_{-0.07}
+  Line: 288
+  Context: 0 15 _ 0 0 8}\,M_\odot$, or $2 2 0 19 _ 0
+
+Replacement #26:
+  Expression: 0.0^{+0.07}_{-0.15}
+  Line: 295
+  Context: 10 events constrain the ma ss gap width to $0. 0 0 07 _ 0
+
+Replacement #27:
+  Expression: 0.2^{+0.2}_{-0.1}
+  Line: 314
+  Context: 2 10 events can constrain A_1$ to around $0 2 0 2 _ 0
+
+
+LATEX REPLACEMENTS (3):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: 97\%
   Numerical Value: 97
   Line: 261
   Context: than 0 M_ odot with 97\% credibility and 1 M_ odot
 
-Replacement #6:
+Replacement #2:
   Expression: 96\%
   Numerical Value: 96
   Line: 265
   Context: a mass gap exists with 96\% credibility and that it is
 
-Replacement #7:
+Replacement #3:
   Expression: 99.7\%
   Numerical Value: 99.7
   Line: 303
   Context: the lower bound of the 99.7\% credibility interval can be as
 
 
-EXACT REPLACEMENTS (30):
+EXACT REPLACEMENTS (10):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 0.05
-  Line: 296
-  Context: 08 M_ odot and pm 0.05 M_ odot can be achieved
+  Expression: 0.06
+  Line: 314
+  Context: pm 0 1 or pm 0.06 for 150 events A_1 is
 
 Replacement #2:
-  Expression: .35
-  Line: 281
-  Context: A 0 63 mu_1 1 .35 sigma_1 0 07 mu_2 1
+  Expression: 0.07
+  Line: 314
+  Context: _ 0 1 around pm 0.07 for 50 events and around
 
 Replacement #3:
-  Expression: 0.35
-  Line: 281
-  Context: mu_2 1 85 and sigma_2 0.35 We truncate the 1 and
-
-Replacement #4:
-  Expression: 0.08
-  Line: 288
-  Context: 2 0 0 15 _ 0.08 M_ odot or 2 2
-
-Replacement #5:
   Expression: 0.02
   Line: 295
   Context: measurements within 0 00 pm 0.02 M_ odot and 150 events
 
-Replacement #6:
-  Expression: 0.06
-  Line: 312
-  Context: pm 0 1 or pm 0.06 for 150 events A_1 is
-
-Replacement #7:
-  Expression: 0.07
-  Line: 288
-  Context: 2 2 0 19 _ 0.07 M_ odot for M_ text
-
-Replacement #8:
-  Expression: 0.07
-  Line: 312
-  Context: _ 0 1 around pm 0.07 for 50 events and around
-
-Replacement #9:
-  Expression: 1.9
-  Line: 224
-  Context: 1 5 M_ odot m_2 1.9 0 3 _ 0 2
-
-Replacement #10:
+Replacement #4:
   Expression: 2.2
   Line: 252
   Context: M_ odot with support below 2.2 M_ odot green dashed curve
 
-Replacement #11:
-  Expression: 2.6
-  Line: 226
-  Context: 1 0 M_ odot m_2 2.6 0 1 _ 0 1
-
-Replacement #12:
-  Expression: 2.8
-  Line: 247
-  Context: spin prior measures M_ 99 2.8 0 3 _ 0 2
-
-Replacement #13:
-  Expression: .1
-  Line: 225
-  Context: 7 1 8 _ 2 .1 M_ odot m_2 1 5
-
-Replacement #14:
-  Expression: .1
-  Line: 226
-  Context: 44A m_1 23 2 1 .1 _ 1 0 M_ odot
-
-Replacement #15:
-  Expression: .1
-  Line: 257
-  Context: text BH 4 2 1 .1 _ 1 0 M_ odot
-
-Replacement #16:
-  Expression: .1
-  Line: 273
-  Context: text BH 0 9 1 .1 _ 0 6 This is
-
-Replacement #17:
-  Expression: 2.5
-  Line: 261
-  Context: measure a mass gap of 2.5 0 8 _ 1 0
-
-Replacement #18:
+Replacement #5:
   Expression: 2.3
-  Line: 227
-  Context: 5 7 3 9 _ 2.3 M_ odot m_2 1 5
-
-Replacement #19:
-  Expression: 2.3
-  Line: 261
-  Context: 1 0 M_ odot reply 2.3 0 7 _ 1 0
-
-Replacement #20:
-  Expression: 2.3
-  Line: 273
-  Context: 9 reply alpha_ text BH 2.3 7 _ 1 0 with
-
-Replacement #21:
-  Expression: 2.3
-  Line: 319
+  Line: 321
   Context: be as low as sim 2.3 M_ odot even when including
 
-Replacement #22:
+Replacement #6:
   Expression: .3
   Line: 271
   Context: narrower peak at around 1 .3 M_ odot and a longer
 
-Replacement #23:
+Replacement #7:
   Expression: 0.3
   Line: 303
   Context: as much as 0 2 0.3 M_ odot above M_ text
 
-Replacement #24:
-  Expression: 2.7
-  Line: 6
-  Context: non spinning NS mass is 2.7 0 5 _ 0 4
-
-Replacement #25:
+Replacement #8:
   Expression: .2
   Line: 31
   Context: with a period of 4 .2 ms or dimensionless spin magnitude
 
-Replacement #26:
-  Expression: .2
-  Line: 224
-  Context: level m_1 8 9 1 .2 _ 1 5 M_ odot
-
-Replacement #27:
+Replacement #9:
   Expression: .2
   Line: 281
   Context: 2 M_ odot or 2 .2 M_ odot For the 1
 
-Replacement #28:
+Replacement #10:
   Expression: 0.2
-  Line: 312
+  Line: 314
   Context: We consider models with A_1 0.2 and 0 4 For a
 
-Replacement #29:
-  Expression: 0.2
-  Line: 312
-  Context: a_ mathrm Kep and A_1 0.2 10 events can constrain A_1
 
-Replacement #30:
-  Expression: 0.8
-  Line: 227
-  Context: M_ odot m_2 1 5 0.8 _ 0 5 M_ odot
-
-
-ADDITIONAL REPLACEMENTS (16):
+ADDITIONAL REPLACEMENTS (7):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -1.0
-  Line: 6
-  Context: 5 4 0 7 _ -1.0 M_ odot With future observations
-
-Replacement #2:
   Expression: -2500
   Line: 31
   Context: system is the Pulsar J1807 -2500 B with a period of
 
-Replacement #3:
+Replacement #2:
   Expression: -2446
   Line: 31
   Context: fastest spinning is Pulsar J1748 -2446 ad with a period of
 
-Replacement #4:
-  Expression: -76
-  Line: 207
-  Context: frac 1 3 frac 113 -76 nu 4 chi_ text eff
-
-Replacement #5:
-  Expression: -16
-  Line: 211
-  Context: beta frac 3 4 beta -16 pi 128 mathcal M 2
-
-Replacement #6:
-  Expression: -0.1293
-  Line: 214
-  Context: 2341 psi_2 rho and sigma_3 -0.1293 psi_3 rho where we draw
-
-Replacement #7:
-  Expression: -33
-  Line: 284
-  Context: rate of 45 75 _ -33 text Gpc 3 text yr
-
-Replacement #8:
-  Expression: -69
-  Line: 284
-  Context: observations of 130 112 _ -69 text Gpc 3 text yr
-
-Replacement #9:
-  Expression: -30
-  Line: 284
-  Context: for detection rates of 8 -30 NSBH year at Design sensitivity
-
-Replacement #10:
+Replacement #3:
   Expression: -160
   Line: 284
   Context: at Design sensitivity and 40 -160 NSBH year during A Accordingly
 
-Replacement #11:
-  Expression: -0.15
-  Line: 295
-  Context: 0 0 0 07 _ -0.15 M_ odot In general the
-
-Replacement #12:
-  Expression: -0.5
-  Line: 312
-  Context: on A_1 converge as N -0.5 Given that constraining A_1 requires
-
-Replacement #13:
+Replacement #4:
   Expression: -0757058
-  Line: 330
+  Line: 332
   Context: National Science Foundation Grants PHY -0757058 and PHY 0823459 M F
 
-Replacement #14:
+Replacement #5:
   Expression: -0823459.
-  Line: 330
+  Line: 332
   Context: Grants PHY 0757058 and PHY -0823459. M F is supported by
 
-Replacement #15:
+Replacement #6:
   Expression: -51455.001
-  Line: 330
+  Line: 332
   Context: Hubble Fellowship grant HST HF2 -51455.001 A awarded by the Space
 
-Replacement #16:
+Replacement #7:
   Expression: -26555.
-  Line: 331
+  Line: 333
   Context: Incorporated under NASA contract NAS5 -26555. M F is grateful for
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (10):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1.9
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 2.2
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #3:
+  Expression: 2.6
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #4:
+  Expression: 2.8
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #5:
+  Expression: 0.9
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #6:
+  Expression: 0.08
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #7:
+  Expression: 0.05
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #8:
+  Expression: 0.07
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #9:
+  Expression: 0.04
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #10:
+  Expression: 2.3
+  Line: 0
+  Context: Final pass for expected values
+
+
+DECIMAL_POINT REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2.
+  Line: 0
+  Context: Decimal point variation
 
 

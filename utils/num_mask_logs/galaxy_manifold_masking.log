@@ -1,85 +1,243 @@
-2025-05-11 16:13:00,544 - INFO - Logging to file: utils/num_mask_logs/galaxy_manifold_masking.log
-2025-05-11 16:13:00,544 - INFO - Found 103 unique numerical values to mask
-2025-05-11 16:13:01,078 - INFO - Made 111 replacements in the text
-2025-05-11 16:13:01,078 - INFO - Saved masked text to papers/masked_texts/galaxy_manifold.txt
-2025-05-11 16:13:01,079 - INFO - Latex Replacement #1: '=-0.065*\mathrm{D}' at line 174
-2025-05-11 16:13:01,079 - INFO -   Context: begin equation mathrm D _2 =-0.065*\mathrm{D} _1 5 800 end equation
-2025-05-11 16:13:01,079 - INFO - Latex Replacement #2: '44.78\%' at line 59
-2025-05-11 16:13:01,079 - INFO -   Context: and the second axes explain 44.78\% and 48 44 variance of
-2025-05-11 16:13:01,079 - INFO - Latex Replacement #3: '93.23\%' at line 59
-2025-05-11 16:13:01,079 - INFO -   Context: by two parameters with over 93.23\% explained variance We call this
-2025-05-11 16:13:01,079 - INFO - Latex Replacement #4: '93\%' at line 230
-2025-05-11 16:13:01,079 - INFO -   Context: the Galaxy Manifold express over 93\% of the variance of our
-2025-05-11 16:13:01,079 - INFO - Latex Replacement #5: '93.2\%' at line 304
-2025-05-11 16:13:01,079 - INFO -   Context: existence of two parameters representing 93.2\% of the information of our
-2025-05-11 16:13:01,079 - INFO - Rounded Replacement #1: 'approximately 2.5' at line 221
-2025-05-11 16:13:01,079 - INFO -   Context: 1 This crossing time is approximately 2.5 Gyrs for all the tracks
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #1: '0.7078' at line 75
-2025-05-11 16:13:01,079 - INFO -   Context: begin array cc 0 2492 0.7078 0 2594 0 5409 0
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #2: '0.7078' at line 117
-2025-05-11 16:13:01,079 - INFO -   Context: begin array cc 0 2492 0.7078 0 2594 0 5409 0
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #3: '0.1236' at line 262
-2025-05-11 16:13:01,079 - INFO -   Context: sigma_ Delta mathrm Log SFR 0.1236 and sigma_ Delta mathrm Log
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #4: '0.0433' at line 262
-2025-05-11 16:13:01,079 - INFO -   Context: sigma_ Delta mathrm Log M_ 0.0433 The lower SFR values are
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #5: '0.9989' at line 271
-2025-05-11 16:13:01,079 - INFO -   Context: almost perfectly with R 2 0.9989 There is however some bias
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #6: '27,056' at line 35
-2025-05-11 16:13:01,079 - INFO -   Context: us a final sample of 27,056 galaxies This sample was obtained
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #7: '0.1340' at line 77
-2025-05-11 16:13:01,079 - INFO -   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #8: '0.1340' at line 119
-2025-05-11 16:13:01,079 - INFO -   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #9: '0.85' at line 176
-2025-05-11 16:13:01,079 - INFO -   Context: we obtained an accuracy of 0.85 with 1 0 as the
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #10: '0.21' at line 166
-2025-05-11 16:13:01,079 - INFO -   Context: Log M_ mathrm gas are 0.21 0 24 and 0 26
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #11: '0.34' at line 141
-2025-05-11 16:13:01,079 - INFO -   Context: sigma_ mathrm Log sSFR are 0.34 0 11 and 0 37
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #12: '.2' at line 7
-2025-05-11 16:13:01,079 - INFO -   Context: a timescale of sim 1 .2 Gyrs on the manifold Lastly
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #13: '.2' at line 221
-2025-05-11 16:13:01,079 - INFO -   Context: SFH with tau sim 1 .2 Gyrs The black crosses correspond
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #14: '.5' at line 294
-2025-05-11 16:13:01,079 - INFO -   Context: M_ Log M_ gtrsim 11 .5 M_ odot Weighting the samples
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #15: '.8' at line 141
-2025-05-11 16:13:01,079 - INFO -   Context: around D _2 approx 1 .8 subsection Gas mass A key
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #16: '0.1' at line 262
-2025-05-11 16:13:01,079 - INFO -   Context: mathrm truth is within sim 0.1 The standard deviation of the
-2025-05-11 16:13:01,079 - INFO - Exact Replacement #17: '0.1' at line 304
-2025-05-11 16:13:01,079 - INFO -   Context: our galaxy sample at redshift 0.1 suggests that the galaxy manifold
-2025-05-11 16:13:01,079 - INFO - Comma_separated Replacement #1: '27,056' at line 35
-2025-05-11 16:13:01,079 - INFO -   Context: us a final sample of 27,056 galaxies This sample was obtained
-2025-05-11 16:13:01,079 - INFO - Dex_context Replacement #1: '0.12' at line 7
-2025-05-11 16:13:01,079 - INFO -   Context: can be estimated with minimal scatter ([NUMERICAL_RESULT] dex and 0.04 dex for star formation rate and stellar mass, respectively by calibrating with the
-2025-05-11 16:13:01,079 - INFO - Dex_context Replacement #2: '0.04' at line 7
-2025-05-11 16:13:01,079 - INFO -   Context: can be estimated with minimal scatter ([NUMERICAL_RESULT] dex and [NUMERICAL_RESULT] dex for star formation rate and stellar mass, respectively by calibrating with the
-2025-05-11 16:13:01,079 - INFO - Additional Replacement #1: '-20.016' at line 35
-2025-05-11 16:13:01,079 - INFO -   Context: M_ rm limit 0 097 -20.016 section Finding the Galaxy Manifold
-2025-05-11 16:13:01,079 - INFO - Additional Replacement #2: '-0.0758' at line 79
-2025-05-11 16:13:01,079 - INFO -   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
-2025-05-11 16:13:01,079 - INFO - Additional Replacement #3: '-0.3106' at line 80
-2025-05-11 16:13:01,079 - INFO -   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
-2025-05-11 16:13:01,079 - INFO - Additional Replacement #4: '-0.1137' at line 80
-2025-05-11 16:13:01,079 - INFO -   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
-2025-05-11 16:13:01,079 - INFO - Additional Replacement #5: '-0.3133' at line 81
-2025-05-11 16:13:01,080 - INFO -   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #6: '-0.1428' at line 81
-2025-05-11 16:13:01,080 - INFO -   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #7: '-0.3201' at line 82
-2025-05-11 16:13:01,080 - INFO -   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #8: '-0.0758' at line 121
-2025-05-11 16:13:01,080 - INFO -   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #9: '-0.3106' at line 122
-2025-05-11 16:13:01,080 - INFO -   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #10: '-0.1137' at line 122
-2025-05-11 16:13:01,080 - INFO -   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #11: '-0.3133' at line 123
-2025-05-11 16:13:01,080 - INFO -   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #12: '-0.1428' at line 123
-2025-05-11 16:13:01,080 - INFO -   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #13: '-0.3201' at line 124
-2025-05-11 16:13:01,080 - INFO -   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
-2025-05-11 16:13:01,080 - INFO - Additional Replacement #14: '-11' at line 221
-2025-05-11 16:13:01,080 - INFO -   Context: galaxies have Log sSFR le -11 yr 1 This crossing time
-2025-05-11 16:13:01,080 - INFO - Saved context information to utils/num_mask_logs/galaxy_manifold_contexts.log
+2025-05-11 16:39:21,919 - INFO - Logging to file: utils/num_mask_logs/galaxy_manifold_masking.log
+2025-05-11 16:39:21,920 - INFO - Found 59 unique numerical values to mask
+2025-05-11 16:39:21,920 - INFO - Found 18 values from expected_output lists: [-0.065, 5.8, 0.85, -0.2492, 0.7078, 0.21, 0.24, 0.26, -0.3863, 0.055, 0.34, 0.11, 0.37, 0.1236, 0.0433, 44.78, 48.44, 93.23]
+2025-05-11 16:39:22,355 - INFO - Made 123 replacements in the text
+2025-05-11 16:39:22,355 - INFO - Saved masked text to papers/masked_texts/galaxy_manifold.txt
+2025-05-11 16:39:22,356 - INFO - Approx_negative Replacement #1: 'D$_2\approx$-1.8' at line 141
+2025-05-11 16:39:22,356 - INFO -   Context: to the D_1 at around D$_2\approx$-1.8 subsection Gas mass A key
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #1: '0.7078' at line 68
+2025-05-11 16:39:22,356 - INFO -   Context: forward transform is given by \begin{equation} \label{eq:trans_matrix_11to2}
+ \left[\begin{array}{c}
+ \mathrm{D}_1^{\prime} \\
+ \mathrm{D}_2^{\prime} \\
+ \end{array}\right]
+ = 
+ \left[\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{array}\right]^{\top} \left[\begin{array}{l}
+ M_{\textit{FUV}} \\
+ M_{\textit{NUV}} \\
+ M_{\textit{u}} \\
+ M_{\textit{g}} \\
+ M_{\textit{r}} \\
+ M_{\textit{i}} \\
+ M_{\textit{z}} \\
+ M_{\textit{Y}} \\
+ M_{\textit{J}} \\
+ M_{\textit{H}} \\
+ M_{\textit{K}} \\
+ \end{array}\right],
+ \end{equation} where M_ mathrm x is
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #2: '0.7078' at line 100
+2025-05-11 16:39:22,356 - INFO -   Context: Similarly the backward transform is  given by,
+ \begin{equation} \label{eq:inv_trans_matrix_2to11}
+ \left[\begin{array}{c}
+ M_{\textit{FUV}}^{\prime} \\
+ M_{\textit{NUV}}^{\prime} \\
+ M_{\textit{u}}^{\prime} \\
+ M_{\textit{g}}^{\prime} \\
+ M_{\textit{r}}^{\prime} \\
+ M_{\textit{i}}^{\prime} \\
+ M_{\textit{z}}^{\prime} \\
+ M_{\textit{Y}}^{\prime} \\
+ M_{\textit{J}}^{\prime} \\
+ M_{\textit{H}}^{\prime} \\
+ M_{\textit{K}}^{\prime} \\
+ \end{array}\right]
+ = 
+ \left[\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{array}\right] \left[\begin{array}{l}
+ \mathrm{D}_1^{\prime} \\
+ \mathrm{D}_2^{\prime} \\
+ \end{array}\right],
+ \e nd equation where the M
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #3: '0.11' at line 147
+2025-05-11 16:39:22,356 - INFO -   Context: gas masses M_ mathrm gas }}$) are given below. 
+ \begin{equation}\label{eq:HI}
+ \begin{split}
+ \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+ &+ (0.47\pm0.02) \log \operatorname{SFR},
+ \en d split end equation begin
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #4: '0.04' at line 147
+2025-05-11 16:39:22,356 - INFO -   Context: gas masses M_ mathrm gas }}$) are given below. 
+ \begin{equation}\label{eq:HI}
+ \begin{split}
+ \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+ &+ (0.47\pm0.02) \log \operatorname{SFR},
+ \en d split end equation begin
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #5: '0.21' at line 151
+2025-05-11 16:39:22,356 - INFO -   Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #6: '0.30' at line 151
+2025-05-11 16:39:22,356 - INFO -   Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #7: '0.10' at line 151
+2025-05-11 16:39:22,356 - INFO -   Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #8: '0.37' at line 151
+2025-05-11 16:39:22,356 - INFO -   Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #9: '0.04' at line 151
+2025-05-11 16:39:22,356 - INFO -   Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #10: '0.70' at line 153
+2025-05-11 16:39:22,356 - INFO -   Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}log \operatorname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{g as 9 28 pm0 04
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #11: '0.11' at line 153
+2025-05-11 16:39:22,356 - INFO -   Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}log \operatorname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{g as 9 28 pm0 04
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #12: '0.04' at line 153
+2025-05-11 16:39:22,356 - INFO -   Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}log \operatorname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{g as 9 28 pm0 04
+2025-05-11 16:39:22,356 - INFO - Equation_expected_value Replacement #13: '5.800' at line 166
+2025-05-11 16:39:22,356 - INFO -   Context: a criterion for morphological classification . 
+ 
+ The classification was done with logistic regression, where we conside red T type 0 and
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #1: '0.34' at line 140
+2025-05-11 16:39:22,356 - INFO -   Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #2: '0.34' at line 140
+2025-05-11 16:39:22,356 - INFO -   Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #3: '0.11' at line 140
+2025-05-11 16:39:22,356 - INFO -   Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #4: '0.11' at line 140
+2025-05-11 16:39:22,356 - INFO -   Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #5: '0.21' at line 162
+2025-05-11 16:39:22,356 - INFO -   Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #6: '0.21' at line 162
+2025-05-11 16:39:22,356 - INFO -   Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #7: '0.24' at line 162
+2025-05-11 16:39:22,356 - INFO -   Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #8: '0.24' at line 162
+2025-05-11 16:39:22,356 - INFO -   Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #9: '0.85' at line 172
+2025-05-11 16:39:22,356 - INFO -   Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+2025-05-11 16:39:22,356 - INFO - List_expected_value Replacement #10: '0.85' at line 172
+2025-05-11 16:39:22,356 - INFO -   Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+2025-05-11 16:39:22,356 - INFO - Large_integer Replacement #1: '90,565 galaxies' at line 35
+2025-05-11 16:39:22,356 - INFO -   Context: 11 bands which gives us 90,565 galaxies We remove galaxies with redshift
+2025-05-11 16:39:22,356 - INFO - Large_integer Replacement #2: '27,056 galaxies' at line 35
+2025-05-11 16:39:22,356 - INFO -   Context: band giving us a fina l sample of 27, 056 galaxies This sample was
+2025-05-11 16:39:22,356 - INFO - Large_integer Replacement #3: '27,000 galaxies' at line 59
+2025-05-11 16:39:22,356 - INFO -   Context: this section The data matrix  with $\sim$27, 000 galaxies samples of 11
+2025-05-11 16:39:22,356 - INFO - Large_integer Replacement #4: 'sample of 27,056' at line 35
+2025-05-11 16:39:22,356 - INFO -   Context: band giving us a final sample of 27,056 galaxies This sample was obtained
+2025-05-11 16:39:22,356 - INFO - Latex Replacement #1: '=-0.065*\mathrm{D}' at line 170
+2025-05-11 16:39:22,356 - INFO -   Context: begin equation mathrm D _2 =-0.065*\mathrm{D} _1 5 800 end equation
+2025-05-11 16:39:22,356 - INFO - Latex Replacement #2: '44.78\%' at line 59
+2025-05-11 16:39:22,357 - INFO -   Context: and the second axes explain 44.78\% and 48 44 variance of
+2025-05-11 16:39:22,357 - INFO - Latex Replacement #3: '93.23\%' at line 59
+2025-05-11 16:39:22,357 - INFO -   Context: by two parameters with over 93.23\% explained variance We call this
+2025-05-11 16:39:22,357 - INFO - Latex Replacement #4: '93.2\%' at line 300
+2025-05-11 16:39:22,357 - INFO -   Context: existence of two parameters representing 93.2\% of the information of our
+2025-05-11 16:39:22,357 - INFO - Exact Replacement #1: '0.1340' at line 77
+2025-05-11 16:39:22,357 - INFO -   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
+2025-05-11 16:39:22,357 - INFO - Exact Replacement #2: '0.1340' at line 118
+2025-05-11 16:39:22,357 - INFO -   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
+2025-05-11 16:39:22,357 - INFO - Exact Replacement #3: '0.21' at line 162
+2025-05-11 16:39:22,357 - INFO -   Context: Log M_ mathrm gas are 0.21 0 24 and 0 26
+2025-05-11 16:39:22,357 - INFO - Exact Replacement #4: '1.2' at line 217
+2025-05-11 16:39:22,357 - INFO -   Context: declining SFH with tau sim 1.2 Gyrs The black crosses correspond
+2025-05-11 16:39:22,357 - INFO - Dex_context Replacement #1: '0.12' at line 7
+2025-05-11 16:39:22,357 - INFO -   Context: can be estimated with minimal scatter ([NUMERICAL_RESULT] dex and 0.04 dex for star formation rate and stellar mass, respectively by calibrating with the
+2025-05-11 16:39:22,357 - INFO - Dex_context Replacement #2: '0.04' at line 7
+2025-05-11 16:39:22,357 - INFO -   Context: can be estimated with minimal scatter ([NUMERICAL_RESULT] dex and [NUMERICAL_RESULT] dex for star formation rate and stellar mass, respectively by calibrating with the
+2025-05-11 16:39:22,357 - INFO - Galaxy_count Replacement #1: '27,000' at line 59
+2025-05-11 16:39:22,357 - INFO -   Context: The data matrix with sim 27,000 galaxies samples of 11 magnitudes features
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #1: '-0.0758' at line 79
+2025-05-11 16:39:22,357 - INFO -   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #2: '-0.3106' at line 80
+2025-05-11 16:39:22,357 - INFO -   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #3: '-0.1137' at line 80
+2025-05-11 16:39:22,357 - INFO -   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #4: '-0.3133' at line 81
+2025-05-11 16:39:22,357 - INFO -   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #5: '-0.1428' at line 81
+2025-05-11 16:39:22,357 - INFO -   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #6: '-0.3201' at line 82
+2025-05-11 16:39:22,357 - INFO -   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #7: '-0.0758' at line 120
+2025-05-11 16:39:22,357 - INFO -   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #8: '-0.3106' at line 121
+2025-05-11 16:39:22,357 - INFO -   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #9: '-0.1137' at line 121
+2025-05-11 16:39:22,357 - INFO -   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #10: '-0.3133' at line 122
+2025-05-11 16:39:22,357 - INFO -   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #11: '-0.1428' at line 122
+2025-05-11 16:39:22,357 - INFO -   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #12: '-0.3201' at line 123
+2025-05-11 16:39:22,357 - INFO -   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
+2025-05-11 16:39:22,357 - INFO - Additional Replacement #13: '-11' at line 217
+2025-05-11 16:39:22,357 - INFO -   Context: galaxies have Log sSFR le -11 yr 1 This crossing time
+2025-05-11 16:39:22,357 - INFO - Expected_value_final_pass Replacement #1: '0.24' at line 0
+2025-05-11 16:39:22,357 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:22,357 - INFO - Expected_value_final_pass Replacement #2: '0.26' at line 0
+2025-05-11 16:39:22,357 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:22,357 - INFO - Expected_value_final_pass Replacement #3: '0.37' at line 0
+2025-05-11 16:39:22,357 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:22,357 - INFO - Expected_value_final_pass Replacement #4: '0.1236' at line 0
+2025-05-11 16:39:22,357 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:22,357 - INFO - Expected_value_final_pass Replacement #5: '0.0433' at line 0
+2025-05-11 16:39:22,357 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:22,357 - INFO - Trailing_zeros Replacement #1: '5.800' at line 0
+2025-05-11 16:39:22,357 - INFO -   Context: Trailing zeros variation
+2025-05-11 16:39:22,357 - INFO - Saved context information to utils/num_mask_logs/galaxy_manifold_contexts.log

@@ -1,27 +1,18 @@
-2025-05-11 16:13:04,049 - INFO - Logging to file: utils/num_mask_logs/ls_cal_masking.log
-2025-05-11 16:13:04,050 - INFO - Found 33 unique numerical values to mask
-2025-05-11 16:13:04,252 - INFO - Made 36 replacements in the text
-2025-05-11 16:13:04,252 - INFO - Saved masked text to papers/masked_texts/ls_cal.txt
-2025-05-11 16:13:04,252 - INFO - Latex Replacement #1: '95.3\%' at line 69
-2025-05-11 16:13:04,252 - INFO -   Context: EDGES best fit profile with 95.3\% confidence citep sarasDisputeEdges hypothesising that
-2025-05-11 16:13:04,252 - INFO - Rounded Replacement #1: 'approximately 80' at line 73
-2025-05-11 16:13:04,252 - INFO -   Context: we achieve an RMSE of approximately 80 mK for the simulated antenna
-2025-05-11 16:13:04,252 - INFO - Exact Replacement #1: '.600' at line 210
-2025-05-11 16:13:04,252 - INFO -   Context: steel IP66 box Rittal 1007 .600 with a hinged door that
-2025-05-11 16:13:04,252 - INFO - Exact Replacement #2: '.1' at line 184
-2025-05-11 16:13:04,252 - INFO -   Context: flat noise figure of 5 .1 dB However it is expected
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #1: '-50' at line 186
-2025-05-11 16:13:04,253 - INFO -   Context: amplifier based on an ERA -50 SM chip offering a NF
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #2: '-84' at line 186
-2025-05-11 16:13:04,253 - INFO -   Context: over time with the CMA -84 Measurements of the LNA S
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #3: '-30' at line 186
-2025-05-11 16:13:04,253 - INFO -   Context: output match at better than -30 dB over the observational band
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #4: '-30' at line 225
-2025-05-11 16:13:04,253 - INFO -   Context: on regular intervals of 10 -30 seconds resulting in much shorter
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #5: '-405' at line 230
-2025-05-11 16:13:04,253 - INFO -   Context: and a 4 inch RG -405 cable The main MS1 switch
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #6: '-402' at line 230
-2025-05-11 16:13:04,253 - INFO -   Context: box are made using RG -402 semi rigid cables for stability
-2025-05-11 16:13:04,253 - INFO - Additional Replacement #7: '-08' at line 232
-2025-05-11 16:13:04,253 - INFO -   Context: modules are beneath the TC -08 and oval ring and are
-2025-05-11 16:13:04,253 - INFO - Saved context information to utils/num_mask_logs/ls_cal_contexts.log
+2025-05-11 16:39:25,564 - INFO - Logging to file: utils/num_mask_logs/ls_cal_masking.log
+2025-05-11 16:39:25,565 - INFO - Found 30 unique numerical values to mask
+2025-05-11 16:39:25,565 - INFO - Found 7 values from expected_output lists: [0.56, 0.144, 264.3, 57.4, 157.6, 1157.2, 302.3]
+2025-05-11 16:39:25,785 - INFO - Made 36 replacements in the text
+2025-05-11 16:39:25,786 - INFO - Saved masked text to papers/masked_texts/ls_cal.txt
+2025-05-11 16:39:25,786 - INFO - Large_integer Replacement #1: 'total of 229,376' at line 219
+2025-05-11 16:39:25,786 - INFO -   Context: and polyphase filterbank incorporating a total of 229,376 tap coefficients citep reach Spectra
+2025-05-11 16:39:25,786 - INFO - Latex Replacement #1: '95.3\%' at line 69
+2025-05-11 16:39:25,786 - INFO -   Context: EDGES best fit profile with 95.3\% confidence citep sarasDisputeEdges hypothesising that
+2025-05-11 16:39:25,786 - INFO - Exact Replacement #1: '.600' at line 210
+2025-05-11 16:39:25,786 - INFO -   Context: steel IP66 box Rittal 1007 .600 with a hinged door that
+2025-05-11 16:39:25,786 - INFO - Additional Replacement #1: '-84' at line 186
+2025-05-11 16:39:25,786 - INFO -   Context: over time with the CMA -84 Measurements of the LNA S
+2025-05-11 16:39:25,786 - INFO - Additional Replacement #2: '-405' at line 230
+2025-05-11 16:39:25,786 - INFO -   Context: and a 4 inch RG -405 cable The main MS1 switch
+2025-05-11 16:39:25,786 - INFO - Additional Replacement #3: '-402' at line 230
+2025-05-11 16:39:25,786 - INFO -   Context: box are made using RG -402 semi rigid cables for stability
+2025-05-11 16:39:25,786 - INFO - Saved context information to utils/num_mask_logs/ls_cal_contexts.log

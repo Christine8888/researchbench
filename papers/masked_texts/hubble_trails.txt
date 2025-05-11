@@ -97,7 +97,7 @@ $u_s=\sqrt{(\sqrt{s})^2+(0.07s)^2}=\sqrt{s+0.0049s^2}$. We then calculate the fr
 
 Additionally, for the distribution of the declination and right ascension, in the frequency histogram for the images with satellites, we divide the number of images for each bin by the total number of images with satellites $s_{total}$ or for the entire dataset $a_{total}$: $freq_s=\frac{s}{s_{total}}$ and $freq_a=\frac{a}{a_{total}}$. To calculate the uncertainty in the frequency histograms, we used the following equation:
 \begin{equation}
- u_{freq_s}=\sqrt{(\frac{1}{s_{total}}u_s)^2+(\frac{s}{s_{total}^2}u_{s_{total}})^2}.
+ u_{freq_s}=\sqrt{(\frac{[NUMERICAL_RESULT]}{s_{total}}u_s)^2+(\frac{s}{s_{total}^2}u_{s_{total}})^2}.
  \label{eq:u_freq}
 \end{equation}
 
@@ -155,18 +155,16 @@ Since HST is orbiting at a high altitude, its horizon is lowered by:
  \theta = \arccos{ \frac{R_{\mathrm{E}}}{R_{\mathrm{H}}}}\approx23^{\circ}.
 \end{equation}
 
-The area of the spherical cap of satellites visible to HST is: $A_{\mathrm{vis}} = 2\pi R_{\mathrm{S}} (R_{\mathrm{S}}-c)$, where $c$ is the distance from the centre of the Earth to the perpendicular line between the satellite visible on the horizon ($a$) and the direction of HST ($R_{\mathrm{H}}$): $c^2 =R_{\mathrm{S}}^2 - a^2$. The area of the triangle in Figure \ref{schematic} is $\frac{1}{2}b R_{\mathrm{E}} = \frac{1}{2}a R_{\mathrm{H}}$, therefore $a=b R_{\mathrm{E}}/R_{\mathrm{H}}$, where $b = \sqrt{R_{\mathrm{S}}^2-R_{\mathrm{E}}^2}+R_{\mathrm{H}}\sin \theta$. The total area of the shell of satellites is: $A_{\mathrm{tot}}=4\pi R_{\mathrm{S}}^2$, hence the fraction of the shell of satellites visible to HST is:
-
-\begin{equation}
- f_\mathrm{{visible}} = \frac{1}{2}\left[1-\sqrt{1-\left( \frac{R_{\mathrm{E}}}{R_{\mathrm{S}}} \right)^2 \left(\frac{\sqrt{R_{\mathrm{S}}^2-R_{\mathrm{E}}^2}}{R_{\mathrm{H}}} +
+The area of the spherical cap of satellites visible to HST is: $A_{\mathrm{vis}} = 2\pi R_{\mathrm{S}} (R_{\mathrm{S}}-c)$, where $c$ is the distance from the centre of the Earth to the perpendicular line between the satellite visible on the horizon ($a$) and the direction of HST ($R_{\mathrm{H}}$): $c^2 =R_{\mathrm{S}}^2 - a^2$. The area of the triangle in Figure \ref{schematic} is $\frac{1}{2}b R_{\mathrm{E}} = \frac{1}{2}a R_{\mathrm{H}}$, therefore $a=b R_{\mathrm{E}}/R_{\mathrm{H}}$, where $b = \sqrt{R_{\mathrm{S}}^2-R_{\mathrm{E}}^2}+R_{\mathrm{H}}\sin \theta$. The total area of the shell of satellites is: $A_{\mathrm{tot}}=4\pi R_{\mathrm{S}}^2$, hence the fraction of the shell of satellites vis\begin{equation}
+ f_\mathrm{{visible}} = \frac{[NUMERICAL_RESULT]}{2}\left[1-\sqrt{1-\left( \frac{R_{\mathrm{E}}}{R_{\mathrm{S}}} \right)^2 \left(\frac{\sqrt{R_{\mathrm{S}}^2-R_{\mathrm{E}}^2}}{R_{\mathrm{H}}} +
  \frac{\sqrt{ R_{\mathrm{H}}^2 - R_{\mathrm{E}}^2 }} {R_{\mathrm{H}}}\right)^2}\right].
 \label{visible}
+\end{equation}e}
 \end{equation}
 
-There is a further constraint that HST cannot point close to the limb of the Earth - it cannot point within 15.5$^\circ$ of the illuminated portion of the Earth and 7.6$^\circ$ of the dark limb of the Earth. Taking into account this constraint implies that $\theta$ will actually be lower, by $\approx11.5^\circ$, on average. The other constraint is that the satellites are illuminated when observed by HST. An accurate estimation of this fraction requires modelling of the inclination of the satellites, HST and the Sun, however from purely statistical arguments (reinforced by the fact that HST has a short period, of only 95 minutes), the satellites will spend a fraction of $2\alpha/{360^{\circ}}$ in the shadow of the Earth (see schematic in Figure \ref{shadow}, where $\alpha = \arctan{\frac{R_{\mathrm{E}}}{R_{\mathrm{S}}}}$, the angle the Earth projects onto the sky at the typical altitude of the satellites). The fraction of time a satellite spends outside the shadow of the Earth is thus:
-
-\begin{equation}
- f_{\mathrm{illuminated}} = 1-\frac{2\alpha}{360^{\circ}}.
+There is a further constraint that HST cannot point close to the limb of the Earth - it cannot point within 15.5$^\circ$ of the illuminated portion of the Earth and 7.6$^\circ$ of the dark limb of the Earth. Taking into account this constraint implies that $\theta$ will actually be lower, by $\approx11.5^\circ$, on average. The other constraint is that the satellites are illuminated when observed by HST. An accurate estimation of this fraction requires modelling of the inclination of the satellites, HST and the Sun, however from purely statistical arguments (reinforced by the fact that HST has a short period, of only 95 minutes), the satellites will spend a fraction of $2\alpha/{360^{\circ}}$ in the shadow of the Earth (see schematic in Figure \ref{shadow}, where $\alpha = \arctan{\frac{R_{\mathrm{E}}}{R_{\mathrm{S}}}}$, the angle the Earth projects onto the sky at the typical altitude of the satellites). The fraction of time a satellite spends outside \begin{equation}
+ f_{\mathrm{illuminated}} = [NUMERICAL_RESULT]-\frac{2\alpha}{360^{\circ}}.
+\end{equation}lpha}{360^{\circ}}.
 \end{equation}
 
 Therefore, the fraction of observable \textit{and} illuminated satellites by HST is:

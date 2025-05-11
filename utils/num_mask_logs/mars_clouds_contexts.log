@@ -2,24 +2,24 @@ Masked values and their context for paper: mars_clouds
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 1 replacements
-  ROUNDED: 2 replacements
+  LARGE_INTEGER: 1 replacements
+  ROUNDED: 1 replacements
   EXACT: 3 replacements
-  ADDITIONAL: 23 replacements
+  COMMA_SEPARATED_LARGE: 2 replacements
+  ADDITIONAL: 13 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (1):
+LARGE_INTEGER REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 70\%
-  Numerical Value: 70
-  Line: 260
-  Context: a different set of data 70\% of the images drawn randomly
+  Expression: total of 1,699
+  Line: 232
+  Context: hour time periods had a total of 1,699 230 annotations The annotations were
 
 
-ROUNDED REPLACEMENTS (2):
+ROUNDED REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -27,12 +27,6 @@ Replacement #1:
   Numerical Value: 3500
   Line: 152
   Context: Each four hour file contains around 3500 limb observations in sequences of
-
-Replacement #2:
-  Expression: about 25
-  Numerical Value: 25
-  Line: 313
-  Context: are lower during the day about 25 50 km At night the
 
 
 EXACT REPLACEMENTS (3):
@@ -54,122 +48,86 @@ Replacement #3:
   Context: were made in the first 12 hours The first set was
 
 
-ADDITIONAL REPLACEMENTS (23):
+COMMA_SEPARATED_LARGE REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -0002
-  Line: 8
-  Context: Slipski et al orcid 0000 -0002 9045 1168 cormark 1 ead
+  Expression: 1,408,791
+  Line: 234
+  Context: of whom were registered users 1,408,791 annotations and 3 256 were
 
 Replacement #2:
+  Expression: 290,439
+  Line: 234
+  Context: annotations and 3 256 w ere not 290 439 annotations subsection Density
+
+
+ADDITIONAL REPLACEMENTS (13):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: -9045
   Line: 8
   Context: et al orcid 0000 0002 -9045 1168 cormark 1 ead marek
 
-Replacement #3:
+Replacement #2:
   Expression: -1168
   Line: 8
   Context: al orcid 0000 0002 9045 -1168 cormark 1 ead marek j
 
-Replacement #4:
-  Expression: -0003
-  Line: 13
-  Context: nasa gov hl orcid 0000 -0003 1548 1161 orcid 0000 0002
-
-Replacement #5:
+Replacement #3:
   Expression: -1548
   Line: 13
   Context: gov hl orcid 0000 0003 -1548 1161 orcid 0000 0002 4773
 
-Replacement #6:
+Replacement #4:
   Expression: -1161
   Line: 13
   Context: hl orcid 0000 0003 1548 -1161 orcid 0000 0002 4773 1463
 
-Replacement #7:
-  Expression: -0002
-  Line: 14
-  Context: 0003 1548 1161 orcid 0000 -0002 4773 1463 orcid 0000 0002
-
-Replacement #8:
+Replacement #5:
   Expression: -4773
   Line: 14
   Context: 1548 1161 orcid 0000 0002 -4773 1463 orcid 0000 0002 7154
 
-Replacement #9:
+Replacement #6:
   Expression: -1463
   Line: 14
   Context: 1161 orcid 0000 0002 4773 -1463 orcid 0000 0002 7154 2566
 
-Replacement #10:
-  Expression: -0002
-  Line: 15
-  Context: 0002 4773 1463 orcid 0000 -0002 7154 2566 orcid 0000 0002
-
-Replacement #11:
+Replacement #7:
   Expression: -7154
   Line: 15
   Context: 4773 1463 orcid 0000 0002 -7154 2566 orcid 0000 0002 6521
 
-Replacement #12:
+Replacement #8:
   Expression: -2566
   Line: 15
   Context: 1463 orcid 0000 0002 7154 -2566 orcid 0000 0002 6521 3256
 
-Replacement #13:
-  Expression: -0002
-  Line: 17
-  Context: 0002 7154 2566 orcid 0000 -0002 6521 3256 orcid 0000 0003
-
-Replacement #14:
+Replacement #9:
   Expression: -6521
   Line: 17
   Context: 7154 2566 orcid 0000 0002 -6521 3256 orcid 0000 0003 1233
 
-Replacement #15:
+Replacement #10:
   Expression: -3256
   Line: 17
   Context: 2566 orcid 0000 0002 6521 -3256 orcid 0000 0003 1233 2224
 
-Replacement #16:
-  Expression: -0003
-  Line: 18
-  Context: 0002 6521 3256 orcid 0000 -0003 1233 2224 addressline 4800 Oak
-
-Replacement #17:
+Replacement #11:
   Expression: -1233
   Line: 18
   Context: 6521 3256 orcid 0000 0003 -1233 2224 addressline 4800 Oak Grove
 
-Replacement #18:
+Replacement #12:
   Expression: -2224
   Line: 18
   Context: 3256 orcid 0000 0003 1233 -2224 addressline 4800 Oak Grove Dr
 
-Replacement #19:
-  Expression: -80
-  Line: 294
-  Context: alt A and D 65 -80 km during the day and
-
-Replacement #20:
+Replacement #13:
   Expression: -70
   Line: 294
   Context: during the day and 55 -70 km at night this is
-
-Replacement #21:
-  Expression: -60
-  Line: 298
-  Context: season at northern 40 N -60 N and southern 35 S
-
-Replacement #22:
-  Expression: -50
-  Line: 298
-  Context: N and southern 35 S -50 S mid latitudes at both
-
-Replacement #23:
-  Expression: -60
-  Line: 304
-  Context: during the day and 40 -60 km at night e g
 
 

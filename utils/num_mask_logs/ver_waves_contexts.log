@@ -2,24 +2,64 @@ Masked values and their context for paper: ver_waves
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 1 replacements
-  ROUNDED: 6 replacements
-  EXACT: 12 replacements
-  ADDITIONAL: 1 replacements
+  LARGE_INTEGER: 9 replacements
+  ROUNDED: 3 replacements
+  EXACT: 11 replacements
+  COMMA_SEPARATED_LARGE: 1 replacements
+  EXPECTED_VALUE_FINAL_PASS: 3 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (1):
+LARGE_INTEGER REPLACEMENTS (9):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{breath}= 0.5
-  Numerical Value: 0.5
-  Line: 153
-  Context: the breathing mode as v_ \mathrm{breath}= 0.5 left W z W z
+  Expression: 963,018 stars
+  Line: 53
+  Context: contains a total of 1 963,018 stars However in secname ref sec
+
+Replacement #2:
+  Expression: 300,000 stars
+  Line: 68
+  Context: APOGEE sample each have app roximately 30 0 000 stars After the
+
+Replacement #3:
+  Expression: 864,268 stars
+  Line: 68
+  Context: the gaia RV sample has a total of 86 4 268 stars GALAH contains
+
+Replacement #4:
+  Expression: 160,686 stars
+  Line: 68
+  Context: of 864 268 stars GALA H contains 16 0 686 stars and the
+
+Replacement #5:
+  Expression: 85,234 stars
+  Line: 68
+  Context: and the APOGEE sample c onsists of 8 5 234 stars section Vertical
+
+Replacement #6:
+  Expression: 160,686 stars
+  Line: 141
+  Context: This results in a s ample with 16 0 686 stars For the
+
+Replacement #7:
+  Expression: 85,234 stars
+  Line: 141
+  Context: of the Sun which leav es us with 8 5 234 stars Finally with
+
+Replacement #8:
+  Expression: total of 864,268
+  Line: 68
+  Context: gaia RV sample has a total of 864,268 stars GALAH contains 160 686
+
+Replacement #9:
+  Expression: consists of 85,234
+  Line: 68
+  Context: stars and the APOGEE sample consists of 85,234 stars section Vertical counts in
 
 
-ROUNDED REPLACEMENTS (6):
+ROUNDED REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -29,37 +69,19 @@ Replacement #1:
   Context: 16 5 and 17 is approximately 0.095 mas Since we cut on
 
 Replacement #2:
-  Expression: approximately 300
-  Numerical Value: 300
-  Line: 68
-  Context: and APOGEE sample each have approximately 300 000 stars After the distance
-
-Replacement #3:
-  Expression: approximately 1.8
-  Numerical Value: 1.8
-  Line: 83
-  Context: across all colour bins is approximately 1.8 million stars The fact that
-
-Replacement #4:
-  Expression: around 0.5
-  Numerical Value: 0.5
-  Line: 143
-  Context: of a dip in velocities around 0.5 kpc above the mid plane
-
-Replacement #5:
   Expression: approximately 0.4
   Numerical Value: 0.4
   Line: 149
   Context: the number count asymmetry at approximately 0.4 kpc is consistent with previous
 
-Replacement #6:
+Replacement #3:
   Expression: approximately 0.8
   Numerical Value: 0.8
   Line: 149
   Context: studies have found peaks at approximately 0.8 kpc we uncover additional structure
 
 
-EXACT REPLACEMENTS (12):
+EXACT REPLACEMENTS (11):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -93,42 +115,56 @@ Replacement #6:
   Context: structure with double peaks at 0.7 kpc and 1 1 kpc
 
 Replacement #7:
-  Expression: .1
-  Line: 6
-  Context: mathrm kpc and approx 1 .1 mathrm kpc We find that
-
-Replacement #8:
   Expression: .6
   Line: 153
   Context: gaia18a In their Figure C .6 they plot the amplitudes of
 
-Replacement #9:
+Replacement #8:
   Expression: 0.3
   Line: 6
   Context: z_ odot 20 8 pm 0.3 mathrm pc end abstract begin
 
-Replacement #10:
+Replacement #9:
   Expression: .3
   Line: 30
   Context: 15 8 and K 14 .3 over almost the entire sky
 
-Replacement #11:
+Replacement #10:
   Expression: .3
   Line: 30
   Context: below G J approx 1 .3 and for these stars gaia
 
-Replacement #12:
+Replacement #11:
   Expression: 0.9
   Line: 6
   Context: 0 4 mathrm kpc approx 0.9 mathrm kpc and approx 1
 
 
-ADDITIONAL REPLACEMENTS (1):
+COMMA_SEPARATED_LARGE REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -0.25
-  Line: 30
-  Context: number counts of stars with -0.25 J K_s 1 25 in
+  Expression: 300,000
+  Line: 149
+  Context: by citet widrow12 with only 300,000 main sequence stars citet yanny13
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (3):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.7
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 20.8
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #3:
+  Expression: 0.3
+  Line: 0
+  Context: Final pass for expected values
 
 

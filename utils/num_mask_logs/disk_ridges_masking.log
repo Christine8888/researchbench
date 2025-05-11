@@ -1,31 +1,18 @@
-2025-05-11 16:13:00,005 - INFO - Logging to file: utils/num_mask_logs/disk_ridges_masking.log
-2025-05-11 16:13:00,005 - INFO - Found 19 unique numerical values to mask
-2025-05-11 16:13:00,046 - INFO - Made 42 replacements in the text
-2025-05-11 16:13:00,046 - INFO - Saved masked text to papers/masked_texts/disk_ridges.txt
-2025-05-11 16:13:00,046 - INFO - Rounded Replacement #1: 'about 0.3' at line 33
-2025-05-11 16:13:00,046 - INFO -   Context: and V_ rm rot is about 0.3 km s 1 However the
-2025-05-11 16:13:00,046 - INFO - Rounded Replacement #2: '~14' at line 79
-2025-05-11 16:13:00,046 - INFO -   Context: pattern citep see also Fig ~14 who showed similar results for
-2025-05-11 16:13:00,046 - INFO - Exact Replacement #1: '1,049,340' at line 31
-2025-05-11 16:13:00,046 - INFO -   Context: this limited region there are 1,049,340 stars We call this sample
-2025-05-11 16:13:00,046 - INFO - Exact Replacement #2: '861,680' at line 29
-2025-05-11 16:13:00,046 - INFO -   Context: all coordinate transformation There are 861,680 stars in this sample We
-2025-05-11 16:13:00,046 - INFO - Exact Replacement #3: '10.5' at line 81
-2025-05-11 16:13:00,046 - INFO -   Context: R_ rm gal 8 and 10.5 kpc and the dip is
-2025-05-11 16:13:00,046 - INFO - Exact Replacement #4: '-28' at line 61
-2025-05-11 16:13:00,046 - INFO -   Context: dV_ rm rot dR sim -28 km s 1 kpc 1
-2025-05-11 16:13:00,046 - INFO - Exact Replacement #5: '.2' at line 31
-2025-05-11 16:13:00,046 - INFO -   Context: stars brighter than G 15 .2 mag but again with varpi
-2025-05-11 16:13:00,046 - INFO - Exact Replacement #6: '0.2' at line 78
-2025-05-11 16:13:00,046 - INFO -   Context: radial grid points at every 0.2 kpc in R_ rm gal
-2025-05-11 16:13:00,046 - INFO - Comma_separated Replacement #1: '1,049,340' at line 31
-2025-05-11 16:13:00,046 - INFO -   Context: this limited region there are 1,049,340 stars We call this sample
-2025-05-11 16:13:00,046 - INFO - Comma_separated Replacement #2: '861,680' at line 29
-2025-05-11 16:13:00,046 - INFO -   Context: all coordinate transformation There are 861,680 stars in this sample We
-2025-05-11 16:13:00,046 - INFO - Additional Replacement #1: '-180' at line 31
-2025-05-11 16:13:00,046 - INFO -   Context: l 10 deg or l -180 10 deg Again we only
-2025-05-11 16:13:00,046 - INFO - Additional Replacement #2: '-180' at line 33
-2025-05-11 16:13:00,046 - INFO -   Context: l 10 deg or l -180 10 deg Because we discuss
-2025-05-11 16:13:00,046 - INFO - Additional Replacement #3: '-40' at line 45
-2025-05-11 16:13:00,047 - INFO -   Context: V_ rm LSR 20 and -40 km s 1 because most
-2025-05-11 16:13:00,047 - INFO - Saved context information to utils/num_mask_logs/disk_ridges_contexts.log
+2025-05-11 16:39:21,487 - INFO - Logging to file: utils/num_mask_logs/disk_ridges_masking.log
+2025-05-11 16:39:21,488 - INFO - Found 17 unique numerical values to mask
+2025-05-11 16:39:21,488 - INFO - Found 4 values from expected_output lists: [-28, -9, 8, 10.5]
+2025-05-11 16:39:21,523 - INFO - Made 30 replacements in the text
+2025-05-11 16:39:21,523 - INFO - Saved masked text to papers/masked_texts/disk_ridges.txt
+2025-05-11 16:39:21,523 - INFO - Large_integer Replacement #1: '861,680 stars' at line 29
+2025-05-11 16:39:21,523 - INFO -   Context: all coordinate transformation There are 861,680 stars in this sample We call
+2025-05-11 16:39:21,523 - INFO - Large_integer Replacement #2: '049,340 stars' at line 31
+2025-05-11 16:39:21,523 - INFO -   Context: In this limited region t here are 1,04 9 340 stars We call
+2025-05-11 16:39:21,523 - INFO - Rounded Replacement #1: 'about 0.3' at line 33
+2025-05-11 16:39:21,523 - INFO -   Context: and V_ rm rot is about 0.3 km s 1 However the
+2025-05-11 16:39:21,523 - INFO - Exact Replacement #1: '10.5' at line 81
+2025-05-11 16:39:21,523 - INFO -   Context: R_ rm gal 8 and 10.5 kpc and the dip is
+2025-05-11 16:39:21,523 - INFO - Exact Replacement #2: '-28' at line 61
+2025-05-11 16:39:21,523 - INFO -   Context: dV_ rm rot dR sim -28 km s 1 kpc 1
+2025-05-11 16:39:21,523 - INFO - Additional Replacement #1: '-40' at line 45
+2025-05-11 16:39:21,523 - INFO -   Context: V_ rm LSR 20 and -40 km s 1 because most
+2025-05-11 16:39:21,523 - INFO - Saved context information to utils/num_mask_logs/disk_ridges_contexts.log

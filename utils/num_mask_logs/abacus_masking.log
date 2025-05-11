@@ -1,33 +1,21 @@
-2025-05-11 16:12:58,407 - INFO - Logging to file: utils/num_mask_logs/abacus_masking.log
-2025-05-11 16:12:58,408 - INFO - Found 12 unique numerical values to mask
-2025-05-11 16:12:58,996 - INFO - Made 195 replacements in the text
-2025-05-11 16:12:58,996 - INFO - Saved masked text to papers/masked_texts/abacus.txt
-2025-05-11 16:12:58,996 - INFO - Latex Replacement #1: '1.6\times' at line 272
-2025-05-11 16:12:58,996 - INFO -   Context: and median fractional errors are 1.6\times 10 4 and 1 2
-2025-05-11 16:12:58,996 - INFO - Latex Replacement #2: '1.2\times' at line 272
-2025-05-11 16:12:58,996 - INFO -   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
-2025-05-11 16:12:58,996 - INFO - Latex Replacement #3: '10\times' at line 503
-2025-05-11 16:12:58,996 - INFO -   Context: single drive However they are 10\times more expensive per GB than
-2025-05-11 16:12:58,996 - INFO - Latex Replacement #4: '0.5\%' at line 114
-2025-05-11 16:12:58,996 - INFO -   Context: of magnitude larger than the 0.5\% time step error for eta
-2025-05-11 16:12:58,996 - INFO - Latex Replacement #5: '35\%' at line 223
-2025-05-11 16:12:58,996 - INFO -   Context: is about 20 GFLOPs or 35\% of peak single core performance
-2025-05-11 16:12:58,996 - INFO - Latex Replacement #6: '15\%' at line 361
-2025-05-11 16:12:58,996 - INFO -   Context: it was first implemented the 15\% time spent calling texttt free
-2025-05-11 16:12:58,996 - INFO - Rounded Replacement #1: 'about 26' at line 255
-2025-05-11 16:12:58,996 - INFO -   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
-2025-05-11 16:12:58,996 - INFO - Additional Replacement #1: '-10' at line 265
-2025-05-11 16:12:58,996 - INFO -   Context: positions retain an additional 9 -10 bits of mantissa beyond the
-2025-05-11 16:12:58,996 - INFO - Additional Replacement #2: '-1.5' at line 539
-2025-05-11 16:12:58,996 - INFO -   Context: of varying spectral index n_s -1.5 2 2 25 2 5
-2025-05-11 16:12:58,996 - INFO - Additional Replacement #3: '-2.25' at line 539
-2025-05-11 16:12:58,996 - INFO -   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
-2025-05-11 16:12:58,996 - INFO - Additional Replacement #4: '-2.5' at line 539
-2025-05-11 16:12:58,996 - INFO -   Context: 1 5 2 2 25 -2.5 in 4096 3 and 6144
-2025-05-11 16:12:58,996 - INFO - Additional Replacement #5: '-1313285' at line 553
-2025-05-11 16:12:58,997 - INFO -   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
-2025-05-11 16:12:58,997 - INFO - Additional Replacement #6: '-1312699.' at line 557
-2025-05-11 16:12:58,997 - INFO -   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
-2025-05-11 16:12:58,997 - INFO - Additional Replacement #7: '-00' at line 560
-2025-05-11 16:12:58,997 - INFO -   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have
-2025-05-11 16:12:58,997 - INFO - Saved context information to utils/num_mask_logs/abacus_contexts.log
+2025-05-11 16:39:19,808 - INFO - Logging to file: utils/num_mask_logs/abacus_masking.log
+2025-05-11 16:39:19,809 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:39:20,406 - INFO - Made 195 replacements in the text
+2025-05-11 16:39:20,406 - INFO - Saved masked text to papers/masked_texts/abacus.txt
+2025-05-11 16:39:20,406 - INFO - Latex Replacement #1: '1.6\times' at line 272
+2025-05-11 16:39:20,406 - INFO -   Context: and median fractional errors are 1.6\times 10 4 and 1 2
+2025-05-11 16:39:20,406 - INFO - Latex Replacement #2: '1.2\times' at line 272
+2025-05-11 16:39:20,406 - INFO -   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
+2025-05-11 16:39:20,406 - INFO - Latex Replacement #3: '35\%' at line 223
+2025-05-11 16:39:20,406 - INFO -   Context: is about 20 GFLOPs or 35\% of peak single core performance
+2025-05-11 16:39:20,406 - INFO - Rounded Replacement #1: 'about 26' at line 255
+2025-05-11 16:39:20,406 - INFO -   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
+2025-05-11 16:39:20,406 - INFO - Additional Replacement #1: '-2.25' at line 539
+2025-05-11 16:39:20,406 - INFO -   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
+2025-05-11 16:39:20,406 - INFO - Additional Replacement #2: '-1313285' at line 553
+2025-05-11 16:39:20,406 - INFO -   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
+2025-05-11 16:39:20,406 - INFO - Additional Replacement #3: '-1312699.' at line 557
+2025-05-11 16:39:20,406 - INFO -   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
+2025-05-11 16:39:20,406 - INFO - Additional Replacement #4: '-00' at line 560
+2025-05-11 16:39:20,406 - INFO -   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have
+2025-05-11 16:39:20,406 - INFO - Saved context information to utils/num_mask_logs/abacus_contexts.log

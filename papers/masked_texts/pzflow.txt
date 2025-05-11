@@ -448,7 +448,7 @@ In the machine learning literature, this is known as a Deep Ensemble \citep{laks
 We train an ensemble of 4 normalizing flows, each with the same architecture and training schedule as the regular flow described in Section \ref{sec:galaxy-catalog}.
 With PZFlow, this is as simple as swapping \texttt{FlowEnsemble} for \texttt{Flow} in the code.
 
-For the training set, we use 100,000 galaxies from the catalog created in Section \ref{sec:galaxy-catalog}.
+For the training set, we use [NUMERICAL_RESULT] galaxies from the catalog created in Section \ref{sec:galaxy-catalog}.
 Each galaxy in the training set has a true redshift and observed magnitudes in the $ugrizy$ bands, with corresponding photometric errors.
 To account for the photometric error, at the start of each training epoch, we resample the training set from the photometric error distributions.
 In other words, each epoch, for each galaxy, we sample

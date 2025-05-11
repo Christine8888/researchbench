@@ -1,89 +1,38 @@
-2025-05-11 16:13:04,486 - INFO - Logging to file: utils/num_mask_logs/MUSE_outflows_masking.log
-2025-05-11 16:13:04,487 - INFO - Found 93 unique numerical values to mask
-2025-05-11 16:13:05,218 - INFO - Made 145 replacements in the text
-2025-05-11 16:13:05,218 - INFO - Saved masked text to papers/masked_texts/MUSE_outflows.txt
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #1: '45\%' at line 150
-2025-05-11 16:13:05,218 - INFO -   Context: ionized outflows we found that 45\% are 0 3 dex above
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #2: '56\%' at line 150
-2025-05-11 16:13:05,218 - INFO -   Context: main sequence confidence intervals 36 56\% and 32 are 0 6
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #3: '32\%' at line 150
-2025-05-11 16:13:05,218 - INFO -   Context: confidence intervals 36 56 and 32\% are 0 6 dex above
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #4: '45\%' at line 184
-2025-05-11 16:13:05,218 - INFO -   Context: U LIRGs We found that 45\% of galaxies in our parent
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #5: '32\%' at line 184
-2025-05-11 16:13:05,218 - INFO -   Context: 56 at 95 confidence and 32\% are 0 6 dex above
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #6: '24\%' at line 184
-2025-05-11 16:13:05,218 - INFO -   Context: are 0 6 dex above 24\% 41 For our combined sample
-2025-05-11 16:13:05,218 - INFO - Latex Replacement #7: '41\%' at line 184
-2025-05-11 16:13:05,219 - INFO -   Context: 0 6 dex above 24 41\% For our combined sample of
-2025-05-11 16:13:05,219 - INFO - Latex Replacement #8: '100\%' at line 202
-2025-05-11 16:13:05,219 - INFO -   Context: peak fluxes that are 10 100\% of the peak fluxes of
-2025-05-11 16:13:05,219 - INFO - Rounded Replacement #1: 'about 0.1' at line 248
-2025-05-11 16:13:05,219 - INFO -   Context: H alpha flux ratio is about 0.1 floattable floattable subsection Multiphased wind
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #1: '.130' at line 176
-2025-05-11 16:13:05,219 - INFO -   Context: N_ mathrm NaI emis 1 .130 times 10 12 mathrm cm
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #2: '0.95' at line 142
-2025-05-11 16:13:05,219 - INFO -   Context: Na N_ mathrm H gas 0.95 For the stellar masses of
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #3: '0.3' at line 70
-2025-05-11 16:13:05,219 - INFO -   Context: cosmology with Omega_ mathrm M 0.3 Omega_ Lambda 0 7 and
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #4: '.3' at line 92
-2025-05-11 16:13:05,219 - INFO -   Context: a FWHM resolution of 2 .3 AA citep vazdekis10 We used
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #5: '.3' at line 256
-2025-05-11 16:13:05,219 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #6: '.3' at line 280
-2025-05-11 16:13:05,219 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #7: '0.5' at line 194
-2025-05-11 16:13:05,219 - INFO -   Context: mathrm E B V of 0.5 1 mag in a large
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #8: '0.1' at line 278
-2025-05-11 16:13:05,219 - INFO -   Context: find L_ mathrm NaID sim 0.1 L_ mathrm H alpha textbf
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #9: '300' at line 218
-2025-05-11 16:13:05,219 - INFO -   Context: velocity dispersions of sim 200 300 km sec The line ratios
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #10: '300' at line 228
-2025-05-11 16:13:05,219 - INFO -   Context: density of the wings sim 300 mathrm cm 3 is higher
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #11: '100' at line 244
-2025-05-11 16:13:05,219 - INFO -   Context: the stars by more than 100 km sec In figure ref
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #12: '500' at line 232
-2025-05-11 16:13:05,219 - INFO -   Context: studies that high velocity v 500 km sec ionized gas in
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #13: '500' at line 262
-2025-05-11 16:13:05,219 - INFO -   Context: flows can reach velocities of 500 750 km sec on tens
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #14: '0.2' at line 84
-2025-05-11 16:13:05,219 - INFO -   Context: with a pixel scale of 0.2 and a spatial resolution of
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #15: '0.8' at line 84
-2025-05-11 16:13:05,219 - INFO -   Context: a spatial resolution of sim 0.8 For the later program 0102
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #16: '0.7' at line 70
-2025-05-11 16:13:05,219 - INFO -   Context: Lambda 0 7 and h 0.7 section Methods label s data
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #17: '50' at line 196
-2025-05-11 16:13:05,219 - INFO -   Context: with a separation of sim 50 kpc with no visible tidal
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #18: '10' at line 60
-2025-05-11 16:13:05,219 - INFO -   Context: case observations that trace T 10 5 K gas will underestimate
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #19: '10' at line 106
-2025-05-11 16:13:05,219 - INFO -   Context: recombination a gas temperature of 10 4 K a dusty screen
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #20: '10' at line 134
-2025-05-11 16:13:05,219 - INFO -   Context: split N mathrm _ NaI 10 13 cm 2 times mathrm
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #21: '10' at line 135
-2025-05-11 16:13:05,219 - INFO -   Context: lu Big Big frac b 10 km sec Big end split
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #22: '10' at line 140
-2025-05-11 16:13:05,219 - INFO -   Context: N_ mathrm NaI 1 y 10 A B C end equation
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #23: '10' at line 190
-2025-05-11 16:13:05,219 - INFO -   Context: with visible companions at distances 10 kpc This suggests that post
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #24: '10' at line 256
-2025-05-11 16:13:05,219 - INFO -   Context: of the ionized gas are 10 and 3 M_ odot yr
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #25: '10' at line 274
-2025-05-11 16:13:05,219 - INFO -   Context: visible companions at distances of 10 kpc This suggest that post
-2025-05-11 16:13:05,219 - INFO - Exact Replacement #26: '10' at line 280
-2025-05-11 16:13:05,219 - INFO -   Context: found mass outflow rates of 10 and 3 M_ odot yr
-2025-05-11 16:13:05,219 - INFO - Additional Replacement #1: '-0517' at line 84
-2025-05-11 16:13:05,219 - INFO -   Context: E A galaxies 0100 B -0517 A and 0102 B 0228
-2025-05-11 16:13:05,219 - INFO - Additional Replacement #2: '-0228' at line 84
-2025-05-11 16:13:05,219 - INFO -   Context: 0517 A and 0102 B -0228 A For the earlier program
-2025-05-11 16:13:05,219 - INFO - Additional Replacement #3: '-0517' at line 84
-2025-05-11 16:13:05,219 - INFO -   Context: the earlier program 0100 B -0517 A observations were carried out
-2025-05-11 16:13:05,219 - INFO - Additional Replacement #4: '-0228' at line 84
-2025-05-11 16:13:05,219 - INFO -   Context: the later program 0102 B -0228 A observations were carried out
-2025-05-11 16:13:05,219 - INFO - Additional Replacement #5: '-6640' at line 96
-2025-05-11 16:13:05,220 - INFO -   Context: 6500 6520 AA and 6620 -6640 AA We fitted the continuum
-2025-05-11 16:13:05,220 - INFO - Additional Replacement #6: '-5.69' at line 142
-2025-05-11 16:13:05,220 - INFO -   Context: mathrm Na N_ mathrm H -5.69 and B log N_ mathrm
-2025-05-11 16:13:05,220 - INFO - Additional Replacement #7: '-2524' at line 246
-2025-05-11 16:13:05,220 - INFO -   Context: J124754 citealt baron20 and F05189 -2524 citealt rupke15 It may be
-2025-05-11 16:13:05,220 - INFO - Saved context information to utils/num_mask_logs/MUSE_outflows_contexts.log
+2025-05-11 16:39:26,046 - INFO - Logging to file: utils/num_mask_logs/MUSE_outflows_masking.log
+2025-05-11 16:39:26,047 - INFO - Found 88 unique numerical values to mask
+2025-05-11 16:39:26,047 - INFO - Found 8 values from expected_output lists: [700, 5, 1.7, 8.28, 1.44, 42.64, 337, 96]
+2025-05-11 16:39:26,731 - INFO - Made 136 replacements in the text
+2025-05-11 16:39:26,732 - INFO - Saved masked text to papers/masked_texts/MUSE_outflows.txt
+2025-05-11 16:39:26,732 - INFO - Latex Replacement #1: '45\%' at line 150
+2025-05-11 16:39:26,732 - INFO -   Context: ionized outflows we found that 45\% are 0 3 dex above
+2025-05-11 16:39:26,732 - INFO - Latex Replacement #2: '56\%' at line 150
+2025-05-11 16:39:26,732 - INFO -   Context: main sequence confidence intervals 36 56\% and 32 are 0 6
+2025-05-11 16:39:26,732 - INFO - Latex Replacement #3: '45\%' at line 184
+2025-05-11 16:39:26,732 - INFO -   Context: U LIRGs We found that 45\% of galaxies in our parent
+2025-05-11 16:39:26,732 - INFO - Exact Replacement #1: '.130' at line 176
+2025-05-11 16:39:26,732 - INFO -   Context: N_ mathrm NaI emis 1 .130 times 10 12 mathrm cm
+2025-05-11 16:39:26,732 - INFO - Exact Replacement #2: '0.95' at line 142
+2025-05-11 16:39:26,732 - INFO -   Context: Na N_ mathrm H gas 0.95 For the stellar masses of
+2025-05-11 16:39:26,732 - INFO - Exact Replacement #3: '.3' at line 256
+2025-05-11 16:39:26,732 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
+2025-05-11 16:39:26,732 - INFO - Exact Replacement #4: '.3' at line 280
+2025-05-11 16:39:26,732 - INFO -   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #1: '-0517' at line 84
+2025-05-11 16:39:26,732 - INFO -   Context: E A galaxies 0100 B -0517 A and 0102 B 0228
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #2: '-0228' at line 84
+2025-05-11 16:39:26,732 - INFO -   Context: 0517 A and 0102 B -0228 A For the earlier program
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #3: '-0517' at line 84
+2025-05-11 16:39:26,732 - INFO -   Context: the earlier program 0100 B -0517 A observations were carried out
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #4: '-0228' at line 84
+2025-05-11 16:39:26,732 - INFO -   Context: the later program 0102 B -0228 A observations were carried out
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #5: '-6640' at line 96
+2025-05-11 16:39:26,732 - INFO -   Context: 6500 6520 AA and 6620 -6640 AA We fitted the continuum
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #6: '-5.69' at line 142
+2025-05-11 16:39:26,732 - INFO -   Context: mathrm Na N_ mathrm H -5.69 and B log N_ mathrm
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #7: '-2524' at line 246
+2025-05-11 16:39:26,732 - INFO -   Context: J124754 citealt baron20 and F05189 -2524 citealt rupke15 It may be
+2025-05-11 16:39:26,732 - INFO - Additional Replacement #8: '-750' at line 262
+2025-05-11 16:39:26,732 - INFO -   Context: can reach velocities of 500 -750 km sec on tens of
+2025-05-11 16:39:26,732 - INFO - Expected_value_final_pass Replacement #1: '1.44' at line 0
+2025-05-11 16:39:26,732 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:26,732 - INFO - Saved context information to utils/num_mask_logs/MUSE_outflows_contexts.log

@@ -2,247 +2,90 @@ Masked values and their context for paper: tng_hod
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 10 replacements
-  ROUNDED: 1 replacements
-  EXACT: 23 replacements
-  ADDITIONAL: 8 replacements
+  LATEX_RANGE: 2 replacements
+  LATEX: 4 replacements
+  EXACT: 7 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (10):
+LATEX_RANGE REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{cut} = 12.7
-  Numerical Value: 12.7
-  Line: 145
-  Context: fiducial model are log M_ \mathrm{cut} = 12.7 log M_1 13 6 sigma
+  Expression: 0.18^{+0.03}_{-0.04}
+  Line: 192
+  Context: space distortion signal finds alpha_c 0.18^{+0.03}_{-0.04} and alpha_s 1 00 0
 
 Replacement #2:
-  Expression: \mathrm{cut} = 11.9
-  Numerical Value: 11.9
-  Line: 148
-  Context: 075 Q 95 log M_ \mathrm{cut} = 11.9 sigma 0 5 gamma 5
+  Expression: 1.00^{+0.03}_{-0.03}
+  Line: 192
+  Context: alpha_c NUMERICAL_RESULT and alpha_s 1 00^{+0.03}_{-0.03}$  for the CMASS LRG sample
 
-Replacement #3:
+
+LATEX REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: 2.4\times
   Numerical Value: 2.4
   Line: 145
   Context: galaxy of bar M _h 2.4\times 10 13 h 1 M_
 
-Replacement #4:
-  Expression: 6.0\times
-  Numerical Value: 6.0
-  Line: 148
-  Context: halo mass per galaxy of 6.0\times 10 12 h 1 M_
-
-Replacement #5:
+Replacement #2:
   Expression: 6.3\times
   Numerical Value: 6.3
   Line: 214
   Context: h 1 M_ odot and 6.3\times 10 14 h 1 M_
 
-Replacement #6:
-  Expression: 1.0\times
-  Numerical Value: 1.0
-  Line: 276
-  Context: samples with number density n 1.0\times 10 3 h 3 Mpc
-
-Replacement #7:
-  Expression: 1.5\times
-  Numerical Value: 1.5
-  Line: 276
-  Context: 3 Mpc 3 and n 1.5\times 10 3 h 3 Mpc
-
-Replacement #8:
+Replacement #3:
   Expression: 1.4\times
   Numerical Value: 1.4
   Line: 287
   Context: HOD framework on a n 1.4\times 10 3 h 3 Mpc
 
-Replacement #9:
+Replacement #4:
   Expression: 33\%
   Numerical Value: 33
   Line: 148
   Context: and a satellite fraction of 33\% This is consistent with the
 
-Replacement #10:
-  Expression: 2.5\%
-  Numerical Value: 2.5
-  Line: 150
-  Context: fraction of 22 5 pm 2.5\% One potential reason for the
 
-
-ROUNDED REPLACEMENTS (1):
+EXACT REPLACEMENTS (7):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: around 0.1
-  Numerical Value: 0.1
-  Line: 198
-  Context: the peculiar velocity distributions peak around 0.1 and the central velocity bias
-
-
-EXACT REPLACEMENTS (23):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 0.137
-  Line: 196
-  Context: central velocity bias parameter alpha_c 0.137 pm 0 007 The errorbar
-
-Replacement #2:
-  Expression: 14.2
-  Line: 148
-  Context: 5 gamma 5 log M_1 14.2 alpha 0 65 and kappa
-
-Replacement #3:
-  Expression: 1.35
-  Line: 148
-  Context: alpha 0 65 and kappa 1.35 In terms of derived HOD
-
-Replacement #4:
-  Expression: 0.05
-  Line: 196
-  Context: is alpha_s 0 92 pm 0.05 The satellite velocity bias is
-
-Replacement #5:
-  Expression: .05
-  Line: 196
-  Context: 8 0 9 and 1 .05 in the three mass bins
-
-Replacement #6:
   Expression: 14.1
   Line: 172
   Context: largely disappearing at M 10 14.1 h 1 M_ odot We
 
-Replacement #7:
-  Expression: 4998
-  Line: 99
-  Context: resulting in a sample of 4998 ELGs red We display the
-
-Replacement #8:
+Replacement #2:
   Expression: 1.15
   Line: 95
   Context: 6 mathrm AND g r 1.15 times r z 0 15
 
-Replacement #9:
-  Expression: 1.15
-  Line: 145
-  Context: 6 sigma 0 2 alpha 1.15 kappa 0 08 and f_
-
-Replacement #10:
-  Expression: 0.04
-  Line: 192
-  Context: 0 18 0 03 _ 0.04 and alpha_s 1 00 0
-
-Replacement #11:
-  Expression: 0.04
-  Line: 198
-  Context: of alpha_s 1 01 pm 0.04 However the mock ELG satellite
-
-Replacement #12:
-  Expression: 4608
-  Line: 87
-  Context: an LRG mock sample of 4608 galaxies Figure ref fig lrg_sample
-
-Replacement #13:
-  Expression: 0.15
-  Line: 252
-  Context: bias we find alpha_c approx 0.15 and alpha_s approx 1 with
-
-Replacement #14:
-  Expression: 0.1
-  Line: 196
-  Context: halo dispersion ratio of around 0.1 and a corresponding central velocity
-
-Replacement #15:
+Replacement #3:
   Expression: 0.4
   Line: 73
   Context: be 0 6 0 2 0.4 respectively We also vary the
 
-Replacement #16:
+Replacement #4:
   Expression: 0.4
   Line: 87
   Context: We find that delta m 0.4 roughly matches the desired target
 
-Replacement #17:
+Replacement #5:
   Expression: .6
   Line: 96
   Context: 2 times r z 1 .6 label equ elg_cuts end align
 
-Replacement #18:
-  Expression: 0.6
-  Line: 99
-  Context: number density is delta m 0.6 resulting in a sample of
-
-Replacement #19:
-  Expression: 0.2
-  Line: 54
-  Context: algorithm with linking length b 0.2 in units of the mean
-
-Replacement #20:
-  Expression: 0.2
-  Line: 192
-  Context: clustering values of alpha_c approx 0.2 and alpha_s approx 1 are
-
-Replacement #21:
-  Expression: 0.2
-  Line: 196
-  Context: slightly smaller than the alpha_c 0.2 signature found for BOSS LRGs
-
-Replacement #22:
+Replacement #6:
   Expression: 0.8
   Line: 58
   Context: the simulations at redshift z 0.8 The key analysis in this
 
-Replacement #23:
+Replacement #7:
   Expression: .80
   Line: 84
   Context: AND r z z 3 .80 times 0 19 label equ
-
-
-ADDITIONAL REPLACEMENTS (8):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: -15
-  Line: 6
-  Context: analysis that reveals a 10 -15 excess in the LRG clustering
-
-Replacement #2:
-  Expression: -300
-  Line: 47
-  Context: we utilize the textsc IllustrisTNG -300 1 box the largest high
-
-Replacement #3:
-  Expression: -300
-  Line: 51
-  Context: counterpart of the textsc IllustrisTNG -300 1 box textsc IllustrisTNG 300
-
-Replacement #4:
-  Expression: -300
-  Line: 53
-  Context: haloes groups in textsc IllustrisTNG -300 Dark are found with a
-
-Replacement #5:
-  Expression: -300
-  Line: 60
-  Context: halo counterparts in textsc IllustrisTNG -300 Dark We describe this process
-
-Replacement #6:
-  Expression: -15
-  Line: 150
-  Context: marginalized satellite fraction of 11 -15 depending on the HOD prescription
-
-Replacement #7:
-  Expression: -0.03
-  Line: 192
-  Context: 1 00 0 03 _ -0.03 for the CMASS LRG sample
-
-Replacement #8:
-  Expression: -15
-  Line: 276
-  Context: LRGs we see a 10 -15 excess in projected clustering in
 
 

@@ -2,9 +2,19 @@ Masked values and their context for paper: spectral_sirens_gp
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  COMMA_SEPARATED_LARGE: 1 replacements
   ADDITIONAL: 1 replacements
 
 ================================================================================
+
+COMMA_SEPARATED_LARGE REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2,000
+  Line: 271
+  Context: in Ho with catalogs of 2,000 events although this bias may
+
 
 ADDITIONAL REPLACEMENTS (1):
 --------------------------------------------------------------------------------

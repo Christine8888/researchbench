@@ -2,92 +2,29 @@ Masked values and their context for paper: fable_mps
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 11 replacements
-  ADDITIONAL: 2 replacements
+  LATEX: 3 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (11):
+LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{DM} = 3.4
-  Numerical Value: 3.4
-  Line: 65
-  Context: yielding a resolution of m_ \mathrm{DM} = 3.4 times 10 7 h 1
-
-Replacement #2:
-  Expression: \mathrm{gas} = 6.4
-  Numerical Value: 6.4
-  Line: 65
-  Context: mass resolution overline m _ \mathrm{gas} = 6.4 times 10 6 h 1
-
-Replacement #3:
-  Expression: \mathrm{QM} = 25
-  Numerical Value: 25
-  Line: 85
-  Context: is accumulated over delta t_ \mathrm{QM} = 25 Myr before being released in
-
-Replacement #4:
   Expression: \mathrm{BH} = 0.15
   Numerical Value: 0.15
   Line: 90
   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
 
-Replacement #5:
-  Expression: 2.5\cdot
-  Numerical Value: 2.5
-  Line: 181
-  Context: 1 7 cdot 10 8 2.5\cdot 10 9 1 5 cdot
-
-Replacement #6:
-  Expression: 1.5\cdot
-  Numerical Value: 1.5
-  Line: 181
-  Context: 2 5 cdot 10 9 1.5\cdot 10 10 6 0 cdot
-
-Replacement #7:
-  Expression: 6.0\cdot
-  Numerical Value: 6.0
-  Line: 181
-  Context: 1 5 cdot 10 10 6.0\cdot 10 10 right Msun and
-
-Replacement #8:
-  Expression: 2.5\cdot
-  Numerical Value: 2.5
-  Line: 181
-  Context: text cut left 0 0 2.5\cdot 10 5 1 4 cdot
-
-Replacement #9:
+Replacement #2:
   Expression: 1.4\cdot
   Numerical Value: 1.4
   Line: 181
   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
 
-Replacement #10:
+Replacement #3:
   Expression: 1.8\cdot
   Numerical Value: 1.8
   Line: 181
   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
-
-Replacement #11:
-  Expression: 40\%
-  Numerical Value: 40
-  Line: 155
-  Context: is of the order of 40\% and primarily develops at z
-
-
-ADDITIONAL REPLACEMENTS (2):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: -100
-  Line: 166
-  Context: with the HorizonAGN and IllustrisTNG -100 simulations as they have comparable
-
-Replacement #2:
-  Expression: -100
-  Line: 166
-  Context: k hcMpc 5 than IllustrisTNG -100 and especially HorizonAGN with the
 
 

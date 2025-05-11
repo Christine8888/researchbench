@@ -3,7 +3,6 @@ Masked values and their context for paper: bioverse
 
 SUMMARY OF REPLACEMENTS:
   EXACT: 1 replacements
-  ADDITIONAL: 2 replacements
 
 ================================================================================
 
@@ -14,19 +13,5 @@ Replacement #1:
   Expression: 0.8
   Line: 165
   Context: transiting glspl EEC with radii 0.8 S 0 25 R 1
-
-
-ADDITIONAL REPLACEMENTS (2):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: -40
-  Line: 395
-  Context: enough samples Ground based 25 -40 meter class extremely large telescopes
-
-Replacement #2:
-  Expression: -300
-  Line: 419
-  Context: on early Earth at 180 -300 hours 7 5 12 5
 
 

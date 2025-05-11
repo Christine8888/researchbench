@@ -392,7 +392,7 @@ This is true for a future transit survey, the specifics of which we have reflect
 However, we have shown that the impacts from the combined requirements of the UV~Threshold Hypothesis on the fraction of inhabited planets in a sample are comparable in the non-transiting case.
 
 Given the challenging nature of detecting and characterizing small (Earth-sized) exoplanets, most exoplanet mission concepts currently under development or considered lack the potential for characterizing large enough samples.
-Ground-based 25--[NUMERICAL_RESULT]-meter class extremely large telescopes are expected to have the capabilities to detect biosignatures on exoplanets like Proxima Centauri~b~\citep[e.g.,][]{Wang2017,Hawker2019,Zhang2024,Vaughan2024}.
+Ground-based 25--40-meter class extremely large telescopes are expected to have the capabilities to detect biosignatures on exoplanets like Proxima Centauri~b~\citep[e.g.,][]{Wang2017,Hawker2019,Zhang2024,Vaughan2024}.
 \citet{Hardegree-Ullman2025} used \bioverse\ to determine potential yields for a 10-year direct imaging and high-resolution spectroscopy survey of O$_2$ on the Giant Magellan Telescope (GMT) and on the Extremely Large Telescope (ELT) and found that between 7 and 19 habitable zone Earth-sized planets could be probed for Earth-like oxygen levels.
 Such a sample is too small to test the UV Threshold Hypothesis, but it may be synergistic with other detection methods.
 
@@ -416,7 +416,7 @@ This approach stems from the constraints governing photochemical pathways, which
 \rev{\citet{Ranjan2017b} speculated that UV photochemistry might be rate-limiting for abiogenesis, particularly on planets orbiting M dwarfs, due to their low baseline UV fluxes.
 This could delay abiogenesis by orders of magnitude, resulting in a continuous dependence of abiogenesis likelihood on UV flux.
 However, recent studies challenge this view for the cyanosulfidic scenario.
-\citet{Rimmer2021} calculated photochemical timescales on early Earth at 180--[NUMERICAL_RESULT] hours (7.5--12.5 days), significantly shorter than the timescale for stochastic geological events also required for the scenario~\citep{Rimmer2023}.
+\citet{Rimmer2021} calculated photochemical timescales on early Earth at 180--300 hours (7.5--12.5 days), significantly shorter than the timescale for stochastic geological events also required for the scenario~\citep{Rimmer2023}.
 Even with 1000x slower photochemistry on M-dwarf planets, prebiotic photochemistry like sulfite photolysis would still occur on a geologically negligible timescale of 20--30 years, meaning that the photochemistry is unlikely to be rate limiting compared to stochastic geological processes, justifying the step-function model.
 }
 

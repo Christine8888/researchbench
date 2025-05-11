@@ -2,14 +2,27 @@ Masked values and their context for paper: trgb_std_candle
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 5 replacements
+  EQUATION_EXPECTED_VALUE: 1 replacements
+  LATEX: 2 replacements
   ROUNDED: 1 replacements
-  EXACT: 20 replacements
+  EXACT: 11 replacements
   ADDITIONAL: 8 replacements
+  EXPECTED_VALUE_FINAL_PASS: 3 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (5):
+EQUATION_EXPECTED_VALUE REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0
+  Line: 151
+  Context: for metallicity differences thus becomes \begin{equation}\label{eq:periodcalibration}
+M_{\mathrm{I,OGLE}} = M_\mathrm{I, OGLE, 0} + (0.59 \pm 0.34) \mathrm{mag} \cdot \log{(P/P_0)} \ , 
+\end{equation} with P_0 42 7 d
+
+
+LATEX REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -19,24 +32,6 @@ Replacement #1:
   Context: the proper motion ellipse left 2.12\cdot mu_ delta 1 23 right
 
 Replacement #2:
-  Expression: 1.6\cdot
-  Numerical Value: 1.6
-  Line: 59
-  Context: 1 23 right 2 left 1.6\cdot mu_ alpha 0 66 right
-
-Replacement #3:
-  Expression: 1.5\%
-  Numerical Value: 1.5
-  Line: 8
-  Context: 0 029 mathrm syst mag 1.5\% in distance Further study of
-
-Replacement #4:
-  Expression: 16\%
-  Numerical Value: 16
-  Line: 66
-  Context: 33 in the LMC and 16\% in the SMC respectively and
-
-Replacement #5:
   Expression: 26\%
   Numerical Value: 26
   Line: 66
@@ -53,7 +48,7 @@ Replacement #1:
   Context: with an rms scatter of approximately 0.026 mag in line with the
 
 
-EXACT REPLACEMENTS (20):
+EXACT REPLACEMENTS (11):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -72,86 +67,41 @@ Replacement #3:
   Context: mathrm SMC 18 977 pm 0.016 mathrm stat pm 0 028
 
 Replacement #4:
-  Expression: 0.015
-  Line: 154
-  Context: OGLE 0 4 018 pm 0.015 mathrm stat pm 0 027
-
-Replacement #5:
-  Expression: 0.015
-  Line: 166
-  Context: vs their 14 994 pm 0.015 mag in I_ mathrm syn
-
-Replacement #6:
   Expression: 15.16
   Line: 31
   Context: 2 0 71 log P_1 15.16 mag with a dispersion of
 
-Replacement #7:
+Replacement #5:
   Expression: 16.91
   Line: 31
   Context: 2 1 48 log P_1 16.91 mag with a dispersion of
 
-Replacement #8:
+Replacement #6:
   Expression: 14.920
   Line: 188
   Context: the brightest mtrgb of mih 14.920 pm 0 010 mathrm stat
 
-Replacement #9:
-  Expression: 0.01
-  Line: 145
-  Context: very slightly by less than 0.01 mag because of the low
-
-Replacement #10:
+Replacement #7:
   Expression: 0.02
   Line: 33
   Context: oscillation amplitudes sim 0 01 0.02 mag near the TRGB Interestingly
 
-Replacement #11:
-  Expression: 0.02
-  Line: 57
-  Context: the dispersion of sigma approx 0.02 mag found for the validation
-
-Replacement #12:
+Replacement #8:
   Expression: 0.02
   Line: 116
   Context: SMC and 0 09 pm 0.02 mag in the LMC This
 
-Replacement #13:
+Replacement #9:
   Expression: -1.6
   Line: 57
   Context: 0004 left V I _0 -1.6 right 0 0027 pm 0
 
-Replacement #14:
-  Expression: 0.1
-  Line: 63
-  Context: age of all stars within 0.1 mag of the TRGB We
-
-Replacement #15:
-  Expression: 0.1
-  Line: 82
-  Context: TRGB mathrm d sigma_s leq 0.1 The reported values of mtrgb
-
-Replacement #16:
-  Expression: 0.1
-  Line: 87
-  Context: TRGB mathrm d sigma_s leq 0.1 The Monte Carlo resampling considers
-
-Replacement #17:
-  Expression: 0.10
-  Line: 114
-  Context: the LF starting at approximately 0.10 mag below the Bseq mtrgb
-
-Replacement #18:
-  Expression: 0.1
-  Line: 134
-  Context: Bseq samples that are within 0.1 mag of the respective mtrgb
-
-Replacement #19:
+Replacement #10:
   Expression: 0.7
   Line: 65
   Context: LMC stars near Fe H 0.7 dex and the SMC near
 
-Replacement #20:
+Replacement #11:
   Expression: .7
   Line: 154
   Context: end equation with P_0 42 .7 d and M_ mathrm I
@@ -176,14 +126,14 @@ Replacement #3:
   Context: obtained F814W I_ text OGLE -0.0296 pm 0 0004 left V
 
 Replacement #4:
-  Expression: -4.066
-  Line: 148
-  Context: using the Bseq sample Mio -4.066 pm 0 018 mathrm stat
-
-Replacement #5:
   Expression: -4.025
   Line: 148
   Context: the LMC where A24 reported -4.025 pm 0 014 mathrm stat
+
+Replacement #5:
+  Expression: -4.018
+  Line: 154
+  Context: M_ mathrm I OGLE 0 -4.018 pm 0 015 mathrm stat
 
 Replacement #6:
   Expression: -4.018
@@ -199,5 +149,24 @@ Replacement #8:
   Expression: -4.025
   Line: 192
   Context: F814W syn 0 mathrm LMC -4.025 pm 0 014 mathrm stat
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (3):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.009
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 36
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #3:
+  Expression: 0.71
+  Line: 0
+  Context: Final pass for expected values
 
 

@@ -1,7 +1,9 @@
-2025-05-11 16:13:07,857 - INFO - Logging to file: utils/num_mask_logs/spectral_sirens_gp_masking.log
-2025-05-11 16:13:07,857 - INFO - Found 21 unique numerical values to mask
-2025-05-11 16:13:07,926 - INFO - Made 7 replacements in the text
-2025-05-11 16:13:07,926 - INFO - Saved masked text to papers/masked_texts/spectral_sirens_gp.txt
-2025-05-11 16:13:07,926 - INFO - Additional Replacement #1: '-1746045.' at line 311
-2025-05-11 16:13:07,926 - INFO -   Context: Program under Grant No DGE -1746045. J M E is supported
-2025-05-11 16:13:07,926 - INFO - Saved context information to utils/num_mask_logs/spectral_sirens_gp_contexts.log
+2025-05-11 16:39:29,542 - INFO - Logging to file: utils/num_mask_logs/spectral_sirens_gp_masking.log
+2025-05-11 16:39:29,542 - INFO - Found 21 unique numerical values to mask
+2025-05-11 16:39:29,617 - INFO - Made 8 replacements in the text
+2025-05-11 16:39:29,618 - INFO - Saved masked text to papers/masked_texts/spectral_sirens_gp.txt
+2025-05-11 16:39:29,618 - INFO - Comma_separated_large Replacement #1: '2,000' at line 271
+2025-05-11 16:39:29,618 - INFO -   Context: in Ho with catalogs of 2,000 events although this bias may
+2025-05-11 16:39:29,618 - INFO - Additional Replacement #1: '-1746045.' at line 311
+2025-05-11 16:39:29,618 - INFO -   Context: Program under Grant No DGE -1746045. J M E is supported
+2025-05-11 16:39:29,618 - INFO - Saved context information to utils/num_mask_logs/spectral_sirens_gp_contexts.log

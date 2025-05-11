@@ -2,55 +2,39 @@ Masked values and their context for paper: gw_cosmo
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 2 replacements
-  EXACT: 5 replacements
+  LATEX_RANGE: 1 replacements
+  LATEX: 1 replacements
+  EXACT: 1 replacements
   ADDITIONAL: 2 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (2):
+LATEX_RANGE REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 68\%
-  Numerical Value: 68
-  Line: 162
-  Context: convergence of the 1 sigma 68\% credibility constraint in H_ 0
+  Expression: 70^{+12}_{-8}
+  Line: 15
+  Context: of the Hubble constant H_0 70^{+12}_{-8} km s 1 Mpc 1
 
-Replacement #2:
+
+LATEX REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: 18\%
   Numerical Value: 18
   Line: 162
   Context: of events N as frac 18\% N 0 5 for a
 
 
-EXACT REPLACEMENTS (5):
+EXACT REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: 2.8
-  Line: 8
-  Context: measurement of the combination H_0 2.8 Omega_M in a flat Lambda
-
-Replacement #2:
-  Expression: 2.8
-  Line: 162
-  Context: constraints in terms of H_0 2.8 Omega_M for different sample sizes
-
-Replacement #3:
-  Expression: 2.8
   Line: 189
   Context: Omega_M is captured by H_0 2.8 Omega_M when used with experiments
-
-Replacement #4:
-  Expression: 0.1
-  Line: 130
-  Context: mu log D_L i sigma 0.1 end equation where mathcal N
-
-Replacement #5:
-  Expression: 0.1
-  Line: 135
-  Context: log D_L z mathcal H 0.1 right 2 right end align
 
 
 ADDITIONAL REPLACEMENTS (2):

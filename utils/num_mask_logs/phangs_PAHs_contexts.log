@@ -2,41 +2,71 @@ Masked values and their context for paper: phangs_PAHs
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 5 replacements
+  STD_DEV_VALUE: 6 replacements
+  LATEX: 4 replacements
   ROUNDED: 2 replacements
-  EXACT: 112 replacements
-  ADDITIONAL: 23 replacements
+  EXACT: 71 replacements
+  ADDITIONAL: 10 replacements
+  EXPECTED_VALUE_FINAL_PASS: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (5):
+STD_DEV_VALUE REPLACEMENTS (6):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 70\%
-  Numerical Value: 70
-  Line: 98
-  Context: PAH F1130W can reach sim 70\% and there we subtract the
+  Expression: 3.3
+  Line: 48
+  Context: several prominent emission features at [NUMERICAL_RE SULT 6 2 7 7
 
 Replacement #2:
+  Expression: 6.2
+  Line: 48
+  Context: several prominent emission features at [NUMERICAL_RE SULT 6 2 7 7
+
+Replacement #3:
+  Expression: 7.7
+  Line: 48
+  Context: several prominent emission features at [NUMERICAL_RE SULT 6 2 7 7
+
+Replacement #4:
+  Expression: 0.09
+  Line: 92
+  Context: different bands the 3 sig ma$ limits are 0 09 0 11 0 13
+
+Replacement #5:
+  Expression: 0.11
+  Line: 92
+  Context: different bands the 3 sig ma$ limits are 0 09 0 11 0 13
+
+Replacement #6:
+  Expression: 0.13
+  Line: 92
+  Context: different bands the 3 sig ma$ limits are 0 09 0 11 0 13
+
+
+LATEX REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: 17\%
   Numerical Value: 17
   Line: 149
   Context: variance while the second for 17\% the third for 1 1
 
-Replacement #3:
+Replacement #2:
   Expression: 1.1\%
   Numerical Value: 1.1
   Line: 149
   Context: for 17 the third for 1.1\% and the fourth for 0
 
-Replacement #4:
+Replacement #3:
   Expression: 0.78\%
   Numerical Value: 0.78
   Line: 149
   Context: 1 and the fourth for 0.78\% In Table ref tab features
 
-Replacement #5:
+Replacement #4:
   Expression: 1.1\%
   Numerical Value: 1.1
   Line: 291
@@ -59,7 +89,7 @@ Replacement #2:
   Context: 3 7 7 ratio of about 0.4 dex although they have not
 
 
-EXACT REPLACEMENTS (112):
+EXACT REPLACEMENTS (71):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -73,672 +103,411 @@ Replacement #2:
   Context: The best fitting slopes are 0.16 0 38 for the MUSE
 
 Replacement #3:
-  Expression: 0.08
-  Line: 169
-  Context: 1365 beta 0 38 pm 0.08 In Figure ref f galaxies_sorted_by_slope
+  Expression: 0.26
+  Line: 181
+  Context: show steeper than average slopes 0.26 pm 0 05 and 0
 
 Replacement #4:
-  Expression: 0.19
-  Line: 246
-  Context: the MUSE optimal resolution and 0.19 0 40 for the 150
-
-Replacement #5:
-  Expression: 0.05
-  Line: 181
-  Context: average slopes 0 26 pm 0.05 and 0 33 pm 0
-
-Replacement #6:
-  Expression: 0.05
-  Line: 317
-  Context: find an increase of sim 0.05 dex in log PAH 11
-
-Replacement #7:
-  Expression: 0.22
-  Line: 207
-  Context: relatively average slopes beta sim 0.22 In both cases we exclude
-
-Replacement #8:
   Expression: 0.13
   Line: 92
   Context: are 0 09 0 11 0.13 and 0 29 mathrm MJy
 
-Replacement #9:
+Replacement #5:
   Expression: 0.13
   Line: 96
   Context: F770W _ mathrm PAH F770W 0.13 times F200W The prescription is
 
-Replacement #10:
+Replacement #6:
   Expression: 0.2
   Line: 40
   Context: with a slope of sim 0.2 and a scatter of sim
 
-Replacement #11:
-  Expression: .2
-  Line: 48
-  Context: features at 3 3 6 .2 7 7 8 6 11
-
-Replacement #12:
+Replacement #7:
   Expression: .2
   Line: 84
   Context: use the survey derived DR2 .2 surface brightness maps of the
 
-Replacement #13:
-  Expression: 0.2
-  Line: 224
-  Context: fitting slope around beta sim 0.2 for log PAH 11 3
-
-Replacement #14:
-  Expression: .2
-  Line: 244
-  Context: MUSE VLT 0 56 1 .2 arcsec we have sim 700
-
-Replacement #15:
-  Expression: 0.2
-  Line: 246
-  Context: a slope of beta sim 0.2 and a scatter of sim
-
-Replacement #16:
-  Expression: 0.2
-  Line: 248
-  Context: matches the observed beta sim 0.2 slope This interpretation implies that
-
-Replacement #17:
-  Expression: 0.2
-  Line: 248
-  Context: much larger variation of sim 0.2 dex vspace 0 3cm noindent
-
-Replacement #18:
-  Expression: 0.1
-  Line: 211
-  Context: siihalpha ratio of about sim 0.1 This suggests that the increased
-
-Replacement #19:
+Replacement #8:
   Expression: .3
   Line: 114
   Context: and anomalous log PAH 11 .3 7 7 ratios Our conclusions
 
-Replacement #20:
+Replacement #9:
   Expression: .3
   Line: 139
   Context: anomalously high log PAH 11 .3 7 7 ratios primarily in
 
-Replacement #21:
-  Expression: .3
-  Line: 151
-  Context: individual features log PAH 11 .3 7 7 oiiihbeta niihalpha siihalpha
-
-Replacement #22:
+Replacement #10:
   Expression: .3
   Line: 153
   Context: unusually high log PAH 11 .3 7 7 ratios occupying the
 
-Replacement #23:
-  Expression: .3
-  Line: 153
-  Context: pixels the log PAH 11 .3 7 7 ratio reaches a
-
-Replacement #24:
-  Expression: .3
-  Line: 169
-  Context: show the log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #25:
+Replacement #11:
   Expression: .3
   Line: 169
   Context: deriving the log PAH 11 .3 7 7 ratio This makes
 
-Replacement #26:
-  Expression: .3
-  Line: 169
-  Context: siihalpha and log PAH 11 .3 7 7 within each bin
-
-Replacement #27:
-  Expression: .3
-  Line: 177
-  Context: analysis using log PAH 11 .3 7 7 and siihalpha measurements
-
-Replacement #28:
-  Expression: .3
-  Line: 179
-  Context: sigma log mathrm PAH 11 .3 7 7 sim 0 025
-
-Replacement #29:
-  Expression: .3
-  Line: 181
-  Context: the observed log PAH 11 .3 7 7 versus siihalpha relation
-
-Replacement #30:
+Replacement #12:
   Expression: .3
   Line: 181
   Context: scatter in log PAH 11 .3 7 7 around the best
 
-Replacement #31:
+Replacement #13:
   Expression: .3
   Line: 181
   Context: show higher log PAH 11 .3 7 7 ratios on average
 
-Replacement #32:
+Replacement #14:
   Expression: .3
   Line: 185
   Context: unusually high log PAH 11 .3 7 7 ratios that do
 
-Replacement #33:
-  Expression: 0.3
-  Line: 187
-  Context: results when using thresholds of 0.3 and 0 5 mathrm dex
-
-Replacement #34:
+Replacement #15:
   Expression: .3
   Line: 187
   Context: cases the log PAH 11 .3 7 7 are unusually high
 
-Replacement #35:
-  Expression: .3
-  Line: 193
-  Context: in the log PAH 11 .3 7 7 versus siihalpha plane
-
-Replacement #36:
-  Expression: .3
-  Line: 193
-  Context: bins of log PAH 11 .3 7 7 in the anomalous
-
-Replacement #37:
+Replacement #16:
   Expression: .3
   Line: 193
   Context: that the log PAH 11 .3 7 7 ratios observed in
 
-Replacement #38:
+Replacement #17:
   Expression: .3
   Line: 195
   Context: hereafter The log PAH 11 .3 7 7 ratios observed for
 
-Replacement #39:
+Replacement #18:
   Expression: .3
   Line: 195
   Context: values of log PAH 11 .3 7 7 sim 0 4
 
-Replacement #40:
+Replacement #19:
   Expression: .3
   Line: 195
   Context: values of log PAH 11 .3 7 7 sim 0 6
 
-Replacement #41:
+Replacement #20:
   Expression: .3
   Line: 197
   Context: values of log PAH 11 .3 7 7 sim 0 6
 
-Replacement #42:
+Replacement #21:
   Expression: .3
   Line: 197
   Context: variation in log PAH 11 .3 7 7 with varying I
 
-Replacement #43:
+Replacement #22:
   Expression: .3
   Line: 199
   Context: of observed log PAH 11 .3 7 7 ratios in the
 
-Replacement #44:
+Replacement #23:
   Expression: .3
   Line: 199
   Context: anomalous group log PAH 11 .3 7 7 does not vary
 
-Replacement #45:
+Replacement #24:
   Expression: .3
   Line: 199
   Context: in anomalous log PAH 11 .3 7 7 ratios is related
 
-Replacement #46:
+Replacement #25:
   Expression: .3
   Line: 199
   Context: correlation with log PAH 11 .3 7 7 is expected The
 
-Replacement #47:
+Replacement #26:
   Expression: .3
   Line: 201
   Context: showing anomalous log PAH 11 .3 7 7 ratios are indeed
 
-Replacement #48:
+Replacement #27:
   Expression: .3
   Line: 203
   Context: subsection Small log PAH 11 .3 7 7 enhancement in AGN
 
-Replacement #49:
-  Expression: .3
-  Line: 205
-  Context: in their log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #50:
-  Expression: .3
-  Line: 209
-  Context: in the log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #51:
-  Expression: .3
-  Line: 211
-  Context: we show log PAH 11 .3 7 7 versus siihalpha for
-
-Replacement #52:
+Replacement #28:
   Expression: .3
   Line: 211
   Context: increase in log PAH 11 .3 7 7 at a fixed
 
-Replacement #53:
-  Expression: .3
-  Line: 211
-  Context: we show log PAH 11 .3 7 7 versus oiiihbeta for
-
-Replacement #54:
+Replacement #29:
   Expression: .3
   Line: 211
   Context: excess in log PAH 11 .3 7 7 that causes steeper
 
-Replacement #55:
+Replacement #30:
   Expression: .3
   Line: 213
   Context: showing elevated log PAH 11 .3 7 7 ratios in the
 
-Replacement #56:
+Replacement #31:
   Expression: .3
   Line: 213
   Context: comparing the log PAH 11 .3 7 7 distributions in AGN
 
-Replacement #57:
+Replacement #32:
   Expression: .3
   Line: 213
   Context: a small log PAH 11 .3 7 7 enhancement in the
 
-Replacement #58:
+Replacement #33:
   Expression: .3
   Line: 213
   Context: of the log PAH 11 .3 7 7 ratios in AGN
 
-Replacement #59:
+Replacement #34:
   Expression: .3
   Line: 213
   Context: The enhanced log PAH 11 .3 7 7 ratios are seen
 
-Replacement #60:
+Replacement #35:
   Expression: .3
   Line: 215
   Context: difference in log PAH 11 .3 7 7 is not driven
 
-Replacement #61:
+Replacement #36:
   Expression: .3
   Line: 226
   Context: impact the log PAH 11 .3 7 7 ratio see figure
 
-Replacement #62:
+Replacement #37:
   Expression: .3
   Line: 228
   Context: that the log PAH 11 .3 7 7 ratio varies primarily
 
-Replacement #63:
+Replacement #38:
   Expression: .3
   Line: 228
   Context: the observed log PAH 11 .3 7 7 ratio variation Therefore
 
-Replacement #64:
-  Expression: .3
-  Line: 228
-  Context: in the log PAH 11 .3 7 7 versus siihalpha relation
-
-Replacement #65:
+Replacement #39:
   Expression: .3
   Line: 228
   Context: variation in log PAH 11 .3 7 7 of sim 0
 
-Replacement #66:
+Replacement #40:
   Expression: .3
   Line: 230
   Context: unusually high log PAH 11 .3 7 7 ratios with up
 
-Replacement #67:
+Replacement #41:
   Expression: .3
   Line: 230
   Context: the highest log PAH 11 .3 7 7 values are farther
 
-Replacement #68:
+Replacement #42:
   Expression: .3
   Line: 232
   Context: The elevated log PAH 11 .3 7 7 ratios may be
 
-Replacement #69:
+Replacement #43:
   Expression: .3
   Line: 232
   Context: increasing the log PAH 11 .3 7 7 ratio An alternative
 
-Replacement #70:
+Replacement #44:
   Expression: .3
   Line: 236
   Context: disc The unusual PAH 11 .3 7 7 ratio may be
 
-Replacement #71:
+Replacement #45:
   Expression: .3
   Line: 236
   Context: era unusually high PAH 11 .3 7 7 ratios in low
 
-Replacement #72:
+Replacement #46:
   Expression: .3
   Line: 236
   Context: on the observed PAH 11 .3 7 7 ratio in our
 
-Replacement #73:
+Replacement #47:
   Expression: .3
   Line: 236
   Context: case altering log PAH 11 .3 7 7 by sim 0
 
-Replacement #74:
+Replacement #48:
   Expression: .3
   Line: 236
   Context: that the peculiar PAH 11 .3 7 7 ratios observed in
 
-Replacement #75:
-  Expression: .3
-  Line: 238
-  Context: in their log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #76:
+Replacement #49:
   Expression: .3
   Line: 238
   Context: of the log PAH 11 .3 7 7 ratio for 0
 
-Replacement #77:
+Replacement #50:
   Expression: .3
   Line: 238
   Context: the slight log PAH 11 .3 7 7 enhancement The enhancement
 
-Replacement #78:
-  Expression: .3
-  Line: 240
-  Context: pixels showing unusual PAH 11 .3 7 7 ratios Koziol et
-
-Replacement #79:
+Replacement #51:
   Expression: .3
   Line: 248
   Context: variation in log PAH 11 .3 7 7 of sim 0
 
-Replacement #80:
-  Expression: .3
-  Line: 293
-  Context: 4 section log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #81:
-  Expression: .3
-  Line: 295
-  Context: of the log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #82:
-  Expression: .3
-  Line: 295
-  Context: shows the log PAH 11 .3 7 7 versus siihalpha relations
-
-Replacement #83:
+Replacement #52:
   Expression: .3
   Line: 311
   Context: the standard log PAH 11 .3 7 7 assumed throughout the
 
-Replacement #84:
+Replacement #53:
   Expression: .3
   Line: 315
   Context: the ratio log PAH 11 .3 7 7 can be estimated
 
-Replacement #85:
+Replacement #54:
   Expression: .3
   Line: 315
   Context: before estimating log PAH 11 .3 7 7 First the figure
 
-Replacement #86:
+Replacement #55:
   Expression: .3
   Line: 317
   Context: increase in log PAH 11 .3 7 7 ratios is not
 
-Replacement #87:
+Replacement #56:
   Expression: .3
   Line: 317
   Context: increase in log PAH 11 .3 7 7 observed in AGN
 
-Replacement #88:
+Replacement #57:
   Expression: 0.4
   Line: 167
   Context: generally above log F200W F770W 0.4 mathrm dex We use this
 
-Replacement #89:
-  Expression: 0.4
-  Line: 187
-  Context: pixels with log F200W F770W 0.4 mathrm dex also show PAH
-
-Replacement #90:
-  Expression: 0.4
-  Line: 187
-  Context: pixels with log F200W F770W 0.4 mathrm dex do not show
-
-Replacement #91:
-  Expression: 0.4
-  Line: 187
-  Context: following threshold log F200W F770W 0.4 mathrm dex somewhat arbitrary We
-
-Replacement #92:
-  Expression: 0.4
-  Line: 191
-  Context: below the log F200W F770W 0.4 mathrm dex threshold and are
-
-Replacement #93:
+Replacement #58:
   Expression: 0.4
   Line: 230
   Context: ratios of log F200W F770W 0.4 dex They originate in the
 
-Replacement #94:
+Replacement #59:
   Expression: 0.4
   Line: 250
   Context: dust emission log F200W F770W 0.4 dex in the so called
 
-Replacement #95:
-  Expression: .8
-  Line: 60
-  Context: ion Ne 2 lambda 12 .8 mathrm mu m ratio e
-
-Replacement #96:
-  Expression: .7
-  Line: 90
-  Context: centered on the wavelengths 7 .7 10 11 3 and 21
-
-Replacement #97:
+Replacement #60:
   Expression: 0.7
   Line: 153
   Context: ratios of sim 0 6 0.7 dex This group does not
 
-Replacement #98:
-  Expression: .7
-  Line: 161
-  Context: log PAH 11 3 7 .7 band ratio and the siihalpha
-
-Replacement #99:
-  Expression: .7
-  Line: 161
-  Context: log PAH 11 3 7 .7 and niihalpha siihalpha and oihalpha
-
-Replacement #100:
+Replacement #61:
   Expression: .7
   Line: 169
   Context: log PAH 11 3 7 .7 ratios somewhat larger here compared
 
-Replacement #101:
+Replacement #62:
+  Expression: .7
+  Line: 179
+  Context: mathrm PAH 11 3 7 .7 sim 0 025 dex is
+
+Replacement #63:
   Expression: .7
   Line: 181
   Context: log PAH 11 3 7 .7 ratio of about 0 3
 
-Replacement #102:
+Replacement #64:
   Expression: .7
   Line: 191
   Context: log PAH 11 3 7 .7 In Figure ref f stacked_SEDs_weird_PAHs_fnu
 
-Replacement #103:
+Replacement #65:
   Expression: .7
-  Line: 199
-  Context: log PAH 11 3 7 .7 and the halpha surface brightness
+  Line: 193
+  Context: log PAH 11 3 7 .7 in the anomalous group As
 
-Replacement #104:
-  Expression: .7
-  Line: 207
-  Context: log PAH 11 3 7 .7 and siihalpha ratios we also
-
-Replacement #105:
+Replacement #66:
   Expression: .7
   Line: 213
   Context: in PAH 11 3 7 .7 suggesting that the old stellar
 
-Replacement #106:
-  Expression: .7
-  Line: 224
-  Context: log PAH 11 3 7 .7 versus siihalpha and with a
-
-Replacement #107:
+Replacement #67:
   Expression: .7
   Line: 224
   Context: the PAH 11 3 7 .7 ratio strongly depends on the
 
-Replacement #108:
+Replacement #68:
   Expression: .7
-  Line: 248
-  Context: log PAH 11 3 7 .7 and siihalpha suggests a one
+  Line: 240
+  Context: unusual PAH 11 3 7 .7 ratios Koziol et al in
 
-Replacement #109:
-  Expression: .7
-  Line: 254
-  Context: log PAH 11 3 7 .7 and siihalpha is driven by
-
-Replacement #110:
+Replacement #69:
   Expression: .7
   Line: 309
   Context: log PAH 11 3 7 .7 and log F200W F2100W we
 
-Replacement #111:
+Replacement #70:
   Expression: .7
   Line: 311
   Context: log PAH 11 3 7 .7 and log F200W F2100W for
 
-Replacement #112:
+Replacement #71:
   Expression: .7
   Line: 311
   Context: log PAH 11 3 7 .7 and log F200W F2100W are
 
 
-ADDITIONAL REPLACEMENTS (23):
+ADDITIONAL REPLACEMENTS (10):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -150
-  Line: 40
-  Context: that probe scales of 40 -150 pc in nineteen nearby star
-
-Replacement #2:
-  Expression: -150
-  Line: 66
-  Context: galaxies on scales of 40 -150 pc We use the nineteen
-
-Replacement #3:
-  Expression: -120
-  Line: 74
-  Context: spatial resolution of sim 40 -120 pc The analysis in this
-
-Replacement #4:
-  Expression: -50
-  Line: 90
-  Context: probing scales of sim 5 -50 pc citep lee23 The filters
-
-Replacement #5:
-  Expression: -150
-  Line: 139
-  Context: 19 galaxies individually on 40 -150 pc scales in Section ref
-
-Replacement #6:
-  Expression: -150
-  Line: 177
-  Context: relation is probed within 40 -150 pc suggests that the process
-
-Replacement #7:
-  Expression: -150
-  Line: 221
-  Context: galaxies probing scales of 40 -150 pc The correlation is a
-
-Replacement #8:
-  Expression: -150
-  Line: 228
-  Context: uniform on scales of 40 -150 pc as it can vary
-
-Replacement #9:
-  Expression: -150
-  Line: 244
-  Context: emission on scales of 40 -150 pc Our results and their
-
-Replacement #10:
-  Expression: -150
-  Line: 248
-  Context: is surprisingly uniform on 40 -150 pc scales accounting for a
-
-Replacement #11:
-  Expression: -150
-  Line: 254
-  Context: remain relatively uniform on 40 -150 pc scales This implies that
-
-Replacement #12:
-  Expression: -15
-  Line: 262
-  Context: Azur under reference number ANR -15 IDEX 01 JPe acknowledges support
-
-Replacement #13:
-  Expression: -01.
-  Line: 262
-  Context: reference number ANR 15 IDEX -01. JPe acknowledges support by the
-
-Replacement #14:
   Expression: -21
   Line: 262
   Context: through the DAOISM grant ANR -21 CE31 0010 JC acknowledges funding
 
-Replacement #15:
+Replacement #2:
   Expression: -0623
   Line: 270
   Context: under ESO programmes 094 C -0623 PI Kreckel 095 C 0473
 
-Replacement #16:
+Replacement #3:
   Expression: -0473
   Line: 270
   Context: 0623 PI Kreckel 095 C -0473 098 C 0484 PI Blanc
 
-Replacement #17:
+Replacement #4:
   Expression: -0484
   Line: 270
   Context: 095 C 0473 098 C -0484 PI Blanc 1100 B 0651
 
-Replacement #18:
+Replacement #5:
   Expression: -0651
   Line: 270
   Context: 0484 PI Blanc 1100 B -0651 PHANGS MUSE PI Schinnerer as
 
-Replacement #19:
+Replacement #6:
   Expression: -0321
   Line: 270
   Context: as well as 094 B -0321 MAGNUM PI Marconi 099 B
 
-Replacement #20:
+Replacement #7:
   Expression: -0242
   Line: 270
   Context: MAGNUM PI Marconi 099 B -0242 0100 B 0116 098 B
 
-Replacement #21:
+Replacement #8:
   Expression: -0116
   Line: 270
   Context: 099 B 0242 0100 B -0116 098 B 0551 MAD PI
 
-Replacement #22:
+Replacement #9:
   Expression: -0551
   Line: 270
   Context: 0100 B 0116 098 B -0551 MAD PI Carollo and 097
 
-Replacement #23:
+Replacement #10:
   Expression: -0640
   Line: 270
   Context: PI Carollo and 097 B -0640 TIMER PI Gadotti IPython citep
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.17
+  Line: 0
+  Context: Final pass for expected values
 
 

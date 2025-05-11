@@ -1,31 +1,11 @@
-2025-05-11 16:13:00,291 - INFO - Logging to file: utils/num_mask_logs/fable_mps_masking.log
-2025-05-11 16:13:00,292 - INFO - Found 21 unique numerical values to mask
-2025-05-11 16:13:00,505 - INFO - Made 51 replacements in the text
-2025-05-11 16:13:00,505 - INFO - Saved masked text to papers/masked_texts/fable_mps.txt
-2025-05-11 16:13:00,505 - INFO - Latex Replacement #1: '\mathrm{DM} = 3.4' at line 65
-2025-05-11 16:13:00,505 - INFO -   Context: yielding a resolution of m_ \mathrm{DM} = 3.4 times 10 7 h 1
-2025-05-11 16:13:00,505 - INFO - Latex Replacement #2: '\mathrm{gas} = 6.4' at line 65
-2025-05-11 16:13:00,505 - INFO -   Context: mass resolution overline m _ \mathrm{gas} = 6.4 times 10 6 h 1
-2025-05-11 16:13:00,505 - INFO - Latex Replacement #3: '\mathrm{QM} = 25' at line 85
-2025-05-11 16:13:00,505 - INFO -   Context: is accumulated over delta t_ \mathrm{QM} = 25 Myr before being released in
-2025-05-11 16:13:00,505 - INFO - Latex Replacement #4: '\mathrm{BH} = 0.15' at line 90
-2025-05-11 16:13:00,505 - INFO -   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #5: '2.5\cdot' at line 181
-2025-05-11 16:13:00,506 - INFO -   Context: 1 7 cdot 10 8 2.5\cdot 10 9 1 5 cdot
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #6: '1.5\cdot' at line 181
-2025-05-11 16:13:00,506 - INFO -   Context: 2 5 cdot 10 9 1.5\cdot 10 10 6 0 cdot
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #7: '6.0\cdot' at line 181
-2025-05-11 16:13:00,506 - INFO -   Context: 1 5 cdot 10 10 6.0\cdot 10 10 right Msun and
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #8: '2.5\cdot' at line 181
-2025-05-11 16:13:00,506 - INFO -   Context: text cut left 0 0 2.5\cdot 10 5 1 4 cdot
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #9: '1.4\cdot' at line 181
-2025-05-11 16:13:00,506 - INFO -   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #10: '1.8\cdot' at line 181
-2025-05-11 16:13:00,506 - INFO -   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
-2025-05-11 16:13:00,506 - INFO - Latex Replacement #11: '40\%' at line 155
-2025-05-11 16:13:00,506 - INFO -   Context: is of the order of 40\% and primarily develops at z
-2025-05-11 16:13:00,506 - INFO - Additional Replacement #1: '-100' at line 166
-2025-05-11 16:13:00,506 - INFO -   Context: with the HorizonAGN and IllustrisTNG -100 simulations as they have comparable
-2025-05-11 16:13:00,506 - INFO - Additional Replacement #2: '-100' at line 166
-2025-05-11 16:13:00,506 - INFO -   Context: k hcMpc 5 than IllustrisTNG -100 and especially HorizonAGN with the
-2025-05-11 16:13:00,506 - INFO - Saved context information to utils/num_mask_logs/fable_mps_contexts.log
+2025-05-11 16:39:21,671 - INFO - Logging to file: utils/num_mask_logs/fable_mps_masking.log
+2025-05-11 16:39:21,672 - INFO - Found 21 unique numerical values to mask
+2025-05-11 16:39:21,880 - INFO - Made 51 replacements in the text
+2025-05-11 16:39:21,881 - INFO - Saved masked text to papers/masked_texts/fable_mps.txt
+2025-05-11 16:39:21,881 - INFO - Latex Replacement #1: '\mathrm{BH} = 0.15' at line 90
+2025-05-11 16:39:21,881 - INFO -   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
+2025-05-11 16:39:21,881 - INFO - Latex Replacement #2: '1.4\cdot' at line 181
+2025-05-11 16:39:21,881 - INFO -   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
+2025-05-11 16:39:21,881 - INFO - Latex Replacement #3: '1.8\cdot' at line 181
+2025-05-11 16:39:21,881 - INFO -   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
+2025-05-11 16:39:21,881 - INFO - Saved context information to utils/num_mask_logs/fable_mps_contexts.log

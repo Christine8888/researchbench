@@ -2,10 +2,20 @@ Masked values and their context for paper: astm3
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LARGE_INTEGER: 1 replacements
   LATEX: 2 replacements
   EXACT: 2 replacements
 
 ================================================================================
+
+LARGE_INTEGER REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 21,440 objects
+  Line: 235
+  Context: self supervised models This includes 21,440 objects with time series photometry spectra
+
 
 LATEX REPLACEMENTS (2):
 --------------------------------------------------------------------------------

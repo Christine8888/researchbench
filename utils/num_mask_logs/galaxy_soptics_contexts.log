@@ -2,10 +2,137 @@ Masked values and their context for paper: galaxy_soptics
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  EQUATION_EXPECTED_VALUE: 6 replacements
+  LIST_EXPECTED_VALUE: 5 replacements
+  LARGE_INTEGER: 7 replacements
   LATEX: 10 replacements
-  EXACT: 16 replacements
+  EXACT: 7 replacements
+  GALAXY_COUNT: 1 replacements
+  EXPECTED_VALUE_FINAL_PASS: 9 replacements
+  TRAILING_ZEROS: 1 replacements
 
 ================================================================================
+
+EQUATION_EXPECTED_VALUE REPLACEMENTS (6):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1
+  Line: 193
+  Context: 3D space is defined as \begin{equation}
+D^2(u, v) = \sum_{i=1}^{3}(u_i - v_i)^2\,,
+\end{equation} where u and v represent
+
+Replacement #2:
+  Expression: 1
+  Line: 204
+  Context: LOS component In principle o ne could define:
+\begin{equation}
+d_\mathrm{LOS}(u, v)
+= \frac{\sum_{i=1}^{3} \bigl(u_i - v_i\bigr),u_i}{\sqrt{\sum_{i=1}^{3} \bigl(u_i\bigr)^2}}  end equation and then multiply
+
+Replacement #3:
+  Expression: 1
+  Line: 227
+  Context: to have an observed redshift z$, as described by the equation:
+\begin{equation}
+(1+z) = (1+z_{\rm c})\left(1+z_{\m athrm p right end equation
+
+Replacement #4:
+  Expression: 0
+  Line: 244
+  Context: strategically assigning heightened weight to  groups exhibiting a greater abundance of members:
+\begin{equation}
+ F_{\mathrm{R}} = 
+ \sum^{\mathcal{N}}_{i=0} \delta_i \times \frac{ \text{Number of galaxies in group $i$}}
+ {\text{Total n umber of non isolated galaxies
+
+Replacement #5:
+  Expression: 1
+  Line: 250
+  Context: N is the total n umber of true groups in \citetalias{yangGalaxyGroupsSDSS2007}, and:
+\begin{equation}
+ \delta_i = 
+\begin{cases}
+1, & \text{if group $i$ is simultaneously pure and complete 0 text otherwise
+
+Replacement #6:
+  Expression: 0
+  Line: 250
+  Context: N is the total n umber of true groups in \citetalias{yangGalaxyGroupsSDSS2007}, and:
+\begin{equation}
+ \delta_i = 
+\begin{cases}
+1, & \text{if group $i$ is simultaneously pure and complete 0 text otherwise
+
+
+LIST_EXPECTED_VALUE REPLACEMENTS (5):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 118
+  Line: 10
+  Context: successfully recovering 115 BCGs out of 118  reliable BCGs from a large
+
+Replacement #2:
+  Expression: 0.2
+  Line: 127
+  Context: the FoF algorithm with a linking length of 0 2 in
+
+Replacement #3:
+  Expression: 0.2
+  Line: 127
+  Context: the FoF algorithm with a linking length of 0 2 in
+
+Replacement #4:
+  Expression: 400
+  Line: 129
+  Context: least five galaxies resulting in a final sample of 400 halos We
+
+Replacement #5:
+  Expression: 472
+  Line: 244
+  Context: least five galaxy members tota ling 8,427  out of 472 416 groups
+
+
+LARGE_INTEGER REPLACEMENTS (7):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 639,359 galaxies
+  Line: 181
+  Context: in citet yangGalaxyGroupsSDSS2007 This leaves 639,359 galaxies with reliable r band magnitudes
+
+Replacement #2:
+  Expression: 586,025 galaxies
+  Line: 305
+  Context: catalog from citet shiMappingRealspaceDistributions2016 whic h contains 586,0 25 galaxies from SDSS DR13
+
+Replacement #3:
+  Expression: 26,276 galaxies
+  Line: 129
+  Context: sample This sub volume contains 26,276 galaxies originating from 17 878 halos
+
+Replacement #4:
+  Expression: 586,025 galaxies
+  Line: 305
+  Context: catalog from citet shiMappingRealspaceDistributions2016 whi ch contains 586, 025 galaxies from SDSS DR13
+
+Replacement #5:
+  Expression: 8,113 galaxies
+  Line: 316
+  Context: By cross matching BCG candidat es with the 8, 113 galaxies released in the
+
+Replacement #6:
+  Expression: total of 8,427
+  Line: 275
+  Context: actual members out of a total of 8,427 true groups In contrast the
+
+Replacement #7:
+  Expression: sample of 4,033
+  Line: 316
+  Context: hsuSDSSIVMaNGACannibalism2022 hsuSDSSIVMaNGACannibalism2022 Their parent BCG sample of 4,033 galaxy clusters is also extracted
+
 
 LATEX REPLACEMENTS (10):
 --------------------------------------------------------------------------------
@@ -19,139 +146,161 @@ Replacement #1:
 Replacement #2:
   Expression: 86.6\%
   Numerical Value: 86.6
-  Line: 273
+  Line: 275
   Context: the abundance weighted purity of 86.6\% and completeness of 97 1
 
 Replacement #3:
   Expression: 42.6\%
   Numerical Value: 42.6
-  Line: 273
+  Line: 275
   Context: a soft recovery rate of 42.6\% while with a purity of
 
 Replacement #4:
   Expression: 44.2\%
   Numerical Value: 44.2
-  Line: 273
+  Line: 275
   Context: while with a purity of 44.2\% and completeness of 54 7
 
 Replacement #5:
   Expression: 55.2\%
   Numerical Value: 55.2
-  Line: 305
+  Line: 307
   Context: achieving a recovery rate of 55.2\% a purity of 63 7
 
 Replacement #6:
   Expression: 63.7\%
   Numerical Value: 63.7
-  Line: 305
+  Line: 307
   Context: 55 2 a purity of 63.7\% and a completeness of 75
 
 Replacement #7:
   Expression: 75.8\%
   Numerical Value: 75.8
-  Line: 305
+  Line: 307
   Context: 7 and a completeness of 75.8\% These results are notable because
 
 Replacement #8:
   Expression: 30.8\%
   Numerical Value: 30.8
-  Line: 307
+  Line: 309
   Context: with a recovery rate of 30.8\% a purity of 46 7
 
 Replacement #9:
   Expression: 46.7\%
   Numerical Value: 46.7
-  Line: 307
+  Line: 309
   Context: 30 8 a purity of 46.7\% and a completeness of 50
 
 Replacement #10:
   Expression: 50.2\%
   Numerical Value: 50.2
-  Line: 307
+  Line: 309
   Context: 7 and a completeness of 50.2\% The substantial disparity suggests that
 
 
-EXACT REPLACEMENTS (16):
+EXACT REPLACEMENTS (7):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: 12,242
-  Line: 273
+  Line: 275
   Context: number of identified groups is 12,242 while there are 8 427
 
 Replacement #2:
   Expression: 8,640
-  Line: 303
+  Line: 305
   Context: space galaxy group catalog of 8,640 systems each containing at least
 
 Replacement #3:
-  Expression: 0.10
-  Line: 225
-  Context: a subsample at redshift z 0.10 both with and without the
-
-Replacement #4:
-  Expression: 0.2
-  Line: 127
-  Context: with a linking length of 0.2 in units of the mean
-
-Replacement #5:
-  Expression: 0.20
-  Line: 303
-  Context: of 0 leq z leq 0.20 The group catalog was constructed
-
-Replacement #6:
   Expression: 0.8
-  Line: 262
+  Line: 264
   Context: rate of F_ mathrm R 0.8 for FoF and 0 76
 
-Replacement #7:
+Replacement #4:
   Expression: 115
-  Line: 10
-  Context: recovery rate also successfully recovering 115 BCGs out of 118 reliable
-
-Replacement #8:
-  Expression: 115
-  Line: 318
+  Line: 320
   Context: hypervalue s_los we successfully identified 115 BCGs consistent with the 118
 
-Replacement #9:
+Replacement #5:
   Expression: 113
-  Line: 314
+  Line: 316
   Context: BCG candidates with the 8 113 galaxies released in the ninth
 
-Replacement #10:
-  Expression: 400
-  Line: 129
-  Context: in a final sample of 400 halos We further expanded our
+Replacement #6:
+  Expression: 0.20
+  Line: 305
+  Context: of 0 leq z leq 0.20 The group catalog was constructed
 
-Replacement #11:
-  Expression: 15
-  Line: 314
-  Context: of z 0 02 0 15 These clusters are all detected
-
-Replacement #12:
+Replacement #7:
   Expression: 12
-  Line: 273
+  Line: 275
   Context: identified groups using FoF is 12 396 Therefore by incorporating the
 
-Replacement #13:
-  Expression: 10
-  Line: 275
-  Context: account the relative areas within 10 Mpc In the color magnitude
 
-Replacement #14:
-  Expression: 10
-  Line: 314
-  Context: mass M_ 180 m geqslant 10 14 h 1 M_ odot
+GALAXY_COUNT REPLACEMENTS (1):
+--------------------------------------------------------------------------------
 
-Replacement #15:
-  Expression: 30
-  Line: 135
-  Context: Group for instance hosts over 30 galaxies with a diameter of
+Replacement #1:
+  Expression: 586,025
+  Line: 305
+  Context: from citet shiMappingRealspaceDistributions2016 which contains 586,025 galaxies from SDSS DR13 citep albareti13thDataRelease2017
 
-Replacement #16:
-  Expression: 30
-  Line: 173
-  Context: scales on scales above 25 30 h 1 Mpc but failing
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (9):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1.2
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 300
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #3:
+  Expression: 15
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #4:
+  Expression: 0.05
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #5:
+  Expression: 118
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #6:
+  Expression: 115
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #7:
+  Expression: 400
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #8:
+  Expression: 472
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #9:
+  Expression: 0.2
+  Line: 0
+  Context: Final pass for expected values
+
+
+TRAILING_ZEROS REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.10
+  Line: 0
+  Context: Trailing zeros variation
 
 

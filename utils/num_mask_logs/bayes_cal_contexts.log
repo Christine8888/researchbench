@@ -2,82 +2,286 @@ Masked values and their context for paper: bayes_cal
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 1 replacements
-  ADDITIONAL: 12 replacements
+  EQUATION_EXPECTED_VALUE: 26 replacements
+  EXPECTED_VALUE_FINAL_PASS: 2 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (1):
+EQUATION_EXPECTED_VALUE REPLACEMENTS (26):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 1\%
-  Numerical Value: 1
-  Line: 270
-  Context: this, we added of order 1\% Gaussian noise independently to the
-
-
-ADDITIONAL REPLACEMENTS (12):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: -1
-  Line: 163
-  Context: \times \\ &\exp \left[ -\frac{1}{\sigma^2}\{b+\frac{1}{2}\left(\boldsymbol{\Theta}-\boldsymbol{\mu}_{\boldsymbol{\Theta}}\right)^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 }\left(\boldsymbol{\Theta}-\boldsymbol{\mu}_{\boldsymbol{\Theta}}\right)\} \right],
+  Expression: 1
+  Line: 25
+  Context: signal can be described by \begin{equation}
+ \label{brightnessTemp}
+ \begin{aligned}
+ T_{21}(z) \approx & \ 0.023 \mathrm{K} \ \times \\
+ & x_{\ion{H}{i}}(z) \left[ \left(\frac{0.15}{\Omega_{\mathrm{m}}} \right)\left(\frac{1+z}{10}\right) \right]^{\frac{1}{2}} \left(\frac{\Omega_{\mathrm{b}}h}{0.02}\right)\left[1-\frac{T_{\mathrm{R}}(z)}{T_{\mathrm{S}}(z)}\right],
+ \end{aligned}
+\end{equation} which is heavily dependent on
 
 Replacement #2:
-  Expression: -1
-  Line: 179
-  Context: b^* &= b + \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 }\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{*-1}\boldsymbol{\mu}^*],
+  Expression: 1
+  Line: 25
+  Context: signal can be described by \begin{equation}
+ \label{brightnessTemp}
+ \begin{aligned}
+ T_{21}(z) \approx & \ 0.023 \mathrm{K} \ \times \\
+ & x_{\ion{H}{i}}(z) \left[ \left(\frac{0.15}{\Omega_{\mathrm{m}}} \right)\left(\frac{1+z}{10}\right) \right]^{\frac{1}{2}} \left(\frac{\Omega_{\mathrm{b}}h}{0.02}\right)\left[1-\frac{T_{\mathrm{R}}(z)}{T_{\mathrm{S}}(z)}\right],
+ \end{aligned}
+\end{equation} which is heavily dependent on
 
 Replacement #3:
-  Expression: -1
-  Line: 179
-  Context: \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{* -1 }\boldsymbol{\mu}^*], \\
+  Expression: 1
+  Line: 68
+  Context: terms of specific response contribution s as detailed in \citet{monsalve}
+\begin{equation}
+ \label{eqn:pant}
+ \begin{aligned}
+ \psd{cal} = g_{\mathrm{sys}} \Bigg[ &\T{cal}\left(1-|\Ga|^2\right)\left|\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right|^2 \\
+ + & \T{unc}|\Ga|^2\left|\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right|^2 \\
+ + & \T{cos}\operatorname{Re}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) \\
+ + & \T{sin}\operatorname{Im}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) 
+ + T_0 \Bi gg end aligned end equation
 
 Replacement #4:
-  Expression: -1
-  Line: 180
-  Context: \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 } + \mathbfss{X}^{\top}\mathbfss{X}\right)^{-1}\left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \mathbfss{X}^{\top}\y\right),
+  Expression: 1
+  Line: 68
+  Context: terms of specific response contribution s as detailed in \citet{monsalve}
+\begin{equation}
+ \label{eqn:pant}
+ \begin{aligned}
+ \psd{cal} = g_{\mathrm{sys}} \Bigg[ &\T{cal}\left(1-|\Ga|^2\right)\left|\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right|^2 \\
+ + & \T{unc}|\Ga|^2\left|\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right|^2 \\
+ + & \T{cos}\operatorname{Re}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) \\
+ + & \T{sin}\operatorname{Im}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) 
+ + T_0 \Bi gg end aligned end equation
 
 Replacement #5:
-  Expression: -1
-  Line: 180
-  Context: \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1} + \mathbfss{X}^{\top}\mathbfss{X}\right)^{ -1 }\left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \mathbfss{X}^{\top}\y\right), \\
+  Expression: 1
+  Line: 83
+  Context: references are typically less than 0.005, they are taken to be zero in order to simplify the equations
+\begin{equation}
+ \label{eqn:pl}
+ \psd{L} = g_{\mat hrm sys T L left
 
 Replacement #6:
-  Expression: -1
-  Line: 180
-  Context: \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1} + \mathbfss{X}^{\top}\mathbfss{X}\right)^{-1}\left(\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 }\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \mathbfss{X}^{\top}\y\right), \\
+  Expression: 1
+  Line: 85
+  Context: rec 2 right T_ 0 ,
+\end{equation}hrm{sys}}^*[\T{L}\left(1-|\G{rec}|^2\right)+T_{0}^*],
+\end{equation}
+\begin{equation}
+ \label{eqn:pns}
+ \psd{NS} = g_{\mathrm sys left T L T
 
 Replacement #7:
-  Expression: -1
-  Line: 181
-  Context: \mathbfss{V}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 } + \mathbfss{X}^{\top}\mathbfss{X}\right)^{-1}, \\
+  Expression: 1
+  Line: 93
+  Context: a relationship between the uncalibrat ed input temperature and a final calibrated temperature of any device connected to the receiver input
+\begin{equation}
+ \label{eqn:caleqn}
+ \begin{aligned}
+ \T{NS}\left( \frac{\psd{cal} - \psd{L}}{\psd{NS} - \psd{L}} \right) + \T{L}&= \T{cal}\left[ \frac{1-|\Ga|^2}{|1-\Ga\G{rec}|^2} \right] \\
+ & + \T{unc}\left[ \frac{|\Ga|^2}{|1-\Ga\G{rec}|^2} \right] \\
+ & + \T{cos}\left[ \frac{\operatorname{Re}\left(\frac{\Ga}{1-\Ga\G{rec}}\right)}{\sqrt{1-|\G{rec}|^2}} \right] \\
+ & + \T{sin}\left[ \frac{\operatorname{Im}\ left frac Ga 1 Ga
 
 Replacement #8:
-  Expression: -1
-  Line: 181
-  Context: \mathbfss{V}^* &= \left(\mathbfss{V}_{\boldsymbol{\Theta}}^{-1} + \mathbfss{X}^{\top}\mathbfss{X}\right)^{ -1 }, \\
+  Expression: 1
+  Line: 93
+  Context: a relationship between the uncalibrat ed input temperature and a final calibrated temperature of any device connected to the receiver input
+\begin{equation}
+ \label{eqn:caleqn}
+ \begin{aligned}
+ \T{NS}\left( \frac{\psd{cal} - \psd{L}}{\psd{NS} - \psd{L}} \right) + \T{L}&= \T{cal}\left[ \frac{1-|\Ga|^2}{|1-\Ga\G{rec}|^2} \right] \\
+ & + \T{unc}\left[ \frac{|\Ga|^2}{|1-\Ga\G{rec}|^2} \right] \\
+ & + \T{cos}\left[ \frac{\operatorname{Re}\left(\frac{\Ga}{1-\Ga\G{rec}}\right)}{\sqrt{1-|\G{rec}|^2}} \right] \\
+ & + \T{sin}\left[ \frac{\operatorname{Im}\ left frac Ga 1 Ga
 
 Replacement #9:
-  Expression: -1
-  Line: 194
-  Context: b^* + \frac{1}{2}\left(\boldsymbol{\Theta} - \boldsymbol{\mu}^*\right)^{\top}\mathbfss{V}^{* -1 }\left(\boldsymbol{\Theta} - \boldsymbol{\mu}^*\right) \Bigg] \Bigg\}
+  Expression: 1
+  Line: 109
+  Context: A schematic of the improv ed calibration method is shown in \cref{flowchart}.
+
+In order to simplify our cal ibration approach we first define
 
 Replacement #10:
-  Expression: -1
-  Line: 198
-  Context: $\mathbfss{V}_{\boldsymbol{\Theta}} \rightarrow \infty \Rightarrow \mathbfss{V}_{\boldsymbol{\Theta}}^{ -1 } \rightarrow 0$, and $\boldsymbol{\mu}^*$
+  Expression: 1
+  Line: 110
+  Context: Ga 2 NUMERICAL_RESULT Ga 2  
+\end{equation}ibration approach, we first define the following terms
+\begin{equation}
+ X_{\ma thrm unc frac Ga 2
 
 Replacement #11:
-  Expression: -1
-  Line: 225
-  Context: \left( I + \hat{\mathbfss{X}}\mathbfss{V}^*\hat{\mathbfss{X}}^{\top} \right)^{ -1 } \left( \mathbfit{T}_{\mathrm{sky}} - \hat{\mathbfss{X}}\boldsymbol{\mu}^*
+  Expression: 1
+  Line: 110
+  Context: Ga 2 NUMERICAL_RESULT Ga 2  
+\end{equation}ibration approach, we first define the following terms
+\begin{equation}
+ X_{\ma thrm unc frac Ga 2
 
 Replacement #12:
-  Expression: -3
-  Line: 261
-  Context: & \T{unc} = x^2 -3 x + 250 \ \mathrm{K}
+  Expression: 1
+  Line: 111
+  Context: NUMERICAL_RESULT Ga Gr 2 NUMERICAL _RESULT]-|\Ga|^2},
+\end{equation}thrm{unc}} = -\frac{|\Ga|^2}{ 1-|\Ga|^2}, 
+\end{equation}
+\begin{equation}\label{eqn:xl}
+ X_{\mathrm{L}} = \frac{|1-\G a Gr 2 1 Ga
+
+Replacement #13:
+  Expression: 1
+  Line: 111
+  Context: NUMERICAL_RESULT Ga Gr 2 NUMERICAL _RESULT]-|\Ga|^2},
+\end{equation}thrm{unc}} = -\frac{|\Ga|^2}{ 1-|\Ga|^2}, 
+\end{equation}
+\begin{equation}\label{eqn:xl}
+ X_{\mathrm{L}} = \frac{|1-\G a Gr 2 1 Ga
+
+Replacement #14:
+  Expression: 1
+  Line: 112
+  Context: X_ mathrm L sqrt NUMERICAL_RESULT -|\Gr|^2}}\right),
+\end{equation}a\Gr|^2}{1-|\Ga|^2},
+\end{equation}
+\begin{equation}
+ X_{\mathrm{cos}} = -\operatorname{Re}\left(\frac{\Ga}{1-\Ga\Gr}  times frac X_ mathrm L
+
+Replacement #15:
+  Expression: 1
+  Line: 112
+  Context: X_ mathrm L sqrt NUMERICAL_RESULT -|\Gr|^2}}\right),
+\end{equation}a\Gr|^2}{1-|\Ga|^2},
+\end{equation}
+\begin{equation}
+ X_{\mathrm{cos}} = -\operatorname{Re}\left(\frac{\Ga}{1-\Ga\Gr}  times frac X_ mathrm L
+
+Replacement #16:
+  Expression: 1
+  Line: 148
+  Context: are concerned with the constructio n of predictive models of the noise wave parameters, $\boldsymbol{\Theta}$, in the context of some dataset, $\mathbfit{T}$. We can use $\boldsymbol{\Theta}$ to calculate the probability of observing the data given a specific set of noise wave parameters:
+\begin{equation}\label{likelihood}
+ \begin{aligned}
+ p\big(\mathbfit{T} \given[\big] \boldsymbol{\ Theta sigma 2 big frac
+
+Replacement #17:
+  Expression: 1
+  Line: 148
+  Context: are concerned with the constructio n of predictive models of the noise wave parameters, $\boldsymbol{\Theta}$, in the context of some dataset, $\mathbfit{T}$. We can use $\boldsymbol{\Theta}$ to calculate the probability of observing the data given a specific set of noise wave parameters:
+\begin{equation}\label{likelihood}
+ \begin{aligned}
+ p\big(\mathbfit{T} \given[\big] \boldsymbol{\ Theta sigma 2 big frac
+
+Replacement #18:
+  Expression: 1
+  Line: 155
+  Context: be y measurements or alterna tively, $\mathbfit{T}_{\mathrm{sky}}$ for prediction of a sky signal. Our model must also specify a \textit{prior} distribution, quantifying our initial assumptions on the values and spread of our noise wave parameters which we specify as a multivariate normal inverse gamma distribution:
+\begin{equation}
+ \begin{aligned}
+ \label{eqn:prior}
+ p\left(\boldsymbol{\Theta}, \sigma^2\right) \propto & \left(\frac{1}{\sigma^2}\right)^{a+1+\left(d/2\right times exp left frac 1
+
+Replacement #19:
+  Expression: 1
+  Line: 155
+  Context: be y measurements or alterna tively, $\mathbfit{T}_{\mathrm{sky}}$ for prediction of a sky signal. Our model must also specify a \textit{prior} distribution, quantifying our initial assumptions on the values and spread of our noise wave parameters which we specify as a multivariate normal inverse gamma distribution:
+\begin{equation}
+ \begin{aligned}
+ \label{eqn:prior}
+ p\left(\boldsymbol{\Theta}, \sigma^2\right) \propto & \left(\frac{1}{\sigma^2}\right)^{a+1+\left(d/2\right times exp left frac 1
+
+Replacement #20:
+  Expression: 1
+  Line: 168
+  Context: p left y given big \boldsymbol{\Theta}, \sigma^2\right) p\left(\boldsymbol{\Theta}, \sigma^2\right) \mathrm{d}\boldsymbol{\Theta} \mathrm{d}\sigma^2\\
+ &= \frac{b^a\Gamma\left(a^*\right)\sqrt{|\mathbfss{V}^*|}}{{b^*}^{a^*}\Gamma\left(a\right)\sqrt{|\mathbfss{V}_{\boldsymbol{\Theta}}|}}(2\pi)^{-N/2}, \\
+ \end{aligned}
+\end{equation} 
+where 
+\begin{equation}\label{starred}
+ \begin{aligned} 
+ a^* &= a + \frac{N}{2}, \\
+ b^* &= b + \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{*-1}\boldsymbol{\mu}^*], \\
+ \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol Theta 1 mathbfss X top
+
+Replacement #21:
+  Expression: 1
+  Line: 168
+  Context: p left y given big \boldsymbol{\Theta}, \sigma^2\right) p\left(\boldsymbol{\Theta}, \sigma^2\right) \mathrm{d}\boldsymbol{\Theta} \mathrm{d}\sigma^2\\
+ &= \frac{b^a\Gamma\left(a^*\right)\sqrt{|\mathbfss{V}^*|}}{{b^*}^{a^*}\Gamma\left(a\right)\sqrt{|\mathbfss{V}_{\boldsymbol{\Theta}}|}}(2\pi)^{-N/2}, \\
+ \end{aligned}
+\end{equation} 
+where 
+\begin{equation}\label{starred}
+ \begin{aligned} 
+ a^* &= a + \frac{N}{2}, \\
+ b^* &= b + \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{*-1}\boldsymbol{\mu}^*], \\
+ \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol Theta 1 mathbfss X top
+
+Replacement #22:
+  Expression: 1
+  Line: 181
+  Context: the conditioning of the likeliho od and find the \textit{posterior} using the likelihood, prior and evidence:
+\begin{equation}
+ p\left(\boldsymbol{\Theta}, \sigma^2 \given[\big] \y\right) = \frac{p\left(\y \given[\big] \boldsymbol{\Theta}, \sigma^2\right)p\left(\boldsymbol{\Theta}, \sigma^2\right)}{p\left(\y\right)}.
+\end{equation}
+Similarly from \citet{banerjee}, this can be written as
+\begin{equation}
+ \begin{aligned} \label{eqn:post}
+ p\Bigl(\boldsymbol Theta sigma 2 given big
+
+Replacement #23:
+  Expression: 1
+  Line: 181
+  Context: the conditioning of the likeliho od and find the \textit{posterior} using the likelihood, prior and evidence:
+\begin{equation}
+ p\left(\boldsymbol{\Theta}, \sigma^2 \given[\big] \y\right) = \frac{p\left(\y \given[\big] \boldsymbol{\Theta}, \sigma^2\right)p\left(\boldsymbol{\Theta}, \sigma^2\right)}{p\left(\y\right)}.
+\end{equation}
+Similarly from \citet{banerjee}, this can be written as
+\begin{equation}
+ \begin{aligned} \label{eqn:post}
+ p\Bigl(\boldsymbol Theta sigma 2 given big
+
+Replacement #24:
+  Expression: 1
+  Line: 193
+  Context: permits an in place c alculation in the same environment as the data acquisition. This becomes particularly useful for the speed of the algorithm as frequency  dependence is introduced in which
+
+Replacement #25:
+  Expression: 1
+  Line: 215
+  Context: right p left boldsymbol Theta ,\sigma^2 \given[\big] \mathbfit{T}_{\mathrm{cal}} \right) \mathrm{d}\boldsymbol{\Theta}\mathrm{d}\sigma^2.
+\end{equation}
+The first probability in the integral is the likelihood for our antenna measurement $\mathbfit{T}_{\mathrm{sky}}$ and the second is our posterior from \cref{eqn:post}. Following the steps in \citet{banerjee}, this can be shown to be a multivariate Student's t-distribution written as:
+\begin{equation}\label{predictive}
+ \begin{aligned}
+ p\Big( & \mathbfit{T}_{\mathrm{sky}} \given[\big] \mathbfit{T}_{\mathrm{cal}} \Big) = \frac{\Gamma\left( a^* + \frac{d}{2} \right)}{\Gamma\left( a^* \right)\pi^{\frac{d}{2}}|2b^*\left( I + \hat{\mathbfss{X}}\mathbfss{V}^*\hat{\ mathbfss X top right frac
+
+Replacement #26:
+  Expression: 1
+  Line: 215
+  Context: right p left boldsymbol Theta ,\sigma^2 \given[\big] \mathbfit{T}_{\mathrm{cal}} \right) \mathrm{d}\boldsymbol{\Theta}\mathrm{d}\sigma^2.
+\end{equation}
+The first probability in the integral is the likelihood for our antenna measurement $\mathbfit{T}_{\mathrm{sky}}$ and the second is our posterior from \cref{eqn:post}. Following the steps in \citet{banerjee}, this can be shown to be a multivariate Student's t-distribution written as:
+\begin{equation}\label{predictive}
+ \begin{aligned}
+ p\Big( & \mathbfit{T}_{\mathrm{sky}} \given[\big] \mathbfit{T}_{\mathrm{cal}} \Big) = \frac{\Gamma\left( a^* + \frac{d}{2} \right)}{\Gamma\left( a^* \right)\pi^{\frac{d}{2}}|2b^*\left( I + \hat{\mathbfss{X}}\mathbfss{V}^*\hat{\ mathbfss X top right frac
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 298.0
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 1200.0
+  Line: 0
+  Context: Final pass for expected values
 
 

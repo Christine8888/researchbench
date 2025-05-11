@@ -277,6 +277,60 @@ def should_preserve(val, context="") -> bool:
     Returns:
         True if the value should be preserved, False otherwise
     """
+    # Common methodological values that should always be preserved
+    common_values = [
+        "-1", "-2", "-3",
+        # Original common values
+        "1", "5", "10", "20", "30", "50", "100", "200", "500", "1000",
+        # Powers of 2 (common in computing/algorithms)
+        "2", "4", "8", "16", "32", "64", "128", "256", "512", "1024", "2048", "4096", "8192",
+        # Additional methodological values
+        # Common confidence intervals
+        "95", "99", "68", "90", "80", "85",
+        # Common sample sizes
+        "25", "50", "75", "150", "300",
+        # Common significance levels
+        "0.01", "0.05", "0.001", "0.1",
+        # Common dimensionality values
+        "2D", "3D", "1D", "4D", "2", "3", "4",
+        # Common scale factors
+        "0.5", "1.5", "2.5", "0.25", "0.75",
+        # Common percentiles
+        "25", "50", "75", "90", "95", "99",
+        # Standard deviations for normal distribution
+        "1", "2", "3", "4", "5", "6",
+        # Common multipliers
+        "10", "100", "1000", "0.1", "0.01", "0.001",
+        # Common time intervals (in minutes, hours, days)
+        "15", "30", "60", "24", "48", "72", "7", "14", "28", "365",
+        # Resolution values
+        # "72", "96", "144", "300", "600", "1200",
+        # Common factors
+        "1/2", "1/3", "1/4", "1/10", "3/4", "2/3",
+        # Common iterations/steps
+        "10", "50", "100", "200", "500", "1000", "5000", "10000"
+    ]
+    
+    # First, check if it's in common methodological values list
+    if isinstance(val, (int, float)):
+        str_val = str(int(val) if val == int(val) else val)
+        if str_val in common_values:
+            return True
+    elif isinstance(val, str):
+        # Handle string values
+        str_val = val.strip()
+        if str_val in common_values:
+            return True
+        
+        # Also check if it's a string representation of a common value with decimal point
+        try:
+            float_val = float(str_val)
+            int_val = int(float_val) if float_val == int(float_val) else None
+            if str(float_val) in common_values or (int_val is not None and str(int_val) in common_values):
+                return True
+        except ValueError:
+            pass
+    
     # Skip masking for these patterns:
     context = context.lower()
     
@@ -287,20 +341,20 @@ def should_preserve(val, context="") -> bool:
             return True
         
     # Skip numerical ranges (frequency ranges, etc.)
-    range_keywords = ["range", "from", "between", "to", "hz", "min", "max"]
+    range_keywords = ["range", "from", "between", "to", "hz", "min", "max", "width", "height", "length", "radius"]
     if any(keyword in context for keyword in range_keywords):
         return True
     
     # Skip identifiers like NGC, GW, etc.
-    identifier_patterns = ["ngc", "gw", "hd", "ic", "m[0-9]", "sn", "psr"]
+    identifier_patterns = ["ngc", "gw", "hd", "ic", "m[0-9]", "sn", "psr", "kic", "sdss", "2mass", "wise"]
     if any(re.search(pattern, context, re.IGNORECASE) for pattern in identifier_patterns):
         return True
     
     # Skip common approximation patterns with standard values
-    approx_patterns = ["approximately", "about", "around", "roughly", "nearly", "~", "≈"]
+    approx_patterns = ["approximately", "about", "around", "roughly", "nearly", "~", "≈", "≃", "∼"]
     if any(pattern in context for pattern in approx_patterns):
         # Check for common round numbers that are likely methodology related
-        common_values = ["10", "20", "30", "50", "100", "200", "500", "1000"]
+        common_values = ["10", "20", "30", "50", "100", "200", "500", "1000", "0.1", "0.5", "1.5", "2.5"]
         if isinstance(val, (int, float)):
             str_val = str(int(val) if val == int(val) else val)
             if str_val in common_values:
@@ -310,13 +364,21 @@ def should_preserve(val, context="") -> bool:
     
     # Skip percentages with standard values
     if "%" in context:
-        std_percentages = ["10", "20", "25", "30", "50", "75", "80", "90", "95", "99"]
+        std_percentages = ["10", "20", "25", "30", "50", "75", "80", "90", "95", "99", "99.9", "1", "5", "60", "70"]
         if isinstance(val, (int, float)):
             str_val = str(int(val) if val == int(val) else val)
             if str_val in std_percentages:
                 return True
         elif str(val).strip() in std_percentages:
             return True
+    
+    # Skip methodology terms
+    methodology_terms = ["iterations", "epoch", "batch", "sample", "window", "kernel", "filter", "threshold", 
+                         "order", "degree", "fold", "cv", "cross-validation", "bootstrap", "resample",
+                         "resolution", "pixel", "voxel", "grid", "mesh", "bin", "time step", "dt", "dx", 
+                         "bandwidth", "learning rate", "alpha", "beta", "gamma", "lambda", "sigma"]
+    if any(term in context.lower() for term in methodology_terms):
+        return True
     
     # Skip dates (years, months, days)    
     date_patterns = [
@@ -330,10 +392,41 @@ def should_preserve(val, context="") -> bool:
     
     # Skip figure numbers, section numbers, and reference numbers
     ref_patterns = [
-        r'(?:figure|fig\.|table|section|sect\.|eq\.|equation|citation|ref\.) *\d+',
-        r'(?:figures|tables|sections|equations) *\d+(?:-|–|—|,| and | & )*\d*'
+        r'(?:figure|fig\.|table|section|sect\.|eq\.|equation|citation|ref\.|appendix) *\d+',
+        r'(?:figures|tables|sections|equations|appendices) *\d+(?:-|–|—|,| and | & )*\d*'
     ]
     for pattern in ref_patterns:
+        if re.search(pattern, context, re.IGNORECASE):
+            return True
+        
+    # Skip wavelength bands
+    wavelength_patterns = [
+        r'\d+\s*(?:nm|mm|cm|µm|um)',
+        r'[UBVRIJHK]\s*band',
+        r'band\s*[UBVRIJHK]'
+    ]
+    for pattern in wavelength_patterns:
+        if re.search(pattern, context, re.IGNORECASE):
+            return True
+    
+    # Skip statistical significance values
+    significance_patterns = [
+        r'p\s*(?:<|>|=)\s*0\.\d+',
+        r'α\s*(?:=|<|>)\s*0\.\d+',
+        r'significant at (?:the )?\d+%'
+    ]
+    for pattern in significance_patterns:
+        if re.search(pattern, context, re.IGNORECASE):
+            return True
+    
+    # Skip coordinates and angles
+    coordinate_patterns = [
+        r'\b\d+(?:\.\d+)?\s*(?:°|deg|degrees)\b',
+        r'\b\d+(?:\.\d+)?\s*(?:\'|arcmin|arcminutes)\b',
+        r'\b\d+(?:\.\d+)?\s*(?:\"|arcsec|arcseconds)\b',
+        r'R\.A\.|Dec\.'
+    ]
+    for pattern in coordinate_patterns:
         if re.search(pattern, context, re.IGNORECASE):
             return True
     

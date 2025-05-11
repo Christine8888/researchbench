@@ -1,23 +1,15 @@
-2025-05-11 16:13:01,922 - INFO - Logging to file: utils/num_mask_logs/gw_cosmo_masking.log
-2025-05-11 16:13:01,922 - INFO - Found 12 unique numerical values to mask
-2025-05-11 16:13:01,999 - INFO - Made 35 replacements in the text
-2025-05-11 16:13:01,999 - INFO - Saved masked text to papers/masked_texts/gw_cosmo.txt
-2025-05-11 16:13:01,999 - INFO - Latex Replacement #1: '68\%' at line 162
-2025-05-11 16:13:01,999 - INFO -   Context: convergence of the 1 sigma 68\% credibility constraint in H_ 0
-2025-05-11 16:13:01,999 - INFO - Latex Replacement #2: '18\%' at line 162
-2025-05-11 16:13:01,999 - INFO -   Context: of events N as frac 18\% N 0 5 for a
-2025-05-11 16:13:01,999 - INFO - Exact Replacement #1: '2.8' at line 8
-2025-05-11 16:13:01,999 - INFO -   Context: measurement of the combination H_0 2.8 Omega_M in a flat Lambda
-2025-05-11 16:13:01,999 - INFO - Exact Replacement #2: '2.8' at line 162
-2025-05-11 16:13:02,000 - INFO -   Context: constraints in terms of H_0 2.8 Omega_M for different sample sizes
-2025-05-11 16:13:02,000 - INFO - Exact Replacement #3: '2.8' at line 189
-2025-05-11 16:13:02,000 - INFO -   Context: Omega_M is captured by H_0 2.8 Omega_M when used with experiments
-2025-05-11 16:13:02,000 - INFO - Exact Replacement #4: '0.1' at line 130
-2025-05-11 16:13:02,000 - INFO -   Context: mu log D_L i sigma 0.1 end equation where mathcal N
-2025-05-11 16:13:02,000 - INFO - Exact Replacement #5: '0.1' at line 135
-2025-05-11 16:13:02,000 - INFO -   Context: log D_L z mathcal H 0.1 right 2 right end align
-2025-05-11 16:13:02,000 - INFO - Additional Replacement #1: '-11' at line 175
-2025-05-11 16:13:02,000 - INFO -   Context: pm 0 11 times 10 -11 frac mathrm N cdot mathrm
-2025-05-11 16:13:02,000 - INFO - Additional Replacement #2: '-51455.001' at line 203
-2025-05-11 16:13:02,000 - INFO -   Context: Hubble Fellowship grant HST HF2 -51455.001 A awarded by the Space
-2025-05-11 16:13:02,000 - INFO - Saved context information to utils/num_mask_logs/gw_cosmo_contexts.log
+2025-05-11 16:39:23,306 - INFO - Logging to file: utils/num_mask_logs/gw_cosmo_masking.log
+2025-05-11 16:39:23,306 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:39:23,392 - INFO - Made 35 replacements in the text
+2025-05-11 16:39:23,392 - INFO - Saved masked text to papers/masked_texts/gw_cosmo.txt
+2025-05-11 16:39:23,392 - INFO - Latex_range Replacement #1: '70^{+12}_{-8}' at line 15
+2025-05-11 16:39:23,393 - INFO -   Context: of the Hubble constant H_0 70^{+12}_{-8} km s 1 Mpc 1
+2025-05-11 16:39:23,393 - INFO - Latex Replacement #1: '18\%' at line 162
+2025-05-11 16:39:23,393 - INFO -   Context: of events N as frac 18\% N 0 5 for a
+2025-05-11 16:39:23,393 - INFO - Exact Replacement #1: '2.8' at line 189
+2025-05-11 16:39:23,393 - INFO -   Context: Omega_M is captured by H_0 2.8 Omega_M when used with experiments
+2025-05-11 16:39:23,393 - INFO - Additional Replacement #1: '-11' at line 175
+2025-05-11 16:39:23,393 - INFO -   Context: pm 0 11 times 10 -11 frac mathrm N cdot mathrm
+2025-05-11 16:39:23,393 - INFO - Additional Replacement #2: '-51455.001' at line 203
+2025-05-11 16:39:23,393 - INFO -   Context: Hubble Fellowship grant HST HF2 -51455.001 A awarded by the Space
+2025-05-11 16:39:23,393 - INFO - Saved context information to utils/num_mask_logs/gw_cosmo_contexts.log

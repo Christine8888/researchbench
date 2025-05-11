@@ -1,11 +1,7 @@
-2025-05-11 16:12:59,300 - INFO - Logging to file: utils/num_mask_logs/bioverse_masking.log
-2025-05-11 16:12:59,301 - INFO - Found 15 unique numerical values to mask
-2025-05-11 16:12:59,416 - INFO - Made 18 replacements in the text
-2025-05-11 16:12:59,417 - INFO - Saved masked text to papers/masked_texts/bioverse.txt
-2025-05-11 16:12:59,417 - INFO - Exact Replacement #1: '0.8' at line 165
-2025-05-11 16:12:59,417 - INFO -   Context: transiting glspl EEC with radii 0.8 S 0 25 R 1
-2025-05-11 16:12:59,417 - INFO - Additional Replacement #1: '-40' at line 395
-2025-05-11 16:12:59,417 - INFO -   Context: enough samples Ground based 25 -40 meter class extremely large telescopes
-2025-05-11 16:12:59,417 - INFO - Additional Replacement #2: '-300' at line 419
-2025-05-11 16:12:59,417 - INFO -   Context: on early Earth at 180 -300 hours 7 5 12 5
-2025-05-11 16:12:59,417 - INFO - Saved context information to utils/num_mask_logs/bioverse_contexts.log
+2025-05-11 16:39:20,749 - INFO - Logging to file: utils/num_mask_logs/bioverse_masking.log
+2025-05-11 16:39:20,750 - INFO - Found 15 unique numerical values to mask
+2025-05-11 16:39:20,872 - INFO - Made 18 replacements in the text
+2025-05-11 16:39:20,872 - INFO - Saved masked text to papers/masked_texts/bioverse.txt
+2025-05-11 16:39:20,872 - INFO - Exact Replacement #1: '0.8' at line 165
+2025-05-11 16:39:20,872 - INFO -   Context: transiting glspl EEC with radii 0.8 S 0 25 R 1
+2025-05-11 16:39:20,872 - INFO - Saved context information to utils/num_mask_logs/bioverse_contexts.log

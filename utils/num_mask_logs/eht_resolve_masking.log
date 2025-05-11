@@ -1,19 +1,13 @@
-2025-05-11 16:13:00,084 - INFO - Logging to file: utils/num_mask_logs/eht_resolve_masking.log
-2025-05-11 16:13:00,084 - INFO - Found 51 unique numerical values to mask
-2025-05-11 16:13:00,253 - INFO - Made 31 replacements in the text
-2025-05-11 16:13:00,253 - INFO - Saved masked text to papers/masked_texts/eht_resolve.txt
-2025-05-11 16:13:00,254 - INFO - Latex Replacement #1: '256\times' at line 489
-2025-05-11 16:13:00,254 - INFO -   Context: represent the spatial domain with 256\times 256 pixels each with a
-2025-05-11 16:13:00,254 - INFO - Latex Replacement #2: '5.5\%' at line 690
-2025-05-11 16:13:00,254 - INFO -   Context: the cases results in artefacts 5.5\% of the time and facilitates
-2025-05-11 16:13:00,254 - INFO - Latex Replacement #3: '64.5\%' at line 690
-2025-05-11 16:13:00,254 - INFO -   Context: of a single ring in 64.5\% of all cases All of
-2025-05-11 16:13:00,254 - INFO - Latex Replacement #4: '23\%' at line 696
-2025-05-11 16:13:00,254 - INFO -   Context: shift in brightness asymmetry In 23\% of all test cases we
-2025-05-11 16:13:00,254 - INFO - Exact Replacement #1: '0.1' at line 518
-2025-05-11 16:13:00,254 - INFO -   Context: 0 2 with standard deviation 0.1 Since we normalize the flux
-2025-05-11 16:13:00,254 - INFO - Additional Replacement #1: '7.4e6' at line 456
-2025-05-11 16:13:00,254 - INFO -   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
-2025-05-11 16:13:00,254 - INFO - Additional Replacement #2: '7.4e6' at line 499
-2025-05-11 16:13:00,254 - INFO -   Context: power spectrum DOFs approx num 7.4e6 pixel values with the data
-2025-05-11 16:13:00,254 - INFO - Saved context information to utils/num_mask_logs/eht_resolve_contexts.log
+2025-05-11 16:39:21,562 - INFO - Logging to file: utils/num_mask_logs/eht_resolve_masking.log
+2025-05-11 16:39:21,563 - INFO - Found 0 unique numerical values to mask
+2025-05-11 16:39:21,633 - INFO - Made 30 replacements in the text
+2025-05-11 16:39:21,633 - INFO - Saved masked text to papers/masked_texts/eht_resolve.txt
+2025-05-11 16:39:21,634 - INFO - Latex Replacement #1: '5.5\%' at line 690
+2025-05-11 16:39:21,634 - INFO -   Context: the cases results in artefacts 5.5\% of the time and facilitates
+2025-05-11 16:39:21,634 - INFO - Latex Replacement #2: '64.5\%' at line 690
+2025-05-11 16:39:21,634 - INFO -   Context: of a single ring in 64.5\% of all cases All of
+2025-05-11 16:39:21,634 - INFO - Latex Replacement #3: '23\%' at line 696
+2025-05-11 16:39:21,634 - INFO -   Context: shift in brightness asymmetry In 23\% of all test cases we
+2025-05-11 16:39:21,634 - INFO - Additional Replacement #1: '7.4e6' at line 456
+2025-05-11 16:39:21,634 - INFO -   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
+2025-05-11 16:39:21,634 - INFO - Saved context information to utils/num_mask_logs/eht_resolve_contexts.log

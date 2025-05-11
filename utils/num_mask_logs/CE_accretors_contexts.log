@@ -2,28 +2,24 @@ Masked values and their context for paper: CE_accretors
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 2 replacements
-  EXACT: 5 replacements
+  LATEX: 1 replacements
+  EXACT: 2 replacements
+  EXPECTED_VALUE_FINAL_PASS: 6 replacements
+  TRAILING_ZEROS: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (2):
+LATEX REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: \mathrm{th}=1.0
-  Numerical Value: 1.0
-  Line: 663
-  Context: m R BE m alpha_ \mathrm{th}=1.0 end equation where again the
-
-Replacement #2:
   Expression: 96\%
   Numerical Value: 96
   Line: 22
   Context: a CE by sim 42 96\% for both black hole and
 
 
-EXACT REPLACEMENTS (5):
+EXACT REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -32,23 +28,51 @@ Replacement #1:
   Context: 56 0 07 0 58 0.08 and 0 51 0 04
 
 Replacement #2:
-  Expression: 0.01
-  Line: 373
-  Context: the outermost location where X 0.01 and Y 0 1 we
-
-Replacement #3:
   Expression: 0.43
   Line: 195
   Context: 0 29 0 30 and 0.43 respectively citep see discussion in
 
-Replacement #4:
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (6):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.07
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 0.04
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #3:
   Expression: 300
-  Line: 324
-  Context: and only for R lesssim 300 R_ odot afterwards even the
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #4:
+  Expression: 380
+  Line: 0
+  Context: Final pass for expected values
 
 Replacement #5:
-  Expression: 300
-  Line: 341
-  Context: time radii R 100 200 300 500 1000 R_ odot see
+  Expression: 42
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #6:
+  Expression: 0.29
+  Line: 0
+  Context: Final pass for expected values
+
+
+TRAILING_ZEROS REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.30
+  Line: 0
+  Context: Trailing zeros variation
 
 

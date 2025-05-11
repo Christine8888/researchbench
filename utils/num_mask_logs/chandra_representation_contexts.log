@@ -2,112 +2,76 @@ Masked values and their context for paper: chandra_representation
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 1 replacements
-  EXACT: 15 replacements
-  ADDITIONAL: 2 replacements
+  LARGE_INTEGER: 3 replacements
+  EXACT: 1 replacements
+  COMMA_SEPARATED_LARGE: 3 replacements
+  ADDITIONAL: 1 replacements
+  EXPECTED_VALUE_FINAL_PASS: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (1):
+LARGE_INTEGER REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 1.0\times
-  Numerical Value: 1.0
-  Line: 235
-  Context: limit of L_ rm X 1.0\times 10 34 mathrm erg s
-
-
-EXACT REPLACEMENTS (15):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 0.5
-  Line: 36
-  Context: for the broad energy band 0.5 7 keV as estimated using
+  Expression: 58,932 sources
+  Line: 44
+  Context: 473 filtered event files from 58,932 sources resulting in an average of
 
 Replacement #2:
-  Expression: .5
-  Line: 263
-  Context: null hypothesis probability of 3 .5 times 10 3 with a
+  Expression: total of 3,559
+  Line: 223
+  Context: The resulting catalog contains a total of 3,559 detections 3 447 flares and
 
 Replacement #3:
-  Expression: .1
-  Line: 33
-  Context: Imaging Spectrometer ACIS CSC 2 .1 had not been fully released
-
-Replacement #4:
-  Expression: .1
+  Expression: consists of 95,473
   Line: 44
-  Context: 0 1 in CSC 2 .1 For the resulting detections we
+  Context: is required The final dataset consists of 95,473 filtered event files from NUMERICAL_RESULT
 
-Replacement #5:
-  Expression: .1
-  Line: 44
-  Context: data products in CSC 2 .1 and consist of the ellipse
 
-Replacement #6:
-  Expression: 0.1
-  Line: 115
-  Context: of variance by less than 0.1 gives n_ pc 15 for
+EXACT REPLACEMENTS (1):
+--------------------------------------------------------------------------------
 
-Replacement #7:
-  Expression: .1
-  Line: 115
-  Context: Fig scree These capture 94 .1 and 89 9 of the
-
-Replacement #8:
-  Expression: 0.1
-  Line: 135
-  Context: x end equation where alpha 0.1 is a hyperparameter that defines
-
-Replacement #9:
-  Expression: 0.1
-  Line: 152
-  Context: rvert end equation where lambda 0.1 is the regularization strength and
-
-Replacement #10:
-  Expression: 0.1
-  Line: 156
-  Context: using a test split of 0.1 gives us a training and
-
-Replacement #11:
-  Expression: .1
-  Line: 264
-  Context: E_ rm f gtrsim 1 .1 times 10 8 erg cm
-
-Replacement #12:
-  Expression: .6
-  Line: 264
-  Context: a Cstat value of 129 .6 for 137 degrees of freedom
-
-Replacement #13:
+Replacement #1:
   Expression: .6
   Line: 264
   Context: F_ rm p gtrsim 5 .6 times 10 10 erg s
 
-Replacement #14:
-  Expression: .7
-  Line: 247
-  Context: time resolution is sim 9 .7 counts s acting as the
 
-Replacement #15:
-  Expression: .7
-  Line: 263
-  Context: a Cstat value of 132 .7 for 137 degrees of freedom
-
-
-ADDITIONAL REPLACEMENTS (2):
+COMMA_SEPARATED_LARGE REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -10
-  Line: 264
-  Context: gtrsim 4 0 times 10 -10 erg s cm 2 and
+  Expression: 3,559
+  Line: 7
+  Context: transients producing a catalog of 3,559 candidates 3 447 flares and
 
 Replacement #2:
+  Expression: 9,003
+  Line: 44
+  Context: 62 observations per source T his i ncludes 9 003 new sources
+
+Replacement #3:
+  Expression: 15,353
+  Line: 342
+  Context: optimization process is performed u sing a reduced dataset of 15 353
+
+
+ADDITIONAL REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: -6.4
   Line: 280
   Context: and fall times 3 2 -6.4 s and the lack of
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.5
+  Line: 0
+  Context: Final pass for expected values
 
 

@@ -2,60 +2,39 @@ Masked values and their context for paper: eht_resolve
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 4 replacements
-  EXACT: 1 replacements
-  ADDITIONAL: 2 replacements
+  LATEX: 3 replacements
+  ADDITIONAL: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (4):
+LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 256\times
-  Numerical Value: 256
-  Line: 489
-  Context: represent the spatial domain with 256\times 256 pixels each with a
-
-Replacement #2:
   Expression: 5.5\%
   Numerical Value: 5.5
   Line: 690
   Context: the cases results in artefacts 5.5\% of the time and facilitates
 
-Replacement #3:
+Replacement #2:
   Expression: 64.5\%
   Numerical Value: 64.5
   Line: 690
   Context: of a single ring in 64.5\% of all cases All of
 
-Replacement #4:
+Replacement #3:
   Expression: 23\%
   Numerical Value: 23
   Line: 696
   Context: shift in brightness asymmetry In 23\% of all test cases we
 
 
-EXACT REPLACEMENTS (1):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 0.1
-  Line: 518
-  Context: 0 2 with standard deviation 0.1 Since we normalize the flux
-
-
-ADDITIONAL REPLACEMENTS (2):
+ADDITIONAL REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: 7.4e6
   Line: 456
   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
-
-Replacement #2:
-  Expression: 7.4e6
-  Line: 499
-  Context: power spectrum DOFs approx num 7.4e6 pixel values with the data
 
 

@@ -1,4 +1,4 @@
-2025-05-11 16:13:08,729 - INFO - Logging to file: utils/num_mask_logs/topdown_masking.log
-2025-05-11 16:13:08,730 - INFO - Found 12 unique numerical values to mask
-2025-05-11 16:13:08,739 - INFO - Made 4 replacements in the text
-2025-05-11 16:13:08,740 - INFO - Saved masked text to papers/masked_texts/topdown.txt
+2025-05-11 16:39:30,433 - INFO - Logging to file: utils/num_mask_logs/topdown_masking.log
+2025-05-11 16:39:30,434 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:39:30,445 - INFO - Made 4 replacements in the text
+2025-05-11 16:39:30,446 - INFO - Saved masked text to papers/masked_texts/topdown.txt

@@ -2,13 +2,13 @@ Masked values and their context for paper: abacus
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 6 replacements
+  LATEX: 3 replacements
   ROUNDED: 1 replacements
-  ADDITIONAL: 7 replacements
+  ADDITIONAL: 4 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (6):
+LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -24,28 +24,10 @@ Replacement #2:
   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
 
 Replacement #3:
-  Expression: 10\times
-  Numerical Value: 10
-  Line: 503
-  Context: single drive However they are 10\times more expensive per GB than
-
-Replacement #4:
-  Expression: 0.5\%
-  Numerical Value: 0.5
-  Line: 114
-  Context: of magnitude larger than the 0.5\% time step error for eta
-
-Replacement #5:
   Expression: 35\%
   Numerical Value: 35
   Line: 223
   Context: is about 20 GFLOPs or 35\% of peak single core performance
-
-Replacement #6:
-  Expression: 15\%
-  Numerical Value: 15
-  Line: 361
-  Context: it was first implemented the 15\% time spent calling texttt free
 
 
 ROUNDED REPLACEMENTS (1):
@@ -58,40 +40,25 @@ Replacement #1:
   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
 
 
-ADDITIONAL REPLACEMENTS (7):
+ADDITIONAL REPLACEMENTS (4):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -10
-  Line: 265
-  Context: positions retain an additional 9 -10 bits of mantissa beyond the
-
-Replacement #2:
-  Expression: -1.5
-  Line: 539
-  Context: of varying spectral index n_s -1.5 2 2 25 2 5
-
-Replacement #3:
   Expression: -2.25
   Line: 539
   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
 
-Replacement #4:
-  Expression: -2.5
-  Line: 539
-  Context: 1 5 2 2 25 -2.5 in 4096 3 and 6144
-
-Replacement #5:
+Replacement #2:
   Expression: -1313285
   Line: 553
   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
 
-Replacement #6:
+Replacement #3:
   Expression: -1312699.
   Line: 557
   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
 
-Replacement #7:
+Replacement #4:
   Expression: -00
   Line: 560
   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have

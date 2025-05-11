@@ -7,7 +7,7 @@
 \input{authors_qu.tex}
 
 \begin{abstract}
-We present new measurements of cosmic microwave background (CMB) lensing over $9400\,\si{deg}^2$ of the sky. \abds{These lensing measurements are derived from the Atacama Cosmology Telescope (ACT) Data Release 6 (DR6) CMB dataset, which consists of five seasons of ACT CMB temperature and polarization observations.} We determine the amplitude of the CMB lensing power spectrum at $[NUMERICAL_RESULT]\%$ precision ($43\sigma$ significance) using a novel pipeline that minimizes sensitivity to foregrounds and to noise properties. To ensure our results are robust, we analyze an extensive set of null tests, consistency tests, and systematic error estimates and employ a blinded analysis framework. Our CMB lensing power spectrum measurement provides constraints on the amplitude of cosmic structure that do not depend on \textit{Planck} or galaxy survey data, thus giving independent information about large-scale structure growth and potential tensions in structure measurements. The baseline spectrum is well fit by a lensing amplitude of $A_{\mathrm{lens}}=1.013\pm0.023$ relative to the \textit{Planck} 2018 CMB power spectra best-fit $\Lambda$CDM model {\NS{and $A_{\mathrm{lens}}=1.005\pm0.023$ relative to the $\text{ACT DR4} + \text{\textit{WMAP}}$ best-fit model.}} From our lensing power spectrum measurement, we derive constraints on the parameter combination $S^{\mathrm{CMBL}}_8 \equiv \sigma_8 \left({\Omega_m}/{0.3}\right)^{0.25}$ of $S^{\mathrm{CMBL}}_8= 0.818\pm0.022$ from ACT DR6 CMB lensing alone and $S^{\mathrm{CMBL}}_8= 0.813\pm0.018$ when combining ACT DR6 and \textit{Planck} \texttt{NPIPE} CMB lensing power spectra. These results are in excellent agreement with $\Lambda$CDM model constraints from \textit{Planck} or $\text{ACT DR4} + \text{\textit{WMAP}}$ CMB power spectrum measurements. Our lensing measurements from redshifts $z\sim0.5$--$5$ are thus fully consistent with $\Lambda$CDM structure growth predictions based on CMB anisotropies probing primarily $z\sim1100$. We find no evidence for a suppression of the amplitude of cosmic structure at low redshifts.
+We present new measurements of cosmic microwave background (CMB) lensing over $9400\,\si{deg}^2$ of the sky. \abds{These lensing measurements are derived from the Atacama Cosmology Telescope (ACT) Data Release 6 (DR6) CMB dataset, which consists of five seasons of ACT CMB temperature and polarization observations.} We determine the amplitude of the CMB lensing power spectrum at $[NUMERICAL_RESULT]\%$ precision ($43\sigma$ significance) using a novel pipeline that minimizes sensitivity to foregrounds and to noise properties. To ensure our results are robust, we analyze an extensive set of null tests, consistency tests, and systematic error estimates and employ a blinded analysis framework. Our CMB lensing power spectrum measurement provides constraints on the amplitude of cosmic structure that do not depend on \textit{Planck} or galaxy survey data, thus giving independent information about large-scale structure growth and potential tensions in structure measurements. The baseline spectrum is well fit by a lensing amplitude of $A_{\mathrm{lens}}=[NUMERICAL_RESULT]\pm0.023$ relative to the \textit{Planck} 2018 CMB power spectra best-fit $\Lambda$CDM model {\NS{and $A_{\mathrm{lens}}=1.005\pm0.023$ relative to the $\text{ACT DR4} + \text{\textit{WMAP}}$ best-fit model.}} From our lensing power spectrum measurement, we derive constraints on the parameter combination $S^{\mathrm{CMBL}}_8 \equiv \sigma_8 \left({\Omega_m}/{0.3}\right)^{0.25}$ of $S^{\mathrm{CMBL}}_8= [NUMERICAL_RESULT]\pm0.022$ from ACT DR6 CMB lensing alone and $S^{\mathrm{CMBL}}_8= 0.813\pm0.018$ when combining ACT DR6 and \textit{Planck} \texttt{NPIPE} CMB lensing power spectra. These results are in excellent agreement with $\Lambda$CDM model constraints from \textit{Planck} or $\text{ACT DR4} + \text{\textit{WMAP}}$ CMB power spectrum measurements. Our lensing measurements from redshifts $z\sim0.5$--$5$ are thus fully consistent with $\Lambda$CDM structure growth predictions based on CMB anisotropies probing primarily $z\sim1100$. We find no evidence for a suppression of the amplitude of cosmic structure at low redshifts.
 
 \end{abstract}
 
@@ -42,9 +42,9 @@ We briefly summarize the key results of our work in the following paragraphs. Of
  Our lensing power spectrum measurement is shown in Figure \ref{Fig.results_clkk}.
 
  
- \item The lensing power spectrum is well fit by a \LCDM~ cosmology and, in particular, by the \textit{Planck} 2018 CMB power spectrum model. Fitting a lensing amplitude that rescales the lensing power spectrum from this model, we obtain a constraint on this amplitude of $A_{\mathrm{lens}}=1.013\pm0.023$. If we fit instead to the best-fit model from ACT DR4 + \textit{WMAP} power spectra, we obtain a lensing amplitude of \Frank{$A_{\mathrm{lens}}=1.005\pm0.023$}.
+ \item The lensing power spectrum is well fit by a \LCDM~ cosmology and, in particular, by the \textit{Planck} 2018 CMB power spectrum model. Fitting a lensing amplitude that rescales the lensing power spectrum from this model, we obtain a constraint on this amplitude of $A_{\mathrm{lens}}=[NUMERICAL_RESULT]\pm0.023$. If we fit instead to the best-fit model from ACT DR4 + \textit{WMAP} power spectra, we obtain a lensing amplitude of \Frank{$A_{\mathrm{lens}}=1.005\pm0.023$}.
 
- \item From our measurement of the DR6 lensing power spectrum alone, we measure the best-constrained parameter combination.} $S^{\mathrm{CMBL}}_8 \equiv \sigma_8 \left({\Omega_m}/{0.3}\right)^{0.25}$ as $S^{\mathrm{CMBL}}_8= 0.818\pm0.022$. This key result is illustrated in Figure \ref{fig:sig8om_nobao}.
+ \item From our measurement of the DR6 lensing power spectrum alone, we measure the best-constrained parameter combination.} $S^{\mathrm{CMBL}}_8 \equiv \sigma_8 \left({\Omega_m}/{0.3}\right)^{0.25}$ as $S^{\mathrm{CMBL}}_8= [NUMERICAL_RESULT]\pm0.022$. This key result is illustrated in Figure \ref{fig:sig8om_nobao}.
  
  \item We combine ACT DR6 and \textit{Planck} 2018 CMB lensing power spectrum observations, accounting for the appropriate covariances between the two measurements. For this combined dataset, we obtain a constraint of $S^{\mathrm{CMBL}}_8= 0.813\pm0.018$.
  
@@ -198,7 +198,7 @@ In the following section, we describe the method we use to combine the individua
 We first define for each array-frequency's data the map-based coadd map $\boldsymbol{c}$, an unbiased estimate of the sky signal, by taking the inverse-variance-weighted average of the eight split maps $\boldsymbol{m}_i$:
 
 \begin{equation}\label{eq.ivarc}
-\boldsymbol{c}=\frac{\sum^{i=7}_{i=0}\mathrm{\bold{h}}_i*\boldsymbol{m}_i}{\sum^{i=7}_{i=0}\mathrm{\bold{h}}_i} .
+\boldsymbol{c}=\frac{\sum^{i=7}_{i=[NUMERICAL_RESULT]}\mathrm{\bold{h}}_i*\boldsymbol{m}_i}{\sum^{i=7}_{i=0}\mathrm{\bold{h}}_i} .
 \end{equation}
 
 Note that in the above equation, the multiplication ($\ast$) and division denote element-wise operations. These coadd maps provide our best estimate of the sky signal for each array, and are used for noise estimation as explained below.
@@ -208,14 +208,11 @@ As we will describe in Section \ref{sec:reconstruction}, the cross-correlation-b
 \subsubsection{Inverse-variance coaddition of the array-frequencies}
 
 We combine the different coadded data maps $\bold{d}_{\mathrm{A}_\mathrm{f}}$ with array-frequencies $\mathrm{A}_\mathrm{f}\in\{\text{PA4 f150}, \text{PA5 f090}, \text{PA5 f150}, \text{PA6 f090}, \text{PA6 f150}\}$ into single CMB fields $M_{\ell{m}}^{X}$, with \abds{$X\in(T,E,B)$} 
-on which lensing reconstruction is performed. The coadding of the maps is done in spherical-harmonic space,. However, this is justified because all array-frequencies have similar spatial noise variations as they are observed with the same scanning pattern. Hence the spatial part should approximately factor out.}}
-
-\begin{equation}
- M_{\ell{m}}=\sum_{\mathrm{A}_\mathrm{f}} w^{\mathrm{A}_\mathrm{f}}_\ell d^{{\mathrm{A}_\mathrm{f}}}_{\ell{m}}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1},
-\end{equation}
-where 
-\begin{equation}\label{eq.weight}
- w_\ell^{\mathrm{A}_\mathrm{f}}=\frac{\left(N^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^2}{\sum_{(\mathrm{A}_\mathrm{f})}\left(N^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^2}
+on which lensing reconstruction is performed. The coadding of the maps is done in spherical-harmonic space,. However, this is justified because all array-frequencies have similar spatial noise variations as they are observed with the same scanning pattern. Hence the spatial part should approximatel\begin{equation}
+ M_{\ell{m}}=\sum_{\mathrm{A}_\mathrm{f}} w^{\mathrm{A}_\mathrm{f}}_\ell d^{{\mathrm{A}_\mathrm{f}}}_{\ell{m}}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-[NUMERICAL_RESULT]},
+\end{\begin{equation}\label{eq.weight}
+ w_\ell^{\mathrm{A}_\mathrm{f}}=\frac{\left(N^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-[NUMERICAL_RESULT]}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^2}{\sum_{(\mathrm{A}_\mathrm{f})}\left(N^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^2}
+\end{equation}{f}}_\ell\right)^2}
 \end{equation}
 are the normalized inverse-variance weights in harmonic space. These weights, giving the relative contributions of each array-frequency, are shown in Figure~\ref{fig.weights} and are constructed to sum to unity at each multipole $\ell$. Note that a deconvolution of the harmonic beam transfer functions $B^{\mathrm{A}_\mathrm{f}}_\ell$ is performed for each array-frequency, where we show that including $T\rightarrow P$ has a small impact on the lensing bandpowers (a shift of less than $[NUMERICAL_RESULT]\%$).}}. 
 The noise power spectra $N^{\mathrm{A}_\mathrm{f}}_\ell$ are obtained from the beam-deconvolved noise maps of the individual sky maps with the following prescription.
@@ -226,9 +223,9 @@ We construct a noise-only map, $\boldsymbol{n}_i$ by subtracting the pixel-wise 
  \boldsymbol{n}_i=\boldsymbol{m}_i-\boldsymbol{c}.
 \end{equation}
 
-We then transform the real-space noise-only maps $\boldsymbol{n}_i$ into spherical-harmonic space $n^{(i)}_{\ell{m}}$ and use these to compute the noise power spectra used for the weights in Equation~\eqref{eq.weight}. Since we have $k=8$ splits, we can reduce statistical variance by finding the average of these noise spectra for a detailed discussion.}:
-\begin{equation}
- N_\ell=\frac{1}{w_2}\frac{1}{k(k-1)}\frac{1}{2\ell+1}\sum^{k}_i\sum^{\ell}_{m=-\ell} {n^{(i)}_{\ell{m}}}n^{(i)*}_{\ell{m}},
+We then transform the real-space noise-only maps $\boldsymbol{n}_i$ into spherical-harmonic space $n^{(i)}_{\ell{m}}$ and use these to compute the noise power spectra used for the weights in Equation~\eqref{eq.weight}. Since we have $k=8$ splits, we can reduce statistical variance by finding the average o\begin{equation}
+ N_\ell=\frac{[NUMERICAL_RESULT]}{w_2}\frac{1}{k(k-1)}\frac{1}{2\ell+1}\sum^{k}_i\sum^{\ell}_{m=-\ell} {n^{(i)}_{\ell{m}}}n^{(i)*}_{\ell{m}},
+\end{equation}^{(i)}_{\ell{m}}}n^{(i)*}_{\ell{m}},
 \end{equation}
 where $w_2=\int d^2\hat{\bold{n}} \, M^2(\hat{\bold{n}})/(4\pi)$ is the average value of the second power of the mask $M(\hat{\bold{n}})$, which corrects for the missing sky fraction due to the application of the analysis mask, as described in Section \ref{sec.mask}. The resulting noise power is further smoothed over by applying a linear binning of $\Delta\ell=14$ .
 
@@ -257,17 +254,16 @@ where the matrix $\mathcal{Y}$ contains the spin-weighted spherical harmonic fun
 C = \mathcal{Y} \mathbb{C}^{\text{fid}} \mathcal{Y}^\dagger + C_\text{noise} ,
 \end{equation}
 
-where $\mathbb{C}^{\text{fid}}$ is the matrix of our fiducial lensed CMB spectra with elements
-
-\begin{equation}
+where $\mathbb{C}^{\text{fid\begin{equation}
 \label{eq:lensedfilters}
- [\mathbb{C}^{\text{fid}}]_{\ell{m},\ell^{\prime}{m^{\prime}}}=\delta_{\ell\ell^\prime}\delta_{mm^\prime}\begin{pmatrix}C^{TT}_\ell&C^{TE}_\ell&0\\C^{TE}_\ell&C^{EE}_\ell&0\\0&0&C^{BB}_\ell \end{pmatrix} ,
+ [\mathbb{C}^{\text{fid}}]_{\ell{m},\ell^{\prime}{m^{\prime}}}=\delta_{\ell\ell^\prime}\delta_{mm^\prime}\begin{pmatrix}C^{TT}_\ell&C^{TE}_\ell&[NUMERICAL_RESULT]\\C^{TE}_\ell&C^{EE}_\ell&0\\0&0&C^{BB}_\ell \end{pmatrix} ,
+\end{equation}}_\ell&C^{EE}_\ell&0\\0&0&C^{BB}_\ell \end{pmatrix} ,
 \end{equation}
 
-and $C_\text{noise}$ is the real-space noise covariance matrix. The Wiener-filtered multipoles are then obtained as
-
-\begin{equation}
-{X}^{\text{WF}}_{\ell{m}} = \mathbb{C}^{\text{fid}} \mathcal{Y}^\dagger C^{-1} \begin{pmatrix} T \\ {}_2 P \\ {}_{-2} P \end{pmatrix} .
+and $C_\text{noise}$ is the real\begin{equation}
+{X}^{\text{WF}}_{\ell{m}} = \mathbb{C}^{\text{fid}} \mathcal{Y}^\dagger C^{-[NUMERICAL_RESULT]} \begin{pmatrix} T \\ {}_2 P \\ {}_{-2} P \end{pmatrix} .
+\label{eq:exactWF}
+\end{equation}n{pmatrix} T \\ {}_2 P \\ {}_{-2} P \end{pmatrix} .
 \label{eq:exactWF}
 \end{equation}
 
@@ -279,10 +275,11 @@ For our main analysis, we employ an approximate form of the Wiener filter that f
 &= \mathbb{C}^{\text{fid}} \left(\mathbb{C}^{\text{fid}} + \mathbb{N}\right)^{-1} \mathcal{Y}^\dagger \left(\mathcal{Y}\mathcal{Y}^\dagger\right)^{-1} ,
 \end{align}
 
-where $\mathbb{N}^{-1} \equiv \mathcal{Y}^\dagger C_{\text{noise}}^{-1} \mathcal{Y}$. The operation $\mathcal{Y}^\dagger \left(\mathcal{Y}\mathcal{Y}^\dagger\right)^{-1}$ takes the (pseudo-)spherical transform of the masked maps, with $\mathcal{Y}\mathcal{Y}^\dagger = \text{diag}(1,2,2)\delta^{(2)}(\unitvec-{\unitvec}')$. Our approximate form of the Wiener filter takes the form
-
-\begin{equation}\label{wfmultipole}
-{X}^{\text{WF}}_{\ell{m}}\approx \mathbb{C}^{\text{fid}}\mathcal{F}\mathcal{Y}^\dagger \left(\mathcal{Y}\mathcal{Y}^\dagger\right)^{-1} \begin{pmatrix}
+where $\mathbb{N}^{-1} \equiv \mathcal{Y}^\dagger C_{\text{noise}}^{-1} \mathcal{Y}$. The operation $\mathcal{Y}^\dagger \left(\mathcal{Y}\mathcal{Y}^\dagger\right)^{-1}$ takes the (pseudo-)spherical transform of the masked maps, with $\mathcal{Y}\mathcal{Y}^\dagger = \text{diag}\begin{equation}\label{wfmultipole}
+{X}^{\text{WF}}_{\ell{m}}\approx \mathbb{C}^{\text{fid}}\mathcal{F}\mathcal{Y}^\dagger \left(\mathcal{Y}\mathcal{Y}^\dagger\right)^{-[NUMERICAL_RESULT]} \begin{pmatrix}
+ T\\_2P\\_{-2}P
+ \end{pmatrix},
+\end{equation}thcal{Y}\mathcal{Y}^\dagger\right)^{-1} \begin{pmatrix}
  T\\_2P\\_{-2}P
  \end{pmatrix},
 \end{equation}
@@ -292,13 +289,9 @@ where $\mathbb{N}^{-1} \equiv \mathcal{Y}^\dagger C_{\text{noise}}^{-1} \mathcal
 where $\mathcal{F}$ is the filtering operation applied to the temperature and polarization spherical harmonics. The filters used are diagonal in harmonic space such that each component of $X\in{T,E,B}$ is filtered separately by $F^X_\ell=1/(C^{XX}_\ell+N^{XX}_\ell)$.
 
 The above diagonal filtering neglects small amounts of mode mixing due to masking, does not account for noise inhomogeneities over the map, and also ignores cross-correlation in $C^{TE}_\ell$. However, it has the advantage of allowing the temperature and polarization map to be filtered independently and is a good approximation on scales for which the CMB fields are signal dominated, and in situations when the noise level is close to homogeneous, as is the case for ACT DR6..} 
-This method is also significantly faster than using the more optimal filter in Equation~\eqref{eq:exactWF}, which requires evaluation of the inverse of the covariance matrix $C$ with, for example, conjugate-gradient methods. Therefore, for the main analysis, we employ this diagonal filter. 
-
- 
-
-The inverse-variance filtered maps
-
-\begin{equation}
+This method is also significantly faster than using the more optimal filter in Equation~\eqref{eq:exactWF}, which requires evaluation of the inverse of the covariance matrix $C$ with, for example, conjugate-gradie\begin{equation}
+\bar{\bold{X}}(\unitvec) = C^{-[NUMERICAL_RESULT]} \begin{pmatrix} T \\ {}_2 P \\ {}_{-2}P \end{pmatrix}
+\end{equation}\begin{equation}
 \bar{\bold{X}}(\unitvec) = C^{-1} \begin{pmatrix} T \\ {}_2 P \\ {}_{-2}P \end{pmatrix}
 \end{equation}
 
@@ -322,16 +315,15 @@ A fixed realization of gravitational lenses imprints preferred directions into t
 
 The average $\langle\quad \rangle_{\text{CMB}}$ is taken over CMB realizations with a fixed lensing potential $\phi$. Here the fields ${X}_{\ell{m}},{Y}_{\ell{m}}\in\{T_{\ell{m}},E_{\ell{m}},B_{\ell{m}}\}$ and the bracketed term is a Wigner $3j$ symbol. The response functions $f^{XY}_{\ell\ell^\prime{L}}$ for the different quadratic pairs $XY$ can be found in \cite{Okamoto2003} and are linear functions of the CMB power spectra (the lensed spectra are used to cancel a higher-order correction \citealt{Lewis_2011}). 
 
-The correlation between different modes induced by lensing motivates the use of quadratic combinations of the lensed temperature and polarization maps to reconstruct the lensing field. Pairs of Wiener-filtered maps, $X^{\text{WF}}$, and inverse-variance-filtered maps, $\bar{X}$, are provided as inputs to a quadratic estimator that reconstructs an un-normalized, minimum-variance (MV) estimate of the spin-$1$ component of the real-space lensing displacement field:
-
-\begin{equation}\label{real_space}
+The correlation between different modes induced by lensing motivates the use of quadratic combinations of the lensed temperature and polarization maps to reconstruct the lensing field. Pairs of Wiener-filtered maps, $X^{\text{WF}}$, and inverse-variance-filtered maps, $\bar{X}$, are provided as inputs to a quadratic estimator that\begin{equation}\label{real_space}
+ {}_[NUMERICAL_RESULT] \hat{d}(\unitvec)=-\sum_{s=[NUMERICAL_RESULT],\pm2}{_{-s}\bar{X}}(\unitvec)[\eth_sX^{\text{WF}}](\unitvec).
+\end{equation}ation}\label{real_space}
  {}_1 \hat{d}(\unitvec)=-\sum_{s=0,\pm2}{_{-s}\bar{X}}(\unitvec)[\eth_sX^{\text{WF}}](\unitvec).
 \end{equation}
 
- Here, $\eth$ is the spin-raising operator acting on spin spherical harmonics and the pre-subscript $s$ denotes the spin of the field. The gradients of the Wiener-filtered maps are given explicitly by
-
-The displacement field can be decomposed into the gradient $\phi$ and curl $\Omega$ components by expanding in spin-weighted spherical harmonics:
-\begin{equation}\label{real_harmonic}
+ Here, $\eth$ is the spin-raising operator acting on spin spherical harmonics and the pre-subscript $s$ denotes the spin of the field. The gradients of the Wiener-filtered maps a\begin{equation}\label{real_harmonic}
+ {}_{\pm[NUMERICAL_RESULT]}\hat{d}(\unitvec)=\mp\sum_{LM}\Bigg(\frac{\bar{\phi}_{LM}\pm{i}\bar{\Omega}_{LM}}{\sqrt{L(L+1)}}\Bigg){_{\pm1}}Y_{LM}(\unitvec).
+\end{equation}l{real_harmonic}
  {}_{\pm1}\hat{d}(\unitvec)=\mp\sum_{LM}\Bigg(\frac{\bar{\phi}_{LM}\pm{i}\bar{\Omega}_{LM}}{\sqrt{L(L+1)}}\Bigg){_{\pm1}}Y_{LM}(\unitvec).
 \end{equation}
 
@@ -353,15 +345,17 @@ The temperature-only $(s=0)$ and polarization-only $(s=\pm2)$ estimators in Equa
 
 Expanding the Wiener-filtered fields in terms of the inverse-variance-filtered multipoles $\bar{X}_{\ell m}$, and extracting the gradient part, approximately recovers the usual estimators $\bar{\phi}^{XY}_{LM}$ of \cite{Okamoto2003}, where $XY\in\{TT,TE,ET,EE,EB,BE\}$. 
 
-More specifically, the MV estimator presented here is approximately equivalent, which is slightly sub-optimal compared to \cite{Okamoto2003}.}
-to combining the individual estimators $\bar{\phi}^{XY}_{LM}$
- with a weighting given by the inverse of their respective normalization $({\mathcal{R}^{XY}_L})^{-1}$:
+More specifically, the MV estimator presented here is approximately equivalent, which is slightly sub-optimal compared to \\begin{equation}\label{eq:mv.estimator}
+ \hat{\phi}^{{\mathrm{MV}}}_{LM}=({\mathcal{R}^{\mathrm{MV}}_L})^{-[NUMERICAL_RESULT]}\sum_{XY}\bar{\phi}^{{XY}}_{LM}.
+\end{equation}({\mathcal{R}^{XY}_L})^{-1}$:
 
 \begin{equation}\label{eq:mv.estimator}
  \hat{\phi}^{{\mathrm{MV}}}_{LM}=({\mathcal{R}^{\mathrm{MV}}_L})^{-1}\sum_{XY}\bar{\phi}^{{XY}}_{LM}.
 \end{equation}
 
-Here, $({\mathcal{R}^{\mathrm{MV}}_L})^{-1}$ is the MV estimator normalization that ensures our reconstructed lensing field is unbiased; by construction, it is defined via $\phi_{LM}=({\mathcal{R}^{XY}_L})^{-1}\langle\bar{\phi}^{XY}_{LM}\rangle_{\text{CMB}}$. The normalization is given explicitly by
+Here, $({\mathcal{R}^{\mathrm{MV}}_L})^{-1}$ is the MV estimator normalization that ensures our re\begin{equation}
+({\mathcal{R}^{\mathrm{MV}}_L})^{-[NUMERICAL_RESULT]}=\frac{1}{\sum_{XY}{(\mathcal{R}^{XY}_L})}.
+\end{equation}}\langle\bar{\phi}^{XY}_{LM}\rangle_{\text{CMB}}$. The normalization is given explicitly by
 
 \begin{equation}
 ({\mathcal{R}^{\mathrm{MV}}_L})^{-1}=\frac{1}{\sum_{XY}{(\mathcal{R}^{XY}_L})}.
@@ -380,7 +374,9 @@ In practice, this multiplicative MC correction is computed after binning both sp
 
 An explanation of the origin of the multiplicative MC correction is provided in Appendix \ref{sec:verification}: it is found to be primarily a consequence of the Fourier-space filtering.
 
-Having obtained our estimate of the lensing map in harmonic space, $\hat{\phi}_{LM} $, we can compute a naive, biased estimate of the lensing power spectrum. Using two instances of the lensing map estimates $\hat{\phi}_{LM}^{AB}$ and $\hat{\phi}_{LM}^{CD}$, this power spectrum is given by
+Having obtained our estimate of the lensing map in harmonic space, $\h\begin{equation}
+ \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}_{LM}^{AB},\hat{\phi}_{LM}^{CD})\equiv\frac{[NUMERICAL_RESULT]}{w_4(2L+1)}\sum^{L}_{M=-L}\hat{\phi}_{LM}^{AB}(\hat{\phi}_{LM}^{CD})^*,
+\end{equation}power spectrum is given by
 
 \begin{equation}
  \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}_{LM}^{AB},\hat{\phi}_{LM}^{CD})\equiv\frac{1}{w_4(2L+1)}\sum^{L}_{M=-L}\hat{\phi}_{LM}^{AB}(\hat{\phi}_{LM}^{CD})^*,
@@ -391,14 +387,16 @@ where $w_4=\int d^2 \unitvec\, M^4(\unitvec)/(4\pi)$, the average value of the f
 Nevertheless, biases arising from CMB and lensing signals still need to be removed from the naive lensing power spectrum estimator. We discuss the subtraction of these biases in Section \ref{sec.biassub}.
 
 \subsubsection{{Profile hardening for foreground mitigation}}\label{sec:biashardening}
-Extragalactic foreground contamination from Sunyaev--Zel'dovich clusters, the cosmic infrared background, and radio sources can affect the quadratic estimator and hence produce large biases in the recovered lensing power spectrum if unaccounted for. For our baseline analysis, we use a geometric approach to mitigating foregrounds and make use of bias-hardened estimators \citep{Namikawa2013,Osborne_2014,PhysRevD.102.063517}. As with lensing, other sources of statistical anisotropy in the map such as point sources and tSZ clusters can be related to a response function $f^s_{\ell_1\ell_2L}$ and a field $s_{LM}$ describing the anisotropic spatial dependence. Bias-hardened estimators work by reconstructing simultaneously both lensing and non-lensing statistical anisotropies and subtracting the latter, with a scaling to ensure the resulting estimator has no remaining response to non-lensing anisotropies. Explicitly, the bias-hardened $TT$ part of the lensing estimator is given by
-\begin{equation}
- \hat{\phi}^{TT,\mathrm{BH}}_{{LM}}=\frac{\hat{\phi}^{TT}_{{LM}}-(\mathcal{R}_L^{TT})^{-1}\mathcal{R}^{\phi,s}_{{L}}\hat{s}_{{LM}}}{1-(\mathcal{R}^{\phi,s}_{{L}})^2(\mathcal{R}^{TT}_{{L}})^{-1}(\mathcal{R}^{s}_{{L}})^{-1} },
+Extragalactic foreground contamination from Sunyaev--Zel'dovich clusters, the cosmic infrared background, and radio sources can affect the quadratic estimator and hence produce large biases in the recovered lensing power spectrum if unaccounted for. For our baseline analysis, we use a geometric approach to mitigating foregrounds and make use of bias-hardened estimators \citep{Namikawa2013,Osborne_2014,PhysRevD.102.063517}. As with lensing, other sources of statistical anisotropy in the map such as point sources and tSZ clusters can be related to a response function $f^s_{\ell_1\ell_2L}$ and a field $s_{LM}$ describing the anisotropic spatial dependence. Bias-hardened estimators work by reconstructing simultaneously both lensing and non-lens\begin{equation}
+ \hat{\phi}^{TT,\mathrm{BH}}_{{LM}}=\frac{\hat{\phi}^{TT}_{{LM}}-(\mathcal{R}_L^{TT})^{-[NUMERICAL_RESULT]}\mathcal{R}^{\phi,s}_{{L}}\hat{s}_{{LM}}}{1-(\mathcal{R}^{\phi,s}_{{L}})^2(\mathcal{R}^{TT}_{{L}})^{-1}(\mathcal{R}^{s}_{{L}})^{-1} },
+\end{equation}\hat{\phi}^{TT,\mathrm{BH}}_{{LM}}=\frac{\hat{\phi}^{TT}_{{LM}}-(\mathcal{R}_L^{TT})^{-1}\mathcal{R}^{\phi,s}_{{L}}\hat{s}_{{LM}}}{1-(\mathcal{R}^{\phi,s}_{{L}})^2(\mathcal{R}^{TT}_{{L}})^{-1}(\mathcal{R}^{s}_{{L}})^{-1} },
 \end{equation}
 \fk{
 where $\mathcal{R}^{\phi,s}_{{L}}$ is the cross-response between the lensing field $\hat{\phi}^{TT}_{{LM}}$ and the source field $\hat{s}_{LM}$ and $(\mathcal{R}^{s}_{{L}})^{-1}$ is the normalization for the source estimator.}
 
-In our case, we optimise the response to the presence of tSZ cluster ``sources'', and as shown in \cite{sailer2023}, this estimator is also effective in reducing the effect of point sources by a factor of around five. The cross-response function of this \abds{tSZ-profile-hardened estimator} is given by
+In our case, we optimise the response to the presence of \begin{equation}
+ \mathcal{R}^{\phi,\mathrm{tSZ}}_{{L}}=\frac{[NUMERICAL_RESULT]}{2L+1}\sum_{\ell\ell^{\prime}}\frac{f^{\phi}_{\ell{L}\ell^\prime}f^{tSZ}_{\ell{L}\ell^\prime}}{2C^{\mathrm{total}}_\ell{C_{\ell^{\prime}}^{\mathrm{total}}}} ,
+\end{equation} given by
 
  
 
@@ -419,8 +417,9 @@ Both the investigation of foreground mitigation in \cite{dr6-lensing-fgs}, summa
 
 \subsubsection{Cross-correlation-based quadratic estimator}\label{sec.crossqe}
 
-The lensing power spectrum constructed using the standard QE is sensitive to assumptions made in simulating and modelling the instrument noise used for calculating the lensing power-spectrum biases. This is despite the use of realization-dependent methods, as described in Appendix \ref{app.rdn0} (which discusses power-spectrum bias subtraction). Hence, in practice, we construct our lensing power spectrum using lensing maps $\hat{\phi}^{(ij),XY}_{LM}$ reconstructed from different data splits, indexed by $i$ and $j$, which have independent noise.
-Using the shorthand notation of $\mathrm{QE}(X^A,Y^B)$ 
+The lensing power spectrum constructed using the standard QE is sensitive to assumptions made in simulating and modelling the instrument noise used for calculating the lensing power-spectrum biases. This is despite the use of realization-dependent methods, as described in Appendix \ref{app.rdn0} (which discusses power-spectrum bias subtraction). Hence, in practice, we construct our lensing power spectrum using lensing maps $\hat{\phi}^{(ij),XY}_{LM}$ reconstructed from dif\begin{equation}
+ \hat{\phi}^{(ij),XY}_{LM}=\frac{[NUMERICAL_RESULT]}{2}[\mathrm{QE}(X^i,Y^j)+\mathrm{QE}(X^j,Y^i)].
+\end{equation}{QE}(X^A,Y^B)$ 
 for the quadratic estimator (see Eq. \ref{real_space}) operating on two sky maps $X^A$ and $Y^B$, $\hat{\phi}^{(ij),XY}_{LM}$ is defined as 
 
 \begin{equation}
@@ -428,20 +427,18 @@ for the quadratic estimator (see Eq. \ref{real_space}) operating on two sky maps
 \end{equation}
 Note that this is symmetric under interchange of the splits.
 
-\abds{We use this cross-correlation-based estimator from \cite{Madhavacheril2021} with independent data splits to ensure our analysis is immune to instrumental and atmospheric noise effects in the mean-field and $N_0$ (Gaussian) biases (introduced below in Section~\ref{sec.biassub}). This makes our analysis highly robust to potential inaccuracies in simulating the complex atmospheric and instrumental noise in the ACT data.}
+\abds{We use this cross-correlation-based estimator from \cite{Madhavacheril2021} with independent data splits to ensure our analysis is immune to instrumental and atmospheric noise effects in the mean-field and $N_0$ (Gaussian) biases (introduced below in Section~\ref{sec.biassub}).\begin{equation}
+ \hat{\phi}^{XY}_{LM}=\frac{[NUMERICAL_RESULT]}{4^2}\sum_{ij}\hat{\phi}^{(ij),XY}_{LM}.
+\end{equation} and instrumental noise in the ACT data.}
 
-The coadded, standard lensing estimator, equivalent to Equation~\eqref{eq:mv.estimator}, which uses all the map-split combinations, is given by
-\begin{equation}
- \hat{\phi}^{XY}_{LM}=\frac{1}{4^2}\sum_{ij}\hat{\phi}^{(ij),XY}_{LM}.
+The coadded, standard lensing estimato\begin{equation}
+ C^{\hat{\phi}\hat{\phi}}_L[XY,UV] = \frac{[NUMERICAL_RESULT]}{4^4} \sum_{ijkl} \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(kl),{UV}}_{LM}) .
+\end{equation}}_{LM}.
 \end{equation}
 
-\abds{The corresponding estimate of the power spectrum from $XY$ and $UV$ standard QEs is then
-
-\begin{equation}
- C^{\hat{\phi}\hat{\phi}}_L[XY,UV] = \frac{1}{4^4} \sum_{ijkl} \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(kl),{UV}}_{LM}) .
-\end{equation}
-
-This is modified by removing any terms where the same split is repeated to give the cross-correlation-based estimator:
+\abds{The corresponding estimate of the power spectrum from $XY$ and $UV$ standar\begin{equation}
+ C^{\hat{\phi}\hat{\phi},\times}_L[XY,UV] = \frac{[NUMERICAL_RESULT]}{4!} \sum_{i\neq j \neq k \neq l} \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(kl),{UV}}_{LM}) . \label{eq:PScrossslow}
+\end{equation}any terms where the same split is repeated to give the cross-correlation-based estimator:
 
 \begin{equation}
  C^{\hat{\phi}\hat{\phi},\times}_L[XY,UV] = \frac{1}{4!} \sum_{i\neq j \neq k \neq l} \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(kl),{UV}}_{LM}) . \label{eq:PScrossslow}
@@ -459,7 +456,10 @@ We introduce the following auxiliary estimators using different combinations of 
 in terms of which the cross-correlation-based estimator may be written as
 
 \begin{align}\label{crossqe}
- C^{\hat{\phi}\hat{\phi},\times}_L[XY,UV]=\frac{1}{4!}\Big[&256\hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{\times,{XY}}_{LM},\hat{\phi}^{\times,{UV}}_{LM})\nonumber \\&-[NUMERICAL_RESULT]\sum^{4}_{i=1}\hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(i)\times,{XY}}_{LM},\hat{\phi}^{(i)\times,{UV}}_{LM})\nonumber \\&+4\sum_{i\leq{j}}\hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(ij),{UV}}_{LM})\Big].
+ C^{\hat{\phi}\hat{\phi},\times}_L[XY,UV]=\frac{1}{4!}\Big[&256\hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{\times,{XY}}_{LM},\hat{\phi}^{\times,{UV}}_{LM})\nonumber \\&-64\sum^{4}_{i=1}\hat{C}^{\hat{\phi}\hat{\\begin{equation}
+ \hat{\phi}^{XY}_{LM}=\frac{[NUMERICAL_RESULT]}{6}\sum_{i<j}\hat{\phi}_{LM}^{(ij),XY}.
+\label{eq:lensingmap}
+\end{equation}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(ij),{UV}}_{LM})\Big].
 \end{align}
 
 Finally, the baseline lensing map we produce, which again avoids repeating the same data splits in the estimator, is given by
@@ -473,7 +473,9 @@ The resulting lensing map is shown in CAR projection in Figure~\ref{fig:lensing_
 \subsection{Bias Subtraction}
  \label{sec.biassub}
 
-Naive lensing power spectrum estimators based on the auto-correlation of a reconstructed map are known to be biased due to both reconstruction noise and higher-order lensing terms. This is also true for the cross-correlation-based lensing power spectrum in Equation~\eqref{crossqe}, despite its insensitivity to noise. To obtain an unbiased lensing power spectrum from the naive lensing power spectrum estimator, we must subtract the well-known lensing power spectrum biases: the $N_0$ and $N_1$ biases as well as a small additive MC bias. The bias-subtracted lensing power spectrum is thus given by
+Naive lensing power spectrum estimators based on the auto-correlation of a reconstructed map are known to be biased due to both reconstruction noise and higher-order lensing terms. This is also true for the cross-correlation-based lensing power\begin{equation}\label{eq.sub}
+ \hat{C}^{\phi\phi,\times}_L=C^{\hat{\phi}\hat{\phi},\times}_L-\Delta{C^{\text{Gauss}}_{L}}-\Delta{C^{N_[NUMERICAL_RESULT]}_{L}}-\Delta{C}^{\mathrm{MC}}_L .
+\end{equation} the well-known lensing power spectrum biases: the $N_0$ and $N_1$ biases as well as a small additive MC bias. The bias-subtracted lensing power spectrum is thus given by
 
 \begin{equation}\label{eq.sub}
  \hat{C}^{\phi\phi,\times}_L=C^{\hat{\phi}\hat{\phi},\times}_L-\Delta{C^{\text{Gauss}}_{L}}-\Delta{C^{N_1}_{L}}-\Delta{C}^{\mathrm{MC}}_L .
@@ -502,10 +504,12 @@ In early CMB lensing analyses, it was assumed that the CMB power spectra were de
 
 \abds{We analytically compare the amplitude of the lensing power spectrum $\Alens$ when changing the fiducial CMB power spectra described above to the best-fit model CMB power spectra for an independent dataset, namely ACT DR4+{\it{WMAP}} \citep{Aiola_2020}; \abds{we account for the impact of calibration and polarization efficiency characterization in this comparison.} Doing this we find a change in $\Alens$ of only $0.23\sigma$, comfortably subdominant to our statistical uncertainty.} An important reason why this change is so small is that our pre-processing procedures, which involve calibration and polarization efficiency corrections relative to the \textit{Planck} spectra, drive the amplitudes of the spectra in our data closer to our \NS{original} fiducial model. This result reassures us that the CMB power spectra are sufficiently well measured, by independent experiments, not to degrade our uncertainties on the lensing power spectrum significantly. 
 
-Nevertheless, we additionally account for uncertainty in the CMB power spectra in our cosmological inference from the lensing measurements alone (i.e., when not also including CMB anisotropy measurements) by adding to the covariance matrix a small correction calculated numerically from an ensemble of cosmological models sampled from a joint ACT DR4+\textit{Planck} chain (see \cite{Aiola_2020} for details). This results in a small increase in our errors (\abds{by approximately $3\%$ for the lensing spectrum bandpower error bars}), although the changes to the cosmological parameter constraints obtained are nearly negligible.}\equiv \sigma_8 (\Omega_m/0.3)^{0.25}$ determined from ACT DR6 CMB lensing alone increases from $0.021$ to $0.022$ when we include the additional term in our covariance matrix.}}
+Nevertheless, we additionally account for uncertainty in the CMB power spectra in our cosmological inference from the lensing measurements alone (i.e., when not also including CMB anisotropy measurements) by adding to the covariance matrix a small correction calculated numerically from an ensemble of cosmological models sampled from a joint ACT DR4+\textit{Planck} chain (see \cite{Aiola_2020} for details). This results in a small increase in our errors (\abds{by approximately $3\%$ for the lensing spectrum bandpower error bars}), although the changes to the cosmological parameter constraints obtained are nearly negligible.}\equiv \sigma_8 (\Omega_m/0.3)^{0.25}$ determined from ACT DR6 CMB lensing alone increases from $0.021$ to $[NUMERICAL_RESULT]$ when we include the additional term in our covariance matrix.}}
 
 \subsection{Covariance Matrix} \label{sec.covmat}
-We obtain the band-power covariance matrix from $N_s=792$ simulations. We do not subtract the computationally expensive realization-dependent RDN0 from all the simulations when evaluating the covariance matrix. Instead, we use an approximate, faster version, referred to as the semi-analytic $N_0$, which we describe briefly below in Section~\ref{subsection:diagonal}.
+We obtain the band-power covariance matrix from $N_s=792$ simulations. We do not subtract the computationally expensive realization-dependent RDN0 from all the simulations when evaluating the covariance matrix. Instead, we us\begin{equation}
+ \alpha_\mathrm{cov}=\frac{N_s-N_{\text{bins}}-2}{N_s-[NUMERICAL_RESULT]},
+\end{equation}be briefly below in Section~\ref{subsection:diagonal}.
 
 To account for the fact that the inverse of the above covariance matrix is not an unbiased estimate of the inverse covariance matrix, we rescale the estimated inverse covariance matrix by the Hartlap factor \citep{Hartlap_2006}:
 \begin{equation}
@@ -543,7 +547,9 @@ The $L_\mathrm{max}$ limit is motivated by the results of the foreground tests o
 
 \subsection{Calculation of goodness of fit}\label{goodness_fit}
 
-In any null test, we construct a set of null bandpowers $\bold{d}^{\text{null}}$, which (after appropriate bias subtraction) should be statistically consistent with zero. For map-level null tests, $\bold{d}^{\text{null}}$ are the bandpowers obtained by performing lensing power spectrum estimation on CMB maps differenced to null the signal, while for bandpower-level null tests they are given by differences of reconstructed lensing power spectra, $\Delta{C}^{\hat{\phi}\hat{\phi}}_L$.
+In any null test, we construct a set of null bandpowers $\bold{d}^{\text{null}}$, which (after appropriate bias subtraction) should be statistically consistent with zero. For map-level null tests, $\b\begin{equation}
+\chi^2=(\bold{d}^{\mathrm{null}}){}^\intercal \mathbb{C}^{-[NUMERICAL_RESULT]}\bold{d}^{\mathrm{null}}.
+\end{equation}ced to null the signal, while for bandpower-level null tests they are given by differences of reconstructed lensing power spectra, $\Delta{C}^{\hat{\phi}\hat{\phi}}_L$.
 We test consistency of the null bandpowers with zero by calculating the $\chi^2$ with respect to null:
 
 \begin{equation}
@@ -657,7 +663,10 @@ In Appendix \ref{timediff_map} we perform an additional, related test: we measur
 
 \subsection{Bandpower-level consistency tests}\label{sec:bandpower_null}
 
-This section describes tests that aim to assess whether lensing spectrum bandpowers from variations of our analysis, or sub-sets of our data, are consistent with each other. For each variation or sub-set, we subtract the resulting debiased lensing power spectrum from our baseline debiased lensing power spectrum; \abds{both spectra are obtained with our standard methodology described in Section \ref{sec:reconstruction}.} We obtain a covariance matrix for this difference by repeating this analysis (with semi-analytic debiasing described in Section \ref{subsection:diagonal}) on simulations. We then use the nulled bandpower vector and its covariance matrix to check for consistency with zero. We summarise the results of these tests in Table \ref{table:nullbandpower}; in this table, we also utilize the statistic $\Delta\Alens$ to quantify the magnitude of any potential bias to the lensing amplitude produced by the departure of the null-test bandpowers from zero, i.e.,
+This section describes tests that aim to assess whether lensing spectrum bandpowers from variations of our analysis, or sub-sets of our data, are consistent with each other. For each variation or sub-set, we subtract the resulting debiased lensing power spectrum from our baseline debiased lensing power spectrum; \abds{both spectra are obtained with our standard methodology described in Section \ref{sec:reconstruction}.} We obtain a covariance matrix for this difference by repeating this analysis (with semi-analytic debiasing described in Section \ref{subsection:di\begin{equation}
+ \Delta\Alens = \frac{\sum_{bb^\prime} \hat{C}^{\mathrm{null}}_{L_b} \, {\mathbb{C}}^{-[NUMERICAL_RESULT]}_{bb^\prime} \, {\hat{C}^{\phi\phi}_{L_b}}}{\sum_{bb^\prime} \hat{C}^{\phi\phi}_{L_b}\,{\mathbb{C}}^{-1}_{bb^\prime}\,{\hat{C}^{\phi\phi}_{L_b}}}.
+\label{eq.al.bias}
+\end{equation}de of any potential bias to the lensing amplitude produced by the departure of the null-test bandpowers from zero, i.e.,
 
 \begin{equation}
  \Delta\Alens = \frac{\sum_{bb^\prime} \hat{C}^{\mathrm{null}}_{L_b} \, {\mathbb{C}}^{-1}_{bb^\prime} \, {\hat{C}^{\phi\phi}_{L_b}}}{\sum_{bb^\prime} \hat{C}^{\phi\phi}_{L_b}\,{\mathbb{C}}^{-1}_{bb^\prime}\,{\hat{C}^{\phi\phi}_{L_b}}}.
@@ -832,7 +841,7 @@ Finally, we note that a broader, simulated investigation of the impact of instru
 
 \subsection{A Note on Map Versions}
 
-\NS{This analysis uses the first science-grade version of the ACT DR6 maps, namely the \texttt{dr6[NUMERICAL_RESULT]} maps. Since these maps were generated, we have made some refinements to the map-making that improve the large-scale transfer function (discussed in Section \ref{subsection:cal}) and polarization noise levels, and include data taken in 2022. We expect to use a second version of the maps for further science analyses and for the DR6 public data release. While we caution that we cannot, with absolute certainty, exclude changes to the lensing power spectrum with future versions of the maps, we are confident that our results are robust and stable for the reasons discussed below.}
+\NS{This analysis uses the first science-grade version of the ACT DR6 maps, namely the \texttt{dr6.01} maps. Since these maps were generated, we have made some refinements to the map-making that improve the large-scale transfer function (discussed in Section \ref{subsection:cal}) and polarization noise levels, and include data taken in 2022. We expect to use a second version of the maps for further science analyses and for the DR6 public data release. While we caution that we cannot, with absolute certainty, exclude changes to the lensing power spectrum with future versions of the maps, we are confident that our results are robust and stable for the reasons discussed below.}
 
 \NS{First, as discussed in Section \ref{subsection:cal}, there are non-idealities such as transfer function and leakage effects in the analyzed version of the maps. In principle, one could worry that the source of this transfer function problem also affects lensing measurements. However, these effects appear primarily at low multipoles below $\ell \sim 1000$. Fortunately, the lensing estimator is insensitive to effects at low multipoles, which is the reason for the negligible change found when correcting for the transfer function (as discussed in Section \ref{subsection:cal}).}
 
@@ -853,13 +862,15 @@ several of our null tests should be sensitive to the known non-idealities in the
 
 \subsection{Lensing amplitude}
 
-We estimate the lensing amplitude parameter $\Alens$ by fitting our baseline bandpower measurements \NS{to a theory lensing power spectrum predicted from the best-fit $\Lambda$CDM model from the \textit{Planck} 2018 
-
-baseline likelihood \texttt{plikHM TTTEEE lowl lowE}, allowing the amplitude of this lensing power spectrum to be a free parameter in our fit.} with sufficient accuracy, while still ensuring rapid MCMC runs, are as follows: \texttt{lmax = 4000}; \texttt{lens\_potential\_accuracy = 4}; \texttt{lens\_margin = 1250}; \texttt{AccuracyBoost = 1.0}; \texttt{lSampleBoost = 1.0}; and \texttt{lAccuracyBoost = 1.0}.}} We find
+We estimate the lensing amplitude parameter $\Alens$ by fitting our baseline bandpower measurements \NS{to a theory lensing power spectrum predicted from the best-fit $\Lambda$CDM model from the \textit{Planck} 20\begin{equation}
+{\Alens}=[NUMERICAL_RESULT]\pm[NUMERICAL_RESULT] \quad([NUMERICAL_RESULT]\%\, \mathrm{limit})
+\end{equation}f this lensing power spectrum to be a free parameter in our fit.} with sufficient accuracy, while still ensuring rapid MCMC runs, are as follows: \texttt{lmax = 4000}; \texttt{lens\_potential\_accuracy = 4}; \texttt{lens\_margin = 1250}; \texttt{AccuracyBoost = 1.0}; \texttt{lSampleBoost = 1.0}; and \texttt{lAccuracyBoost = 1.0}.}} We find
 \begin{equation}
-{\Alens}=1.013\pm0.023 \quad([NUMERICAL_RESULT]\%\, \mathrm{limit})
+{\Alens}=[NUMERICAL_RESULT]\pm0.023 \quad([NUMERICAL_RESULT]\%\, \mathrm{limit})
 \end{equation}
-from the baseline multipole range $L=40$--$763$, in good agreement with the lensing spectrum predicted by the \textit{Planck} 2018 \LCDM~model ($\Alens=1$).
+from the baselin\begin{equation}
+{\Alens}=1.016\pm[NUMERICAL_RESULT]
+\end{equation}h the lensing spectrum predicted by the \textit{Planck} 2018 \LCDM~model ($\Alens=1$).
 The scaled model is a good fit to the lensing bandpowers, with a \fk{PTE for $\chi^2$ of $[NUMERICAL_RESULT]\%$}.
 (The equivalent PTE for our bandpowers without rescaling the \textit{Planck} model by $A_\mathrm{lens}$ is $[NUMERICAL_RESULT]\%$. Note that the PTE is higher here because we have one more degree of freedom.)
 
@@ -879,11 +890,9 @@ Our measured lensing bandpowers are therefore fully consistent with a $\Lambda$C
 It is also important to emphasise that the agreement of our late-time measurements with the structure growth predicted by the CMB power spectra also holds for CMB power spectra measured by other experiments (not just \textit{Planck}). 
 Our lensing measurements are also consistent with a \LCDM~model fit to independent CMB power spectra measurements from ACT DR4 + \textit{WMAP} \citep{Aiola_2020}: \NS{fitting to a rescaling of the best-fit ACT DR4 + \textit{WMAP} $\Lambda$CDM model prediction yields} 
 
-an amplitude of lensing of $A_{\mathrm{lens}}=1.005\pm0.023$. 
-We shall explore the consequences of our measurements for structure growth further in the next section.
-
-\section{Implications for structure growth}\label{sec.discussion}
-\subsection{Likelihood}\label{sec:likelihood}
+a\begin{equation}
+ -2\ln{\mathcal{L}}\propto\sum_{bb^\prime}\big[\hat{C}^{\phi\phi}_{L_b}-{C}^{\phi\phi}_{L_b}(\boldsymbol{\theta})\big]{\mathbb{C}}^{-[NUMERICAL_RESULT]}_{bb^\prime}\big[\hat{C}^{\phi\phi}_{L_{b^\prime}}-{C}^{\phi\phi}_{L_{b^\prime}}(\boldsymbol{\theta})\big],
+ \end{equation}od}
 \fk{We obtain cosmological constraints by constructing a lensing likelihood function} $\mathcal{L}$ assuming Gaussian errors on $\hat{C}^{\phi\phi}_L$ obtained from the MV estimator:
 
  \begin{equation}
@@ -901,14 +910,18 @@ We now consider constraints on the basic
 Weak lensing observables in cosmology depend on both the late-time amplitude of density fluctuations in terms of $\sigma_8$ 
 and the matter density $\Omega_m$; there is an additional dependence on the Hubble parameter $H_0$. 
 
-In Figure~\ref{fig:sig8om_nobao3d} we show the CMB-lensing-only constraints derived from our spectrum measurement; these follow, \abds{as in previous lensing analyses,} a narrow line in the space spanned by $\sigma_8$--$H_0$--$\Omega_m$. \abds{In our companion paper \cite{dr6-lensing-cosmo}, we argue that this line-shaped posterior arises because CMB lensing on large and small scales constrains two different combinations of $\sigma_8$--$H_0$--$\Omega_m$.
+In Figure~\ref{fig:sig8om_nobao3d} we show the CMB-lensing-only constraints derived from our spectrum measurement; these follow, \abds{as in previous lensing analyses,} a narrow line in the space spanned by $\sigma_8$--$H_0$--$\Omega_\begin{equation}
+ \frac{\sigma_8}{[NUMERICAL_RESULT]}\Big(\frac{\Omega_m}{0.3}\Big)^{0.23}\Big(\frac{\Omega_mh^2}{0.13}\Big)^{-0.32}=0.9938\pm0.0197
+\end{equation}ales constrains two different combinations of $\sigma_8$--$H_0$--$\Omega_m$.
 
 These two constraint planes intersect in a constraint ``line'', which explains the form of the posterior seen in the figure.} \fk{The DR6 lensing data provides the following constraint on this 3-dimensional $\sigma_8$--$H_0$--$\Omega_m$ parameter space:}
 \begin{equation}
- \frac{\sigma_8}{[NUMERICAL_RESULT]}\Big(\frac{\Omega_m}{0.3}\Big)^{0.23}\Big(\frac{\Omega_mh^2}{0.13}\Big)^{-0.32}=0.9938\pm0.0197
+ \frac{\sigma_8}{0.8}\Big(\frac{\Omega_m}{0.3}\Big)^{0.23}\Big(\frac{\Omega_mh^2}{0.13}\Big)^{-0.32}=0.9938\pm0.0197
 \end{equation}
 
-This line-like degeneracy projects into constraints within a narrow region in the $\sigma_8$--$\Omega_m$ plane, as shown in Figure~\ref{fig:sig8om_nobao}. The best-constrained direction corresponds approximately to a determination of 
+This line-like degeneracy projects into constraints within a narrow region in the $\sigma_8$--$\Omega_m$ plane, as shown in Fi\begin{equation}
+ S^{\mathrm{CMBL}}_8=[NUMERICAL_RESULT]\pm{[NUMERICAL_RESULT]}~~(0.830\pm{[NUMERICAL_RESULT]}).
+\end{equation} a determination of 
 $\sigma_8\Omega^{0.25}_m$. Constraining this parameter combination with our data, we obtain 
 \begin{equation}
 \sigma_8\Omega^{0.25}_m=0.606\pm{0.016}.
@@ -919,7 +932,7 @@ This translates to a constraint on the CMB-lensing-equivalent of the usual $S_8$
 \end{equation}
 of
 \begin{equation}
- S^{\mathrm{CMBL}}_8=[NUMERICAL_RESULT]\pm{0.022}~~(0.830\pm{[NUMERICAL_RESULT]}).
+ S^{\mathrm{CMBL}}_8=[NUMERICAL_RESULT]\pm{[NUMERICAL_RESULT]}~~(0.830\pm{[NUMERICAL_RESULT]}).
 \end{equation}
 \NS{In the constraint shown above, the result for the baseline analysis is shown first,} followed by the constraint from the extended range of scales in parentheses. These can be compared with the value expected from \textit{Planck} CMB power spectrum measurements \fk{assuming a \LCDM~cosmology}. Extrapolating the \textit{Planck} CMB anisotropy measurements to low redshifts yields a value of $ S^{\mathrm{CMBL}}_8=0.823\pm{0.011}$.
 This is entirely consistent with our direct ACT DR6 lensing measurement of this parameter. As in the case of $A_\mathrm{lens}$, this agreement is not limited to comparisons with \textit{Planck}; similar levels of agreement are achieved with ACT DR4 + \textit{WMAP} CMB power spectrum measurements, which give a constraint of $S^{\mathrm{CMBL}}_8=[NUMERICAL_RESULT]\pm{0.020}$. Our measurement is also consistent with the direct $S^{\mathrm{CMBL}}_8$ result from \texttt{NPIPE} lensing, $S^{\mathrm{CMBL}}_8=0.809\pm0.022$. \abds{This consistency of $S^{\mathrm{CMBL}}_8$ between extrapolations from CMB power spectra, which probe primarily $z\sim 1100$, and direct measurements with CMB lensing at lower redshifts $z\sim 0.5$--$5$} can be seen in Figure~\ref{Fig.polcomb_posterior}.
@@ -977,7 +990,7 @@ Our lensing power spectrum bandpowers are consistent with the $\Lambda$CDM predi
 As previously discussed, our results are highly relevant for the $S_8$ tension. A powerful test of structure formation is to extrapolate, assuming $\Lambda$CDM structure growth but no other free parameters, a model fit to the \textit{Planck} CMB power spectrum at (mostly) early times down to low redshifts, and then compare this extrapolation with direct measurements of $S^{\text{CMBL}}_8 \equiv \sigma_8(\Omega_m/0.3)^{0.25}$ or $\sigma_8$. Intriguingly, some lensing and galaxy clustering measurements seem to give lower values of $S_8$ 
  or $\sigma_8$ than predicted by \textit{Planck} \fk{at the $(2$--$3)\sigma$ level}, including KiDS, DES and HSC \citep{10.1093/mnras/stt601,KiDS:2020suj,Heymans_2021,Krolewski:2021yqy,Philcox:2021kcw,PhysRevD.105.023520,Loureiro_2022,HSCY3Real,HSCY3Fourier}, although this conclusion is not universal \citep{eBOSS2021}. Our measurement of lensing and structure growth is independent of \textit{Planck} and also does not rely at all on galaxy survey data, with the associated challenges in modeling and systematics mitigation. 
 
-As described in the previous section, we find $S^{\text{CMBL}}_8=[NUMERICAL_RESULT]\pm{0.022}$ as our baseline result from ACT. This is in full agreement with the expectation based on the \textit{Planck} CMB-anisotropy power spectra and $\Lambda$CDM structure growth. We emphasize that the agreement between precise lensing measurements at $z\sim 0.5-5$ with predictions from CMB anisotropies probing primarily $z\sim 1100$ is a remarkable success for the $\Lambda$CDM model. \abds{From a fit of $\Lambda$CDM at the CMB last-scattering surface, our standard cosmology predicts, with no additional free parameters, cosmic structure formation over billions of years, the lensing effect this produces, and the non-Gaussian imprint of lensing in the observed CMB fluctuations; our measurements match these predictions at the $2\%$ level.}
+As described in the previous section, we find $S^{\text{CMBL}}_8=[NUMERICAL_RESULT]\pm{[NUMERICAL_RESULT]}$ as our baseline result from ACT. This is in full agreement with the expectation based on the \textit{Planck} CMB-anisotropy power spectra and $\Lambda$CDM structure growth. We emphasize that the agreement between precise lensing measurements at $z\sim 0.5-5$ with predictions from CMB anisotropies probing primarily $z\sim 1100$ is a remarkable success for the $\Lambda$CDM model. \abds{From a fit of $\Lambda$CDM at the CMB last-scattering surface, our standard cosmology predicts, with no additional free parameters, cosmic structure formation over billions of years, the lensing effect this produces, and the non-Gaussian imprint of lensing in the observed CMB fluctuations; our measurements match these predictions at the $2\%$ level.}
 
 Unlike several galaxy lensing measurements and other large-scale structure probes, we find no evidence of any suppression of the amplitude of structure.
 
@@ -1000,7 +1013,7 @@ In this paper, we report a new measurement of the CMB lensing power spectrum usi
 \bds{The CMB lensing power spectrum is determined using a novel pipeline that uses profile-hardening and cross-correlation-based estimators; these methods ensure that we are insensitive to the foregrounds and complex noise structure in high-resolution, large-sky, ground-based CMB observations.} We obtain a lensing spectrum at state-of-the-art precision: the amplitude of the spectrum is measured to $[NUMERICAL_RESULT]\%$ precision ($43\sigma$ significance) over the baseline range of scales $40<L<763$, with very similar results (\Frank{also $43\sigma$}) obtained over the extended range $40<L<1300$. We test the robustness and internal consistency of our measurement using more than 200 null and systematic tests performed at both the bandpower and map level: these include tests of consistency of different array-frequencies, sky regions, scales, and of temperature and polarization data. \fk{We find no evidence for any systematic effects that could significantly bias our measurement.}
 
 Our CMB lensing power spectrum measurement provides constraints on the amplitude of cosmic structure that do not depend on \textit{Planck} or galaxy-survey data, thus giving independent information about large-scale structure growth and further insight into the $S_8$ tension. We find that our lensing power spectrum is well fit by a standard $\Lambda$CDM
- model, with a lensing amplitude $A_{\mathrm{lens}}=1.013\pm0.023$ relative to the \textit{Planck} 2018 best-fit model for our baseline analysis ($A_{\mathrm{lens}}=1.016\pm 0.023$ for the extended range of scales). From our baseline lensing power spectrum measurement, we derive constraints on the best-determined parameter combination $S^{\mathrm{CMBL}}_8 \equiv \sigma_8 \left({\Omega_m}/{0.3}\right)^{0.25}$ of $S^{\mathrm{CMBL}}_8= 0.818\pm0.022$ from ACT CMB lensing alone. Since our spectrum shows good consistency with the \textit{Planck} CMB lensing spectrum, we also combine ACT and \textit{Planck} CMB lensing to obtain $S^{\mathrm{CMBL}}_8= 0.813\pm0.018$.
+ model, with a lensing amplitude $A_{\mathrm{lens}}=[NUMERICAL_RESULT]\pm0.023$ relative to the \textit{Planck} 2018 best-fit model for our baseline analysis ($A_{\mathrm{lens}}=1.016\pm [NUMERICAL_RESULT]$ for the extended range of scales). From our baseline lensing power spectrum measurement, we derive constraints on the best-determined parameter combination $S^{\mathrm{CMBL}}_8 \equiv \sigma_8 \left({\Omega_m}/{0.3}\right)^{0.25}$ of $S^{\mathrm{CMBL}}_8= [NUMERICAL_RESULT]\pm0.022$ from ACT CMB lensing alone. Since our spectrum shows good consistency with the \textit{Planck} CMB lensing spectrum, we also combine ACT and \textit{Planck} CMB lensing to obtain $S^{\mathrm{CMBL}}_8= 0.813\pm0.018$.
 
 Our results are fully consistent with the predictions based on \textit{Planck} CMB power spectrum measurements and standard $\Lambda$CDM structure growth\abds{; we find no evidence for suppression of structure at low redshifts or for other tensions. Our companion paper \citep{dr6-lensing-cosmo} combines our measurements with BAO data to study the agreement with other lensing surveys.} Since our measurement is less sensitive to new physics at low redshifts $z<1$ and on non-linear scales, further investigation of structure growth at lower redshifts and smaller scales, for example with upcoming ACT lensing cross-correlation analyses, is well motivated.
 
@@ -1023,11 +1036,10 @@ The difference spectrum $\Delta^{\textrm{A}_\textrm{f}}_{\ell_b}$ is given by th
 
 We use the multipole range $\ell^{\rm min}_{b}= 1000$ and $\ell^{\rm max}_{b}=1500$ to minimise the impact of temperature-to-polarization leakage, foreground contamination and effects of the transfer function. A prior on the \DW{foreground} amplitude $\alpha_{\textrm{A}_\textrm{f}}$, \DW{which is dominated by the polarized dust component, is estimated using the measurement of the $353\,\si{GHz}$ \texttt{NPIPE} EE power spectrum from \textit{Planck}. Further details about this prior will be discussed in the upcoming ACT power spectrum analysis paper. }
 
-We determine the efficiency scaling $p^{\textrm{A}_\textrm{f}}_{\rm eff}$ by finding the maximum-posterior value from a simple Gaussian likelihood derived from this $\chi^2$, marginalized over $\alpha_{\textrm{A}_\textrm{f}}$. We also derive an error on the efficiency scaling parameter from the posterior.
-
-\section{Further discussion of normalization correction}\label{app:norm.corr.details}
-
-In this appendix, we provide further details of the normalization correction discussed in Section~\ref{sub:norm.corr.summary}. The reconstructed lensing field, $\hat{\phi}_{LM}$, is dependent on \Frank{the assumed fiducial CMB power spectra} through the normalization term, $\mathcal{R}^{-1}_{L}$. Setting aside the small Monte-Carlo correction for the moment, this dependence can be expressed as 
+We determine the efficiency scaling $p^{\textrm{A}_\textrm{f}}_{\rm eff}$ by finding the maximum-posterior value from a simple Gaussian likelihood derived from this $\chi^2$, marginalized over $\alpha_{\textrm{A}_\textrm{f}}$. We also derive an error on the e\begin{equation}
+\hat{\phi}_{L,M}\rvert_{C_\ell^{\textrm{CMB, fid}}}
+ \approx \frac{\mathcal{R}^{-[NUMERICAL_RESULT]}_{L}\rvert_{C_\ell^{\textrm{CMB,fid}}}}{\mathcal{R}^{-1}_{L}\rvert_{C_\ell^{\textrm{CMB}}}} \hat{\phi}_{L,M}\rvert_{C_\ell^{\textrm{CMB}}}
+\end{equation}summary}. The reconstructed lensing field, $\hat{\phi}_{LM}$, is dependent on \Frank{the assumed fiducial CMB power spectra} through the normalization term, $\mathcal{R}^{-1}_{L}$. Setting aside the small Monte-Carlo correction for the moment, this dependence can be expressed as 
 
 \begin{equation}
 \hat{\phi}_{L,M}\rvert_{C_\ell^{\textrm{CMB, fid}}}
@@ -1070,7 +1082,7 @@ For a lensing-power-spectrum-only likelihood, we need to marginalize over the un
 
 where now $\mathbb{C}^{\textrm{CMB}}_{bb^\prime}$ is the additional covariance induced by the CMB marginalisation. In the right panel of Figure~\ref{fig:Fig.al.calpoltf.2ptmarg.err.infl}, we demonstrate the inflation of lensing bandpower error bars resulting from the marginalization over CMB power spectra. This process leads to an increase of at most $[NUMERICAL_RESULT]\%$ in error bars and the introduction of small correlations between bands. For comparison, we have conducted the marginalization using the ACT DR4+\textit{WMAP} parameter chains and found a slightly larger increase of up to $[NUMERICAL_RESULT]\%$. 
 
-In the baseline analysis range, the error bars on the lensing amplitude increase from $\sigma(\Alens) = 0.023$ to $\sigma(\Alens) = 0.0256$ when marginalizing over the ACT DR4+\textit{Planck} chains. In comparison, when marginalizing over the ACT DR4+\textit{WMAP} chains, the error bars increase to $\sigma(\Alens) = 0.0264$. Although this seems like a non-negligible change, the impact on cosmological parameters such as $S_8^{\mathrm{CMBL}}$ appears significantly smaller. \DW{In particular, the error on the $S_8^{\mathrm{CMBL}}$ only increases from $0.021$ to $0.022$ when we include the ACT DR4+\textit{Planck}-based marginalization.}
+In the baseline analysis range, the error bars on the lensing amplitude increase from $\sigma(\Alens) = [NUMERICAL_RESULT]$ to $\sigma(\Alens) = 0.0256$ when marginalizing over the ACT DR4+\textit{Planck} chains. In comparison, when marginalizing over the ACT DR4+\textit{WMAP} chains, the error bars increase to $\sigma(\Alens) = 0.0264$. Although this seems like a non-negligible change, the impact on cosmological parameters such as $S_8^{\mathrm{CMBL}}$ appears significantly smaller. \DW{In particular, the error on the $S_8^{\mathrm{CMBL}}$ only increases from $0.021$ to $[NUMERICAL_RESULT]$ when we include the ACT DR4+\textit{Planck}-based marginalization.}
 One may question the choice of using ACT DR4+\textit{Planck} chains rather than, for example, the ACT DR4 only chains, as well as the use of smooth $\Lambda$CDM curves instead of allowing the bandpowers to vary freely given the likelihood. However, it is important to note that the marginalization approach remains robust as long as the CMB bandpowers have been well-characterized, regardless of the specific CMB measurement used. The larger scales, which play an important role in determining the overall power spectrum amplitude, are already robustly measured by \textit{Planck}. Therefore, we believe it is a valid approach to incorporate this information in the marginalization procedure. With regard to the use of smooth $\Lambda$CDM curves, we explicitly test our model-dependence by using chains for an extended model (ACT DR4+\textit{Planck} $\Lambda$CDM+\DW{$\Alens^{\textrm{2pt}}$}) in the marginalization. \DW{Note that $\Alens^{\textrm{2pt}}$ is a parameter that characterizes the impact of gravitational lensing on the CMB power spectra and is distinct from the lensing amplitude parameter $\Alens$.}
 
 We find that using the extended-model chains results in an increase of only 3\% on the error bars of the lensing amplitude, $\sigma(\Alens)$, compared to the ACT DR4+\textit{Planck} $\Lambda$CDM case. This negligible change is an illustration of the fact that this marginalization does not introduce significant model dependence into our lensing measurement.
@@ -1093,8 +1105,9 @@ We run the full lensing pipeline for multiple different realizations of the cali
 In fact, in our tests, we find that the response is, to a good approximation, given by \DW{$\Delta \ln C_L^{\phi \phi}\approx 2 \Delta \ln \bar{C}_\ell$, where $\Delta \ln \bar{C}_\ell$ and $\Delta \ln C_L^{\phi \phi}$} are fractional changes in the CMB power spectrum averaged over $\ell \in [600,3000]$ and fractional changes in the lensing power spectrum, respectively. 
 \blake{Also, comment on what you do for, e.g., the MV estimator using temperature and polarization.} Since quantifying the effect of beams and calibration errors by running the full lensing power spectrum pipeline is computationally prohibitive, we may use the approximation above to quantify their effect.
 
-To quantify the typical effect of beam and calibration errors on lensing, we proceed as follows. We do not attempt to incorporate beam and calibration errors into our statistical error but instead will treat the typical error as a systematic that we argue is negligible.
- First, as our calibration factors are computed with respect to the \textit{Planck} maps, they may not be independent across array-frequencies, and this correlation can increase the overall bias. To investigate this issue, we estimate their correlations by jointly sampling calibration factors from a likelihood of the following form (up to an irrelevant constant):
+To quantify the typical effect of beam and calibration errors on lensing, we proceed a\begin{equation}
+-2\ln \mathcal{L}(\{c_{\textrm{A}_\textrm{f}}\}|\{\Delta_\ell^{\textrm{A}_\textrm{f}}\}) = \sum_{\ell = \ell_{\rm min}}^{ \ell_{\rm max}} \sum_{\textrm{A}_\text{f},\textrm{A}'_\textrm{f}} \Delta^{\textrm{A}_\textrm{f}}_{\ell}\left[\Sigma_\ell^{-[NUMERICAL_RESULT]}\right]^{\textrm{A}_\textrm{f}\textrm{A}'_\textrm{f}}\Delta^{\textrm{A}'_\textrm{f}}_{\ell},
+\end{equation}all bias. To investigate this issue, we estimate their correlations by jointly sampling calibration factors from a likelihood of the following form (up to an irrelevant constant):
 
 \begin{equation}
 -2\ln \mathcal{L}(\{c_{\textrm{A}_\textrm{f}}\}|\{\Delta_\ell^{\textrm{A}_\textrm{f}}\}) = \sum_{\ell = \ell_{\rm min}}^{ \ell_{\rm max}} \sum_{\textrm{A}_\text{f},\textrm{A}'_\textrm{f}} \Delta^{\textrm{A}_\textrm{f}}_{\ell}\left[\Sigma_\ell^{-1}\right]^{\textrm{A}_\textrm{f}\textrm{A}'_\textrm{f}}\Delta^{\textrm{A}'_\textrm{f}}_{\ell},
@@ -1127,7 +1140,7 @@ We run our analysis pipeline on these modified maps and find the shift in the es
 Preliminary analysis (at the time of preparing this paper) of the ACT DR6 CMB power spectra has revealed an additional leakage for a specific array-frequency. This leakage is consistent with a constant temperature-to-polarization leakage in the form of $\hat{E}_{\ell m} = E_{\ell m} + \alpha T_{\ell m}$, where $\alpha = 0.0035$. While this feature is yet to be confirmed, we have developed a toy model to investigate its potential impact. In this toy model, we assume that temperature maps leak into polarization maps (both E and B) at all array-frequencies with a constant coefficient of $\alpha = 0.0035$. However, it should be noted that this feature has only been observed in a specific array-frequency. Thus, it is unlikely that it would affect all channels equally, and this model likely represents a worst-case scenario. We run our analysis pipeline on this toy model and find $ \Delta\Alens = \albiasLeakConstMV\;(\biasSigmaLeakConstMV)$ and $ \Delta\Alens = \albiasLeakConstMVPol\;(\biasSigmaLeakConstMVPol)$ for MV and MVPol, respectively. 
 
 \subsection{Polarization angle verification}\label{app:syst.polrot}
-At the time of writing, a precise characterisation of the absolute polarization angle of the DR6 data set is not yet available. However, tests differencing DR4 and DR6 EB spectra have found that the EB power spectrum from the DR6 data set is consistent with that of the DR4 data set. This suggests that the DR6 polarization rotation angle should be consistent with the DR4 estimate of $\Phi_p = -[NUMERICAL_RESULT] \pm 0.09$ deg. In order to assess the impact of a non-zero polarization angle on our results, we artificially rotate the $Q/U$ maps of our data set by $\Phi_p = -0.16$ deg. (the mean minus one $\sigma$) and reanalyze the resulting maps using our analysis pipeline. The resulting lensing auto-spectrum estimates for these rotated maps are shown in the right panel of Figure~\ref{Fig.leakage.restsyst} as the blue dashed curve. As demonstrated in the figure, our bandpowers are not significantly affected by the rotation angle; the rotation results in minimal changes to our $ \Delta\Alens$ statistics. We find $ \Delta\Alens = \albiasPolAngMV\;(\biasSigmaPolAngMV)$ and $ \Delta\Alens = \albiasPolAngMVPol\;(\biasSigmaPolAngMVPol)$ for MV and MVPol, respectively. 
+At the time of writing, a precise characterisation of the absolute polarization angle of the DR6 data set is not yet available. However, tests differencing DR4 and DR6 EB spectra have found that the EB power spectrum from the DR6 data set is consistent with that of the DR4 data set. This suggests that the DR6 polarization rotation angle should be consistent with the DR4 estimate of $\Phi_p = -0.07 \pm 0.09$ deg. In order to assess the impact of a non-zero polarization angle on our results, we artificially rotate the $Q/U$ maps of our data set by $\Phi_p = -0.16$ deg. (the mean minus one $\sigma$) and reanalyze the resulting maps using our analysis pipeline. The resulting lensing auto-spectrum estimates for these rotated maps are shown in the right panel of Figure~\ref{Fig.leakage.restsyst} as the blue dashed curve. As demonstrated in the figure, our bandpowers are not significantly affected by the rotation angle; the rotation results in minimal changes to our $ \Delta\Alens$ statistics. We find $ \Delta\Alens = \albiasPolAngMV\;(\biasSigmaPolAngMV)$ and $ \Delta\Alens = \albiasPolAngMVPol\;(\biasSigmaPolAngMVPol)$ for MV and MVPol, respectively. 
 
 \subsection{Polarization efficiency}\label{app:syst.poleff}
 As previously discussed in Section~\ref{sec:methods}, we apply a correction to our polarization maps based on the mean of the measured polarization efficiencies. Following this correction, our baseline and polarization-only estimators show good agreement (see Figure~\ref{Fig.polcomb_consistent}). To assess the robustness of our correction method, we conduct an approximate test in which the estimated polarization efficiency was artificially lowered by $1\sigma$. 
@@ -1178,8 +1191,9 @@ We calculate the $N_1$ bias by using 90 pairs of simulations with different CMB 
 We do not include biases at orders higher than $N_1$, since biases such as $N^{(3/2)}$ due to non-linear large scale structure growth and post-Born lensing effects are still negligible at our levels of sensitivity \citep{gfb}.
 
 \subsection{Additive MC Correction}\label{app.mcbias}
-Although subtraction of the Gaussian and $N_1$ biases results in a nearly unbiased lensing power spectrum, we calculate an additive Monte-Carlo bias $C_L^{\text{MC}}[XY,AB]$ with simulations to absorb any residual arising from non-idealities that have only been approximately captured, such as the effects of masking. 
-As can be seen in Figure \ref{fig:pipeline_ver}, this bias term is very small. This justifies why we may model this bias term as additive rather than multiplicative: any true functional form of the Monte-Carlo correction could be simply Taylor expanded to give an additive term. 
+Although subtraction of the Gaussian and $N_1$ biases results in a nearly unbiased lensing power spectrum, we calculate an additive Monte-Carlo bias $C_L^{\text{MC}}[XY,AB]$ with simulations to absorb any residual arising from non-idealities that have onl\begin{equation}
+ \Delta{C}^{\mathrm{MC}}_L=C^{\phi\phi}_L-(\Delta{A}^{\text{MC,mul}}_L\langle{C^{\times}_L}\rangle_\text{sim}-\mathrm{MCN[NUMERICAL_RESULT]}-\Delta{C}^{\mathrm{N}_[NUMERICAL_RESULT]}_L)
+\end{equation}s term as additive rather than multiplicative: any true functional form of the Monte-Carlo correction could be simply Taylor expanded to give an additive term. 
 This additive MC bias is given by taking to be the difference of the fiducial lensing spectrum $C^{\phi\phi}_L$ and the average of 480 (mean-field subtracted) cross-only lensing power spectra obtained from simulations, i.e.,
 \begin{equation}
  \Delta{C}^{\mathrm{MC}}_L=C^{\phi\phi}_L-(\Delta{A}^{\text{MC,mul}}_L\langle{C^{\times}_L}\rangle_\text{sim}-\mathrm{MCN0}-\Delta{C}^{\mathrm{N}_1}_L)
@@ -1263,7 +1277,7 @@ We obtain lensing spectra from two sets of sky maps that are made to contain obs
 
 Extensions to the flat-$\Lambda$CDM cosmology with parameters such as the spatial curvature $\Omega_k$ are considered in our companion paper \citep{dr6-lensing-cosmo}. 
 
-In principle, the lensing-only constraints could be significantly affected by fully freeing curvature since the CMB lensing power spectrum amplitude can be affected by curvature; however, typical curvature values preferred by current constraints, such as those in our companion paper, are sufficiently close to flatness that the lensing-only constraints are minimally affected by assuming such curvature values. For example, assuming the maximum posterior value for the curvature from \cite{dr6-lensing-cosmo} only minimally shifts our lensing-only constraints to ~$S^\mathrm{CMBL}_8=0.814\pm0.022$, consistent with the baseline constraints $S^\mathrm{CMBL}_8=0.818\pm0.022$. 
+In principle, the lensing-only constraints could be significantly affected by fully freeing curvature since the CMB lensing power spectrum amplitude can be affected by curvature; however, typical curvature values preferred by current constraints, such as those in our companion paper, are sufficiently close to flatness that the lensing-only constraints are minimally affected by assuming such curvature values. For example, assuming the maximum posterior value for the curvature from \cite{dr6-lensing-cosmo} only minimally shifts our lensing-only constraints to ~$S^\mathrm{CMBL}_8=0.814\pm0.022$, consistent with the baseline constraints $S^\mathrm{CMBL}_8=[NUMERICAL_RESULT]\pm0.022$. 
 
  
 
@@ -1272,7 +1286,14 @@ In principle, the lensing-only constraints could be significantly affected by fu
 
 \section{Post-unblinding change: from inpainting to subtracting clusters}
 
-As described in Section \ref{sec:post-unblinding}, although our initial procedure for removing clusters involved inpainting a region around the cluster, we decided, based on simulation results, that subtracting a model template was more stable; we, therefore, switched to this procedure after unblinding. The two versions of the lensing spectra, which use inpainting and model subtraction, respectively, is seen in Figure \ref{Fig.compare}. As discussed in Section \ref{sec:post-unblinding}, the resulting change to $S_8^{\mathrm{CMBL}}$ are found to be negligible.
+As described in Section \ref{sec:post-unblinding}, although our initial procedure for removing clusters involved inpainting a region around the cluster, we decided, based \begin{equation}
+ W^\kappa(z) = \frac{3}{2}\Omega_{m}H_[NUMERICAL_RESULT]^2 \frac{([NUMERICAL_RESULT]+z)}{H(z)} \frac{\chi(z)}{c} \\ 
+ \left [ \frac{\chi(z_\star)-\chi(z)}{\chi(z_\star)} \right ].
+ \label{eqn:cmb_kernel}
+\end{equation}odel subtr\begin{equation}
+ \kappa(\mathrm{\bf{\hat{n}}}) = \int_[NUMERICAL_RESULT]^{\infty} dz W^\kappa(z) \\
+ \delta_{\rm m}(\chi(z)\mathrm{\bf{\hat{n}}}, z),
+\end{equation}CMBL}}$ are found to be negligible.
 
  
 

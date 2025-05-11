@@ -2,14 +2,14 @@ Masked values and their context for paper: MUSE_outflows
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 8 replacements
-  ROUNDED: 1 replacements
-  EXACT: 26 replacements
-  ADDITIONAL: 7 replacements
+  LATEX: 3 replacements
+  EXACT: 4 replacements
+  ADDITIONAL: 8 replacements
+  EXPECTED_VALUE_FINAL_PASS: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (8):
+LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -25,53 +25,13 @@ Replacement #2:
   Context: main sequence confidence intervals 36 56\% and 32 are 0 6
 
 Replacement #3:
-  Expression: 32\%
-  Numerical Value: 32
-  Line: 150
-  Context: confidence intervals 36 56 and 32\% are 0 6 dex above
-
-Replacement #4:
   Expression: 45\%
   Numerical Value: 45
   Line: 184
   Context: U LIRGs We found that 45\% of galaxies in our parent
 
-Replacement #5:
-  Expression: 32\%
-  Numerical Value: 32
-  Line: 184
-  Context: 56 at 95 confidence and 32\% are 0 6 dex above
 
-Replacement #6:
-  Expression: 24\%
-  Numerical Value: 24
-  Line: 184
-  Context: are 0 6 dex above 24\% 41 For our combined sample
-
-Replacement #7:
-  Expression: 41\%
-  Numerical Value: 41
-  Line: 184
-  Context: 0 6 dex above 24 41\% For our combined sample of
-
-Replacement #8:
-  Expression: 100\%
-  Numerical Value: 100
-  Line: 202
-  Context: peak fluxes that are 10 100\% of the peak fluxes of
-
-
-ROUNDED REPLACEMENTS (1):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: about 0.1
-  Numerical Value: 0.1
-  Line: 248
-  Context: H alpha flux ratio is about 0.1 floattable floattable subsection Multiphased wind
-
-
-EXACT REPLACEMENTS (26):
+EXACT REPLACEMENTS (4):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -85,127 +45,17 @@ Replacement #2:
   Context: Na N_ mathrm H gas 0.95 For the stellar masses of
 
 Replacement #3:
-  Expression: 0.3
-  Line: 70
-  Context: cosmology with Omega_ mathrm M 0.3 Omega_ Lambda 0 7 and
+  Expression: .3
+  Line: 256
+  Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
 
 Replacement #4:
   Expression: .3
-  Line: 92
-  Context: a FWHM resolution of 2 .3 AA citep vazdekis10 We used
-
-Replacement #5:
-  Expression: .3
-  Line: 256
-  Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
-
-Replacement #6:
-  Expression: .3
   Line: 280
   Context: L_ mathrm SF of 11 .3 and 11 5 L_ odot
 
-Replacement #7:
-  Expression: 0.5
-  Line: 194
-  Context: mathrm E B V of 0.5 1 mag in a large
 
-Replacement #8:
-  Expression: 0.1
-  Line: 278
-  Context: find L_ mathrm NaID sim 0.1 L_ mathrm H alpha textbf
-
-Replacement #9:
-  Expression: 300
-  Line: 218
-  Context: velocity dispersions of sim 200 300 km sec The line ratios
-
-Replacement #10:
-  Expression: 300
-  Line: 228
-  Context: density of the wings sim 300 mathrm cm 3 is higher
-
-Replacement #11:
-  Expression: 100
-  Line: 244
-  Context: the stars by more than 100 km sec In figure ref
-
-Replacement #12:
-  Expression: 500
-  Line: 232
-  Context: studies that high velocity v 500 km sec ionized gas in
-
-Replacement #13:
-  Expression: 500
-  Line: 262
-  Context: flows can reach velocities of 500 750 km sec on tens
-
-Replacement #14:
-  Expression: 0.2
-  Line: 84
-  Context: with a pixel scale of 0.2 and a spatial resolution of
-
-Replacement #15:
-  Expression: 0.8
-  Line: 84
-  Context: a spatial resolution of sim 0.8 For the later program 0102
-
-Replacement #16:
-  Expression: 0.7
-  Line: 70
-  Context: Lambda 0 7 and h 0.7 section Methods label s data
-
-Replacement #17:
-  Expression: 50
-  Line: 196
-  Context: with a separation of sim 50 kpc with no visible tidal
-
-Replacement #18:
-  Expression: 10
-  Line: 60
-  Context: case observations that trace T 10 5 K gas will underestimate
-
-Replacement #19:
-  Expression: 10
-  Line: 106
-  Context: recombination a gas temperature of 10 4 K a dusty screen
-
-Replacement #20:
-  Expression: 10
-  Line: 134
-  Context: split N mathrm _ NaI 10 13 cm 2 times mathrm
-
-Replacement #21:
-  Expression: 10
-  Line: 135
-  Context: lu Big Big frac b 10 km sec Big end split
-
-Replacement #22:
-  Expression: 10
-  Line: 140
-  Context: N_ mathrm NaI 1 y 10 A B C end equation
-
-Replacement #23:
-  Expression: 10
-  Line: 190
-  Context: with visible companions at distances 10 kpc This suggests that post
-
-Replacement #24:
-  Expression: 10
-  Line: 256
-  Context: of the ionized gas are 10 and 3 M_ odot yr
-
-Replacement #25:
-  Expression: 10
-  Line: 274
-  Context: visible companions at distances of 10 kpc This suggest that post
-
-Replacement #26:
-  Expression: 10
-  Line: 280
-  Context: found mass outflow rates of 10 and 3 M_ odot yr
-
-
-ADDITIONAL REPLACEMENTS (7):
+ADDITIONAL REPLACEMENTS (8):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -242,5 +92,19 @@ Replacement #7:
   Expression: -2524
   Line: 246
   Context: J124754 citealt baron20 and F05189 -2524 citealt rupke15 It may be
+
+Replacement #8:
+  Expression: -750
+  Line: 262
+  Context: can reach velocities of 500 -750 km sec on tens of
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1.44
+  Line: 0
+  Context: Final pass for expected values
 
 

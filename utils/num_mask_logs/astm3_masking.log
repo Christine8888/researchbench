@@ -1,13 +1,15 @@
-2025-05-11 16:12:59,035 - INFO - Logging to file: utils/num_mask_logs/astm3_masking.log
-2025-05-11 16:12:59,035 - INFO - Found 25 unique numerical values to mask
-2025-05-11 16:12:59,162 - INFO - Made 41 replacements in the text
-2025-05-11 16:12:59,162 - INFO - Saved masked text to papers/masked_texts/astm3.txt
-2025-05-11 16:12:59,163 - INFO - Latex Replacement #1: '12.56\%' at line 164
-2025-05-11 16:12:59,163 - INFO -   Context: 67 87 and by textbf 12.56\% at the 10 data split
-2025-05-11 16:12:59,163 - INFO - Latex Replacement #2: '5.21\%' at line 164
-2025-05-11 16:12:59,163 - INFO -   Context: with accuracy increasing by textbf 5.21\% at the 25 data split
-2025-05-11 16:12:59,163 - INFO - Exact Replacement #1: '0.4872' at line 228
-2025-05-11 16:12:59,163 - INFO -   Context: has a cosine similarity of 0.4872 Although there is no guarantee
-2025-05-11 16:12:59,163 - INFO - Exact Replacement #2: '0.8784' at line 222
-2025-05-11 16:12:59,163 - INFO -   Context: similarity with cosine similarities of 0.8784 and 0 8451 respectively As
-2025-05-11 16:12:59,163 - INFO - Saved context information to utils/num_mask_logs/astm3_contexts.log
+2025-05-11 16:39:20,445 - INFO - Logging to file: utils/num_mask_logs/astm3_masking.log
+2025-05-11 16:39:20,446 - INFO - Found 25 unique numerical values to mask
+2025-05-11 16:39:20,581 - INFO - Made 42 replacements in the text
+2025-05-11 16:39:20,581 - INFO - Saved masked text to papers/masked_texts/astm3.txt
+2025-05-11 16:39:20,581 - INFO - Large_integer Replacement #1: '21,440 objects' at line 235
+2025-05-11 16:39:20,581 - INFO -   Context: self supervised models This includes 21,440 objects with time series photometry spectra
+2025-05-11 16:39:20,582 - INFO - Latex Replacement #1: '12.56\%' at line 164
+2025-05-11 16:39:20,582 - INFO -   Context: 67 87 and by textbf 12.56\% at the 10 data split
+2025-05-11 16:39:20,582 - INFO - Latex Replacement #2: '5.21\%' at line 164
+2025-05-11 16:39:20,582 - INFO -   Context: with accuracy increasing by textbf 5.21\% at the 25 data split
+2025-05-11 16:39:20,582 - INFO - Exact Replacement #1: '0.4872' at line 228
+2025-05-11 16:39:20,582 - INFO -   Context: has a cosine similarity of 0.4872 Although there is no guarantee
+2025-05-11 16:39:20,582 - INFO - Exact Replacement #2: '0.8784' at line 222
+2025-05-11 16:39:20,582 - INFO -   Context: similarity with cosine similarities of 0.8784 and 0 8451 respectively As
+2025-05-11 16:39:20,582 - INFO - Saved context information to utils/num_mask_logs/astm3_contexts.log

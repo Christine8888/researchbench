@@ -1,89 +1,31 @@
-2025-05-11 16:13:08,071 - INFO - Logging to file: utils/num_mask_logs/tng_hod_masking.log
-2025-05-11 16:13:08,072 - INFO - Found 66 unique numerical values to mask
-2025-05-11 16:13:08,685 - INFO - Made 176 replacements in the text
-2025-05-11 16:13:08,685 - INFO - Saved masked text to papers/masked_texts/tng_hod.txt
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #1: '\mathrm{cut} = 12.7' at line 145
-2025-05-11 16:13:08,685 - INFO -   Context: fiducial model are log M_ \mathrm{cut} = 12.7 log M_1 13 6 sigma
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #2: '\mathrm{cut} = 11.9' at line 148
-2025-05-11 16:13:08,685 - INFO -   Context: 075 Q 95 log M_ \mathrm{cut} = 11.9 sigma 0 5 gamma 5
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #3: '2.4\times' at line 145
-2025-05-11 16:13:08,685 - INFO -   Context: galaxy of bar M _h 2.4\times 10 13 h 1 M_
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #4: '6.0\times' at line 148
-2025-05-11 16:13:08,685 - INFO -   Context: halo mass per galaxy of 6.0\times 10 12 h 1 M_
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #5: '6.3\times' at line 214
-2025-05-11 16:13:08,685 - INFO -   Context: h 1 M_ odot and 6.3\times 10 14 h 1 M_
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #6: '1.0\times' at line 276
-2025-05-11 16:13:08,685 - INFO -   Context: samples with number density n 1.0\times 10 3 h 3 Mpc
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #7: '1.5\times' at line 276
-2025-05-11 16:13:08,685 - INFO -   Context: 3 Mpc 3 and n 1.5\times 10 3 h 3 Mpc
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #8: '1.4\times' at line 287
-2025-05-11 16:13:08,685 - INFO -   Context: HOD framework on a n 1.4\times 10 3 h 3 Mpc
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #9: '33\%' at line 148
-2025-05-11 16:13:08,685 - INFO -   Context: and a satellite fraction of 33\% This is consistent with the
-2025-05-11 16:13:08,685 - INFO - Latex Replacement #10: '2.5\%' at line 150
-2025-05-11 16:13:08,685 - INFO -   Context: fraction of 22 5 pm 2.5\% One potential reason for the
-2025-05-11 16:13:08,686 - INFO - Rounded Replacement #1: 'around 0.1' at line 198
-2025-05-11 16:13:08,686 - INFO -   Context: the peculiar velocity distributions peak around 0.1 and the central velocity bias
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #1: '0.137' at line 196
-2025-05-11 16:13:08,686 - INFO -   Context: central velocity bias parameter alpha_c 0.137 pm 0 007 The errorbar
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #2: '14.2' at line 148
-2025-05-11 16:13:08,686 - INFO -   Context: 5 gamma 5 log M_1 14.2 alpha 0 65 and kappa
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #3: '1.35' at line 148
-2025-05-11 16:13:08,686 - INFO -   Context: alpha 0 65 and kappa 1.35 In terms of derived HOD
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #4: '0.05' at line 196
-2025-05-11 16:13:08,686 - INFO -   Context: is alpha_s 0 92 pm 0.05 The satellite velocity bias is
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #5: '.05' at line 196
-2025-05-11 16:13:08,686 - INFO -   Context: 8 0 9 and 1 .05 in the three mass bins
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #6: '14.1' at line 172
-2025-05-11 16:13:08,686 - INFO -   Context: largely disappearing at M 10 14.1 h 1 M_ odot We
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #7: '4998' at line 99
-2025-05-11 16:13:08,686 - INFO -   Context: resulting in a sample of 4998 ELGs red We display the
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #8: '1.15' at line 95
-2025-05-11 16:13:08,686 - INFO -   Context: 6 mathrm AND g r 1.15 times r z 0 15
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #9: '1.15' at line 145
-2025-05-11 16:13:08,686 - INFO -   Context: 6 sigma 0 2 alpha 1.15 kappa 0 08 and f_
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #10: '0.04' at line 192
-2025-05-11 16:13:08,686 - INFO -   Context: 0 18 0 03 _ 0.04 and alpha_s 1 00 0
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #11: '0.04' at line 198
-2025-05-11 16:13:08,686 - INFO -   Context: of alpha_s 1 01 pm 0.04 However the mock ELG satellite
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #12: '4608' at line 87
-2025-05-11 16:13:08,686 - INFO -   Context: an LRG mock sample of 4608 galaxies Figure ref fig lrg_sample
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #13: '0.15' at line 252
-2025-05-11 16:13:08,686 - INFO -   Context: bias we find alpha_c approx 0.15 and alpha_s approx 1 with
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #14: '0.1' at line 196
-2025-05-11 16:13:08,686 - INFO -   Context: halo dispersion ratio of around 0.1 and a corresponding central velocity
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #15: '0.4' at line 73
-2025-05-11 16:13:08,686 - INFO -   Context: be 0 6 0 2 0.4 respectively We also vary the
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #16: '0.4' at line 87
-2025-05-11 16:13:08,686 - INFO -   Context: We find that delta m 0.4 roughly matches the desired target
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #17: '.6' at line 96
-2025-05-11 16:13:08,686 - INFO -   Context: 2 times r z 1 .6 label equ elg_cuts end align
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #18: '0.6' at line 99
-2025-05-11 16:13:08,686 - INFO -   Context: number density is delta m 0.6 resulting in a sample of
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #19: '0.2' at line 54
-2025-05-11 16:13:08,686 - INFO -   Context: algorithm with linking length b 0.2 in units of the mean
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #20: '0.2' at line 192
-2025-05-11 16:13:08,686 - INFO -   Context: clustering values of alpha_c approx 0.2 and alpha_s approx 1 are
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #21: '0.2' at line 196
-2025-05-11 16:13:08,686 - INFO -   Context: slightly smaller than the alpha_c 0.2 signature found for BOSS LRGs
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #22: '0.8' at line 58
-2025-05-11 16:13:08,686 - INFO -   Context: the simulations at redshift z 0.8 The key analysis in this
-2025-05-11 16:13:08,686 - INFO - Exact Replacement #23: '.80' at line 84
-2025-05-11 16:13:08,686 - INFO -   Context: AND r z z 3 .80 times 0 19 label equ
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #1: '-15' at line 6
-2025-05-11 16:13:08,686 - INFO -   Context: analysis that reveals a 10 -15 excess in the LRG clustering
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #2: '-300' at line 47
-2025-05-11 16:13:08,686 - INFO -   Context: we utilize the textsc IllustrisTNG -300 1 box the largest high
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #3: '-300' at line 51
-2025-05-11 16:13:08,686 - INFO -   Context: counterpart of the textsc IllustrisTNG -300 1 box textsc IllustrisTNG 300
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #4: '-300' at line 53
-2025-05-11 16:13:08,686 - INFO -   Context: haloes groups in textsc IllustrisTNG -300 Dark are found with a
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #5: '-300' at line 60
-2025-05-11 16:13:08,686 - INFO -   Context: halo counterparts in textsc IllustrisTNG -300 Dark We describe this process
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #6: '-15' at line 150
-2025-05-11 16:13:08,686 - INFO -   Context: marginalized satellite fraction of 11 -15 depending on the HOD prescription
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #7: '-0.03' at line 192
-2025-05-11 16:13:08,686 - INFO -   Context: 1 00 0 03 _ -0.03 for the CMASS LRG sample
-2025-05-11 16:13:08,686 - INFO - Additional Replacement #8: '-15' at line 276
-2025-05-11 16:13:08,686 - INFO -   Context: LRGs we see a 10 -15 excess in projected clustering in
-2025-05-11 16:13:08,687 - INFO - Saved context information to utils/num_mask_logs/tng_hod_contexts.log
+2025-05-11 16:39:29,775 - INFO - Logging to file: utils/num_mask_logs/tng_hod_masking.log
+2025-05-11 16:39:29,775 - INFO - Found 66 unique numerical values to mask
+2025-05-11 16:39:30,389 - INFO - Made 184 replacements in the text
+2025-05-11 16:39:30,389 - INFO - Saved masked text to papers/masked_texts/tng_hod.txt
+2025-05-11 16:39:30,389 - INFO - Latex_range Replacement #1: '0.18^{+0.03}_{-0.04}' at line 192
+2025-05-11 16:39:30,389 - INFO -   Context: space distortion signal finds alpha_c 0.18^{+0.03}_{-0.04} and alpha_s 1 00 0
+2025-05-11 16:39:30,389 - INFO - Latex_range Replacement #2: '1.00^{+0.03}_{-0.03}' at line 192
+2025-05-11 16:39:30,389 - INFO -   Context: alpha_c NUMERICAL_RESULT and alpha_s 1 00^{+0.03}_{-0.03}$  for the CMASS LRG sample
+2025-05-11 16:39:30,389 - INFO - Latex Replacement #1: '2.4\times' at line 145
+2025-05-11 16:39:30,390 - INFO -   Context: galaxy of bar M _h 2.4\times 10 13 h 1 M_
+2025-05-11 16:39:30,390 - INFO - Latex Replacement #2: '6.3\times' at line 214
+2025-05-11 16:39:30,390 - INFO -   Context: h 1 M_ odot and 6.3\times 10 14 h 1 M_
+2025-05-11 16:39:30,390 - INFO - Latex Replacement #3: '1.4\times' at line 287
+2025-05-11 16:39:30,390 - INFO -   Context: HOD framework on a n 1.4\times 10 3 h 3 Mpc
+2025-05-11 16:39:30,390 - INFO - Latex Replacement #4: '33\%' at line 148
+2025-05-11 16:39:30,390 - INFO -   Context: and a satellite fraction of 33\% This is consistent with the
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #1: '14.1' at line 172
+2025-05-11 16:39:30,390 - INFO -   Context: largely disappearing at M 10 14.1 h 1 M_ odot We
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #2: '1.15' at line 95
+2025-05-11 16:39:30,390 - INFO -   Context: 6 mathrm AND g r 1.15 times r z 0 15
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #3: '0.4' at line 73
+2025-05-11 16:39:30,390 - INFO -   Context: be 0 6 0 2 0.4 respectively We also vary the
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #4: '0.4' at line 87
+2025-05-11 16:39:30,390 - INFO -   Context: We find that delta m 0.4 roughly matches the desired target
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #5: '.6' at line 96
+2025-05-11 16:39:30,390 - INFO -   Context: 2 times r z 1 .6 label equ elg_cuts end align
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #6: '0.8' at line 58
+2025-05-11 16:39:30,390 - INFO -   Context: the simulations at redshift z 0.8 The key analysis in this
+2025-05-11 16:39:30,390 - INFO - Exact Replacement #7: '.80' at line 84
+2025-05-11 16:39:30,390 - INFO -   Context: AND r z z 3 .80 times 0 19 label equ
+2025-05-11 16:39:30,390 - INFO - Saved context information to utils/num_mask_logs/tng_hod_contexts.log

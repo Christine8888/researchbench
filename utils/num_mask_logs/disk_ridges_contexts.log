@@ -2,14 +2,28 @@ Masked values and their context for paper: disk_ridges
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  ROUNDED: 2 replacements
-  EXACT: 6 replacements
-  COMMA_SEPARATED: 2 replacements
-  ADDITIONAL: 3 replacements
+  LARGE_INTEGER: 2 replacements
+  ROUNDED: 1 replacements
+  EXACT: 2 replacements
+  ADDITIONAL: 1 replacements
 
 ================================================================================
 
-ROUNDED REPLACEMENTS (2):
+LARGE_INTEGER REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 861,680 stars
+  Line: 29
+  Context: all coordinate transformation There are 861,680 stars in this sample We call
+
+Replacement #2:
+  Expression: 049,340 stars
+  Line: 31
+  Context: In this limited region t here are 1,04 9 340 stars We call
+
+
+ROUNDED REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -18,75 +32,25 @@ Replacement #1:
   Line: 33
   Context: and V_ rm rot is about 0.3 km s 1 However the
 
-Replacement #2:
-  Expression: ~14
-  Numerical Value: 14
-  Line: 79
-  Context: pattern citep see also Fig ~14 who showed similar results for
 
-
-EXACT REPLACEMENTS (6):
+EXACT REPLACEMENTS (2):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 1,049,340
-  Line: 31
-  Context: this limited region there are 1,049,340 stars We call this sample
-
-Replacement #2:
-  Expression: 861,680
-  Line: 29
-  Context: all coordinate transformation There are 861,680 stars in this sample We
-
-Replacement #3:
   Expression: 10.5
   Line: 81
   Context: R_ rm gal 8 and 10.5 kpc and the dip is
 
-Replacement #4:
+Replacement #2:
   Expression: -28
   Line: 61
   Context: dV_ rm rot dR sim -28 km s 1 kpc 1
 
-Replacement #5:
-  Expression: .2
-  Line: 31
-  Context: stars brighter than G 15 .2 mag but again with varpi
 
-Replacement #6:
-  Expression: 0.2
-  Line: 78
-  Context: radial grid points at every 0.2 kpc in R_ rm gal
-
-
-COMMA_SEPARATED REPLACEMENTS (2):
+ADDITIONAL REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: 1,049,340
-  Line: 31
-  Context: this limited region there are 1,049,340 stars We call this sample
-
-Replacement #2:
-  Expression: 861,680
-  Line: 29
-  Context: all coordinate transformation There are 861,680 stars in this sample We
-
-
-ADDITIONAL REPLACEMENTS (3):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: -180
-  Line: 31
-  Context: l 10 deg or l -180 10 deg Again we only
-
-Replacement #2:
-  Expression: -180
-  Line: 33
-  Context: l 10 deg or l -180 10 deg Because we discuss
-
-Replacement #3:
   Expression: -40
   Line: 45
   Context: V_ rm LSR 20 and -40 km s 1 because most

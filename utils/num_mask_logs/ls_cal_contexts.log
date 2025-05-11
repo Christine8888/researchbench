@@ -2,12 +2,21 @@ Masked values and their context for paper: ls_cal
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LARGE_INTEGER: 1 replacements
   LATEX: 1 replacements
-  ROUNDED: 1 replacements
-  EXACT: 2 replacements
-  ADDITIONAL: 7 replacements
+  EXACT: 1 replacements
+  ADDITIONAL: 3 replacements
 
 ================================================================================
+
+LARGE_INTEGER REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: total of 229,376
+  Line: 219
+  Context: and polyphase filterbank incorporating a total of 229,376 tap coefficients citep reach Spectra
+
 
 LATEX REPLACEMENTS (1):
 --------------------------------------------------------------------------------
@@ -19,17 +28,7 @@ Replacement #1:
   Context: EDGES best fit profile with 95.3\% confidence citep sarasDisputeEdges hypothesising that
 
 
-ROUNDED REPLACEMENTS (1):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: approximately 80
-  Numerical Value: 80
-  Line: 73
-  Context: we achieve an RMSE of approximately 80 mK for the simulated antenna
-
-
-EXACT REPLACEMENTS (2):
+EXACT REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -37,48 +36,23 @@ Replacement #1:
   Line: 210
   Context: steel IP66 box Rittal 1007 .600 with a hinged door that
 
-Replacement #2:
-  Expression: .1
-  Line: 184
-  Context: flat noise figure of 5 .1 dB However it is expected
 
-
-ADDITIONAL REPLACEMENTS (7):
+ADDITIONAL REPLACEMENTS (3):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -50
-  Line: 186
-  Context: amplifier based on an ERA -50 SM chip offering a NF
-
-Replacement #2:
   Expression: -84
   Line: 186
   Context: over time with the CMA -84 Measurements of the LNA S
 
-Replacement #3:
-  Expression: -30
-  Line: 186
-  Context: output match at better than -30 dB over the observational band
-
-Replacement #4:
-  Expression: -30
-  Line: 225
-  Context: on regular intervals of 10 -30 seconds resulting in much shorter
-
-Replacement #5:
+Replacement #2:
   Expression: -405
   Line: 230
   Context: and a 4 inch RG -405 cable The main MS1 switch
 
-Replacement #6:
+Replacement #3:
   Expression: -402
   Line: 230
   Context: box are made using RG -402 semi rigid cables for stability
-
-Replacement #7:
-  Expression: -08
-  Line: 232
-  Context: modules are beneath the TC -08 and oval ring and are
 
 

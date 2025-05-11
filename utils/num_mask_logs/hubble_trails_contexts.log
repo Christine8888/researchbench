@@ -2,13 +2,44 @@ Masked values and their context for paper: hubble_trails
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 38 replacements
+  EQUATION_EXPECTED_VALUE: 3 replacements
+  LATEX: 32 replacements
   EXACT: 1 replacements
   ADDITIONAL: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (38):
+EQUATION_EXPECTED_VALUE REPLACEMENTS (3):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1
+  Line: 99
+  Context: we used the following equation \begin{equation}
+ u_{freq_s}=\sqrt{(\frac{1}{s_{total}}u_s)^2+(\frac{s}{s_{total}^2}u_{s_{total}})^2}.
+ \label{eq:u_freq}
+\end{equation} The final result of our
+
+Replacement #2:
+  Expression: 1
+  Line: 158
+  Context: the shell of satellites vis ible to HST is:
+
+\begin{equation}
+ f_\mathrm{{visible}} = \frac{1}{2}\left[1-\sqrt{1-\left( \frac{R_{\mathrm{E}}}{R_{\mathrm{S}}} \right)^2 \left(\frac{\sqrt{R_{\mathrm{S}}^2-R_{\mathrm{E}}^2}}{R_{\mathrm{H}}} +
+ \frac{\sqrt{ R_{\mathrm{H}}^2 - R_{\mathrm{E}}^2 }} {R_{\mathrm{H}}}\right)^2}\right].
+\label{visibl e end equation There is
+
+Replacement #3:
+  Expression: 1
+  Line: 165
+  Context: time a satellite spends outside the shadow of the Earth is thus:
+
+\begin{equation}
+ f_{\mathrm{illuminated}} = 1-\frac{2\a lpha 360 circ end equation
+
+
+LATEX REPLACEMENTS (32):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -30,213 +61,177 @@ Replacement #3:
   Context: WFC is 3 2 pm 0.2\% while for the Wide Field
 
 Replacement #4:
-  Expression: 0.1\%
-  Numerical Value: 0.1
-  Line: 11
-  Context: it is 1 7 pm 0.1\% because of the larger FoV
-
-Replacement #5:
-  Expression: 0.2\%
-  Numerical Value: 0.2
-  Line: 20
-  Context: fraction of 3 3 pm 0.2\% while UV filters contain a
-
-Replacement #6:
-  Expression: 0.1\%
-  Numerical Value: 0.1
-  Line: 20
-  Context: satellites with 0 1 pm 0.1\% for F275W The low fraction
-
-Replacement #7:
   Expression: 0.3\%
   Numerical Value: 0.3
   Line: 22
   Context: WFC and 3 2 pm 0.3\% for WFC3 UVIS while for
 
-Replacement #8:
+Replacement #5:
   Expression: 0.9\%
   Numerical Value: 0.9
   Line: 22
   Context: it is 5 9 pm 0.9\% and 5 5 pm 1
 
-Replacement #9:
+Replacement #6:
   Expression: 1.2\%
   Numerical Value: 1.2
   Line: 22
   Context: 9 and 5 5 pm 1.2\% representing an increase of 59
 
-Replacement #10:
+Replacement #7:
   Expression: 59\%
   Numerical Value: 59
   Line: 22
   Context: 2 representing an increase of 59\% and 71 for ACS WFC
 
-Replacement #11:
+Replacement #8:
   Expression: 71\%
   Numerical Value: 71
   Line: 22
   Context: an increase of 59 and 71\% for ACS WFC and WFC3
 
-Replacement #12:
+Replacement #9:
   Expression: 40\%
   Numerical Value: 40
   Line: 28
   Context: HST There has been a 40\% increase in the number of
 
-Replacement #13:
+Replacement #10:
   Expression: 33\%
   Numerical Value: 33
   Line: 38
   Context: will cross the FoV is 33\% for WFC3 UVIS and 41
 
-Replacement #14:
+Replacement #11:
   Expression: 41\%
   Numerical Value: 41
   Line: 38
   Context: 33 for WFC3 UVIS and 41\% for ACS WFC increasing the
 
-Replacement #15:
+Replacement #12:
   Expression: 93.8\%
   Numerical Value: 93.8
   Line: 65
   Context: model achieves an accuracy of 93.8\% a precision of 97 5
 
-Replacement #16:
+Replacement #13:
   Expression: 97.5\%
   Numerical Value: 97.5
   Line: 65
   Context: 93 8 a precision of 97.5\% and a recall of 89
 
-Replacement #17:
+Replacement #14:
   Expression: 93.1\%
   Numerical Value: 93.1
   Line: 65
   Context: an overall F_1 score of 93.1\% The confusion matrix is shown
 
-Replacement #18:
+Replacement #15:
   Expression: 91.7\%
   Numerical Value: 91.7
   Line: 78
   Context: model achieves a precision of 91.7\% and recall or completeness of
 
-Replacement #19:
+Replacement #16:
   Expression: 84.4\%
   Numerical Value: 84.4
   Line: 78
   Context: and recall or completeness of 84.4\% on the test set at
 
-Replacement #20:
+Replacement #17:
   Expression: 1.1\%
   Numerical Value: 1.1
   Line: 84
   Context: fraction of 8 9 pm 1.1\% composite ACS WFC and 5
 
-Replacement #21:
+Replacement #18:
   Expression: 0.7\%
   Numerical Value: 0.7
   Line: 84
   Context: WFC and 5 8 pm 0.7\% composite WFC3 UVIS images crossed
 
-Replacement #22:
+Replacement #19:
   Expression: 0.3\%
   Numerical Value: 0.3
   Line: 84
   Context: satellites of 2 8 pm 0.3\% for the individual ACS WFC
 
-Replacement #23:
+Replacement #20:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 84
   Context: WFC and 1 8 pm 0.2\% for individual WFC3 UVIS exposures
 
-Replacement #24:
+Replacement #21:
   Expression: 0.3\%
   Numerical Value: 0.3
   Line: 84
   Context: average of 2 4 pm 0.3\% for the two instruments These
 
-Replacement #25:
+Replacement #22:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 84
   Context: Method I 3 2 pm 0.2\% for ACS WFC3 and 1
 
-Replacement #26:
-  Expression: 0.1\%
-  Numerical Value: 0.1
-  Line: 84
-  Context: WFC3 and 1 7 pm 0.1\% for WFC3 UVIS presented in
-
-Replacement #27:
+Replacement #23:
   Expression: 1.1\%
   Numerical Value: 1.1
   Line: 130
   Context: fraction of 8 9 pm 1.1\% composite ACS WFC and 5
 
-Replacement #28:
+Replacement #24:
   Expression: 0.7\%
   Numerical Value: 0.7
   Line: 130
   Context: WFC and 5 8 pm 0.7\% composite WFC3 UVIS images crossed
 
-Replacement #29:
-  Expression: 1.2\%
-  Numerical Value: 1.2
-  Line: 132
-  Context: fraction of 9 6 pm 1.2\% while UV filters contain a
-
-Replacement #30:
+Replacement #25:
   Expression: 0.2\%
   Numerical Value: 0.2
   Line: 132
   Context: satellites with 0 4 pm 0.2\% for F275W In what follows
 
-Replacement #31:
+Replacement #26:
   Expression: 1.4\%
   Numerical Value: 1.4
   Line: 134
   Context: WFC and 11 0 pm 1.4\% for WFC3 UVIS The chance
 
-Replacement #32:
+Replacement #27:
   Expression: 3.6\%
   Numerical Value: 3.6
   Line: 134
   Context: 1 and 16 6 pm 3.6\% representing an increase of 56
 
-Replacement #33:
+Replacement #28:
   Expression: 56\%
   Numerical Value: 56
   Line: 134
   Context: 6 representing an increase of 56\% and 51 for ACS WFC
 
-Replacement #34:
+Replacement #29:
   Expression: 51\%
   Numerical Value: 51
   Line: 134
   Context: an increase of 56 and 51\% for ACS WFC and WFC3
 
-Replacement #35:
-  Expression: 10.3\%
-  Numerical Value: 10.3
-  Line: 179
-  Context: be f_ mathrm visible approx 10.3\% alpha 41 circ and the
-
-Replacement #36:
+Replacement #30:
   Expression: 23\%
   Numerical Value: 23
-  Line: 179
+  Line: 177
   Context: hence the satellite would spend 23\% of its orbit in the
 
-Replacement #37:
+Replacement #31:
   Expression: 4.4\%
   Numerical Value: 4.4
-  Line: 202
+  Line: 200
   Context: cross the FoV is P 4.4\% for ACS WFC and P
 
-Replacement #38:
+Replacement #32:
   Expression: 3.5\%
   Numerical Value: 3.5
-  Line: 202
+  Line: 200
   Context: for ACS WFC and P 3.5\% for WFC3 UVIS This probability
 
 

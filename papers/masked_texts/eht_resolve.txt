@@ -496,7 +496,7 @@
  
  This adds another factor of $2$ of required pixels to the reconstruction. 
  For future reconstructions with deeper frequency sampling we can extend the model and treat this domain equivalently to the space and time domains. 
- Overall we have to constrain $[NUMERICAL_RESULT]\times[NUMERICAL_RESULT]\times[NUMERICAL_RESULT]\times2 + \text{power spectrum DOFs} \approx \num{[NUMERICAL_RESULT]e6}$ pixel values with the data. 
+ Overall we have to constrain $[NUMERICAL_RESULT]\times[NUMERICAL_RESULT]\times[NUMERICAL_RESULT]\times2 + \text{power spectrum DOFs} \approx \num{7.4e6}$ pixel values with the data. 
  
  The Gaussian approximation to the closure likelihoods is only valid in high signal-to-noise regimes \cite{closure19}. 
  We increase the signal-to-noise ratio by means of an averaging procedure, which subdivides each individual scan into equally sized bins with a length of approximately 2 min.
@@ -515,7 +515,7 @@
  This is on the same order of magnitude as the relative difference in frequency, which is $\SI{0.9}{\percent}$.
  The posterior can differ from this value, governed by the overall scale $\alpha$. 
  This parameter controls the a-priori expected variance of the average logarithmic sky brightness mean and difference of the two frequencies.
- For this overall scale $\alpha$, we set the mean $0.2$ with standard deviation $[NUMERICAL_RESULT]$.
+ For this overall scale $\alpha$, we set the mean $0.2$ with standard deviation $0.1$.
  Since we normalize the flux of the final model, this parameter only controls the expected deviations of $\epsilon$, and has no other major effect.
  A deviation of about half an $e$-fold would be expected with these hyperparameter settings, as it corresponds to the sum of two means.
  

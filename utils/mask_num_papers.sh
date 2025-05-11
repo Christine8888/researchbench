@@ -44,7 +44,8 @@ for INPUT_FILE in "$INPUT_DIR"/*; do
     echo "Masking numerical values in: $BASENAME"
 
     # Run the masking script
-    python utils/mask_numerical_values.py "$PAPER_ID" --output-dir "$OUTPUT_DIR" --log-dir "$LOG_DIR"
+    # python utils/mask_numerical_values.py "$PAPER_ID" --output-dir "$OUTPUT_DIR" --log-dir "$LOG_DIR"
+    python utils/improved_mask_numerical_values.py "$PAPER_ID" --output-dir "$OUTPUT_DIR" --log-dir "$LOG_DIR"
 
     # Check if the command was successful
     if [ $? -eq 0 ]; then

@@ -2,22 +2,304 @@ Masked values and their context for paper: galaxy_manifold
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  LATEX: 5 replacements
-  ROUNDED: 1 replacements
-  EXACT: 17 replacements
-  COMMA_SEPARATED: 1 replacements
+  APPROX_NEGATIVE: 1 replacements
+  EQUATION_EXPECTED_VALUE: 13 replacements
+  LIST_EXPECTED_VALUE: 10 replacements
+  LARGE_INTEGER: 4 replacements
+  LATEX: 4 replacements
+  EXACT: 4 replacements
   DEX_CONTEXT: 2 replacements
-  ADDITIONAL: 14 replacements
+  GALAXY_COUNT: 1 replacements
+  ADDITIONAL: 13 replacements
+  EXPECTED_VALUE_FINAL_PASS: 5 replacements
+  TRAILING_ZEROS: 1 replacements
 
 ================================================================================
 
-LATEX REPLACEMENTS (5):
+APPROX_NEGATIVE REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: D$_2\approx$-1.8
+  Line: 141
+  Context: to the D_1 at around D$_2\approx$-1.8 subsection Gas mass A key
+
+
+EQUATION_EXPECTED_VALUE REPLACEMENTS (13):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.7078
+  Line: 68
+  Context: forward transform is given by \begin{equation} \label{eq:trans_matrix_11to2}
+ \left[\begin{array}{c}
+ \mathrm{D}_1^{\prime} \\
+ \mathrm{D}_2^{\prime} \\
+ \end{array}\right]
+ = 
+ \left[\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{array}\right]^{\top} \left[\begin{array}{l}
+ M_{\textit{FUV}} \\
+ M_{\textit{NUV}} \\
+ M_{\textit{u}} \\
+ M_{\textit{g}} \\
+ M_{\textit{r}} \\
+ M_{\textit{i}} \\
+ M_{\textit{z}} \\
+ M_{\textit{Y}} \\
+ M_{\textit{J}} \\
+ M_{\textit{H}} \\
+ M_{\textit{K}} \\
+ \end{array}\right],
+ \end{equation} where M_ mathrm x is
+
+Replacement #2:
+  Expression: 0.7078
+  Line: 100
+  Context: Similarly the backward transform is  given by,
+ \begin{equation} \label{eq:inv_trans_matrix_2to11}
+ \left[\begin{array}{c}
+ M_{\textit{FUV}}^{\prime} \\
+ M_{\textit{NUV}}^{\prime} \\
+ M_{\textit{u}}^{\prime} \\
+ M_{\textit{g}}^{\prime} \\
+ M_{\textit{r}}^{\prime} \\
+ M_{\textit{i}}^{\prime} \\
+ M_{\textit{z}}^{\prime} \\
+ M_{\textit{Y}}^{\prime} \\
+ M_{\textit{J}}^{\prime} \\
+ M_{\textit{H}}^{\prime} \\
+ M_{\textit{K}}^{\prime} \\
+ \end{array}\right]
+ = 
+ \left[\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{array}\right] \left[\begin{array}{l}
+ \mathrm{D}_1^{\prime} \\
+ \mathrm{D}_2^{\prime} \\
+ \end{array}\right],
+ \e nd equation where the M
+
+Replacement #3:
+  Expression: 0.11
+  Line: 147
+  Context: gas masses M_ mathrm gas }}$) are given below. 
+ \begin{equation}\label{eq:HI}
+ \begin{split}
+ \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+ &+ (0.47\pm0.02) \log \operatorname{SFR},
+ \en d split end equation begin
+
+Replacement #4:
+  Expression: 0.04
+  Line: 147
+  Context: gas masses M_ mathrm gas }}$) are given below. 
+ \begin{equation}\label{eq:HI}
+ \begin{split}
+ \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+ &+ (0.47\pm0.02) \log \operatorname{SFR},
+ \en d split end equation begin
+
+Replacement #5:
+  Expression: 0.21
+  Line: 151
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+
+Replacement #6:
+  Expression: 0.30
+  Line: 151
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+
+Replacement #7:
+  Expression: 0.10
+  Line: 151
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+
+Replacement #8:
+  Expression: 0.37
+  Line: 151
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+
+Replacement #9:
+  Expression: 0.04
+  Line: 151
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}d{split}
+ \end{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
+
+Replacement #10:
+  Expression: 0.70
+  Line: 153
+  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}log \operatorname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{g as 9 28 pm0 04
+
+Replacement #11:
+  Expression: 0.11
+  Line: 153
+  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}log \operatorname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{g as 9 28 pm0 04
+
+Replacement #12:
+  Expression: 0.04
+  Line: 153
+  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}log \operatorname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{g as 9 28 pm0 04
+
+Replacement #13:
+  Expression: 5.800
+  Line: 166
+  Context: a criterion for morphological classification . 
+ 
+ The classification was done with logistic regression, where we conside red T type 0 and
+
+
+LIST_EXPECTED_VALUE REPLACEMENTS (10):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.34
+  Line: 140
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #2:
+  Expression: 0.34
+  Line: 140
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #3:
+  Expression: 0.11
+  Line: 140
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #4:
+  Expression: 0.11
+  Line: 140
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #5:
+  Expression: 0.21
+  Line: 162
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #6:
+  Expression: 0.21
+  Line: 162
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #7:
+  Expression: 0.24
+  Line: 162
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #8:
+  Expression: 0.24
+  Line: 162
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #9:
+  Expression: 0.85
+  Line: 172
+  Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+
+Replacement #10:
+  Expression: 0.85
+  Line: 172
+  Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+
+
+LARGE_INTEGER REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 90,565 galaxies
+  Line: 35
+  Context: 11 bands which gives us 90,565 galaxies We remove galaxies with redshift
+
+Replacement #2:
+  Expression: 27,056 galaxies
+  Line: 35
+  Context: band giving us a fina l sample of 27, 056 galaxies This sample was
+
+Replacement #3:
+  Expression: 27,000 galaxies
+  Line: 59
+  Context: this section The data matrix  with $\sim$27, 000 galaxies samples of 11
+
+Replacement #4:
+  Expression: sample of 27,056
+  Line: 35
+  Context: band giving us a final sample of 27,056 galaxies This sample was obtained
+
+
+LATEX REPLACEMENTS (4):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: =-0.065*\mathrm{D}
   Numerical Value: -0.065
-  Line: 174
+  Line: 170
   Context: begin equation mathrm D _2 =-0.065*\mathrm{D} _1 5 800 end equation
 
 Replacement #2:
@@ -33,124 +315,34 @@ Replacement #3:
   Context: by two parameters with over 93.23\% explained variance We call this
 
 Replacement #4:
-  Expression: 93\%
-  Numerical Value: 93
-  Line: 230
-  Context: the Galaxy Manifold express over 93\% of the variance of our
-
-Replacement #5:
   Expression: 93.2\%
   Numerical Value: 93.2
-  Line: 304
+  Line: 300
   Context: existence of two parameters representing 93.2\% of the information of our
 
 
-ROUNDED REPLACEMENTS (1):
+EXACT REPLACEMENTS (4):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: approximately 2.5
-  Numerical Value: 2.5
-  Line: 221
-  Context: 1 This crossing time is approximately 2.5 Gyrs for all the tracks
-
-
-EXACT REPLACEMENTS (17):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 0.7078
-  Line: 75
-  Context: begin array cc 0 2492 0.7078 0 2594 0 5409 0
-
-Replacement #2:
-  Expression: 0.7078
-  Line: 117
-  Context: begin array cc 0 2492 0.7078 0 2594 0 5409 0
-
-Replacement #3:
-  Expression: 0.1236
-  Line: 262
-  Context: sigma_ Delta mathrm Log SFR 0.1236 and sigma_ Delta mathrm Log
-
-Replacement #4:
-  Expression: 0.0433
-  Line: 262
-  Context: sigma_ Delta mathrm Log M_ 0.0433 The lower SFR values are
-
-Replacement #5:
-  Expression: 0.9989
-  Line: 271
-  Context: almost perfectly with R 2 0.9989 There is however some bias
-
-Replacement #6:
-  Expression: 27,056
-  Line: 35
-  Context: us a final sample of 27,056 galaxies This sample was obtained
-
-Replacement #7:
   Expression: 0.1340
   Line: 77
   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
 
-Replacement #8:
+Replacement #2:
   Expression: 0.1340
-  Line: 119
+  Line: 118
   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
 
-Replacement #9:
-  Expression: 0.85
-  Line: 176
-  Context: we obtained an accuracy of 0.85 with 1 0 as the
-
-Replacement #10:
+Replacement #3:
   Expression: 0.21
-  Line: 166
+  Line: 162
   Context: Log M_ mathrm gas are 0.21 0 24 and 0 26
 
-Replacement #11:
-  Expression: 0.34
-  Line: 141
-  Context: sigma_ mathrm Log sSFR are 0.34 0 11 and 0 37
-
-Replacement #12:
-  Expression: .2
-  Line: 7
-  Context: a timescale of sim 1 .2 Gyrs on the manifold Lastly
-
-Replacement #13:
-  Expression: .2
-  Line: 221
-  Context: SFH with tau sim 1 .2 Gyrs The black crosses correspond
-
-Replacement #14:
-  Expression: .5
-  Line: 294
-  Context: M_ Log M_ gtrsim 11 .5 M_ odot Weighting the samples
-
-Replacement #15:
-  Expression: .8
-  Line: 141
-  Context: around D _2 approx 1 .8 subsection Gas mass A key
-
-Replacement #16:
-  Expression: 0.1
-  Line: 262
-  Context: mathrm truth is within sim 0.1 The standard deviation of the
-
-Replacement #17:
-  Expression: 0.1
-  Line: 304
-  Context: our galaxy sample at redshift 0.1 suggests that the galaxy manifold
-
-
-COMMA_SEPARATED REPLACEMENTS (1):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 27,056
-  Line: 35
-  Context: us a final sample of 27,056 galaxies This sample was obtained
+Replacement #4:
+  Expression: 1.2
+  Line: 217
+  Context: declining SFH with tau sim 1.2 Gyrs The black crosses correspond
 
 
 DEX_CONTEXT REPLACEMENTS (2):
@@ -167,77 +359,119 @@ Replacement #2:
   Context: can be estimated with minimal scatter ([NUMERICAL_RESULT] dex and [NUMERICAL_RESULT] dex for star formation rate and stellar mass, respectively by calibrating with the
 
 
-ADDITIONAL REPLACEMENTS (14):
+GALAXY_COUNT REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: -20.016
-  Line: 35
-  Context: M_ rm limit 0 097 -20.016 section Finding the Galaxy Manifold
+  Expression: 27,000
+  Line: 59
+  Context: The data matrix with sim 27,000 galaxies samples of 11 magnitudes features
 
-Replacement #2:
+
+ADDITIONAL REPLACEMENTS (13):
+--------------------------------------------------------------------------------
+
+Replacement #1:
   Expression: -0.0758
   Line: 79
   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
 
-Replacement #3:
+Replacement #2:
   Expression: -0.3106
   Line: 80
   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
 
-Replacement #4:
+Replacement #3:
   Expression: -0.1137
   Line: 80
   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
 
-Replacement #5:
+Replacement #4:
   Expression: -0.3133
   Line: 81
   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
 
-Replacement #6:
+Replacement #5:
   Expression: -0.1428
   Line: 81
   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
 
-Replacement #7:
+Replacement #6:
   Expression: -0.3201
   Line: 82
   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
 
-Replacement #8:
+Replacement #7:
   Expression: -0.0758
-  Line: 121
+  Line: 120
   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
 
-Replacement #9:
+Replacement #8:
   Expression: -0.3106
-  Line: 122
+  Line: 121
   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
 
-Replacement #10:
+Replacement #9:
   Expression: -0.1137
-  Line: 122
+  Line: 121
   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
 
-Replacement #11:
+Replacement #10:
   Expression: -0.3133
-  Line: 123
+  Line: 122
   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
 
-Replacement #12:
+Replacement #11:
   Expression: -0.1428
-  Line: 123
+  Line: 122
   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
 
-Replacement #13:
+Replacement #12:
   Expression: -0.3201
-  Line: 124
+  Line: 123
   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
 
-Replacement #14:
+Replacement #13:
   Expression: -11
-  Line: 221
+  Line: 217
   Context: galaxies have Log sSFR le -11 yr 1 This crossing time
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (5):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.24
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #2:
+  Expression: 0.26
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #3:
+  Expression: 0.37
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #4:
+  Expression: 0.1236
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #5:
+  Expression: 0.0433
+  Line: 0
+  Context: Final pass for expected values
+
+
+TRAILING_ZEROS REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 5.800
+  Line: 0
+  Context: Trailing zeros variation
 
 

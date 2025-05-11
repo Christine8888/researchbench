@@ -1,73 +1,196 @@
-2025-05-11 16:13:02,918 - INFO - Logging to file: utils/num_mask_logs/lensing_dr6_growth_masking.log
-2025-05-11 16:13:02,919 - INFO - Found 14 unique numerical values to mask
-2025-05-11 16:13:03,936 - INFO - Made 225 replacements in the text
-2025-05-11 16:13:03,937 - INFO - Saved masked text to papers/masked_texts/lensing_dr6_growth.txt
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #1: '\mathrm{sky}= 0.00138' at line 178
-2025-05-11 16:13:03,937 - INFO -   Context: further sky fraction of f_ \mathrm{sky}= 0.00138 The resulting final mask is
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #2: '\mathrm{sky}= 0.23' at line 178
-2025-05-11 16:13:03,937 - INFO -   Context: a sky fraction of f_ \mathrm{sky}= 0.23 subsection Pixel window deconvolution The
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #3: '60\%' at line 178
-2025-05-11 16:13:03,937 - INFO -   Context: leaves in this initial step 60\% of the full sky as
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #4: '40\%' at line 178
-2025-05-11 16:13:03,937 - INFO -   Context: more conservative mask retaining initially 40\% of the full sky for
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #5: '0.1\%' at line 220
-2025-05-11 16:13:03,937 - INFO -   Context: a shift of less than 0.1\% The noise power spectra N
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #6: '0.5\%' at line 542
-2025-05-11 16:13:03,937 - INFO -   Context: less than 0 2 sigma 0.5\% although biases rise when including
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #7: '40\%' at line 749
-2025-05-11 16:13:03,937 - INFO -   Context: the baseline mask and the 40\% mask are shown in Figure
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #8: '40\%' at line 749
-2025-05-11 16:13:03,937 - INFO -   Context: and red respectively fk The 40\% is otherwise prepared in the
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #9: '60\%' at line 749
-2025-05-11 16:13:03,937 - INFO -   Context: the same way as the 60\% mask as described in Section
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #10: '40\%' at line 751
-2025-05-11 16:13:03,937 - INFO -   Context: noise levels consistent with the 40\% mask We find a passing
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #11: '60\%' at line 758
-2025-05-11 16:13:03,937 - INFO -   Context: our analysis we used a 60\% dust mask We subsequently decided
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #12: '70\%' at line 758
-2025-05-11 16:13:03,937 - INFO -   Context: and consistency tests with a 70\% mask and if these passed
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #13: '3.5\%' at line 839
-2025-05-11 16:13:03,937 - INFO -   Context: error on this region or 3.5\% while at the time of
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #14: '13\%' at line 863
-2025-05-11 16:13:03,937 - INFO -   Context: PTE for chi 2 of 13\% The equivalent PTE for our
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #15: '17\%' at line 864
-2025-05-11 16:13:03,937 - INFO -   Context: by A_ mathrm lens is 17\% Note that the PTE is
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #16: '12\%' at line 870
-2025-05-11 16:13:03,937 - INFO -   Context: fk with a PTE of 12\% For comparison the latest CMB
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #17: '67\%' at line 940
-2025-05-11 16:13:03,937 - INFO -   Context: over a sky fraction of 67\% fk used in the Planck
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #18: '67\%' at line 956
-2025-05-11 16:13:03,937 - INFO -   Context: texttt NPIPE analysis mask covering 67\% of the sky and multipole
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #19: '1.3\%' at line 1046
-2025-05-11 16:13:03,937 - INFO -   Context: 1 _ L was approximately 1.3\% lower than the baseline corresponding
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #20: '2.5\%' at line 1071
-2025-05-11 16:13:03,937 - INFO -   Context: an increase of at most 2.5\% in error bars and the
-2025-05-11 16:13:03,937 - INFO - Latex Replacement #21: '15\%' at line 1141
-2025-05-11 16:13:03,937 - INFO -   Context: MC correction constitutes a 10 15\% effect however it is well
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #1: '0.818' at line 922
-2025-05-11 16:13:03,939 - INFO -   Context: equation S mathrm CMBL _8 0.818 pm 0 022 0 830
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #2: '0.818' at line 980
-2025-05-11 16:13:03,939 - INFO -   Context: find S text CMBL _8 0.818 pm 0 022 as our
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #3: '0.828' at line 925
-2025-05-11 16:13:03,939 - INFO -   Context: of S mathrm CMBL _8 0.828 pm 0 020 Our measurement
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #4: '0.018' at line 984
-2025-05-11 16:13:03,939 - INFO -   Context: mathrm CMBL 0 813 pm 0.018 again in agreement with the
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #5: '.01' at line 835
-2025-05-11 16:13:03,939 - INFO -   Context: maps namely the texttt dr6 .01 maps Since these maps were
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #6: '0.020' at line 922
-2025-05-11 16:13:03,939 - INFO -   Context: 0 022 0 830 pm 0.020 end equation NS In the
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #7: '0.02' at line 1229
-2025-05-11 16:13:03,939 - INFO -   Context: the gradient test is low 0.02 however given the large number
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #8: '.83' at line 242
-2025-05-11 16:13:03,939 - INFO -   Context: of masked areas citep PhysRevD .83 043005 We write the temperature
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #9: '.83' at line 1158
-2025-05-11 16:13:03,939 - INFO -   Context: different lensing bandpowers citep PhysRevD .83 043005 as well as the
-2025-05-11 16:13:03,939 - INFO - Exact Replacement #10: '0.8' at line 908
-2025-05-11 16:13:03,939 - INFO -   Context: space begin equation frac sigma_8 0.8 Big frac Omega_m 0 3
-2025-05-11 16:13:03,939 - INFO - Additional Replacement #1: '-64' at line 462
-2025-05-11 16:13:03,939 - INFO -   Context: times UV _ LM nonumber -64 sum 4 _ i 1
-2025-05-11 16:13:03,939 - INFO - Additional Replacement #2: '-35' at line 722
-2025-05-11 16:13:03,939 - INFO -   Context: narrow region around text Dec -35 circ The poorly cross linked
-2025-05-11 16:13:03,939 - INFO - Additional Replacement #3: '-0.07' at line 1130
-2025-05-11 16:13:03,939 - INFO -   Context: the DR4 estimate of Phi_p -0.07 pm 0 09 deg In
-2025-05-11 16:13:03,939 - INFO - Saved context information to utils/num_mask_logs/lensing_dr6_growth_contexts.log
+2025-05-11 16:39:24,317 - INFO - Logging to file: utils/num_mask_logs/lensing_dr6_growth_masking.log
+2025-05-11 16:39:24,317 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:39:24,317 - INFO - Found 4 values from expected_output lists: [0.818, 0.022, 1.013, 0.023]
+2025-05-11 16:39:25,434 - INFO - Made 278 replacements in the text
+2025-05-11 16:39:25,435 - INFO - Saved masked text to papers/masked_texts/lensing_dr6_growth.txt
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #1: '0' at line 200
+2025-05-11 16:39:25,435 - INFO -   Context: split maps boldsymbol m _i \begin{equation}\label{eq.ivarc}
+\boldsymbol{c}=\frac{\sum^{i=7}_{i=0}\mathrm{\bold{h}}_i*\boldsymbol{m}_i}{\sum^{i=7}_{i=0}\mathrm{\bold{h}}_i} .
+\end{equation} Note that in the above
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #2: '1' at line 211
+2025-05-11 16:39:25,435 - INFO -   Context: the spatial part should approximatel y factor out.}}
+
+\begin{equation}
+ M_{\ell{m}}=\sum_{\mathrm{A}_\mathrm{f}} w^{\mathrm{A}_\mathrm{f}}_\ell d^{{\mathrm{A}_\mathrm{f}}}_{\ell{m}}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1 end equation where begin equation
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #3: '1' at line 213
+2025-05-11 16:39:25,435 - INFO -   Context: _ ell right NUMERICAL_RESULT end equation}},
+\end{equation}
+where 
+\begin{equation}\label{eq.weight}
+ w_\ell^{\mathrm{A}_\mathrm{f}}=\frac{\left(N^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1}\left(B^{\mathrm{A}_\mathrm{f}}_\ell\right)^2}{\sum_{(\mathrm{A}_\mathrm{f})}\left(N^{\mathrm{A}_\mathrm{f}}_\ell\right)^{-1}\left(B^{\mathrm{A}_\mathrm f _ ell right 2
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #4: '1' at line 226
+2025-05-11 16:39:25,435 - INFO -   Context: by finding the average o f these noise spectra for a detailed discussion.}:
+\begin{equation}
+ N_\ell=\frac{1}{w_2}\frac{1}{k(k-1)}\frac{1}{2\ell+1}\sum^{k}_i\sum^{\ell}_{m=-\ell} {n i _ ell m n
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #5: '0' at line 257
+2025-05-11 16:39:25,435 - INFO -   Context: where mathbb C text fid }}$ is the matrix of our fiducial lensed CMB spectra with elements
+
+\begin{equation}
+\label{eq:lensedfilters}
+ [\mathbb{C}^{\text{fid}}]_{\ell{m},\ell^{\prime}{m^{\prime}}}=\delta_{\ell\ell^\prime}\delta_{mm^\prime}\begin{pmatrix}C^{TT}_\ell&C^{TE}_\ell&0\\C^{TE _ ell C EE _
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #6: '1' at line 263
+2025-05-11 16:39:25,435 - INFO -   Context: text noise is the real -space noise covariance matrix. The Wiener-filtered multipoles are then obtained as
+
+\begin{equation}
+{X}^{\text{WF}}_{\ell{m}} = \mathbb{C}^{\text{fid}} \mathcal{Y}^\dagger C^{-1} \begi n pmatrix T _2 P
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #7: '1' at line 278
+2025-05-11 16:39:25,435 - INFO -   Context: mathcal Y dagger text diag (1,2,2)\delta^{(2)}(\unitvec-{\unitvec}')$. Our approximate form of the Wiener filter takes the form
+
+\begin{equation}\label{wfmultipole}
+{X}^{\text{WF}}_{\ell{m}}\approx \mathbb{C}^{\text{fid}}\mathcal{F}\mathcal{Y}^\dagger \left(\ma thcal Y mathcal Y dagger
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #8: '1' at line 292
+2025-05-11 16:39:25,435 - INFO -   Context: with for example conjugate gradie nt methods. Therefore, for the main analysis, we employ this diagonal filter. 
+
+ 
+
+The inverse-variance filtered maps
+
+ begin equation bar bold X
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #9: '0' at line 318
+2025-05-11 16:39:25,435 - INFO -   Context: to a quadratic estimator that  reconstructs an un-normalized, minimum-variance (MV) estimate of the spin-$1$ component of the real-space lensing displacement field:
+
+\begin{equ ation label real_space _1 hat
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #10: '1' at line 318
+2025-05-11 16:39:25,435 - INFO -   Context: to a quadratic estimator that  reconstructs an un-normalized, minimum-variance (MV) estimate of the spin-$1$ component of the real-space lensing displacement field:
+
+\begin{equ ation label real_space _1 hat
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #11: '1' at line 324
+2025-05-11 16:39:25,435 - INFO -   Context: the Wiener filtered maps a re given explicitly by
+
+The displacement field can be decomposed into the gradient $\phi$ and curl $\Omega$ components by expanding in spin-weighted spherical harmonics:
+\begin{equation}\labe l real_harmonic _ pm1 hat
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #12: '1' at line 348
+2025-05-11 16:39:25,435 - INFO -   Context: slightly sub optimal compared to cite{Okamoto2003}.}
+to combining the individual estimators $\bar{\phi}^{XY}_{LM}$
+ with a weighting given by the inverse of their respective normalization $ mathcal R XY _L 1
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #13: '1' at line 356
+2025-05-11 16:39:25,435 - INFO -   Context: normalization that ensures our re constructed lensing field is unbiased; by construction, it is defined via $\phi_{LM}=({\mathcal{R}^{XY}_L})^{-1 langle bar phi XY _
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #14: '1' at line 377
+2025-05-11 16:39:25,435 - INFO -   Context: map in harmonic space h at{\phi}_{LM} $, we can compute a naive, biased estimate of the lensing power spectrum. Using two instances of the lensing map estimates $\hat{\phi}_{LM}^{AB}$ and $\hat{\phi}_{LM}^{CD}$, this  power spectrum is given by
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #15: '1' at line 390
+2025-05-11 16:39:25,435 - INFO -   Context: both lensing and non lens ing statistical anisotropies and subtracting the latter, with a scaling to ensure the resulting estimator has no remaining response to non-lensing anisotropies. Explicitly, the bias-hardened $TT$ part of the lensing estimator is given by
+\begin{equation}
+  hat phi TT mathrm BH
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #16: '1' at line 397
+2025-05-11 16:39:25,435 - INFO -   Context: response to the presence of tSZ cluster ``sources'', and as shown in \cite{sailer2023}, this estimator is also effective in reducing the effect of point sources by a factor of around five. The cross-response function of this \abds{tSZ-profile-hardened estimator} is given by fk begin equation
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #17: '1' at line 420
+2025-05-11 16:39:25,435 - INFO -   Context: _ LM reconstructed from dif ferent data splits, indexed by $i$ and $j$, which have independent noise.
+Using the shorthand notation of $\mathrm QE X A Y B
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #18: '1' at line 430
+2025-05-11 16:39:25,435 - INFO -   Context: in Section ref sec biassub  This makes our analysis highly robust to potential inaccuracies in simulating the complex atmospheric and instrumental noise in the
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #19: '1' at line 434
+2025-05-11 16:39:25,435 - INFO -   Context: The coadded standard lensing estimato r, equivalent to Equation~\eqref{eq:mv.estimator}, which uses all the map-split combinations, is given by
+\begin{equation}
+ \hat{\phi}^{XY}_{LM}=\frac{1}{4^2}\sum_{ij}\hat{\phi}^{(ij),XY _ LM end equation abds
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #20: '1' at line 439
+2025-05-11 16:39:25,435 - INFO -   Context: from XY and UV standar d QEs is then
+
+\begin{equation}
+ C^{\hat{\phi}\hat{\phi}}_L[XY,UV] = \frac{1}{4^4} \sum_{ijkl} \hat{C}^{\hat{\phi}\hat{\phi}}_L(\hat{\phi}^{(ij),{XY}}_{LM},\hat{\phi}^{(kl),{UV}}_{LM}) .
+\end{equation}
+
+This is modified by removing  any terms where the same
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #21: '1' at line 459
+2025-05-11 16:39:25,435 - INFO -   Context: hat C hat phi hat phi}}_L(\hat{\phi}^{(i)\times,{XY}}_{LM},\hat{\phi}^{(i)\times,{UV}}_{LM})\nonumber \\&+4\sum_{i\leq{j}}\hat{C}^{\hat{\phi} hat phi _L hat phi
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #22: '1' at line 476
+2025-05-11 16:39:25,435 - INFO -   Context: cross correlation based lensing power  spectrum in Equation~\eqref{crossqe}, despite its insensitivity to noise. To obtain an unbiased lensing power spectrum from the naive lensing power spectrum estimator, we must subtract the well known lensing power
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #23: '1' at line 510
+2025-05-11 16:39:25,435 - INFO -   Context: covariance matrix Instead we us e an approximate, faster version, referred to as the semi-analytic $N_0$, which we descri be briefly below in Section
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #24: '1' at line 550
+2025-05-11 16:39:25,435 - INFO -   Context: map level null tests b old{d}^{\text{null}}$ are the bandpowers obtained by performing lensing power spectrum estimation on CMB maps differen ced to null the signal
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #25: '1' at line 666
+2025-05-11 16:39:25,435 - INFO -   Context: in Section ref subsection di agonal}) on simulations. We then use the nulled bandpower vector and its covariance matrix to check for consistency with zero. We summarise the results of these tests in Table \ref{table:nullbandpower}; in this table, we also utilize the statistic $\Delta\Alens$ to quantify the magnitu de of any potential bias
+2025-05-11 16:39:25,435 - INFO - Equation_expected_value Replacement #26: '1.013' at line 865
+2025-05-11 16:39:25,435 - INFO -   Context: from the textit Planck 20 18 
+
+baseline likelihood \texttt{plikHM TTTEEE lowl lowE}, allowing the amplitude o f this lensing power spectrum
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #27: '0.023' at line 865
+2025-05-11 16:39:25,436 - INFO -   Context: from the textit Planck 20 18 
+
+baseline likelihood \texttt{plikHM TTTEEE lowl lowE}, allowing the amplitude o f this lensing power spectrum
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #28: '0.023' at line 871
+2025-05-11 16:39:25,436 - INFO -   Context: end equation from the baselin e multipole range $L=40$--$763$, in good agreement wit h the lensing spectrum predicted
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #29: '1' at line 893
+2025-05-11 16:39:25,436 - INFO -   Context: CDM model prediction yields a n amplitude of lensing of $A_{\mathrm{lens}}=1.005\pm0.023$. 
+We shall explore the consequences of our measurements for structure growth further in the next section.
+
+\section{Implications for structure growth}\label{sec.discussion}
+\subsection{Likelihood}\label{sec:likeliho od fk We obtain cosmological
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #30: '0.8' at line 913
+2025-05-11 16:39:25,436 - INFO -   Context: spanned by sigma_8 H_0 Omega_ m$. \abds{In our companion paper \cite{dr6-lensing-cosmo}, we argue that this line-shaped posterior arises because CMB lensing on large and small sc ales constrains two different combinations
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #31: '0.818' at line 922
+2025-05-11 16:39:25,436 - INFO -   Context: plane as shown in Fi gure~\ref{fig:sig8om_nobao}. The best-constrained direction corresponds approximately to a determination of sigma_8 Omega
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #32: '0.022' at line 922
+2025-05-11 16:39:25,436 - INFO -   Context: plane as shown in Fi gure~\ref{fig:sig8om_nobao}. The best-constrained direction corresponds approximately to a determination of sigma_8 Omega
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #33: '0.020' at line 922
+2025-05-11 16:39:25,436 - INFO -   Context: plane as shown in Fi gure~\ref{fig:sig8om_nobao}. The best-constrained direction corresponds approximately to a determination of sigma_8 Omega
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #34: '1' at line 1039
+2025-05-11 16:39:25,436 - INFO -   Context: an error on the e fficiency scaling parameter from the posterior.
+
+\section{Further discussion of normalization correction}\label{app:norm.corr.details}
+
+In this appendix, we provide further details of the normalization correction discussed in Section~\ref{sub:norm.corr. summary The reconstructed lensing field
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #35: '1' at line 1108
+2025-05-11 16:39:25,436 - INFO -   Context: on lensing we proceed a s follows. We do not attempt to incorporate beam and calibration errors into our statistical error but instead will treat the typical error as a systematic that we argue is negligible.
+ First, as our calibration factors are computed with respect to the \textit{Planck} maps, they may not be independent across array-frequencies, and this correlation can increase the over all bias To investigate this
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #36: '0' at line 1194
+2025-05-11 16:39:25,436 - INFO -   Context: non idealities that have onl y been approximately captured, such as the effects of masking. 
+As can be seen in Figure \ref{fig:pipeline_ver}, this bias term is very small. This justifies why we may model this bia s term as additive rather
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #37: '1' at line 1194
+2025-05-11 16:39:25,436 - INFO -   Context: non idealities that have onl y been approximately captured, such as the effects of masking. 
+As can be seen in Figure \ref{fig:pipeline_ver}, this bias term is very small. This justifies why we may model this bia s term as additive rather
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #38: '0' at line 1289
+2025-05-11 16:39:25,436 - INFO -   Context: the cluster we decided based on simulation results, that subtracting a model template was more stable; we, therefore, switched to this procedure after unblinding. The two versions of the lensing spectra, which use inpainting and m odel subtraction respectively is seen
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #39: '1' at line 1289
+2025-05-11 16:39:25,436 - INFO -   Context: the cluster we decided based on simulation results, that subtracting a model template was more stable; we, therefore, switched to this procedure after unblinding. The two versions of the lensing spectra, which use inpainting and m odel subtraction respectively is seen
+2025-05-11 16:39:25,436 - INFO - Equation_expected_value Replacement #40: '0' at line 1293
+2025-05-11 16:39:25,436 - INFO -   Context: cmb_kernel end equation odel subtr action, respectively, is seen in Figure \ref{Fig.compare}. As discussed in Section \ref{sec:post-unblinding}, the resulting change to $S_8^{\mathrm{ CMBL are found to be
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #1: '\mathrm{sky}= 0.00138' at line 178
+2025-05-11 16:39:25,436 - INFO -   Context: further sky fraction of f_ \mathrm{sky}= 0.00138 The resulting final mask is
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #2: '40\%' at line 178
+2025-05-11 16:39:25,436 - INFO -   Context: more conservative mask retaining initially 40\% of the full sky for
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #3: '40\%' at line 758
+2025-05-11 16:39:25,436 - INFO -   Context: the baseline mask and the 40\% mask are shown in Figure
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #4: '40\%' at line 760
+2025-05-11 16:39:25,436 - INFO -   Context: noise levels consistent with the 40\% mask We find a passing
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #5: '3.5\%' at line 848
+2025-05-11 16:39:25,436 - INFO -   Context: error on this region or 3.5\% while at the time of
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #6: '13\%' at line 874
+2025-05-11 16:39:25,436 - INFO -   Context: PTE for chi 2 of 13\% The equivalent PTE for our
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #7: '17\%' at line 875
+2025-05-11 16:39:25,436 - INFO -   Context: by A_ mathrm lens is 17\% Note that the PTE is
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #8: '12\%' at line 881
+2025-05-11 16:39:25,436 - INFO -   Context: fk with a PTE of 12\% For comparison the latest CMB
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #9: '67\%' at line 953
+2025-05-11 16:39:25,436 - INFO -   Context: over a sky fraction of 67\% fk used in the Planck
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #10: '67\%' at line 969
+2025-05-11 16:39:25,436 - INFO -   Context: texttt NPIPE analysis mask covering 67\% of the sky and multipole
+2025-05-11 16:39:25,436 - INFO - Latex Replacement #11: '1.3\%' at line 1058
+2025-05-11 16:39:25,436 - INFO -   Context: 1 _ L was approximately 1.3\% lower than the baseline corresponding
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #1: '0.818' at line 935
+2025-05-11 16:39:25,436 - INFO -   Context: equation S mathrm CMBL _8 0.818 pm 0 022 0 830
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #2: '0.818' at line 993
+2025-05-11 16:39:25,436 - INFO -   Context: find S text CMBL _8 0.818 pm 0 022 as our
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #3: '0.828' at line 938
+2025-05-11 16:39:25,436 - INFO -   Context: of S mathrm CMBL _8 0.828 pm 0 020 Our measurement
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #4: '0.018' at line 997
+2025-05-11 16:39:25,436 - INFO -   Context: mathrm CMBL 0 813 pm 0.018 again in agreement with the
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #5: '0.020' at line 935
+2025-05-11 16:39:25,436 - INFO -   Context: 0 022 0 830 pm 0.020 end equation NS In the
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #6: '0.02' at line 1243
+2025-05-11 16:39:25,436 - INFO -   Context: the gradient test is low 0.02 however given the large number
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #7: '.83' at line 239
+2025-05-11 16:39:25,436 - INFO -   Context: of masked areas citep PhysRevD .83 043005 We write the temperature
+2025-05-11 16:39:25,436 - INFO - Exact Replacement #8: '.83' at line 1171
+2025-05-11 16:39:25,437 - INFO -   Context: different lensing bandpowers citep PhysRevD .83 043005 as well as the
+2025-05-11 16:39:25,437 - INFO - Additional Replacement #1: '-35' at line 731
+2025-05-11 16:39:25,437 - INFO -   Context: narrow region around text Dec -35 circ The poorly cross linked
+2025-05-11 16:39:25,437 - INFO - Expected_value_final_pass Replacement #1: '0.818' at line 0
+2025-05-11 16:39:25,437 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:25,437 - INFO - Expected_value_final_pass Replacement #2: '0.022' at line 0
+2025-05-11 16:39:25,437 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:25,437 - INFO - Expected_value_final_pass Replacement #3: '1.013' at line 0
+2025-05-11 16:39:25,437 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:25,437 - INFO - Expected_value_final_pass Replacement #4: '0.023' at line 0
+2025-05-11 16:39:25,437 - INFO -   Context: Final pass for expected values
+2025-05-11 16:39:25,437 - INFO - Saved context information to utils/num_mask_logs/lensing_dr6_growth_contexts.log

@@ -5,17 +5,17 @@
 \shortauthors{Slipski et al.} 
 
 [
- orcid=0000-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]
+ orcid=0000-0002-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]
 ]
 \cormark[1]
 \ead{marek.j.slipski@jpl.nasa.gov}
 
-hl}[orcid=0000-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
-[orcid=0000-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
-[orcid=0000-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
+hl}[orcid=0000-0003-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
+[orcid=0000-0002-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
+[orcid=0000-0002-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
 
-[orcid=0000-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
-[orcid=0000-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
+[orcid=0000-0002-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
+[orcid=0000-0003-[NUMERICAL_RESULT]-[NUMERICAL_RESULT]]
 
 ,
  addressline={4800 Oak Grove Dr},
@@ -229,9 +229,9 @@ In addition to metadata about the classification (e.g., user name, timestamp of 
 We converted this exported classification dataset to an annotation dataset (one row per individual annotation) that duplicates the classification-wide information for each annotation.
 We dropped all rows with $x$ or $y$ annotation coordinates that corresponded to locations outside the image bounds (these were possible if a user panned outside the bounds where data was present and made an annotation).
 
-The final MY29 annotation dataset, which spanned 27,302 unique images and 3,483 unique four-hour time periods had a total of 1,699,230 annotations.
+The final MY29 annotation dataset, which spanned 27,302 unique images and 3,483 unique four-hour time periods had a total of [NUMERICAL_RESULT],230 annotations.
 
-The annotations were made from 9,002 unique users, 5,746 of whom were registered users (1,408,791 annotations) and 3,256 were not (290,439 annotations).
+The annotations were made from 9,002 unique users, 5,746 of whom were registered users ([NUMERICAL_RESULT] annotations) and 3,256 w[NUMERICAL_RESULT] (290,439 annotations).
 
 \subsection{Density based clustering}\label{sec:DBSCAN}
 
@@ -291,17 +291,17 @@ Around $L_s{=}220$° the number of observed nighttime clouds increases in the so
 There is a strong decrease in the number of peaks just before $L_s{=}250$° at nearly all latitudes except around 50°S and 20°N at night.
 After $L_s{=}260$°, clouds are observed between about 60°S and 60°N as well as both polar regions, although nighttime clouds between 0°N and 30°N occur relatively less frequently.
 
-The low-latitude clouds during the clear season (1), which are observed more frequently at night, occur at high altitudes (Figs. \ref{fig:combined-lat-alt}A and D), 65--[NUMERICAL_RESULT] km during the day and 55--[NUMERICAL_RESULT] km at night; this is the aphelion equatorial mesospheric cloud population studied in depth by \cite{Slipski22} and in which previous observations have spectrally confirmed \cd-ice (see \cite{Maattanen2021CloudsAtmosphere} and references therein).
+The low-latitude clouds during the clear season (1), which are observed more frequently at night, occur at high altitudes (Figs. \ref{fig:combined-lat-alt}A and D), 65--80 km during the day and 55--[NUMERICAL_RESULT] km at night; this is the aphelion equatorial mesospheric cloud population studied in depth by \cite{Slipski22} and in which previous observations have spectrally confirmed \cd-ice (see \cite{Maattanen2021CloudsAtmosphere} and references therein).
 
 Of particular note is that the aphelion cloud belt is not well-represented in this dataset (lack of peaks below 50 km in the equatorial region in Figs. \ref{fig:combined-lat-alt}A and C) because, while observed in MCS water-ice retrievals (i.e. \cite{McCleese10}), the broad extent of the feature does not typically lead to arches; arches result only from laterally-confined aerosol layers.
 
-The polar hood clouds \citep{Benson10, Benson11} are clearly observed during the clear season at northern (40°N--[NUMERICAL_RESULT]°N) and southern (35°S--[NUMERICAL_RESULT]°S) mid-latitudes at both local times (2).
+The polar hood clouds \citep{Benson10, Benson11} are clearly observed during the clear season at northern (40°N--60°N) and southern (35°S--50°S) mid-latitudes at both local times (2).
 The mid-latitude cloud frequency is higher during the day than at night near equinox.
 Both times show an increase in the northern hemisphere near $L_s{=}50$° and in the southern hemisphere near $L_s{=}70$°.
 These clouds are lower in altitude than the mesospheric equatorial clouds, ranging from 20--50 km (Figs. \ref{fig:combined-lat-alt}A and C).
 Before and after the period when the aphelion cloud belt is thickest (i.e., $L_s{<}45$° and $L_s{>}135$°), water-ice is prevalent at mid-latitudes, and the polar hoods clouds are connected by a ``cloud-bridge'' \citep{Guha20}.
 This can be seen in Figs. \ref{fig:combined-lat-alt}A and C, where the two primary mid-latitude populations are connected to the aphelion cloud belt in the tropics at lower and higher altitudes, respectively.
-That day-night difference reflects the thermal tidal pattern in the aphelion season, where colder temperatures are present from 20--40 km in the tropics during the day and 40--[NUMERICAL_RESULT] km at night (e.g., \cite{Lee09}).
+That day-night difference reflects the thermal tidal pattern in the aphelion season, where colder temperatures are present from 20--40 km in the tropics during the day and 40--60 km at night (e.g., \cite{Lee09}).
 The effect of migrating tides on these mid-latitude populations can be studied by comparing their longitude distribution with the temperature structure in these regions.
 
 Clouds over the south pole (south of 75°S, starting just before $L_s{=}50$°) are observed between 20--40 km during the clear season (3)—consistent with previously observed polar \cd-ice clouds—where conditions for \cd-ice condensation frequently occur \citep{Hayne12, Hayne14, Hu12, Kuroda13, Maattanen22}.
@@ -310,7 +310,7 @@ During the dusty season, the daytime subtropical and mid-latitude populations ar
 Clouds are more frequently observed in the northern hemisphere than the south.
 This differs at night, where clouds are observed at high rates from southern mid-latitudes to northern mid-latitudes (Fig. \ref{fig:combined-lat-alt}D).
 The mid-latitude cloud altitudes reach higher altitudes during the day, ranging from 30–70 km in the south and 40–65 km in the north.
-The equatorial clouds are lower during the day, about [NUMERICAL_RESULT]--50 km.
+The equatorial clouds are lower during the day, about 25--50 km.
 At night, the altitude range at mid-latitudes is 30–50 km and about 10 km higher near the equator.
 
 Clouds are observed near both the south and north poles during the dusty season (5), where the southern polar clouds have a wider range of altitudes (centered near 45 km) and are generally higher than the northern polar clouds which are between 15--35 km.

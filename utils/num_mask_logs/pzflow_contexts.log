@@ -2,16 +2,26 @@ Masked values and their context for paper: pzflow
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  EXACT: 1 replacements
+  LARGE_INTEGER: 1 replacements
+  EXPECTED_VALUE_FINAL_PASS: 1 replacements
 
 ================================================================================
 
-EXACT REPLACEMENTS (1):
+LARGE_INTEGER REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 100,000 galaxies
+  Line: 451
+  Context: the training set we use 100,000 galaxies from the catalog created in
+
+
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: 0.04
-  Line: 601
-  Context: begin align text NSR 2 0.04 gamma x gamma x 2
+  Line: 0
+  Context: Final pass for expected values
 
 
