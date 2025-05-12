@@ -1,13 +1,19 @@
-2025-05-11 16:39:21,562 - INFO - Logging to file: utils/num_mask_logs/eht_resolve_masking.log
-2025-05-11 16:39:21,563 - INFO - Found 0 unique numerical values to mask
-2025-05-11 16:39:21,633 - INFO - Made 30 replacements in the text
-2025-05-11 16:39:21,633 - INFO - Saved masked text to papers/masked_texts/eht_resolve.txt
-2025-05-11 16:39:21,634 - INFO - Latex Replacement #1: '5.5\%' at line 690
-2025-05-11 16:39:21,634 - INFO -   Context: the cases results in artefacts 5.5\% of the time and facilitates
-2025-05-11 16:39:21,634 - INFO - Latex Replacement #2: '64.5\%' at line 690
-2025-05-11 16:39:21,634 - INFO -   Context: of a single ring in 64.5\% of all cases All of
-2025-05-11 16:39:21,634 - INFO - Latex Replacement #3: '23\%' at line 696
-2025-05-11 16:39:21,634 - INFO -   Context: shift in brightness asymmetry In 23\% of all test cases we
-2025-05-11 16:39:21,634 - INFO - Additional Replacement #1: '7.4e6' at line 456
-2025-05-11 16:39:21,634 - INFO -   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
-2025-05-11 16:39:21,634 - INFO - Saved context information to utils/num_mask_logs/eht_resolve_contexts.log
+2025-05-11 16:57:32,468 - INFO - Logging to file: utils/num_mask_logs/eht_resolve_masking.log
+2025-05-11 16:57:32,468 - INFO - Found 0 unique numerical values to mask
+2025-05-11 16:57:32,540 - INFO - Made 33 replacements in the text
+2025-05-11 16:57:32,540 - INFO - Saved masked text to papers/masked_texts/eht_resolve.txt
+2025-05-11 16:57:32,540 - INFO - Latex_variable_equality Replacement #1: '0.01' at line 495
+2025-05-11 16:57:32,540 - INFO -   Context: priori i e we set $\epsilon = 0.01$ This adds another factor of
+2025-05-11 16:57:32,540 - INFO - Latex_variable_equality Replacement #2: '0.23' at line 598
+2025-05-11 16:57:32,540 - INFO -   Context: Collaboration cite ehtiv r_0 SI {22}{\mu as A 0 23 and
+2025-05-11 16:57:32,540 - INFO - Latex_variable_equality Replacement #3: '0.5' at line 599
+2025-05-11 16:57:32,540 - INFO -   Context: asymmetry and a sharper ri ng: $r_0  SI 20 muas A 0
+2025-05-11 16:57:32,540 - INFO - Latex Replacement #1: '5.5\%' at line 690
+2025-05-11 16:57:32,540 - INFO -   Context: the cases results in artefacts 5.5\% of the time and facilitates
+2025-05-11 16:57:32,540 - INFO - Latex Replacement #2: '64.5\%' at line 690
+2025-05-11 16:57:32,540 - INFO -   Context: of a single ring in 64.5\% of all cases All of
+2025-05-11 16:57:32,540 - INFO - Latex Replacement #3: '23\%' at line 696
+2025-05-11 16:57:32,540 - INFO -   Context: shift in brightness asymmetry In 23\% of all test cases we
+2025-05-11 16:57:32,540 - INFO - Additional Replacement #1: '7.4e6' at line 456
+2025-05-11 16:57:32,540 - INFO -   Context: envisioned inference task with num 7.4e6 parameters is prohibitively large We
+2025-05-11 16:57:32,540 - INFO - Saved context information to utils/num_mask_logs/eht_resolve_contexts.log

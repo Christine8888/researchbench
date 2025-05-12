@@ -1,21 +1,29 @@
-2025-05-11 16:39:19,808 - INFO - Logging to file: utils/num_mask_logs/abacus_masking.log
-2025-05-11 16:39:19,809 - INFO - Found 12 unique numerical values to mask
-2025-05-11 16:39:20,406 - INFO - Made 195 replacements in the text
-2025-05-11 16:39:20,406 - INFO - Saved masked text to papers/masked_texts/abacus.txt
-2025-05-11 16:39:20,406 - INFO - Latex Replacement #1: '1.6\times' at line 272
-2025-05-11 16:39:20,406 - INFO -   Context: and median fractional errors are 1.6\times 10 4 and 1 2
-2025-05-11 16:39:20,406 - INFO - Latex Replacement #2: '1.2\times' at line 272
-2025-05-11 16:39:20,406 - INFO -   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
-2025-05-11 16:39:20,406 - INFO - Latex Replacement #3: '35\%' at line 223
-2025-05-11 16:39:20,406 - INFO -   Context: is about 20 GFLOPs or 35\% of peak single core performance
-2025-05-11 16:39:20,406 - INFO - Rounded Replacement #1: 'about 26' at line 255
-2025-05-11 16:39:20,406 - INFO -   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
-2025-05-11 16:39:20,406 - INFO - Additional Replacement #1: '-2.25' at line 539
-2025-05-11 16:39:20,406 - INFO -   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
-2025-05-11 16:39:20,406 - INFO - Additional Replacement #2: '-1313285' at line 553
-2025-05-11 16:39:20,406 - INFO -   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
-2025-05-11 16:39:20,406 - INFO - Additional Replacement #3: '-1312699.' at line 557
-2025-05-11 16:39:20,406 - INFO -   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
-2025-05-11 16:39:20,406 - INFO - Additional Replacement #4: '-00' at line 560
-2025-05-11 16:39:20,406 - INFO -   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have
-2025-05-11 16:39:20,406 - INFO - Saved context information to utils/num_mask_logs/abacus_contexts.log
+2025-05-11 16:57:30,688 - INFO - Logging to file: utils/num_mask_logs/abacus_masking.log
+2025-05-11 16:57:30,688 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:57:31,281 - INFO - Made 194 replacements in the text
+2025-05-11 16:57:31,281 - INFO - Saved masked text to papers/masked_texts/abacus.txt
+2025-05-11 16:57:31,281 - INFO - Latex_variable_equality Replacement #1: '0.25' at line 112
+2025-05-11 16:57:31,281 - INFO -   Context: twice the softening length for $\eta = 0.25$ the value used in AbacusSummit
+2025-05-11 16:57:31,281 - INFO - Latex_variable_equality Replacement #2: '2.16' at line 138
+2025-05-11 16:57:31,282 - INFO -   Context: method For our spline the conversion is $\epsilon_s = 2 16 epsilon_p For all reasonable
+2025-05-11 16:57:31,282 - INFO - Latex_variable_equality Replacement #3: '2.5' at line 431
+2025-05-11 16:57:31,282 - INFO -   Context: 2 pairwise comparisons are modest . The algo rithm starts with R_c 2
+2025-05-11 16:57:31,282 - INFO - Latex_variable_equality Replacement #4: '0.1' at line 537
+2025-05-11 16:57:31,282 - INFO -   Context: per second in unclustered states and 45  million at the terminal redshift
+2025-05-11 16:57:31,282 - INFO - Latex Replacement #1: '1.6\times' at line 272
+2025-05-11 16:57:31,282 - INFO -   Context: and median fractional errors are 1.6\times 10 4 and 1 2
+2025-05-11 16:57:31,282 - INFO - Latex Replacement #2: '1.2\times' at line 272
+2025-05-11 16:57:31,282 - INFO -   Context: 1 6 times10 4 and 1.2\times 10 5 respectively The absolute
+2025-05-11 16:57:31,282 - INFO - Latex Replacement #3: '35\%' at line 223
+2025-05-11 16:57:31,282 - INFO -   Context: is about 20 GFLOPs or 35\% of peak single core performance
+2025-05-11 16:57:31,282 - INFO - Rounded Replacement #1: 'about 26' at line 255
+2025-05-11 16:57:31,282 - INFO -   Context: point operations FLOPs per interaction about 26 including the reciprocal square root
+2025-05-11 16:57:31,282 - INFO - Additional Replacement #1: '-2.25' at line 539
+2025-05-11 16:57:31,282 - INFO -   Context: index n_s 1 5 2 -2.25 2 5 in 4096 3
+2025-05-11 16:57:31,282 - INFO - Additional Replacement #2: '-1313285' at line 553
+2025-05-11 16:57:31,282 - INFO -   Context: been supported by NSF AST -1313285 and DOE SC0013718 as well
+2025-05-11 16:57:31,282 - INFO - Additional Replacement #3: '-1312699.' at line 557
+2025-05-11 16:57:31,282 - INFO -   Context: was supported by NSF AST -1312699. The textsc AbacusCosmos simulations were
+2025-05-11 16:57:31,282 - INFO - Additional Replacement #4: '-00' at line 560
+2025-05-11 16:57:31,282 - INFO -   Context: supported under Contract DE AC05 -00 OR22725 The AbacusSummit simulations have
+2025-05-11 16:57:31,282 - INFO - Saved context information to utils/num_mask_logs/abacus_contexts.log

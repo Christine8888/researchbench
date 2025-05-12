@@ -1,46 +1,46 @@
-2025-05-11 16:39:25,830 - INFO - Logging to file: utils/num_mask_logs/mars_clouds_masking.log
-2025-05-11 16:39:25,831 - INFO - Found 19 unique numerical values to mask
-2025-05-11 16:39:25,831 - INFO - Found 7 values from expected_output lists: [0.72, 16.24, 3, 13, 1.65, 0.71, 17.21]
-2025-05-11 16:39:26,004 - INFO - Made 60 replacements in the text
-2025-05-11 16:39:26,005 - INFO - Saved masked text to papers/masked_texts/mars_clouds.txt
-2025-05-11 16:39:26,005 - INFO - Large_integer Replacement #1: 'total of 1,699' at line 232
-2025-05-11 16:39:26,005 - INFO -   Context: hour time periods had a total of 1,699 230 annotations The annotations were
-2025-05-11 16:39:26,005 - INFO - Rounded Replacement #1: 'around 3500' at line 152
-2025-05-11 16:39:26,005 - INFO -   Context: Each four hour file contains around 3500 limb observations in sequences of
-2025-05-11 16:39:26,005 - INFO - Exact Replacement #1: '13' at line 117
-2025-05-11 16:39:26,005 - INFO -   Context: full latitudinal coverage at 12 13 longitudes at two local times
-2025-05-11 16:39:26,005 - INFO - Exact Replacement #2: '12' at line 206
-2025-05-11 16:39:26,005 - INFO -   Context: 328 with each packet containing 12 consecutive four hour files giving
-2025-05-11 16:39:26,005 - INFO - Exact Replacement #3: '12' at line 211
-2025-05-11 16:39:26,005 - INFO -   Context: were made in the first 12 hours The first set was
-2025-05-11 16:39:26,005 - INFO - Comma_separated_large Replacement #1: '1,408,791' at line 234
-2025-05-11 16:39:26,005 - INFO -   Context: of whom were registered users 1,408,791 annotations and 3 256 were
-2025-05-11 16:39:26,005 - INFO - Comma_separated_large Replacement #2: '290,439' at line 234
-2025-05-11 16:39:26,005 - INFO -   Context: annotations and 3 256 w ere not 290 439 annotations subsection Density
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #1: '-9045' at line 8
-2025-05-11 16:39:26,005 - INFO -   Context: et al orcid 0000 0002 -9045 1168 cormark 1 ead marek
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #2: '-1168' at line 8
-2025-05-11 16:39:26,005 - INFO -   Context: al orcid 0000 0002 9045 -1168 cormark 1 ead marek j
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #3: '-1548' at line 13
-2025-05-11 16:39:26,005 - INFO -   Context: gov hl orcid 0000 0003 -1548 1161 orcid 0000 0002 4773
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #4: '-1161' at line 13
-2025-05-11 16:39:26,005 - INFO -   Context: hl orcid 0000 0003 1548 -1161 orcid 0000 0002 4773 1463
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #5: '-4773' at line 14
-2025-05-11 16:39:26,005 - INFO -   Context: 1548 1161 orcid 0000 0002 -4773 1463 orcid 0000 0002 7154
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #6: '-1463' at line 14
-2025-05-11 16:39:26,005 - INFO -   Context: 1161 orcid 0000 0002 4773 -1463 orcid 0000 0002 7154 2566
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #7: '-7154' at line 15
-2025-05-11 16:39:26,005 - INFO -   Context: 4773 1463 orcid 0000 0002 -7154 2566 orcid 0000 0002 6521
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #8: '-2566' at line 15
-2025-05-11 16:39:26,005 - INFO -   Context: 1463 orcid 0000 0002 7154 -2566 orcid 0000 0002 6521 3256
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #9: '-6521' at line 17
-2025-05-11 16:39:26,005 - INFO -   Context: 7154 2566 orcid 0000 0002 -6521 3256 orcid 0000 0003 1233
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #10: '-3256' at line 17
-2025-05-11 16:39:26,005 - INFO -   Context: 2566 orcid 0000 0002 6521 -3256 orcid 0000 0003 1233 2224
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #11: '-1233' at line 18
-2025-05-11 16:39:26,005 - INFO -   Context: 6521 3256 orcid 0000 0003 -1233 2224 addressline 4800 Oak Grove
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #12: '-2224' at line 18
-2025-05-11 16:39:26,005 - INFO -   Context: 3256 orcid 0000 0003 1233 -2224 addressline 4800 Oak Grove Dr
-2025-05-11 16:39:26,005 - INFO - Additional Replacement #13: '-70' at line 294
-2025-05-11 16:39:26,005 - INFO -   Context: during the day and 55 -70 km at night this is
-2025-05-11 16:39:26,005 - INFO - Saved context information to utils/num_mask_logs/mars_clouds_contexts.log
+2025-05-11 16:57:36,816 - INFO - Logging to file: utils/num_mask_logs/mars_clouds_masking.log
+2025-05-11 16:57:36,816 - INFO - Found 19 unique numerical values to mask
+2025-05-11 16:57:36,816 - INFO - Found 7 values from expected_output lists: [0.72, 16.24, 3, 13, 1.65, 0.71, 17.21]
+2025-05-11 16:57:36,986 - INFO - Made 60 replacements in the text
+2025-05-11 16:57:36,987 - INFO - Saved masked text to papers/masked_texts/mars_clouds.txt
+2025-05-11 16:57:36,987 - INFO - Large_integer Replacement #1: 'total of 1,699' at line 232
+2025-05-11 16:57:36,987 - INFO -   Context: hour time periods had a total of 1,699 230 annotations The annotations were
+2025-05-11 16:57:36,987 - INFO - Rounded Replacement #1: 'around 3500' at line 152
+2025-05-11 16:57:36,987 - INFO -   Context: Each four hour file contains around 3500 limb observations in sequences of
+2025-05-11 16:57:36,987 - INFO - Exact Replacement #1: '13' at line 117
+2025-05-11 16:57:36,987 - INFO -   Context: full latitudinal coverage at 12 13 longitudes at two local times
+2025-05-11 16:57:36,987 - INFO - Exact Replacement #2: '12' at line 206
+2025-05-11 16:57:36,987 - INFO -   Context: 328 with each packet containing 12 consecutive four hour files giving
+2025-05-11 16:57:36,987 - INFO - Exact Replacement #3: '12' at line 211
+2025-05-11 16:57:36,987 - INFO -   Context: were made in the first 12 hours The first set was
+2025-05-11 16:57:36,987 - INFO - Comma_separated_large Replacement #1: '1,408,791' at line 234
+2025-05-11 16:57:36,987 - INFO -   Context: of whom were registered users 1,408,791 annotations and 3 256 were
+2025-05-11 16:57:36,987 - INFO - Comma_separated_large Replacement #2: '290,439' at line 234
+2025-05-11 16:57:36,987 - INFO -   Context: annotations and 3 256 w ere not 290 439 annotations subsection Density
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #1: '-9045' at line 8
+2025-05-11 16:57:36,987 - INFO -   Context: et al orcid 0000 0002 -9045 1168 cormark 1 ead marek
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #2: '-1168' at line 8
+2025-05-11 16:57:36,987 - INFO -   Context: al orcid 0000 0002 9045 -1168 cormark 1 ead marek j
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #3: '-1548' at line 13
+2025-05-11 16:57:36,987 - INFO -   Context: gov hl orcid 0000 0003 -1548 1161 orcid 0000 0002 4773
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #4: '-1161' at line 13
+2025-05-11 16:57:36,987 - INFO -   Context: hl orcid 0000 0003 1548 -1161 orcid 0000 0002 4773 1463
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #5: '-4773' at line 14
+2025-05-11 16:57:36,987 - INFO -   Context: 1548 1161 orcid 0000 0002 -4773 1463 orcid 0000 0002 7154
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #6: '-1463' at line 14
+2025-05-11 16:57:36,987 - INFO -   Context: 1161 orcid 0000 0002 4773 -1463 orcid 0000 0002 7154 2566
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #7: '-7154' at line 15
+2025-05-11 16:57:36,987 - INFO -   Context: 4773 1463 orcid 0000 0002 -7154 2566 orcid 0000 0002 6521
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #8: '-2566' at line 15
+2025-05-11 16:57:36,987 - INFO -   Context: 1463 orcid 0000 0002 7154 -2566 orcid 0000 0002 6521 3256
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #9: '-6521' at line 17
+2025-05-11 16:57:36,987 - INFO -   Context: 7154 2566 orcid 0000 0002 -6521 3256 orcid 0000 0003 1233
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #10: '-3256' at line 17
+2025-05-11 16:57:36,987 - INFO -   Context: 2566 orcid 0000 0002 6521 -3256 orcid 0000 0003 1233 2224
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #11: '-1233' at line 18
+2025-05-11 16:57:36,987 - INFO -   Context: 6521 3256 orcid 0000 0003 -1233 2224 addressline 4800 Oak Grove
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #12: '-2224' at line 18
+2025-05-11 16:57:36,987 - INFO -   Context: 3256 orcid 0000 0003 1233 -2224 addressline 4800 Oak Grove Dr
+2025-05-11 16:57:36,987 - INFO - Additional Replacement #13: '-70' at line 294
+2025-05-11 16:57:36,987 - INFO -   Context: during the day and 55 -70 km at night this is
+2025-05-11 16:57:36,987 - INFO - Saved context information to utils/num_mask_logs/mars_clouds_contexts.log

@@ -2,8 +2,10 @@ Masked values and their context for paper: galaxy_soptics
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  EQUATION_EXPECTED_VALUE: 6 replacements
+  LATEX_VARIABLE_ASSIGNMENT: 2 replacements
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   LIST_EXPECTED_VALUE: 5 replacements
+  EQUATION_EXPECTED_VALUE: 6 replacements
   LARGE_INTEGER: 7 replacements
   LATEX: 10 replacements
   EXACT: 7 replacements
@@ -12,6 +14,73 @@ SUMMARY OF REPLACEMENTS:
   TRAILING_ZEROS: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $z=2.422$
+  Line: 129
+  Context: sub volumes at snapshots 30 $z=2.422$ 40 z 1 078 and
+
+Replacement #2:
+  Expression: $z=1.078$
+  Line: 129
+  Context: at snapshots 30 z NUMERICAL_ RESULT]$) 40 z 1 078 and
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 1.078
+  Line: 129
+  Context: z NUMERICAL_ z NUMERICAL_RESULT 40 $z=1.078$ and 50 z 0 408
+
+Replacement #2:
+  Expression: 0.408
+  Line: 129
+  Context: z NUMERICAL_RESULT 40 z NUMERICAL_RESULT ]$), and  50 z 0 408 to
+
+Replacement #3:
+  Expression: 0.10
+  Line: 225
+  Context: clustering results of OPTICS i n a subs ample at redshift z 0
+
+Replacement #4:
+  Expression: 0.02
+  Line: 314
+  Context: bundyOVERVIEWSDSSIVMaNGA2014 they identified 128 B CGs situated with in a redshift range of
+
+
+LIST_EXPECTED_VALUE REPLACEMENTS (5):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 118
+  Line: 10
+  Context: successfully recovering 115 BCGs out of 118  reliable BCGs from a large
+
+Replacement #2:
+  Expression: 0.2
+  Line: 127
+  Context: the FoF algorithm with a linking length of 0 2 in
+
+Replacement #3:
+  Expression: 0.2
+  Line: 127
+  Context: the FoF algorithm with a linking length of 0 2 in
+
+Replacement #4:
+  Expression: 400
+  Line: 129
+  Context: least five galaxies resulting in a final sample of 400 halos We
+
+Replacement #5:
+  Expression: 472
+  Line: 244
+  Context: least five galaxy members tota ling 8,427  out of 472 416 groups
+
 
 EQUATION_EXPECTED_VALUE REPLACEMENTS (6):
 --------------------------------------------------------------------------------
@@ -64,35 +133,6 @@ Replacement #6:
  \delta_i = 
 \begin{cases}
 1, & \text{if group $i$ is simultaneously pure and complete 0 text otherwise
-
-
-LIST_EXPECTED_VALUE REPLACEMENTS (5):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 118
-  Line: 10
-  Context: successfully recovering 115 BCGs out of 118  reliable BCGs from a large
-
-Replacement #2:
-  Expression: 0.2
-  Line: 127
-  Context: the FoF algorithm with a linking length of 0 2 in
-
-Replacement #3:
-  Expression: 0.2
-  Line: 127
-  Context: the FoF algorithm with a linking length of 0 2 in
-
-Replacement #4:
-  Expression: 400
-  Line: 129
-  Context: least five galaxies resulting in a final sample of 400 halos We
-
-Replacement #5:
-  Expression: 472
-  Line: 244
-  Context: least five galaxy members tota ling 8,427  out of 472 416 groups
 
 
 LARGE_INTEGER REPLACEMENTS (7):

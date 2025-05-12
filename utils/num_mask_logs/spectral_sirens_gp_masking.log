@@ -1,9 +1,21 @@
-2025-05-11 16:39:29,542 - INFO - Logging to file: utils/num_mask_logs/spectral_sirens_gp_masking.log
-2025-05-11 16:39:29,542 - INFO - Found 21 unique numerical values to mask
-2025-05-11 16:39:29,617 - INFO - Made 8 replacements in the text
-2025-05-11 16:39:29,618 - INFO - Saved masked text to papers/masked_texts/spectral_sirens_gp.txt
-2025-05-11 16:39:29,618 - INFO - Comma_separated_large Replacement #1: '2,000' at line 271
-2025-05-11 16:39:29,618 - INFO -   Context: in Ho with catalogs of 2,000 events although this bias may
-2025-05-11 16:39:29,618 - INFO - Additional Replacement #1: '-1746045.' at line 311
-2025-05-11 16:39:29,618 - INFO -   Context: Program under Grant No DGE -1746045. J M E is supported
-2025-05-11 16:39:29,618 - INFO - Saved context information to utils/num_mask_logs/spectral_sirens_gp_contexts.log
+2025-05-11 16:57:40,438 - INFO - Logging to file: utils/num_mask_logs/spectral_sirens_gp_masking.log
+2025-05-11 16:57:40,439 - INFO - Found 21 unique numerical values to mask
+2025-05-11 16:57:40,523 - INFO - Made 14 replacements in the text
+2025-05-11 16:57:40,523 - INFO - Saved masked text to papers/masked_texts/spectral_sirens_gp.txt
+2025-05-11 16:57:40,523 - INFO - Latex_variable_assignment Replacement #1: '$z_p=2.4$' at line 351
+2025-05-11 16:57:40,523 - INFO -   Context: f_ text peak 0 05 $z_p=2.4$ alpha_z 1 0 and beta_z
+2025-05-11 16:57:40,523 - INFO - Latex_variable_assignment Replacement #2: '$\alpha_z=1.0$' at line 351
+2025-05-11 16:57:40,523 - INFO -   Context: peak 0 05 z_p NUM ERICAL_RESULT] alpha_z 1 0 and beta_z
+2025-05-11 16:57:40,523 - INFO - Latex_variable_equality Replacement #1: '7.0' at line 351
+2025-05-11 16:57:40,523 - INFO -   Context: 10 Msun mu 30 Msun $\sigma=7.0~\Msun$ f_ text peak 0 05
+2025-05-11 16:57:40,523 - INFO - Latex_variable_equality Replacement #2: '1.0' at line 351
+2025-05-11 16:57:40,523 - INFO -   Context: 05 z_p NUM alpha_z NUMERI CAL_RESULT]$$, alpha_z 1 0 and beta_z
+2025-05-11 16:57:40,523 - INFO - Latex_variable_equality Replacement #3: '3.4' at line 351
+2025-05-11 16:57:40,523 - INFO -   Context: NUM alpha_z NUMERI alpha_z NUMERICAL _RESULT]$ $\a lpha_z 1 0 and beta_z
+2025-05-11 16:57:40,523 - INFO - Latex_variable_equality Replacement #4: '3.4' at line 351
+2025-05-11 16:57:40,523 - INFO -   Context: NUMERICAL_RESULT lpha_z 1 0 and $\beta_z=3.4$ These choices correspond to the
+2025-05-11 16:57:40,523 - INFO - Comma_separated_large Replacement #1: '2,000' at line 271
+2025-05-11 16:57:40,524 - INFO -   Context: in Ho with catalogs of 2,000 events although this bias may
+2025-05-11 16:57:40,524 - INFO - Additional Replacement #1: '-1746045.' at line 311
+2025-05-11 16:57:40,524 - INFO -   Context: Program under Grant No DGE -1746045. J M E is supported
+2025-05-11 16:57:40,524 - INFO - Saved context information to utils/num_mask_logs/spectral_sirens_gp_contexts.log

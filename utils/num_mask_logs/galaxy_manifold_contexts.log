@@ -2,10 +2,11 @@ Masked values and their context for paper: galaxy_manifold
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  APPROX_NEGATIVE: 1 replacements
-  EQUATION_EXPECTED_VALUE: 13 replacements
-  LIST_EXPECTED_VALUE: 10 replacements
+  LATEX_VARIABLE_EQUALITY: 1 replacements
+  LIST_EXPECTED_VALUE: 14 replacements
+  EQUATION_EXPECTED_VALUE: 12 replacements
   LARGE_INTEGER: 4 replacements
+  APPROX_NEGATIVE: 1 replacements
   LATEX: 4 replacements
   EXACT: 4 replacements
   DEX_CONTEXT: 2 replacements
@@ -16,26 +17,56 @@ SUMMARY OF REPLACEMENTS:
 
 ================================================================================
 
-APPROX_NEGATIVE REPLACEMENTS (1):
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (1):
 --------------------------------------------------------------------------------
 
 Replacement #1:
-  Expression: D$_2\approx$-1.8
-  Line: 141
-  Context: to the D_1 at around D$_2\approx$-1.8 subsection Gas mass A key
+  Expression: 0.35
+  Line: 189
+  Context: SFR t_1 Delta t where $r=0.35$ is the return fraction assuming
 
 
-EQUATION_EXPECTED_VALUE REPLACEMENTS (13):
+LIST_EXPECTED_VALUE REPLACEMENTS (14):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: 0.7078
-  Line: 68
-  Context: forward transform is given by \begin{equation} \label{eq:trans_matrix_11to2}
- \left[\begin{array}{c}
- \mathrm{D}_1^{\prime} \\
- \mathrm{D}_2^{\prime} \\
- \end{array}\right]
+  Line: 74
+  Context: prime end array right left [\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{array}\right] top left begin array l
+
+Replacement #2:
+  Expression: 0.7078
+  Line: 74
+  Context: prime end array right left [\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{array}\right] top left begin array l
+
+Replacement #3:
+  Expression: 0.7078
+  Line: 114
+  Context: K prime end array right ]
  = 
  \left[\begin{array}{cc}
  -0.2492 & 0.7078 \\
@@ -49,26 +80,85 @@ Replacement #1:
  -0.3214 & -0.1988 \\
  -0.3258 & -0.1992 \\
  -0.3217 & -0.2043 \\
- \end{array}\right]^{\top} \left[\begin{array}{l}
- M_{\textit{FUV}} \\
- M_{\textit{NUV}} \\
- M_{\textit{u}} \\
- M_{\textit{g}} \\
- M_{\textit{r}} \\
- M_{\textit{i}} \\
- M_{\textit{z}} \\
- M_{\textit{Y}} \\
- M_{\textit{J}} \\
- M_{\textit{H}} \\
- M_{\textit{K}} \\
- \end{array}\right],
- \end{equation} where M_ mathrm x is
+ \end{a rray right left begin array
 
-Replacement #2:
+Replacement #4:
   Expression: 0.7078
-  Line: 100
-  Context: Similarly the backward transform is  given by,
- \begin{equation} \label{eq:inv_trans_matrix_2to11}
+  Line: 114
+  Context: K prime end array right ]
+ = 
+ \left[\begin{array}{cc}
+ -0.2492 & 0.7078 \\
+ -0.2594 & 0.5409 \\
+ -0.2790 & 0.1340 \\
+ -0.2981 & -0.0076 \\
+ -0.3064 & -0.0758 \\
+ -0.3106 & -0.1137 \\
+ -0.3133 & -0.1428 \\
+ -0.3201 & -0.1687 \\
+ -0.3214 & -0.1988 \\
+ -0.3258 & -0.1992 \\
+ -0.3217 & -0.2043 \\
+ \end{a rray right left begin array
+
+Replacement #5:
+  Expression: 0.34
+  Line: 141
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #6:
+  Expression: 0.34
+  Line: 141
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #7:
+  Expression: 0.11
+  Line: 141
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #8:
+  Expression: 0.11
+  Line: 141
+  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+
+Replacement #9:
+  Expression: 0.21
+  Line: 166
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #10:
+  Expression: 0.21
+  Line: 166
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #11:
+  Expression: 0.24
+  Line: 166
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #12:
+  Expression: 0.24
+  Line: 166
+  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+
+Replacement #13:
+  Expression: 0.85
+  Line: 176
+  Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+
+Replacement #14:
+  Expression: 0.85
+  Line: 176
+  Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+
+
+EQUATION_EXPECTED_VALUE REPLACEMENTS (12):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.7078
+  Line: 101
+  Context: backward transform is given by \begin{equation} \label{eq:inv_trans_matrix_2to11}
  \left[\begin{array}{c}
  M_{\textit{FUV}}^{\prime} \\
  M_{\textit{NUV}}^{\prime} \\
@@ -99,174 +189,115 @@ Replacement #2:
  \mathrm{D}_1^{\prime} \\
  \mathrm{D}_2^{\prime} \\
  \end{array}\right],
- \e nd equation where the M
-
-Replacement #3:
-  Expression: 0.11
-  Line: 147
-  Context: gas masses M_ mathrm gas }}$) are given below. 
- \begin{equation}\label{eq:HI}
- \begin{split}
- \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
- &+ (0.47\pm0.02) \log \operatorname{SFR},
- \en d split end equation begin
-
-Replacement #4:
-  Expression: 0.04
-  Line: 147
-  Context: gas masses M_ mathrm gas }}$) are given below. 
- \begin{equation}\label{eq:HI}
- \begin{split}
- \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
- &+ (0.47\pm0.02) \log \operatorname{SFR},
- \en d split end equation begin
-
-Replacement #5:
-  Expression: 0.21
-  Line: 151
-  Context: pm0 02 log operatorname SFR end{split}
- \end{equation}d{split}
- \end{equation}
- \begin{equation}\label{eq:H2}
- \begin{split}
- \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
-
-Replacement #6:
-  Expression: 0.30
-  Line: 151
-  Context: pm0 02 log operatorname SFR end{split}
- \end{equation}d{split}
- \end{equation}
- \begin{equation}\label{eq:H2}
- \begin{split}
- \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
-
-Replacement #7:
-  Expression: 0.10
-  Line: 151
-  Context: pm0 02 log operatorname SFR end{split}
- \end{equation}d{split}
- \end{equation}
- \begin{equation}\label{eq:H2}
- \begin{split}
- \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
-
-Replacement #8:
-  Expression: 0.37
-  Line: 151
-  Context: pm0 02 log operatorname SFR end{split}
- \end{equation}d{split}
- \end{equation}
- \begin{equation}\label{eq:H2}
- \begin{split}
- \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
-
-Replacement #9:
-  Expression: 0.04
-  Line: 151
-  Context: pm0 02 log operatorname SFR end{split}
- \end{equation}d{split}
- \end{equation}
- \begin{equation}\label{eq:H2}
- \begin{split}
- \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \ log operatorname SFR end split
-
-Replacement #10:
-  Expression: 0.70
-  Line: 153
-  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
- \end{split}
- \end{equation}log \operatorname{SFR},
- \end{split}
- \end{equation}
- \begin{equation}\label{eq:Tgas}
- \begin{split}
- \log M_{\mathrm{g as 9 28 pm0 04
-
-Replacement #11:
-  Expression: 0.11
-  Line: 153
-  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
- \end{split}
- \end{equation}log \operatorname{SFR},
- \end{split}
- \end{equation}
- \begin{equation}\label{eq:Tgas}
- \begin{split}
- \log M_{\mathrm{g as 9 28 pm0 04
-
-Replacement #12:
-  Expression: 0.04
-  Line: 153
-  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
- \end{split}
- \end{equation}log \operatorname{SFR},
- \end{split}
- \end{equation}
- \begin{equation}\label{eq:Tgas}
- \begin{split}
- \log M_{\mathrm{g as 9 28 pm0 04
-
-Replacement #13:
-  Expression: 5.800
-  Line: 166
-  Context: a criterion for morphological classification . 
- 
- The classification was done with logistic regression, where we conside red T type 0 and
-
-
-LIST_EXPECTED_VALUE REPLACEMENTS (10):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 0.34
-  Line: 140
-  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+ \end{equation} where the M _x represent
 
 Replacement #2:
-  Expression: 0.34
-  Line: 140
-  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+  Expression: 0.11
+  Line: 148
+  Context: M_ mathrm gas are giv en below. 
+ \begin{equation}\label{eq:HI}
+ \begin{split}
+ \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+ &+ (0.47\pm0.02) \log \operatorname{SFR},
+ \end{split}
+ \e nd equation begin equation label
 
 Replacement #3:
-  Expression: 0.11
-  Line: 140
-  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+  Expression: 0.04
+  Line: 148
+  Context: M_ mathrm gas are giv en below. 
+ \begin{equation}\label{eq:HI}
+ \begin{split}
+ \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+ &+ (0.47\pm0.02) \log \operatorname{SFR},
+ \end{split}
+ \e nd equation begin equation label
 
 Replacement #4:
-  Expression: 0.11
-  Line: 140
-  Context: and sigma_ mathrm Log sSFR are 0.34, 0.11,  and 0 37 respectively Surprisingly
+  Expression: 0.21
+  Line: 152
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}nd{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operato rname SFR end split end
 
 Replacement #5:
-  Expression: 0.21
-  Line: 162
-  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+  Expression: 0.30
+  Line: 152
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}nd{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operato rname SFR end split end
 
 Replacement #6:
-  Expression: 0.21
-  Line: 162
-  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+  Expression: 0.10
+  Line: 152
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}nd{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operato rname SFR end split end
 
 Replacement #7:
-  Expression: 0.24
-  Line: 162
-  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+  Expression: 0.37
+  Line: 152
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}nd{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operato rname SFR end split end
 
 Replacement #8:
-  Expression: 0.24
-  Line: 162
-  Context: mathrm H_2 and sigma_ mathrm {Log \ } M_{\mat hrm gas are 0 21
+  Expression: 0.04
+  Line: 152
+  Context: pm0 02 log operatorname SFR end{split}
+ \end{equation}nd{equation}
+ \begin{equation}\label{eq:H2}
+ \begin{split}
+ \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operato rname SFR end split end
 
 Replacement #9:
-  Expression: 0.85
-  Line: 172
-  Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+  Expression: 0.70
+  Line: 154
+  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}rname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{gas}}=(9.28\p m0 04 0 87 pm0
 
 Replacement #10:
-  Expression: 0.85
-  Line: 172
-  Context: where we obtained an accuracy of 0.85,  with 1 0 as the
+  Expression: 0.11
+  Line: 154
+  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}rname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{gas}}=(9.28\p m0 04 0 87 pm0
+
+Replacement #11:
+  Expression: 0.04
+  Line: 154
+  Context: NUMERICAL_RESULT pm NUMERICAL_RESULT log M_ +(0.61\pm0.03) \log \operatorname{SFR},
+ \end{split}
+ \end{equation}rname{SFR},
+ \end{split}
+ \end{equation}
+ \begin{equation}\label{eq:Tgas}
+ \begin{split}
+ \log M_{\mathrm{gas}}=(9.28\p m0 04 0 87 pm0
+
+Replacement #12:
+  Expression: 5.800
+  Line: 169
+  Context: for morphological classification The cl assification was done with logistic regression, where we considered T-type>0 and T type le 0
 
 
 LARGE_INTEGER REPLACEMENTS (4):
@@ -293,13 +324,22 @@ Replacement #4:
   Context: band giving us a final sample of 27,056 galaxies This sample was obtained
 
 
+APPROX_NEGATIVE REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: D$_2\approx$-1.8
+  Line: 141
+  Context: to the D_1 at around D$_2\approx$-1.8 subsection Gas mass A key
+
+
 LATEX REPLACEMENTS (4):
 --------------------------------------------------------------------------------
 
 Replacement #1:
   Expression: =-0.065*\mathrm{D}
   Numerical Value: -0.065
-  Line: 170
+  Line: 173
   Context: begin equation mathrm D _2 =-0.065*\mathrm{D} _1 5 800 end equation
 
 Replacement #2:
@@ -317,7 +357,7 @@ Replacement #3:
 Replacement #4:
   Expression: 93.2\%
   Numerical Value: 93.2
-  Line: 300
+  Line: 303
   Context: existence of two parameters representing 93.2\% of the information of our
 
 
@@ -331,17 +371,17 @@ Replacement #1:
 
 Replacement #2:
   Expression: 0.1340
-  Line: 118
+  Line: 119
   Context: 2594 0 5409 0 2790 0.1340 0 2981 0 0076 0
 
 Replacement #3:
   Expression: 0.21
-  Line: 162
+  Line: 163
   Context: Log M_ mathrm gas are 0.21 0 24 and 0 26
 
 Replacement #4:
   Expression: 1.2
-  Line: 217
+  Line: 220
   Context: declining SFH with tau sim 1.2 Gyrs The black crosses correspond
 
 
@@ -403,37 +443,37 @@ Replacement #6:
 
 Replacement #7:
   Expression: -0.0758
-  Line: 120
+  Line: 121
   Context: 2981 0 0076 0 3064 -0.0758 0 3106 0 1137 0
 
 Replacement #8:
   Expression: -0.3106
-  Line: 121
+  Line: 122
   Context: 0076 0 3064 0 0758 -0.3106 0 1137 0 3133 0
 
 Replacement #9:
   Expression: -0.1137
-  Line: 121
+  Line: 122
   Context: 3064 0 0758 0 3106 -0.1137 0 3133 0 1428 0
 
 Replacement #10:
   Expression: -0.3133
-  Line: 122
+  Line: 123
   Context: 0758 0 3106 0 1137 -0.3133 0 1428 0 3201 0
 
 Replacement #11:
   Expression: -0.1428
-  Line: 122
+  Line: 123
   Context: 3106 0 1137 0 3133 -0.1428 0 3201 0 1687 0
 
 Replacement #12:
   Expression: -0.3201
-  Line: 123
+  Line: 124
   Context: 1137 0 3133 0 1428 -0.3201 0 1687 0 3214 0
 
 Replacement #13:
   Expression: -11
-  Line: 217
+  Line: 220
   Context: galaxies have Log sSFR le -11 yr 1 This crossing time
 
 

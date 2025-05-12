@@ -348,7 +348,7 @@ Here, $V_C(H_0, \Omega_M)$ is the comoving volume for given cosmological paramet
 $\mathcal{S}$ is a smoothing function at low and high masses, and $\mathcal{N}_{\text{pl}}$ and $\mathcal{N}_{\text{g}}$ are the normalizations between $m_{\min}$ and $m_{\max}$ for the power law component and truncated Gaussian component, respectively.
 The smoothing creates support for masses below $m_{\min}$ and above $m_{\max}$.
 $\bar{\Lambda}_z = \{z_p,\alpha_z,\beta_z\}$ are the parameters governing the peak of the redshift distribution, low-$z$ power law slope, and high-$z$ power law slope.
-When generating the simulated events, we have fixed $\alpha=-2.7$, $m_{\max}=78\Msun$, $m_{\min}=10~\Msun$, $\mu=30~\Msun$, $\sigma=7.0~\Msun$, $f_{\text{peak}}=0.05$, $z_p=2.4$, $\alpha_z=1.0$, and $\beta_z=3.4$.
+When generating the simulated events, we have fixed $\alpha=-2.7$, $m_{\max}=78\Msun$, $m_{\min}=10~\Msun$, $\mu=30~\Msun$, $\sigma=[NUMERICAL_RESULT]~\Msun$, $f_{\text{peak}}=0.05$, $z_p = [NUM$\alpha_z = [NUMERI$\alpha_z=[NUMERICAL$\beta_z=[NUMERICAL_RESULT]$lpha_z=1.0$, and $\beta_z=[NUMERICAL_RESULT]$.
 These choices correspond to the maximum \emph{a posteriori} values obtained by an analysis of GWTC-3 data using the \plp{} model \citep{abbott_population_2023}.
 For simplicity, we assume \new{a uniform mass ratio distribution.}
 Thus, $\theta = \{m_1,z\}$.

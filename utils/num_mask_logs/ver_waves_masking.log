@@ -1,60 +1,64 @@
-2025-05-11 16:39:30,831 - INFO - Logging to file: utils/num_mask_logs/ver_waves_masking.log
-2025-05-11 16:39:30,832 - INFO - Found 16 unique numerical values to mask
-2025-05-11 16:39:30,832 - INFO - Found 4 values from expected_output lists: [20.3, 0.7, 20.8, 0.3]
-2025-05-11 16:39:30,980 - INFO - Made 80 replacements in the text
-2025-05-11 16:39:30,980 - INFO - Saved masked text to papers/masked_texts/ver_waves.txt
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #1: '963,018 stars' at line 53
-2025-05-11 16:39:30,980 - INFO -   Context: contains a total of 1 963,018 stars However in secname ref sec
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #2: '300,000 stars' at line 68
-2025-05-11 16:39:30,980 - INFO -   Context: APOGEE sample each have app roximately 30 0 000 stars After the
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #3: '864,268 stars' at line 68
-2025-05-11 16:39:30,980 - INFO -   Context: the gaia RV sample has a total of 86 4 268 stars GALAH contains
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #4: '160,686 stars' at line 68
-2025-05-11 16:39:30,980 - INFO -   Context: of 864 268 stars GALA H contains 16 0 686 stars and the
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #5: '85,234 stars' at line 68
-2025-05-11 16:39:30,980 - INFO -   Context: and the APOGEE sample c onsists of 8 5 234 stars section Vertical
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #6: '160,686 stars' at line 141
-2025-05-11 16:39:30,980 - INFO -   Context: This results in a s ample with 16 0 686 stars For the
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #7: '85,234 stars' at line 141
-2025-05-11 16:39:30,980 - INFO -   Context: of the Sun which leav es us with 8 5 234 stars Finally with
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #8: 'total of 864,268' at line 68
-2025-05-11 16:39:30,980 - INFO -   Context: gaia RV sample has a total of 864,268 stars GALAH contains 160 686
-2025-05-11 16:39:30,980 - INFO - Large_integer Replacement #9: 'consists of 85,234' at line 68
-2025-05-11 16:39:30,980 - INFO -   Context: stars and the APOGEE sample consists of 85,234 stars section Vertical counts in
-2025-05-11 16:39:30,980 - INFO - Rounded Replacement #1: 'approximately 0.095' at line 36
-2025-05-11 16:39:30,980 - INFO -   Context: 16 5 and 17 is approximately 0.095 mas Since we cut on
-2025-05-11 16:39:30,980 - INFO - Rounded Replacement #2: 'approximately 0.4' at line 149
-2025-05-11 16:39:30,980 - INFO -   Context: the number count asymmetry at approximately 0.4 kpc is consistent with previous
-2025-05-11 16:39:30,980 - INFO - Rounded Replacement #3: 'approximately 0.8' at line 149
-2025-05-11 16:39:30,980 - INFO -   Context: studies have found peaks at approximately 0.8 kpc we uncover additional structure
-2025-05-11 16:39:30,980 - INFO - Exact Replacement #1: '20.3' at line 98
-2025-05-11 16:39:30,980 - INFO -   Context: mean value of z_ odot 20.3 pm 0 7 pc The
-2025-05-11 16:39:30,980 - INFO - Exact Replacement #2: '20.8' at line 157
-2025-05-11 16:39:30,980 - INFO -   Context: Sun s position z_ odot 20.8 pm 0 3 mathrm pc
-2025-05-11 16:39:30,980 - INFO - Exact Replacement #3: '0.7' at line 6
-2025-05-11 16:39:30,980 - INFO -   Context: 0 2 mathrm kpc approx 0.7 mathrm kpc and approx 1
-2025-05-11 16:39:30,980 - INFO - Exact Replacement #4: '0.7' at line 113
-2025-05-11 16:39:30,980 - INFO -   Context: kpc and the peak at 0.7 kpc This supports that the
-2025-05-11 16:39:30,980 - INFO - Exact Replacement #5: '.7' at line 131
-2025-05-11 16:39:30,981 - INFO -   Context: At a colour of 1 .7 the initial values of z_
-2025-05-11 16:39:30,981 - INFO - Exact Replacement #6: '0.7' at line 149
-2025-05-11 16:39:30,981 - INFO -   Context: structure with double peaks at 0.7 kpc and 1 1 kpc
-2025-05-11 16:39:30,981 - INFO - Exact Replacement #7: '.6' at line 153
-2025-05-11 16:39:30,981 - INFO -   Context: gaia18a In their Figure C .6 they plot the amplitudes of
-2025-05-11 16:39:30,981 - INFO - Exact Replacement #8: '0.3' at line 6
-2025-05-11 16:39:30,981 - INFO -   Context: z_ odot 20 8 pm 0.3 mathrm pc end abstract begin
-2025-05-11 16:39:30,981 - INFO - Exact Replacement #9: '.3' at line 30
-2025-05-11 16:39:30,981 - INFO -   Context: 15 8 and K 14 .3 over almost the entire sky
-2025-05-11 16:39:30,981 - INFO - Exact Replacement #10: '.3' at line 30
-2025-05-11 16:39:30,981 - INFO -   Context: below G J approx 1 .3 and for these stars gaia
-2025-05-11 16:39:30,981 - INFO - Exact Replacement #11: '0.9' at line 6
-2025-05-11 16:39:30,981 - INFO -   Context: 0 4 mathrm kpc approx 0.9 mathrm kpc and approx 1
-2025-05-11 16:39:30,981 - INFO - Comma_separated_large Replacement #1: '300,000' at line 149
-2025-05-11 16:39:30,981 - INFO -   Context: by citet widrow12 with only 300,000 main sequence stars citet yanny13
-2025-05-11 16:39:30,981 - INFO - Expected_value_final_pass Replacement #1: '0.7' at line 0
-2025-05-11 16:39:30,981 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:30,981 - INFO - Expected_value_final_pass Replacement #2: '20.8' at line 0
-2025-05-11 16:39:30,981 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:30,981 - INFO - Expected_value_final_pass Replacement #3: '0.3' at line 0
-2025-05-11 16:39:30,981 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:30,981 - INFO - Saved context information to utils/num_mask_logs/ver_waves_contexts.log
+2025-05-11 16:57:41,756 - INFO - Logging to file: utils/num_mask_logs/ver_waves_masking.log
+2025-05-11 16:57:41,756 - INFO - Found 16 unique numerical values to mask
+2025-05-11 16:57:41,756 - INFO - Found 4 values from expected_output lists: [20.3, 0.7, 20.8, 0.3]
+2025-05-11 16:57:41,907 - INFO - Made 82 replacements in the text
+2025-05-11 16:57:41,907 - INFO - Saved masked text to papers/masked_texts/ver_waves.txt
+2025-05-11 16:57:41,907 - INFO - Latex_variable_equality Replacement #1: '15.8' at line 30
+2025-05-11 16:57:41,908 - INFO -   Context: complete down to magnitudes of $J = 15.8$ and K 14 3 over
+2025-05-11 16:57:41,908 - INFO - Latex_variable_equality Replacement #2: '14.3' at line 30
+2025-05-11 16:57:41,908 - INFO -   Context: to magnitudes of J NUMERICAL _RESULT]$  and K 14 3 over
+2025-05-11 16:57:41,908 - INFO - Latex_variable_equality Replacement #3: '15.8' at line 30
+2025-05-11 16:57:41,908 - INFO -   Context: is complete down to the 2MASS comp leteness limit of J 15
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #1: '963,018 stars' at line 53
+2025-05-11 16:57:41,908 - INFO -   Context: contains a total of 1 963,018 stars However in secname ref sec
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #2: '300,000 stars' at line 68
+2025-05-11 16:57:41,908 - INFO -   Context: APOGEE sample each have app roximately 30 0 000 stars After the
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #3: '864,268 stars' at line 68
+2025-05-11 16:57:41,908 - INFO -   Context: the gaia RV sample has a total of 86 4 268 stars GALAH contains
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #4: '160,686 stars' at line 68
+2025-05-11 16:57:41,908 - INFO -   Context: of 864 268 stars GALA H contains 16 0 686 stars and the
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #5: '85,234 stars' at line 68
+2025-05-11 16:57:41,908 - INFO -   Context: and the APOGEE sample c onsists of 8 5 234 stars section Vertical
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #6: '160,686 stars' at line 141
+2025-05-11 16:57:41,908 - INFO -   Context: This results in a s ample with 16 0 686 stars For the
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #7: '85,234 stars' at line 141
+2025-05-11 16:57:41,908 - INFO -   Context: of the Sun which leav es us with 8 5 234 stars Finally with
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #8: 'total of 864,268' at line 68
+2025-05-11 16:57:41,908 - INFO -   Context: gaia RV sample has a total of 864,268 stars GALAH contains 160 686
+2025-05-11 16:57:41,908 - INFO - Large_integer Replacement #9: 'consists of 85,234' at line 68
+2025-05-11 16:57:41,908 - INFO -   Context: stars and the APOGEE sample consists of 85,234 stars section Vertical counts in
+2025-05-11 16:57:41,908 - INFO - Rounded Replacement #1: 'approximately 0.095' at line 36
+2025-05-11 16:57:41,908 - INFO -   Context: 16 5 and 17 is approximately 0.095 mas Since we cut on
+2025-05-11 16:57:41,908 - INFO - Rounded Replacement #2: 'approximately 0.4' at line 149
+2025-05-11 16:57:41,908 - INFO -   Context: the number count asymmetry at approximately 0.4 kpc is consistent with previous
+2025-05-11 16:57:41,908 - INFO - Rounded Replacement #3: 'approximately 0.8' at line 149
+2025-05-11 16:57:41,908 - INFO -   Context: studies have found peaks at approximately 0.8 kpc we uncover additional structure
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #1: '20.3' at line 98
+2025-05-11 16:57:41,908 - INFO -   Context: mean value of z_ odot 20.3 pm 0 7 pc The
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #2: '20.8' at line 157
+2025-05-11 16:57:41,908 - INFO -   Context: Sun s position z_ odot 20.8 pm 0 3 mathrm pc
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #3: '0.7' at line 6
+2025-05-11 16:57:41,908 - INFO -   Context: 0 2 mathrm kpc approx 0.7 mathrm kpc and approx 1
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #4: '0.7' at line 113
+2025-05-11 16:57:41,908 - INFO -   Context: kpc and the peak at 0.7 kpc This supports that the
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #5: '.7' at line 131
+2025-05-11 16:57:41,908 - INFO -   Context: At a colour of 1 .7 the initial values of z_
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #6: '0.7' at line 149
+2025-05-11 16:57:41,908 - INFO -   Context: structure with double peaks at 0.7 kpc and 1 1 kpc
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #7: '.6' at line 153
+2025-05-11 16:57:41,908 - INFO -   Context: gaia18a In their Figure C .6 they plot the amplitudes of
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #8: '0.3' at line 6
+2025-05-11 16:57:41,908 - INFO -   Context: z_ odot 20 8 pm 0.3 mathrm pc end abstract begin
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #9: '.3' at line 30
+2025-05-11 16:57:41,908 - INFO -   Context: below G J approx 1 .3 and for these stars gaia
+2025-05-11 16:57:41,908 - INFO - Exact Replacement #10: '0.9' at line 6
+2025-05-11 16:57:41,908 - INFO -   Context: 0 4 mathrm kpc approx 0.9 mathrm kpc and approx 1
+2025-05-11 16:57:41,908 - INFO - Comma_separated_large Replacement #1: '300,000' at line 149
+2025-05-11 16:57:41,908 - INFO -   Context: by citet widrow12 with only 300,000 main sequence stars citet yanny13
+2025-05-11 16:57:41,908 - INFO - Expected_value_final_pass Replacement #1: '0.7' at line 0
+2025-05-11 16:57:41,908 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:41,908 - INFO - Expected_value_final_pass Replacement #2: '20.8' at line 0
+2025-05-11 16:57:41,908 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:41,908 - INFO - Expected_value_final_pass Replacement #3: '0.3' at line 0
+2025-05-11 16:57:41,908 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:41,909 - INFO - Saved context information to utils/num_mask_logs/ver_waves_contexts.log

@@ -1,31 +1,73 @@
-2025-05-11 16:39:29,775 - INFO - Logging to file: utils/num_mask_logs/tng_hod_masking.log
-2025-05-11 16:39:29,775 - INFO - Found 66 unique numerical values to mask
-2025-05-11 16:39:30,389 - INFO - Made 184 replacements in the text
-2025-05-11 16:39:30,389 - INFO - Saved masked text to papers/masked_texts/tng_hod.txt
-2025-05-11 16:39:30,389 - INFO - Latex_range Replacement #1: '0.18^{+0.03}_{-0.04}' at line 192
-2025-05-11 16:39:30,389 - INFO -   Context: space distortion signal finds alpha_c 0.18^{+0.03}_{-0.04} and alpha_s 1 00 0
-2025-05-11 16:39:30,389 - INFO - Latex_range Replacement #2: '1.00^{+0.03}_{-0.03}' at line 192
-2025-05-11 16:39:30,389 - INFO -   Context: alpha_c NUMERICAL_RESULT and alpha_s 1 00^{+0.03}_{-0.03}$  for the CMASS LRG sample
-2025-05-11 16:39:30,389 - INFO - Latex Replacement #1: '2.4\times' at line 145
-2025-05-11 16:39:30,390 - INFO -   Context: galaxy of bar M _h 2.4\times 10 13 h 1 M_
-2025-05-11 16:39:30,390 - INFO - Latex Replacement #2: '6.3\times' at line 214
-2025-05-11 16:39:30,390 - INFO -   Context: h 1 M_ odot and 6.3\times 10 14 h 1 M_
-2025-05-11 16:39:30,390 - INFO - Latex Replacement #3: '1.4\times' at line 287
-2025-05-11 16:39:30,390 - INFO -   Context: HOD framework on a n 1.4\times 10 3 h 3 Mpc
-2025-05-11 16:39:30,390 - INFO - Latex Replacement #4: '33\%' at line 148
-2025-05-11 16:39:30,390 - INFO -   Context: and a satellite fraction of 33\% This is consistent with the
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #1: '14.1' at line 172
-2025-05-11 16:39:30,390 - INFO -   Context: largely disappearing at M 10 14.1 h 1 M_ odot We
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #2: '1.15' at line 95
-2025-05-11 16:39:30,390 - INFO -   Context: 6 mathrm AND g r 1.15 times r z 0 15
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #3: '0.4' at line 73
-2025-05-11 16:39:30,390 - INFO -   Context: be 0 6 0 2 0.4 respectively We also vary the
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #4: '0.4' at line 87
-2025-05-11 16:39:30,390 - INFO -   Context: We find that delta m 0.4 roughly matches the desired target
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #5: '.6' at line 96
-2025-05-11 16:39:30,390 - INFO -   Context: 2 times r z 1 .6 label equ elg_cuts end align
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #6: '0.8' at line 58
-2025-05-11 16:39:30,390 - INFO -   Context: the simulations at redshift z 0.8 The key analysis in this
-2025-05-11 16:39:30,390 - INFO - Exact Replacement #7: '.80' at line 84
-2025-05-11 16:39:30,390 - INFO -   Context: AND r z z 3 .80 times 0 19 label equ
-2025-05-11 16:39:30,390 - INFO - Saved context information to utils/num_mask_logs/tng_hod_contexts.log
+2025-05-11 16:57:40,676 - INFO - Logging to file: utils/num_mask_logs/tng_hod_masking.log
+2025-05-11 16:57:40,676 - INFO - Found 66 unique numerical values to mask
+2025-05-11 16:57:41,297 - INFO - Made 207 replacements in the text
+2025-05-11 16:57:41,297 - INFO - Saved masked text to papers/masked_texts/tng_hod.txt
+2025-05-11 16:57:41,297 - INFO - Latex_variable_assignment Replacement #1: '$\alpha = 1.15$' at line 145
+2025-05-11 16:57:41,297 - INFO -   Context: 13 6 sigma 0 2 $\alpha = 1.15$ kappa 0 08 and f_
+2025-05-11 16:57:41,297 - INFO - Latex_variable_assignment Replacement #2: '$\kappa = 1.35$' at line 148
+2025-05-11 16:57:41,297 - INFO -   Context: log M_1 14 2 alpha  = 0.65$, and $ kappa 1 35 In terms
+2025-05-11 16:57:41,297 - INFO - Latex_variable_equality Replacement #1: '0.2' at line 54
+2025-05-11 16:57:41,297 - INFO -   Context: FoF algorithm with linking length $b=0.2$ in units of the mean
+2025-05-11 16:57:41,297 - INFO - Latex_variable_equality Replacement #2: '0.8' at line 58
+2025-05-11 16:57:41,297 - INFO -   Context: paper we analyse the simulatio ns at red shift z 0 8 The
+2025-05-11 16:57:41,297 - INFO - Latex_variable_equality Replacement #3: '0.6' at line 87
+2025-05-11 16:57:41,297 - INFO -   Context: target number density of LRGs in DESI in t he redshift range z 0
+2025-05-11 16:57:41,297 - INFO - Latex_variable_equality Replacement #4: '0.6' at line 99
+2025-05-11 16:57:41,297 - INFO -   Context: magnitudes The target number d ensity of ELGs in DESI in the redshift
+2025-05-11 16:57:41,297 - INFO - Latex_variable_equality Replacement #5: '0.2' at line 145
+2025-05-11 16:57:41,297 - INFO -   Context: tuned parameters of the fiducial  model are $\l og M_ mathrm cut 12
+2025-05-11 16:57:41,297 - INFO - Latex_variable_equality Replacement #6: '0.08' at line 145
+2025-05-11 16:57:41,297 - INFO -   Context: NUMERICAL_RESULT og M_ mathrm cut = 12.7$, $\log  M_1 13 6 sigma 0
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #7: '0.5' at line 148
+2025-05-11 16:57:41,298 - INFO -   Context: reference the model parameters of our fiducial m odel are p_ mathrm max
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #8: '1.35' at line 148
+2025-05-11 16:57:41,298 - INFO -   Context: Q 95 log M_ m athrm{cut} = 11 9 sigma 0 5 gamma
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #9: '0.18' at line 192
+2025-05-11 16:57:41,298 - INFO -   Context: to halo center is slightl y less than its host particle. Mo st recently a thorough analysis
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #10: '1.00' at line 192
+2025-05-11 16:57:41,298 - INFO -   Context: slightl alpha_c NUMERICAL_RESULT 0 03 _{-0.04}$st recently, a thorough  analysis of the CMASS redshift
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #11: '0.137' at line 196
+2025-05-11 16:57:41,298 - INFO -   Context: centrals do display clear v elocity bias signature, wit h a peak peculiar velocity
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #12: '0.2' at line 196
+2025-05-11 16:57:41,298 - INFO -   Context: 1 and a corresponding central  velocity bias p arameter alpha_c 0 137 pm
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #13: '0.92' at line 196
+2025-05-11 16:57:41,298 - INFO -   Context: mass dependency in the centr al velocity bias. For the satellites we find the peculiar
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #14: '0.163' at line 198
+2025-05-11 16:57:41,298 - INFO -   Context: top and bottom panels respectiv ely. Similar to the mock LR Gs we see clear velocity
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #15: '1.01' at line 198
+2025-05-11 16:57:41,298 - INFO -   Context: around 0 1 and the central velocity bias par ameter is alpha_c 0 163
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #16: '0.88' at line 198
+2025-05-11 16:57:41,298 - INFO -   Context: inferred satellite velocity bias par ameter of $\alpha_s = 1 01 pm 0 04 However
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #17: '1.0' at line 276
+2025-05-11 16:57:41,298 - INFO -   Context: of citet 2020Hadzhiyska and cite t{2020Xu}, though they fin d a somewhat larger signature
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #18: '1.5' at line 276
+2025-05-11 16:57:41,298 - INFO -   Context: times 10 3 h 3 d a somewhat larger signat ure around 20 However their
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #19: '1.4' at line 287
+2025-05-11 16:57:41,298 - INFO -   Context: small scale clustering when look ing at higher density samp les in hydrodynamical simulations and
+2025-05-11 16:57:41,298 - INFO - Latex_variable_equality Replacement #20: '0.2' at line 196
+2025-05-11 16:57:41,298 - INFO -   Context: is slightly smaller than the $\alpha_c = 0.2$ signature found for BOSS LRGs
+2025-05-11 16:57:41,298 - INFO - Latex_range Replacement #1: '0.18^{+0.03}_{-0.04}' at line 192
+2025-05-11 16:57:41,298 - INFO -   Context: space distortion signal finds alpha_c 0.18^{+0.03}_{-0.04} and alpha_s 1 00 0
+2025-05-11 16:57:41,298 - INFO - Latex_range Replacement #2: '1.00^{+0.03}_{-0.03}' at line 192
+2025-05-11 16:57:41,298 - INFO -   Context: alpha_c NUMERICAL_RESULT and alpha_s 1 00^{+0.03}_{-0.03}$  for the CMASS LRG sample
+2025-05-11 16:57:41,298 - INFO - Latex Replacement #1: '2.4\times' at line 145
+2025-05-11 16:57:41,298 - INFO -   Context: galaxy of bar M _h 2.4\times 10 13 h 1 M_
+2025-05-11 16:57:41,298 - INFO - Latex Replacement #2: '6.3\times' at line 214
+2025-05-11 16:57:41,298 - INFO -   Context: h 1 M_ odot and 6.3\times 10 14 h 1 M_
+2025-05-11 16:57:41,298 - INFO - Latex Replacement #3: '1.4\times' at line 287
+2025-05-11 16:57:41,298 - INFO -   Context: HOD framework on a n 1.4\times 10 3 h 3 Mpc
+2025-05-11 16:57:41,298 - INFO - Latex Replacement #4: '33\%' at line 148
+2025-05-11 16:57:41,298 - INFO -   Context: and a satellite fraction of 33\% This is consistent with the
+2025-05-11 16:57:41,298 - INFO - Exact Replacement #1: '14.1' at line 172
+2025-05-11 16:57:41,298 - INFO -   Context: largely disappearing at M 10 14.1 h 1 M_ odot We
+2025-05-11 16:57:41,298 - INFO - Exact Replacement #2: '1.15' at line 95
+2025-05-11 16:57:41,298 - INFO -   Context: 6 mathrm AND g r 1.15 times r z 0 15
+2025-05-11 16:57:41,298 - INFO - Exact Replacement #3: '0.4' at line 73
+2025-05-11 16:57:41,298 - INFO -   Context: be 0 6 0 2 0.4 respectively We also vary the
+2025-05-11 16:57:41,298 - INFO - Exact Replacement #4: '0.4' at line 87
+2025-05-11 16:57:41,298 - INFO -   Context: We find that delta m 0.4 roughly matches the desired target
+2025-05-11 16:57:41,298 - INFO - Exact Replacement #5: '.6' at line 96
+2025-05-11 16:57:41,298 - INFO -   Context: 2 times r z 1 .6 label equ elg_cuts end align
+2025-05-11 16:57:41,298 - INFO - Exact Replacement #6: '.80' at line 84
+2025-05-11 16:57:41,298 - INFO -   Context: AND r z z 3 .80 times 0 19 label equ
+2025-05-11 16:57:41,298 - INFO - Saved context information to utils/num_mask_logs/tng_hod_contexts.log

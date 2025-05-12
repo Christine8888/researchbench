@@ -2,11 +2,131 @@ Masked values and their context for paper: tng_hod
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_ASSIGNMENT: 2 replacements
+  LATEX_VARIABLE_EQUALITY: 20 replacements
   LATEX_RANGE: 2 replacements
   LATEX: 4 replacements
-  EXACT: 7 replacements
+  EXACT: 6 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $\alpha = 1.15$
+  Line: 145
+  Context: 13 6 sigma 0 2 $\alpha = 1.15$ kappa 0 08 and f_
+
+Replacement #2:
+  Expression: $\kappa = 1.35$
+  Line: 148
+  Context: log M_1 14 2 alpha  = 0.65$, and $ kappa 1 35 In terms
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (20):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.2
+  Line: 54
+  Context: FoF algorithm with linking length $b=0.2$ in units of the mean
+
+Replacement #2:
+  Expression: 0.8
+  Line: 58
+  Context: paper we analyse the simulatio ns at red shift z 0 8 The
+
+Replacement #3:
+  Expression: 0.6
+  Line: 87
+  Context: target number density of LRGs in DESI in t he redshift range z 0
+
+Replacement #4:
+  Expression: 0.6
+  Line: 99
+  Context: magnitudes The target number d ensity of ELGs in DESI in the redshift
+
+Replacement #5:
+  Expression: 0.2
+  Line: 145
+  Context: tuned parameters of the fiducial  model are $\l og M_ mathrm cut 12
+
+Replacement #6:
+  Expression: 0.08
+  Line: 145
+  Context: NUMERICAL_RESULT og M_ mathrm cut = 12.7$, $\log  M_1 13 6 sigma 0
+
+Replacement #7:
+  Expression: 0.5
+  Line: 148
+  Context: reference the model parameters of our fiducial m odel are p_ mathrm max
+
+Replacement #8:
+  Expression: 1.35
+  Line: 148
+  Context: Q 95 log M_ m athrm{cut} = 11 9 sigma 0 5 gamma
+
+Replacement #9:
+  Expression: 0.18
+  Line: 192
+  Context: to halo center is slightl y less than its host particle. Mo st recently a thorough analysis
+
+Replacement #10:
+  Expression: 1.00
+  Line: 192
+  Context: slightl alpha_c NUMERICAL_RESULT 0 03 _{-0.04}$st recently, a thorough  analysis of the CMASS redshift
+
+Replacement #11:
+  Expression: 0.137
+  Line: 196
+  Context: centrals do display clear v elocity bias signature, wit h a peak peculiar velocity
+
+Replacement #12:
+  Expression: 0.2
+  Line: 196
+  Context: 1 and a corresponding central  velocity bias p arameter alpha_c 0 137 pm
+
+Replacement #13:
+  Expression: 0.92
+  Line: 196
+  Context: mass dependency in the centr al velocity bias. For the satellites we find the peculiar
+
+Replacement #14:
+  Expression: 0.163
+  Line: 198
+  Context: top and bottom panels respectiv ely. Similar to the mock LR Gs we see clear velocity
+
+Replacement #15:
+  Expression: 1.01
+  Line: 198
+  Context: around 0 1 and the central velocity bias par ameter is alpha_c 0 163
+
+Replacement #16:
+  Expression: 0.88
+  Line: 198
+  Context: inferred satellite velocity bias par ameter of $\alpha_s = 1 01 pm 0 04 However
+
+Replacement #17:
+  Expression: 1.0
+  Line: 276
+  Context: of citet 2020Hadzhiyska and cite t{2020Xu}, though they fin d a somewhat larger signature
+
+Replacement #18:
+  Expression: 1.5
+  Line: 276
+  Context: times 10 3 h 3 d a somewhat larger signat ure around 20 However their
+
+Replacement #19:
+  Expression: 1.4
+  Line: 287
+  Context: small scale clustering when look ing at higher density samp les in hydrodynamical simulations and
+
+Replacement #20:
+  Expression: 0.2
+  Line: 196
+  Context: is slightly smaller than the $\alpha_c = 0.2$ signature found for BOSS LRGs
+
 
 LATEX_RANGE REPLACEMENTS (2):
 --------------------------------------------------------------------------------
@@ -50,7 +170,7 @@ Replacement #4:
   Context: and a satellite fraction of 33\% This is consistent with the
 
 
-EXACT REPLACEMENTS (7):
+EXACT REPLACEMENTS (6):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -79,11 +199,6 @@ Replacement #5:
   Context: 2 times r z 1 .6 label equ elg_cuts end align
 
 Replacement #6:
-  Expression: 0.8
-  Line: 58
-  Context: the simulations at redshift z 0.8 The key analysis in this
-
-Replacement #7:
   Expression: .80
   Line: 84
   Context: AND r z z 3 .80 times 0 19 label equ

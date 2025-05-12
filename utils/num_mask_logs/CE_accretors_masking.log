@@ -1,26 +1,28 @@
-2025-05-11 16:39:20,910 - INFO - Logging to file: utils/num_mask_logs/CE_accretors_masking.log
-2025-05-11 16:39:20,911 - INFO - Found 32 unique numerical values to mask
-2025-05-11 16:39:20,911 - INFO - Found 12 values from expected_output lists: [100000, 0.07, 0.08, 0.04, 300, 380, 42, 96, 5.81, 0.29, 0.3, 0.43]
-2025-05-11 16:39:21,022 - INFO - Made 38 replacements in the text
-2025-05-11 16:39:21,022 - INFO - Saved masked text to papers/masked_texts/CE_accretors.txt
-2025-05-11 16:39:21,022 - INFO - Latex Replacement #1: '96\%' at line 22
-2025-05-11 16:39:21,022 - INFO -   Context: a CE by sim 42 96\% for both black hole and
-2025-05-11 16:39:21,022 - INFO - Exact Replacement #1: '0.08' at line 363
-2025-05-11 16:39:21,022 - INFO -   Context: 56 0 07 0 58 0.08 and 0 51 0 04
-2025-05-11 16:39:21,022 - INFO - Exact Replacement #2: '0.43' at line 195
-2025-05-11 16:39:21,023 - INFO -   Context: 0 29 0 30 and 0.43 respectively citep see discussion in
-2025-05-11 16:39:21,023 - INFO - Expected_value_final_pass Replacement #1: '0.07' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,023 - INFO - Expected_value_final_pass Replacement #2: '0.04' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,023 - INFO - Expected_value_final_pass Replacement #3: '300' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,023 - INFO - Expected_value_final_pass Replacement #4: '380' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,023 - INFO - Expected_value_final_pass Replacement #5: '42' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,023 - INFO - Expected_value_final_pass Replacement #6: '0.29' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,023 - INFO - Trailing_zeros Replacement #1: '0.30' at line 0
-2025-05-11 16:39:21,023 - INFO -   Context: Trailing zeros variation
-2025-05-11 16:39:21,023 - INFO - Saved context information to utils/num_mask_logs/CE_accretors_contexts.log
+2025-05-11 16:57:31,795 - INFO - Logging to file: utils/num_mask_logs/CE_accretors_masking.log
+2025-05-11 16:57:31,795 - INFO - Found 32 unique numerical values to mask
+2025-05-11 16:57:31,795 - INFO - Found 12 values from expected_output lists: [100000, 0.07, 0.08, 0.04, 300, 380, 42, 96, 5.81, 0.29, 0.3, 0.43]
+2025-05-11 16:57:31,911 - INFO - Made 39 replacements in the text
+2025-05-11 16:57:31,911 - INFO - Saved masked text to papers/masked_texts/CE_accretors.txt
+2025-05-11 16:57:31,911 - INFO - Latex_variable_equality Replacement #1: '0.0019' at line 114
+2025-05-11 16:57:31,911 - INFO -   Context: the metallicity here we adopt $Z=0.0019\simeq Z_\odot/10$ relevant for the progenitor population
+2025-05-11 16:57:31,911 - INFO - Latex Replacement #1: '96\%' at line 22
+2025-05-11 16:57:31,911 - INFO -   Context: a CE by sim 42 96\% for both black hole and
+2025-05-11 16:57:31,911 - INFO - Exact Replacement #1: '0.08' at line 363
+2025-05-11 16:57:31,911 - INFO -   Context: 56 0 07 0 58 0.08 and 0 51 0 04
+2025-05-11 16:57:31,911 - INFO - Exact Replacement #2: '0.43' at line 195
+2025-05-11 16:57:31,911 - INFO -   Context: 0 29 0 30 and 0.43 respectively citep see discussion in
+2025-05-11 16:57:31,911 - INFO - Expected_value_final_pass Replacement #1: '0.07' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,911 - INFO - Expected_value_final_pass Replacement #2: '0.04' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,911 - INFO - Expected_value_final_pass Replacement #3: '300' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,911 - INFO - Expected_value_final_pass Replacement #4: '380' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,911 - INFO - Expected_value_final_pass Replacement #5: '42' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,911 - INFO - Expected_value_final_pass Replacement #6: '0.29' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,911 - INFO - Trailing_zeros Replacement #1: '0.30' at line 0
+2025-05-11 16:57:31,911 - INFO -   Context: Trailing zeros variation
+2025-05-11 16:57:31,912 - INFO - Saved context information to utils/num_mask_logs/CE_accretors_contexts.log

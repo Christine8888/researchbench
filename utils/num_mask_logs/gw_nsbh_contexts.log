@@ -2,16 +2,70 @@ Masked values and their context for paper: gw_nsbh
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
-  EQUATION_EXPECTED_VALUE: 13 replacements
+  LATEX_VARIABLE_ASSIGNMENT: 2 replacements
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   LIST_EXPECTED_VALUE: 2 replacements
-  LATEX_RANGE: 27 replacements
+  EQUATION_EXPECTED_VALUE: 13 replacements
+  LATEX_RANGE: 26 replacements
   LATEX: 3 replacements
-  EXACT: 10 replacements
+  EXACT: 11 replacements
   ADDITIONAL: 7 replacements
-  EXPECTED_VALUE_FINAL_PASS: 10 replacements
+  EXPECTED_VALUE_FINAL_PASS: 11 replacements
   DECIMAL_POINT: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $\rho = 10.1$
+  Line: 227
+  Context: with a network SNR of $\rho = 10.1$ and so may or may
+
+Replacement #2:
+  Expression: $\mu = 1.5$
+  Line: 281
+  Context: For the 1 component distribu tion, we ta ke mu 1 5 and
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.12
+  Line: 31
+  Context: ms or dimensionless spin magnitude $a = 0.12$ citep 2012ApJ 745 109L Among
+
+Replacement #2:
+  Expression: 2.8
+  Line: 247
+  Context: beta 0 ZS spin pr ior) measures $M_{99} = 2.8^{+0.3}_{- 0 2 M_ odot 68
+
+Replacement #3:
+  Expression: 1.5
+  Line: 281
+  Context: For the 1 component distribu $\mu = [NUM ERICAL_RESULT ke mu 1 5
+
+Replacement #4:
+  Expression: 0.5
+  Line: 281
+  Context: 1 component distribu mu NUMERICA L_RESULT]$ERIC AL_RESULT ke mu 1 5
+
+
+LIST_EXPECTED_VALUE REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2.4
+  Line: 247
+  Context: with lower limits 95 credibility of 2.4 2 5 M_ odot Our
+
+Replacement #2:
+  Expression: 2.4
+  Line: 247
+  Context: with lower limits 95 credibility of 2.4 2 5 M_ odot Our
+
 
 EQUATION_EXPECTED_VALUE REPLACEMENTS (13):
 --------------------------------------------------------------------------------
@@ -122,21 +176,7 @@ Replacement #13:
   Context: polynomial may provide insights into the nuclear physics that informs $M_\text{TOV}$ and rotation-supported neutron stars. We consider the simplest case, a linear dependen ce between spin and maximum
 
 
-LIST_EXPECTED_VALUE REPLACEMENTS (2):
---------------------------------------------------------------------------------
-
-Replacement #1:
-  Expression: 2.4
-  Line: 247
-  Context: with lower limits 95 credibility of 2.4 2 5 M_ odot Our
-
-Replacement #2:
-  Expression: 2.4
-  Line: 247
-  Context: with lower limits 95 credibility of 2.4 2 5 M_ odot Our
-
-
-LATEX_RANGE REPLACEMENTS (27):
+LATEX_RANGE REPLACEMENTS (26):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -195,84 +235,79 @@ Replacement #11:
   Context: NUMERICAL_RESULT 3 M_ odot m_ 2 = 1.5^{+0.8}_{- 0 5 M_ odot GW190426
 
 Replacement #12:
-  Expression: 2.8^{+0.3}_{-0.2}
-  Line: 247
-  Context: spin prior measures M_ 9 9} = 2.8^{+0.3}_{ 0 2 M_ odot 68
-
-Replacement #13:
   Expression: 2.9^{+0.2}_{-0.2}
   Line: 247
-  Context: events shifts M_ text 99 $ to $2.9^{+0.2}_ 0 2 M_ odot The
+  Context: events shifts M_ text 99  to $2.9^{+0.2}_{ 0 2 M_ odot The
 
-Replacement #14:
+Replacement #13:
   Expression: 5.4^{+ 0.7}_{- 1.0}
   Line: 257
-  Context: 0 results in M_ mathrm {BH} = 5.4^{+ 0.7}_ 1 0 M_ odot 68
+  Context: 0 results in M_ mathrm BH} = 5.4^{+ 0.7}_{ 1 0 M_ odot 68
 
-Replacement #15:
+Replacement #14:
   Expression: 4.2^{+ 1.1}_{-1.0}
   Line: 257
-  Context: end we infer M_ text BH} = 4.2^{+ 1.1}_ 1 0 M_ odot using
+  Context: we infer M_ text B H} = 4.2^{+ 1.1}_{ 1 0 M_ odot using
 
-Replacement #16:
+Replacement #15:
   Expression: 6.7^{+ 0.4}_{-0.8}
   Line: 257
-  Context: end we infer M_ text BH} = 6.7^{+ 0.4}_ 0 8 M_ odot 68
+  Context: we infer M_ text B H} = 6.7^{+ 0.4}_{ 0 8 M_ odot 68
 
-Replacement #17:
+Replacement #16:
   Expression: 2.5^{+0.8}_{-1.0}
   Line: 261
-  Context: we measure a mass ga p of $2.5^{+0.8}_ 1 0 M_ odot reply
+  Context: we measure a mass gap  of $2.5^{+0.8}_{ 1 0 M_ odot reply
 
-Replacement #18:
+Replacement #17:
   Expression: 2.3^{+0.7}_{-1.0}
   Line: 261
-  Context: 1 0 M_ odot r eply{($2.3^{+0.7} _ 1 0 M_ odot
+  Context: 1 0 M_ odot re ply{($2.3^{+0.7}_ 1 0 M_ odot with
 
-Replacement #19:
+Replacement #18:
   Expression: 3.4^{+1.4}_{-0.9}
   Line: 273
-  Context: power law slope alpha_ tex t{BH} = 3.4^{+1.4 _ 0 9 reply alpha_
+  Context: power law slope alpha_ text {BH} = 3.4^{+1.4} _ 0 9 reply alpha_
 
-Replacement #20:
+Replacement #19:
   Expression: 2.3^{+7}_{-1.0}
   Line: 273
-  Context: 0 9 reply alpha_ te xt{BH} = 2.3^{+ 7 _ 1 0 with
+  Context: 0 9 reply alpha_ tex t{BH} = 2.3^{+7 _ 1 0 with all
 
-Replacement #21:
+Replacement #20:
   Expression: 0.9^{+1.1}_{-0.6}
   Line: 273
-  Context: to significantly shallower slopes alpha_ \text{BH} = 0.9^{ 1 1 _ 0 6
+  Context: to significantly shallower slopes alpha_ text{BH} = 0.9^{+ 1 1 _ 0 6
 
-Replacement #22:
+Replacement #21:
   Expression: 45^{+75}_{-33}
   Line: 284
-  Context: are expected to merge a t a rate of $4 5 75 _ 33 text
+  Context: are expected to merge at  a rate of $45 75 _ 33 text Gpc
 
-Replacement #23:
+Replacement #22:
   Expression: 130^{+112}_{-69}
   Line: 284
-  Context: produces rate estimates from LVK observations of  130 112 _ 69 text
+  Context: rate estimates from LVK o bservations of $ 130 112 _ 69 text
 
-Replacement #24:
+Replacement #23:
   Expression: 2.0^{+0.15}_{-0.08}
   Line: 288
-  Context: allow M_ text TOV to be constrained to $ 2 0 0 15 _
+  Context: M_ text TOV to b e constrained to $2 0 0 15 _ 0
 
-Replacement #25:
+Replacement #24:
   Expression: 2.2^{+0.19}_{-0.07}
   Line: 288
-  Context: 0 15 _ 0 0 8}\,M_\odot$, or $2 2 0 19 _ 0
+  Context: 0 15 _ 0 08 }\,M_\odot$, or $2. 2 0 19 _ 0
 
-Replacement #26:
+Replacement #25:
   Expression: 0.0^{+0.07}_{-0.15}
   Line: 295
-  Context: 10 events constrain the ma ss gap width to $0. 0 0 07 _ 0
+  Context: 10 events constrain the mas s gap width to $0.0 0 07 _ 0 15
 
-Replacement #27:
+Replacement #26:
   Expression: 0.2^{+0.2}_{-0.1}
   Line: 314
-  Context: 2 10 events can constrain A_1$ to around $0 2 0 2 _ 0
+  Context: 10 events can constrain A _1$ to around $0. 2 0 2 _ 0
 
 
 LATEX REPLACEMENTS (3):
@@ -297,7 +332,7 @@ Replacement #3:
   Context: the lower bound of the 99.7\% credibility interval can be as
 
 
-EXACT REPLACEMENTS (10):
+EXACT REPLACEMENTS (11):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -350,6 +385,11 @@ Replacement #10:
   Line: 314
   Context: We consider models with A_1 0.2 and 0 4 For a
 
+Replacement #11:
+  Expression: 0.2
+  Line: 314
+  Context: a_ mathrm Kep and A_1 0.2 10 events can constrain A
+
 
 ADDITIONAL REPLACEMENTS (7):
 --------------------------------------------------------------------------------
@@ -390,7 +430,7 @@ Replacement #7:
   Context: Incorporated under NASA contract NAS5 -26555. M F is grateful for
 
 
-EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (10):
+EXPECTED_VALUE_FINAL_PASS REPLACEMENTS (11):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -414,31 +454,36 @@ Replacement #4:
   Context: Final pass for expected values
 
 Replacement #5:
-  Expression: 0.9
+  Expression: 0.3
   Line: 0
   Context: Final pass for expected values
 
 Replacement #6:
-  Expression: 0.08
+  Expression: 0.9
   Line: 0
   Context: Final pass for expected values
 
 Replacement #7:
-  Expression: 0.05
+  Expression: 0.08
   Line: 0
   Context: Final pass for expected values
 
 Replacement #8:
-  Expression: 0.07
+  Expression: 0.05
   Line: 0
   Context: Final pass for expected values
 
 Replacement #9:
-  Expression: 0.04
+  Expression: 0.07
   Line: 0
   Context: Final pass for expected values
 
 Replacement #10:
+  Expression: 0.04
+  Line: 0
+  Context: Final pass for expected values
+
+Replacement #11:
   Expression: 2.3
   Line: 0
   Context: Final pass for expected values

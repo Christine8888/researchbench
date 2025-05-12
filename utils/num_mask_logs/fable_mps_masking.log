@@ -1,11 +1,15 @@
-2025-05-11 16:39:21,671 - INFO - Logging to file: utils/num_mask_logs/fable_mps_masking.log
-2025-05-11 16:39:21,672 - INFO - Found 21 unique numerical values to mask
-2025-05-11 16:39:21,880 - INFO - Made 51 replacements in the text
-2025-05-11 16:39:21,881 - INFO - Saved masked text to papers/masked_texts/fable_mps.txt
-2025-05-11 16:39:21,881 - INFO - Latex Replacement #1: '\mathrm{BH} = 0.15' at line 90
-2025-05-11 16:39:21,881 - INFO -   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
-2025-05-11 16:39:21,881 - INFO - Latex Replacement #2: '1.4\cdot' at line 181
-2025-05-11 16:39:21,881 - INFO -   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
-2025-05-11 16:39:21,881 - INFO - Latex Replacement #3: '1.8\cdot' at line 181
-2025-05-11 16:39:21,881 - INFO -   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
-2025-05-11 16:39:21,881 - INFO - Saved context information to utils/num_mask_logs/fable_mps_contexts.log
+2025-05-11 16:57:32,580 - INFO - Logging to file: utils/num_mask_logs/fable_mps_masking.log
+2025-05-11 16:57:32,581 - INFO - Found 21 unique numerical values to mask
+2025-05-11 16:57:32,799 - INFO - Made 53 replacements in the text
+2025-05-11 16:57:32,800 - INFO - Saved masked text to papers/masked_texts/fable_mps.txt
+2025-05-11 16:57:32,800 - INFO - Latex_variable_equality Replacement #1: '0.679' at line 65
+2025-05-11 16:57:32,800 - INFO -   Context: 40 h 1 mathrm Mpc $h = 0.679$ boxes are evolved using initial
+2025-05-11 16:57:32,800 - INFO - Latex_variable_equality Replacement #2: '0.05' at line 170
+2025-05-11 16:57:32,800 - INFO -   Context: prescription with a constant energy parameter  of f 0 05 and
+2025-05-11 16:57:32,800 - INFO - Latex Replacement #1: '\mathrm{BH} = 0.15' at line 90
+2025-05-11 16:57:32,800 - INFO -   Context: the Illustris value of delta_ \mathrm{BH} = 0.15 The bubble energy content is
+2025-05-11 16:57:32,800 - INFO - Latex Replacement #2: '1.4\cdot' at line 181
+2025-05-11 16:57:32,800 - INFO -   Context: 2 5 cdot 10 5 1.4\cdot 10 6 1 8 cdot
+2025-05-11 16:57:32,800 - INFO - Latex Replacement #3: '1.8\cdot' at line 181
+2025-05-11 16:57:32,800 - INFO -   Context: 1 4 cdot 10 6 1.8\cdot 10 7 right Msun where
+2025-05-11 16:57:32,800 - INFO - Saved context information to utils/num_mask_logs/fable_mps_contexts.log

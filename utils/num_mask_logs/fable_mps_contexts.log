@@ -2,9 +2,24 @@ Masked values and their context for paper: fable_mps
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 2 replacements
   LATEX: 3 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.679
+  Line: 65
+  Context: 40 h 1 mathrm Mpc $h = 0.679$ boxes are evolved using initial
+
+Replacement #2:
+  Expression: 0.05
+  Line: 170
+  Context: prescription with a constant energy parameter  of f 0 05 and
+
 
 LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------

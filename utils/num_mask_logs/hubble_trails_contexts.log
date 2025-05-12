@@ -2,12 +2,37 @@ Masked values and their context for paper: hubble_trails
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   EQUATION_EXPECTED_VALUE: 3 replacements
-  LATEX: 32 replacements
+  LATEX: 31 replacements
   EXACT: 1 replacements
   ADDITIONAL: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 4.4
+  Line: 36
+  Context: exposure of 11 minutes is $P=4.4\%$ for ACS WFC and P
+
+Replacement #2:
+  Expression: 3.5
+  Line: 36
+  Context: minutes is P NUMERICAL_RESULT f or ACS/WF C and P 3 5
+
+Replacement #3:
+  Expression: 4.4
+  Line: 202
+  Context: the 8 500 satellites at 1\,500 km to cross the FoV is
+
+Replacement #4:
+  Expression: 3.5
+  Line: 202
+  Context: satellites at P NUMERICAL_RESULT t o cross t he FoV is P 4
+
 
 EQUATION_EXPECTED_VALUE REPLACEMENTS (3):
 --------------------------------------------------------------------------------
@@ -39,7 +64,7 @@ Replacement #3:
  f_{\mathrm{illuminated}} = 1-\frac{2\a lpha 360 circ end equation
 
 
-LATEX REPLACEMENTS (32):
+LATEX REPLACEMENTS (31):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -223,12 +248,6 @@ Replacement #30:
   Context: hence the satellite would spend 23\% of its orbit in the
 
 Replacement #31:
-  Expression: 4.4\%
-  Numerical Value: 4.4
-  Line: 200
-  Context: cross the FoV is P 4.4\% for ACS WFC and P
-
-Replacement #32:
   Expression: 3.5\%
   Numerical Value: 3.5
   Line: 200

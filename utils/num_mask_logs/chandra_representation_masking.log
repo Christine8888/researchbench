@@ -1,24 +1,63 @@
-2025-05-11 16:39:21,062 - INFO - Logging to file: utils/num_mask_logs/chandra_representation_masking.log
-2025-05-11 16:39:21,062 - INFO - Found 12 unique numerical values to mask
-2025-05-11 16:39:21,062 - INFO - Found 4 values from expected_output lists: [0.58, 0.5, 0.05, 1.81]
-2025-05-11 16:39:21,448 - INFO - Made 116 replacements in the text
-2025-05-11 16:39:21,449 - INFO - Saved masked text to papers/masked_texts/chandra_representation.txt
-2025-05-11 16:39:21,449 - INFO - Large_integer Replacement #1: '58,932 sources' at line 44
-2025-05-11 16:39:21,449 - INFO -   Context: 473 filtered event files from 58,932 sources resulting in an average of
-2025-05-11 16:39:21,449 - INFO - Large_integer Replacement #2: 'total of 3,559' at line 223
-2025-05-11 16:39:21,449 - INFO -   Context: The resulting catalog contains a total of 3,559 detections 3 447 flares and
-2025-05-11 16:39:21,449 - INFO - Large_integer Replacement #3: 'consists of 95,473' at line 44
-2025-05-11 16:39:21,449 - INFO -   Context: is required The final dataset consists of 95,473 filtered event files from NUMERICAL_RESULT
-2025-05-11 16:39:21,449 - INFO - Exact Replacement #1: '.6' at line 264
-2025-05-11 16:39:21,449 - INFO -   Context: F_ rm p gtrsim 5 .6 times 10 10 erg s
-2025-05-11 16:39:21,449 - INFO - Comma_separated_large Replacement #1: '3,559' at line 7
-2025-05-11 16:39:21,449 - INFO -   Context: transients producing a catalog of 3,559 candidates 3 447 flares and
-2025-05-11 16:39:21,449 - INFO - Comma_separated_large Replacement #2: '9,003' at line 44
-2025-05-11 16:39:21,449 - INFO -   Context: 62 observations per source T his i ncludes 9 003 new sources
-2025-05-11 16:39:21,449 - INFO - Comma_separated_large Replacement #3: '15,353' at line 342
-2025-05-11 16:39:21,449 - INFO -   Context: optimization process is performed u sing a reduced dataset of 15 353
-2025-05-11 16:39:21,449 - INFO - Additional Replacement #1: '-6.4' at line 280
-2025-05-11 16:39:21,449 - INFO -   Context: and fall times 3 2 -6.4 s and the lack of
-2025-05-11 16:39:21,449 - INFO - Expected_value_final_pass Replacement #1: '0.5' at line 0
-2025-05-11 16:39:21,449 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:21,449 - INFO - Saved context information to utils/num_mask_logs/chandra_representation_contexts.log
+2025-05-11 16:57:31,950 - INFO - Logging to file: utils/num_mask_logs/chandra_representation_masking.log
+2025-05-11 16:57:31,951 - INFO - Found 12 unique numerical values to mask
+2025-05-11 16:57:31,951 - INFO - Found 4 values from expected_output lists: [0.58, 0.5, 0.05, 1.81]
+2025-05-11 16:57:32,350 - INFO - Made 120 replacements in the text
+2025-05-11 16:57:32,350 - INFO - Saved masked text to papers/masked_texts/chandra_representation.txt
+2025-05-11 16:57:32,350 - INFO - Latex_variable_equality Replacement #1: '0.5' at line 54
+2025-05-11 16:57:32,350 - INFO -   Context: min E_ max right where $E_{min}=0.5\,\mathrm{keV}$ and E_ max 7 mathrm
+2025-05-11 16:57:32,350 - INFO - Latex_variable_equality Replacement #2: '0.1' at line 134
+2025-05-11 16:57:32,350 - INFO -   Context: alpha x x end e quation}
+whe re alpha 0 1 is
+2025-05-11 16:57:32,350 - INFO - Latex_variable_equality Replacement #3: '0.1' at line 149
+2025-05-11 16:57:32,350 - INFO -   Context: j 1 n_w lvert w_j  \rvert,
+\end equation where lambda 0 1
+2025-05-11 16:57:32,350 - INFO - Latex_variable_equality Replacement #4: '0.5' at line 260
+2025-05-11 16:57:32,350 - INFO -   Context: table specfit and Figure r ef{Fig:spectralfit 10 has a photon index
+2025-05-11 16:57:32,350 - INFO - Latex_variable_equality Replacement #5: '22.7' at line 272
+2025-05-11 16:57:32,350 - INFO -   Context: We estimate the brightest optical  source within the error cir cle to have a Vega
+2025-05-11 16:57:32,350 - INFO - Latex_variable_equality Replacement #6: '0.5' at line 278
+2025-05-11 16:57:32,350 - INFO -   Context: have any gamma ray detec tion. On the other han d XRT 200515 has a
+2025-05-11 16:57:32,350 - INFO - Equation_expected_value Replacement #1: '0.1' at line 132
+2025-05-11 16:57:32,350 - INFO -   Context: called Leaky ReLU citep maas2013rectifier \begin{equation}
+LeakyReLU(x) = \text{max}(\alpha x, x),
+\end{e$\alpha=[NUMERICAL_RESULT]$re $\alpha=0.1$ is a hyperparameter that defines the slope of the function for negative input values. ReLU sets all negative values in the input to zero, while Leaky ReLU allows a small negative slope for negative inputs, which can help prevent neurons from dying. As for the output layer, we want any values to be mapped to a range between $0$ and $1$, which is achieved by using the sigmoid activation function:
+\begin{equation}
+sigmoid(x) = \frac{1}{1 + e^{-x}}.
+\end{equation} subsubsection Loss Function and Sparsity
+2025-05-11 16:57:32,350 - INFO - Equation_expected_value Replacement #2: '0.1' at line 147
+2025-05-11 16:57:32,350 - INFO -   Context: resulting in the following l oss function: 
+\begin{equation}
+L = MSE + \lambda \cdot \sum_{j=1}^{n_w} \lvert w_j \rvert = \frac{1}{m} \sum_{i=1}^{m} (x_i - \hat{x}_i)^2 + \lambda \cdot \sum_{j=1}^{n_w} \lvert w_j$\lambda=[NUMERICAL_RESULT]${equation}
+where $\lambda=0.1$ is the regularization strength and $w_j$ are the individual bottleneck weight values of which there are $n_w$ in total. L1 regularization pushes small weights to zero and thus helps the model prioritize the most significant features of the input data, leading to a semantically meaningful latent space. 
+
+\subsubsection{Training}
+
+Starting with the original dataset with a $m =$ 95,473 samples and using a test split of $0.1$ gives us a training and validation set of length 85,925 and a test set of length 9,548. Further using a validation split of $0.2$, gives 68,740 samples for training and 17,185 for validation. We run the training process for a maximum of 200 epochs with a batch size of 1,024 samples. The initial learning rate was set to $0.01$ along with an on plateau learning rate scheduler, which dynamically reduces the learning rate by a factor of $0.1$ if the validation loss plateaus for longer than $10$ epochs. Reducing the learning rate when a plateau is detected can help escape local minima in the loss surface and converge to a more optimal solution in the parameter space. This scheduler is used in combination with the Adaptive Moment Estimation (Adam) optimizer \citep{kingma2014adam}, which is a stochastic gradient descent algorithm combining the benefits of both adaptive learning rates \citep{duchi2011adaptive} and momentum-based optimization techniques \citep{sutskever2013importance}. Finally, we use an early stopping callback to monitor the validation loss. It automatically interrupts the training process if the validation loss does not improve for $25$ epochs and restores the weights of the model to the best observed weights during training. The training process for both autoencoder models is shown in Appendix \ref{appendix:training}. Once the autoencoder is trained, we can use the encoder to transform the original dataset $\mathbf{X}$ to the feature vector space $\mathbf{X_{ae}}$ of size ($m$, $n_{ae}$) with a reduced dimensionality of $n_{ae}$ features. 
+
+\subsection{Dimensionality Reduction}
+
+Using \textit{t-SNE} \citep{maaten2008visualizing}, short for t-Distributed Stochastic Neighbor Embedding, we create two-dimensional embeddings of the informative features previously extracted from the event file representations using PCA or sparse autoencoders. The t-SNE algorithm is a method used to map the input data onto a low-dimensional embedding space, and is particularly useful for the visualization of clusters and patterns in high-dimensional datasets. Each high-dimensional sample is transformed into a low-dimensional embedding in such a way that similar object are nearby points, while dissimilar objects are distant points in the embedding space. Essentially, it aims to capture the local structure of the data by preserving the pairwise similarities between objects while mapping them to a lower-dimensional embedding space. 
+
+\subsubsection{Algorithm}
+
+We use our informative features, $\mathbf{X_{if}}=\mathbf{X_{pc}}$ or $\mathbf{X_{if}}=\mathbf{X_{ae}}$, as input to the t-SNE algorithm to reduce the data to a two-dimensional embedding, denoted as $\mathbf{Z}$. First, t-SNE creates a probability distribution $P$ for pairs of high-dimensional data points in $\mathbf{X_{if}}$, assigning higher probabilities to similar pairs and lower probabilities to dissimilar ones. This is done by modeling pairwise similarities using a Gaussian kernel with a specific perplexity parameter, which controls the effective number of neighbors considered for each point. Next, t-SNE defines a similar probability distribution $Q$ for the pairwise similarities in the low-dimensional space $\mathbf{Z}$, modeled using a Student's t-distribution. The goal of t-SNE is to minimize the difference between $P$ and $Q$ using gradient descent, with the Kullback-Leibler (KL) divergence \citep{kullback1951information} as the cost function: 
+\begin{equation} D_{KL}(P\,|\,Q) = \sum_{i \neq j} P_{ij} \log\frac{P_{ij}}{Q_{ij}},  end equation where P_ ij
+2025-05-11 16:57:32,351 - INFO - Large_integer Replacement #1: '58,932 sources' at line 44
+2025-05-11 16:57:32,351 - INFO -   Context: 473 filtered event files from 58,932 sources resulting in an average of
+2025-05-11 16:57:32,351 - INFO - Large_integer Replacement #2: 'total of 3,559' at line 221
+2025-05-11 16:57:32,351 - INFO -   Context: The resulting catalog contains a total of 3,559 detections 3 447 flares and
+2025-05-11 16:57:32,351 - INFO - Large_integer Replacement #3: 'consists of 95,473' at line 44
+2025-05-11 16:57:32,351 - INFO -   Context: is required The final dataset consists of 95,473 filtered event files from NUMERICAL_RESULT
+2025-05-11 16:57:32,351 - INFO - Exact Replacement #1: '.6' at line 262
+2025-05-11 16:57:32,351 - INFO -   Context: F_ rm p gtrsim 5 .6 times 10 10 erg s
+2025-05-11 16:57:32,351 - INFO - Comma_separated_large Replacement #1: '3,559' at line 7
+2025-05-11 16:57:32,351 - INFO -   Context: transients producing a catalog of 3,559 candidates 3 447 flares and
+2025-05-11 16:57:32,351 - INFO - Comma_separated_large Replacement #2: '9,003' at line 44
+2025-05-11 16:57:32,351 - INFO -   Context: 62 observations per source T his i ncludes 9 003 new sources
+2025-05-11 16:57:32,351 - INFO - Comma_separated_large Replacement #3: '15,353' at line 340
+2025-05-11 16:57:32,351 - INFO -   Context: optimization process is performed u sing a reduced dataset of 15 353
+2025-05-11 16:57:32,351 - INFO - Additional Replacement #1: '-6.4' at line 278
+2025-05-11 16:57:32,351 - INFO -   Context: and fall times 3 2 -6.4 s and the lack of
+2025-05-11 16:57:32,351 - INFO - Expected_value_final_pass Replacement #1: '0.5' at line 0
+2025-05-11 16:57:32,351 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:32,351 - INFO - Saved context information to utils/num_mask_logs/chandra_representation_contexts.log

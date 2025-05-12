@@ -492,7 +492,7 @@
  To avoid artefacts in the time domain, we add another $28$ frames to the end of the observed interval, resulting in a temporal domain twice that size. 
  
  For the frequency domain, only two channels are available, and we do not expect them to differ much from each other. 
- Instead of inferring the correlation along this direction, as we do for the spatial and temporal axis, we assume a correlation between the two channels on the \SI{99}{\percent} level a priori, i.e.\ we set $\epsilon = 0.01$. 
+ Instead of inferring the correlation along this direction, as we do for the spatial and temporal axis, we assume a correlation between the two channels on the \SI{99}{\percent} level a priori, i.e.\ we set $\epsilon = [NUMERICAL_RESULT]$. 
  
  This adds another factor of $2$ of required pixels to the reconstruction. 
  For future reconstructions with deeper frequency sampling we can extend the model and treat this domain equivalently to the space and time domains. 
@@ -595,8 +595,8 @@
  \end{align}
  where $r_0$ is the ring radius, $A$ the ring asymmetry, $w$ the full width half maximum of the ring, and $x$, $y$, and $t$ are space and time coordinates.
  We choose two sets of parameters.
- The first, called \texttt{eht-crescent}, follows the validation analysis of the EHT Collaboration \cite{ehtiv}: $r_0 = \SI{22}{\muas}$, $A=0.23$, and $w= \SI{10}{\muas}$.
- The second, called \texttt{slim-crescent}, has a smaller radius, a more pronounced asymmetry, and a sharper ring: $r_0 = \SI{20}{\muas}$, $A = 0.5$, and $w=\SI{3}{\muas}$.
+ The first, called \texttt{eht-crescent}, follows the validation analysis of the EHT Collaboration \cite{ehtiv}: $r_0 = \SI$A=[NUMERICAL_RESULT]$as}$, $A=0.23$, and $w= \SI{10}{\muas}$.
+ The second, called \texttt{slim-crescent}, has a smaller radius, a more pronounced asymmetry, and a sharper ri$A = [NUMERICAL_RESULT]$= \SI{20}{\muas}$, $A = 0.5$, and $w=\SI{3}{\muas}$.
  
  
  As a third example, called \texttt{double-sources}, we choose two Gaussian shapes $b(t, x, y)$ with full-width half maximum $r=\SI{20}{\muas}$ that approach each other:

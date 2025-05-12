@@ -232,7 +232,7 @@ Due to its availability and suitability for large sample sizes, we chose the Man
 Here, we }
 compare the distributions of \gls{NUV} fluxes of planets with and without biosignatures.
 The implementation in \bioverse\ relies on the \texttt{scipy.stats.mannwhitneyu} function~\citep{Virtanen2020} and returns a p-value \rev{for each test.
-To balance the trade-off between Type I and Type II error risks, we set the significance level to the widely adopted threshold $\alpha = 0.05$.
+To balance the trade-off between Type I and Type II error risks, we set the significance level to the widely adopted threshold $\alpha = [NUMERICAL_RESULT]$.
 
 To quantify the diagnostic power of the survey, we conducted repeated randomized realizations and calculated the fraction of successful rejections of the null hypothesis, i.e., the statistical power.
 }

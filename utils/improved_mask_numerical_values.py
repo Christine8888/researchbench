@@ -277,6 +277,10 @@ def should_preserve(val, context="") -> bool:
     Returns:
         True if the value should be preserved, False otherwise
     """
+    # Skip LaTeX variable assignments with decimal values (to prevent partial masking)
+    if re.search(r'\$\\?[a-zA-Z]+_[a-zA-Z]\s*=\s*\d+\.\d+\$', context, re.IGNORECASE):
+        return False
+        
     # Common methodological values that should always be preserved
     common_values = [
         "-1", "-2", "-3",
@@ -311,15 +315,29 @@ def should_preserve(val, context="") -> bool:
         "10", "50", "100", "200", "500", "1000", "5000", "10000"
     ]
     
+    # Check for LaTeX expressions that might cause partial masking
+    if '$' in context and '=' in context:
+        # If this is part of a LaTeX variable assignment, don't preserve
+        # if it contains a decimal point (to prevent partial masking)
+        if isinstance(val, str) and '.' in val:
+            return False
+    
     # First, check if it's in common methodological values list
     if isinstance(val, (int, float)):
         str_val = str(int(val) if val == int(val) else val)
         if str_val in common_values:
+            # Exception: don't preserve if this is part of a LaTeX variable assignment
+            # with a decimal point to prevent partial masking
+            if re.search(r'\$\\?[a-zA-Z]+(?:_[a-zA-Z])?\s*=\s*' + re.escape(str_val) + r'\.\d+\$', context):
+                return False
             return True
     elif isinstance(val, str):
         # Handle string values
         str_val = val.strip()
         if str_val in common_values:
+            # Exception for LaTeX expressions to prevent partial masking
+            if re.search(r'\$\\?[a-zA-Z]+(?:_[a-zA-Z])?\s*=\s*' + re.escape(str_val) + r'\.\d+\$', context):
+                return False
             return True
         
         # Also check if it's a string representation of a common value with decimal point
@@ -327,9 +345,13 @@ def should_preserve(val, context="") -> bool:
             float_val = float(str_val)
             int_val = int(float_val) if float_val == int(float_val) else None
             if str(float_val) in common_values or (int_val is not None and str(int_val) in common_values):
+                # Exception for LaTeX expressions to prevent partial masking
+                if '.' in str_val and '$' in context and '=' in context:
+                    return False
                 return True
         except ValueError:
             pass
+
     
     # Skip masking for these patterns:
     context = context.lower()
@@ -520,42 +542,147 @@ def mask_values_in_text(text: str, values: List[Union[float, int]], expected_lis
     all_values = values + rounded_values
     
     # Sort values by string length (descending) to mask longer values first
-    sorted_values = sorted(all_values, key=lambda x: len(str(x)), reverse=True)
+    all_values_sorted = sorted(all_values, key=lambda x: len(str(x)), reverse=True)
     
     masked_text = text
     replacement_count = 0
     context_list = []
     
-    # Also make a copy of the text without commas in numbers for matching
-    text_no_commas = remove_comma(text)
+    # First, make a pass to find and fix LaTeX blocks with potential partial masking
+    # Look for LaTeX expressions with numerical assignments
+    latex_assignment_pattern = r'\$(\\?[a-zA-Z_]+(?:_\{[^}]+\})?)\s*=\s*(\d+\.?\d*)\$'
     
-    # First, handle negative numbers with tilde/approx to avoid partial masking issue
-    approx_patterns = [
-        # Patterns for approximate negative values that cause partial masking
-        r'(D\$_\d+\\approx\$-\d+\.?\d*)',
-        r'(\\mathrm\{D\}_\d+\s*\\approx\s*-\d+\.?\d*)',
-        r'(D_\d+\s*\\approx\s*-\d+\.?\d*)',
-        r'(\\approx\s*-\d+\.?\d*)',
-        r'(~\s*-\d+\.?\d*)',
+    # Pre-processing pass to handle LaTeX variables and prevent partial masking
+    for match in re.finditer(latex_assignment_pattern, masked_text):
+        var_name = match.group(1)
+        value = match.group(2)
+        
+        # Only process actual numerical values, not single digits that are likely methodological
+        if not is_single_digit(value) and '.' in value:
+            # Check if this is a case that might cause partial masking (e.g., 1.234)
+            # First determine if this would be partially preserved under the current rules
+            parts = value.split('.')
+            if len(parts) == 2 and (parts[0] in ["1", "2", "5", "10"]):
+                # This is a case that might lead to partial masking, mask the entire expression
+                full_expression = match.group(0)
+                context_text = get_context_words(masked_text, match.start(), len(full_expression))
+                
+                # Replace the entire expression to avoid partial masking
+                masked_text = masked_text[:match.start()] + \
+                             '$' + var_name + ' = [NUMERICAL_RESULT]$' + \
+                             masked_text[match.end():]
+                
+                replacement_count += 1
+                context_list.append({
+                    'value': full_expression,
+                    'context': context_text,
+                    'line_number': masked_text[:match.start()].count('\n') + 1,
+                    'type': 'latex_variable_assignment'
+                })
+    
+    # More comprehensive pattern for LaTeX equality with decimal values
+    latex_equality_patterns = [
+        r'\$(\\?[a-zA-Z_]+(?:_\{[^}]+\})?)\s*=\s*(\d+\.\d+)([^\$]*)\$',
+        r'\$\\alpha_[a-z]\s*=\s*(\d+\.?\d*)\$',
+        r'\$\\beta_[a-z]\s*=\s*(\d+\.?\d*)\$',
+        r'\$\\gamma_[a-z]\s*=\s*(\d+\.?\d*)\$',
+        r'\$\\delta_[a-z]\s*=\s*(\d+\.?\d*)\$',
+        r'\$\\sigma_[a-z]\s*=\s*(\d+\.?\d*)\$',
     ]
     
-    for pattern in approx_patterns:
+    for pattern in latex_equality_patterns:
         for match in re.finditer(pattern, masked_text):
-            # Replace the entire expression at once to avoid partial masking
-            original = match.group(0)
-            context_str = get_context_words(masked_text, match.start(), len(original))
+            # Look at the value
+            if len(match.groups()) >= 2:
+                var_name = match.group(1)
+                value = match.group(2)
+            else:
+                value = match.group(1)
+                
+            # Skip single digits and values we should preserve
+            if is_single_digit(value):
+                continue
+                
+            # Replace the entire expression to avoid partial masking
+            full_expression = match.group(0)
+            context_text = get_context_words(masked_text, match.start(), len(full_expression))
             
-            context_list.append({
-                'value': original,
-                'context': context_str,
-                'line_number': masked_text[:match.start()].count('\n') + 1,
-                'type': "approx_negative"
-            })
+            # Create a pattern to specifically replace just the value
+            original_value_pattern = re.escape(value)
+            replaced_expression = full_expression.replace(value, '[NUMERICAL_RESULT]')
             
-            # Mask the entire expression
-            new_text = masked_text[:match.start()] + '[NUMERICAL_RESULT]' + masked_text[match.end():]
-            masked_text = new_text
+            masked_text = masked_text[:match.start()] + replaced_expression + masked_text[match.end():]
+            
             replacement_count += 1
+            context_list.append({
+                'value': value,
+                'context': context_text,
+                'line_number': masked_text[:match.start()].count('\n') + 1,
+                'type': 'latex_variable_equality'
+            })
+    
+    # Also make a copy of the text without commas in numbers for matching
+    text_no_commas = remove_comma(masked_text)
+    
+    # If we have expected list values, look for them in list-like contexts first
+    if expected_list_values:
+        # Create pattern for list-like structures
+        list_patterns = [
+            r'\[([^\]]*)\]',  # Matches [...] format
+            r'are\s+([\d., ]+)',  # Matches "are x, y, z"
+            r'of\s+([\d., ]+)',   # Matches "of x, y, z"
+            r'values\s+([\d., ]+)', # Matches "values x, y, z"
+        ]
+        
+        for pattern in list_patterns:
+            for match in re.finditer(pattern, masked_text):
+                list_content = match.group(1)
+                new_content = list_content
+                
+                # Check if any expected values are in this list-like structure
+                for val in expected_list_values:
+                    str_val = str(val)
+                    # Skip single digits
+                    if is_single_digit(val):
+                        continue
+                        
+                    # Handle both exact match and rounded representations
+                    if '.' in str_val:
+                        decimal_part = str_val.split('.')[1]
+                        # Create patterns for different precision
+                        decimal_patterns = [
+                            r'\b' + re.escape(str_val) + r'\b',  # Exact match
+                            r'\b' + re.escape(str_val.rstrip('0').rstrip('.')) + r'\b',  # Trimmed zeros
+                        ]
+                        
+                        for dec_pattern in decimal_patterns:
+                            if re.search(dec_pattern, list_content):
+                                new_content = re.sub(dec_pattern, '[NUMERICAL_RESULT]', new_content)
+                                context_list.append({
+                                    'value': str_val,
+                                    'context': get_context_words(masked_text, match.start(), len(match.group(0))),
+                                    'line_number': masked_text[:match.start()].count('\n') + 1,
+                                    'type': 'list_expected_value'
+                                })
+                                replacement_count += 1
+                    else:
+                        # For integers
+                        int_pattern = r'\b' + re.escape(str_val) + r'\b'
+                        if re.search(int_pattern, list_content):
+                            new_content = re.sub(int_pattern, '[NUMERICAL_RESULT]', new_content)
+                            context_list.append({
+                                'value': str_val,
+                                'context': get_context_words(masked_text, match.start(), len(match.group(0))),
+                                'line_number': masked_text[:match.start()].count('\n') + 1,
+                                'type': 'list_expected_value'
+                            })
+                            replacement_count += 1
+                
+                # Update the masked_text with the modified list content
+                if new_content != list_content:
+                    masked_text = masked_text[:match.start()] + \
+                                  masked_text[match.start():match.end()].replace(list_content, new_content) + \
+                                  masked_text[match.end():]
     
     # Handle LaTeX equation blocks specifically that contain numerical values from expected_output
     if expected_list_values:
@@ -625,66 +752,6 @@ def mask_values_in_text(text: str, values: List[Union[float, int]], expected_lis
                              '\\begin{equation}' + new_eq_content + '\\end{equation}' + \
                              masked_text[match.end():]
     
-    # If we have expected list values, look for them in list-like contexts first
-    if expected_list_values:
-        # Create pattern for list-like structures
-        list_patterns = [
-            r'\[([^\]]*)\]',  # Matches [...] format
-            r'are\s+([\d., ]+)',  # Matches "are x, y, z"
-            r'of\s+([\d., ]+)',   # Matches "of x, y, z"
-            r'values\s+([\d., ]+)', # Matches "values x, y, z"
-        ]
-        
-        for pattern in list_patterns:
-            for match in re.finditer(pattern, masked_text):
-                list_content = match.group(1)
-                new_content = list_content
-                
-                # Check if any expected values are in this list-like structure
-                for val in expected_list_values:
-                    str_val = str(val)
-                    # Skip single digits
-                    if is_single_digit(val):
-                        continue
-                        
-                    # Handle both exact match and rounded representations
-                    if '.' in str_val:
-                        decimal_part = str_val.split('.')[1]
-                        # Create patterns for different precision
-                        decimal_patterns = [
-                            r'\b' + re.escape(str_val) + r'\b',  # Exact match
-                            r'\b' + re.escape(str_val.rstrip('0').rstrip('.')) + r'\b',  # Trimmed zeros
-                        ]
-                        
-                        for dec_pattern in decimal_patterns:
-                            if re.search(dec_pattern, list_content):
-                                new_content = re.sub(dec_pattern, '[NUMERICAL_RESULT]', new_content)
-                                context_list.append({
-                                    'value': str_val,
-                                    'context': get_context_words(masked_text, match.start(), len(match.group(0))),
-                                    'line_number': masked_text[:match.start()].count('\n') + 1,
-                                    'type': 'list_expected_value'
-                                })
-                                replacement_count += 1
-                    else:
-                        # For integers
-                        int_pattern = r'\b' + re.escape(str_val) + r'\b'
-                        if re.search(int_pattern, list_content):
-                            new_content = re.sub(int_pattern, '[NUMERICAL_RESULT]', new_content)
-                            context_list.append({
-                                'value': str_val,
-                                'context': get_context_words(masked_text, match.start(), len(match.group(0))),
-                                'line_number': masked_text[:match.start()].count('\n') + 1,
-                                'type': 'list_expected_value'
-                            })
-                            replacement_count += 1
-                
-                # Update the masked_text with the modified list content
-                if new_content != list_content:
-                    masked_text = masked_text[:match.start()] + \
-                                  masked_text[match.start():match.end()].replace(list_content, new_content) + \
-                                  masked_text[match.end():]
-    
     # First pass: explicitly look for large integers with commas in specific paper contexts
     large_integer_patterns = [
         r'(\d{3},\d{3})\s+galaxies',
@@ -709,6 +776,34 @@ def mask_values_in_text(text: str, values: List[Union[float, int]], expected_lis
                       masked_text[match.start():match.end()].replace(numerical_value, '[NUMERICAL_RESULT]') + \
                       masked_text[match.end():]
             
+            masked_text = new_text
+            replacement_count += 1
+    
+    # First, handle negative numbers with tilde/approx to avoid partial masking issue
+    approx_patterns = [
+        # Patterns for approximate negative values that cause partial masking
+        r'(D\$_\d+\\approx\$-\d+\.?\d*)',
+        r'(\\mathrm\{D\}_\d+\s*\\approx\s*-\d+\.?\d*)',
+        r'(D_\d+\s*\\approx\s*-\d+\.?\d*)',
+        r'(\\approx\s*-\d+\.?\d*)',
+        r'(~\s*-\d+\.?\d*)',
+    ]
+    
+    for pattern in approx_patterns:
+        for match in re.finditer(pattern, masked_text):
+            # Replace the entire expression at once to avoid partial masking
+            original = match.group(0)
+            context_str = get_context_words(masked_text, match.start(), len(original))
+            
+            context_list.append({
+                'value': original,
+                'context': context_str,
+                'line_number': masked_text[:match.start()].count('\n') + 1,
+                'type': "approx_negative"
+            })
+            
+            # Mask the entire expression
+            new_text = masked_text[:match.start()] + '[NUMERICAL_RESULT]' + masked_text[match.end():]
             masked_text = new_text
             replacement_count += 1
     
@@ -871,7 +966,7 @@ def mask_values_in_text(text: str, values: List[Union[float, int]], expected_lis
         masked_text = new_text
     
     # Filter values to exclude single-digit integers
-    filtered_values = [v for v in sorted_values if not is_single_digit(v)]
+    filtered_values = [v for v in all_values_sorted if not is_single_digit(v)]
     
     # Process exact values
     for value in filtered_values:

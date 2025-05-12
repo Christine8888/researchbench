@@ -2,12 +2,22 @@ Masked values and their context for paper: CE_accretors
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 1 replacements
   LATEX: 1 replacements
   EXACT: 2 replacements
   EXPECTED_VALUE_FINAL_PASS: 6 replacements
   TRAILING_ZEROS: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.0019
+  Line: 114
+  Context: the metallicity here we adopt $Z=0.0019\simeq Z_\odot/10$ relevant for the progenitor population
+
 
 LATEX REPLACEMENTS (1):
 --------------------------------------------------------------------------------

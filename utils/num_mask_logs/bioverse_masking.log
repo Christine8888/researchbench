@@ -1,7 +1,9 @@
-2025-05-11 16:39:20,749 - INFO - Logging to file: utils/num_mask_logs/bioverse_masking.log
-2025-05-11 16:39:20,750 - INFO - Found 15 unique numerical values to mask
-2025-05-11 16:39:20,872 - INFO - Made 18 replacements in the text
-2025-05-11 16:39:20,872 - INFO - Saved masked text to papers/masked_texts/bioverse.txt
-2025-05-11 16:39:20,872 - INFO - Exact Replacement #1: '0.8' at line 165
-2025-05-11 16:39:20,872 - INFO -   Context: transiting glspl EEC with radii 0.8 S 0 25 R 1
-2025-05-11 16:39:20,872 - INFO - Saved context information to utils/num_mask_logs/bioverse_contexts.log
+2025-05-11 16:57:31,631 - INFO - Logging to file: utils/num_mask_logs/bioverse_masking.log
+2025-05-11 16:57:31,631 - INFO - Found 15 unique numerical values to mask
+2025-05-11 16:57:31,755 - INFO - Made 18 replacements in the text
+2025-05-11 16:57:31,755 - INFO - Saved masked text to papers/masked_texts/bioverse.txt
+2025-05-11 16:57:31,755 - INFO - Latex_variable_equality Replacement #1: '0.05' at line 235
+2025-05-11 16:57:31,755 - INFO -   Context: to the widely adopted threshold $\alpha = 0.05$ To quantify the diagnostic power
+2025-05-11 16:57:31,755 - INFO - Exact Replacement #1: '0.8' at line 165
+2025-05-11 16:57:31,755 - INFO -   Context: transiting glspl EEC with radii 0.8 S 0 25 R 1
+2025-05-11 16:57:31,755 - INFO - Saved context information to utils/num_mask_logs/bioverse_contexts.log

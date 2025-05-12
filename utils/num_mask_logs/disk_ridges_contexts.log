@@ -2,12 +2,27 @@ Masked values and their context for paper: disk_ridges
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 2 replacements
   LARGE_INTEGER: 2 replacements
   ROUNDED: 1 replacements
   EXACT: 2 replacements
   ADDITIONAL: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 7.0
+  Line: 27
+  Context: in the vertical direction of $W_{\rm \sun}=7.0$ km s 1 These values
+
+Replacement #2:
+  Expression: 15.2
+  Line: 31
+  Context: second sample includes all stars  brighte r than G 15 2
+
 
 LARGE_INTEGER REPLACEMENTS (2):
 --------------------------------------------------------------------------------

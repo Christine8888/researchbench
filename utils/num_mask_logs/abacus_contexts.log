@@ -2,11 +2,36 @@ Masked values and their context for paper: abacus
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   LATEX: 3 replacements
   ROUNDED: 1 replacements
   ADDITIONAL: 4 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.25
+  Line: 112
+  Context: twice the softening length for $\eta = 0.25$ the value used in AbacusSummit
+
+Replacement #2:
+  Expression: 2.16
+  Line: 138
+  Context: method For our spline the conversion is $\epsilon_s = 2 16 epsilon_p For all reasonable
+
+Replacement #3:
+  Expression: 2.5
+  Line: 431
+  Context: 2 pairwise comparisons are modest . The algo rithm starts with R_c 2
+
+Replacement #4:
+  Expression: 0.1
+  Line: 537
+  Context: per second in unclustered states and 45  million at the terminal redshift
+
 
 LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------

@@ -2,6 +2,8 @@ Masked values and their context for paper: lensing_dr6_growth
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_ASSIGNMENT: 1 replacements
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   EQUATION_EXPECTED_VALUE: 40 replacements
   LATEX: 11 replacements
   EXACT: 8 replacements
@@ -9,6 +11,39 @@ SUMMARY OF REPLACEMENTS:
   EXPECTED_VALUE_FINAL_PASS: 4 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $z=2.16$
+  Line: 1313
+  Context: which our lensing comes is $z=2.16$ the peak of the red
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.055
+  Line: 899
+  Context: depth we fix this at $\tau=0.055$ citep planck2015 fk We fix
+
+Replacement #2:
+  Expression: 0.0035
+  Line: 1127
+  Context: ell m alpha T_ el l m}$, where $\al pha 0 0035 While this
+
+Replacement #3:
+  Expression: 0.0035
+  Line: 1127
+  Context: all array frequencies with a  constant coeffic ient of alpha 0 0035
+
+Replacement #4:
+  Expression: 0.96
+  Line: 1313
+  Context: strongly to our C_ ell phi\phi} is slightly below 1 at
+
 
 EQUATION_EXPECTED_VALUE REPLACEMENTS (40):
 --------------------------------------------------------------------------------

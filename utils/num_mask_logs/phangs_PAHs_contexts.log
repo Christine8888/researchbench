@@ -2,14 +2,29 @@ Masked values and their context for paper: phangs_PAHs
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 2 replacements
   STD_DEV_VALUE: 6 replacements
   LATEX: 4 replacements
   ROUNDED: 2 replacements
-  EXACT: 71 replacements
+  EXACT: 72 replacements
   ADDITIONAL: 10 replacements
   EXPECTED_VALUE_FINAL_PASS: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.16
+  Line: 169
+  Context: from the shallowest NGC 1087 $\beta = 0.16 \pm 0.06$ to the steepest NGC 1365
+
+Replacement #2:
+  Expression: 0.38
+  Line: 169
+  Context: 0 06 to the steepe st (NGC~1365; $\beta =  0 38 pm 0 08
+
 
 STD_DEV_VALUE REPLACEMENTS (6):
 --------------------------------------------------------------------------------
@@ -89,7 +104,7 @@ Replacement #2:
   Context: 3 7 7 ratio of about 0.4 dex although they have not
 
 
-EXACT REPLACEMENTS (71):
+EXACT REPLACEMENTS (72):
 --------------------------------------------------------------------------------
 
 Replacement #1:
@@ -103,346 +118,351 @@ Replacement #2:
   Context: The best fitting slopes are 0.16 0 38 for the MUSE
 
 Replacement #3:
+  Expression: 0.08
+  Line: 169
+  Context: 0 08 0 38 pm 0.08 In Figure ref f galaxies_sorted_by_slope
+
+Replacement #4:
   Expression: 0.26
   Line: 181
   Context: show steeper than average slopes 0.26 pm 0 05 and 0
 
-Replacement #4:
+Replacement #5:
   Expression: 0.13
   Line: 92
   Context: are 0 09 0 11 0.13 and 0 29 mathrm MJy
 
-Replacement #5:
+Replacement #6:
   Expression: 0.13
   Line: 96
   Context: F770W _ mathrm PAH F770W 0.13 times F200W The prescription is
 
-Replacement #6:
+Replacement #7:
   Expression: 0.2
   Line: 40
   Context: with a slope of sim 0.2 and a scatter of sim
 
-Replacement #7:
+Replacement #8:
   Expression: .2
   Line: 84
   Context: use the survey derived DR2 .2 surface brightness maps of the
 
-Replacement #8:
+Replacement #9:
   Expression: .3
   Line: 114
   Context: and anomalous log PAH 11 .3 7 7 ratios Our conclusions
 
-Replacement #9:
+Replacement #10:
   Expression: .3
   Line: 139
   Context: anomalously high log PAH 11 .3 7 7 ratios primarily in
 
-Replacement #10:
+Replacement #11:
   Expression: .3
   Line: 153
   Context: unusually high log PAH 11 .3 7 7 ratios occupying the
 
-Replacement #11:
+Replacement #12:
   Expression: .3
   Line: 169
   Context: deriving the log PAH 11 .3 7 7 ratio This makes
 
-Replacement #12:
+Replacement #13:
   Expression: .3
   Line: 181
   Context: scatter in log PAH 11 .3 7 7 around the best
 
-Replacement #13:
+Replacement #14:
   Expression: .3
   Line: 181
   Context: show higher log PAH 11 .3 7 7 ratios on average
 
-Replacement #14:
+Replacement #15:
   Expression: .3
   Line: 185
   Context: unusually high log PAH 11 .3 7 7 ratios that do
 
-Replacement #15:
+Replacement #16:
   Expression: .3
   Line: 187
   Context: cases the log PAH 11 .3 7 7 are unusually high
 
-Replacement #16:
+Replacement #17:
   Expression: .3
   Line: 193
   Context: that the log PAH 11 .3 7 7 ratios observed in
 
-Replacement #17:
+Replacement #18:
   Expression: .3
   Line: 195
   Context: hereafter The log PAH 11 .3 7 7 ratios observed for
 
-Replacement #18:
+Replacement #19:
   Expression: .3
   Line: 195
   Context: values of log PAH 11 .3 7 7 sim 0 4
 
-Replacement #19:
-  Expression: .3
-  Line: 195
-  Context: values of log PAH 11 .3 7 7 sim 0 6
-
 Replacement #20:
   Expression: .3
-  Line: 197
+  Line: 195
   Context: values of log PAH 11 .3 7 7 sim 0 6
 
 Replacement #21:
   Expression: .3
   Line: 197
-  Context: variation in log PAH 11 .3 7 7 with varying I
+  Context: values of log PAH 11 .3 7 7 sim 0 6
 
 Replacement #22:
   Expression: .3
-  Line: 199
-  Context: of observed log PAH 11 .3 7 7 ratios in the
+  Line: 197
+  Context: variation in log PAH 11 .3 7 7 with varying I
 
 Replacement #23:
   Expression: .3
   Line: 199
-  Context: anomalous group log PAH 11 .3 7 7 does not vary
+  Context: of observed log PAH 11 .3 7 7 ratios in the
 
 Replacement #24:
   Expression: .3
   Line: 199
-  Context: in anomalous log PAH 11 .3 7 7 ratios is related
+  Context: anomalous group log PAH 11 .3 7 7 does not vary
 
 Replacement #25:
   Expression: .3
   Line: 199
-  Context: correlation with log PAH 11 .3 7 7 is expected The
+  Context: in anomalous log PAH 11 .3 7 7 ratios is related
 
 Replacement #26:
+  Expression: .3
+  Line: 199
+  Context: correlation with log PAH 11 .3 7 7 is expected The
+
+Replacement #27:
   Expression: .3
   Line: 201
   Context: showing anomalous log PAH 11 .3 7 7 ratios are indeed
 
-Replacement #27:
+Replacement #28:
   Expression: .3
   Line: 203
   Context: subsection Small log PAH 11 .3 7 7 enhancement in AGN
 
-Replacement #28:
+Replacement #29:
   Expression: .3
   Line: 211
   Context: increase in log PAH 11 .3 7 7 at a fixed
 
-Replacement #29:
+Replacement #30:
   Expression: .3
   Line: 211
   Context: excess in log PAH 11 .3 7 7 that causes steeper
 
-Replacement #30:
+Replacement #31:
   Expression: .3
   Line: 213
   Context: showing elevated log PAH 11 .3 7 7 ratios in the
 
-Replacement #31:
+Replacement #32:
   Expression: .3
   Line: 213
   Context: comparing the log PAH 11 .3 7 7 distributions in AGN
 
-Replacement #32:
+Replacement #33:
   Expression: .3
   Line: 213
   Context: a small log PAH 11 .3 7 7 enhancement in the
 
-Replacement #33:
+Replacement #34:
   Expression: .3
   Line: 213
   Context: of the log PAH 11 .3 7 7 ratios in AGN
 
-Replacement #34:
+Replacement #35:
   Expression: .3
   Line: 213
   Context: The enhanced log PAH 11 .3 7 7 ratios are seen
 
-Replacement #35:
+Replacement #36:
   Expression: .3
   Line: 215
   Context: difference in log PAH 11 .3 7 7 is not driven
 
-Replacement #36:
+Replacement #37:
   Expression: .3
   Line: 226
   Context: impact the log PAH 11 .3 7 7 ratio see figure
 
-Replacement #37:
+Replacement #38:
   Expression: .3
   Line: 228
   Context: that the log PAH 11 .3 7 7 ratio varies primarily
 
-Replacement #38:
+Replacement #39:
   Expression: .3
   Line: 228
   Context: the observed log PAH 11 .3 7 7 ratio variation Therefore
 
-Replacement #39:
+Replacement #40:
   Expression: .3
   Line: 228
   Context: variation in log PAH 11 .3 7 7 of sim 0
 
-Replacement #40:
+Replacement #41:
   Expression: .3
   Line: 230
   Context: unusually high log PAH 11 .3 7 7 ratios with up
 
-Replacement #41:
+Replacement #42:
   Expression: .3
   Line: 230
   Context: the highest log PAH 11 .3 7 7 values are farther
 
-Replacement #42:
+Replacement #43:
   Expression: .3
   Line: 232
   Context: The elevated log PAH 11 .3 7 7 ratios may be
 
-Replacement #43:
+Replacement #44:
   Expression: .3
   Line: 232
   Context: increasing the log PAH 11 .3 7 7 ratio An alternative
 
-Replacement #44:
+Replacement #45:
   Expression: .3
   Line: 236
   Context: disc The unusual PAH 11 .3 7 7 ratio may be
 
-Replacement #45:
+Replacement #46:
   Expression: .3
   Line: 236
   Context: era unusually high PAH 11 .3 7 7 ratios in low
 
-Replacement #46:
+Replacement #47:
   Expression: .3
   Line: 236
   Context: on the observed PAH 11 .3 7 7 ratio in our
 
-Replacement #47:
+Replacement #48:
   Expression: .3
   Line: 236
   Context: case altering log PAH 11 .3 7 7 by sim 0
 
-Replacement #48:
+Replacement #49:
   Expression: .3
   Line: 236
   Context: that the peculiar PAH 11 .3 7 7 ratios observed in
 
-Replacement #49:
+Replacement #50:
   Expression: .3
   Line: 238
   Context: of the log PAH 11 .3 7 7 ratio for 0
 
-Replacement #50:
+Replacement #51:
   Expression: .3
   Line: 238
   Context: the slight log PAH 11 .3 7 7 enhancement The enhancement
 
-Replacement #51:
+Replacement #52:
   Expression: .3
   Line: 248
   Context: variation in log PAH 11 .3 7 7 of sim 0
 
-Replacement #52:
+Replacement #53:
   Expression: .3
   Line: 311
   Context: the standard log PAH 11 .3 7 7 assumed throughout the
 
-Replacement #53:
+Replacement #54:
   Expression: .3
   Line: 315
   Context: the ratio log PAH 11 .3 7 7 can be estimated
 
-Replacement #54:
+Replacement #55:
   Expression: .3
   Line: 315
   Context: before estimating log PAH 11 .3 7 7 First the figure
 
-Replacement #55:
+Replacement #56:
   Expression: .3
   Line: 317
   Context: increase in log PAH 11 .3 7 7 ratios is not
 
-Replacement #56:
+Replacement #57:
   Expression: .3
   Line: 317
   Context: increase in log PAH 11 .3 7 7 observed in AGN
 
-Replacement #57:
+Replacement #58:
   Expression: 0.4
   Line: 167
   Context: generally above log F200W F770W 0.4 mathrm dex We use this
 
-Replacement #58:
+Replacement #59:
   Expression: 0.4
   Line: 230
   Context: ratios of log F200W F770W 0.4 dex They originate in the
 
-Replacement #59:
+Replacement #60:
   Expression: 0.4
   Line: 250
   Context: dust emission log F200W F770W 0.4 dex in the so called
 
-Replacement #60:
+Replacement #61:
   Expression: 0.7
   Line: 153
   Context: ratios of sim 0 6 0.7 dex This group does not
 
-Replacement #61:
+Replacement #62:
   Expression: .7
   Line: 169
   Context: log PAH 11 3 7 .7 ratios somewhat larger here compared
 
-Replacement #62:
+Replacement #63:
   Expression: .7
   Line: 179
   Context: mathrm PAH 11 3 7 .7 sim 0 025 dex is
 
-Replacement #63:
+Replacement #64:
   Expression: .7
   Line: 181
   Context: log PAH 11 3 7 .7 ratio of about 0 3
 
-Replacement #64:
+Replacement #65:
   Expression: .7
   Line: 191
   Context: log PAH 11 3 7 .7 In Figure ref f stacked_SEDs_weird_PAHs_fnu
 
-Replacement #65:
+Replacement #66:
   Expression: .7
   Line: 193
   Context: log PAH 11 3 7 .7 in the anomalous group As
 
-Replacement #66:
+Replacement #67:
   Expression: .7
   Line: 213
   Context: in PAH 11 3 7 .7 suggesting that the old stellar
 
-Replacement #67:
+Replacement #68:
   Expression: .7
   Line: 224
   Context: the PAH 11 3 7 .7 ratio strongly depends on the
 
-Replacement #68:
+Replacement #69:
   Expression: .7
   Line: 240
   Context: unusual PAH 11 3 7 .7 ratios Koziol et al in
 
-Replacement #69:
+Replacement #70:
   Expression: .7
   Line: 309
   Context: log PAH 11 3 7 .7 and log F200W F2100W we
 
-Replacement #70:
+Replacement #71:
   Expression: .7
   Line: 311
   Context: log PAH 11 3 7 .7 and log F200W F2100W for
 
-Replacement #71:
+Replacement #72:
   Expression: .7
   Line: 311
   Context: log PAH 11 3 7 .7 and log F200W F2100W are

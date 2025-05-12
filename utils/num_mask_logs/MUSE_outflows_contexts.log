@@ -2,12 +2,37 @@ Masked values and their context for paper: MUSE_outflows
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   LATEX: 3 replacements
   EXACT: 4 replacements
   ADDITIONAL: 8 replacements
   EXPECTED_VALUE_FINAL_PASS: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.7
+  Line: 70
+  Context: Omega_ mathrm M 0 3 $\Omega_{\Lambda}=0.7$ and h 0 7 section
+
+Replacement #2:
+  Expression: 0.7
+  Line: 70
+  Context: 0 3 Omega_ Lambda NUMERICAL _RESULT and h 0 7 section
+
+Replacement #3:
+  Expression: 0.4315
+  Line: 116
+  Context: R is SII lambda 6717 AA/[SII]$\ lambda 6731 AA and a
+
+Replacement #4:
+  Expression: 627.1
+  Line: 116
+  Context: SII lambda 6717 a NUMERICAL_RESULT lambda$67 31 AA and a 0
+
 
 LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------

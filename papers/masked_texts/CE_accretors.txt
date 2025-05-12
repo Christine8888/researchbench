@@ -111,7 +111,7 @@ use in the population synthesis code \code{POSYDON}
 files and customized routines at
 \href{https://zenodo.org/record/7036016}{doi:10.5281/zenodo.7036016}.
 Our setup is similar to \cite{renzo:2021zoph}, except for the
-metallicity: here we adopt $Z=0.0019\simeq Z_\odot/10$, relevant for
+metallicity: here we adopt $Z=[NUMERICAL_RESULT]\simeq Z_\odot/10$, relevant for
 the progenitor population of GW events \citep[e.g.,][]{vanson:2021}.
 Moreover, we apply throughout the star a small amount of mixing with
 diffusivity \texttt{min\_D\_mix}=0.01\,$\mathrm{cm^2 s^{-1}}$. This

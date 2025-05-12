@@ -97,7 +97,8 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  M_{\textit{K}} \\
  \end{array}\right],
  \end{equation}
- where $M_{\mathrm{x}}$ is the magnitude in band {x}, and $x^{\prime}$ and $y^{\prime}$ correspond to the values on the manifold for a particular galaxy. Similarly, the backward transform is\begin{equation} \label{eq:inv_trans_matrix_2to11}
+ where $M_{\mathrm{x}}$ is the magnitude in band {x}, and $x^{\prime}$ and $y^{\prime}$ correspond to the values on the manifold for a particular galaxy. Similarly, the backward transform is given by,
+ \begin{equation} \label{eq:inv_trans_matrix_2to11}
  \left[\begin{array}{c}
  M_{\textit{FUV}}^{\prime} \\
  M_{\textit{NUV}}^{\prime} \\
@@ -128,7 +129,7 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  \mathrm{D}_1^{\prime} \\
  \mathrm{D}_2^{\prime} \\
  \end{array}\right],
- \end{equation}nd{equation}
+ \end{equation}
  where the $M'_x$ represent the approximate magnitude values derived from the two manifold values. The two-dimensional manifold can also be defined within the 11-dimensional space by the plane normal to the manifold with a set of 9 equations as Eq. (\ref{eq:manifold_eq}).
  
 
@@ -144,7 +145,7 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  
  
 \subsection{Gas mass}
- A key property that controls the star formation of a galaxy is gas. However, observations of neutral atomic hydrogen (HI) and molecular hydrogen (H$_2$) are demanding, limiting the number of galaxies with observed HI and H$_2$ masses. The galaxies with these measurements also tend to be gas-rich, which may bias the distribution on the manifold. Thus, we resort to using empirical relations provided in \citet{Yesuf_2019} in deriving gas mass estimates using dust absorption, galaxy size, $M_*$, and SFR of a galaxy. The above work also provides the total gas mass, which will be used for discussion in Section \ref{sec:discussion}. The equations used to derive the masses for HI ($M_{\mathrm{HI}}$), H$_2$ ($M_{\mathrm{H_2}}$), and total gas masses ($M_{\mathrm{gas\begin{equation}\label{eq:HI}
+ A key property that controls the star formation of a galaxy is gas. However, observations of neutral atomic hydrogen (HI) and molecular hydrogen (H$_2$) are demanding, limiting the number of galaxies with observed HI and H$_2$ masses. The galaxies with these measurements also tend to be gas-rich, which may bias the distribution on the manifold. Thus, we resort to using empirical relations provided in \citet{Yesuf_2019} in deriving gas mass estimates using dust absorption, galaxy size, $M_*$, and SFR of a galaxy. The above work also provides the total gas mass, which will be used for discussion in Section \ref{sec:discussion}. The equations used to derive the masses for HI ($M_{\mathrm{HI}}$), H$_2$ ($M_{\mathrm{H_2}}$), and total gas masses ($M_{\mathrm{gas}}$) are giv\begin{equation}\label{eq:HI}
  \begin{split}
  \log M_{\mathrm{HI}}=(9.07\pm[NUMERICAL_RESULT]) + (1.08&\pm[NUMERICAL_RESULT]) \log R_{50} \\
  &+ (0.47\pm0.02) \log \operatorname{SFR},
@@ -155,7 +156,7 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  \log M_{\mathrm{gas}}=(9.28\pm[NUMERICAL_RESULT]) + (0.87&\pm[NUMERICAL_RESULT]) \log R_{50} \\
  &+ ([NUMERICAL_RESULT]\pm0.04) \log \operatorname{SFR},
  \end{split}
- \end{equation}as}}=(9.28\pm0.04) + (0.87&\pm0.11) \log R_{50} \\
+ \end{equation}m0.04) + (0.87&\pm0.11) \log R_{50} \\
  &+ (0.70\pm0.04) \log \operatorname{SFR},
  \end{split}
  \end{equation}
@@ -163,9 +164,11 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  
 
 \subsection{Galaxy morphology} \label{sec:physical_properties_morph}
- We look at the morphologies provided in \citet{Dominguez_2018}, which includes the Hubble T-types and Galaxy Zoo 2 classifications using convolutional neural networks. Both color and morphology are significantly related, with most blue galaxies being late-types (spirals) and most early-types (ellipticals) being red. Color is often used as a handy selection criterion for morphological classification \citep[e.g.,][]{Smethurst_2022}. This section tries to understand the relationship between the manifold axes and morphology. Figure \ref{fig:manifold_Ttype} shows the distribution of T-types along the manifold. Early-type galaxies correspond to T-type>0, spirals (Sa to Sm) are T-type<0, and T-type=0 are S0 galaxies. There is a clear separation of T-types in the D$_1$ and D$_2$ space, which suggests that the manifold axes can be a criterion for morphological classification\begin{equation}
+ We look at the morphologies provided in \citet{Dominguez_2018}, which includes the Hubble T-types and Galaxy Zoo 2 classifications using convolutional neural networks. Both color and morphology are significantly related, with most blue galaxies being late-types (spirals) and most early-types (ellipticals) being red. Color is often used as a handy selection criterion for morphological classification \citep[e.g.,][]{Smethurst_2022}. This section tries to understand the relationship between the manifold axes and morphology. Figure \ref{fig:manifold_Ttype} shows the distribution of T-types along the manifold. Early-type galaxies correspond to T-type>0, spirals (Sa to Sm) are T-type<0, and T-type=0 are S0 galaxies. There is a clear separation of T-types in the D$_1$ and D$_2$ space, which suggests that the manifold axes can be a criterion for morphological classification. 
+ 
+ The cl\begin{equation}
  \mathrm{D}_2 =[NUMERICAL_RESULT]*\mathrm{D}_1 + [NUMERICAL_RESULT],
- \end{equation}red T-type>0 and T-type$\le$0 as two labels. The obtained boundary was obtained to be,
+ \end{equation} and T-type$\le$0 as two labels. The obtained boundary was obtained to be,
  \begin{equation}
  \mathrm{D}_2 =[NUMERICAL_RESULT]*\mathrm{D}_1 + [NUMERICAL_RESULT],
  \end{equation}
@@ -182,7 +185,7 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
 
 \subsection{Constant star formation evolution} \label{sec:Evolution-constSFR}
 
- The simplest evolution scenario is to assume a constant SFR for a given period $\Delta t$. We could think of a situation with infalling gas to sustain ongoing star formation. This mode of evolution is similar to a situation in the star-forming stage of a galaxy \citep[e.g.,][]{Bouche_2010, Daddi_2010, Genzel_2010, Tacconi_2010, Dave_2012, Dekel_2013, Lilly_2013,Forbes_2014a, Forbes_2014b, Hopkins_2014,Mitra_2015,Tacchella_2016}. If a galaxy starts at a particular location $[d1(t_1), d2(t_1)]$ on the manifold at time $t_1$, we can define SFR($t_1$) and $M_*$($t_1$) as a function of $d1(t_1)$ and $d2(t_1)$ as input (c.f. Appendix \ref{sec:fitting}). Thereafter, at time $t_2 = t_1 + \Delta t$, we have that $M_*(t_2) = M_*(t_1)+ (1-r) \cdot \operatorname{SFR}(t_1)\Delta t$, where $r=0.35$ is the return fraction assuming a Chabrier IMF \citep{Chabrier_2003}. We set that $\operatorname{SFR}(t_2) = \operatorname{SFR}(t_1)$. Since the SFR and $M_*$ maps have almost orthogonal gradients, choosing SFR and $M_*$ also gives us the values on the manifold.
+ The simplest evolution scenario is to assume a constant SFR for a given period $\Delta t$. We could think of a situation with infalling gas to sustain ongoing star formation. This mode of evolution is similar to a situation in the star-forming stage of a galaxy \citep[e.g.,][]{Bouche_2010, Daddi_2010, Genzel_2010, Tacconi_2010, Dave_2012, Dekel_2013, Lilly_2013,Forbes_2014a, Forbes_2014b, Hopkins_2014,Mitra_2015,Tacchella_2016}. If a galaxy starts at a particular location $[d1(t_1), d2(t_1)]$ on the manifold at time $t_1$, we can define SFR($t_1$) and $M_*$($t_1$) as a function of $d1(t_1)$ and $d2(t_1)$ as input (c.f. Appendix \ref{sec:fitting}). Thereafter, at time $t_2 = t_1 + \Delta t$, we have that $M_*(t_2) = M_*(t_1)+ (1-r) \cdot \operatorname{SFR}(t_1)\Delta t$, where $r=[NUMERICAL_RESULT]$ is the return fraction assuming a Chabrier IMF \citep{Chabrier_2003}. We set that $\operatorname{SFR}(t_2) = \operatorname{SFR}(t_1)$. Since the SFR and $M_*$ maps have almost orthogonal gradients, choosing SFR and $M_*$ also gives us the values on the manifold.
  
  By considering galaxies sampled on a grid, we derive a vector field for the manifold. We calculate the direction in which a galaxy will move on the manifold given constant SFR. Figure \ref{fig:evo-constant-norm} shows the "vector field" on SFR and $M_*$ maps. The arrow lengths are normalized to a constant for visibility. In reality, the largest change in amplitude occurs for the most actively star-forming less massive galaxies, which occupy the lower regions. The movement on the manifold per unit of time is smaller for quiescent galaxies that are more massive and make fewer stars. Arrows follow the direction of increasing $M_*$ along the "iso-SFR" lines. Since the arrows point along the gradient of the $M_*$ map, it can be understood that constant SFR is an efficient mode of evolution to grow the $M_*$ of galaxies. If all the galaxies on the manifold receive enough gas to sustain the star formation for an extended period, the manifold should move along the arrow direction. While this may apply to the main sequence galaxies, this may not be plausible for galaxies that have left the main sequence.
  

@@ -2,12 +2,47 @@ Masked values and their context for paper: gw_cosmo
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_ASSIGNMENT: 1 replacements
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   LATEX_RANGE: 1 replacements
   LATEX: 1 replacements
   EXACT: 1 replacements
   ADDITIONAL: 2 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $n=1.91$
+  Line: 175
+  Context: As an example we fix $n=1.91$ as predicted by the RT
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.1
+  Line: 151
+  Context: function and we have picked $\sigma = 0.1$ For all the D_L mathrm
+
+Replacement #2:
+  Expression: 0.3
+  Line: 158
+  Context: H_0 70 km s 1 }$ Mpc$^{-1}$, Omega_M 0 3 Omega_ Lambda
+
+Replacement #3:
+  Expression: 0.7
+  Line: 158
+  Context: km s 1 Omega_M NUMER ICAL_RESULT]$ $\Omega_ M 0 3 Omega_ Lambda
+
+Replacement #4:
+  Expression: 0.3
+  Line: 166
+  Context: we can derive meaningful cons traints on $w_ 0 and w_a Fixing H_0
+
 
 LATEX_RANGE REPLACEMENTS (1):
 --------------------------------------------------------------------------------

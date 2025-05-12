@@ -1,60 +1,86 @@
-2025-05-11 16:39:30,486 - INFO - Logging to file: utils/num_mask_logs/trgb_std_candle_masking.log
-2025-05-11 16:39:30,486 - INFO - Found 39 unique numerical values to mask
-2025-05-11 16:39:30,486 - INFO - Found 12 values from expected_output lists: [21, 0.009, 36, 0.013, 15.07, 14.933, -1.68, 0.71, 15.16, -0.68, -1.48, 16.91]
-2025-05-11 16:39:30,793 - INFO - Made 83 replacements in the text
-2025-05-11 16:39:30,793 - INFO - Saved masked text to papers/masked_texts/trgb_std_candle.txt
-2025-05-11 16:39:30,793 - INFO - Equation_expected_value Replacement #1: '0' at line 151
-2025-05-11 16:39:30,793 - INFO -   Context: for metallicity differences thus becomes \begin{equation}\label{eq:periodcalibration}
+2025-05-11 16:57:41,389 - INFO - Logging to file: utils/num_mask_logs/trgb_std_candle_masking.log
+2025-05-11 16:57:41,390 - INFO - Found 39 unique numerical values to mask
+2025-05-11 16:57:41,390 - INFO - Found 12 values from expected_output lists: [21, 0.009, 36, 0.013, 15.07, 14.933, -1.68, 0.71, 15.16, -0.68, -1.48, 16.91]
+2025-05-11 16:57:41,711 - INFO - Made 96 replacements in the text
+2025-05-11 16:57:41,712 - INFO - Saved masked text to papers/masked_texts/trgb_std_candle.txt
+2025-05-11 16:57:41,712 - INFO - Latex_variable_assignment Replacement #1: '$R_V = 2.7$' at line 31
+2025-05-11 16:57:41,712 - INFO -   Context: by construction citep madore_pl_1982 assuming $R_V = 2.7$ and a typical color of
+2025-05-11 16:57:41,712 - INFO - Latex_variable_assignment Replacement #2: '$R_{V} = 2.7$' at line 71
+2025-05-11 16:57:41,712 - INFO -   Context: tip citep Anderson2022 and t he recommende d R_ V 2 7
+2025-05-11 16:57:41,712 - INFO - Latex_variable_assignment Replacement #3: '$R_I=1.461$' at line 71
+2025-05-11 16:57:41,712 - INFO -   Context: R_V 3 3 in Section ref{sec:mud iff which yields R_I 1
+2025-05-11 16:57:41,712 - INFO - Latex_variable_assignment Replacement #4: '$R_V=2.7$' at line 145
+2025-05-11 16:57:41,712 - INFO -   Context: mudiff Using R_ V mathr m{SMC}} = 3 3 instead of our
+2025-05-11 16:57:41,712 - INFO - Latex_variable_assignment Replacement #5: '$R_V=2.7$' at line 145
+2025-05-11 16:57:41,712 - INFO -   Context: from 0 176 to 0 182 when  assuming R_ mathrm V SMC
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #1: '2.7' at line 71
+2025-05-11 16:57:41,712 - INFO -   Context: t R_ V NUMERICAL_RESULT d $R_{V} = 2.7$ value for the SMC from
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #2: '3.3' at line 71
+2025-05-11 16:57:41,712 - INFO -   Context: As a check we a lso conside red R_V 3 3 in
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #3: '1.461' at line 71
+2025-05-11 16:57:41,712 - INFO -   Context: 3 in Section R_I NUMERIC AL_RESULT]$ iff which yields R_I 1
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #4: '0.10' at line 111
+2025-05-11 16:57:41,712 - INFO -   Context: and consider it below only  for comparison and using a fixed value
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #5: '2.7' at line 145
+2025-05-11 16:57:41,712 - INFO -   Context: Using R_ V mathr R_V = [NUMERI CAL_RESULT 3 3 instead of
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #6: '2.7' at line 145
+2025-05-11 16:57:41,712 - INFO -   Context: 0 176 to 0 R_V [NUMERICA L_RESULT assuming R_ mathrm V
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #7: '14.911' at line 164
+2025-05-11 16:57:41,712 - INFO -   Context: magnitude of m_ I 0 {\mathrm{H23}} = 14.927 \pm 0.023$\,mag reported in H23 with our \Bseq calibration of m_ I 0
+2025-05-11 16:57:41,712 - INFO - Latex_variable_equality Replacement #8: '0.10' at line 111
+2025-05-11 16:57:41,712 - INFO -   Context: using a fixed value of $\sigma_s=0.10$ mag which corresponds to the
+2025-05-11 16:57:41,712 - INFO - Equation_expected_value Replacement #1: '0' at line 151
+2025-05-11 16:57:41,712 - INFO -   Context: for metallicity differences thus becomes \begin{equation}\label{eq:periodcalibration}
 M_{\mathrm{I,OGLE}} = M_\mathrm{I, OGLE, 0} + (0.59 \pm 0.34) \mathrm{mag} \cdot \log{(P/P_0)} \ , 
 \end{equation} with P_0 42 7 d
-2025-05-11 16:39:30,793 - INFO - Latex Replacement #1: '2.12\cdot' at line 59
-2025-05-11 16:39:30,793 - INFO -   Context: the proper motion ellipse left 2.12\cdot mu_ delta 1 23 right
-2025-05-11 16:39:30,793 - INFO - Latex Replacement #2: '26\%' at line 66
-2025-05-11 16:39:30,793 - INFO -   Context: based on pulsation models citep 26\% Wood15 Figure ref fig AgeAmplitude
-2025-05-11 16:39:30,793 - INFO - Rounded Replacement #1: 'approximately 0.026' at line 57
-2025-05-11 16:39:30,793 - INFO -   Context: with an rms scatter of approximately 0.026 mag in line with the
-2025-05-11 16:39:30,793 - INFO - Exact Replacement #1: '0.009' at line 164
-2025-05-11 16:39:30,793 - INFO -   Context: I 0 14 911 pm 0.009 mathrm stat pm 0 008
-2025-05-11 16:39:30,793 - INFO - Exact Replacement #2: '0.009' at line 188
-2025-05-11 16:39:30,793 - INFO -   Context: find mio 14 911 pm 0.009 mathrm stat pm 0 008
-2025-05-11 16:39:30,793 - INFO - Exact Replacement #3: '0.016' at line 95
-2025-05-11 16:39:30,794 - INFO -   Context: mathrm SMC 18 977 pm 0.016 mathrm stat pm 0 028
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #4: '15.16' at line 31
-2025-05-11 16:39:30,794 - INFO -   Context: 2 0 71 log P_1 15.16 mag with a dispersion of
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #5: '16.91' at line 31
-2025-05-11 16:39:30,794 - INFO -   Context: 2 1 48 log P_1 16.91 mag with a dispersion of
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #6: '14.920' at line 188
-2025-05-11 16:39:30,794 - INFO -   Context: the brightest mtrgb of mih 14.920 pm 0 010 mathrm stat
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #7: '0.02' at line 33
-2025-05-11 16:39:30,794 - INFO -   Context: oscillation amplitudes sim 0 01 0.02 mag near the TRGB Interestingly
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #8: '0.02' at line 116
-2025-05-11 16:39:30,794 - INFO -   Context: SMC and 0 09 pm 0.02 mag in the LMC This
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #9: '-1.6' at line 57
-2025-05-11 16:39:30,794 - INFO -   Context: 0004 left V I _0 -1.6 right 0 0027 pm 0
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #10: '0.7' at line 65
-2025-05-11 16:39:30,794 - INFO -   Context: LMC stars near Fe H 0.7 dex and the SMC near
-2025-05-11 16:39:30,794 - INFO - Exact Replacement #11: '.7' at line 154
-2025-05-11 16:39:30,794 - INFO -   Context: end equation with P_0 42 .7 d and M_ mathrm I
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #1: '-1.68' at line 31
-2025-05-11 16:39:30,794 - INFO -   Context: polynomial fits are for Aseq -1.68 log P_1 2 0 71
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #2: '-0.68' at line 31
-2025-05-11 16:39:30,794 - INFO -   Context: 12 mag and for Bseq -0.68 log P_1 2 1 48
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #3: '-0.0296' at line 57
-2025-05-11 16:39:30,794 - INFO -   Context: obtained F814W I_ text OGLE -0.0296 pm 0 0004 left V
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #4: '-4.025' at line 148
-2025-05-11 16:39:30,794 - INFO -   Context: the LMC where A24 reported -4.025 pm 0 014 mathrm stat
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #5: '-4.018' at line 154
-2025-05-11 16:39:30,794 - INFO -   Context: M_ mathrm I OGLE 0 -4.018 pm 0 015 mathrm stat
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #6: '-4.018' at line 156
-2025-05-11 16:39:30,794 - INFO -   Context: magnitude in the SMC Mio -4.018 pm 0 044 pm 0
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #7: '-4.050' at line 156
-2025-05-11 16:39:30,794 - INFO -   Context: dimmer than the results of -4.050 pm 0 021 pm 0
-2025-05-11 16:39:30,794 - INFO - Additional Replacement #8: '-4.025' at line 192
-2025-05-11 16:39:30,794 - INFO -   Context: F814W syn 0 mathrm LMC -4.025 pm 0 014 mathrm stat
-2025-05-11 16:39:30,794 - INFO - Expected_value_final_pass Replacement #1: '0.009' at line 0
-2025-05-11 16:39:30,794 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:30,794 - INFO - Expected_value_final_pass Replacement #2: '36' at line 0
-2025-05-11 16:39:30,794 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:30,794 - INFO - Expected_value_final_pass Replacement #3: '0.71' at line 0
-2025-05-11 16:39:30,794 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:30,794 - INFO - Saved context information to utils/num_mask_logs/trgb_std_candle_contexts.log
+2025-05-11 16:57:41,712 - INFO - Latex Replacement #1: '2.12\cdot' at line 59
+2025-05-11 16:57:41,712 - INFO -   Context: the proper motion ellipse left 2.12\cdot mu_ delta 1 23 right
+2025-05-11 16:57:41,712 - INFO - Latex Replacement #2: '26\%' at line 66
+2025-05-11 16:57:41,712 - INFO -   Context: based on pulsation models citep 26\% Wood15 Figure ref fig AgeAmplitude
+2025-05-11 16:57:41,712 - INFO - Rounded Replacement #1: 'approximately 0.026' at line 57
+2025-05-11 16:57:41,712 - INFO -   Context: with an rms scatter of approximately 0.026 mag in line with the
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #1: '0.009' at line 164
+2025-05-11 16:57:41,712 - INFO -   Context: I 0 14 911 pm 0.009 mathrm stat pm 0 008
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #2: '0.009' at line 188
+2025-05-11 16:57:41,712 - INFO -   Context: find mio 14 911 pm 0.009 mathrm stat pm 0 008
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #3: '0.016' at line 95
+2025-05-11 16:57:41,712 - INFO -   Context: mathrm SMC 18 977 pm 0.016 mathrm stat pm 0 028
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #4: '15.16' at line 31
+2025-05-11 16:57:41,712 - INFO -   Context: 2 0 71 log P_1 15.16 mag with a dispersion of
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #5: '16.91' at line 31
+2025-05-11 16:57:41,712 - INFO -   Context: 2 1 48 log P_1 16.91 mag with a dispersion of
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #6: '14.920' at line 188
+2025-05-11 16:57:41,712 - INFO -   Context: the brightest mtrgb of mih 14.920 pm 0 010 mathrm stat
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #7: '0.02' at line 33
+2025-05-11 16:57:41,712 - INFO -   Context: oscillation amplitudes sim 0 01 0.02 mag near the TRGB Interestingly
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #8: '0.02' at line 116
+2025-05-11 16:57:41,712 - INFO -   Context: SMC and 0 09 pm 0.02 mag in the LMC This
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #9: '-1.6' at line 57
+2025-05-11 16:57:41,712 - INFO -   Context: 0004 left V I _0 -1.6 right 0 0027 pm 0
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #10: '0.7' at line 65
+2025-05-11 16:57:41,712 - INFO -   Context: LMC stars near Fe H 0.7 dex and the SMC near
+2025-05-11 16:57:41,712 - INFO - Exact Replacement #11: '.7' at line 154
+2025-05-11 16:57:41,712 - INFO -   Context: end equation with P_0 42 .7 d and M_ mathrm I
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #1: '-1.68' at line 31
+2025-05-11 16:57:41,713 - INFO -   Context: polynomial fits are for Aseq -1.68 log P_1 2 0 71
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #2: '-0.68' at line 31
+2025-05-11 16:57:41,713 - INFO -   Context: 12 mag and for Bseq -0.68 log P_1 2 1 48
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #3: '-0.0296' at line 57
+2025-05-11 16:57:41,713 - INFO -   Context: obtained F814W I_ text OGLE -0.0296 pm 0 0004 left V
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #4: '-4.025' at line 148
+2025-05-11 16:57:41,713 - INFO -   Context: the LMC where A24 reported -4.025 pm 0 014 mathrm stat
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #5: '-4.018' at line 154
+2025-05-11 16:57:41,713 - INFO -   Context: M_ mathrm I OGLE 0 -4.018 pm 0 015 mathrm stat
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #6: '-4.018' at line 156
+2025-05-11 16:57:41,713 - INFO -   Context: magnitude in the SMC Mio -4.018 pm 0 044 pm 0
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #7: '-4.050' at line 156
+2025-05-11 16:57:41,713 - INFO -   Context: dimmer than the results of -4.050 pm 0 021 pm 0
+2025-05-11 16:57:41,713 - INFO - Additional Replacement #8: '-4.025' at line 192
+2025-05-11 16:57:41,713 - INFO -   Context: F814W syn 0 mathrm LMC -4.025 pm 0 014 mathrm stat
+2025-05-11 16:57:41,713 - INFO - Expected_value_final_pass Replacement #1: '0.009' at line 0
+2025-05-11 16:57:41,713 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:41,713 - INFO - Expected_value_final_pass Replacement #2: '36' at line 0
+2025-05-11 16:57:41,713 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:41,713 - INFO - Expected_value_final_pass Replacement #3: '0.71' at line 0
+2025-05-11 16:57:41,713 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:41,713 - INFO - Saved context information to utils/num_mask_logs/trgb_std_candle_contexts.log

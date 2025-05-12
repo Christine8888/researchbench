@@ -2,9 +2,19 @@ Masked values and their context for paper: bioverse
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 1 replacements
   EXACT: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (1):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.05
+  Line: 235
+  Context: to the widely adopted threshold $\alpha = 0.05$ To quantify the diagnostic power
+
 
 EXACT REPLACEMENTS (1):
 --------------------------------------------------------------------------------

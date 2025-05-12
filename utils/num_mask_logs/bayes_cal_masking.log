@@ -1,26 +1,26 @@
-2025-05-11 16:39:20,621 - INFO - Logging to file: utils/num_mask_logs/bayes_cal_masking.log
-2025-05-11 16:39:20,622 - INFO - Found 29 unique numerical values to mask
-2025-05-11 16:39:20,622 - INFO - Found 8 values from expected_output lists: [-44000, -21200, -21000, 1.02, 1.0, 0.98, 298.0, 1200.0]
-2025-05-11 16:39:20,710 - INFO - Made 50 replacements in the text
-2025-05-11 16:39:20,710 - INFO - Saved masked text to papers/masked_texts/bayes_cal.txt
-2025-05-11 16:39:20,710 - INFO - Equation_expected_value Replacement #1: '1' at line 25
-2025-05-11 16:39:20,710 - INFO -   Context: signal can be described by \begin{equation}
+2025-05-11 16:57:31,501 - INFO - Logging to file: utils/num_mask_logs/bayes_cal_masking.log
+2025-05-11 16:57:31,501 - INFO - Found 29 unique numerical values to mask
+2025-05-11 16:57:31,502 - INFO - Found 8 values from expected_output lists: [-44000, -21200, -21000, 1.02, 1.0, 0.98, 298.0, 1200.0]
+2025-05-11 16:57:31,589 - INFO - Made 50 replacements in the text
+2025-05-11 16:57:31,589 - INFO - Saved masked text to papers/masked_texts/bayes_cal.txt
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #1: '1' at line 25
+2025-05-11 16:57:31,589 - INFO -   Context: signal can be described by \begin{equation}
  \label{brightnessTemp}
  \begin{aligned}
  T_{21}(z) \approx & \ 0.023 \mathrm{K} \ \times \\
  & x_{\ion{H}{i}}(z) \left[ \left(\frac{0.15}{\Omega_{\mathrm{m}}} \right)\left(\frac{1+z}{10}\right) \right]^{\frac{1}{2}} \left(\frac{\Omega_{\mathrm{b}}h}{0.02}\right)\left[1-\frac{T_{\mathrm{R}}(z)}{T_{\mathrm{S}}(z)}\right],
  \end{aligned}
 \end{equation} which is heavily dependent on
-2025-05-11 16:39:20,710 - INFO - Equation_expected_value Replacement #2: '1' at line 25
-2025-05-11 16:39:20,710 - INFO -   Context: signal can be described by \begin{equation}
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #2: '1' at line 25
+2025-05-11 16:57:31,589 - INFO -   Context: signal can be described by \begin{equation}
  \label{brightnessTemp}
  \begin{aligned}
  T_{21}(z) \approx & \ 0.023 \mathrm{K} \ \times \\
  & x_{\ion{H}{i}}(z) \left[ \left(\frac{0.15}{\Omega_{\mathrm{m}}} \right)\left(\frac{1+z}{10}\right) \right]^{\frac{1}{2}} \left(\frac{\Omega_{\mathrm{b}}h}{0.02}\right)\left[1-\frac{T_{\mathrm{R}}(z)}{T_{\mathrm{S}}(z)}\right],
  \end{aligned}
 \end{equation} which is heavily dependent on
-2025-05-11 16:39:20,710 - INFO - Equation_expected_value Replacement #3: '1' at line 68
-2025-05-11 16:39:20,710 - INFO -   Context: terms of specific response contribution s as detailed in \citet{monsalve}
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #3: '1' at line 68
+2025-05-11 16:57:31,589 - INFO -   Context: terms of specific response contribution s as detailed in \citet{monsalve}
 \begin{equation}
  \label{eqn:pant}
  \begin{aligned}
@@ -29,8 +29,8 @@
  + & \T{cos}\operatorname{Re}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) \\
  + & \T{sin}\operatorname{Im}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) 
  + T_0 \Bi gg end aligned end equation
-2025-05-11 16:39:20,710 - INFO - Equation_expected_value Replacement #4: '1' at line 68
-2025-05-11 16:39:20,711 - INFO -   Context: terms of specific response contribution s as detailed in \citet{monsalve}
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #4: '1' at line 68
+2025-05-11 16:57:31,589 - INFO -   Context: terms of specific response contribution s as detailed in \citet{monsalve}
 \begin{equation}
  \label{eqn:pant}
  \begin{aligned}
@@ -39,20 +39,20 @@
  + & \T{cos}\operatorname{Re}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) \\
  + & \T{sin}\operatorname{Im}\left(\Ga\frac{\sqrt{1 - |\G{rec}|^2}}{1-\Ga\G{rec}}\right) 
  + T_0 \Bi gg end aligned end equation
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #5: '1' at line 83
-2025-05-11 16:39:20,711 - INFO -   Context: references are typically less than 0.005, they are taken to be zero in order to simplify the equations
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #5: '1' at line 83
+2025-05-11 16:57:31,589 - INFO -   Context: references are typically less than 0.005, they are taken to be zero in order to simplify the equations
 \begin{equation}
  \label{eqn:pl}
  \psd{L} = g_{\mat hrm sys T L left
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #6: '1' at line 85
-2025-05-11 16:39:20,711 - INFO -   Context: rec 2 right T_ 0 ,
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #6: '1' at line 85
+2025-05-11 16:57:31,589 - INFO -   Context: rec 2 right T_ 0 ,
 \end{equation}hrm{sys}}^*[\T{L}\left(1-|\G{rec}|^2\right)+T_{0}^*],
 \end{equation}
 \begin{equation}
  \label{eqn:pns}
  \psd{NS} = g_{\mathrm sys left T L T
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #7: '1' at line 93
-2025-05-11 16:39:20,711 - INFO -   Context: a relationship between the uncalibrat ed input temperature and a final calibrated temperature of any device connected to the receiver input
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #7: '1' at line 93
+2025-05-11 16:57:31,589 - INFO -   Context: a relationship between the uncalibrat ed input temperature and a final calibrated temperature of any device connected to the receiver input
 \begin{equation}
  \label{eqn:caleqn}
  \begin{aligned}
@@ -60,8 +60,8 @@
  & + \T{unc}\left[ \frac{|\Ga|^2}{|1-\Ga\G{rec}|^2} \right] \\
  & + \T{cos}\left[ \frac{\operatorname{Re}\left(\frac{\Ga}{1-\Ga\G{rec}}\right)}{\sqrt{1-|\G{rec}|^2}} \right] \\
  & + \T{sin}\left[ \frac{\operatorname{Im}\ left frac Ga 1 Ga
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #8: '1' at line 93
-2025-05-11 16:39:20,711 - INFO -   Context: a relationship between the uncalibrat ed input temperature and a final calibrated temperature of any device connected to the receiver input
+2025-05-11 16:57:31,589 - INFO - Equation_expected_value Replacement #8: '1' at line 93
+2025-05-11 16:57:31,590 - INFO -   Context: a relationship between the uncalibrat ed input temperature and a final calibrated temperature of any device connected to the receiver input
 \begin{equation}
  \label{eqn:caleqn}
  \begin{aligned}
@@ -69,68 +69,68 @@
  & + \T{unc}\left[ \frac{|\Ga|^2}{|1-\Ga\G{rec}|^2} \right] \\
  & + \T{cos}\left[ \frac{\operatorname{Re}\left(\frac{\Ga}{1-\Ga\G{rec}}\right)}{\sqrt{1-|\G{rec}|^2}} \right] \\
  & + \T{sin}\left[ \frac{\operatorname{Im}\ left frac Ga 1 Ga
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #9: '1' at line 109
-2025-05-11 16:39:20,711 - INFO -   Context: A schematic of the improv ed calibration method is shown in \cref{flowchart}.
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #9: '1' at line 109
+2025-05-11 16:57:31,590 - INFO -   Context: A schematic of the improv ed calibration method is shown in \cref{flowchart}.
 
 In order to simplify our cal ibration approach we first define
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #10: '1' at line 110
-2025-05-11 16:39:20,711 - INFO -   Context: Ga 2 NUMERICAL_RESULT Ga 2  
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #10: '1' at line 110
+2025-05-11 16:57:31,590 - INFO -   Context: Ga 2 NUMERICAL_RESULT Ga 2  
 \end{equation}ibration approach, we first define the following terms
 \begin{equation}
  X_{\ma thrm unc frac Ga 2
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #11: '1' at line 110
-2025-05-11 16:39:20,711 - INFO -   Context: Ga 2 NUMERICAL_RESULT Ga 2  
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #11: '1' at line 110
+2025-05-11 16:57:31,590 - INFO -   Context: Ga 2 NUMERICAL_RESULT Ga 2  
 \end{equation}ibration approach, we first define the following terms
 \begin{equation}
  X_{\ma thrm unc frac Ga 2
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #12: '1' at line 111
-2025-05-11 16:39:20,711 - INFO -   Context: NUMERICAL_RESULT Ga Gr 2 NUMERICAL _RESULT]-|\Ga|^2},
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #12: '1' at line 111
+2025-05-11 16:57:31,590 - INFO -   Context: NUMERICAL_RESULT Ga Gr 2 NUMERICAL _RESULT]-|\Ga|^2},
 \end{equation}thrm{unc}} = -\frac{|\Ga|^2}{ 1-|\Ga|^2}, 
 \end{equation}
 \begin{equation}\label{eqn:xl}
  X_{\mathrm{L}} = \frac{|1-\G a Gr 2 1 Ga
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #13: '1' at line 111
-2025-05-11 16:39:20,711 - INFO -   Context: NUMERICAL_RESULT Ga Gr 2 NUMERICAL _RESULT]-|\Ga|^2},
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #13: '1' at line 111
+2025-05-11 16:57:31,590 - INFO -   Context: NUMERICAL_RESULT Ga Gr 2 NUMERICAL _RESULT]-|\Ga|^2},
 \end{equation}thrm{unc}} = -\frac{|\Ga|^2}{ 1-|\Ga|^2}, 
 \end{equation}
 \begin{equation}\label{eqn:xl}
  X_{\mathrm{L}} = \frac{|1-\G a Gr 2 1 Ga
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #14: '1' at line 112
-2025-05-11 16:39:20,711 - INFO -   Context: X_ mathrm L sqrt NUMERICAL_RESULT -|\Gr|^2}}\right),
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #14: '1' at line 112
+2025-05-11 16:57:31,590 - INFO -   Context: X_ mathrm L sqrt NUMERICAL_RESULT -|\Gr|^2}}\right),
 \end{equation}a\Gr|^2}{1-|\Ga|^2},
 \end{equation}
 \begin{equation}
  X_{\mathrm{cos}} = -\operatorname{Re}\left(\frac{\Ga}{1-\Ga\Gr}  times frac X_ mathrm L
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #15: '1' at line 112
-2025-05-11 16:39:20,711 - INFO -   Context: X_ mathrm L sqrt NUMERICAL_RESULT -|\Gr|^2}}\right),
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #15: '1' at line 112
+2025-05-11 16:57:31,590 - INFO -   Context: X_ mathrm L sqrt NUMERICAL_RESULT -|\Gr|^2}}\right),
 \end{equation}a\Gr|^2}{1-|\Ga|^2},
 \end{equation}
 \begin{equation}
  X_{\mathrm{cos}} = -\operatorname{Re}\left(\frac{\Ga}{1-\Ga\Gr}  times frac X_ mathrm L
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #16: '1' at line 148
-2025-05-11 16:39:20,711 - INFO -   Context: are concerned with the constructio n of predictive models of the noise wave parameters, $\boldsymbol{\Theta}$, in the context of some dataset, $\mathbfit{T}$. We can use $\boldsymbol{\Theta}$ to calculate the probability of observing the data given a specific set of noise wave parameters:
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #16: '1' at line 148
+2025-05-11 16:57:31,590 - INFO -   Context: are concerned with the constructio n of predictive models of the noise wave parameters, $\boldsymbol{\Theta}$, in the context of some dataset, $\mathbfit{T}$. We can use $\boldsymbol{\Theta}$ to calculate the probability of observing the data given a specific set of noise wave parameters:
 \begin{equation}\label{likelihood}
  \begin{aligned}
  p\big(\mathbfit{T} \given[\big] \boldsymbol{\ Theta sigma 2 big frac
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #17: '1' at line 148
-2025-05-11 16:39:20,711 - INFO -   Context: are concerned with the constructio n of predictive models of the noise wave parameters, $\boldsymbol{\Theta}$, in the context of some dataset, $\mathbfit{T}$. We can use $\boldsymbol{\Theta}$ to calculate the probability of observing the data given a specific set of noise wave parameters:
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #17: '1' at line 148
+2025-05-11 16:57:31,590 - INFO -   Context: are concerned with the constructio n of predictive models of the noise wave parameters, $\boldsymbol{\Theta}$, in the context of some dataset, $\mathbfit{T}$. We can use $\boldsymbol{\Theta}$ to calculate the probability of observing the data given a specific set of noise wave parameters:
 \begin{equation}\label{likelihood}
  \begin{aligned}
  p\big(\mathbfit{T} \given[\big] \boldsymbol{\ Theta sigma 2 big frac
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #18: '1' at line 155
-2025-05-11 16:39:20,711 - INFO -   Context: be y measurements or alterna tively, $\mathbfit{T}_{\mathrm{sky}}$ for prediction of a sky signal. Our model must also specify a \textit{prior} distribution, quantifying our initial assumptions on the values and spread of our noise wave parameters which we specify as a multivariate normal inverse gamma distribution:
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #18: '1' at line 155
+2025-05-11 16:57:31,590 - INFO -   Context: be y measurements or alterna tively, $\mathbfit{T}_{\mathrm{sky}}$ for prediction of a sky signal. Our model must also specify a \textit{prior} distribution, quantifying our initial assumptions on the values and spread of our noise wave parameters which we specify as a multivariate normal inverse gamma distribution:
 \begin{equation}
  \begin{aligned}
  \label{eqn:prior}
  p\left(\boldsymbol{\Theta}, \sigma^2\right) \propto & \left(\frac{1}{\sigma^2}\right)^{a+1+\left(d/2\right times exp left frac 1
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #19: '1' at line 155
-2025-05-11 16:39:20,711 - INFO -   Context: be y measurements or alterna tively, $\mathbfit{T}_{\mathrm{sky}}$ for prediction of a sky signal. Our model must also specify a \textit{prior} distribution, quantifying our initial assumptions on the values and spread of our noise wave parameters which we specify as a multivariate normal inverse gamma distribution:
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #19: '1' at line 155
+2025-05-11 16:57:31,590 - INFO -   Context: be y measurements or alterna tively, $\mathbfit{T}_{\mathrm{sky}}$ for prediction of a sky signal. Our model must also specify a \textit{prior} distribution, quantifying our initial assumptions on the values and spread of our noise wave parameters which we specify as a multivariate normal inverse gamma distribution:
 \begin{equation}
  \begin{aligned}
  \label{eqn:prior}
  p\left(\boldsymbol{\Theta}, \sigma^2\right) \propto & \left(\frac{1}{\sigma^2}\right)^{a+1+\left(d/2\right times exp left frac 1
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #20: '1' at line 168
-2025-05-11 16:39:20,711 - INFO -   Context: p left y given big \boldsymbol{\Theta}, \sigma^2\right) p\left(\boldsymbol{\Theta}, \sigma^2\right) \mathrm{d}\boldsymbol{\Theta} \mathrm{d}\sigma^2\\
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #20: '1' at line 168
+2025-05-11 16:57:31,590 - INFO -   Context: p left y given big \boldsymbol{\Theta}, \sigma^2\right) p\left(\boldsymbol{\Theta}, \sigma^2\right) \mathrm{d}\boldsymbol{\Theta} \mathrm{d}\sigma^2\\
  &= \frac{b^a\Gamma\left(a^*\right)\sqrt{|\mathbfss{V}^*|}}{{b^*}^{a^*}\Gamma\left(a\right)\sqrt{|\mathbfss{V}_{\boldsymbol{\Theta}}|}}(2\pi)^{-N/2}, \\
  \end{aligned}
 \end{equation} 
@@ -140,8 +140,8 @@ where
  a^* &= a + \frac{N}{2}, \\
  b^* &= b + \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{*-1}\boldsymbol{\mu}^*], \\
  \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol Theta 1 mathbfss X top
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #21: '1' at line 168
-2025-05-11 16:39:20,711 - INFO -   Context: p left y given big \boldsymbol{\Theta}, \sigma^2\right) p\left(\boldsymbol{\Theta}, \sigma^2\right) \mathrm{d}\boldsymbol{\Theta} \mathrm{d}\sigma^2\\
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #21: '1' at line 168
+2025-05-11 16:57:31,590 - INFO -   Context: p left y given big \boldsymbol{\Theta}, \sigma^2\right) p\left(\boldsymbol{\Theta}, \sigma^2\right) \mathrm{d}\boldsymbol{\Theta} \mathrm{d}\sigma^2\\
  &= \frac{b^a\Gamma\left(a^*\right)\sqrt{|\mathbfss{V}^*|}}{{b^*}^{a^*}\Gamma\left(a\right)\sqrt{|\mathbfss{V}_{\boldsymbol{\Theta}}|}}(2\pi)^{-N/2}, \\
  \end{aligned}
 \end{equation} 
@@ -151,8 +151,8 @@ where
  a^* &= a + \frac{N}{2}, \\
  b^* &= b + \frac{1}{2}[\boldsymbol{\mu}_{\boldsymbol{\Theta}}^{\top}\mathbfss{V}_{\boldsymbol{\Theta}}^{-1}\boldsymbol{\mu}_{\boldsymbol{\Theta}} + \y^{\top}\y - \boldsymbol{\mu}^{*\top}\mathbfss{V}^{*-1}\boldsymbol{\mu}^*], \\
  \boldsymbol{\mu}^* &= \left(\mathbfss{V}_{\boldsymbol Theta 1 mathbfss X top
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #22: '1' at line 181
-2025-05-11 16:39:20,711 - INFO -   Context: the conditioning of the likeliho od and find the \textit{posterior} using the likelihood, prior and evidence:
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #22: '1' at line 181
+2025-05-11 16:57:31,590 - INFO -   Context: the conditioning of the likeliho od and find the \textit{posterior} using the likelihood, prior and evidence:
 \begin{equation}
  p\left(\boldsymbol{\Theta}, \sigma^2 \given[\big] \y\right) = \frac{p\left(\y \given[\big] \boldsymbol{\Theta}, \sigma^2\right)p\left(\boldsymbol{\Theta}, \sigma^2\right)}{p\left(\y\right)}.
 \end{equation}
@@ -160,8 +160,8 @@ Similarly from \citet{banerjee}, this can be written as
 \begin{equation}
  \begin{aligned} \label{eqn:post}
  p\Bigl(\boldsymbol Theta sigma 2 given big
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #23: '1' at line 181
-2025-05-11 16:39:20,711 - INFO -   Context: the conditioning of the likeliho od and find the \textit{posterior} using the likelihood, prior and evidence:
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #23: '1' at line 181
+2025-05-11 16:57:31,590 - INFO -   Context: the conditioning of the likeliho od and find the \textit{posterior} using the likelihood, prior and evidence:
 \begin{equation}
  p\left(\boldsymbol{\Theta}, \sigma^2 \given[\big] \y\right) = \frac{p\left(\y \given[\big] \boldsymbol{\Theta}, \sigma^2\right)p\left(\boldsymbol{\Theta}, \sigma^2\right)}{p\left(\y\right)}.
 \end{equation}
@@ -169,24 +169,24 @@ Similarly from \citet{banerjee}, this can be written as
 \begin{equation}
  \begin{aligned} \label{eqn:post}
  p\Bigl(\boldsymbol Theta sigma 2 given big
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #24: '1' at line 193
-2025-05-11 16:39:20,711 - INFO -   Context: permits an in place c alculation in the same environment as the data acquisition. This becomes particularly useful for the speed of the algorithm as frequency  dependence is introduced in which
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #25: '1' at line 215
-2025-05-11 16:39:20,711 - INFO -   Context: right p left boldsymbol Theta ,\sigma^2 \given[\big] \mathbfit{T}_{\mathrm{cal}} \right) \mathrm{d}\boldsymbol{\Theta}\mathrm{d}\sigma^2.
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #24: '1' at line 193
+2025-05-11 16:57:31,590 - INFO -   Context: permits an in place c alculation in the same environment as the data acquisition. This becomes particularly useful for the speed of the algorithm as frequency  dependence is introduced in which
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #25: '1' at line 215
+2025-05-11 16:57:31,590 - INFO -   Context: right p left boldsymbol Theta ,\sigma^2 \given[\big] \mathbfit{T}_{\mathrm{cal}} \right) \mathrm{d}\boldsymbol{\Theta}\mathrm{d}\sigma^2.
 \end{equation}
 The first probability in the integral is the likelihood for our antenna measurement $\mathbfit{T}_{\mathrm{sky}}$ and the second is our posterior from \cref{eqn:post}. Following the steps in \citet{banerjee}, this can be shown to be a multivariate Student's t-distribution written as:
 \begin{equation}\label{predictive}
  \begin{aligned}
  p\Big( & \mathbfit{T}_{\mathrm{sky}} \given[\big] \mathbfit{T}_{\mathrm{cal}} \Big) = \frac{\Gamma\left( a^* + \frac{d}{2} \right)}{\Gamma\left( a^* \right)\pi^{\frac{d}{2}}|2b^*\left( I + \hat{\mathbfss{X}}\mathbfss{V}^*\hat{\ mathbfss X top right frac
-2025-05-11 16:39:20,711 - INFO - Equation_expected_value Replacement #26: '1' at line 215
-2025-05-11 16:39:20,711 - INFO -   Context: right p left boldsymbol Theta ,\sigma^2 \given[\big] \mathbfit{T}_{\mathrm{cal}} \right) \mathrm{d}\boldsymbol{\Theta}\mathrm{d}\sigma^2.
+2025-05-11 16:57:31,590 - INFO - Equation_expected_value Replacement #26: '1' at line 215
+2025-05-11 16:57:31,590 - INFO -   Context: right p left boldsymbol Theta ,\sigma^2 \given[\big] \mathbfit{T}_{\mathrm{cal}} \right) \mathrm{d}\boldsymbol{\Theta}\mathrm{d}\sigma^2.
 \end{equation}
 The first probability in the integral is the likelihood for our antenna measurement $\mathbfit{T}_{\mathrm{sky}}$ and the second is our posterior from \cref{eqn:post}. Following the steps in \citet{banerjee}, this can be shown to be a multivariate Student's t-distribution written as:
 \begin{equation}\label{predictive}
  \begin{aligned}
  p\Big( & \mathbfit{T}_{\mathrm{sky}} \given[\big] \mathbfit{T}_{\mathrm{cal}} \Big) = \frac{\Gamma\left( a^* + \frac{d}{2} \right)}{\Gamma\left( a^* \right)\pi^{\frac{d}{2}}|2b^*\left( I + \hat{\mathbfss{X}}\mathbfss{V}^*\hat{\ mathbfss X top right frac
-2025-05-11 16:39:20,711 - INFO - Expected_value_final_pass Replacement #1: '298.0' at line 0
-2025-05-11 16:39:20,711 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:20,711 - INFO - Expected_value_final_pass Replacement #2: '1200.0' at line 0
-2025-05-11 16:39:20,711 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:20,711 - INFO - Saved context information to utils/num_mask_logs/bayes_cal_contexts.log
+2025-05-11 16:57:31,590 - INFO - Expected_value_final_pass Replacement #1: '298.0' at line 0
+2025-05-11 16:57:31,590 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,590 - INFO - Expected_value_final_pass Replacement #2: '1200.0' at line 0
+2025-05-11 16:57:31,590 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:31,590 - INFO - Saved context information to utils/num_mask_logs/bayes_cal_contexts.log

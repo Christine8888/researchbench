@@ -1,117 +1,129 @@
-2025-05-11 16:39:22,396 - INFO - Logging to file: utils/num_mask_logs/galaxy_soptics_masking.log
-2025-05-11 16:39:22,397 - INFO - Found 142 unique numerical values to mask
-2025-05-11 16:39:22,397 - INFO - Found 55 values from expected_output lists: [10057, 0.552, 0.637, 0.758, 9421, 0.308, 0.467, 0.502, 1.2, 5, 0.9, 0.75, 0.866, 0.971, 12242, 0.5, 0.4, 0.35, 0.3, 0.19, 0.08, 0.01, 586025, 8640, 300, 15, 8, 639359, 0.1, 0.09, 0.05, 118, 115, 0.975, 26276, 17878, 400, 0.24, 0.79, 471, 0.25, 3, 0.95, 0.792, 472, 0.2, 2, 0.752, 406, 0.495, 1576, 1.8, 0.8, 0.86, 0.92]
-2025-05-11 16:39:23,192 - INFO - Made 107 replacements in the text
-2025-05-11 16:39:23,193 - INFO - Saved masked text to papers/masked_texts/galaxy_soptics.txt
-2025-05-11 16:39:23,193 - INFO - Equation_expected_value Replacement #1: '1' at line 193
-2025-05-11 16:39:23,193 - INFO -   Context: 3D space is defined as \begin{equation}
+2025-05-11 16:57:33,327 - INFO - Logging to file: utils/num_mask_logs/galaxy_soptics_masking.log
+2025-05-11 16:57:33,327 - INFO - Found 142 unique numerical values to mask
+2025-05-11 16:57:33,327 - INFO - Found 55 values from expected_output lists: [10057, 0.552, 0.637, 0.758, 9421, 0.308, 0.467, 0.502, 1.2, 5, 0.9, 0.75, 0.866, 0.971, 12242, 0.5, 0.4, 0.35, 0.3, 0.19, 0.08, 0.01, 586025, 8640, 300, 15, 8, 639359, 0.1, 0.09, 0.05, 118, 115, 0.975, 26276, 17878, 400, 0.24, 0.79, 471, 0.25, 3, 0.95, 0.792, 472, 0.2, 2, 0.752, 406, 0.495, 1576, 1.8, 0.8, 0.86, 0.92]
+2025-05-11 16:57:34,142 - INFO - Made 116 replacements in the text
+2025-05-11 16:57:34,142 - INFO - Saved masked text to papers/masked_texts/galaxy_soptics.txt
+2025-05-11 16:57:34,142 - INFO - Latex_variable_assignment Replacement #1: '$z=2.422$' at line 129
+2025-05-11 16:57:34,142 - INFO -   Context: sub volumes at snapshots 30 $z=2.422$ 40 z 1 078 and
+2025-05-11 16:57:34,142 - INFO - Latex_variable_assignment Replacement #2: '$z=1.078$' at line 129
+2025-05-11 16:57:34,142 - INFO -   Context: at snapshots 30 z NUMERICAL_ RESULT]$) 40 z 1 078 and
+2025-05-11 16:57:34,143 - INFO - Latex_variable_equality Replacement #1: '1.078' at line 129
+2025-05-11 16:57:34,143 - INFO -   Context: z NUMERICAL_ z NUMERICAL_RESULT 40 $z=1.078$ and 50 z 0 408
+2025-05-11 16:57:34,143 - INFO - Latex_variable_equality Replacement #2: '0.408' at line 129
+2025-05-11 16:57:34,143 - INFO -   Context: z NUMERICAL_RESULT 40 z NUMERICAL_RESULT ]$), and  50 z 0 408 to
+2025-05-11 16:57:34,143 - INFO - Latex_variable_equality Replacement #3: '0.10' at line 225
+2025-05-11 16:57:34,143 - INFO -   Context: clustering results of OPTICS i n a subs ample at redshift z 0
+2025-05-11 16:57:34,143 - INFO - Latex_variable_equality Replacement #4: '0.02' at line 314
+2025-05-11 16:57:34,143 - INFO -   Context: bundyOVERVIEWSDSSIVMaNGA2014 they identified 128 B CGs situated with in a redshift range of
+2025-05-11 16:57:34,143 - INFO - List_expected_value Replacement #1: '118' at line 10
+2025-05-11 16:57:34,143 - INFO -   Context: successfully recovering 115 BCGs out of 118  reliable BCGs from a large
+2025-05-11 16:57:34,143 - INFO - List_expected_value Replacement #2: '0.2' at line 127
+2025-05-11 16:57:34,143 - INFO -   Context: the FoF algorithm with a linking length of 0 2 in
+2025-05-11 16:57:34,143 - INFO - List_expected_value Replacement #3: '0.2' at line 127
+2025-05-11 16:57:34,143 - INFO -   Context: the FoF algorithm with a linking length of 0 2 in
+2025-05-11 16:57:34,143 - INFO - List_expected_value Replacement #4: '400' at line 129
+2025-05-11 16:57:34,143 - INFO -   Context: least five galaxies resulting in a final sample of 400 halos We
+2025-05-11 16:57:34,143 - INFO - List_expected_value Replacement #5: '472' at line 244
+2025-05-11 16:57:34,143 - INFO -   Context: least five galaxy members tota ling 8,427  out of 472 416 groups
+2025-05-11 16:57:34,143 - INFO - Equation_expected_value Replacement #1: '1' at line 193
+2025-05-11 16:57:34,143 - INFO -   Context: 3D space is defined as \begin{equation}
 D^2(u, v) = \sum_{i=1}^{3}(u_i - v_i)^2\,,
 \end{equation} where u and v represent
-2025-05-11 16:39:23,193 - INFO - Equation_expected_value Replacement #2: '1' at line 204
-2025-05-11 16:39:23,193 - INFO -   Context: LOS component In principle o ne could define:
+2025-05-11 16:57:34,143 - INFO - Equation_expected_value Replacement #2: '1' at line 204
+2025-05-11 16:57:34,143 - INFO -   Context: LOS component In principle o ne could define:
 \begin{equation}
 d_\mathrm{LOS}(u, v)
 = \frac{\sum_{i=1}^{3} \bigl(u_i - v_i\bigr),u_i}{\sqrt{\sum_{i=1}^{3} \bigl(u_i\bigr)^2}}  end equation and then multiply
-2025-05-11 16:39:23,193 - INFO - Equation_expected_value Replacement #3: '1' at line 227
-2025-05-11 16:39:23,193 - INFO -   Context: to have an observed redshift z$, as described by the equation:
+2025-05-11 16:57:34,143 - INFO - Equation_expected_value Replacement #3: '1' at line 227
+2025-05-11 16:57:34,143 - INFO -   Context: to have an observed redshift z$, as described by the equation:
 \begin{equation}
 (1+z) = (1+z_{\rm c})\left(1+z_{\m athrm p right end equation
-2025-05-11 16:39:23,193 - INFO - Equation_expected_value Replacement #4: '0' at line 244
-2025-05-11 16:39:23,193 - INFO -   Context: strategically assigning heightened weight to  groups exhibiting a greater abundance of members:
+2025-05-11 16:57:34,143 - INFO - Equation_expected_value Replacement #4: '0' at line 244
+2025-05-11 16:57:34,143 - INFO -   Context: strategically assigning heightened weight to  groups exhibiting a greater abundance of members:
 \begin{equation}
  F_{\mathrm{R}} = 
  \sum^{\mathcal{N}}_{i=0} \delta_i \times \frac{ \text{Number of galaxies in group $i$}}
  {\text{Total n umber of non isolated galaxies
-2025-05-11 16:39:23,193 - INFO - Equation_expected_value Replacement #5: '1' at line 250
-2025-05-11 16:39:23,193 - INFO -   Context: N is the total n umber of true groups in \citetalias{yangGalaxyGroupsSDSS2007}, and:
+2025-05-11 16:57:34,143 - INFO - Equation_expected_value Replacement #5: '1' at line 250
+2025-05-11 16:57:34,143 - INFO -   Context: N is the total n umber of true groups in \citetalias{yangGalaxyGroupsSDSS2007}, and:
 \begin{equation}
  \delta_i = 
 \begin{cases}
 1, & \text{if group $i$ is simultaneously pure and complete 0 text otherwise
-2025-05-11 16:39:23,193 - INFO - Equation_expected_value Replacement #6: '0' at line 250
-2025-05-11 16:39:23,193 - INFO -   Context: N is the total n umber of true groups in \citetalias{yangGalaxyGroupsSDSS2007}, and:
+2025-05-11 16:57:34,143 - INFO - Equation_expected_value Replacement #6: '0' at line 250
+2025-05-11 16:57:34,143 - INFO -   Context: N is the total n umber of true groups in \citetalias{yangGalaxyGroupsSDSS2007}, and:
 \begin{equation}
  \delta_i = 
 \begin{cases}
 1, & \text{if group $i$ is simultaneously pure and complete 0 text otherwise
-2025-05-11 16:39:23,193 - INFO - List_expected_value Replacement #1: '118' at line 10
-2025-05-11 16:39:23,193 - INFO -   Context: successfully recovering 115 BCGs out of 118  reliable BCGs from a large
-2025-05-11 16:39:23,193 - INFO - List_expected_value Replacement #2: '0.2' at line 127
-2025-05-11 16:39:23,193 - INFO -   Context: the FoF algorithm with a linking length of 0 2 in
-2025-05-11 16:39:23,193 - INFO - List_expected_value Replacement #3: '0.2' at line 127
-2025-05-11 16:39:23,193 - INFO -   Context: the FoF algorithm with a linking length of 0 2 in
-2025-05-11 16:39:23,193 - INFO - List_expected_value Replacement #4: '400' at line 129
-2025-05-11 16:39:23,193 - INFO -   Context: least five galaxies resulting in a final sample of 400 halos We
-2025-05-11 16:39:23,193 - INFO - List_expected_value Replacement #5: '472' at line 244
-2025-05-11 16:39:23,193 - INFO -   Context: least five galaxy members tota ling 8,427  out of 472 416 groups
-2025-05-11 16:39:23,193 - INFO - Large_integer Replacement #1: '639,359 galaxies' at line 181
-2025-05-11 16:39:23,193 - INFO -   Context: in citet yangGalaxyGroupsSDSS2007 This leaves 639,359 galaxies with reliable r band magnitudes
-2025-05-11 16:39:23,193 - INFO - Large_integer Replacement #2: '586,025 galaxies' at line 305
-2025-05-11 16:39:23,193 - INFO -   Context: catalog from citet shiMappingRealspaceDistributions2016 whic h contains 586,0 25 galaxies from SDSS DR13
-2025-05-11 16:39:23,193 - INFO - Large_integer Replacement #3: '26,276 galaxies' at line 129
-2025-05-11 16:39:23,193 - INFO -   Context: sample This sub volume contains 26,276 galaxies originating from 17 878 halos
-2025-05-11 16:39:23,193 - INFO - Large_integer Replacement #4: '586,025 galaxies' at line 305
-2025-05-11 16:39:23,193 - INFO -   Context: catalog from citet shiMappingRealspaceDistributions2016 whi ch contains 586, 025 galaxies from SDSS DR13
-2025-05-11 16:39:23,193 - INFO - Large_integer Replacement #5: '8,113 galaxies' at line 316
-2025-05-11 16:39:23,193 - INFO -   Context: By cross matching BCG candidat es with the 8, 113 galaxies released in the
-2025-05-11 16:39:23,194 - INFO - Large_integer Replacement #6: 'total of 8,427' at line 275
-2025-05-11 16:39:23,194 - INFO -   Context: actual members out of a total of 8,427 true groups In contrast the
-2025-05-11 16:39:23,194 - INFO - Large_integer Replacement #7: 'sample of 4,033' at line 316
-2025-05-11 16:39:23,194 - INFO -   Context: hsuSDSSIVMaNGACannibalism2022 hsuSDSSIVMaNGACannibalism2022 Their parent BCG sample of 4,033 galaxy clusters is also extracted
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #1: '1.78\%' at line 244
-2025-05-11 16:39:23,194 - INFO -   Context: substantial membership Given that merely 1.78\% of groups consist of at
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #2: '86.6\%' at line 275
-2025-05-11 16:39:23,194 - INFO -   Context: the abundance weighted purity of 86.6\% and completeness of 97 1
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #3: '42.6\%' at line 275
-2025-05-11 16:39:23,194 - INFO -   Context: a soft recovery rate of 42.6\% while with a purity of
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #4: '44.2\%' at line 275
-2025-05-11 16:39:23,194 - INFO -   Context: while with a purity of 44.2\% and completeness of 54 7
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #5: '55.2\%' at line 307
-2025-05-11 16:39:23,194 - INFO -   Context: achieving a recovery rate of 55.2\% a purity of 63 7
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #6: '63.7\%' at line 307
-2025-05-11 16:39:23,194 - INFO -   Context: 55 2 a purity of 63.7\% and a completeness of 75
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #7: '75.8\%' at line 307
-2025-05-11 16:39:23,194 - INFO -   Context: 7 and a completeness of 75.8\% These results are notable because
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #8: '30.8\%' at line 309
-2025-05-11 16:39:23,194 - INFO -   Context: with a recovery rate of 30.8\% a purity of 46 7
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #9: '46.7\%' at line 309
-2025-05-11 16:39:23,194 - INFO -   Context: 30 8 a purity of 46.7\% and a completeness of 50
-2025-05-11 16:39:23,194 - INFO - Latex Replacement #10: '50.2\%' at line 309
-2025-05-11 16:39:23,194 - INFO -   Context: 7 and a completeness of 50.2\% The substantial disparity suggests that
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #1: '12,242' at line 275
-2025-05-11 16:39:23,194 - INFO -   Context: number of identified groups is 12,242 while there are 8 427
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #2: '8,640' at line 305
-2025-05-11 16:39:23,194 - INFO -   Context: space galaxy group catalog of 8,640 systems each containing at least
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #3: '0.8' at line 264
-2025-05-11 16:39:23,194 - INFO -   Context: rate of F_ mathrm R 0.8 for FoF and 0 76
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #4: '115' at line 320
-2025-05-11 16:39:23,194 - INFO -   Context: hypervalue s_los we successfully identified 115 BCGs consistent with the 118
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #5: '113' at line 316
-2025-05-11 16:39:23,194 - INFO -   Context: BCG candidates with the 8 113 galaxies released in the ninth
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #6: '0.20' at line 305
-2025-05-11 16:39:23,194 - INFO -   Context: of 0 leq z leq 0.20 The group catalog was constructed
-2025-05-11 16:39:23,194 - INFO - Exact Replacement #7: '12' at line 275
-2025-05-11 16:39:23,194 - INFO -   Context: identified groups using FoF is 12 396 Therefore by incorporating the
-2025-05-11 16:39:23,194 - INFO - Galaxy_count Replacement #1: '586,025' at line 305
-2025-05-11 16:39:23,194 - INFO -   Context: from citet shiMappingRealspaceDistributions2016 which contains 586,025 galaxies from SDSS DR13 citep albareti13thDataRelease2017
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #1: '1.2' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #2: '300' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #3: '15' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #4: '0.05' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #5: '118' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #6: '115' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #7: '400' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #8: '472' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Expected_value_final_pass Replacement #9: '0.2' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:23,194 - INFO - Trailing_zeros Replacement #1: '0.10' at line 0
-2025-05-11 16:39:23,194 - INFO -   Context: Trailing zeros variation
-2025-05-11 16:39:23,194 - INFO - Saved context information to utils/num_mask_logs/galaxy_soptics_contexts.log
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #1: '639,359 galaxies' at line 181
+2025-05-11 16:57:34,143 - INFO -   Context: in citet yangGalaxyGroupsSDSS2007 This leaves 639,359 galaxies with reliable r band magnitudes
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #2: '586,025 galaxies' at line 305
+2025-05-11 16:57:34,143 - INFO -   Context: catalog from citet shiMappingRealspaceDistributions2016 whic h contains 586,0 25 galaxies from SDSS DR13
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #3: '26,276 galaxies' at line 129
+2025-05-11 16:57:34,143 - INFO -   Context: sample This sub volume contains 26,276 galaxies originating from 17 878 halos
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #4: '586,025 galaxies' at line 305
+2025-05-11 16:57:34,143 - INFO -   Context: catalog from citet shiMappingRealspaceDistributions2016 whi ch contains 586, 025 galaxies from SDSS DR13
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #5: '8,113 galaxies' at line 316
+2025-05-11 16:57:34,143 - INFO -   Context: By cross matching BCG candidat es with the 8, 113 galaxies released in the
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #6: 'total of 8,427' at line 275
+2025-05-11 16:57:34,143 - INFO -   Context: actual members out of a total of 8,427 true groups In contrast the
+2025-05-11 16:57:34,143 - INFO - Large_integer Replacement #7: 'sample of 4,033' at line 316
+2025-05-11 16:57:34,143 - INFO -   Context: hsuSDSSIVMaNGACannibalism2022 hsuSDSSIVMaNGACannibalism2022 Their parent BCG sample of 4,033 galaxy clusters is also extracted
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #1: '1.78\%' at line 244
+2025-05-11 16:57:34,143 - INFO -   Context: substantial membership Given that merely 1.78\% of groups consist of at
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #2: '86.6\%' at line 275
+2025-05-11 16:57:34,143 - INFO -   Context: the abundance weighted purity of 86.6\% and completeness of 97 1
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #3: '42.6\%' at line 275
+2025-05-11 16:57:34,143 - INFO -   Context: a soft recovery rate of 42.6\% while with a purity of
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #4: '44.2\%' at line 275
+2025-05-11 16:57:34,143 - INFO -   Context: while with a purity of 44.2\% and completeness of 54 7
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #5: '55.2\%' at line 307
+2025-05-11 16:57:34,143 - INFO -   Context: achieving a recovery rate of 55.2\% a purity of 63 7
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #6: '63.7\%' at line 307
+2025-05-11 16:57:34,143 - INFO -   Context: 55 2 a purity of 63.7\% and a completeness of 75
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #7: '75.8\%' at line 307
+2025-05-11 16:57:34,143 - INFO -   Context: 7 and a completeness of 75.8\% These results are notable because
+2025-05-11 16:57:34,143 - INFO - Latex Replacement #8: '30.8\%' at line 309
+2025-05-11 16:57:34,143 - INFO -   Context: with a recovery rate of 30.8\% a purity of 46 7
+2025-05-11 16:57:34,144 - INFO - Latex Replacement #9: '46.7\%' at line 309
+2025-05-11 16:57:34,144 - INFO -   Context: 30 8 a purity of 46.7\% and a completeness of 50
+2025-05-11 16:57:34,144 - INFO - Latex Replacement #10: '50.2\%' at line 309
+2025-05-11 16:57:34,144 - INFO -   Context: 7 and a completeness of 50.2\% The substantial disparity suggests that
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #1: '12,242' at line 275
+2025-05-11 16:57:34,144 - INFO -   Context: number of identified groups is 12,242 while there are 8 427
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #2: '8,640' at line 305
+2025-05-11 16:57:34,144 - INFO -   Context: space galaxy group catalog of 8,640 systems each containing at least
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #3: '0.8' at line 264
+2025-05-11 16:57:34,144 - INFO -   Context: rate of F_ mathrm R 0.8 for FoF and 0 76
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #4: '115' at line 320
+2025-05-11 16:57:34,144 - INFO -   Context: hypervalue s_los we successfully identified 115 BCGs consistent with the 118
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #5: '113' at line 316
+2025-05-11 16:57:34,144 - INFO -   Context: BCG candidates with the 8 113 galaxies released in the ninth
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #6: '0.20' at line 305
+2025-05-11 16:57:34,144 - INFO -   Context: of 0 leq z leq 0.20 The group catalog was constructed
+2025-05-11 16:57:34,144 - INFO - Exact Replacement #7: '12' at line 275
+2025-05-11 16:57:34,144 - INFO -   Context: identified groups using FoF is 12 396 Therefore by incorporating the
+2025-05-11 16:57:34,144 - INFO - Galaxy_count Replacement #1: '586,025' at line 305
+2025-05-11 16:57:34,144 - INFO -   Context: from citet shiMappingRealspaceDistributions2016 which contains 586,025 galaxies from SDSS DR13 citep albareti13thDataRelease2017
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #1: '1.2' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #2: '300' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #3: '15' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #4: '0.05' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #5: '118' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #6: '115' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #7: '400' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #8: '472' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Expected_value_final_pass Replacement #9: '0.2' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:34,144 - INFO - Trailing_zeros Replacement #1: '0.10' at line 0
+2025-05-11 16:57:34,144 - INFO -   Context: Trailing zeros variation
+2025-05-11 16:57:34,144 - INFO - Saved context information to utils/num_mask_logs/galaxy_soptics_contexts.log

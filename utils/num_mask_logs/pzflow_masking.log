@@ -1,10 +1,10 @@
-2025-05-11 16:39:29,429 - INFO - Logging to file: utils/num_mask_logs/pzflow_masking.log
-2025-05-11 16:39:29,429 - INFO - Found 9 unique numerical values to mask
-2025-05-11 16:39:29,429 - INFO - Found 3 values from expected_output lists: [-0.0, 0.017, 0.04]
-2025-05-11 16:39:29,499 - INFO - Made 27 replacements in the text
-2025-05-11 16:39:29,500 - INFO - Saved masked text to papers/masked_texts/pzflow.txt
-2025-05-11 16:39:29,500 - INFO - Large_integer Replacement #1: '100,000 galaxies' at line 451
-2025-05-11 16:39:29,500 - INFO -   Context: the training set we use 100,000 galaxies from the catalog created in
-2025-05-11 16:39:29,500 - INFO - Expected_value_final_pass Replacement #1: '0.04' at line 0
-2025-05-11 16:39:29,500 - INFO -   Context: Final pass for expected values
-2025-05-11 16:39:29,500 - INFO - Saved context information to utils/num_mask_logs/pzflow_contexts.log
+2025-05-11 16:57:40,327 - INFO - Logging to file: utils/num_mask_logs/pzflow_masking.log
+2025-05-11 16:57:40,328 - INFO - Found 9 unique numerical values to mask
+2025-05-11 16:57:40,328 - INFO - Found 3 values from expected_output lists: [-0.0, 0.017, 0.04]
+2025-05-11 16:57:40,400 - INFO - Made 27 replacements in the text
+2025-05-11 16:57:40,400 - INFO - Saved masked text to papers/masked_texts/pzflow.txt
+2025-05-11 16:57:40,400 - INFO - Large_integer Replacement #1: '100,000 galaxies' at line 451
+2025-05-11 16:57:40,400 - INFO -   Context: the training set we use 100,000 galaxies from the catalog created in
+2025-05-11 16:57:40,400 - INFO - Expected_value_final_pass Replacement #1: '0.04' at line 0
+2025-05-11 16:57:40,400 - INFO -   Context: Final pass for expected values
+2025-05-11 16:57:40,400 - INFO - Saved context information to utils/num_mask_logs/pzflow_contexts.log

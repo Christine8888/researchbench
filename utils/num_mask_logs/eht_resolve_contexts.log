@@ -2,10 +2,30 @@ Masked values and their context for paper: eht_resolve
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_EQUALITY: 3 replacements
   LATEX: 3 replacements
   ADDITIONAL: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (3):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 0.01
+  Line: 495
+  Context: priori i e we set $\epsilon = 0.01$ This adds another factor of
+
+Replacement #2:
+  Expression: 0.23
+  Line: 598
+  Context: Collaboration cite ehtiv r_0 SI {22}{\mu as A 0 23 and
+
+Replacement #3:
+  Expression: 0.5
+  Line: 599
+  Context: asymmetry and a sharper ri ng: $r_0  SI 20 muas A 0
+
 
 LATEX REPLACEMENTS (3):
 --------------------------------------------------------------------------------

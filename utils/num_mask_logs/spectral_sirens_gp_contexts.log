@@ -2,10 +2,50 @@ Masked values and their context for paper: spectral_sirens_gp
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_ASSIGNMENT: 2 replacements
+  LATEX_VARIABLE_EQUALITY: 4 replacements
   COMMA_SEPARATED_LARGE: 1 replacements
   ADDITIONAL: 1 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (2):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $z_p=2.4$
+  Line: 351
+  Context: f_ text peak 0 05 $z_p=2.4$ alpha_z 1 0 and beta_z
+
+Replacement #2:
+  Expression: $\alpha_z=1.0$
+  Line: 351
+  Context: peak 0 05 z_p NUM ERICAL_RESULT] alpha_z 1 0 and beta_z
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (4):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 7.0
+  Line: 351
+  Context: 10 Msun mu 30 Msun $\sigma=7.0~\Msun$ f_ text peak 0 05
+
+Replacement #2:
+  Expression: 1.0
+  Line: 351
+  Context: 05 z_p NUM alpha_z NUMERI CAL_RESULT]$$, alpha_z 1 0 and beta_z
+
+Replacement #3:
+  Expression: 3.4
+  Line: 351
+  Context: NUM alpha_z NUMERI alpha_z NUMERICAL _RESULT]$ $\a lpha_z 1 0 and beta_z
+
+Replacement #4:
+  Expression: 3.4
+  Line: 351
+  Context: NUMERICAL_RESULT lpha_z 1 0 and $\beta_z=3.4$ These choices correspond to the
+
 
 COMMA_SEPARATED_LARGE REPLACEMENTS (1):
 --------------------------------------------------------------------------------

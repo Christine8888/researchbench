@@ -2,6 +2,8 @@ Masked values and their context for paper: trgb_std_candle
 ================================================================================
 
 SUMMARY OF REPLACEMENTS:
+  LATEX_VARIABLE_ASSIGNMENT: 5 replacements
+  LATEX_VARIABLE_EQUALITY: 8 replacements
   EQUATION_EXPECTED_VALUE: 1 replacements
   LATEX: 2 replacements
   ROUNDED: 1 replacements
@@ -10,6 +12,79 @@ SUMMARY OF REPLACEMENTS:
   EXPECTED_VALUE_FINAL_PASS: 3 replacements
 
 ================================================================================
+
+LATEX_VARIABLE_ASSIGNMENT REPLACEMENTS (5):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: $R_V = 2.7$
+  Line: 31
+  Context: by construction citep madore_pl_1982 assuming $R_V = 2.7$ and a typical color of
+
+Replacement #2:
+  Expression: $R_{V} = 2.7$
+  Line: 71
+  Context: tip citep Anderson2022 and t he recommende d R_ V 2 7
+
+Replacement #3:
+  Expression: $R_I=1.461$
+  Line: 71
+  Context: R_V 3 3 in Section ref{sec:mud iff which yields R_I 1
+
+Replacement #4:
+  Expression: $R_V=2.7$
+  Line: 145
+  Context: mudiff Using R_ V mathr m{SMC}} = 3 3 instead of our
+
+Replacement #5:
+  Expression: $R_V=2.7$
+  Line: 145
+  Context: from 0 176 to 0 182 when  assuming R_ mathrm V SMC
+
+
+LATEX_VARIABLE_EQUALITY REPLACEMENTS (8):
+--------------------------------------------------------------------------------
+
+Replacement #1:
+  Expression: 2.7
+  Line: 71
+  Context: t R_ V NUMERICAL_RESULT d $R_{V} = 2.7$ value for the SMC from
+
+Replacement #2:
+  Expression: 3.3
+  Line: 71
+  Context: As a check we a lso conside red R_V 3 3 in
+
+Replacement #3:
+  Expression: 1.461
+  Line: 71
+  Context: 3 in Section R_I NUMERIC AL_RESULT]$ iff which yields R_I 1
+
+Replacement #4:
+  Expression: 0.10
+  Line: 111
+  Context: and consider it below only  for comparison and using a fixed value
+
+Replacement #5:
+  Expression: 2.7
+  Line: 145
+  Context: Using R_ V mathr R_V = [NUMERI CAL_RESULT 3 3 instead of
+
+Replacement #6:
+  Expression: 2.7
+  Line: 145
+  Context: 0 176 to 0 R_V [NUMERICA L_RESULT assuming R_ mathrm V
+
+Replacement #7:
+  Expression: 14.911
+  Line: 164
+  Context: magnitude of m_ I 0 {\mathrm{H23}} = 14.927 \pm 0.023$\,mag reported in H23 with our \Bseq calibration of m_ I 0
+
+Replacement #8:
+  Expression: 0.10
+  Line: 111
+  Context: using a fixed value of $\sigma_s=0.10$ mag which corresponds to the
+
 
 EQUATION_EXPECTED_VALUE REPLACEMENTS (1):
 --------------------------------------------------------------------------------
