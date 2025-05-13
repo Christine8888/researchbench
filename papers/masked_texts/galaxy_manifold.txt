@@ -4,7 +4,7 @@
 
 \begin{abstract}
 
- We report the discovery of a two-dimensional Galaxy Manifold within the multi-dimensional luminosity space of local galaxies. The multi-dimensional luminosity space is constructed using 11 bands that span from far ultraviolet to near-infrared for redshift < 0.1 galaxies observed with \textsl{GALEX}, SDSS, and UKIDSS. The two latent parameters are sufficient to express [NUMERICAL_RESULT]\% of the variance in the galaxy sample, suggesting that this Galaxy Manifold is one of the most efficient representations of galaxies. The transformation between the observed luminosities and the manifold parameters as an analytic mapping is provided. The manifold representation provides accurate ([NUMERICAL_RESULT]\%) morphological classifications with a simple linear boundary, and galaxy properties can be estimated with minimal scatter (0.12 dex and 0.04 dex for star formation rate and stellar mass, respectively) by calibrating with the two-dimensional manifold location. Under the assumption that the manifold expresses the possible parameter space of galaxies, the evolution on the manifold is considered. We find that constant and exponentially decreasing star formation histories form almost orthogonal modes of evolution on the manifold. Through these simple models, we understand that the two modes are closely related to gas content, which suggests the close relationship of the manifold to gas accretion. Without assuming a star formation history, a gas-regulated model reproduces an exponentially declining star formation history with a timescale of $\sim$[NUMERICAL_RESULT] Gyrs on the manifold. Lastly, the found manifold suggests a paradigm where galaxies are characterized by their mass/scale and specific SFR, which agrees with previous studies of dimensionality reduction. 
+ We report the discovery of a two-dimensional Galaxy Manifold within the multi-dimensional luminosity space of local galaxies. The multi-dimensional luminosity space is constructed using 11 bands that span from far ultraviolet to near-infrared for redshift < 0.1 galaxies observed with \textsl{GALEX}, SDSS, and UKIDSS. The two latent parameters are sufficient to express [NUMERICAL_RESULT]\% of the variance in the galaxy sample, suggesting that this Galaxy Manifold is one of the most efficient representations of galaxies. The transformation between the observed luminosities and the manifold parameters as an analytic mapping is provided. The manifold representation provides accurate ([NUMERICAL_RESULT]\%) morphological classifications with a simple linear boundary, and galaxy properties can be estimated with minimal scatter ([NUMERICAL_RESULT] dex and [NUMERICAL_RESULT] dex for star formation rate and stellar mass, respectively) by calibrating with the two-dimensional manifold location. Under the assumption that the manifold expresses the possible parameter space of galaxies, the evolution on the manifold is considered. We find that constant and exponentially decreasing star formation histories form almost orthogonal modes of evolution on the manifold. Through these simple models, we understand that the two modes are closely related to gas content, which suggests the close relationship of the manifold to gas accretion. Without assuming a star formation history, a gas-regulated model reproduces an exponentially declining star formation history with a timescale of $\sim$[NUMERICAL_RESULT] Gyrs on the manifold. Lastly, the found manifold suggests a paradigm where galaxies are characterized by their mass/scale and specific SFR, which agrees with previous studies of dimensionality reduction. 
  
 \end{abstract}
 
@@ -73,10 +73,10 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  = 
  \left[\begin{array}{cc}
  -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
- -[NUMERICAL_RESULT] & 0.5409 \\
- -[NUMERICAL_RESULT] & 0.1340 \\
- -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
- -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
  -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
  -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
  -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
@@ -115,11 +115,10 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  = 
  \left[\begin{array}{cc}
  -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
- -[NUMERICAL_RESULT] & 0.5409 \\
- -[NUMERICAL_RESULT] & 0.1340 \\
- -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
- -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
- -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
+ -[NUMERICAL_RESULT] & [NUMERICAL_RESULT] \\
  -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
  -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
  -[NUMERICAL_RESULT] & -[NUMERICAL_RESULT] \\
@@ -145,25 +144,28 @@ methods: data analysis -- galaxies: evolution -- galaxies: fundamental parameter
  
  
 \subsection{Gas mass}
- A key property that controls the star formation of a galaxy is gas. However, observations of neutral atomic hydrogen (HI) and molecular hydrogen (H$_2$) are demanding, limiting the number of galaxies with observed HI and H$_2$ masses. The galaxies with these measurements also tend to be gas-rich, which may bias the distribution on the manifold. Thus, we resort to using empirical relations provided in \citet{Yesuf_2019} in deriving gas mass estimates using dust absorption, galaxy size, $M_*$, and SFR of a galaxy. The above work also provides the total gas mass, which will be used for discussion in Section \ref{sec:discussion}. The equations used to derive the masses for HI ($M_{\mathrm{HI}}$), H$_2$ ($M_{\mathrm{H_2}}$), and total gas masses ($M_{\mathrm{gas}}$) are given below. 
- \begin{equation}\label{eq:HI}
- \begin{split}
- \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0[NUMERICAL_RESULT]) \log R_{50} \\
- &+ (0.47\pm0.02) \log \operatorname{SFR},
- \end{split}
- \end{equation}
- \begin{equation}\label{eq:H2}
- \begin{split}
- \log M_{\mathrm{H}_{2}} &= (6.56\pm0[NUMERICAL_RESULT]) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + ([NUMERICAL_RESULT]\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operatorname{SFR},
- \end{split}
- \end{equation}
- \begin{equation}\label{eq:Tgas}
- \begin{split}
- \log M_{\mathrm{gas}}=(9.28\pm0.04) + (0.87&\pm0[NUMERICAL_RESULT]) \log R_{50} \\
- &+ (0.70\pm0.04) \log \operatorname{SFR},
- \end{split}
- \end{equation}
- where $R_{50}$ is the half-light radius of the galaxy, and $A_V$ is the dust attenuation at V-band obtained from the RCSED catalog. The derived quantities using the above relations are shown in Figure \ref{fig:manifold_gas}. All three plots show a gradual increase from left bottom to top left. The median values of $\sigma_{\mathrm{Log \ } M_{\mathrm{HI}}}$, $\sigma_{\mathrm{Log \ } M_{\mathrm{H_2}}}$, and $\sigma_{\mathrm{Log \ } M_{\mathrm{gas}}}$ are [NUMERICAL_RESULT], [NUMERICAL_RESULT], and [NUMERICAL_RESULT], respectively.
+ 
+    
+\subsection{Gas mass}
+    A key property that controls the star formation of a galaxy is gas. However, observations of neutral atomic hydrogen (HI) and molecular hydrogen (H$_2$) are demanding, limiting the number of galaxies with observed HI and H$_2$ masses. The galaxies with these measurements also tend to be gas-rich, which may bias the distribution on the manifold. Thus, we resort to using empirical relations provided in \citet{Yesuf_2019} in deriving gas mass estimates using dust absorption, galaxy size, $M_*$, and SFR of a galaxy. The above work also provides the total gas mass, which will be used for discussion in Section \ref{sec:discussion}. The equations used to derive the masses for HI ($M_{\mathrm{HI}}$), H$_2$ ($M_{\mathrm{H_2}}$), and total gas masses ($M_{\mathrm{gas}}$) are given below. 
+    \begin{equation}\label{eq:HI}
+        \begin{split}
+            \log M_{\mathrm{HI}}=(9.07\pm0.04) + (1.08&\pm0.11) \log R_{50} \\
+                            &+ (0.47\pm0.02) \log \operatorname{SFR},
+        \end{split}
+    \end{equation}
+    \begin{equation}\label{eq:H2}
+        \begin{split}
+            \log M_{\mathrm{H}_{2}} &= (6.56\pm0.37) + (0.41\pm0.09) A_{V} \\ &+ (0.30\pm0.10) \log R_{50} + (0.21\pm0.04) \log M_*\\ &+(0.61\pm0.03) \log \operatorname{SFR},
+        \end{split}
+    \end{equation}
+    \begin{equation}\label{eq:Tgas}
+        \begin{split}
+            \log M_{\mathrm{gas}}=(9.28\pm0.04) + (0.87&\pm0.11) \log R_{50} \\
+                            &+ (0.70\pm0.04) \log \operatorname{SFR},
+        \end{split}
+    \end{equation}
+    where $R_{50}$ is the half-light radius of the galaxy, and $A_V$ is the dust attenuation at V-band obtained from the RCSED catalog. The derived quantities using the above relations are shown in Figure \ref{fig:manifold_gas}. All three plots show a gradual increase from left bottom to top left. The median values of $\sigma_{\mathrm{Log \ } M_{\mathrm{HI}}}$, $\sigma_{\mathrm{Log \ } M_{\mathrm{H_2}}}$, and $\sigma_{\mathrm{Log \ } M_{\mathrm{gas}}}$ are [NUMERICAL_RESULT], [NUMERICAL_RESULT], and [NUMERICAL_RESULT], respectively.
  
 
 \subsection{Galaxy morphology} \label{sec:physical_properties_morph}

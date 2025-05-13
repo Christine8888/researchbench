@@ -1,0 +1,30 @@
+{
+    "paper_id": "gw_isotropy",
+    "paper_link": "https://arxiv.org/abs/2304.13254",
+    "code_available": true,
+    "code_link": "https://github.com/maxisi/gwisotropy",
+    "publication_date": "2023-04-26",
+    "title": "The directional isotropy of LIGO-Virgo binaries",
+    "abstract": "We demonstrate how to constrain the degree of absolute alignment of the total angular momenta of LIGO-Virgo binary black holes, looking for a special direction in space that would break isotropy. We also allow for inhomogeneities in the distribution of black holes over the sky. Making use of dipolar models for the spatial distribution and orientation of the sources, we analyze 57 signals with false-alarm rates ≤ 1/yr from the third LIGO-Virgo observing run. Accounting for selection biases, we find the population of LIGO-Virgo black holes to be consistent with both homogeneity and isotropy. We additionally find the data to constrain some directions of alignment more than others, discuss the interpretation of this measurement and produce posteriors for the directions of total angular momentum of all binaries in our set. While our current constraints are weak, the fact that such a small number of detections can already yield a measurement suggests that this will be a powerful tool in the future; we explore this prospect with a number of simulated catalogs of varying size.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "gw_isotropy",
+        "dataset_name": "ligo_data",
+        "data_instructions": {
+            "access": "Information about the GWTC-3 sensitivity estimates can be found in o3-sensitivity-estimates.md. The README_GWTC-3-population-data.md file contains information about the GWTC-3 population data."
+        },
+        "url": ["https://zenodo.org/records/5546676/files/endo3_bbhpop-LIGO-T2100113-v12.hdf5", 
+        "https://zenodo.org/records/5546676/files/o3-sensitivity-estimates.md",
+        "https://zenodo.org/records/7843926/files/GWTC-3-population-data.tar.gz",
+        "https://zenodo.org/records/7843926/files/README_GWTC-3-population-data.md"],
+        "size": [88.8, 0.01, 40.2, 0.01]
+    },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "python",
+        "dependencies": ["ligo.skymap", "numpy", "astropy", "gwpopulation", "deepdish", "h5py"]
+    },
+    "other_instructions": "",
+    "source": "showyourwork"
+}

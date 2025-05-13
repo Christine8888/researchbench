@@ -1,0 +1,25 @@
+{
+    "paper_id": "",
+    "paper_link": "",
+    "code_available": false,
+    "code_link": "",
+    "publication_date": "",
+    "title": "",
+    "abstract": "",
+    "dataset": {
+      "kind": "",
+      "paper_id": "",
+      "dataset_name": "",
+      "data_instructions": {
+       }
+    },
+    "execution_requirements": {
+      "needs_gpu": false,
+      "needs_browsing": false,
+      "code_language": "",
+      "dependencies": [
+      ]
+    },
+    "other_instructions": "",
+    "source": ""
+  }

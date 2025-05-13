@@ -19,5 +19,6 @@
       "code_language": "python",
       "dependencies": ["numpy", "scipy", "astropy", "matplotlib", "galpy", "scipy", "scikit-learn"]
     },
-    "other_instructions": "The Gaia DR2 was accessed in the paper using an ADQL query with an account on the Gaia archive."
+    "other_instructions": "The Gaia DR2 was accessed in the paper using an ADQL query with an account on the Gaia archive.",
+    "source": "expert"
   }

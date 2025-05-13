@@ -81,7 +81,7 @@ Having obtained the galaxy color magnitudes, it is in principle trivial to apply
 For the LRG mock, we use the sliding color cuts of DESI LRG target selection \citep{2020Zhou}:
 \begin{align}
  & (r' - z') > (z' - 16.83) \times 0.45,\\ 
- & \mathrm{AND}\ (r' - z') > (z' -3.80) \times 0.19,
+ & \mathrm{AND}\ (r' - z') > (z' -13.80) \times 0.19,
  \label{equ:lrg_cuts}
 \end{align}
 where $r' = r_{\mathrm{model}} + \delta m$ and $z'= z_{\mathrm{model}} + \delta m$ are the corrected model magnitudes. The target number density of LRGs in DESI in the redshift range $z=0.6-1.05$ is $5\times 10^{-4}h^3$Mpc$^{-3}$. We find that $\delta m = -0.4$ roughly matches the desired target density, resulting in an LRG mock sample of 4608 galaxies. 

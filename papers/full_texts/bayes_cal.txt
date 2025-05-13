@@ -353,9 +353,6 @@ By individually adjusting each component of noise arising in our realistic noise
 \section{Conclusions} \label{conclusions} 
 Here we presented the development of a calibration methodology based on the procedure used by EDGES but with key improvements to characterise reflections arising at connections within the receiver. Our pipeline utilises the Dicke switching technique and a Bayesian framework in order to individually optimise calibration parameters while identifying correlations between them using a dynamic algorithm to be applied in the same environment as the data acquisition. In a comprehensive investigation, we have evaluated our algorithm's interpretation of empirical models of data which have been generated from known noise wave parameters and a realistic noise model. The solution, applied to an ambient-temperature $50 \ \Omega$ load, produces a calibrated temperature with an RMS residual temperature of 8 mK. Future work for the pipeline regards application of real calibrator data, optimisation of noise wave parameter coefficients through marginalisation techniques and incorporation into an end-to-end simulation based on an entire experimental apparatus to better understand error tolerances. The flexibility of the algorithm attributed to our novel approach allows its application to any experiment relying on similar forms of calibration such as REACH \citep{reach}, were we intend to use this for in-the-field and on-the-fly radiometer calibration.
 
-\section*{Data Availability}
-The data underlying this article will be shared on reasonable request to the corresponding author.
-
 \end{document}
 
 @article{21in21,
@@ -610,7 +607,7 @@ The data underlying this article will be shared on reasonable request to the cor
 	pages = "A134",
 }
 
-@ARTICLE{trotta,
+@article{trotta,
        author = {{Trotta}, Roberto},
         title = "{Bayes in the sky: Bayesian inference and model selection in cosmology}",
       journal = {Contemporary Physics},
@@ -628,7 +625,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{radio,
+@article{radio,
        author = {{Ewall-Wice}, Aaron and {Chang}, Tzu-Ching and {Lazio}, T. Joseph W.},
         title = "{The Radio Scream from black holes at Cosmic Dawn: a semi-analytic model for the impact of radio-loud black holes on the 21 cm global signal}",
       journal = {\mnras},
@@ -646,19 +643,18 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{spline,
-title = {A fast compact algorithm for cubic spline smoothing},
-author = {Weinert, Howard L.},
-year = {2009},
-journal = {Computational Statistics and Data Analysis},
-volume = {53},
-number = {4},
-pages = {932-940},
-abstract = {An efficient algorithm is presented for computing discrete or continuous cubic smoothing splines with uniformly spaced and uniformly weighted measurements. The algorithm computes both the spline values and the generalized cross-validation score. Execution time and memory use are reduced by carefully exploiting the problem's rich structure. The frequency domain properties of the steady-state cubic spline smoother are also examined.},
-url = {https://EconPapers.repec.org/RePEc:eee:csdana:v:53:y:2009:i:4:p:932-940}
+@article{spline,
+        title = {A fast compact algorithm for cubic spline smoothing},
+       author = {Weinert, Howard L.},
+         year = {2009},
+      journal = {Computational Statistics and Data Analysis},
+       volume = {53},
+       number = {4},
+        pages = {932-940},
+          url = {https://EconPapers.repec.org/RePEc:eee:csdana:v:53:y:2009:i:4:p:932-940}
 }
 
-@ARTICLE{dom,
+@article{dom,
        author = {{Anstey}, Dominic and {de Lera Acedo}, Eloy and {Handley}, Will},
         title = "{A General Bayesian Framework for Foreground Modelling and Chromaticity Correction for Global 21cm Experiments}",
       journal = {arXiv e-prints},
@@ -674,7 +670,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{radiationTemp,
+@article{radiationTemp,
        author = {{Zaldarriaga}, Matias and {Furlanetto}, Steven R. and {Hernquist}, Lars},
         title = "{21 Centimeter Fluctuations from Cosmic Gas at High Redshifts}",
       journal = {\apj},
@@ -692,7 +688,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{darkmatter,
+@article{darkmatter,
        author = {{Barkana}, Rennan},
         title = "{Possible interaction between baryons and dark-matter particles revealed by the first stars}",
       journal = {\nat},

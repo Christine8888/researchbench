@@ -1,9 +1,10 @@
 {
     "task_id": "core_envelope_boundary_thickness",
     "kind": "numeric",
-    "difficulty": 6,
+    "paper_id": "CE_accretors",
+    "difficulty": 3,
     "description": "Calculate the mass thickness of the core-envelope boundary (CEB) region in TAMS models.",
-    "instructions": "Using MESA (version 15140), calculate the mass thickness of the core-envelope boundary (CEB) region at terminal age main sequence (TAMS) for a single 30 M☉ star with Z = 0.0019. The CEB is defined as the region where Xc(1H) + 0.01 < X(1H) < Xsurf(1H) - 0.01, with Xc and Xsurf being the central and surface value of the hydrogen mass fraction. Return the mass thickness in solar masses.",
+    "instructions": "Using the MESA outputs, calculate the mass thickness of the core-envelope boundary (CEB) region at terminal age main sequence (TAMS) for a single 30 M☉ star with Z = 0.0019. The CEB is defined as the region where Xc(1H) + 0.01 < X(1H) < Xsurf(1H) - 0.01, with Xc and Xsurf being the central and surface value of the hydrogen mass fraction. Return the mass thickness in solar masses.",
     "expected_output": [5.81],
     "tolerance": [0.1],
     "parents": [],

@@ -1,7 +1,8 @@
 {
     "task_id": "lambda_distribution_uniform_psi",
     "kind": "numeric",
-    "difficulty": 4,
+    "paper_id": "stellar_obliquity",
+    "difficulty": 2,
     "description": "Calculate the sky-projected stellar obliquity distribution for isotropic stellar obliquity",
     "instructions": "Implement the calculation of the sky-projected stellar obliquity (λ) distribution when the stellar obliquity (ψ) is isotropically distributed (cos ψ ~ U(-1,1)). Use equation 20 from the paper and assume orbital inclination iorb = 90°. For isotropic stellar obliquity, the equation gives p(cos λ) = 1/π/√(1-cos²λ), which simplifies to p(λ) = 1/π when transforming to angle space. Calculate the probability density of observing λ = 45° (π/4 rad). Return this probability density value rounded to 4 decimal places. The computation should take less than 1 second on a standard laptop.",
     "expected_output": 0.3183,

@@ -2,10 +2,20 @@
     "task_id": "mtov_spin",
     "paper_id": "gw_nsbh",
     "kind": "numeric",
-    "difficulty": 3,
-    "description": "NS maximum mass, high spin assumption",
-    "instructions": "Report the modal value and the 95% lower limit for the maximum mass of a non-spinning neutron star.\n Measure using all 4 LIGO events described in the paper, the 'ZS' spin prior, and an additional prior enforcing that GW190814 is maximally spinning, amin/aKep = 0.9.\n Return the result as an array in the format [modal_value, lower_limit_95_percent].",
-    "tolerance": [0.1, 0.1],
-    "expected_output": [2.4, 2.2],
-    "parents": ["default_mtov", "load_data"]
+    "difficulty": 5,
+    "description": "Calculate the mode and 95% lower limit for the non-spinning NS maximum mass (M_TOV), assuming maximally spinning NS for GW190814.",
+    "instructions": "1. Implement the hierarchical Bayesian inference framework described in Section II.B.\n2. Use the population model defined in Equation 6, incorporating:\n    - The 'ZS' spin prior framework (Section II.A.1): Primary BH nonspinning ($a_1 = 0$), secondary NS spin isotropic in tilt. Crucially, modify the NS spin magnitude distribution (Eq. 1) to enforce that all NSs in the population have spins $a_2$ such that $a_2 / a_\\mathrm{Kep} \\ge 0.9$. Assume a uniform distribution for $a_2/a_\\mathrm{Kep}$ in the range $[0.9, 1.0]$, setting $a_\\mathrm{Kep} = 0.7$.\n    - The 'Default' NS mass model (Section II.A.2): Single truncated Gaussian distribution $p(m_2 | \\mu, \\sigma, M_\\mathrm{min}, M_\\mathrm{max})$, with $M_\\mathrm{min}=1\\,M_\\odot$. The maximum mass $M_\\mathrm{max}$ depends on spin $a_2$ via the universal relationship $M_{\\text{max}}(a_2, a_{\\text{Kep}}, M_{\\text{TOV}}) = M_{\\text{TOV}}\\left(1 + 0.132\\left(\\frac{a_2}{0.7}\\right)^2+0.0071\\left(\\frac{a_2}{0.7}\\right)^4\\right)$. Infer the hyperparameters $\\mu, \\sigma, M_\\mathrm{TOV}$.\n    - The BH mass model (Section II.A.3): Power law $p(m_1 | \\alpha, M_{\\rm BH}) \\propto m_1^{-\\alpha}$ for $m_1 > M_{\\rm BH}$. Infer $\\alpha$ and $M_\\mathrm{BH}$.\n    - The pairing function (Section II.A.3): $p(q) \\propto q^{\\beta}$ with $\\beta=0$.\n3. Use priors for the inferred hyperparameters ($\\mu, \\sigma, M_\\mathrm{TOV}, \\alpha, M_\\mathrm{BH}$) as specified in Table I.\n4. Include selection effects using the semi-analytic approach from Section II.B.2, assuming an SNR threshold $\\rho_\\mathrm{thresh} = 8$ and aLIGO O3 sensitivity.\n5. Use the parameter estimation posterior samples for all 4 LIGO events listed in Section III.A: GW200105, GW200115, GW190814, GW190426.\n6. Run the hierarchical inference (e.g., using MCMC) to obtain the posterior distribution for the population hyperparameters.\n7. Extract the posterior distribution for the maximum mass of a non-spinning neutron star, $M_\\mathrm{TOV}$.\n8. Estimate the modal value (peak) of the $M_\\mathrm{TOV}$ posterior distribution using a suitable method like kernel density estimation.\n9. Calculate the 5th percentile of the $M_\\mathrm{TOV}$ posterior distribution to obtain the 95% lower limit.\n10. Return the result as a list in the format [modal_value, lower_limit_95_percent], rounded to one decimal place.",
+    "tolerance": [
+        0.1,
+        0.1
+    ],
+    "expected_output": [
+        2.4,
+        2.2
+    ],
+    "parents": [
+        "default_mtov",
+        "load_data"
+    ],
+    "output_justification": "The expected output is based on the analysis described in Section III.B.1 and shown as the green dashed curve in Figure 3(a). This analysis uses a prior enforcing maximally spinning NS ($a_\\mathrm{min}/a_\\mathrm{Kep}=0.9$). The text states this leads to $M_\\text{TOV}$ estimates '$\\sim2.4$ $M_\\odot$, with support below $2.2\\,M_\\odot$'. The mode (peak) of the green dashed curve in Figure 3(a) is visually estimated at $\\sim2.4 M_\\odot$, and the 5th percentile (95% lower limit) is visually estimated at $\\sim2.2 M_\\odot$."
 }

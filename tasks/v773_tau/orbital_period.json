@@ -1,0 +1,12 @@
+{
+    "task_id": "orbital_period",
+    "paper_id": "v773_tau",
+    "kind": "numeric",
+    "difficulty": 3,
+    "description": "Determine the orbital period of the V773 Tau AB system.",
+    "instructions": "Using the provided astrometric measurements for the AB system (from Duchêne et al. 2003, Boden et al. 2012, and the measurement from this paper) and the system distance of 132.8 pc and total AB mass of 5.27 M_sun, perform an orbital fit using a suitable orbit fitting package like 'orbitize!'. Utilize the fitting parameters suggested in the paper: 1000 walkers, 20 temperatures, a burn-in of 2000 steps per walker, and a total run of 1,000,000 steps. Extract the orbital period from the posterior distribution (50th percentile). Report the period in years.",
+    "expected_output": 26.50,
+    "tolerance": 0.07,
+    "output_justification": "Result reported in Table 1 ('this work' column for AB) derived from the orbital fit performed in Section 4 using combined astrometry.",
+    "parents": []
+  }

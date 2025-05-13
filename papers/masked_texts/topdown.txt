@@ -1,27 +1,44 @@
 \begin{document}
 
+% Title
 \title{Pair-instability mass loss for top-down compact object mass calculations}
 
+% Author list
+\author[0000-0002-6718-9472]{M.~Renzo}
+\affiliation{Center for Computational Astrophysics, Flatiron Institute, New York, NY 10010, USA}
+\affiliation{Department of Physics, Columbia University, New York, NY 10027, USA}
+
+\author[0000-0002-8717-6046]{D.~D.~Hendriks}
+\affiliation{Department of Physics, University of Surrey, Guildford, GU2 7XH, Surrey, UK}
+
+\author[0000-0001-5484-4987]{L.~A.~C.~van~Son}
+\affiliation{Center for Astrophysics $|$ Harvard $\&$ Smithsonian,60 Garden St., Cambridge, MA 02138, USA}
+\affiliation{Anton Pannekoek Institute for Astronomy, University of Amsterdam, Science Park 904, 1098XH Amsterdam, The Netherlands}
+\affiliation{Max-Planck-Institut für Astrophysik, Karl-Schwarzschild-Straße 1, 85741 Garching, Germany}
+
+\author[0000-0003-3441-7624]{R.~Farmer}
+\affiliation{Max-Planck-Institut für Astrophysik, Karl-Schwarzschild-Straße 1, 85741 Garching, Germany}
+
 \begin{abstract}
- \noindent
- Population synthesis relies on semi-analytic formulae to determine
- masses of compact objects from the (helium or carbon-oxygen) cores of
- collapsing stars. Such formulae are combined across mass
- ranges that span different explosion mechanisms, potentialy
- introducing artificial features in the compact object mass
- distribution. Such artifacts impair the interpretation of
- gravitational-wave observations. We propose a
- ``top-down'' remnant mass prescription where we remove mass from the
- star for each possible mass-loss mechanism, instead of relying on the fallback
- onto a ``proto-compact-object'' to get the final mass. For one of these
- mass-loss mechanisms, we fit
- the metallicity-dependent mass lost to pulsational-pair instability supernovae
- from numerical simulations. By imposing no mass loss in the absence of
- pulses, our approach recovers the existing compact object masses
- prescription at the low mass end and ensures continuity across the
- core-collapse/pulsational-pair-instability regime. Our remnant mass
- prescription can be extended
- to include other mass-loss mechanisms at the final collapse.\\
+  \noindent
+  Population synthesis relies on semi-analytic formulae to determine
+  masses of compact objects from the (helium or carbon-oxygen) cores of
+  collapsing stars. Such formulae are combined across mass
+  ranges that span different explosion mechanisms, potentialy
+  introducing artificial features in the compact object mass
+  distribution. Such artifacts impair the interpretation of
+  gravitational-wave observations. We propose a
+  ``top-down'' remnant mass prescription where we remove mass from the
+  star for each possible mass-loss mechanism, instead of relying on the fallback
+  onto a ``proto-compact-object'' to get the final mass. For one of these
+  mass-loss mechanisms, we fit
+  the metallicity-dependent mass lost to pulsational-pair instability supernovae
+  from numerical simulations. By imposing no mass loss in the absence of
+  pulses, our approach recovers the existing compact object masses
+  prescription at the low mass end and ensures continuity across the
+  core-collapse/pulsational-pair-instability regime. Our remnant mass
+  prescription can be extended
+  to include other mass-loss mechanisms at the final collapse.\\
 \end{abstract}
 
 \section{Introduction}
@@ -33,10 +50,10 @@ black holes (BH). Typically, at the end of the evolution (carbon
 depletion) the mass of the core is mapped to a compact object mass, using a
 $M_\mathrm{comp.\ obj}\equiv M_\mathrm{comp.\ obj}(M_\mathrm{core})$
 informed by core-collapse (CC) simulations (e.g., \citealt{fryer:12,
- spera:15, mandel:20, couch:20}, see also \citealt{zapartas:21,
- patton:21}) and/or (pulsational) pair instability (PPI) simulations
+  spera:15, mandel:20, couch:20}, see also \citealt{zapartas:21,
+  patton:21}) and/or (pulsational) pair instability (PPI) simulations
 (e.g., \citealt{belczynski:16, woosley:17, spera:17, stevenson:19,
- marchant:19, farmer:19, breivik:20, renzo:20csm, costa:21}).
+  marchant:19, farmer:19, breivik:20, renzo:20csm, costa:21}).
 
 The most commonly adopted algorithms to obtain compact object masses
 in the CC regime are the ``rapid'' and ``delayed''
@@ -50,7 +67,7 @@ the star is arguably easier to constrain in population synthesis models.
 
 At the transition between CC and PPI (roughly at carbon-oxygen cores
 of $\sim{}35\,M_\odot$, \citealt{woosley:17, marchant:19, farmer:19, renzo:20csm,
- costa:21}), a mismatch between commonly adopted fitting formulae
+  costa:21}), a mismatch between commonly adopted fitting formulae
 exists. These are at least partly caused by differences in the stellar structures used to
 design these algorithms and impair the
 interpretation of gravitational-wave data \citep[as pointed out in
@@ -61,13 +78,22 @@ location and amplitude of a putative discontinuity should not be
 governed by a mismatch between the fitting formulae from different stellar
 evolution models.
 
+% \vspace*{-20pt}
 \section{Top-down compact object masses}
 
-In contrast with the ``bottom up'' approach of
+In contrast with the  ``bottom up'' approach of
 \cite{fryer:12}, we propose a ``top-down'' way to build the compact object masses
 $M_\mathrm{comp.\ obj}$. Starting from the total stellar mass we
 remove the amount of mass lost due to all of the processes
 associated with the (possibly failed) explosion:
+
+\begin{widetext}
+  \begin{equation}
+    \label{eq:mass}
+      M_\mathrm{comp.\ obj} =
+      M_\mathrm{pre-CC} - \left(\Delta M_\mathrm{SN} + \Delta M_{\nu, \mathrm{core}} + \Delta M_\mathrm{env} + \Delta M_\mathrm{PPI} + \cdots \right)
+  \end{equation}
+\end{widetext}
 
 where all masses are in $M_\odot$ units, $M_\mathrm{pre-CC}$ is the
 total mass at the onset of CC, and each term in the parenthesis
@@ -94,6 +120,20 @@ such as $\Delta M_\mathrm{PPI}$ and $\Delta M_\mathrm{env}$.
 
 \section{New fit for PPI ejecta}
 
+\begin{figure}[bp]
+    \begin{centering}
+      \includegraphics[width=0.75\linewidth]{fit_DM_PPI.pdf}
+      \caption{Each panel shows our fitting formula \Eqref{eq:fit} for
+        the amount of PPI induced mass-loss as a function of carbon-oxygen
+        core mass at each metallicity $Z$ as computed in
+        \cite{farmer:19}. The crosses show the values from Tab.~1
+        \cite{farmer:19}.}
+        % This label tells showyourwork that the script `figures/fit_DM_PPI.py'
+        % generates the PDF included above
+        \label{fig:fit_DM_PPI}
+    \end{centering}
+\end{figure}
+
 The top-down approach of \Eqref{eq:mass}, imposes
 $\Delta M_\mathrm{PPI}=0$ at the edge of the PPI regime,
 which produces a smooth BH mass
@@ -111,7 +151,7 @@ The dashed curves in each panel of \Figref{fig:fit_DM_PPI} show the
 fit \Eqref{eq:fit} for each metallicity computed in
 \cite{farmer:19}. We neglect the (weak) metallicity dependence of the
 minimum core mass for PPI, and we fit the publicly available data for initial He core
-masses between $38-[NUMERICAL_RESULT]\,M_\odot$. We emphasize that \cite{farmer:19}
+masses between $38-60\,M_\odot$.  We emphasize that \cite{farmer:19}
 only simulated helium cores. In the case of a star with a H-rich envelope which is still
 present at the onset of the pulsations and if it is both extended and red, it can be
 easily removed by the first pulse
@@ -119,11 +159,8 @@ easily removed by the first pulse
 $\Delta M_\mathrm{PPI}$ provided here. It is unclear what occurs in
 cases when the envelope is compact and blue \citep[e.g.,][]{dicarlo:19, renzo:20merger, costa:21}.
 
-\input{fit_DM_PPI.tex} 
-
 The amount of mass lost in PPI is sensitive to convection inside the star
 \citep{renzo:20conv} and the assumed nuclear reaction rates \citep{farmer:19,
- farmer:20, costa:21, woosley:21, mehta:21}, which can introduce
- uncertainties up to $\sim{}[NUMERICAL_RESULT]\%$ on the maximum BH mass. The accuracy
+  farmer:20, costa:21, woosley:21, mehta:21}, which can introduce
+  uncertainties up to $\sim{}20\%$ on the maximum BH mass. The accuracy
 of our fit is comparable to these uncertainties.
-

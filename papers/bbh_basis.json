@@ -1,0 +1,27 @@
+{
+    "paper_id": "bbh_basis",
+    "paper_link": "https://arxiv.org/abs/2210.12834",
+    "code_available": true,
+    "code_link": "https://github.com/bruce-edelman/CoveringYourBasis/tree/main",
+    "publication_date": "2023-01-26",
+    "title": "Cover Your Basis: Comprehensive Data-Driven Characterization of the Binary Black Hole Population",
+    "abstract": "We introduce the first complete non-parametric model for the astrophysical distribution of the binary black hole (BBH) population. Constructed from basis splines, we use these models to conduct the most comprehensive data-driven investigation of the BBH population to date, simultaneously fitting non-parametric models for the BBH mass ratio, spin magnitude and misalignment, and redshift distributions. With GWTC-3, we report the same features previously recovered with similarly flexible models of the mass distribution, most notably the peaks in merger rates at primary masses of ∼10M⊙ and ∼35M⊙. Our model reports a suppressed merger rate at low primary masses and a mass ratio distribution consistent with a power law. We infer a distribution for primary spin misalignments that peaks away from alignment, supporting conclusions of recent work. We find broad agreement with the previous inferences of the spin magnitude distribution: the majority of BBH spins are small (a<0.5), the distribution peaks at a∼0.2, and there is mild support for a non-spinning subpopulation, which may be resolved with larger catalogs. With a modulated power law describing the BBH merger rate's evolution in redshift, we see hints of the rate evolution either flattening or decreasing at z∼0.2−0.5, but the full distribution remains entirely consistent with a monotonically increasing power law. We conclude with a discussion of the astrophysical context of our new findings and how non-parametric methods in gravitational-wave population inference are uniquely poised to complement to the parametric approach as we enter the data-rich era of gravitational-wave astronomy.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "bbh_basis",
+        "dataset_name": "gwtc_3",
+        "data_instructions": {"access_instructions": "Data associated with Figures, Tables, and population parameter samples associated with The population of merging compact binaries inferred using gravitational waves through GWTC-3. The data is structured as follows: 10.5281/zenodo.5655785 contents:\n GWTC-3-population-data.tar.gz: \nGWTC-3-population-data: \nanalyses:\nGaussianSpin:\ngaussian-spin-xeff-xp-ppd-data.json: src/data/gaussian-spin-xeff-xp-ppd-data.json\nPowerLawSpline:\no1o2o3:\nspline_20n_mass_m_iid_mag_iid_tilt_powerlaw_redshift_mass_data.h5: src/data/spline_20n_mass_m_iid_mag_iid_tilt_powerlaw_redshift_mass_data.h5\nPowerLawPeak:\no1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_result.json: src/data/o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_result.json\n o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_magnitude_data.h5: src/data/o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_magnitude_data.h5\n o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_orientation_data.h5: src/data/o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_orientation_data.h5\n o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_samples.hdf5: src/data/o1o2o3_mass_c_iid_mag_iid_tilt_powerlaw_redshift_samples.hdf5"},
+        "url": ["https://zenodo.org/records/5655785/files/GWTC-3-population-data.tar.gz",
+            "https://zenodo.org/records/5655785/files/PowerLaw_Peak_DipBreak_Spline_Tutorial.html",
+        "https://zenodo.org/records/5655785/files/README.md"],
+        "size": [10100, 10.6, 0.005]
+        },
+    "execution_requirements": {
+        "needs_gpu": true,
+        "needs_browsing": false,
+        "code_language": "python",
+        "dependencies": ["jax", "numpyro", "astropy", "matplotlib", "scipy"]
+    },
+    "other_instructions": "",
+    "source": "showyourwork"
+}

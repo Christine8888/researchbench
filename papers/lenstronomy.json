@@ -17,5 +17,6 @@
     "code_language": "python",
     "dependencies": ["numpy<2", "astropy<7", "scipy>=0.19.1", "matplotlib", "emcee>=3.0.0", "scikit-learn", "numba>=0.57.0", "dynesty", "pymultinest", "corner>=2.2.1", "scikit-image", "pyyaml", "h5py", "tqdm", "schwimmbad>=0.3.2", "multiprocess>=0.70.8"]
   },
-"other_instructions": null
+"other_instructions": null,
+"source": "expert"
 }

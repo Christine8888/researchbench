@@ -1,8 +1,8 @@
 Calibrator:
     hot
 DataSet:
-    test_simulation_1
+    bayes_cal
 S11_of_Calibrator:
-    test_simulation_1/hot.s1p
+    bayes_cal/hot.s1p
 Calibrator_Temperature:
     373

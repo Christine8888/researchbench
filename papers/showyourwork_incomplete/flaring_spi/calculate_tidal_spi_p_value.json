@@ -1,0 +1,30 @@
+{
+    "task_id": "calculate_tidal_spi_p_value",
+    "kind": "numeric",
+    "difficulty": 6,
+    "description": "Calculate the p-value for flare clustering in phase with P_orb/2 (tidal SPI proxy) for Kepler-42 and KOI-12.",
+    "instructions": "Perform the custom Anderson-Darling (AD) test described in Section 3.2 and 5.5.2 for the Kepler-42 (TIC 63289118) and KOI-12 (TIC 87677339) systems. Use the flare times for flares with Equivalent Duration (ED) > 1s identified for these stars (from Table 2 or re-identified from light curves). Convert flare peak times to orbital phases using half the orbital period (P_orb/2) and the epoch from Table 1/3 (combined table Tables_1_3_star_planet_systems.csv). Calculate the expected cumulative distribution of flare phases, accounting for the phase coverage and base flare rate in each available light curve. Generate 10000 samples from the expected distribution, calculate the AD statistic A^2 for each sample to get a distribution of A^2 values. Calculate A^2 for the observed flare phases. Determine the p-value as the fraction of simulated A^2 values greater than or equal to the observed A^2. Repeat this process for four equidistant start phases (0, 0.25, 0.5, 0.75) as described in Section 3.2. For each star, return the final p-value (mean of the four trials) and its uncertainty (standard deviation of the four trials) as a tuple (p_value, p_value_uncertainty). Return the results as a list of tuples.",
+    "expected_output": [
+        [
+            0.14,
+            0.04
+        ],
+        [
+            0.15,
+            0.06
+        ]
+    ],
+    "tolerance": [
+        [
+            0.02,
+            0.01
+        ],
+        [
+            0.02,
+            0.01
+        ]
+    ],
+    "output_justification": "The expected p-values and their uncertainties for Kepler-42 and KOI-12 are taken from the 'pval_orbhalf' and 'pval_orbhalf_err' columns in Table 4 (provided as Table_4_tidal_interaction.csv in the dataset). These values represent the significance of flare clustering in phase with half the orbital period (P_orb/2), used as a proxy for local tidal interaction effects.",
+    "parents": [],
+    "paper_id": "flaring_spi"
+}

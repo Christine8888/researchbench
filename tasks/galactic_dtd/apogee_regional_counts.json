@@ -1,0 +1,18 @@
+{
+    "task_id": "apogee_regional_counts",
+    "kind": "numeric",
+    "difficulty": 1,
+    "description": "Count the number of selected APOGEE stars within specified Galactocentric radius (Rgal) and midplane distance (|z|) bins.",
+    "instructions": "Load the APOGEE data from `sample.csv`. Calculate Rgal and z for each star using the provided Gaia EDR3 data, assuming R_sun = 8.122 kpc and z_sun = 20.8 pc. Apply the quality cuts specified in Table 3: 1.0 < log g < 3.8, 3500 < Teff < 5500 K, S/N > 80, ASPCAPFLAG bit 23 not set, EXTRATARG bits 0, 1, 2, 3, or 4 not set, Age uncertainty (`Age_sigma_L23`) < 40%, 3 < Rgal < 15 kpc, |z| < 2 kpc. Count the number of stars falling into the following two specific spatial bins after all cuts are applied: (1) 7 < Rgal <= 9 kpc and 0.5 < |z| <= 1.0 kpc; (2) 9 < Rgal <= 11 kpc and 0.0 <= |z| <= 0.5 kpc. Return these two counts as a list: `[count_bin1, count_bin2]`.",
+    "expected_output": [
+        13811,
+        16276
+    ],
+    "tolerance": [
+        0,
+        0
+    ],
+    "output_justification": "Table 4 provides the number of APOGEE stars in various Rgal and |z| bins after sample selection (implicitly including the quality cuts from Table 3, although the age cut might slightly reduce the numbers if Table 4 was based only on abundance cuts; however, the instructions specify applying all cuts). The value listed for Rgal=(7, 9] kpc, |z|=(0.5, 1.0] kpc is 13811. The value listed for Rgal=(9, 11] kpc, |z|=(0.0, 0.5] kpc is 16276. These counts represent the sample size within these specific regions used for weighting in other analyses.",
+    "parents": [],
+    "paper_id": "galactic_dtd"
+}

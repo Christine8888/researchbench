@@ -1,8 +1,8 @@
 Calibrator:
     cold
 DataSet:
-    test_simulation_1
+    bayes_cal
 Calibrator_Temperature:
     298
 S11_of_Calibrator:
-    test_simulation_1/cold.s1p
+    bayes_cal/cold.s1p

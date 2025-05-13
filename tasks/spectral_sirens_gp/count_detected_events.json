@@ -1,0 +1,12 @@
+{
+    "task_id": "count_detected_events",
+    "kind": "numeric",
+    "difficulty": 1,
+    "description": "Count the number of detected gravitational wave events in the primary simulated catalog.",
+    "instructions": "Load the primary simulated gravitational wave event catalog provided in the `gw_data.zip` file. This catalog contains events that have passed the detection criteria for the simulated O5 observing run (e.g., single-detector SNR \u03c1_obs > 8). Count the total number of individual GW events present in this main catalog.",
+    "expected_output": 591,
+    "tolerance": 0,
+    "output_justification": "Section 2.1: 'This process results in a catalog of Nev = 591 GW signals that pass the criteria for detection, hereon called events.'",
+    "parents": [],
+    "paper_id": "spectral_sirens_gp"
+}

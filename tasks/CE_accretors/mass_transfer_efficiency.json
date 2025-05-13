@@ -1,9 +1,10 @@
 {
     "task_id": "mass_transfer_efficiency",
     "kind": "numeric",
-    "difficulty": 6,
+    "paper_id": "CE_accretors",
+    "difficulty": 3,
     "description": "Calculate the mass transfer efficiency during RLOF for the three binary systems.",
-    "instructions": "Using MESA (version 15140) with the same parameters as the paper (Z = 0.0019, initial period P = 100 days, and initial masses (M1, M2) = (18, 15), (20, 17), (38, 30) M☉), calculate the overall mass transfer efficiency (βRLOF = |ΔMaccretor/ΔMdonor|) for each of the three binary systems. Return the three efficiency values.",
+    "instructions": "Using the MESA outputs with the same parameters as the paper (Z = 0.0019, initial period P = 100 days, and initial masses (M1, M2) = (18, 15), (20, 17), (38, 30) M☉), calculate the overall mass transfer efficiency (βRLOF = |ΔMaccretor/ΔMdonor|) for each of the three binary systems. Return the three efficiency values.",
     "expected_output": [0.29, 0.30, 0.43],
     "tolerance": [0.01, 0.01, 0.01],
     "parents": [],

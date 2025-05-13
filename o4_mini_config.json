@@ -1,0 +1,24 @@
+
+{
+    "MODEL": "openai/azure/o4-mini",
+    "TASK_TYPES": ["numeric", "code"], 
+    "MESSAGE_LIMIT": 1000,
+    "TOKEN_LIMIT": 3000000,
+    "EXECUTION_TIMEOUT": 12000,
+    "TIME_LIMIT": 18000,
+    "ATTEMPTS": 1, 
+    "CACHE": true,
+    "INSPECT_LOG_DIR": "/home/users/cye/researchbench/logs",
+    "RUN_NAME": "syw-o4-mini",
+    "MASKING": true,
+    "REACT": true,
+    "FILTER_ON": {"source": "expert"}, 
+    "WORKSPACE_BASE": "/scratch/users/cye/workspace",
+    "INCLUDE_WORKSPACE": true,
+    "N_PARALLEL": 20,
+    "API_KEY_PATH": "/home/users/cye/researchbench/config.sh",
+    "SINGULARITY_IMAGE": "/scratch/users/cye/inspect_final_tool.sif",
+    "TMP_BASE": "/scratch/users/cye/tmp",
+    "DISPLAY": "full",
+    "SLURM_LOG_DIR": "/home/users/cye/slurm_logs"
+}

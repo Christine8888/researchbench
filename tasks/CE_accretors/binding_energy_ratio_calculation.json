@@ -1,7 +1,8 @@
 {
     "task_id": "binding_energy_ratio_calculation",
     "kind": "numeric",
-    "difficulty": 8,
+    "paper_id": "CE_accretors",
+    "difficulty": 4,
     "description": "Calculate the minimum ratio of binding energy between accretor models and single stars of the same total post-RLOF mass.",
     "instructions": "Using MESA (version 15140) with the same parameters as the paper (Z = 0.0019, initial period P = 100 days, and initial masses (M1, M2) = (18, 15), (20, 17), (38, 30) M☉), calculate the binding energy profiles of both the accretor models and single star models of equivalent post-RLOF mass. Evolve the models to R = 500 R☉ and calculate the ratio of binding energies (accretor/single) as a function of radius. Find the minimum ratio value for each of the three mass configurations. Return the three minimum ratio values.",
     "expected_output": [0.07, 0.08, 0.04],

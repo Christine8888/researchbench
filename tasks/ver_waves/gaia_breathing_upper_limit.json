@@ -1,11 +1,11 @@
 {
-    "task_id": "gaia_breathing_upper_limit",
-    "kind": "numeric",
-    "difficulty": 4,
-    "description": "Calculate an upper bound on the local vertical breathing-mode amplitude $|v_{\\text{breath}}|$ in the Milky Way disk using Gaia DR2 radial-velocity stars.",
-    "instructions": "This task requires measuring vertical velocity patterns to determine the amplitude of breathing modes in the Galactic disk.\n\nStep 1 - Select the stellar sample\n* Using astroquery.gaia, select Gaia DR2 stars that meet all these criteria:\n  * Have measured radial velocities (`radial_velocity IS NOT NULL`)\n  * Have well-measured parallaxes (`parallax_over_error > 5`)\n  * Lie within a cylinder of radius 250 pc centered on the Sun\n\nStep 2 - Transform to Galactocentric coordinates\n* Transform the measured stellar velocities (proper motions and radial velocities) to Galactocentric Cartesian coordinates.\n* Add the solar vertical motion $W_\\odot = +7.25$ km s$^{-1}$ to correct for the Sun's motion.\n\nStep 3 - Bin stars by vertical position\n* Create symmetric bins in $|z|$ (absolute vertical distance from mid-plane):\n  * Use 25 pc width bins for $|z| \\leq 0.5$ kpc\n  * Use 100 pc width bins for $0.5$ kpc $< |z| \\leq 1.0$ kpc\n\nStep 4 - Calculate mean vertical velocities\n* For each bin, compute the mean vertical velocity $W(z)$.\n* Estimate the 1$\\sigma$ uncertainties on these means using 1,000 bootstrap resamples.\n\nStep 5 - Evaluate breathing mode amplitude\n* For each pair of symmetric bins at $\\pm z$, calculate:\n  $v_{\\text{breath}}(|z|) = 0.5 [ W(z) - W(-z) ]$\n* Propagate the uncertainties to determine the 1$\\sigma$ error on each $v_{\\text{breath}}$ value.\n\nReturn a single value: the maximum absolute value of $v_{\\text{breath}}$ across all $|z| \\leq 1$ kpc, rounded to one decimal place.",
-    "tolerance": 0.1,
-    "expected_output": 1.0,
-    "output_justification": "Section 5 of the paper finds the amplitude is consistently $< 1\\,\\text{km}\\,\\text{s}^{-1}$. The task follows the methodology described in Section 4, especially the binning approach detailed in the caption of Figure 5.",
-    "parents": []
-  }
+  "task_id": "gaia_breathing_upper_limit",
+  "kind": "numeric",
+  "difficulty": 3,
+  "description": "Calculate an upper bound on the local vertical breathing-mode amplitude $|v_{\\text{breath}}|$ in the Milky Way disk using Gaia DR2 radial-velocity stars.",
+  "instructions": "To determine the local vertical breathing-mode amplitude $|v_{\\text{breath}}|$, use Gaia DR2 RVS from gdr2_RV.fits stars within a 250 pc radius cylinder centered on the Sun, applying the general methodology for vertical velocity analysis detailed in Section 5 of the paper. First, transform the measured stellar velocities (proper motions and radial velocities) to Galactocentric Cartesian coordinates, correcting for the Sun's motion by adding its vertical velocity $W_\\odot = +7.25 \\text{ km s}^{-1}$. Next, bin the stars by absolute vertical distance $|z|$ from the mid-plane using symmetric bins. For each bin, compute the mean vertical velocity $W(z)$ and estimate its uncertainty using bootstrap resampling. Then, for each pair of symmetric bins at $\\pm z$, calculate the breathing mode amplitude as $v_{\\text{breath}}(|z|) = 0.5 [ W(z) - W(-z) ]$, also propagating uncertainties. Finally, report the maximum absolute value of $v_{\\text{breath}}(|z|)$ found across all $|z| \\leq 1 \\text{ kpc}$, rounded to one decimal place.",
+  "tolerance": 0.1,
+  "expected_output": 1.0,
+  "output_justification": "Section 6 of the paper states the amplitude is consistently $< 1 \\text{ km s}^{-1}$. The text specifically notes: 'the amplitude of the breathing mode is zero within the uncertainty at all heights'.",
+  "parents": ["gaia_rv_sample_size"]
+}

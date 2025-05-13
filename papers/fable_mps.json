@@ -24,7 +24,8 @@
       "needs_gpu": false,
       "needs_browsing": false,
       "code_language": "python",
-      "dependencies": ["numpy", "scipy", "matplotlib"],
+      "dependencies": ["numpy", "scipy", "matplotlib", "datasets"],
       "other_instructions": "Reading GRAFIC files assumes access to standard binary I/O and Fortran-style array handling. No access to RAMSES source code is required."
-   }
+   },
+   "source": "expert"
 }

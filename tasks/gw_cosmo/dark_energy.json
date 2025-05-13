@@ -3,9 +3,12 @@
     "paper_id": "gw_cosmo",
     "kind": "numeric",
     "difficulty": 3,
-    "description": "predict the contraints on w_0 at 10000 events",
-    "instructions": "Project the fractional 1-sigma constraint (68.3% credible interval, symmetric about the median) on w_0 achievable with 10,000 independent gravitational-wave measurements.\nUse a default value of $w_0 = -1.0$ and a maximum distance limit D_L^{max} of 40 Gpc; also assume H_0 is fixed to 70 km/s/Mpc, Omega_M is fixed to 0.3, and Omega_Lambda is fixed to 0.7, within sub-percent prior constraints.\nReport the one-sided constraint as a single float, assuming the 1-sigma bound is approximately symmetric.",
+    "description": "Predict the fractional 1-sigma constraint on the dark energy equation of state parameter w0 using 10,000 simulated GW events in a flat wCDM model, assuming fixed H0 and Omega_M.",
+    "instructions": "Simulate N=10,000 gravitational-wave (GW) standard siren observations within a flat wCDM cosmological model (wa = 0). Use fiducial parameters H0 = 70 km/s/Mpc, Omega_M = 0.3, and w0 = -1.0.\nAssume the BNS merger rate follows the Madau-Dickinson Star Formation Rate (SFR) as described by Eq. 6 in the paper:\nR(z) propto (1 + z)^2.7 / (1 + ((1+z)/2.9)^5.6).\nDerive the corresponding redshift distribution p(z) using Eq. 5 and Eq. 7, normalizing over 0 < z < 8.\nFor each simulated event, draw a redshift z_i from p(z), calculate the true luminosity distance D_L(z_i) using Eq. 1, 2, 3 (with wa=0). Simulate an observed distance D_L^obs,i by drawing from a lognormal distribution with mean log(D_L(z_i)) and standard deviation sigma = 0.1 (as described in Eq. 10 and surrounding text).\nApply a selection effect by only keeping events where D_L^obs,i < D_L^max = 40 Gpc.\nPerform a hierarchical Bayesian analysis (Section II.A) on the N=10,000 *detected* events to infer the posterior distribution for w0. During the inference, treat H0 and Omega_M as fixed constants at their true values (H0 = 70, Omega_M = 0.3), reflecting the assumption of sub-percent prior constraints mentioned in Section III.B. Account for selection effects using Eq. 12 and Eq. 14.\nDetermine the symmetric 68.3% credible interval for w0 around the median (or true value, w0 = -1.0).\nCalculate the one-sided fractional constraint, defined as (half-width of the 68.3% CI) / |true value|. Since the true value is -1.0, this is equal to the half-width of the interval.\nReport the one-sided fractional constraint as a single positive float.",
     "tolerance": 0.02,
     "expected_output": 0.05,
-    "parents": ["h0_scaling"]
+    "parents": [
+        "h0_scaling"
+    ],
+    "output_justification": "The value 0.05 (5%) is stated in Section III.B: 'If we work with a wCDM model (wa = 0) and adopt sub-percent prior constraints on H0 and Omega_M, we expect that 10,000 events can constrain the dark energy equation of state parameter w0 to 5%...' This assumes D_L^max = 40 Gpc."
 }

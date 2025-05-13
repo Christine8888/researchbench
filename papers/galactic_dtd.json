@@ -1,0 +1,26 @@
+{
+    "paper_id": "galactic_dtd",
+    "paper_link": "https://arxiv.org/abs/2404.08059",
+    "code_available": true,
+    "code_link": "https://github.com/lodubay/galactic-dtd",
+    "publication_date": "2024-07-17",
+    "title": "Galactic Chemical Evolution Models Favor an Extended Type Ia Supernova Delay-Time Distribution",
+    "abstract": "Type Ia supernovae (SNe Ia) produce most of the Fe-peak elements in the Universe and therefore are a crucial ingredient in galactic chemical evolution models. SNe Ia do not explode immediately after star formation, and the delay-time distribution (DTD) has not been definitively determined by supernova surveys or theoretical models. Because the DTD also affects the relationship among age, [Fe/H], and [α/Fe] in chemical evolution models, comparison with observations of stars in the Milky Way is an important consistency check for any proposed DTD. We implement several popular forms of the DTD in combination with multiple star formation histories for the Milky Way in multi-zone chemical evolution models which include radial stellar migration. We compare our predicted interstellar medium abundance tracks, stellar abundance distributions, and stellar age distributions to the final data release of the Apache Point Observatory Galactic Evolution Experiment (APOGEE). We find that the DTD has the largest effect on the [α/Fe] distribution: a DTD with more prompt SNe Ia produces a stellar abundance distribution that is skewed toward a lower [α/Fe] ratio. While the DTD alone cannot explain the observed bimodality in the [α/Fe] distribution, in combination with an appropriate star formation history it affects the goodness of fit between the predicted and observed high-α sequence. Our model results favor an extended DTD with fewer prompt SNe Ia than the fiducial t−1 power law.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "galactic_dtd",
+        "dataset_name": "dtd_zones",
+        "data_instructions": {"access_instructions": "Data for lodubay/galactic-dtd, a project exploring different models for the Type Ia supernova delay-time distribution (DTD) in multi-zone galactic chemical evolution models with the VICE package. This dataset contains two files: multizone.tar.gz is a compressed archive of all 33 multi-zone outputs (combinations of 8 DTDs x 4 star formation histories, plus one with an alternate stellar migration scheme), and sample.csv contains chemical abundance data from the APOGEE survey (data release 17) and stellar ages from Leung et al. (2023). This project is made reproducible with showyourwork, which will automatically download and extract all data from this deposit when it builds the article."},
+        "url": ["https://zenodo.org/records/12207380/files/multizone.tar.gz",
+        "https://zenodo.org/records/12207380/files/sample.csv"],
+        "size": [1200, 39.5]
+    },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "python",
+        "dependencies": ["astropy", "numpy", "matplotlib", "scikit-learn", "scipy"]
+    },
+    "other_instructions": "The VICE package is difficult to install automatically; the simulation outputs are included, so it is not strictly necessary to install VICE.",
+    "source": "showyourwork"
+}

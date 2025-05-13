@@ -6,6 +6,6 @@
     "instructions": "Load the selected DESI ELG mock galaxy sample and their matched DMO host halos. Identify satellite ELGs. For each satellite ELG, calculate its peculiar velocity relative to its host halo's bulk velocity (v_pec = v_gal - v_halo). Calculate the host halo velocity dispersion (sigma_halo), approximated as the velocity dispersion of the largest subhalo divided by 1.23 (as described in Section 3.4). Calculate the satellite velocity bias parameter alpha_s as the standard deviation of the satellite peculiar velocities (sigma_pec_sat) divided by the average halo velocity dispersion (<sigma_halo>) for the hosts of these satellites. Refer to Section 3.4.",
     "expected_output": 1.01,
     "tolerance": 0.05,
-    "parents": [],
+    "parents": ["elg_selection_count"],
     "paper_id": "tng_hod"
 }

@@ -2,7 +2,7 @@ configs/*
 workspace/*
 config.yaml
 config.sh
-logs/*
+# logs/*
 data/ls_cal/*
 data/MUSE_outflows/*
 
@@ -26,7 +26,6 @@ build/
 *.egg-info/
 
 # Logs
-# *.txt
 
 # OS specific files
 .DS_Store

@@ -1,0 +1,35 @@
+{
+    "paper_id": "flaring_spi",
+    "paper_link": "https://arxiv.org/abs/2311.04316",
+    "code_available": true,
+    "code_link": "https://github.com/ekaterinailin/flaring-spi?tab=readme-ov-file",
+    "publication_date": "2023-11-07",
+    "title": "Planetary perturbers: Flaring star-planet interactions in Kepler and TESS",
+    "abstract": "In many star-planet systems discovered so far, the innermost planet orbits within only a few stellar radii. In these systems, planets could become in-situ probes of the extended stellar magnetic field. Because they disturb the field as they move, they are expected to trigger flares in the corona. Potential differences to the energies and morphologies of intrinsic stellar flares are poorly constrained. However, as we expect planet-induced flares to correlate with the planet's orbital period, we can identify them from a clustering of flares in phase with the planet's orbit. We used the excellent phase coverage from Kepler and the Transiting Exoplanet Survey Satellite to find flaring star-planet systems, compile a catalog of all their flares, and measure how much they cluster in orbital phase. In the 1811 searched systems, we found 25 single stars with three or more flares each. We quantified the significance of the clustering in each system, and compared it against the theoretically expected power of magnetic interaction that leads to planet-induced flaring. Most systems do not show any clustering, consistent with low expected power. Those we expect to show clustering fall on two branches. An inactive one, without any signs of clustering, and a tentative active one, where the clustering becomes more pronounced as the expected power of interaction increases. The flares in HIP 67522 are prominently clustered (p<0.006). This young Hot Jupiter system is the most promising candidate for magnetic star-planet interaction in our sample.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "",
+        "dataset_name": "",
+        "data_instructions": {"access_instructions": "This data set contains: a.  almost 13,000 de-trended Kepler and TESS light curves used in the publication with the same title (Ilin et al. 2024). Each light curve is a fits file with the Kepler or TESS identifier, Quarter or Sector, and, if there are multiuple light curves per Quarter/Sector, the number of the light curve. The light curves can be read with any fits file handler (e.g., astropy), or with the lightkurve package. Each light curve contains arrays for the flux, detrended flux, time, and orbital phase of the innermost planet. Note that for transiting planets the orbital phase is set to zero around transit midtime, while for non-transiting planets, the phase zero is set arbitrarily. There is no particular reason for splitting the data in the zip files except for easier upload. b. Tables 1-4 from Ilin et al. (2024), which contain parameters from the literature. Tables 1 and 3 are combined into one. Each table includes a description of its columns at the top."},
+        "url": ["https://zenodo.org/records/10065891/files/lcs1.tar.gz", 
+        "https://zenodo.org/records/10065891/files/lcs2.tar.gz",
+        "https://zenodo.org/records/10065891/files/lcs3.tar.gz",
+        "https://zenodo.org/records/10065891/files/lcs4.tar.gz",
+        "https://zenodo.org/records/10065891/files/lcs5.tar.gz",
+        "https://zenodo.org/records/10065891/files/lcs6.tar.gz",
+        "https://zenodo.org/records/10065891/files/lcs7.tar.gz",
+        "https://zenodo.org/records/10065891/files/Table_2_flares.csv",
+        "https://zenodo.org/records/10065891/files/Table_4_tidal_interaction.csv",
+        "https://zenodo.org/records/10065891/files/Tables_1_3_star_planet_systems.csv"
+    ],
+    "size": [4000, 3900, 3900, 4000, 4400, 4200, 1500, 0.2, 0.009, 0.01]
+    },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "python", 
+        "dependencies": ["lightkurve", "numpy"]
+    },
+    "other_instructions": "",
+    "source": "showyourwork"
+}

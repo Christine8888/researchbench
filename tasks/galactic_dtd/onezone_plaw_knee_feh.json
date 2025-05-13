@@ -1,0 +1,12 @@
+{
+    "task_id": "onezone_plaw_knee_feh",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Determine the approximate [Fe/H] value of the high-alpha knee in the ISM abundance track for a one-zone model using the power-law (alpha=-1.1) DTD.",
+    "instructions": "Analyze the chemical evolution history from the provided multi-zone simulation outputs (`multizone.tar.gz`) to approximate the one-zone behavior before significant migration effects dominate. Select the simulation corresponding to the fiducial inside-out SFH and the power-law DTD with alpha = -1.1. Extract the interstellar medium (ISM) abundance history (specifically, [Fe/H] and [O/Fe] as functions of time) for the annulus representing the solar neighborhood, specifically the zone defined by Rgal = 8.0 - 8.1 kpc. Plotting [O/Fe] vs [Fe/H] for this ISM history reveals the chemical evolution track for that annulus. Identify the 'knee' in this track, which represents the sharpest downturn in [O/Fe] occurring shortly after the onset of SN Ia enrichment (minimum delay time tD = 40 Myr). Report the approximate [Fe/H] value corresponding to this knee.",
+    "expected_output": -1.8,
+    "tolerance": 0.1,
+    "output_justification": "Section 3.3 compares one-zone model outputs: 'At the other extreme are the two-population and power-law (\u03b1 = \u22121.1) DTDs, for which the SN Ia rate peaks immediately after the minimum delay time of 40 Myr, placing the high-\u03b1 knee at [Fe/H] \u2248 \u22121.8.' This value represents the metallicity where SN Ia iron enrichment starts significantly lowering the [O/Fe] ratio for this DTD.",
+    "parents": [],
+    "paper_id": "galactic_dtd"
+}

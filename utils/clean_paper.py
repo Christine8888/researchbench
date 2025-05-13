@@ -46,23 +46,6 @@ def clean_paper(input_path, output_path):
             replacement = r'\\begin{abstract}' + '\n' + abstract_text + '\n' + r'\\end{abstract}'
             text = re.sub(r'\\begin\{abstract\}.*?\\end\{abstract\}', replacement, text, flags=re.DOTALL)
         
-        # Remove figure environments (multiple types)
-        text = re.sub(r'\\begin\{figure\*?\}.*?\\end\{figure\*?\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\begin\{subfigure\}.*?\\end\{subfigure\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\begin\{widetext\}.*?\\end\{widetext\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\begin\{tikzpicture\}.*?\\end\{tikzpicture\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\includegraphics(\[.*?\])?\{.*?\}', '', text)
-        text = re.sub(r'\\plotone\{.*?\}', '', text)
-        text = re.sub(r'\\plottwo\{.*?\}\{.*?\}', '', text)
-        text = re.sub(r'\\caption\{.*?\}', '', text, flags=re.DOTALL)
-        
-        # Remove tables (multiple formats) 
-        text = re.sub(r'\\begin\{table\*?\}.*?\\end\{table\*?\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\begin\{tabular\}.*?\\end\{tabular\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\begin\{deluxetable\*?\}.*?\\end\{deluxetable\*?\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\begin\{longtable\}.*?\\end\{longtable\}', '', text, flags=re.DOTALL)
-        text = re.sub(r'\\startlongtable.*?(?=\\begin\{longtable\})', '', text, flags=re.DOTALL)
-        
         # Remove bibliography/references (handles multiple formats)
         text = re.sub(r'\\bibliographystyle\{.*?\}', '', text)
         text = re.sub(r'\\bibliography\{.*?\}', '', text)

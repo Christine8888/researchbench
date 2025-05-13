@@ -2,10 +2,21 @@
     "task_id": "default_mbh",
     "paper_id": "gw_nsbh",
     "kind": "numeric",
-    "difficulty": 2,
-    "description": "68% CI on M_BH, default settings",
-    "instructions": "Report the 1-sigma (68%) credible interval on the minimum mass of a black hole, under the hierarchical inference setup.\n Measure this under default settings, assuming $\\beta = 0$, the 'ZS' spin prior described in the paper, and all 4 LIGO events described in the paper.\n. Return the result in the list format [lower bound, median, upper bound].",
-    "tolerance": [0.05, 0.05, 0.05],
-    "expected_output": [4.4, 5.4, 6.1],
-    "parents": ["load_data"]
-}
+    "difficulty": 3,
+    "description": "Calculate the 68% credible interval for the minimum black hole mass (M_BH) using the default hierarchical inference model.",
+    "instructions": "Perform hierarchical Bayesian inference on the Neutron Star-Black Hole (NSBH) population using the provided posterior samples for the four LIGO events: GW200105, GW200115, GW190814, and GW190426 (see Section III.A for data details). Use the default model configuration described in the paper:\n1.  **NS Mass Model:** Single Gaussian distribution (Section II.A.2, Model 1), truncated between $M_\\text{min} = 1 M_\\odot$ and a spin-dependent maximum mass $M_\\text{max}(a_2, M_\\text{TOV})$.\n2.  **BH Mass Model:** Power law $p(m_1 | \\alpha, M_\\text{BH}) \\propto m_1^{-\\alpha}$ for $m_1 \\ge M_\\text{BH}$ (Equation \\ref{eq:pm1}, Section II.A.3).\n3.  **Spin Model:** Use the 'Zero spin BH' (ZS) model (Section II.A.1, Model 1): primary BH is nonspinning ($a_1 = 0$), secondary NS spin tilt is isotropic, and secondary NS spin magnitude $a_2$ follows $p(a_2 | a_\\mathrm{max}, \\beta_{{s}}) \\propto (1-a_2)^{\\beta_{s}}$ for $0 < a_2 < a_\\mathrm{max}$.\n4.  **Pairing Function:** Assume random pairing, corresponding to a power law $p(q) \\propto q^{\\beta}$ with $\\beta = 0$ (Section II.A.3).\n5.  **Inference Framework:** Employ the hierarchical Bayesian method described in Section II.B, accounting for selection effects (Section II.B.2) using importance sampling over the provided posterior samples for each event.\n6.  **Priors:** Use the hyperparameter priors specified in Table I.\n\nFrom the resulting posterior distribution for the minimum BH mass hyperparameter $M_\\text{BH}$, report the median and the bounds of the 68% credible interval (CI). Return the result as a list in the format [lower 68% bound, median, upper 68% bound].",
+    "tolerance": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "expected_output": [
+      4.4,
+      5.4,
+      6.1
+    ],
+    "parents": [
+      "load_data"
+    ],
+    "output_justification": "The expected output is the 68% credible interval (median +0.7 / -1.0 M_sun) for M_BH reported in Section III.B, paragraph 'Minimum BH mass', for the default model ('ZS' spin prior, all 4 events, beta=0)."
+  }

@@ -150,6 +150,26 @@ We evaluate the single-event likelihood $\mathcal{L}(d \mid \theta)$ via importa
 where $\pi_\mathrm{PE}(\theta)$ is the original prior that was used in LIGO parameter estimation.
 We calculate the posterior on the population parameters, $p(\Lambda \mid d)$, from the likelihood $\mathcal{L}(d \mid \Lambda)$, under Bayes theorem, using broad, flat priors on the parameters $\Lambda$. For prior ranges, see Table~\ref{table:prior}.
 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ |c|c|} 
+ \hline
+ $\mathcal{A}$ & [0.0, 1.0] \\
+ $\mu \text{ or } \mu_1, \mu_2$ & [1.0, 3.0] \\
+ $\sigma \text{ or } \sigma_1, \sigma_2$ & [0.01, 1.5] \\
+ $M_{TOV}$ & [1.5, 3.5] \\ 
+ $M_{BH}$ & [1.5, 10] \\
+ $\alpha$ & [0, 10] \\
+ max $a/a_\text{Kep}$ & [0.1, 1.0] \\
+ $\beta_\text{s}$ & [0.0, 5.0] \\
+ $A_1 \text{(optional)}$ & [-0.5, 0.5] \\
+ \hline
+\end{tabular}
+\caption{Priors ranges for population parameters.}
+\label{table:prior}
+\end{table}
+
 \subsubsection{Selection Effects}
 \label{sec:selection}
 While we model and measure the astrophysical source distributions, GW detectors observe only sources loud enough to be detected, i.e. sources that produce data above some threshold $d > \mathrm{thresh}$. We account for this selection effect by including the term $\xi(\Lambda)$, the fraction of detectable binaries from a population described by parameters $\Lambda$.

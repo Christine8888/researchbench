@@ -1,0 +1,12 @@
+{
+    "task_id": "metallicity_gradient_steepening_g279e12",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Calculate the magnitude of the steepening (change in slope) of the cold gas [Fe/H] metallicity gradient for galaxy g2.79e12 during its early major merger phase.",
+    "instructions": "Analyze the simulation snapshot data for galaxy g2.79e12. Identify the cold gas particles (T < 15000 K) belonging to the main disk of the galaxy. Calculate the radial [Fe/H] metallicity profile within the radial range 2.5 kpc to 17.5 kpc at two time points: one just before the major merger activity begins (simulation time approximately t=2 Gyr) and one near the point of maximum gradient steepening during the merger (approximately t=3 Gyr). Fit a linear function to the [Fe/H] profile versus radius for both time points to determine the metallicity gradient (slope) in dex/kpc. Calculate the difference: Gradient(t=3 Gyr) - Gradient(t=2 Gyr). Report this difference.",
+    "expected_output": -0.02,
+    "tolerance": 0.005,
+    "output_justification": "Based on the typical steepening magnitude mentioned in Section 3.2 ('steepening of the metallicity gradient by at least 0.02 dex/kpc'). A steepening implies the slope becomes more negative, hence a negative difference.",
+    "parents": [],
+    "paper_id": "gse_merger"
+}

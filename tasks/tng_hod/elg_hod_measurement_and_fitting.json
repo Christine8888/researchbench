@@ -46,6 +46,6 @@
         "alpha": 0.05,
         "kappa": 0.4
     },
-    "parents": [],
+    "parents": ["elg_selection_count"],
     "paper_id": "tng_hod"
 }

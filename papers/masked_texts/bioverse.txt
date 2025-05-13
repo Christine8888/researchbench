@@ -526,7 +526,7 @@ S.M.\ advised on the scope of the project and supported the selection of testabl
 All authors provided comments and suggestions on the manuscript.
 
 \section*{Reproducibility}
-All code required to reproduce our results, figures, and this article itself is available at \url{https://github.com/matiscke/originsoflife}\rev{, and the repository has been archived on Zenodo at \url{https://zenodo.org/records/15022723}.}
+All code required to reproduce our results, figures, and this article itself is available at , and the repository has been archived on Zenodo at .}
 
 \appendix
 

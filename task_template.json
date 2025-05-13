@@ -1,0 +1,11 @@
+{
+    "task_id": "",
+    "paper_id": "",
+    "kind": "",
+    "difficulty": 1,
+    "description": "",
+    "instructions":" ",
+    "tolerance": 0.01,
+    "expected_output": 1,
+    "parents": []
+}

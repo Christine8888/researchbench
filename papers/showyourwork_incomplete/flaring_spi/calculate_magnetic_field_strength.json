@@ -1,0 +1,30 @@
+{
+    "task_id": "calculate_magnetic_field_strength",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Estimate the average surface magnetic field strength and its uncertainty for AU Mic and K2-25.",
+    "instructions": "For the stars AU Mic (TIC 441462736) and K2-25 (TIC 72599033), estimate the average surface magnetic field strength (B) and its uncertainty in Gauss. First, calculate the convective turnover time (tau) using the bolometric luminosity (L_bol) and Equation 5. Second, calculate the Rossby number (Ro = P_rot / tau) using the stellar rotation period (P_rot). Use L_bol and P_rot values and their uncertainties from Table 1/3 (combined table Tables_1_3_star_planet_systems.csv). Third, use the calculated Ro to estimate B using the appropriate empirical relation (Equation 3 for Ro > 0.13 or Equation 4 for Ro < 0.13). Propagate uncertainties from L_bol, P_rot, and the empirical relations' coefficients to estimate the uncertainty in B. Return the results as a list of tuples, where each tuple contains (B in G, uncertainty in G).",
+    "expected_output": [
+        [
+            3010,
+            220
+        ],
+        [
+            3030,
+            300
+        ]
+    ],
+    "tolerance": [
+        [
+            150,
+            22
+        ],
+        [
+            150,
+            30
+        ]
+    ],
+    "output_justification": "The expected magnetic field strengths and uncertainties for AU Mic and K2-25 are taken from the 'B' and 'B_err' columns in Table 3 (provided as Tables_1_3_star_planet_systems.csv in the dataset). These values are derived using the methodology described in Section 3.4, involving calculation of convective turnover time, Rossby number, and application of Equations 3 or 4.",
+    "parents": [],
+    "paper_id": "flaring_spi"
+}

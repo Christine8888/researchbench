@@ -1,10 +1,10 @@
 {
-    "task_id": "gaia_dr2_all",
-    "kind": "numeric",
-    "difficulty": 2,
-    "description": "Select and count stars from Gaia DR2 that are brighter than $G=15.2$~mag and have good distance estimates.",
-    "instructions": "Using the approach from Section 2 of the paper (Data and Analysis), query the Gaia DR2 source catalogue to select the 'All' sample following the exact same cuts as in the paper. Return a single integer: the count of rows that fulfil all criteria.",
-    "tolerance": 0,
-    "expected_output": 1049340,
-    "parents": []
-  }
+  "task_id": "gaia_dr2_all",
+  "kind": "numeric",
+  "difficulty": 1,
+  "description": "Count the total number of stars in the 'All' sample defined in Section 2 and return as an integer.",
+  "instructions": "Load the stellar data from the 'gaiadr2_l0all.fits' and 'gaiadr2_l180all.fits' files. Combine the samples into a single dataset and then use this data to get the 'All' sample as described in Section 2. Return a single integer: the total number of stars (rows) in the 'All' dataset.",
+  "tolerance": 0,
+  "expected_output": 1049340,
+  "parents": []
+}

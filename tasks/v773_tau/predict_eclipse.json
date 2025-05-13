@@ -1,0 +1,12 @@
+{
+    "task_id": "predict_eclipse",
+    "paper_id": "v773_tau",
+    "kind": "numeric",
+    "difficulty": 1,
+    "description": "Predict the midpoint time of the next eclipse of A by the B disc.",
+    "instructions": "Using the final orbital parameters for the V773 Tau AB system derived in this work (listed in Table 1, 'this work' column: Period = 26.50 yr, T0 = 2010.11 yr, e = 0.104, omega_A = 266.0 deg, Omega = 290.54 deg, i = 69.25 deg, a = 117.7 mas), calculate the time of the next conjunction event where the B component passes in front of the A component in projection, corresponding to the midpoint of the eclipse observed around 2010. Report the predicted year of the midpoint of the next eclipse and the uncertainty in years, as a list of two values.",
+    "expected_output": [2037.19, 0.07],
+    "tolerance": [0.02, 0.02],
+    "output_justification": "Prediction stated in Section 8, derived from the orbital solution ('this work' AB parameters in Table 1). The value is given as $2037.19 \\pm 0.07$ yr.",
+    "parents": []
+  }

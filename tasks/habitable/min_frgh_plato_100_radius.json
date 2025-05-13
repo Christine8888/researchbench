@@ -1,0 +1,12 @@
+{
+    "task_id": "min_frgh_plato_100_radius",
+    "paper_id": "habitable",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Determine the minimum dilution factor (f_rgh) for detecting the discontinuity with Delta ln Z > 3 using radius measurements in a PLATO-like survey with N = 100 planets.",
+    "instructions": "Simulate a PLATO-like survey yielding N = 100 characterized planets, incorporating PLATO's expected precision (e.g., $\\sigma_R = 3\\%$, $\\sigma_S = 10\\%$) and selection criteria (Section 4.1). Inject the runaway greenhouse signal using `S_thresh` = \\var{injectedSthresh} (defined as `injectedSthresh,\\SI{280}{\\watt\\per\\meter\\squared}`) and `x_H2O` = \\var{wrr} (defined as `wrr,0.005`). Vary the dilution factor `f_rgh`. For each `f_rgh`, perform the Bayesian hypothesis test comparing H_rgh and H_0 based on simulated radius measurements, calculating Delta ln Z = ln Z_rgh - ln Z_0 as described in Section 4. Use the provided dataset resources (e.g., `plato100_f-grid.pkl` which likely contains results from a grid run over `f_rgh` for N=100) to determine the minimum `f_rgh` for which the median Delta ln Z from repeated simulations exceeds 3. Report this minimum `f_rgh` value.",
+    "expected_output": 0.2,
+    "tolerance": 0.02,
+    "output_justification": "Figure 8 (left panel caption) and the corresponding text in Section 5.3 state: 'Without such follow-up measurements [masses], sufficient diagnostic power can only be achieved with this sample [N=100] if $f_\\mathrm{rgh} \\gtrsim \\var{platoMinfrghHundred}$.' The variable `\\var{platoMinfrghHundred}` is defined as `platoMinfrghHundred,0.2` in variables.dat. The figure confirms that the median Delta ln Z crosses 3 near f_rgh = 0.2 for N=100 radius-only (dashed orange line).",
+    "parents": []
+  }

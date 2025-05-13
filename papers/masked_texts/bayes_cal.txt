@@ -237,11 +237,11 @@ In this section, we show the first major feature of our Bayesian pipeline; the c
 
 Such posterior distributions can be seen in \cref{f:goodplot} showing the results of models using only the cold load (grey posterior), only the hot load (red posterior) and using both loads in tandem (blue posterior). For these calculations we chose a set of model noise wave parameters as constants across the frequency band;
 \begin{align*}
- & \T{unc} = 250 \ \mathrm{K} \\
- & \T{cos} = 190 \ \mathrm{K} \\
- & \T{sin} = 90 \ \mathrm{K} \\
- & \T{NS} = 1200 \ \mathrm{K} \\
- & \T{L} = 298 \ \mathrm{K}
+ & \T{unc} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{cos} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{sin} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{NS} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{L} = [NUMERICAL_RESULT] \ \mathrm{K}
 \end{align*}
 
 In \cref{f:goodplot}, a strong correlation between the $\T{L}$ and $\T{NS}$ is evident as the hot-load posterior is highly skewed as expected from \cref{eqn:xl,eqn:xns}. The resulting intersection of posteriors from the individual loads facilitate the derivation of noise wave parameters as the dual-load posterior is found within the region of posterior overlap crossing with the values of the model shown in the inset of \cref{f:goodplot}. Retrieval of the noise wave parameter values using correlations between them found in the data demonstrate the relevance of this information which is not taken into account in previous calibration techniques.
@@ -258,11 +258,11 @@ The optimisation procedure compares the evidences (\cref{eqn:ev}) of different m
 
 To demonstrate this, data is generated using measurements from all eight calibrators of \cref{tab:calibrators} and noise wave parameters as second-order polynomials
 \begin{align*}
- & \T{unc} = x^2 -3x + 250 \ \mathrm{K} \\
- & \T{cos} = 2x^2 + 190 \ \mathrm{K} \\
- & \T{sin} = 3x^2 + 8x + 90 \ \mathrm{K} \\
- & \T{NS} = 4x^2 + 5x + 1200 \ \mathrm{K} \\
- & \T{L} = 5x^2 + 10x + 298 \ \mathrm{K} \\
+ & \T{unc} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{cos} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{sin} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{NS} = [NUMERICAL_RESULT] \ \mathrm{K} \\
+ & \T{L} = [NUMERICAL_RESULT] \ \mathrm{K} \\
 \end{align*}
 where $x$ is our normalised frequency. Gaussian noise of one unit variation is applied to the calibrator input temperatures as before. The evidences of various models are plotted in \cref{f:evidence} in which an Occam's cliff can be seen peaking at polynomial order two. As expected from the plot, the steepest descent algorithm finds that noise wave parameters modelled as second-order polynomials best describe the data.
 

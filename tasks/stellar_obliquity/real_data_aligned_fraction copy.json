@@ -1,0 +1,12 @@
+{
+  "task_id": "real_data_aligned_fraction",
+  "kind": "numeric",
+  "paper_id": "stellar_obliquity",
+  "difficulty": 7,
+  "description": "Calculate the fraction of aligned exoplanetary systems from the paper's analysis",
+  "instructions": "The paper analyzes 161 exoplanetary systems with sky-projected stellar obliquity measurements. In Section 5, the paper reports the inferred fraction of aligned systems (systems with stellar obliquity less than 40°) using a two-component mixture model. Implement a simplified version of this analysis by generating 200 samples from a mixture where the first component follows cos ψ ~ N(0.95, 0.05) and the second component follows cos ψ ~ N(0, 0.4). Use rejection sampling to ensure values are within [-1,1]. Use weights of 0.72 for the first component and 0.28 for the second component. Use random seed 42 for reproducibility. Convert from cos ψ to ψ in degrees using ψ = arccos(cos ψ) × 180/π. Calculate the fraction of these samples with ψ < 40°. Return this fraction rounded to 2 decimal places along with the uncertainty. ",
+  "expected_output": [0.72, 0.09],
+  "tolerance": [0.02, 0.02],
+  "parents": [],
+  "output_justification": "Based on Section 5 of the paper which states 'approximately 72 ± 9% of the systems have a stellar obliquity of less than 40°'. The expected output represents this fraction, with tolerance accounting for sampling variability."
+}

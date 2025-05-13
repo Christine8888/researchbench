@@ -1,0 +1,12 @@
+{
+    "task_id": "find_inflection_point_cks",
+    "kind": "numeric",
+    "difficulty": 5,
+    "description": "Determine the inflection point temperature in the long-period pileup of the CKS sample via a piecewise linear fit.",
+    "instructions": "Load the CKS data (e.g., from `cks_merged.parquet`). Select stars identified as being on the long-period pileup using the criteria described in Section 3.2: Prot is between (-0.0314 * Teff + 199.286) and (-0.0314 * Teff + 206.286). Additionally apply the cuts logg > 4.0 and 5850 K < Teff < 6500 K. Use Teff values from the CKS catalog ('CKS Teff' source). Perform a piecewise linear fit to the Prot vs Teff relationship for these selected stars, allowing for a break point (inflection point) in Teff. Use MCMC to estimate the parameters of the fit, including the break point temperature. From the MCMC chain report the median posterior value and the uncertainty for the inflection point temperature in Kelvin, as a list.",
+    "expected_output": [6224.0, 24.0],
+    "tolerance": [5.0, 2.0],
+    "output_justification": "Section 3.1 states: 'A piecewise linear fit to the ridge in the CKS sample confirmed that the inflection point occurs at Teff = 6224 +/- 24 K, where the uncertainty was estimated from Markov chain Monte Carlo (MCMC) sampling.'",
+    "parents": [],
+    "paper_id": "rossby_ridge"
+}

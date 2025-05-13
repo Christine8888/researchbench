@@ -1,0 +1,30 @@
+{
+    "task_id": "calculate_tidal_torque_proxy",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Calculate the logarithmic tidal torque proxy for Kepler-42 and KOI-12.",
+    "instructions": "For the systems Kepler-42 (TIC 63289118) and KOI-12 (TIC 87677339), calculate the proxy for the tidal torque exerted by the innermost planet on the star's convective envelope, represented as log10(dL/dt). Implement the calculation based on Equations 1 and 2 from Penev et al. (2012), as referenced in Section 5.5.2. Use the necessary parameters: stellar mass (M*), planetary mass (Mp), semi-major axis (a), orbital period (P_orb), stellar rotation period (P_rot), stellar radius (R*), and planetary radius (Rp) from Table 1/3 (combined) and Table 4. Assume a tidal quality factor Q*=10^7 as stated in the text, and make necessary assumptions about the convective envelope properties based on the star if not directly provided (e.g., inferring convective envelope structure/mass/radius fraction from stellar mass/type, or assuming properties consistent with the reference calculation if possible). Propagate uncertainties where available to estimate the uncertainty in the final logarithmic value. Return the results as a list of tuples, where each tuple contains (log10(dL/dt), uncertainty).",
+    "expected_output": [
+        [
+            32.0,
+            0.6
+        ],
+        [
+            34.5,
+            0.3
+        ]
+    ],
+    "tolerance": [
+        [
+            0.2,
+            0.1
+        ],
+        [
+            0.2,
+            0.1
+        ]
+    ],
+    "output_justification": "The expected logarithmic tidal torque proxies and their uncertainties for Kepler-42 and KOI-12 are taken from the 'logdlodt' and 'logdlodt_err' columns in Table 4 (provided as Table_4_tidal_interaction.csv in the dataset). These values are calculated following the methodology described in Section 5.5.2, referencing Penev et al. (2012).",
+    "parents": [],
+    "paper_id": "flaring_spi"
+}

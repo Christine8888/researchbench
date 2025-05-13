@@ -25,8 +25,6 @@ Our method is the first unsupervised representation learning approach for anomal
 
 The paper is organized as follows: In \S~\ref{sec:data}, we provide information on the dataset of \emph{Chandra} event files used in this analysis. In \S~\ref{sec:methods}, we describe in detail the implementation of our novel transient detection approach leveraging representation learning. In \S~\ref{sec:results}, we present and discuss the results in form of the semantically meaningful representation space of the event files, the catalog of X-ray transient candidates and the discovery of the new \emph{Chandra} transient XRT\,200515. Finally, we highlight our contributions to time-domain high-energy astrophysics and outline potential directions for extending this work in the future in \S~\ref{sec:discussion}.
 
-The relevant code, a demonstration of the pipeline, and an interactive embedding selection, transient search and lightcurve plotting tool are available online at the \texttt{GitHub} repository \href{https://github.com/StevenDillmann/ml-xraytransients-mnras}{https://github.com/StevenDillmann/ml-xraytransients-mnras}.
-
 \section{Dataset}
 \label{sec:data}
 
@@ -322,7 +320,7 @@ We have introduced a novel representation learning method, the first of its kind
  XRT\,200515 was only detected by \emph{Chandra}, with no identified optical counterparts. We strongly encourage a multi-wavelength search for additional signals from the source associated with XRT\,200515 to better understand its origin and nature.
 \end{enumerate}
 
-Our work advances time-domain high-energy astrophysics by making the \emph{Chandra} transient candidates catalog publicly available and open-sourcing the representation learning based transient search pipeline{https://github.com/StevenDillmann/ml-xraytransients-mnras}}. The catalog enables queries to identify and characterize new \emph{Chandra} transients. Future work involves experimenting with different event file representations, applying the detection pipeline to additional high-energy archives, and adapting it to a variety of other scientific datasets, paving the way for further machine learning driven discoveries of rare transients and other scientific anomalies.
+Our work advances time-domain high-energy astrophysics by making the \emph{Chandra} transient candidates catalog publicly available and open-sourcing the representation learning based transient search pipeline. The catalog enables queries to identify and characterize new \emph{Chandra} transients. Future work involves experimenting with different event file representations, applying the detection pipeline to additional high-energy archives, and adapting it to a variety of other scientific datasets, paving the way for further machine learning driven discoveries of rare transients and other scientific anomalies.
 
 \section{Event File Lengths and Durations} \label{appendix:distributions}
 

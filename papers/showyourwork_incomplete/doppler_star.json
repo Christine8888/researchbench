@@ -1,0 +1,25 @@
+{
+    "paper_id": "doppler_star",
+    "paper_link": "https://arxiv.org/abs/2110.06271",
+    "code_available": true,
+    "code_link": "https://github.com/rodluger/paparazzi",
+    "publication_date": "2021-10-12",
+    "title": "Mapping stellar surfaces III: An Efficient, Scalable, and Open-Source Doppler Imaging Model",
+    "abstract": "The study of stellar surfaces can reveal information about the chemical composition, interior structure, and magnetic properties of stars. It is also critical to the detection and characterization of extrasolar planets, in particular those targeted in extreme precision radial velocity (EPRV) searches, which must contend with stellar variability that is often orders of magnitude stronger than the planetary signal. One of the most successful methods to map the surfaces of stars is Doppler imaging, in which the presence of inhomogeneities is inferred from subtle line shape changes in high resolution stellar spectra. In this paper, we present a novel, efficient, and closed-form solution to the problem of Doppler imaging of stellar surfaces. Our model explicitly allows for incomplete knowledge of the local (rest frame) stellar spectrum, allowing one to learn differences from spectral templates while simultaneously mapping the stellar surface. It therefore works on blended lines, regions of the spectrum where line formation mechanisms are not well understood, or stars whose spots have intrinsically different spectra from the rest of the photosphere. We implement the model within the open source starry framework, making it fast, differentiable, and easy to use in both optimization and posterior inference settings. As a proof-of-concept, we use our model to infer the surface map of the brown dwarf WISE 1049-5319B, finding close agreement with the solution of Crossfield et al. (2014). We also discuss Doppler imaging in the context of EPRV studies and describe an interpretable spectral-temporal Gaussian process for stellar spectral variability that we expect will be important for EPRV exoplanet searches.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "doppler_star",
+        "dataset_name": "luhman16b",
+        "data_instructions": {"access_instructions": "CRIRES spectra used  infer the cloud map of the brown dwarf Luhman 16B in Crossfield et. al. (2014). This is a Python 2 pickle of a dictionary object with the following keys: \nchiplams  -- wavelength values for each pixel of each spectrum \nobs0 -- the extracted spectra, at each wavelength of 'chiplams'. Not used by the Doppler Imaging code (14, 4, 1024) \nobs1 - 'obs0' with extreme outliers/bad pixels fixed. These spectra were then modeled using a hi-res telluric template, a BT-Settl template, and accounting for low-order continuum slopes and instrumental line broadening. \nchipmods -  Best-fit model spectrum for each observed spectrum in 'obs1', which includes (continuum + telluric + target + line broadening). Not used by the Doppler Imaging code itself (14, 4, 1024) \nchipcors -- the continuum + telluric part of 'chipmods'. Used to telluric- and blaze-correct 'obs1' for use by Doppler Imaging code (14, 4, 1024) \nchipmodnobroad -- The model of 'chipmods', but without the line broadening, used for constructing the unbroadened Doppler Imaging response matrix. (But as 'chipmodnobroad / chipcors,' which means really all that's being used is the unbroadened stellar template spectrum) (14, 4, 1024) \nwobs0 -- wavelengths for each individual spectrum of 'obs0' (but not used by DI code) (14, 4, 1024) \nwobs  -- wavelengths across the K band (not used by DI code) (4, 1024) \nmodelfn -- name of BT-Settl model file used in making the model spectra described above (but not used by DI code) \nThe timestamps for each of the 14 spectra are (MJD) \n t = np.array([56416.96936472, 56416.98538072, 56417.0013755 , 56417.01742291, 56417.03344957, 56417.04948634, 56417.0655019 , 56417.08155986, 56417.0975542 , 56417.11362283, 56417.12967067 56417.14568623, 56417.16169116, 56417.17768599])"},
+        "url": ["https://zenodo.org/records/5534787/files/luhman16b.pickle"],
+        "size": [7.8]
+    },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "python",
+        "dependencies": ["pickle"]
+    },
+    "other_instructions": "",
+    "source": "showyourwork"
+}

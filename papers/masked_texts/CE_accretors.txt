@@ -202,14 +202,14 @@ The binaries started with an initial separation of
 
 All three accretor models experience a blueward evolution after
 beginning to ascend the Hayashi track. In the two lowest mass models,
-this results in a blue-loop, which last $\sim{}10^5$ years. These
+this results in a blue-loop, which last $[NUMERICAL_RESULT]$ years. These
 models spend a significant fraction of their He core burning as hot
 yellow/blue supergiants, and reach
 $\log_{10}(T_\mathrm{eff}/\mathrm{[K]})\gtrsim 4.2$. Our most massive
 accretor ($M_2=30\rightarrow 36\,M_\odot$) evolves towards hotter
 temperatures during core He burning, but never fully recovers closing
 the blue loop. Its excursion to hottest temperatures occurs after He
-core depletion and lasts $\sim{}10^{4}$ years.
+core depletion and lasts $[NUMERICAL_RESULT]$ years.
 
 Blue loops are not expected for single stars with
 $M\gtrsim 12\,M_\odot$ \citep[e.g.,][]{walmswell:2015}, and their
@@ -266,10 +266,11 @@ He-enriched CEB can impede or prevent the growth of the core
 stellar age, and thus with the duration of the pre-RLOF evolution.
 This duration depends on the binary architecture: for our binaries
 with initial $P=100$\,days and $q=M_2/M_1\simeq 0.8$, RLOF starts
-after $\sim{}$10, 9, and 5\,Myrs from the least massive to the most
+after $\sim{}[NUMERICAL_RESULT], [NUMERICAL_RESULT],$\,and
+$[NUMERICAL_RESULT]$\,Myrs from the least massive to the most
 massive system, which correspond to central H mass fractions
-$X_\mathrm{c}(^1\mathrm{H}) = 0.27, 0.23$, and $0.21$ for the
-accretors (cf.~height of the plateaus in the orange lines in
+$X_\mathrm{c}(^1\mathrm{H}) = [NUMERICAL_RESULT], [NUMERICAL_RESULT]$, and
+$[NUMERICAL_RESULT]$ for the accretors (cf.~height of the plateaus in the orange lines in
 \Figref{fig:TAMS_profiles}). Our oversimplified engineered models do
 not exhibit such plateau because they are constructed assuming
 instantaneous rejuvenation at TAMS (see
@@ -359,12 +360,12 @@ representing engineered models with steeper CEB profiles.
 
 The minimum ratio of binding energies occur roughly at the inner edge
 of the CEB layer in \Figref{fig:grid_ratios}. Considering the
-ratio to single stars (red lines), the minima range between 0.56-[NUMERICAL_RESULT],
-0.58-[NUMERICAL_RESULT], and 0.51-[NUMERICAL_RESULT] from our least to most massive binary. In
+ratio to single stars (red lines), the minima range between [NUMERICAL_RESULT],
+[NUMERICAL_RESULT], and [NUMERICAL_RESULT] from our least to most massive binary. In
 other words, at the radius where the difference between accretors and
 single stars models is largest, which is also the location where the
 outcome of a common envelope is likely to be decided, the accretor's
-binding energy is roughly between $\sim{}50-\mathrm{few}\%$ of the
+binding energy is roughly between $[NUMERICAL_RESULT]-\mathrm{few}\%$ of the
 binding energy of a single star. Regardless of the mass, the larger
 the outer radius the smaller the minimum of the ratio of binding
 energies: the differences caused by RLOF accretion and rejuvenation of

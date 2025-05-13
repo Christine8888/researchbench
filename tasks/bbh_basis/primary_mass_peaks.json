@@ -1,0 +1,20 @@
+{
+    "task_id": "primary_mass_peaks",
+    "paper_id": "bbh_basis",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Calculate the locations of the three primary mass peaks identified by the B-Spline model.",
+    "instructions": "Using the posterior samples from the B-Spline population analysis (specifically the model using IID component spins, corresponding to the main results presented), construct the population predictive distribution (PPD) for the primary mass ($m_1$). Identify the locations (in units of solar masses, $M_\\odot$) of the three distinct local maxima in the merger rate density as a function of primary mass, within the range $5 M_\\odot < m_1 < 100 M_\\odot$. Report the median and 90% credible interval (defined by the 5th and 95th percentiles) for the location of each peak. The model assumes a minimum black hole mass of $5 M_\\odot$ and uses B-splines interpolated over knots linearly spaced in $\\log(m_1)$. Format the output as a dictionary where keys are 'peak1', 'peak2', 'peak3' (corresponding to the peaks around 10, 18, and 35 M_sun respectively) and values are lists of [median, upper_bound, lower_bound].",
+    "expected_output": {
+        "peak1": [9.9, 10.57, 9.42],
+        "peak2": [19.0, 22.2, 16.7],
+        "peak3": [33.0, 35.1, 30.0]
+    },
+    "tolerance": {
+        "peak1": [0.1, 0.1, 0.1],
+        "peak2": [0.1, 0.1, 0.1],
+        "peak3": [0.1, 0.1, 0.1]
+    },
+    "output_justification": "Extracted from Section 3.1: 'For each of these features we find the local maximums occurring at primary masses of \\result{$\\CIPlusMinus{\\macros[MassDistribution][BSpline][peaks][10]}\\,\\msun$}, \\result{$\\CIPlusMinus{\\macros[MassDistribution][BSpline][peaks][18]}\\,\\msun$}, and \\result{$\\CIPlusMinus{\\macros[MassDistribution][BSpline][peaks][35]}\\,\\msun$} all at 90% credibility.' The expected output values are calculated as [median, median + error_plus, median - error_minus] using the macros \\macros[MassDistribution][BSpline][peaks][10], \\macros[MassDistribution][BSpline][peaks][18], and \\macros[MassDistribution][BSpline][peaks][35].",
+    "parents": []
+  }

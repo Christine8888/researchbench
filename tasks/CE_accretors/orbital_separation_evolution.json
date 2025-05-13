@@ -1,9 +1,10 @@
 {
     "task_id": "orbital_separation_evolution",
     "kind": "numeric",
-    "difficulty": 6,
+    "paper_id": "CE_accretors",
+    "difficulty": 2,
     "description": "Calculate the orbital separation evolution during RLOF.",
-    "instructions": "Using MESA (version 15140) with the same parameters as the paper (Z = 0.0019, initial period P = 100 days, and initial masses (M1, M2) = (18, 15), (20, 17), (38, 30) M☉), calculate the initial orbital separation in solar radii and the orbital separation at RLOF detachment. Return these two values.",
+    "instructions": "Using the MESA outputs with the same parameters as the paper (Z = 0.0019, initial period P = 100 days, and initial masses (M1, M2) = (18, 15), (20, 17), (38, 30) M☉), calculate the initial orbital separation in solar radii and the orbital separation at RLOF detachment. Return these two values.",
     "expected_output": [300, 380],
     "tolerance": [5.0, 5.0],
     "parents": [],

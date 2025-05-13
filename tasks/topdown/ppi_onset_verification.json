@@ -1,9 +1,10 @@
 {
   "task_id": "ppi_onset_verification",
+  "paper_id": "topdown",
   "kind": "numeric",
-  "difficulty": 3,
+  "difficulty": 2,
   "description": "Verify that the fitted formula correctly predicts zero mass loss at the edge of the PPI regime.",
-  "instructions": "1. The paper states that one advantage of their top-down approach is that it imposes ΔMPPI = 0 at the edge of the PPI regime, producing a smooth BH mass distribution.\n2. The PPI regime begins at MCO ≈ 35 M☉, as stated in the paper.\n3. Using the fitted formula: ΔMPPI = (0.0006 × log10(Z) + 0.0054) × (MCO - 34.8)³ - 0.0013 × (MCO - 34.8)²\n4. Calculate ΔMPPI for MCO = 35 M☉ at Z = 0.001.\n5. Return the calculated mass loss in solar masses, which should be very close to zero.",
+  "instructions": "1. The paper states that one advantage of their top-down approach is that it imposes ΔMPPI = 0 at the edge of the PPI regime, producing a smooth BH mass distribution.\n2. The PPI regime begins at MCO ≈ 35 M☉, as stated in the paper.\n3. Using the fitted formula computed previously, calculate ΔMPPI for MCO = 35 M☉ at Z = 0.001.\n4. Return the calculated mass loss in solar masses, which should be very close to zero but not exactly zero.",
   "expected_output": 0.0,
   "tolerance": 0.01,
   "parents": ["ppi_mass_loss_calculation"],

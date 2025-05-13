@@ -1,4 +1,4 @@
 dataSet:
-    test_simulation_1
+    bayes_cal
 S11_of_Receiver:
-    test_simulation_1/lna.s1p
+    bayes_cal/lna.s1p

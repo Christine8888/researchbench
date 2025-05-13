@@ -3,9 +3,21 @@
     "paper_id": "gw_nsbh",
     "kind": "numeric",
     "difficulty": 3,
-    "description": "NS maximum mass, uniform spin assumption",
-    "instructions": "Report the 90% credible interval on the maximum mass of a non-spinning neutron star, under the assumption that the neutron star spin distribution is uniformly distributed up to the breakup spin a_Kep and default inference settings otherwise.\n Return the result in the list format [lower bound, median, upper bound].",
-    "tolerance": [0.05, 0.05, 0.05],
-    "expected_output": [2.3, 2.7, 3.2],
-    "parents": ["default_mtov", "load_data"]
+    "description": "Calculate the 90% credible interval for the non-spinning NS maximum mass (M_TOV) assuming a uniform NS spin distribution up to breakup spin.",
+    "instructions": "Perform a hierarchical Bayesian inference using the 4 LIGO-Virgo NSBH events specified in the paper (GW200105, GW200115, GW190814, GW190426). Use the posterior samples provided in the dataset for these events ('Combined_PHM_high_spin' for GW200105/GW200115, 'IMRPhenomNSBH' for GW190426, 'IMRPhenomPv3HM' for GW190814). Apply the population model defined in Section II of the paper with the following specifications:\n1.  **NS Mass Model:** Use the default 1-component truncated Gaussian model (Section II.A.2, item 1). Fix the minimum NS mass M_min = 1 M_sun. The maximum mass M_max depends on the NS spin magnitude a2 and the non-spinning maximum mass M_TOV via the universal relationship: M_max(a2, a_Kep, M_TOV) = M_TOV * (1 + A2*(a2/a_Kep)^2 + A4*(a2/a_Kep)^4), with A2 = 0.132, A4 = 0.0071, and assume the breakup spin a_Kep = 0.7.\n2.  **BH Mass Model:** Use a power law p(m1) proportional to m1^(-alpha) with a minimum mass cutoff M_BH (Section II.A.3, Eq. 5).\n3.  **NS Spin Model:** Assume the NS spin magnitude distribution p(a2 | a_max, beta_s) follows Eq. 1 with beta_s = 0 and a_max = a_Kep = 0.7 (uniform distribution between 0 and 0.7). Assume isotropic NS spin tilts (flat in cos(tilt_2)).\n4.  **BH Spin Model:** Assume primary BHs are non-spinning (a1 = 0). This corresponds to the 'ZS' (Zero spin BH) model described in Section II.A.1, item 1.\n5.  **Pairing Function:** Assume random pairing, p(q) proportional to q^beta with beta = 0 (Section II.A.3).\n6.  **Priors:** Use the prior ranges specified in Table I for the population hyperparameters (M_TOV, M_BH, alpha, gaussian parameters mu and sigma). Beta_s and a_max/a_Kep are fixed as specified in step 3.\n7.  **Inference:** Follow the hierarchical Bayesian framework described in Section II.B, marginalizing over the number of events N and using importance sampling over the provided posterior samples for each event. Account for selection effects (Section II.B.2) by calculating the detection probability P_det(theta) assuming a single-detector SNR threshold rho_thresh = 8 and using the Monte Carlo integral method described to compute xi(Lambda).\n\nCalculate the posterior distribution for the non-spinning maximum NS mass, M_TOV. Report the 90% credible interval as a list: [lower bound (5th percentile), median (50th percentile), upper bound (95th percentile)].",
+    "tolerance": [
+        0.05,
+        0.05,
+        0.05
+    ],
+    "expected_output": [
+        2.3,
+        2.7,
+        3.2
+    ],
+    "output_justification": "The expected output values [2.3, 2.7, 3.2] M_sun correspond to the 90% credible interval (lower bound, median, upper bound) for the maximum non-spinning NS mass (M_TOV) reported in the abstract: '2.7^{+0.5}_{-0.4} M_sun (90% credibility)'. This result was obtained using 4 LIGO-Virgo NSBH events (GW200105, GW200115, GW190814, GW190426) and assuming the NS spin distribution is uniformly distributed up to the maximum (breakup) spin (a_Kep=0.7, corresponding to beta_s=0 and a_max/a_Kep=1). This analysis used the 'ZS' spin prior (BH non-spinning, NS spin isotropic), a 1-component NS mass model, and random pairing (beta=0), consistent with the blue dashed line in Figure 3 panel (a).",
+    "parents": [
+        "default_mtov",
+        "load_data"
+    ]
 }

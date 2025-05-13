@@ -1,8 +1,8 @@
 Calibrator:
     r25
 DataSet:
-    test_simulation_1
+    bayes_cal
 Calibrator_Temperature:
     298
 S11_of_Calibrator:
-    test_simulation_1/r25.s1p
+    bayes_cal/r25.s1p

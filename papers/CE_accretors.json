@@ -2,7 +2,7 @@
     "paper_id": "CE_accretors",
     "paper_link": "https://arxiv.org/abs/2206.15338",
     "code_available": true,
-    "code_link": "https://github.com/mathren/accretors",
+    "code_link": "https://github.com/mathren/CE_accretors",
     "publication_date": "2022-11-22",
     "title": "Rejuvenated accretors have less bound envelopes: Impact of Roche lobe overflow on subsequent common envelope events",
     "abstract": "Common-envelope (CE) evolution is an outstanding open problem in stellar evolution, critical to the formation of compact binaries including gravitational-wave sources. In the \"classical\" isolated binary evolution scenario for double compact objects, the CE is usually the second mass transfer phase. Thus, the donor star of the CE is the product of a previous binary interaction, often stable Roche-lobe overflow (RLOF). Because of the accretion of mass during the first RLOF, the main-sequence core of the accretor star grows and is \"rejuvenated\". This modifies the core-envelope boundary region and decreases significantly the envelope binding energy for the remaining evolution. Comparing accretor stars from self-consistent binary models to stars evolved as single, we demonstrate that the rejuvenation can lower the energy required to eject a CE by ∼ 42 − 96% for both black hole and neutron star progenitors, depending on the evolutionary stage and final orbital separation. Therefore, binaries experiencing first stable mass transfer may more easily survive subsequent CE events and result in possibly wider final separations compared to current predictions. Despite their high mass, our accretors also experience extended \"blue loops\", which may have observational consequences for low-metallicity stellar populations and asteroseismology.",
@@ -11,21 +11,20 @@
         "paper_id": "CE_accretors",
         "dataset_name": "MESA",
         "url": [
-            "https://zenodo.org/records/7036016/files/MESA_input.tar.gz?download=1",
-            "https://zenodo.org/records/7036016/files/README.md?download=1"
+            "https://zenodo.org/records/7343715/files/MESA_input.tar.gz?download=1",
+            "https://zenodo.org/records/7343715/files/MESA_output.tar.gz?download=1",
+            "https://zenodo.org/records/7343715/files/README.md?download=1"
         ],
-        "size": [],
+        "size": [0.07, 1700, 0.2],
         "data_instructions": {
-            "access_instructions": "The MESA input files are available at the following links:\nMESA input files: https://zenodo.org/records/7036016/files/MESA_input.tar.gz?download=1\nREADME: https://zenodo.org/records/7036016/files/README.md?download=1\n",
-            "usage_instructions": "",
-            "read_instructions": ""
+            "access_instructions": "See the README.md file for instructions on how to use the MESA simulation outputs."
         }
     },
     "execution_requirements": {
         "needs_gpu": false,
         "needs_browsing": false,
         "code_language": "python",
-        "dependencies": ["numpy", "scipy", "matplotlib", "mesa"]
+        "dependencies": ["numpy", "scipy", "matplotlib"]
     },
     "other_instructions": null,
     "source": "showyourwork"

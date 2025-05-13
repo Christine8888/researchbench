@@ -4,7 +4,7 @@
     "kind": "code",
     "difficulty": 5,
     "description": "Reproduce the 2D-PCA embedding space",
-    "instructions": "",
+    "instructions": "Given the ‘eventfiles_table.csv’ file from https://huggingface.co/datasets/StevenDillmann/chandra_xray_eventfiles, reproduce the 2D-PCA embedding space from the paper: 1) Build the E-t maps (2D eventfile representations) as detailed in the paper (normalize the histogram values here). 2) Apply PCA with 15 components (feature extraction). 3) Apply tsne with given hyperparameters in the paper (dimensionality reduction). 4) Write the resulting embedding vectors to a new file file called 2DPCA_embedding.csv with the columns tsne1, tsne2, obsreg_id. 5) Submit only the full path to the file.",
     "tolerance": "",
-    "expected_output": "{llm_name}2DPCA_embedding.csv"
+    "expected_output": "./data/chandra_representation_embeddings/paper2DPCA_embedding.csv"
 }

@@ -1,0 +1,39 @@
+{
+    "paper_id": "asassn_21qj",
+    "paper_link": "https://arxiv.org/abs/2310.08360",
+    "code_available": true,
+    "code_link": "https://github.com/mkenworthy/ASASSN-21qj-collision",
+    "publication_date": "2023-10-12",
+    "title": "A planetary collision afterglow and transit of the resultant debris cloud",
+    "abstract": "Planets grow in rotating disks of dust and gas around forming stars, some of which can subsequently collide in giant impacts after the gas component is removed from the disk. Monitoring programs with the warm Spitzer mission have recorded significant and rapid changes in mid-infrared output for several stars, interpreted as variations in the surface area of warm dusty material ejected by planetary-scale collisions and heated by the central star: e.g., NGC 2354-ID8, HD 166191 and V844 Persei. Here we report combined observations of the young (about 300 Myr), solar-like star ASASSN-21qj: an infrared brightening consistent with a blackbody temperature of 1000 K and a luminosity of 4 percent of that of the star lasting for about 1000 days, partially overlapping in time with a complex and deep wavelength-dependent optical eclipse that lasted for about 500 days. The optical eclipse started 2.5 years after the infrared brightening, implying an orbital period of at least that duration. These observations are consistent with a collision between two exoplanets of several to tens of Earth masses at 2 to 16 au from the central star. Such an impact produces a hot, highly-extended post-impact remnant with sufficient luminosity to explain the infrared observations. Transit of the impact debris, sheared by orbital motion into a long cloud, causes the subsequent complex eclipse of the host star.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "asassn_21qj",
+        "dataset_name": "optical_data",
+        "data_instructions": 
+            {"access_instructions": "The data files are as follows:    aavsodata_63e2220f49f39.txt: src/data/aavso/aavsodata_63e2220f49f39.txt \nASASSN-21qj_2013-2022.tbl: src/data/neowise/ASASSN-21qj_2013-2022.tbl\njob211831.txt: src/data/atlas/job211831.txt \nlight_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv: src/data/asassn/ \nlight_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv\nneowise_rvc.csv: src/data/rvc_data/neowise.csv \naavso_rvc.txt: src/data/rvc_data/aavso.txt\nasassn_rvc.csv: src/data/rvc_data/asassn.csv \natlas_reduced_rvc.txt: src/data/rvc_data/atlas_reduced.txt\natlas_reduced_rvc.txt: src/data/rvc_data/atlas_reduced.txt\n lcogt_rvc.fits: src/data/rvc_data/lcogt.fits\n hlsp_qlp_tess_ffi_s0008-0000000182582608_tess_v01_llc.fits: src/data/tess/hlsp_qlp_tess_ffi_s0008-0000000182582608_tess_v01_llc.fits \n hlsp_qlp_tess_ffi_s0035-0000000182582608_tess_v01_llc.fits: src/data/\ntess/hlsp_qlp_tess_ffi_s0035-0000000182582608_tess_v01_llc.fits\n hlsp_qlp_tess_ffi_s0034-0000000182582608_tess_v01_llc.fits: src/data/tess/hlsp_qlp_tess_ffi_s0034-0000000182582608_tess_v01_llc.fits"},
+            "url": ["https://zenodo.org/records/8344755/files/aavso_rvc.txt",
+            "https://zenodo.org/records/8344755/files/aavsodata_63e2220f49f39.txt",
+            "https://zenodo.org/records/8344755/files/ASASSN-21qj_2013-2022.tbl",
+            "https://zenodo.org/records/8344755/files/asassn-21qj_20220907_358_2SPOT.fits",
+            "https://zenodo.org/records/8344755/files/job211831.txt",
+            "https://zenodo.org/records/8344755/files/light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv",
+            "https://zenodo.org/records/8344755/files/neowise_rvc.csv",
+            "https://zenodo.org/records/8344755/files/asassn_rvc.csv",
+            "https://zenodo.org/records/8344755/files/atlas_reduced_rvc.txt",
+            "https://zenodo.org/records/8344755/files/lcogt_rvc.fits",
+            "https://zenodo.org/records/8344755/files/hlsp_qlp_tess_ffi_s0008-0000000182582608_tess_v01_llc.fits",
+            "https://zenodo.org/records/8344755/files/hlsp_qlp_tess_ffi_s0035-0000000182582608_tess_v01_llc.fits",
+            "https://zenodo.org/records/8344755/files/hlsp_qlp_tess_ffi_s0034-0000000182582608_tess_v01_llc.fits"
+            ],
+            "size": [0.3, 0.4, 0.2, 0.02, 0.1, 0.3, 0.1, 0.1, 0.2, 0.3, 0.2, 0.06, 0.2, 0.2]
+        },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "",
+        "dependencies": ["scipy", "numpy", "astropy", "graphviz"]
+    },
+    "other_instructions": "",
+    "source": "showyourwork"
+}

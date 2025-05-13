@@ -1,0 +1,12 @@
+{
+    "task_id": "outskirts_gas_density_increase_g279e12",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Calculate the maximum percentage increase in the cold gas surface density in the outskirts (R > 8 kpc) of galaxy g2.79e12 due to its major early merger phase.",
+    "instructions": "Analyze the simulation snapshot data for galaxy g2.79e12. Identify the cold gas particles (T < 15000 K) belonging to the main galaxy. Calculate the azimuthally averaged cold gas surface density profile at two time points: one just before the major merger activity begins (simulation time approximately t=2 Gyr) and one shortly after the merger gas has been significantly incorporated but before significant consumption (approximately t=4 Gyr). Determine the average cold gas surface density in the radial region R > 8 kpc at both times. Compute the percentage increase relative to the pre-merger density: 100 * (Density_after - Density_before) / Density_before. Report the maximum value obtained in the outskirts.",
+    "expected_output": 200.0,
+    "tolerance": 20.0,
+    "output_justification": "Based on the maximum percentage increase ('up to 200%') in cold gas surface density in the outskirts (outside of ~8 kpc) mentioned in the Abstract and Section 3.3.",
+    "parents": [],
+    "paper_id": "gse_merger"
+}

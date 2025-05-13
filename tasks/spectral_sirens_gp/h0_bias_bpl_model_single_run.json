@@ -1,0 +1,12 @@
+{
+    "task_id": "h0_bias_bpl_model_single_run",
+    "kind": "numeric",
+    "difficulty": 6,
+    "description": "Calculate the bias in the Hubble constant (H0) estimate, in terms of standard deviations (\u03c3), when using the Broken Power Law mass model on the primary simulated catalog, corresponding to the representative run shown in paper's visualisations.",
+    "instructions": "Using the primary simulated GW event catalog from `gw_data.zip` (the one used for the paper's Figure 1 results), perform a spectral siren analysis to infer H0. Employ the 'Broken Power Law' model for the BBH primary mass distribution as described in the paper (referencing Abbott et al. 2021b, without a high-mass truncation). The true underlying H0 for the simulation is 67.66 km/s/Mpc, and other cosmological parameters are fixed as per a flat \u039bCDM model (\u2126M=0.3, \u2126\u039b=0.7). After obtaining the posterior distribution for H0, calculate its mean (\u03bc_H0_inferred) and standard deviation (\u03c3_H0_inferred). The bias is then computed as |\u03bc_H0_inferred - 67.66| / \u03c3_H0_inferred. Report this value.",
+    "expected_output": 2.7,
+    "tolerance": 0.1,
+    "output_justification": "Section 3: 'In particular, it can be seen that the Broken Power Law (orange curve) is inconsistent with the true value of H0: in the run shown in Figure 1, the true value of H0 is offset from the mean of the posterior by 2.7\u03c3.' This value pertains to a single representative catalog run.",
+    "parents": [],
+    "paper_id": "spectral_sirens_gp"
+}

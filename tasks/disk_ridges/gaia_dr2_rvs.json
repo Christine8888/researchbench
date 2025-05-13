@@ -1,10 +1,10 @@
 {
-    "task_id": "gaia_dr2_rvs",
-    "kind": "numeric",
-    "difficulty": 1,
-    "description": "Select and count stars from Gaia DR2 that have radial velocity measurements and good distance estimates.",
-    "instructions": "Using the approach from Section 2 of the paper (Data and Analysis), query the Gaia DR2 source catalogue to select the 'RVS' sample following the exact same cuts as in the paper. Return a single integer: the count of rows that fulfil all four criteria.",
-    "tolerance": 0,
-    "expected_output": 861680,
-    "parents": []
-  }
+  "task_id": "gaia_dr2_rvs",
+  "kind": "numeric",
+  "difficulty": 1,
+  "description": "Select and count stars from Gaia DR2 that have radial velocity measurements and good distance estimates.",
+  "instructions": "Count Gaia DR2 stars that belong to the 'RVS' sample (radial-velocity catalogue) and satisfy the criteria from Section 2 of the paper (Data and Analysis). Return a single integer: the count of rows that fulfil all four criteria.",
+  "tolerance": 0,
+  "expected_output": 861680,
+  "parents": []
+}

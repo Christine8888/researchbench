@@ -1,7 +1,0 @@
-
-python=3.10
-numpy
-emcee
-corner
-matplotlib
-scipy

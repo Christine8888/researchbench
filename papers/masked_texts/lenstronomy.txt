@@ -42,30 +42,6 @@ There is continued development and support of \pythonpackage\ to expand its scop
 
 This paper is structured as follows: In Section \ref{sec:overview}, we provide an overview of the software architecture and deployment, including installation and dependencies. In Section \ref{sec:core_modules}, we describe the core modules of \pythonpackage\ with some simple examples of how to use them. We provide some modelling examples in Section \ref{sec:model_examples} to demonstrate the capabilities and flexibility of \pythonpackage. In Section \ref{sec:applications}, we give some science application highlights. We summarize in Section \ref{sec:conclusion}.
 
-This publication is accompanied by a public release of the source code with extensive online documentation. Additionally, we provide \texttt{Jupyter}} notebook examples for different science cases. We refer the reader to these online resources for the most updated version of the software package.
-
-\section{Package overview}
-\label{sec:overview}
-
-\begin{lrbox}{\LstBox}
-\begin{lstlisting}[language=bash]
-$ pip install lenstronomy --user
-\end{lstlisting}
-\end{lrbox}
-
-\pythonpackage\ is an open source software package developed in \Python\ \citep{python_1995}. Distribution is granted through the MIT open source software license. \pythonpackage\ relies on packages included in the \Python\ standard library and the proven open-source libraries \texttt{numpy} }, \texttt{scipy} }, \texttt{astropy} \citep{astropy}, and \texttt{matplotlib} \citep{matplotlib}. For optimization and parameter inference routines, \texttt{CosmoHammer} \citep{Akeret:2013nl} is used, which supports Message Passing Interface (MPI) and allows for massive parallelization of the emcee \citep{emcee} algorithm. 
-
-The stable release version can be installed at the command line via pip:\\
-\\
-\usebox{\LstBox}
-\\
-\\
-\pythonpackage\ is compatible with both \texttt{python2} will not be maintained past 2020} and \texttt{python3}. The code design and development follow effective practices for scientific computing. The development is coordinated on \texttt{GitHub} and stable versions are released through \texttt{PyPi} - the python packaging index. This full integration of \pythonpackage\ in the \Python\ packaging environment allows third party to release and share software packages, analysis routines and work-flows that rely upon \pythonpackage.
-
-Extensive tests have been added to \pythonpackage\, which allows us to develop the package using a Continuous Integration (CI) process. The tests are performed on a virtual environment to ensure cross-platform stability and the test coverage report is publicly available. Documentation for the various routines and classes are provided through \texttt{sphinx}} and are available on \texttt{ReadtheDocs}. To make use of \pythonpackage, a start guide and several application examples are provided in the form of \texttt{Jupyter} notebooks in an extension module.
-
-\pythonpackage\ is structured in multiple independent modules, each consisting of multiple classes and sub-packages. These modules execute specific tasks and come with well-defined API. Among the core modules are:
-
 \begin{enumerate}
  \item \texttt{LensModel}: Provides the lensing functionalities. The full functionality is supported with an arbitrary superposition of individual lens models (Section \ref{sec:lens_model}).
  \item \texttt{LightModel}: Enables a variety of surface brightness descriptions and profiles. See Section \ref{sec:light_model}.

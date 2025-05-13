@@ -1,0 +1,11 @@
+{
+    "task_id": "ridge_slope",
+    "kind": "numeric",
+    "difficulty": 3,
+    "description": "",
+    "instructions": "Find the slopes of the ridges in the Local Arm and the Perseus Arm, dV_rot/dR. Return the slopes as a list of two floating point numers: [local_arm_slope, perseus_arm_slope].",
+    "tolerance": [2, 2],
+    "expected_output": [-28, -9],
+    "parents": ["ridges_in_all"]
+  }
+  

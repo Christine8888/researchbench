@@ -1,0 +1,18 @@
+{
+    "task_id": "calculate_ir_excess_properties",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Calculate the peak fractional luminosity and temperature of the infrared excess using NEOWISE data.",
+    "instructions": "Use the provided NEOWISE photometry data (ASASSN-21qj_2013-2022.tbl, neowise_rvc.csv). Determine the median pre-brightening W1 and W2 fluxes (e.g., before MJD 58700). Identify the epoch corresponding to the peak infrared excess after brightening starts. Subtract the median pre-brightening fluxes from the peak post-brightening fluxes in both W1 and W2 bands to isolate the excess flux. Account for contamination from the nearby star by using Gaia photometry for the star and the post/pre-brightening flux difference for the excess, as described in the Methods section. Fit a blackbody model to the excess W1 and W2 fluxes at the peak epoch to determine the temperature (in Kelvin) and the fractional luminosity (L_dust / L_star). Report the best-fit temperature and fractional luminosity as a tuple (temperature, fractional_luminosity).",
+    "expected_output": [
+        950.0,
+        0.04
+    ],
+    "tolerance": [
+        30.0,
+        0.005
+    ],
+    "output_justification": "The Methods section states: 'This fit yields the fractional luminosity L_dust/L_star = 0.04 +/- 0.005 and a dust temperature 950 +/- 30 K.' based on fitting models to the first five post-brightening NEOWISE data points, correcting for the nearby source.",
+    "parents": [],
+    "paper_id": "asassn_21qj"
+}

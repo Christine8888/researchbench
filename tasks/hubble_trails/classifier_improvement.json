@@ -1,8 +1,8 @@
 {
     "task_id": "classifier_improvement",
     "paper_id": "hubble_trails",
-    "kind": "numeric",
-    "difficulty": 5,
+    "kind": "code",
+    "difficulty": 6,
     "description": "Improve the binary classifier",
     "instructions": "The classifier in HST_image_classifier.ipynb has been designed and trained by a human. Use your literature and ML knowledge to improve the classifier and beat its test set performance. Return the results of the new model in a list [accuracy, precision, recall, F1 score].",
     "tolerance": [0.05, 0.05, 0.05, 0.05],

@@ -3,9 +3,14 @@
     "paper_id": "gw_nsbh",
     "kind": "numeric",
     "difficulty": 3,
-    "description": "credibility of the mass gap, default model",
-    "instructions": "Compute the probability that the mass gap is >0 M_sun.\n Use the default model: all 4 LIGO events, the 'ZS' spin prior, and $\\beta = 0$.\n Return the probability as a number between 0 and 1.",
+    "description": "Calculate the probability that the mass gap between the maximum NS mass and minimum BH mass is greater than zero, using the default model.",
+    "instructions": "1. Perform hierarchical Bayesian inference on the NSBH population using the posterior samples for the four LIGO events: GW200105, GW200115, GW190814, and GW190426 (Section III.A).\n2. Use the default model configuration described in the paper:\n   - NS Mass Model: Single Gaussian (Section II.A.2, Model 1).\n   - BH Mass Model: Power law $p(m_1 | \\alpha, M_\\text{BH}) \\propto m_1^{-\\alpha}$ for $m_1 \\ge M_\\text{BH}$ (Equation \\ref{eq:pm1}, Section II.A.3).\n   - Spin Model: 'Zero spin BH' (ZS) model (Section II.A.1, Model 1).\n   - Pairing Function: Random pairing ($\beta = 0$, Section II.A.3).\n   - Inference Framework: Hierarchical Bayesian method (Section II.B) accounting for selection effects (Section II.B.2).\n   - Priors: Use hyperparameter priors from Table I.\n3. Obtain the joint posterior distribution for the minimum BH mass hyperparameter ($M_\\text{BH}$) and the maximum non-spinning NS mass hyperparameter ($M_\\text{TOV}$).\n4. Define the mass gap width as $M_\\text{BH} - M_\\text{TOV}$.\n5. Calculate the fraction of posterior samples for which $M_\\text{BH} - M_\\text{TOV} > 0 M_\\odot$. \n6. Return this probability as a single number between 0 and 1.",
     "tolerance": 0.02,
     "expected_output": 0.97,
-    "parents": ["default_mtov", "default_mbh", "load_data"]
-}
+    "parents": [
+      "default_mtov",
+      "default_mbh",
+      "load_data"
+    ],
+    "output_justification": "The expected output is the credibility that the mass gap is wider than 0 M_sun, reported in Section III.B, paragraph 'Mass gap', for the default model ('ZS' spin prior, all 4 events, beta=0)."
+  }

@@ -10,8 +10,12 @@
       "kind": "wget",
       "paper_id": "spectral_sirens_gp",
       "dataset_name": "Simulated GW data and inference results",
-      "url": ["https://zenodo.org/records/13363108/files/gw_data.zip", "https://zenodo.org/records/13363108/files/bias.zip", "https://zenodo.org/records/13363108/files/mcmc_nonparametric_fitOm0.nc4"],
-      "size": [611.7],
+      "url": ["https://zenodo.org/records/13363108/files/gw_data.zip",
+      "https://zenodo.org/records/8428643/files/optimal_snr_aligo_O3actual_L1.h5",
+      "https://zenodo.org/records/8428643/files/optimal_snr_aligo_O4low.h5",
+      "https://zenodo.org/records/8428643/files/optimal_snr_aplus_design_O5.h5",
+      "https://zenodo.org/records/8428643/files/optimal_snr_ET_design.h5"],
+      "size": [5.1, 602.1, 0.6, 0.6, 0.6, 0.08],
       "data_instructions": {"access": "Download and extract the data files to a local directory via wgetd. The gw_data.zip file contains the simulated gravitational wave events and their posterior samples, the bias.zip file contains multiple catalogs for bias analysis, and the mcmc_nonparametric_fitOm0.nc4 file contains MCMC chains for the cosmological parameter analysis."}
     },
     "execution_requirements": {

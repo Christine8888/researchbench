@@ -1,0 +1,332 @@
+
+\begin{document}
+
+\title{Cover Your Basis: Comprehensive Data-Driven Characterization of the Binary Black Hole Population}
+
+\author{Bruce Edelman}
+\email{bedelman@uoregon.edu}
+\affiliation{Institute  for  Fundamental  Science, Department of Physics, University of Oregon, Eugene, OR 97403, USA}
+\author{Ben Farr}
+\affiliation{Institute  for  Fundamental  Science, Department of Physics, University of Oregon, Eugene, OR 97403, USA}
+\author{Zoheyr Doctor}
+\affiliation{Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA), Department of Physics and Astronomy, Northwestern
+University, Evanston, IL 60201, USA}
+
+
+\begin{abstract}                 
+We introduce the first complete non-parametric model for the astrophysical distribution of the binary black hole (BBH) population. Constructed from basis splines, we use these models to conduct the most comprehensive data-driven investigation of the BBH population to date, simultaneously fitting non-parametric models for the BBH mass ratio, spin magnitude and misalignment, and redshift distributions. With GWTC-3, we report the same features previously recovered with similarly flexible models of the mass distribution, most notably the peaks in merger rates at primary masses of ${\sim}10\msun$ and ${\sim}35\msun$. Our model reports a suppressed merger rate at low primary masses and a mass ratio distribution consistent with a power law. We infer a distribution for primary spin misalignments that peaks away from alignment, supporting conclusions of recent work. We find broad agreement with the previous inferences of the spin magnitude distribution: the majority of BBH spins are small ($a<0.5$), the distribution peaks at $a\sim0.2$, and there is mild support for a non-spinning subpopulation, which may be resolved with larger catalogs. With a modulated power law describing the BBH merger rate's evolution in redshift, we see hints of the rate evolution either flattening or decreasing at $z\sim0.2-0.5$, but the full distribution remains entirely consistent with a monotonically increasing power law. We conclude with a discussion of the astrophysical context of our new findings and how non-parametric methods in gravitational-wave population inference are uniquely poised to complement to the parametric approach as we enter the data-rich era of gravitational-wave astronomy.
+\end{abstract}
+
+\input{intro.tex}
+
+\input{methods.tex}
+
+\input{results.tex}
+
+\input{conclusion.tex}
+
+\section{Introduction} \label{sec:intro}
+
+Observations of gravitational waves (GWs) from compact binary mergers are becoming a regular occurrence, 
+producing a catalog of events that recently surpassed 90 such detections \citep{GWTC1,gwtc2,GWTC3}. As the catalog continues to grow, so does our understanding of the underlying astrophysical population of compact binaries \citep{o1o2_pop,o3a_pop,o3b_astro_dist}. 
+Following numerous improvements to the detectors since the last observing run, the anticipated sensitivities for the upcoming fourth observing run of the LIGO-Virgo-KAGRA (LVK) collaboration suggest detection rates as high as once per \emph{day} \citep{aLIGO,aVIRGO,LVK_prospects,KAGRAProg}. With the formation history of these dense objects encoded in the details of their distribution \citep{1503.04307,Rodriguez_2016,Farr2017Nature,Zevin_2017,Farr_BinnedSpin}, the likely doubling in size of the catalog with the next observing run could provide another leap in our understanding of compact binary astrophysics. 
+Beyond formation physics, population-level inference of the compact binary catalog has also been shown to provide novel measurements of cosmological parameters \citep{Farr_2019HUB,gwtc3_cosmo,JoseSpectralSirens}, constrain modified gravitational wave propagation \citep{OkounkovaBirefringence,ModGWProp,ModGWProp2}, 
+constrain a running Planck mass \citep{Lagos_runningPlanckMass}, search for evidence of ultralight bosons through superradiance \citep{Ng_Boson2021,GWTC2_superradiance_Ng}, 
+constrain stellar nuclear reaction rates \citep{Farmer_2019,Farmer_2020}, look for primordial black holes \citep{Ng_2021,KenNgPBH2022}, 
+and to constrain physics of neutron stars \citep{Golomb_EOS,LandryRead_NS_Masses2021}. Through a better understanding of the mass, spin, and redshift distributions of 
+compact binaries that will come with the increased catalog size, one can probe a wide range of different physical phenomena with even greater fidelity.
+
+The binary black hole (BBH) mass distribution was first found to have structure beyond a smooth power law with simpler parametric models, exhibiting a possible high mass truncation and either a break or a peak at $m_1\sim35-40\,\msun$ \citep{Fishbach_2017,Talbot_2018,o1o2_pop,o3a_pop}. Starting with the moderately sized catalog, GWTC-2, more flexible models found signs of additional structure \citep{Tiwari_2021_b,Edelman_2022ApJ}. The evidence supporting these features, 
+such as the peak at $m_1\sim10\,\msun$, has only grown after analyzing the latest catalog, GWTC-3, with the same models \citep{o3b_astro_dist,Tiwari_2022ApJ}. 
+While this shows the usefulness of data-driven methods with the current relatively small catalog size, they will become more powerful with more observations. The canonical approach to constructing population models has been 
+to use simple parametric descriptions (e.g., power laws, beta distributions) that aim to describe the data in the simplest way, employ astrophysically motivated priors where appropriate, then sequentially add 
+complexities (e.g., Gaussian peaks) as the data demands. This simple approach was necessary when data was scarce, but as we move into the data-rich catalog era, this approach is already failing to scale.  More flexible and scalable methods, such as the non-parametric modeling techniques presented in this manuscript, will be necessary to continue to extract the full information contained in the compact binary catalog. In contrast to parametric models, flexible and non-parametric models are data-driven and contribute little bias to functional form. They additionally are particularly useful to search for unexpected features in the 
+data, providing meaningful insight into features that parametric models may fail to capture.
+
+While we eventually hope to uncover hints of binary formation mechanisms in the mass spectrum of BBHs, the distribution of spin properties have been of particular interest.  
+The measurement of spin properties of individual binaries often have large uncertainties, but the theorized formation channels are expected to produce distinctly 
+different spin distributions \citep{Rodriguez_2016,Gerosa2018, Farr_BinnedSpin, Farr2017Nature, Zevin_2017}. Isolated (or field) formation scenarios predict component spins that are preferentially aligned with the binary's orbital angular momentum, although some small 
+misalignment can occur depending on the nature of the supernova kicks as each star collapses to a compact object \citep{Zevin_2022, BaveraBBHSpin, BaveraMassTransfer}. Alternatively, dynamical formation in 
+dense environments where many-body interactions between compact objects can result in binary formation and hardening (shrinking of binary orbits) should produce binaries with components' spins distributed isotropically \citep{Rodriguez_2016, Rodriguez_2019}. BBH spins have also been of controversial interest recently, with different parametric approaches to modeling 
+the spin distribution coming to different conclusions. Studies have disagreed on the possible existence of a significant zero-spinning subpopulation, as well as the presence of 
+significant spin misalignment (i.e. $\cos{\theta_i} < 0.0$) \citep{o3b_astro_dist,RouletGWTC2Pop,BuildBetterSpinModels,GWTC3MonashSpin,Callister_NoEvidence}. 
+Another study recently showed that inferences of spin misalignment (or tilts) are sensitive to modeling choices and may not peak at perfectly aligned spins, as is often assumed \citep{spinitasyoulike}. While enlightening,
+these recent efforts to improve BBH spin models continue to build sequentially on previous parametric descriptions \citep{BuildBetterSpinModels,Callister_NoEvidence,spinitasyoulike}. 
+To ensure we are extracting the full detail the catalog has to offer, we extend our previous non-parametric modeling techniques to include spin magnitudes and tilts, as well as the binary mass ratio and redshift. \NewChange{\citet{2210.12287} was released concurrently with this work (based on our previous work \citet{Edelman_2022ApJ}), and find similar conclusions on the spin distribution when applying similar flexible models constructed with cubic splines. The work presented in this manuscript however, does not need to analyze a suite of different model configurations and includes flexible non-parametric models for each of the mass, spin and redshift distributions rather than spin alone.}
+
+
+Polynomial splines have been applied to success across different areas of gravitational-wave astronomy. They have been used to model the gravitational-wave data noise spectrum, 
+detector calibration uncertainties, coherent gravitational waveform deviations, and modulations to a power law mass distribution \citep{Littenberg_2015,Edwards_2018,B_Farr_etal_2014,Edelman_2021,Edelman_2022ApJ}
+In this paper we highlight how the use of basis-splines can provide a powerful non-parametric modeling approach to the astrophysical distributions of compact 
+binaries. We illustrate how one can efficiently model both the mass and spin distributions of merging compact binaries in GWTC-3 with basis splines to infer compact binary population properties using 
+hierarchical Bayesian inference. We discuss our results in the context of current literature on compact object populations and how this method complements the simpler lower 
+dimensional parametric models in the short run, and will become necessary with future catalogs. Should they appear with more observations, this data-driven approach will provide checks of 
+our understanding by uncovering more subtle -- potentially unexpected -- features. The rest of this manuscript is structured as follows: a description of the background of 
+basis splines in section \ref{sec:basis_splines}, followed by a presentation of the results of our extensive, data-driven study of the mass and spin distributions of BBHs in GWTC-3 in section 
+\ref{sec:results}. We then discuss these results and their astrophysical implications in section \ref{sec:astrodiscussion} and finish with our conclusions in section \ref{sec:conclusion}.
+
+\section{Building the Model} \label{sec:methods}
+
+We construct our data-driven model with the application of basis splines, or B-Splines \citep{deBoor78}. B-Splines of order $k$ are a set of order $k$ polynomials that 
+span the space of possible spline functions interpolated from a given set of knot locations. For all B-Splines used in our model we use a third order basis which consists of individual cubic polynomials. The basis representation of the splines allows for the computationally
+expensive interpolation to be done in a single preprocessing step -- amortizing the cost of model evaluation during inference. To mitigate the unwanted side effects of 
+adding extra knots and to avoid running a model grid of differing numbers of knots (as in \citet{Edelman_2022ApJ}), we use the smoothing prior for Bayesian P-Splines \citep{eilers2021practical,BayesianPSplines,Jullion2007RobustSO}, 
+allowing the data to pick the optimal scale needed to fit the present features. We discuss basis splines, the smoothing prior, and our specific prior choices on hyperparameters in Appendix \ref{sec:basis_splines}, \ref{sec:psplines} and \ref{sec:modelpriors}.
+
+We parameterize each binaries' masses with the primary (more massive component) mass ($m_1$) 
+and the mass ratio ($q=m_2/m_1$) with support from 0 to 1. Furthermore, we model 4 of the 6 total 
+spin degrees of freedom of a binary merger: component spin magnitudes $a_1$ and $a_2$, and (cosine of) the tilt angles of each component, $\cos{\theta_1}$ and $\cos{\theta_2}$. The tilt angle is defined as the angle between each components' spin vector and the binary's orbital angular momentum vector. 
+We assume the polar spin angles are uniformly distributed in the orbital plane. For the primary mass distribution, we model the log probability with a B-Spline interpolated over 
+knots linearly spaced in $\log(m_1)$ from a minimum black hole mass, which we fix to $5\msun$, and a maximum mass 
+that we set to $100\msun$. We then have the hyper-prior on primary mass with log probability density 
+$\log(p(m_1 | \bm{c})) \propto B_{k=3}(\log(m_1) | \bm{c})$, where $B_{k=3}$ is the 
+cubic B-Spline function with a vector of basis coefficients $\bm{c}$. We follow the same procedure 
+for the models in mass ratio and spin distributions with knots spaced linearly across each domain 
+so that we have $\log(p(\theta | \bm{c}_\theta)) \propto B_{k=3}(\theta | \bm{c}_\theta)$, 
+where $\theta$ can be $q$, $a_1$, $a_2$, $\cos{\theta_1}$ or $\cos{\theta_2}$. 
+For the spin magnitude and tilt distributions we construct two versions of the model: first, we model  
+each component's distribution as independently and identically distribution (IID), 
+where we have a single B-Spline model and parameters (coefficients) for each binary spin. 
+Secondly, we model each component's distribution to be unique, fitting separate sets of coefficients for the B-Spline models of the primary and secondary spin distributions. 
+Lastly, we fit a population model on the redshift or luminosity distance distribution of BBHs, assuming a $\Lambda\mathrm{CDM}$ cosmology defined by the parameters 
+from the Planck 2015 results \citep{Planck2015}. This defines an analytical mapping between each event's inferred luminosity distance, and its redshift, which we now use interchangeably. 
+We take a semi-parametric approach to model the evolution of the merger rate with redshift, following \citet{Edelman_2022ApJ}, that parameterizes modulations to an underlying model 
+with splines (in our case basis splines). We use the \textsc{PowerlawRedshift} model as the underlying distribution to modulate, which has a single hyperparameter, $\lambda_z$, and 
+probability density defined as: $p(z|\lambda_z)\propto \frac{dV_c}{dz}(1+z)^{\lambda_z-1}$ \citep{Fishbach_2018redshift}. For more detailed descriptions of each model and 
+specific prior choices used for the hyperparameters see Appendix \ref{sec:modelpriors}. Now that we have our comprehensive data-driven population model built, we simultaneously fit the basis spline models on the BBH masses, spins and redshift. We use the usual hierarchical Bayesian inference framework (see appendix \ref{sec:hierarchical_inference} for a review; \citet{o1o2_pop,o3a_pop,o3b_astro_dist}), to perform the most 
+extensive characterization of the population of BBHs to date using the most recent catalog of GW observations, GWTC-3 \citep{GWTC3}.
+
+\section{Binary Black Hole Population Inference with GWTC-3} \label{sec:results}
+
+\begin{figure*}[ht!]
+    \begin{centering}
+        \includegraphics[width=\linewidth]{figures/mass_distribution_plot.pdf}
+        \caption{The marginal primary mass distribution inferred with the B-Spline model (red), with 64 knots spaced linearly in $\log m_1$, from 5\msun 
+        to 100\msun. The solid line shows the population predictive distribution (PPD), and the shaded region 
+        the 90\% credible interval. We show the inferred PPD from the \textsc{PowerlawPeak} (blue) and \textsc{PowerlawSpline} (green) models 
+        from the LVK's GWTC-3 population analyses \citep{o3b_astro_dist}. \LinkExplainer}
+        \label{fig:mass_distribution}
+    \end{centering}
+    \script{mass_distribution_plot.py}
+\end{figure*}
+
+We use hierarchical Bayesian inference (see Appendix \ref{sec:hierarchical_inference}) to simultaneously infer the astrophysical mass, spin, and redshift distributions of 
+binary black holes (BBHs) given a catalog of gravitational wave observations. Following the same cut on the recent GWTC-3 catalog done in the LVK's 
+accompanying BBH population analysis, we have 70 possible BBH mergers with false alarm rates less than 1 per year \citep{GWTC3,o3b_astro_dist,GWTC3DATA}. Since it was concluded to be an outlier of the rest of 
+the BBH population in both GWTC-2 and GWTC-3, we choose to omit the poorly understood event, GW190814 \citep{190814disc,o3a_pop,o3b_astro_dist,Essick_2022}. This leaves us with 
+a catalog of 69 confident BBH mergers, observed over a period of about 2 years, from which we want to infer population properties. 
+\NewChange{Following what was done in \citet{o3b_astro_dist}, for events included in GWTC-1 \citep{GWTC1}, we use the published samples that equally weight samples from analyses with the \textsc{IMRPhenomPv2} \citep{1308.3271} and \textsc{SEOBNRv3} \citep{1307.6232,1311.2544} waveforms. For the events from GWTC-2 \citep{gwtc2}, we use samples that equally weight all available analyses using higher-order mode waveforms (\textsc{PrecessingIMRPHM}). Finally, for new events reported in GWTC-2.1 and GWTC-3 \citep{2108.01045,GWTC3}, we use combined samples, equally weighted, from analyses with the \textsc{IMRPhenomXPHM} \citep{2004.06503} and the \textsc{SEOBNRv4PHM} \citep{2004.09442} waveform models.}
+Our study provides the first comprehensive 
+data-driven investigation, simultaneously inferring all the BBH population distributions (i.e. mass, spin, and redshift), uncovering new insights and corroborating those found with other methods. 
+We start with our inference of the mass distribution.
+
+\subsection{Binary Black Hole Masses} \label{sec:mass_dist}
+
+\begin{figure}[ht!]
+    \includegraphics[width=\linewidth]{figures/q_distribution_plot.pdf}
+    \caption{The marginal mass ratio distribution inferred with the B-Spline model (red), with 18 knots spaced linearly in $q$, from 0.05 to 1. The solid line shows the population predictive distribution (PPD), and the shaded region the 90\% credible interval. 
+    We show the inferred PPD from the \textsc{PowerlawPeak} (blue) and \textsc{PowerlawSpline} (green) models from the LVK's GWTC-3 population analyses \citep{o3b_astro_dist}. \LinkExplainer}
+    \label{fig:q_distribution}
+    \script{q_distribution_plot.py}
+\end{figure}
+
+Figure \ref{fig:mass_distribution} shows the primary mass distribution inferred with our B-Spline model (red), where we see features consistent with those inferred by the \textsc{PowerlawPeak} and \textsc{PowerlawSpline} mass models \citep{Talbot_2018,o3a_pop,Edelman_2022ApJ,o3b_astro_dist,GWTC3POPDATA}. 
+In particular our B-Spline model finds peaks in merger rate density as a function of primary mass at both $\sim10\msun$ and $\sim35\msun$, agreeing with those 
+reported using the same dataset in \citet{o3b_astro_dist}.  The B-Spline model finds the same feature at $\sim18\msun$ as the \textsc{PowerlawSpline} model, but remains consistent with the \textsc{PowerlawPeak} model; the mass distribution is more uncertain in this region. For each of these features we find the local maximums occurring at primary masses of \result{$\CIPlusMinus{\macros[MassDistribution][BSpline][peaks][10]}\,\msun$},  
+\result{$\CIPlusMinus{\macros[MassDistribution][BSpline][peaks][18]}\,\msun$}, and  
+\result{$\CIPlusMinus{\macros[MassDistribution][BSpline][peaks][35]}\,\msun$} all at 90\% credibility.
+We find the largest disagreement at low masses, where the power-law-based models show a higher rate below ${\sim}8-9\msun$. This is partly due to the minimum mass hyperparameter (where the power law ``begins'') serving as the minimum allowable primary and secondary masses of the catalog. This leads to inferences of $m_\mathrm{min}$ below the minimum observed primary mass in the catalog, which is $\sim 6.4\msun$, to account for secondary BBH masses lower than that. We choose to fix the minimum black hole mass for both primary and secondaries to $5\msun$, 
+similar to the inferred minimum mass in \citet{o3b_astro_dist}. The lack of observations of binaries with low primary mass make rate estimates in this region strongly model dependent, while our flexible model provides an informed upper limit on the rate in this region and given the selection effects and that there are no observations. We could be seeing signs of a decrease in merger rate from a ``lower mass gap'' between neutron star and BH masses, or we could be seeing fluctuations due to low-number statistics \citep{NoPeaksWithoutValleys}. Either way we expect this to be resolved with future catalog updates. We also find no evidence for a sharp fall off in merger rate either following 
+the pileup at ${\sim}35\,\msun$ -- expected if such a pileup was due to pulsational pair instability supernovae (PPISNe) -- or where the maximum mass truncation of the power law models 
+are inferred. The lack of any high mass truncation, along with the peak at $\sim35\msun$ (significantly lower than expected from PPISNe) may pose challenges for conventional stellar 
+evolution theory. This could be hinting at the presence of subpopulations that avoid pair instability supernovae during binary formation, but the confirmation of the existence of such subpopulations 
+cannot be determined with the current catalog.
+
+
+The marginal mass ratio distribution inferred by the B-spline model is shown in figure \ref{fig:q_distribution}.  These results suggest we may be seeing the first signs of departure from a simple power law behavior.  We find a potential signs of a plateau or decrease in the merger rate near equal mass ratios, as well as a broader tail towards unequal mass ratios 
+than the power law based models find, although a smooth power law is still consistent with these results given the large uncertainties. Our results also suggest a shallower slope from $q\sim0.3$ to $q\sim0.7$, though uncertainty is larger in this region. The sharp decrease in rate just below 
+$q\sim0.5$ is due to the minimum mass ratio truncation defined by $q_\mathrm{min}=\frac{m_\mathrm{min}}{m_1}$. When marginalizing over the primary mass 
+distribution with a strong peak at $10\msun$, the mass ratio distribution truncates at $q\sim0.5$: the minimum mass, $5\msun$, 
+divided by the most common primary mass, ${\sim}10\msun$. 
+
+\begin{figure}[ht!]
+    \begin{centering}    
+        \includegraphics[width=\linewidth]{figures/iid_spinmag.pdf}
+        \caption{The spin magnitude distribution inferred with the B-Spline model (red) with 16 knots spaced linearly from 0 to 1, assuming the components are IID. The solid line shows the population predictive distribution (PPD), and the shaded region the 90\% credible interval. 
+        For comparison, we show the inferred PPD from the \textsc{Default} (blue) model from \citet{o3b_astro_dist}, the LVK's GWTC-3 population analyses. \LinkExplainer}
+        \label{fig:iid_spinmag_dist}
+    \end{centering}
+    \script{plot_iid_spinmag.py}
+\end{figure}
+
+\subsection{Binary Black Hole Spins} \label{sec:spin_dist}
+
+\begin{table*}[ht!]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+        Model & $a_\mathrm{peak}$ & $a_\mathrm{90\%}$ & $\cos{\theta_\mathrm{peak}}$ & $f_{\cos{\theta}<0}$ & $\log_{10}Y$ \\ \hline \hline
+        B-Spline IID & $\CIPlusMinus{\macros[BSplineIIDCompSpins][peak_a]}$ & $\CIPlusMinus{\macros[BSplineIIDCompSpins][a_90percentile]}$ & $\CIPlusMinus{\macros[BSplineIIDCompSpins][peakCosTilt]}$ & $\CIPlusMinus{\macros[BSplineIIDCompSpins][negFrac]}$ & $\CIPlusMinus{\macros[BSplineIIDCompSpins][log10gammaFrac]}$ \\ \hline
+        B-Spline Ind(primary) & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][peak_a1]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][a1_90percentile]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][peakCosTilt1]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][negFrac1]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][log10gammaFrac1]}$ \\ \hline
+        B-Spline Ind(secondary) & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][peak_a2]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][a2_90percentile]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][peakCosTilt2]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][negFrac2]}$ & $\CIPlusMinus{\macros[BSplineIndependentCompSpins][log10gammaFrac2]}$  \\ \hline
+        \textsc{Default} \citep{o3b_astro_dist} & $\CIPlusMinus{\macros[Default][peak_a]}$ & $\CIPlusMinus{\macros[Default][a_90percentile]}$ & $\CIPlusMinus{\macros[Default][peakCosTilt]}$ & $\CIPlusMinus{\macros[Default][negFrac]}$ & $\CIPlusMinus{\macros[Default][log10gammaFrac]}$ \\ \hline
+    \end{tabular}
+    \caption{Summary of Component Spin distributions inferred both the independent and IID component spin B-Spline models and the \textsc{Default} spin model from \citet{o3b_astro_dist}.}
+    \label{tab:compspins}
+\end{table*}
+
+\subsubsection{Spin Magnitude}
+
+The \textsc{Default} spin model (used by \citet{o3b_astro_dist}) describes the spin magnitude of both components as identical and independently distributed (IID) non-singular Beta distributions \citep{Talbot_2017,Wysocki_2019}.
+The Beta distribution provides a simple 2-parameter model that can produce a wide range of functional forms on the unit interval. However, the constraint that keeps 
+the Beta distribution non-singular (i.e. $\alpha>1$ and $\beta>1$) enforces a spin magnitude that always has $p(a_i=0) = 0$. Recent studies have proposed the possible existence of a 
+distinct subpopulation of non-spinning or negligibly spinning black holes that can elude discovery with such a model \citep{FullerMa2019,RouletGWTC2Pop,BuildBetterSpinModels,Callister_NoEvidence,GWTC3MonashSpin}. 
+
+\begin{figure}[ht!]
+    \begin{centering}
+        \includegraphics[width=\linewidth]{figures/ind_spinmag.pdf}
+        \caption{The primary (orange) and secondary (olive) spin magnitude distributions inferred with the B-Spline model
+        with 16 knots spaced linearly from 0 to 1. The solid line shows the population predictive distribution (PPD), and the shaded region the 90\% credible interval. 
+        For comparison, we show the inferred PPD from the \textsc{Default} (blue) model from \citet{o3b_astro_dist}, the LVK's GWTC-3 population analyses. \LinkExplainer}
+        \label{fig:ind_spinmag_dist}
+    \end{centering}
+    \script{plot_ind_spinmag.py}
+\end{figure}
+
+We model the spin magnitude distributions as IID B-Spline distributions. 
+Figure \ref{fig:iid_spinmag_dist} shows the inferred spin magnitude distribution with the B-Spline model, compared with the \textsc{Default} model from \citet{o3b_astro_dist}. 
+The B-Spline model results are consistent with those using the Beta distribution, peaking near $a\sim0.2$, with 90\% of BBH spins below 
+\result{$\CIPlusMinus{\macros[BSplineIIDCompSpins][a_90percentile]}$} at 90\% credibility. The B-Spline model does not impose vanishing support at the extremal values like the Beta distribution, 
+allowing it to probe the zero-spin question. We find broad support, with large variance, for non-zero probabilities at $a_i=0$, but cannot confidently determine the presence of 
+a significant non-spinning subpopulation, corroborating similar recent conclusions \citep{BuildBetterSpinModels,Callister_NoEvidence,GWTC3MonashSpin,Mould2022}. 
+We repeat the same analysis with independent B-Spline distributions for each spin magnitude component. In figure \ref{fig:ind_spinmag_dist} 
+we show the inferred primary (orange), and secondary (olive) spin magnitude distributions inferred when relaxing the IID assumption. We find no signs that the spin magnitude distributions are not IID but that the primary spin magnitude distribution peaks slightly higher, at $a\sim0.25$, than the IID B-Spline model in figure \ref{fig:iid_spinmag_dist}, but with similar support at near vanishing spins. The secondary spin magnitude distribution is more uncertain due to the 
+higher measurement uncertainty when inferring the secondary spins of BBH systems \citep{1403.0129,1611.01122}. The secondary distribution also peaks at smaller spin magnitudes of $a\sim0.15$, showing potentially rates at $a\sim0$ than the primary distribution or B-Spline IID spin magnitude distribution in figure \ref{fig:iid_spinmag_dist}, though uncertainties are large. While the distributions are broadly consistent, we could be seeing signs that component spin magnitude distributions are uniquely distributed, which can be produced through mass-ratio reversal in isolated binary evolution \citep{Mould2022}.
+
+\subsubsection{Spin Orientation}
+
+The \textsc{Default} spin model (used in \citet{o3a_pop, o3b_astro_dist}) also assumes the spin orientation of both components are identical and independently distributed (IID), with a mixture model over an
+aligned and an isotropic component. The aligned component is modeled with a truncated Gaussian distribution with mean at $\cos{\theta}=1$ and variance a free 
+hyperparameter to be fit \citep{Talbot_2017,Wysocki_2019,o3a_pop,o3b_astro_dist}. This provides a simple 2-parameter model motivated by simple distributions expected from the two main formation scenario families, allowing 
+for a straightforward interpretation of results. One possible limitation however, is that by construction this distribution is forced to peak at perfectly aligned spins, 
+i.e. $\cos{\theta}=1$. While this may be a reasonable assumption, \citet{spinitasyoulike} recently extended the model space of parametric descriptions 
+used to model the spin orientation distribution and found considerable evidence that the distribution peaks away from $\cos{\theta}=1$. Again, this provides a clear 
+use-case where data-driven models can help us understand the population.
+
+\begin{figure}[ht!]
+    \begin{centering}
+        \includegraphics[width=\linewidth]{figures/iid_spintilt.pdf}
+        \caption{The spin orientation distribution inferred with the B-Spline model (red) with 16 knots spaced linearly from -1 to 1, and assuming the components are IID. The solid line shows the population predictive distribution (PPD), and the shaded region the 90\% credible interval. 
+        For comparison, we show the inferred PPD from the \textsc{Default} (blue) model from \citet{o3b_astro_dist}, the LVK's GWTC-3 population analyses. \LinkExplainer}
+        \label{fig:iid_spintilt_dist}
+    \end{centering}
+    \script{plot_iid_spintilt.py}
+\end{figure}
+
+\NewChange{Figure \ref{fig:iid_spintilt_dist} shows the inferred spin orientation distribution with the IID spin B-Spline model}, compared with the \textsc{Default} model from \citet{o3b_astro_dist}. 
+The B-Spline inferences have large uncertainties but start to show the same features as found and discussed in \citet{spinitasyoulike}. 
+We find a distribution that instead of intrinsically peaking at $\cos{\theta}=1$, is found to peak at: $\cos{\theta}=$\result{$\CIPlusMinus{\macros[BSplineIIDCompSpins][peakCosTilt]}$}, at 
+90\% credibility. We find less, but still considerable support for misaligned spins (i.e. $\cos{\theta}<0$), consistent with other recent studies \citep{o3a_pop,o3b_astro_dist,Callister_NoEvidence}. Specifically we 
+find that the fraction of misaligned systems is $f_{\cos{\theta}<0}=$\result{$\CIPlusMinus{\macros[BSplineIIDCompSpins][negFrac]}$}, compared to 
+$f_{\cos{\theta}<0}=$\result{$\CIPlusMinus{\macros[Default][negFrac]}$} with the \textsc{Default} model from \citet{o3b_astro_dist}. This implies 
+the presence of an isotropic component as expected by dynamical formation channels, albeit less than with the \textsc{Default} model. To quantify the 
+amount of isotropy in the tilt distribution we calculate $\log_{10}Y$, where $Y$ is the ratio of nearly aligned tilts to nearly anti-aligned, 
+introduced in \citet{spinitasyoulike} and defined as:
+\begin{equation}
+    Y \equiv \frac{\int_{0.9}^{1.0} d\cos{\theta} p(\cos{\theta})}{\int_{-1.0}^{-0.9} d\cos{\theta} p(\cos{\theta})}.
+\end{equation}
+The log this quantity, $\log_{10}Y$, is 0 for tilt distribution that is purely isotropic, negative when anti-aligned values are favored, 
+and positive when aligned tilts are favored. We find a $\log_{10}Y=$\result{$\CIPlusMinus{\macros[BSplineIIDCompSpins][log10gammaFrac]}$}, exhibiting a slight preference for aligned tilts.  
+
+\begin{figure}[ht!]
+    \begin{centering}
+        \includegraphics[width=\linewidth]{figures/ind_spintilt.pdf}
+        \caption{The primary (orange) and secondary (olive) spin orientation distributions inferred with the B-Spline model with 16 knots spaced linearly from -1 to 1. The solid line shows the population predictive distribution (PPD), and the shaded region the 90\% credible interval. 
+        For comparison, we show the inferred PPD from the \textsc{Default} (blue) model from \citet{o3b_astro_dist}, the LVK's GWTC-3 population analyses. \LinkExplainer}
+        \label{fig:ind_spintilt_dist}
+    \end{centering}
+    \script{plot_ind_spintilt.py}
+\end{figure}
+
+We also model each component's orientation distribution with an independent B-Spline model as done above, and show the inferred 
+primary (orange), and secondary (olive) distributions in figure \ref{fig:ind_spintilt_dist}. The orientation distributions are broadly
+consistent with each other and the \textsc{Default} model's PPD given the wide credible intervals. We find the two distributions to peak at: $\cos{\theta_1}=$\result{$\CIPlusMinus{\macros[BSplineIndependentCompSpins][peakCosTilt1]}$} 
+and $\cos{\theta_2}=$\result{$\CIPlusMinus{\macros[BSplineIndependentCompSpins][peakCosTilt2]}$}, showing that the primary distribution peak is inferred further away 
+from the assumed $\cos{\theta}=1$ with the \textsc{Default} model. There is also significant (albeit uncertain) evidence of spin misalignment in each distribution, finding 
+the fraction of misaligned primary and secondary components as: $f_{\cos{\theta_1}<0}=$\result{$\CIPlusMinus{\macros[BSplineIndependentCompSpins][negFrac1]}$} and 
+$f_{\cos{\theta_2}<0}=$\result{$\CIPlusMinus{\macros[BSplineIndependentCompSpins][negFrac2]}$}. We again calculate $\log_{10}Y$  
+for each component distribution and find: $\log_{10}Y_1=$\result{$\CIPlusMinus{\macros[BSplineIndependentCompSpins][log10gammaFrac1]}$} and 
+$\log_{10}Y_2=$\result{$\CIPlusMinus{\macros[BSplineIndependentCompSpins][log10gammaFrac2]}$}.
+
+\begin{table*}[ht!]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+        Model & $\chi_\mathrm{eff,peak}$ & $f_{\chi_\mathrm{eff}<0}$ & $f_{\chi_\mathrm{eff}<-0.3}$ & $f_\mathrm{dyn}$ & $f_\mathrm{HM}$ \\ \hline \hline
+        B-Spline IID & $\CIPlusMinus{\macros[ChiEffective][iid][PeakChiEff]}$ & $\CIPlusMinus{\macros[ChiEffective][iid][FracBelow0]}$ & $\CIPlusMinus{\macros[ChiEffective][iid][FracBelowNeg0p3]}$ & $\CIPlusMinus{\macros[ChiEffective][iid][frac_dyn]}$ & $\CIPlusMinus{\macros[ChiEffective][iid][frac_hm]}$ \\ \hline
+        B-Spline Ind & $\CIPlusMinus{\macros[ChiEffective][ind][PeakChiEff]}$ & $\CIPlusMinus{\macros[ChiEffective][ind][FracBelow0]}$ & $\CIPlusMinus{\macros[ChiEffective][ind][FracBelowNeg0p3]}$ & $\CIPlusMinus{\macros[ChiEffective][ind][frac_dyn]}$ & $\CIPlusMinus{\macros[ChiEffective][ind][frac_hm]}$ \\ \hline
+        \textsc{Default} \citep{o3b_astro_dist} & $\CIPlusMinus{\macros[ChiEffective][default][PeakChiEff]}$ & $\CIPlusMinus{\macros[ChiEffective][default][FracBelow0]}$ & $\CIPlusMinus{\macros[ChiEffective][default][FracBelowNeg0p3]}$ & $\CIPlusMinus{\macros[ChiEffective][default][frac_dyn]}$ & $\CIPlusMinus{\macros[ChiEffective][default][frac_hm]}$ \\ \hline
+        \textsc{Gaussian} \citep{o3b_astro_dist}  & $\CIPlusMinus{\macros[ChiEffective][gaussian][PeakChiEff]}$ & $\CIPlusMinus{\macros[ChiEffective][gaussian][FracBelow0]}$ & $\CIPlusMinus{\macros[ChiEffective][gaussian][FracBelowNeg0p3]}$ & $\CIPlusMinus{\macros[ChiEffective][gaussian][frac_dyn]}$ & $\CIPlusMinus{\macros[ChiEffective][gaussian][frac_hm]}$ \\ \hline
+    \end{tabular}
+    \caption{Summary of the effective spin distributions inferred with the B-Spline model variations, along with the \textsc{Default} and \textsc{Gaussian} models from \citet{o3b_astro_dist}.}
+    \label{tab:chieff}
+\end{table*}
+
+\subsection{The Effective Spin Dimension}
+
+\begin{figure*}[ht!]
+    \begin{centering}
+        \includegraphics[width=\linewidth]{figures/effspin.pdf}
+        \caption{The effective (left) and precessing (right) spin distributions inferred with the B-Spline IID spin model (red). The solid line shows the population predictive distribution (PPD), and the shaded region the 90\% credible interval. We show the inferred PPDs from the independent component spin B-Spline model (purple), and both the \textsc{Default} (blue) model and the 
+        Gaussian (green) model from \citet{o3b_astro_dist}, the LVK's GWTC-3 population analyses. \LinkExplainer}
+        \label{fig:eff_dist}
+    \end{centering}
+    \script{plot_effspin.py}
+\end{figure*}
+
+\NewChange{While the component spin magnitudes and tilts are more directly tied to formation physics, they are typically poorly measured.  The best-measured spin quantity, which enters at the highest post-Newtownian order, is the effective spin: $\chi_\mathrm{eff} = \frac{a_1\cos{\theta_1} + qa_2\cos{\theta_2}}{1+q}$. There is additionally an effective precessing spin parameter, $\chi_\mathrm{p} = \mathrm{max}\big[ a_1 \sin{\theta_1}, \frac{3+4q}{4+3q} q a_2 \sin{\theta_2} \big]$, that quantifies the amount of spin precession given the systems mass ratio and component spin magnitudes and orientation.}
+Figure \ref{fig:eff_dist} shows the inferred effective spin and precessing spin distributions with the two versions of our B-Spline models (red and purple), 
+along with results on the \textsc{Default} \citep{Talbot_2017} and \textsc{Gaussian} \citep{Miller2020} models from \citet{o3b_astro_dist}. We find considerable agreement 
+among the effective spin distributions, but the more flexible B-Spline models in component spins more closely resemble results from the \textsc{Default} model, also using the component spins. The B-Spline model finds very similar shapes to the other models, with a single peak centered at 
+$\chi_\mathrm{eff}=$\result{$\CIPlusMinus{\macros[ChiEffective][iid][PeakChiEff]}$}, compared to 
+$\chi_\mathrm{eff}=$\result{$\CIPlusMinus{\macros[ChiEffective][default][PeakChiEff]}$} with the \textsc{Default} model and 
+$\chi_\mathrm{eff}=$\result{$\CIPlusMinus{\macros[ChiEffective][gaussian][PeakChiEff]}$} with the \textsc{Gaussian} $\chi_\mathrm{eff}$ models from \citet{o3b_astro_dist}. 
+As for spin misalignment, we calculate the fraction of systems with effective spins that are misaligned (i.e. $\chi_\mathrm{eff}<0$) and find similar 
+agreement with previous work \citep{o3a_pop,o3b_astro_dist,Callister_NoEvidence}. We find for the B-Spline model 
+$f_{\chi_\mathrm{eff}<0}=$\result{$\CIPlusMinus{\macros[ChiEffective][iid][FracBelow0]}$}, compared to 
+$f_{\chi_\mathrm{eff}<0}=$\result{$\CIPlusMinus{\macros[ChiEffective][default][FracBelow0]}$} and $f_{\chi_\mathrm{eff}<0}=$\result{$\CIPlusMinus{\macros[ChiEffective][gaussian][FracBelow0]}$} 
+with the \textsc{Default} and \textsc{Gaussian} models from \citet{o3b_astro_dist}. \NewChange{The precessing spin distributions inferred with the B-Spline models exhibit a similar shape to the \textsc{Default} model, but with a much fatter tail towards highly precessing systems, driven by the extra support for highly spinning components seen in figures \ref{fig:iid_spinmag_dist} and \ref{fig:iid_spinmag_dist}.}
+
+\begin{figure}[ht!]
+    \includegraphics[width=\linewidth]{figures/rate_vs_z_plot.pdf}
+    \caption{The BBH merger rate as a function of redshift. We show the B-Spline model (red) with 16 knots spaced linearly in $\log(z)$, 
+    from the minimum to the maximum observed redshifts. The solid line shows the population predictive distribution (PPD), and the shaded region 
+    the 90\% credible interval. We show the inferred 90\% credible interval from the \textsc{PowerlawRedshift} model 
+    from the LVK's GWTC-3 population analyses in blue and a power law with exponent of 2.7 in gray, representing the expected star formation rate 
+    \citep{Madau_2014, o3b_astro_dist}. \LinkExplainer}
+    \label{fig:rofz}
+    \script{rate_vs_z_plot.py}
+\end{figure}
+
+\subsection{Merger Rate Evolution with Redshift} \label{sec:redshift}
+
+\begin{figure}[ht!]
+    \includegraphics[width=\linewidth]{figures/z_modulation_plot.pdf}
+    \caption{The B-spline modulation to the underlying power law in redshift, (red). The solid line shows the population predictive distribution (PPD),
+    and the shaded region the 90\% credible interval. We show the 90\% credible interval of the prior predictive distribution in dashed black lines. \LinkExplainer}
+    \label{fig:z_modulation}
+    \script{z_modulation_plot.py}
+\end{figure}
+
+Recent analysis of the GWTC-3 BBH population has shown evidence for an increasing merger rate with redshift, nearly ruling out a merger rate that is 
+constant with co-moving volume \citep{Fishbach_2018redshift,o3b_astro_dist}. When extending the power law form of the previously used model to have a modulation 
+that we model with B-Splines, the merger rate as a function of redshift in figure \ref{fig:rofz} shows mild support for features departing from the underlying power law. 
+In particular, we see a small increase in merger rate from $z\sim0.09$ to $z\sim0.2$ (where we best constrain the rate), followed by a plateau in the rate from $z\sim0.2$ to $z\sim0.4$. 
+At larger redshifts, where we begin to have sparse observations, we see no sign of departure from the power-law as the rate continues to increase with redshift. 
+The underlying power-law slope of our B-spline modulated model is consistent with the GWTC-3 results with the underlying model by itself: the \textsc{PowerlawRedshift} model 
+found $\lambda_z = $\result{$\CIPlusMinus{\macros[PLPeak][lamb]}$} when inferred with the \textsc{PowerlawPeak} mass, and \textsc{Default} spin models. Our more 
+flexible model infers a power law slope of $\lambda_z = $\result{$\CIPlusMinus{\macros[BSplineIIDCompSpins][lamb]}$}. We show the basis spline modulations or departure 
+from the power law in \ref{fig:z_modulation} compared to the prior -- showing where we cannot constrain any significant deviations from the simpler parametric power law model. 
+The extra freedom of our model does inflate the uncertainty in its rate estimates, especially at $z\sim0$ where there are not any observations in the catalog. 
+We find a local ($z=0$) merger rate of $\mathcal{R}_0 = $\result{$\CIPlusMinus{\macros[BSplineIIDCompSpins][local_rate]}\,\mathrm{Gpc}^{-3}\mathrm{yr}^{-1}$} using the B-Spline modulation model 
+which compares to $\mathcal{R}_0 = $\result{$\CIPlusMinus{\macros[PLPeak][local_rate]}\,\mathrm{Gpc}^{-3}\mathrm{yr}^{-1}$} for the GWTC-3 result. 

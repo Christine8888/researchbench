@@ -1,0 +1,18 @@
+{
+    "task_id": "iid_spin_magnitude",
+    "kind": "numeric",
+    "difficulty": 3,
+    "description": "Calculate the peak location and 90th percentile of the spin magnitude distribution from the B-Spline IID model.",
+    "instructions": "Using the posterior samples from the B-Spline population analysis assuming identical and independently distributed (IID) component spins, construct the population predictive distribution (PPD) for the spin magnitude ($a$). Find the location of the peak ($a_\\mathrm{peak}$) of this distribution. Also, calculate the spin magnitude ($a_\\mathrm{90\\%}$) below which 90% of the BBH spins lie (i.e., the 90th percentile of the PPD). Report the median and 90% credible interval (defined by the 5th and 95th percentiles) for both $a_\\mathrm{peak}$ and $a_\\mathrm{90\\%}$. The B-spline model uses 16 knots spaced linearly from 0 to 1. Format the output as a dictionary with keys 'a_peak' and 'a_90', where values are lists of [median, upper_bound, lower_bound].",
+    "expected_output": {
+        "a_peak": [0.19, 0.31, 0.03],
+        "a_90": [0.71, 0.84, 0.57]
+    },
+    "tolerance": {
+        "a_peak": [0.02, 0.02, 0.02],
+        "a_90": [0.03, 0.03, 0.03]
+    },
+    "output_justification": "Extracted from Table 1, row 'B-Spline IID'. Values correspond to $a_\\mathrm{peak}$ = \\macros[BSplineIIDCompSpins][peak_a] and $a_\\mathrm{90\\%}$ = \\macros[BSplineIIDCompSpins][a_90percentile]. The expected output values are calculated as [median, median + error_plus, median - error_minus]. Quote for context: 'Summary of Component Spin distributions inferred both the independent and IID component spin B-Spline models...'",
+    "parents": [],
+    "paper_id": "bbh_basis"
+  }

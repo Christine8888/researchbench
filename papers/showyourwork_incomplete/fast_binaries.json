@@ -1,0 +1,25 @@
+{
+    "paper_id": "fast_binaries",
+    "paper_link": "https://arxiv.org/abs/2401.11304",
+    "code_available": true,
+    "code_link": "https://github.com/NikolayBritavskiyAstro/fast_rotating_binaries",
+    "publication_date": "2024-01-20",
+    "title": "Tracing the evolution of short-period binaries with super-synchronous fast rotators",
+    "abstract": "The initial distribution of rotational velocities of stars is still poorly known, and how the stellar spin evolves from birth to the various end points of stellar evolution is an actively debated topic. Binary interactions are often invoked to explain the existence of extremely fast-rotating stars (vsini ≳ 200 kms−1). The primary mechanisms through which binaries can spin up stars are tidal interactions, mass transfer, and possibly mergers. To evaluate these scenarios, we investigated in detail the evolution of three known fast-rotating stars in short-period spectroscopic and eclipsing binaries, namely HD 25631, HD 191495, and HD 46485, with primaries of masses of 7, 15, and 24 M⊙, respectively, with companions of ∼1M⊙ and orbital periods of less than 7 days. These systems belong to a recently identified class of binaries with extreme mass ratios, whose evolutionary origin is still poorly understood. We evaluated in detail three scenarios that could explain the fast rotation observed in these binaries: it could be primordial, a product of mass transfer, or the result of a merger within an originally triple system. We computed grids of single and binary MESA models varying tidal forces and initial binary architectures to investigate the evolution and reproduce observational properties of these systems. We find that, because of the extreme mass-ratio between binary components, tides have a limited impact, regardless of the prescription used, and that the observed short orbital periods are at odds with post-mass-transfer scenarios. The most likely scenario to form such young, rapidly rotating, and short-period binaries is primordial rotation, implying that the observed binaries are pre-interaction ones. These binaries show that the initial spin distribution of massive stars can have a wide range of rotational velocities.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "fast_binaries",
+        "dataset_name": "mesa_outputs",
+        "data_instructions": {"access_instructions": "data contains all MESA output files that are used for making all plots in the paper via 'showyourwork' workflow (.../src/data)."},
+        "url": ["https://zenodo.org/records/10479754/files/data.zip?download=1"],
+        "size": [4200]
+    },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "python",
+        "dependencies": []
+    },
+    "other_instructions": "The model is not expected to run MESA simulations on its own, as these are highly computationally expensive.",
+    "source": "showyourwork"
+}

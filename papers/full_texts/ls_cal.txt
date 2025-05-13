@@ -1,5 +1,5 @@
 \begin{document}
-\title[REACH receiver design]{Receiver design for the REACH global 21-cm signal experiment}
+\title{Receiver design for the REACH global 21-cm signal experiment}
 
 \author[1,2]{\fnm{Ian L. V.} \sur{Roque}}
 \author[1]{\fnm{Nima} \sur{Razavi-Ghods}}
@@ -424,9 +424,6 @@ These techniques have been applied to a calibration run incorporating ten calibr
 Challenges observed during our experiments were the difficulties maintaining environmental stability over time as the many sources incorporated in our calibration technique increased the time for data collection. With the laboratory environment temperature varying by up to 3.5 K, we expect these effects to be amplified when deployed to South Africa. We also note room for possible improvement to our system in future experiments such as the use of fewer switches to combat the complicated modelling of the cables included in the system or the development of a better LNA to lower the impact of noise waves while maintaining good input matching. A better VNA calibration may be achieved through incorporation of better SOL standards which would directly improve the overall calibration of the system. Longer datasets for further noise wave parameter averaging may be incorporated for better performance as well. Introducing an additional simulated antenna with higher noise such as through a heated resistor or electronic noise source may also offer valuable insights into the receiver’s performance under more extreme conditions.
 
 Future work regarding these techniques would be to evaluate the effect of the REACH antenna deployed in South Africa which includes additional cables and a balun not included in our models. Bayesian RFI mitigation techniques could also potentially be incorporated into the REACH pipeline to manage any remaining instrumental sources of RFI \citep{samsPaper}. We also propose exploration of further machine learning techniques to improve the derivation of the calibration parameters and overall characterisation of the system which will be addressed in future works.
-
-\bmhead{Data availability}
-The data that support the findings of this study are available from the corresponding author upon reasonable request.
 
 @article{roque,
     author = {{Roque}, I.~L.~V. and {Handley}, W.~J. and {Razavi-Ghods}, N.},

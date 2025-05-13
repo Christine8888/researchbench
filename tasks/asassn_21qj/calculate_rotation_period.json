@@ -1,0 +1,12 @@
+{
+    "task_id": "calculate_rotation_period",
+    "kind": "numeric",
+    "difficulty": 3,
+    "description": "Determine the stellar rotation period of ASASSN-21qj using TESS photometry.",
+    "instructions": "Retrieve the TESS Quick-Look Pipeline (QLP) light curve data for ASASSN-21qj from Sector 8 (hlsp_qlp_tess_ffi_s0008-0000000182582608_tess_v01_llc.fits). Perform a Lomb-Scargle periodogram analysis on the TESS flux data from Sector 8. Identify the period corresponding to the most significant peak in the periodogram, excluding trivial aliases like 1 day. Report the period in days.",
+    "expected_output": 4.43,
+    "tolerance": 0.05,
+    "output_justification": "The period P=4.43 +/- 0.33 days is reported in the 'Stellar rotation and age' subsection of the Methods, derived from Lomb-Scargle analysis of TESS Sector 8 data.",
+    "parents": [],
+    "paper_id": "asassn_21qj"
+}

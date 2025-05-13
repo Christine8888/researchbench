@@ -10,7 +10,7 @@
     "kind": "huggingface",
     "paper_id": "chandra_representation",
     "dataset_name": "chandra_eventfiles",
-    "data_instructions": {"access": "All the data is available on Huggingface at https://huggingface.co/datasets/StevenDillmann/chandra_xray_eventfiles."},
+    "data_instructions": {"access_instructions": "All the data is available on Huggingface at https://huggingface.co/datasets/StevenDillmann/chandra_xray_eventfiles. Note that the eventfiles_table.csv already includes preprocessed eventfiles. You can filter for a specific eventfile with the obsreg_id column. The eventfile is then just all rows that are labeled with this obsreg_id ordered by time."},
     "hf_name": ["StevenDillmann/chandra_xray_eventfiles"],
     "hf_split": ["train"],
     "hf_type": ["snapshot"]
@@ -24,8 +24,9 @@
     "scipy",
     "matplotlib",
     "scikit-learn",
-    "tensorflow"
+    "tensorflow",
+    "datasets"
     ]
 },
-"other_instructions": "Read the README.md file in the GitHub repository and the paper itself for more details."
+"source": "expert"
 }

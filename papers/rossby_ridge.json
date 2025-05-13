@@ -1,0 +1,27 @@
+{
+    "paper_id": "rossby_ridge",
+    "paper_link": "https://arxiv.org/abs/2203.08920",
+    "code_available": true,
+    "code_link": "https://github.com/trevordavid/rossby-ridge/tree/main",
+    "publication_date": "2022-05-10",
+    "title": "Further Evidence of Modified Spin-down in Sun-like Stars: Pileups in the Temperature-Period Distribution",
+    "abstract": "We combine stellar surface rotation periods determined from NASA's Kepler mission with spectroscopic temperatures to demonstrate the existence of pileups at the long-period and short-period edges of the temperature-period distribution for main-sequence stars with temperatures exceeding ∼5500K. The long-period pileup is well-described by a curve of constant Rossby number, with a critical value of Rocrit≲2. The long-period pileup was predicted by van Saders et al. (2019) as a consequence of weakened magnetic braking, in which wind-driven angular momentum losses cease once stars reach a critical Rossby number. Stars in the long-period pileup are found to have a wide range of ages (∼2−6Gyr), meaning that, along the pileup, rotation period is strongly predictive of a star's surface temperature but weakly predictive of its age. The short-period pileup, which is also well-described by a curve of constant Rossby number, is not a prediction of the weakened magnetic braking hypothesis but may instead be related to a phase of slowed surface spin-down due to core-envelope coupling. The same mechanism was proposed by Curtis et al. (2020) to explain the overlapping rotation sequences of low-mass members of differently aged open clusters. The relative dearth of stars with intermediate rotation periods between the short- and long-period pileups is also well-described by a curve of constant Rossby number, which aligns with the period gap initially discovered by McQuillan et al. (2013a) in M-type stars. These observations provide further support for the hypothesis that the period gap is due to stellar astrophysics, rather than a non-uniform star-formation history in the Kepler field.",
+    "dataset": {
+        "kind": "wget",
+        "paper_id": "rossby_ridge",
+        "dataset_name": "rossby_data_and_simulatons",
+        "data_instructions": {"access_instructions": "data.tar.gz contains observational data: data/cks_merged.parquet: src/data/cks_merged.parquet \n data/kepler_apogee_dr16.fits: src/data/kepler_apogee_dr16.fits \n data/kepler_dr2_1arcsec.parquet: src/data/kepler_dr2_1arcsec.parquet \n data/kepler_lamost.parquet: src/data/kepler_lamost.parquet \n data/mcquillan2014_table1.parquet: src/data/mcquillan2014_table1.parquet \n data/santos2021_rotators.parquet: src/data/santos2021_rotators.parquet. Two model populations are provided: one in which rotation is modeled with a 'standard' magnetic braking law of the form in van Saders et al. 2013, and a second in which stars are subject to weakened magnetic braking past a critical Rossby number, Rocrit. Models can be unpacked with the hdf with pandas functionality, using key='sample'. The keys should be self-explanatory with the possible exception of 'evo', which is the evolutionary state. Choose evo = 1 to select only the main sequence."},
+        "url": ["https://zenodo.org/records/6391526/files/data.tar.gz",
+                "https://zenodo.org/records/6471539/files/rocrit_population.h5",
+                "https://zenodo.org/records/6471539/files/standard_population.h5"],
+        "size": [153, 13, 13]
+    },
+    "execution_requirements": {
+        "needs_gpu": false,
+        "needs_browsing": false,
+        "code_language": "python",
+        "dependencies": ["astropy", "dustmaps", "astroquery", "numpy", "corner", "emcee"]
+    },
+    "other_instructions": "", 
+    "source": "showyourwork"
+}

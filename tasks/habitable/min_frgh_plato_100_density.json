@@ -1,0 +1,12 @@
+{
+    "task_id": "min_frgh_plato_100_density",
+    "paper_id": "habitable",
+    "kind": "numeric",
+    "difficulty": 4,
+    "description": "Determine the minimum dilution factor (f_rgh) for detecting the discontinuity with Delta ln Z > 3 using bulk density measurements in a PLATO-like survey with N = 100 planets.",
+    "instructions": "Simulate a PLATO-like survey yielding N = 100 characterized planets, incorporating PLATO's expected precision for radius, instellation, and mass (e.g., $\\sigma_R = 3\\%$, $\\sigma_S = 10\\%$, $\\sigma_{M_P} = 10\\%$) and selection criteria (Section 4.1). Assign planet masses using the baseline mass-radius relation (Zeng 2016, 100% MgSiO3). Inject the runaway greenhouse signal using `S_thresh` = \\var{injectedSthresh} (defined as `injectedSthresh,\\SI{280}{\\watt\\per\\meter\\squared}`) and `x_H2O` = \\var{wrr} (defined as `wrr,0.005`). Vary the dilution factor `f_rgh`. Calculate planet bulk densities and their uncertainties by propagating errors. For each `f_rgh`, perform the Bayesian hypothesis test comparing H_rgh and H_0 based on simulated bulk density measurements, calculating Delta ln Z = ln Z_rgh - ln Z_0 as described in Section 4. Use the provided dataset resources (e.g., `plato_M_rho_100.pkl` or `plato_rho_f-grid.pkl` if applicable) to determine the minimum `f_rgh` for which the median Delta ln Z from repeated simulations exceeds 3. Report this minimum `f_rgh` value.",
+    "expected_output": 0.1,
+    "tolerance": 0.01,
+    "output_justification": "Section 5.4.1 states: 'At $N=100$, pure radius measurements require $f_\\mathrm{rgh} \\gtrsim \\var{platoMinfrghHundred}$ whereas bulk density measurements enable a detection from $f_\\mathrm{rgh} \\gtrsim \\var{platoMinfrghHundred_rho}$.' The variable `\\var{platoMinfrghHundred_rho}` is defined as `platoMinfrghHundred_rho,0.1` in variables.dat. Figure 8 (left panel) also shows the N=100 density case (dotted green line) crossing Delta ln Z = 3 near f_rgh = 0.1.",
+    "parents": []
+  }

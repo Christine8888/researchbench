@@ -1,0 +1,32 @@
+paper_id,title,task_count,avg_difficulty
+CE_accretors,Rejuvenated accretors have less bound envelopes: Impact of Roche lobe overflow on subsequent common envelope events,6,3.33
+MUSE_outflows,Not So Windy After All: MUSE Disentangles AGN-driven Winds from Merger-induced Flows in Galaxies along the Starburst Sequence,5,2.2
+abacus,The ABACUS cosmological N-body code,4,4.75
+asassn_21qj,A planetary collision afterglow and transit of the resultant debris cloud,0,0
+astm3,AstroM3: A self-supervised multimodal model for astronomy,7,3.71
+bayes_cal,Bayesian noise wave calibration for 21-cm global experiments,6,6.0
+chandra_representation,Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic fast X-ray transient XRT 200515,5,6.0
+disk_ridges,Radial Distribution of Stellar Motions in Gaia DR2,6,2.33
+eht_resolve,"Variable structures in M87* from space, time and frequency resolved interferometry",3,4.67
+fable_mps,Stirring the cosmic pot: how black hole feedback shapes the matter power spectrum in the FABLE simulations,8,5.12
+galactic_dtd,Galactic Chemical Evolution Models Favor an Extended Type Ia Supernova Delay-Time Distribution,5,3.6
+galaxy_manifold,Galaxy Manifold: Characterizing and understanding galaxies with two parameters,10,3.2
+galaxy_soptics,sOPTICS: A Modified Density-Based Algorithm for Identifying Galaxy Groups/Clusters and Brightest Cluster Galaxies,8,3.25
+gse_merger,The impact of early massive mergers on the chemical evolution of Milky Way-like galaxies: insights from NIHAO-UHD simulations,5,4.2
+gw_anomaly,Building Machine Learning Challenges for Anomaly Detection in Science,1,6.0
+gw_cosmo,Cosmology with Standard Sirens at Cosmic Noon,4,2.88
+gw_isotropy,The directional isotropy of LIGO-Virgo binaries,0,0
+gw_nsbh,Inferring the neutron star maximum mass and lower mass gap in neutron star--black hole systems with spin,11,2.82
+hubble_trails,The impact of satellite trails on Hubble Space Telescope observations,4,3.75
+lensing_dr6_growth,The Atacama Cosmology Telescope: A Measurement of the DR6 CMB Lensing Power Spectrum and Its Implications for Structure Growth,2,5.5
+lenstronomy,lenstronomy: Multi-purpose gravitational lens modelling software package,5,3.8
+ls_cal,Receiver design for the REACH global 21-cm signal experiment,5,5.4
+mars_clouds,The Cloudspotting on Mars citizen science project: Seasonal and spatial cloud distributions observed by the Mars Climate Sounder,2,3.0
+phangs_PAHs,PHANGS-ML: The Universal Relation between PAH Band and Optical Line Ratios across Nearby Star-forming Galaxies,6,2.0
+spectral_sirens_gp,No need to know: towards astrophysics-free gravitational-wave cosmology,7,4.71
+stellar_obliquity,A Hierarchical Bayesian Framework for Inferring the Stellar Obliquity Distribution,4,4.75
+tng_hod,Illustrating galaxy-halo connection in the DESI era with ILLUSTRISTNG,9,3.11
+topdown,Pair-instability mass loss for top-down compact object mass calculations,4,3.0
+trgb_std_candle,Calibrating and standardizing the Tip of the Red Giant Branch in the Small Magellanic Cloud using small-amplitude red giants,4,4.0
+v773_tau,The eclipse of the V773 Tau B circumbinary disk,6,4.17
+ver_waves,Vertical waves in the solar neighbourhood in Gaia DR2,5,2.6

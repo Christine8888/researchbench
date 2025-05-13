@@ -1,0 +1,12 @@
+{
+    "task_id": "calculate_distance",
+    "kind": "numeric",
+    "difficulty": 1,
+    "description": "Calculate the distance to ASASSN-21qj using its Gaia DR3 parallax.",
+    "instructions": "Retrieve the parallax measurement and its uncertainty for ASASSN-21qj (Gaia DR3 5539970601632026752) from Gaia DR3 data. Use the method described by Bailer-Jones et al. (2021, AJ, 161, 147) to estimate the geometric distance in parsecs based on the parallax measurement. Report the distance estimate corresponding to the mode of the posterior distribution.",
+    "expected_output": 567.2,
+    "tolerance": 1.0,
+    "output_justification": "The distance is reported in Extended Data Table 1, citing BailerJones21. Value is 567.2 (+6.7/-5.9) pc. We use the primary value.",
+    "parents": [],
+    "paper_id": "asassn_21qj"
+}

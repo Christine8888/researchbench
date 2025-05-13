@@ -3,9 +3,10 @@
     "paper_id": "gw_cosmo",
     "kind": "numeric",
     "difficulty": 2,
-    "description": "find the best-constrained combination of H0 and Omega_M",
-    "instructions": "The joint posterior distribution in H_0 and Omega_M exhibits a roughly power-law degeneracy.\n Fit the degeneracy from a posterior distribution in a power-law form, finding the best-constrained combination of the form (H_0)^{m}(Omega_M)^{n}, where $n = 1$ and $m$ can be any value, assuming fixed values of H_0 = 70 and Omega_M = 0.3. \nGiven you have fixed $n = 1$, return the exponent of $H_0$ in the best combination as a float.",
+    "description": "Determine the exponent m in the best-constrained combination H0^m * Omega_M from simulated GW standard siren data in a flat LambdaCDM model.",
+    "instructions": "Simulate gravitational-wave (GW) standard siren observations within a flat LambdaCDM cosmological model with fiducial parameters H0 = 70 km/s/Mpc and Omega_M = 0.3. Assume the BNS merger rate follows the Madau-Dickinson Star Formation Rate (SFR) as described by Eq. 6 in the paper:\nR(z) propto (1 + z)^2.7 / (1 + ((1+z)/2.9)^5.6).\nDerive the corresponding redshift distribution p(z) using Eq. 5 and Eq. 7, normalizing over 0 < z < 8.\nFor each simulated event, draw a redshift z_i from p(z), calculate the true luminosity distance D_L(z_i) using Eq. 1, 2, 3 (with w=-1, wa=0). Simulate an observed distance D_L^obs,i by drawing from a lognormal distribution with mean log(D_L(z_i)) and standard deviation sigma = 0.1 (as described in Eq. 10 and surrounding text).\nApply a selection effect by only keeping events where D_L^obs,i < D_L^max = 40 Gpc.\nPerform a hierarchical Bayesian analysis (Section II.A) on a large number N (e.g., N=10,000) of *detected* events to infer the joint posterior distribution for H0 and Omega_M, assuming flat priors. Account for selection effects using Eq. 12 and Eq. 14.\nAnalyze the degeneracy observed in the 2D posterior distribution of H0 and Omega_M. Fit this degeneracy with a power-law relationship of the form H0^m * Omega_M^n = constant. Following the paper's approach (Section III.A), fix the exponent n=1 for Omega_M.\nDetermine the best-fit value for the exponent m corresponding to H0.\nReport the value of m as a single float.",
     "tolerance": 0.2,
     "expected_output": 2.8,
-    "parents": []
+    "parents": [],
+    "output_justification": "The value 2.8 is stated in Section III.A: 'By empirically fitting the degeneracy, we find that our method is most sensitive to the combination H0^2.8 * Omega_M'. The abstract also mentions H0^2.8 * Omega_M."
 }

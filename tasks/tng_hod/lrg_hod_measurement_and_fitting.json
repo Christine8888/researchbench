@@ -37,6 +37,6 @@
         "kappa": 0.2,
         "f_ic": 0.04
     },
-    "parents": [],
+    "parents": ["lrg_selection_count"],
     "paper_id": "tng_hod"
 }

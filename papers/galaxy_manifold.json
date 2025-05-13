@@ -38,5 +38,6 @@
         "astropy"
       ]
     },
-    "other_instructions": "SVD analysis results may vary slightly depending on the random seed used for data splitting. The paper identifies that the first and second axes explain 44.78% and 48.44% of the variance respectively, with the third axis explaining approximately 2%. For morphological classification, a boundary of D2 = -0.065*D1 + 5.800 is reported with an accuracy of 0.85."
+    "other_instructions": "SVD analysis results may vary slightly depending on the random seed used for data splitting.",
+    "source": "expert"
   }

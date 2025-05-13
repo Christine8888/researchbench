@@ -1,0 +1,18 @@
+{
+    "task_id": "calculate_flare_equivalent_duration",
+    "kind": "numeric",
+    "difficulty": 3,
+    "description": "Calculate the equivalent duration (ED) for the first two flares detected for HIP 67522 in TESS Sector 11.",
+    "instructions": "Using the provided light curve data for HIP 67522 (TIC 97209190) from TESS Sector 11, identify the first two flare events listed in Table 2 of the paper (tstart approximately 1663.8068 and 1665.5918 BJD). For each flare, calculate its equivalent duration (ED) in seconds using Equation 1. This involves integrating the relative flare flux (flare flux / median stellar flux) over the duration of the flare. Use the de-trended flux provided in the dataset. Return the ED values as a list.",
+    "expected_output": [
+        6.6,
+        38.1
+    ],
+    "tolerance": [
+        0.7,
+        3.8
+    ],
+    "output_justification": "The expected equivalent duration (ED) values are taken directly from the 'ed_rec' column for the first two flares listed for HIP 67522 (TIC 97209190) in TESS Sector 11, as reported in Table 2 (provided as Table_2_flares.csv in the dataset).",
+    "parents": [],
+    "paper_id": "flaring_spi"
+}
