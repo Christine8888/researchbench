@@ -1,0 +1,23 @@
+paper_id,title,task_count,filtered_task_count,avg_difficulty,included_in_traces
+abacus,The ABACUS cosmological N-body code,4,4,4.75,True
+astm3,AstroM3: A self-supervised multimodal model for astronomy,7,7,3.71,True
+bayes_cal,Bayesian noise wave calibration for 21-cm global experiments,6,6,6.0,True
+chandra_representation,Representation learning for time-domain high-energy astrophysics: Discovery of extragalactic fast X-ray transient XRT 200515,7,7,5.71,True
+disk_ridges,Radial Distribution of Stellar Motions in Gaia DR2,6,5,2.2,True
+eht_resolve,"Variable structures in M87* from space, time and frequency resolved interferometry",3,3,4.67,True
+fable_mps,Stirring the cosmic pot: how black hole feedback shapes the matter power spectrum in the FABLE simulations,8,8,5.12,True
+galaxy_manifold,Galaxy Manifold: Characterizing and understanding galaxies with two parameters,10,10,3.2,True
+galaxy_soptics,sOPTICS: A Modified Density-Based Algorithm for Identifying Galaxy Groups/Clusters and Brightest Cluster Galaxies,8,8,3.25,True
+gw_anomaly,Building Machine Learning Challenges for Anomaly Detection in Science,1,1,6.0,True
+gw_cosmo,Cosmology with Standard Sirens at Cosmic Noon,4,4,2.88,True
+gw_nsbh,Inferring the neutron star maximum mass and lower mass gap in neutron star--black hole systems with spin,11,9,3.89,True
+hubble_trails,The impact of satellite trails on Hubble Space Telescope observations,8,8,4.25,True
+lensing_dr6_growth,The Atacama Cosmology Telescope: A Measurement of the DR6 CMB Lensing Power Spectrum and Its Implications for Structure Growth,2,2,5.5,True
+lenstronomy,lenstronomy: Multi-purpose gravitational lens modelling software package,5,5,3.8,True
+ls_cal,Receiver design for the REACH global 21-cm signal experiment,5,5,5.4,True
+mars_clouds,The Cloudspotting on Mars citizen science project: Seasonal and spatial cloud distributions observed by the Mars Climate Sounder,2,2,3.0,True
+MUSE_outflows,Not So Windy After All: MUSE Disentangles AGN-driven Winds from Merger-induced Flows in Galaxies along the Starburst Sequence,5,5,2.2,True
+phangs_PAHs,PHANGS-ML: The Universal Relation between PAH Band and Optical Line Ratios across Nearby Star-forming Galaxies,6,5,2.2,True
+tng_hod,Illustrating galaxy-halo connection in the DESI era with ILLUSTRISTNG,9,9,3.11,True
+trgb_std_candle,Calibrating and standardizing the Tip of the Red Giant Branch in the Small Magellanic Cloud using small-amplitude red giants,4,4,4.0,True
+ver_waves,Vertical waves in the solar neighbourhood in Gaia DR2,5,4,2.75,True
