@@ -21,6 +21,6 @@
         "14. Return the TRGB magnitude as a single float value, rounded to 3 decimal places."
     ],
     "expected_output": 14.969,
-    "tolerance": 0.03,
+    "tolerance": 0.015,
     "parents": []
 }
