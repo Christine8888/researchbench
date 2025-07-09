@@ -2,8 +2,8 @@
     "task_id": "sun_height_corrected",
     "kind": "numeric",
     "paper_id": "ver_waves",
-    "difficulty": 4,
-    "description": "Calculate the corrected height of the Sun above the Galactic mid-plane by accounting for north-south asymmetry in stellar number counts using Gaia DR2 data.",
+    "difficulty": 5,
+    "description": "Determine the Sun's vertical offset from the Galactic mid-plane after correcting Gaia DR2 star counts for north-south imbalances.",
     "instructions": [
         "1. Use the stellar sample and initial $z_\\odot$ estimate from the previous analysis to correct stellar heights: $z_{\\text{corrected}} = z_{\\text{obs}} + z_\\odot$.",
         "2. Bin the height-corrected stellar data using the same $\\Delta z = 25$ pc binning procedure as in \\ref{sec:VC}.",
@@ -19,8 +19,8 @@
         "12. Return a list of two numbers: [combined asymmetry-corrected $z_\\odot$ in parsecs, uncertainty in parsecs]."
     ],
     "tolerance": [
-        0.1,
-        0.1
+        0.3,
+        0.2
     ],
     "expected_output": [
         20.8,

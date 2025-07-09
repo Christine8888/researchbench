@@ -3,11 +3,11 @@
     "kind": "figure",
     "paper_id": "ver_waves",
     "difficulty": 2,
-    "description": "Create a visualization of the north-south asymmetry in the vertical number counts of Gaia DR2 stars as a function of vertical height from the Galactic mid-plane.",
+    "description": "Plot the north-south asymmetry in the vertical number counts of Gaia DR2 stars as a function of vertical height from the Galactic mid-plane.",
     "instructions": [
         "1. Load the Gaia DR2 data and apply the same quality cuts and sample selection as described in \\ref{sec:data}: parallax > 0, parallax_over_error > 5, $7 < G < 17$, projected heliocentric distance $\\leq 250$ pc.",
         "2. Use the precomputed color slice definitions with $G_{\\text{BP}} - G_{\\text{RP}}$ ranges (\\texttt{br_min}, \\texttt{br_max}) and corresponding main-sequence $M_G$ cuts (\\texttt{M_bright}, \\texttt{M_faint}) as defined in \\ref{sec:data}.",
-        "3. For each star, calculate the corrected vertical height: $z_{\\text{corrected}} = z_{\\text{obs}} + z_\\odot$, where $z_\\odot = 20.8$ pc from the paper's final result in \\ref{sec:zsun}.",
+        "3. For each star, calculate the corrected vertical height: $z_{\\text{corrected}} = z_{\\text{obs}} + z_\\odot$.",
         "4. Bin the corrected stellar heights using $\\Delta z = 25$ pc bins from $z = 0$ to $z = 1.5$ kpc, consistent with the binning procedure in \\ref{sec:VC}.",
         "5. For each color bin and each height bin $z_i$, calculate the number count asymmetry: $A(z_i) = \\frac{n(z_i) - n(-z_i)}{n(z_i) + n(-z_i)}$ using \\ref{eq:asym}.",
         "6. For each height bin, compute the median asymmetry across all color bins to obtain the overall asymmetry trend.",
@@ -23,6 +23,6 @@
     "expected_output": "A figure resembling Figure 5, showing the oscillatory pattern in the north-south asymmetry of stellar number counts.",
     "output_justification": "Figure 5 discussed in Section 3.2, presents the north-south asymmetry in vertical number counts, matching the required output.",
     "parents": [
-        "solar_height_from_gaia_dr2"
+        "sun_height_corrected"
     ]
 }
